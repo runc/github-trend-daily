@@ -80,6 +80,9 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       - name: Build (Astro + Pagefind)
+        env:
+          SITE_URL: ${{ vars.SITE_URL || 'https://timus.dev' }}
+          BASE_PATH: /github-trend-daily
         run: pnpm build
 
       - uses: actions/configure-pages@v5

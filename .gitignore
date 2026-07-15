@@ -1,28 +1,60 @@
-# build output
+# ---- dependencies ----
+node_modules/
+
+# ---- build / cache ----
 dist/
 .output/
+.astro/
+.cache/
+.turbo/
+.vercel/
+.netlify/
+*.tsbuildinfo
 
 # pagefind index
 public/pagefind/
 apps/web/public/pagefind/
 
-# dependencies
-node_modules/
-
-# data cache
-.cache/
-
-# env
+# ---- env & secrets (never commit) ----
 .env
 .env.*
 !.env.example
+!.env.example.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.keystore
+credentials.json
+service-account*.json
+secrets.json
+.secrets/
+**/secrets/
 
-# misc
+# ---- editor / OS ----
 .DS_Store
-*.log
-.astro/
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
 
-# local debug screenshots
+# ---- logs / debug ----
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- local debug screenshots ----
 /cards-*.png
 /chat-widget.png
 /free-ai-after.png
