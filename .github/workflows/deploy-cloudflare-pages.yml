@@ -45,7 +45,10 @@ jobs:
           BASE_PATH: /
         run: pnpm build
 
-      # Run from repo root: apps/web uses workspace:* which breaks `npm i wrangler` inside that package
+      # Pre-install at workspace root; wrangler-action's `pnpm add` lacks `-w` and fails in monorepos
+      - name: Install wrangler
+        run: pnpm add -wD wrangler@3
+
       - name: Create Pages project (if missing)
         uses: cloudflare/wrangler-action@v3
         with:
