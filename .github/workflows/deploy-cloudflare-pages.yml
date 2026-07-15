@@ -45,12 +45,13 @@ jobs:
           BASE_PATH: /
         run: pnpm build
 
+      # Run from repo root: apps/web uses workspace:* which breaks `npm i wrangler` inside that package
       - name: Create Pages project (if missing)
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          workingDirectory: apps/web
+          packageManager: pnpm
           command: pages project create github-trend-daily --production-branch=main
         continue-on-error: true
 
@@ -59,5 +60,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          workingDirectory: apps/web
-          command: pages deploy dist --project-name=github-trend-daily --branch=${{ github.ref_name }} --commit-dirty=true
+          packageManager: pnpm
+          command: pages deploy apps/web/dist --project-name=github-trend-daily --branch=${{ github.ref_name }} --commit-dirty=true
