@@ -1,0 +1,79 @@
+---
+import Base from '~/layouts/Base.astro';
+import FreeAICard from '~/components/FreeAICard.astro';
+import type { FreeAICollection } from '~/types';
+import data from '~/data/free-ai.json';
+
+const collection = data as FreeAICollection;
+const sorted = [...collection.items].sort((a, b) => b.score - a.score);
+const categories = Array.from(new Set(collection.items.map(i => i.category)));
+const fetchedAt = collection.fetchedAt.slice(0, 19).replace('T', ' ');
+---
+
+<Base title="免费 AI 资源薅羊毛 · GitHub Trending Daily RAG" active="free-ai">
+  <p class="text-sm text-slate-500 dark:text-slate-400 mb-1">精选免费 AI API、模型、基础设施与开发框架,持续更新。</p>
+  <p class="text-xs text-slate-400 dark:text-slate-500 mb-4">共 {collection.items.length} 个资源 · 更新于 {fetchedAt} UTC</p>
+
+  <div class="mb-4 flex flex-wrap gap-2 text-xs" id="free-ai-filter">
+    <button data-cat="" class="px-3 py-1 rounded-md border bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800/50 font-medium">全部</button>
+    {categories.map(cat => (
+      <button data-cat={cat} class="px-3 py-1 rounded-md border bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700">{cat}</button>
+    ))}
+  </div>
+
+  <div id="search" class="mb-6"></div>
+
+  <div id="repo-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {sorted.map(item => <FreeAICard item={item} />)}
+  </div>
+  <p id="no-match" class="hidden text-center text-sm text-slate-400 dark:text-slate-500 py-12">没有匹配的资源</p>
+</Base>
+
+<script>
+  import { mountHybridSearch } from '~/scripts/mount-hybrid-search';
+
+  const params = new URLSearchParams(location.search);
+  let activeCat = params.get('cat') || '';
+
+  const filterButtons = document.querySelectorAll<HTMLButtonElement>('#free-ai-filter button');
+
+  function setActiveButton(cat: string) {
+    filterButtons.forEach(btn => {
+      const active = (btn.dataset.cat || '') === cat;
+      if (active) {
+        btn.className =
+          'px-3 py-1 rounded-md border bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800/50 font-medium';
+      } else {
+        btn.className =
+          'px-3 py-1 rounded-md border bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700';
+      }
+    });
+  }
+
+  function applyCategory(cat: string) {
+    activeCat = cat;
+    setActiveButton(cat);
+    const url = new URL(location.href);
+    if (cat) url.searchParams.set('cat', cat);
+    else url.searchParams.delete('cat');
+    history.replaceState(null, '', url);
+    (window as unknown as { __hybridResearch?: () => void }).__hybridResearch?.();
+  }
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => applyCategory(btn.dataset.cat || ''));
+  });
+
+  setActiveButton(activeCat);
+
+  mountHybridSearch({
+    placeholder: '搜索资源 (关键词 + 语义)…',
+    listSelector: '#repo-list',
+    cardSelector: '[data-search-id]',
+    isEligible: card => {
+      if (!activeCat) return true;
+      const meta = card.dataset.pagefindMeta || '';
+      return meta.includes(`category:${activeCat}`);
+    },
+  });
+</script>

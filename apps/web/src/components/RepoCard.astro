@@ -1,0 +1,128 @@
+---
+import type { EnrichedRepo } from '~/types';
+import { repoEmbedText } from '~/lib/embed-text';
+
+interface Props {
+  repo: EnrichedRepo;
+}
+const { repo } = Astro.props;
+
+function formatNum(n: number): string {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+  if (n >= 1_000) return (n / 1_000).toFixed(1).replace(/\.0$/, '') + 'k';
+  return String(n);
+}
+
+const tags = (repo.tags && repo.tags.length ? repo.tags : repo.topics || []).slice(0, 6);
+const summary = repo.summary || '';
+const description = repo.description || '';
+const category = repo.category || '';
+const hasSecondaryDesc = !!description && description !== summary;
+const [author, ...nameParts] = repo.fullName.split('/');
+const repoName = nameParts.join('/') || repo.fullName;
+const embedText = repoEmbedText(repo);
+---
+
+<article
+  class="group relative flex flex-col h-full rounded-xl border border-slate-200/80 dark:border-slate-700/60 bg-white dark:bg-slate-800/60 hover:border-slate-300 dark:hover:border-slate-600 hover:shadow-lg hover:shadow-slate-200/50 dark:hover:shadow-slate-950/30 transition-all duration-200 overflow-hidden"
+  data-pagefind-body
+  data-pagefind-meta={`category:${category}`}
+  data-repo-id={repo.fullName}
+  data-search-id={repo.fullName}
+  data-embed-text={embedText}
+  data-field-summary={summary}
+  data-field-description={description}
+  data-field-category={category}
+  data-field-language={repo.language || ''}
+  data-field-tags={tags.join(', ')}
+>
+  <div class="p-5 flex flex-col gap-3 flex-1">
+    <header class="flex items-start gap-3">
+      <img
+        src={repo.author.avatar}
+        alt={author}
+        width="40"
+        height="40"
+        class="rounded-full ring-1 ring-slate-200 dark:ring-slate-700 bg-slate-100 dark:bg-slate-700 flex-shrink-0 object-cover w-10 h-10"
+        loading="lazy"
+      />
+      <div class="min-w-0 flex-1">
+        <div class="flex items-start justify-between gap-2">
+          <div class="min-w-0 flex-1">
+            <h3 class="text-[11px] font-medium text-slate-400 dark:text-slate-500 truncate leading-tight">
+              {author}/
+            </h3>
+            <a
+              href={repo.url}
+              target="_blank"
+              rel="noopener"
+              class="block font-semibold text-slate-900 dark:text-slate-100 hover:text-indigo-600 dark:hover:text-indigo-400 truncate text-[15px] leading-tight"
+            >
+              {repoName}
+            </a>
+          </div>
+          {repo.deepwikiAvailable && (
+            <span
+              class="flex-shrink-0 inline-flex items-center justify-center w-6 h-6 rounded-md bg-indigo-50 dark:bg-indigo-900/30 text-indigo-500 dark:text-indigo-400 text-xs"
+              title="DeepWiki digest available"
+            >
+              📖
+            </span>
+          )}
+        </div>
+      </div>
+    </header>
+
+    {(summary || description) && (
+      <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed line-clamp-3">
+        {summary || description}
+      </p>
+    )}
+
+    {hasSecondaryDesc && (
+      <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed line-clamp-2 italic border-l-2 border-slate-200 dark:border-slate-700 pl-2.5">
+        {description}
+      </p>
+    )}
+
+    <div class="flex-1"></div>
+
+    <footer class="flex flex-wrap items-center gap-x-3 gap-y-1.5 pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+      {repo.language && (
+        <span class="inline-flex items-center gap-1.5 text-slate-600 dark:text-slate-400" data-pagefind-meta={`language:${repo.language}`}>
+          {repo.languageColor && <span class="w-2.5 h-2.5 rounded-full ring-1 ring-black/5" style={`background:${repo.languageColor}`}></span>}
+          <span class="font-medium">{repo.language}</span>
+        </span>
+      )}
+      <span class="inline-flex items-center gap-1 text-slate-600 dark:text-slate-400" title="Total stars">
+        <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
+        <span class="font-medium tabular-nums">{formatNum(repo.stars)}</span>
+      </span>
+      <span class="inline-flex items-center gap-1 text-slate-600 dark:text-slate-400" title="Total forks">
+        <svg class="w-3.5 h-3.5 text-slate-400" fill="currentColor" viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/></svg>
+        <span class="font-medium tabular-nums">{formatNum(repo.forks)}</span>
+      </span>
+      {repo.starsToday > 0 && (
+        <span class="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400" title="Stars gained today">
+          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 16 16"><path d="M7.247 4.86c-.276-1.276-2.092-1.276-2.368 0L4.5 9.5h7l-1.379-4.64Z M8 1.5l1.5 4.5h4.5l-3.5 2.5 1.5 4.5-3.5-2.5-3.5 2.5 1.5-4.5L2 6h4.5L8 1.5Z" opacity="0.3"/><path d="M2 12.5 8 1.5l6 11H2Z"/></svg>
+          <span class="font-semibold tabular-nums">+{formatNum(repo.starsToday)}</span>
+        </span>
+      )}
+    </footer>
+
+    {(tags.length > 0 || category) && (
+      <div class="flex flex-wrap items-center gap-1.5">
+        {category && (
+          <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-indigo-50 dark:bg-indigo-900/30 text-[10px] font-medium text-indigo-700 dark:text-indigo-300 border border-indigo-200/60 dark:border-indigo-800/50">
+            {category}
+          </span>
+        )}
+        {tags.map(t => (
+          <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700/50 text-[10px] font-medium text-slate-600 dark:text-slate-400 group-hover:bg-slate-200/70 dark:group-hover:bg-slate-700 transition-colors">
+            #{t}
+          </span>
+        ))}
+      </div>
+    )}
+  </div>
+</article>

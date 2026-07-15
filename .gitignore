@@ -1,0 +1,28 @@
+# build output
+dist/
+.output/
+
+# pagefind index
+public/pagefind/
+apps/web/public/pagefind/
+
+# dependencies
+node_modules/
+
+# data cache
+.cache/
+
+# env
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.log
+.astro/
+
+# local debug screenshots
+/cards-*.png
+/chat-widget.png
+/free-ai-after.png

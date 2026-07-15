@@ -1,0 +1,76 @@
+---
+import type { FreeAIItem } from '~/types';
+import { freeAiEmbedText } from '~/lib/embed-text';
+
+interface Props {
+  item: FreeAIItem;
+}
+const { item } = Astro.props;
+
+const heatLevel = item.score >= 90 ? 'high' : item.score >= 80 ? 'mid' : 'low';
+const heatClass = {
+  high: 'bg-rose-50 dark:bg-rose-900/30 text-rose-600 dark:text-rose-400 border-rose-200 dark:border-rose-800/50',
+  mid: 'bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 border-amber-200 dark:border-amber-800/50',
+  low: 'bg-slate-100 dark:bg-slate-700/50 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700',
+}[heatLevel];
+const heatLabel = { high: '🔥 热门', mid: '✨ 推荐', low: '📦 收录' }[heatLevel];
+const embedText = freeAiEmbedText(item);
+---
+
+<article
+  class="group relative flex flex-col h-full rounded-xl border border-slate-200/80 dark:border-slate-700/60 bg-white dark:bg-slate-800/60 hover:border-slate-300 dark:hover:border-slate-600 hover:shadow-lg hover:shadow-slate-200/50 dark:hover:shadow-slate-950/30 transition-all duration-200 overflow-hidden"
+  data-pagefind-body
+  data-pagefind-meta={`category:${item.category}`}
+  data-search-id={item.id}
+  data-embed-text={embedText}
+>
+  <div class="p-5 flex flex-col gap-3 flex-1">
+    <header class="flex items-start justify-between gap-3">
+      <div class="min-w-0 flex-1">
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener"
+          class="block font-semibold text-slate-900 dark:text-slate-100 hover:text-indigo-600 dark:hover:text-indigo-400 text-[15px] leading-snug"
+        >
+          {item.title}
+        </a>
+        <p class="mt-0.5 text-[11px] text-slate-400 dark:text-slate-500">
+          {item.provider}
+        </p>
+      </div>
+      <span class={`flex-shrink-0 inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-medium border ${heatClass}`} title={`热度 ${item.score}`}>
+        {heatLabel}
+      </span>
+    </header>
+
+    <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed line-clamp-3">
+      {item.summary}
+    </p>
+
+    <div class="rounded-md bg-emerald-50/50 dark:bg-emerald-900/20 border border-emerald-100 dark:border-emerald-900/40 px-3 py-2">
+      <div class="flex items-center gap-1.5 text-[11px] font-medium text-emerald-700 dark:text-emerald-400">
+        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Zm3.78 5.97-4.5 4.5a.75.75 0 0 1-1.06 0L3.22 7.47a.75.75 0 0 1 1.06-1.06L6.5 8.69l4.22-4.22a.75.75 0 1 1 1.06 1.06Z"/></svg>
+        免费额度
+      </div>
+      <p class="mt-1 text-xs text-emerald-800 dark:text-emerald-300 leading-relaxed">{item.freeQuota}</p>
+    </div>
+
+    <div class="flex-1"></div>
+
+    <footer class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs text-slate-500 dark:text-slate-400">
+      <span class="font-medium">{item.category}</span>
+      <span>更新于 {item.updatedAt}</span>
+    </footer>
+
+    {item.tags.length > 0 && (
+      <div class="flex flex-wrap items-center gap-1.5">
+        {item.tags.map(t => (
+          <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700/50 text-[10px] font-medium text-slate-600 dark:text-slate-400 group-hover:bg-slate-200/70 dark:group-hover:bg-slate-700 transition-colors">
+            #{t}
+          </span>
+        ))}
+      </div>
+    )}
+  </div>
+</article>

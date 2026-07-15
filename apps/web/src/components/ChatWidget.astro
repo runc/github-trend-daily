@@ -1,0 +1,410 @@
+---
+// Floating chat widget: BYOK + AI SDK streaming, retrieval over current page's repos.
+---
+
+<div id="chat-widget" class="fixed bottom-4 right-4 z-50 flex flex-col items-end gap-2 print:hidden">
+  <button
+    id="chat-toggle"
+    class="w-12 h-12 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg shadow-indigo-300/40 dark:shadow-indigo-900/40 flex items-center justify-center transition-colors"
+    aria-label="打开问答机器人"
+    title="问机器人"
+  >
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-5l-5 4v-4Z" />
+    </svg>
+  </button>
+
+  <div
+    id="chat-panel"
+    class="hidden flex-col w-[min(92vw,380px)] h-[min(70vh,540px)] rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-2xl overflow-hidden"
+  >
+    <header class="flex items-center justify-between px-3 py-2 border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40">
+      <div class="flex items-center gap-2">
+        <span class="text-sm font-medium">🤖 仓库问答</span>
+        <span id="chat-status" class="text-[10px] text-slate-400"></span>
+      </div>
+      <div class="flex items-center gap-1">
+        <button id="chat-settings" class="text-xs px-1.5 py-0.5 rounded hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-500" title="BYOK 设置">⚙</button>
+        <button id="chat-maximize" class="text-xs px-1.5 py-0.5 rounded hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-500" title="最大化 / 还原">⤢</button>
+        <button id="chat-close" class="text-xs px-1.5 py-0.5 rounded hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-500" title="关闭">✕</button>
+      </div>
+    </header>
+
+    <div id="chat-messages" class="flex-1 overflow-y-auto px-3 py-3 space-y-2 text-sm"></div>
+
+    <form id="chat-form" class="border-t border-slate-200 dark:border-slate-700 p-2 flex items-end gap-2">
+      <textarea
+        id="chat-input"
+        rows="1"
+        placeholder="问问这些 trending 仓库… (⌘/Ctrl + Enter 发送)"
+        class="flex-1 resize-none px-2 py-1.5 text-sm rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 focus:outline-none focus:ring-1 focus:ring-indigo-400 max-h-32"
+      ></textarea>
+      <button
+        id="chat-send"
+        type="submit"
+        class="px-2.5 py-1.5 rounded-md bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+      >发送</button>
+    </form>
+  </div>
+</div>
+
+<div id="chat-byok-modal" class="hidden fixed inset-0 z-[60] bg-black/30 flex items-center justify-center px-4">
+  <div class="w-[min(94vw,420px)] rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-2xl">
+    <div class="px-4 py-3 border-b border-slate-200 dark:border-slate-700">
+      <h3 class="text-sm font-semibold">配置 LLM (BYOK)</h3>
+      <p class="text-[11px] text-slate-500 mt-0.5">所有字段仅存于浏览器 localStorage,不上传服务器。</p>
+      <p class="text-[11px] text-slate-500 mt-1.5">
+        推荐
+        <a href="https://openrouter.ai/models?q=free" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">OpenRouter</a>
+        — 注册后在搜索框输入 <code class="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-[10px]">free</code> 可白嫖多个免费模型(如 <code class="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-[10px]">deepseek/deepseek-chat-v3.1:free</code>),无需付费。
+      </p>
+    </div>
+    <form id="chat-byok-form" class="px-4 py-3 space-y-2 text-sm">
+      <label class="block">
+        <span class="text-xs text-slate-500">Base URL</span>
+        <input name="baseUrl" type="url" required placeholder="https://openrouter.ai/api/v1" class="mt-0.5 w-full px-2 py-1.5 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-xs" />
+      </label>
+      <label class="block">
+        <span class="text-xs text-slate-500">Model</span>
+        <input name="model" type="text" required placeholder="deepseek/deepseek-chat" class="mt-0.5 w-full px-2 py-1.5 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-xs" />
+      </label>
+      <label class="block">
+        <span class="text-xs text-slate-500">API Key</span>
+        <input name="apiKey" type="password" required placeholder="sk-or-v1-..." class="mt-0.5 w-full px-2 py-1.5 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-xs" />
+      </label>
+      <div class="flex items-center justify-end gap-2 pt-1">
+        <button type="button" id="chat-byok-cancel" class="px-2.5 py-1 rounded-md text-xs text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-700">取消</button>
+        <button type="submit" class="px-2.5 py-1 rounded-md bg-indigo-600 hover:bg-indigo-700 text-white text-xs">保存</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  import { createOpenAI } from '@ai-sdk/openai';
+  import { generateText, streamText } from 'ai';
+  import { marked } from 'marked';
+  import DOMPurify from 'dompurify';
+  import { retrieveRepos, buildContextString } from '~/lib/chat-retrieval';
+
+  marked.setOptions({ breaks: true, gfm: true });
+
+  function renderMarkdown(text: string): string {
+    const raw = marked.parse(text, { async: false }) as string;
+    return DOMPurify.sanitize(raw, {
+      ALLOWED_TAGS: ['p','br','strong','em','code','pre','ul','ol','li','a','blockquote','h1','h2','h3','h4','h5','h6','hr','table','thead','tbody','tr','th','td','del','sup','sub','span'],
+      ALLOWED_ATTR: ['href','target','rel','title'],
+    });
+  }
+
+  interface ByokConfig { baseUrl: string; model: string; apiKey: string; }
+  interface ChatMessage { role: 'user' | 'assistant'; content: string; }
+
+  const STORAGE_KEY = 'chat-byok-v2';
+  const DEFAULT_CFG: ByokConfig = {
+    baseUrl: 'https://openrouter.ai/api/v1',
+    model: 'deepseek/deepseek-chat',
+    apiKey: '',
+  };
+
+  function loadCfg(): ByokConfig {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) return { ...DEFAULT_CFG, ...JSON.parse(raw) };
+    } catch {}
+    return { ...DEFAULT_CFG };
+  }
+  function saveCfg(cfg: ByokConfig): void {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(cfg));
+  }
+
+  const toggle = document.getElementById('chat-toggle')!;
+  const panel = document.getElementById('chat-panel')!;
+  const closeBtn = document.getElementById('chat-close')!;
+  const settingsBtn = document.getElementById('chat-settings')!;
+  const maximizeBtn = document.getElementById('chat-maximize')!;
+  const statusEl = document.getElementById('chat-status')!;
+  const messagesEl = document.getElementById('chat-messages')!;
+  const form = document.getElementById('chat-form')! as HTMLFormElement;
+  const input = document.getElementById('chat-input')! as HTMLTextAreaElement;
+  const sendBtn = document.getElementById('chat-send')! as HTMLButtonElement;
+
+  const modal = document.getElementById('chat-byok-modal')!;
+  const byokForm = document.getElementById('chat-byok-form')! as HTMLFormElement;
+  const byokCancel = document.getElementById('chat-byok-cancel')!;
+
+  let history: ChatMessage[] = [];
+  let sending = false;
+
+  function setSending(v: boolean): void {
+    sending = v;
+    sendBtn.disabled = v;
+  }
+
+  function setStatus(text: string): void {
+    statusEl.textContent = text;
+  }
+
+  /**
+   * Use the configured LLM to rewrite a user query (possibly Chinese) into
+   * a space-joined mix of Chinese + English keywords/synonyms, so the local
+   * ternlight embedding model can match cross-lingual content.
+   * Falls back to the raw query on any error.
+   */
+  async function rewriteQuery(query: string, cfg: ByokConfig): Promise<string> {
+    try {
+      const openai = createOpenAI({ baseURL: cfg.baseUrl, apiKey: cfg.apiKey, name: 'byok' });
+      const result = await generateText({
+        model: openai(cfg.model),
+        system: [
+          '你是一个查询改写器。把用户的问题改写为一行关键词,',
+          '同时包含中文和英文同义词,方便向量检索召回相关 GitHub 仓库。',
+          '只输出一行关键词,不要任何解释、不要标点、不要换行,',
+          '保留专有名词(项目名、技术栈),最多 15 个词。',
+          '',
+          '示例:',
+          '输入: 视频编辑器',
+          '输出: video editor 剪辑 视频处理 capcut opencut premiere',
+          '输入: 怎么搭一个 RAG 系统',
+          '输出: RAG retrieval augmented generation 检索增强 langchain llama-index 向量数据库',
+        ].join('\n'),
+        prompt: query,
+        temperature: 0,
+        maxTokens: 600,
+      });
+      let text = (result.text || '').trim();
+      if (!text) {
+        const reasoning = (result as unknown as { reasoning?: string; reasoningDetails?: unknown }).reasoning;
+        if (reasoning) text = reasoning;
+      }
+      text = text.replace(/\s+/g, ' ');
+      if (!text) return query;
+      const lastLine = text.split(/\n/).filter(s => s.trim()).pop() || text;
+      return lastLine.slice(0, 300) || query;
+    } catch {
+      return query;
+    }
+  }
+
+  function renderBubble(role: 'user' | 'assistant', text: string): HTMLElement {
+    const wrap = document.createElement('div');
+    wrap.className = role === 'user'
+      ? 'flex justify-end'
+      : 'flex justify-start';
+    const bubble = document.createElement('div');
+    if (role === 'user') {
+      bubble.className = 'max-w-[85%] px-2.5 py-1.5 rounded-lg bg-indigo-600 text-white whitespace-pre-wrap break-words text-sm';
+      bubble.textContent = text;
+    } else {
+      bubble.className = 'max-w-[92%] px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 text-sm prose prose-sm dark:prose-invert max-w-none prose-pre:bg-slate-800 dark:prose-pre:bg-slate-900 prose-pre:text-slate-100 prose-code:before:content-none prose-code:after:content-none prose-a:text-indigo-600 dark:prose-a:text-indigo-400';
+      bubble.innerHTML = renderMarkdown(text);
+    }
+    wrap.appendChild(bubble);
+    messagesEl.appendChild(wrap);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+    return bubble;
+  }
+
+  function greet(): void {
+    if (messagesEl.children.length > 0) return;
+    const cfg = loadCfg();
+    if (!cfg.apiKey) {
+      renderBubble('assistant', '请先点 ⚙ 填写 LLM 配置(Base URL / Model / API Key)。数据只存浏览器本地。');
+      setStatus('未配置');
+    } else {
+      renderBubble('assistant', '你好!我会基于当前页可见的 trending 仓库回答问题。');
+      setStatus(cfg.model);
+    }
+  }
+
+  function openPanel(): void {
+    panel.classList.remove('hidden');
+    panel.classList.add('flex');
+    greet();
+    setTimeout(() => input.focus(), 50);
+  }
+  function closePanel(): void {
+    panel.classList.add('hidden');
+    panel.classList.remove('flex');
+  }
+  toggle.addEventListener('click', () => {
+    if (panel.classList.contains('hidden')) openPanel();
+    else closePanel();
+  });
+  closeBtn.addEventListener('click', closePanel);
+
+  function setMaximized(v: boolean): void {
+    panel.classList.toggle('chat-maximized', v);
+    maximizeBtn.textContent = v ? '⤡' : '⤢';
+    maximizeBtn.title = v ? '还原' : '最大化';
+    setTimeout(() => { messagesEl.scrollTop = messagesEl.scrollHeight; }, 0);
+  }
+  maximizeBtn.addEventListener('click', () => {
+    setMaximized(!panel.classList.contains('chat-maximized'));
+  });
+
+  function openByok(): void {
+    const cfg = loadCfg();
+    (byokForm.elements.namedItem('baseUrl') as HTMLInputElement).value = cfg.baseUrl;
+    (byokForm.elements.namedItem('model') as HTMLInputElement).value = cfg.model;
+    (byokForm.elements.namedItem('apiKey') as HTMLInputElement).value = cfg.apiKey;
+    modal.classList.remove('hidden');
+  }
+  function closeByok(): void {
+    modal.classList.add('hidden');
+  }
+  settingsBtn.addEventListener('click', openByok);
+  byokCancel.addEventListener('click', closeByok);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeByok();
+  });
+  byokForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const fd = new FormData(byokForm);
+    const cfg: ByokConfig = {
+      baseUrl: String(fd.get('baseUrl') || '').trim().replace(/\/$/, ''),
+      model: String(fd.get('model') || '').trim(),
+      apiKey: String(fd.get('apiKey') || '').trim(),
+    };
+    saveCfg(cfg);
+    closeByok();
+    setStatus(cfg.model);
+    messagesEl.innerHTML = '';
+    history = [];
+    greet();
+  });
+
+  input.addEventListener('input', () => {
+    input.style.height = 'auto';
+    input.style.height = Math.min(input.scrollHeight, 128) + 'px';
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) {
+      e.preventDefault();
+      form.requestSubmit();
+    }
+  });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (sending) return;
+    const q = input.value.trim();
+    if (!q) return;
+
+    const cfg = loadCfg();
+    if (!cfg.apiKey) {
+      openByok();
+      return;
+    }
+
+    renderBubble('user', q);
+    input.value = '';
+    input.style.height = 'auto';
+    history.push({ role: 'user', content: q });
+
+    const thinking = renderBubble('assistant', '⏳ 改写查询中…');
+    setSending(true);
+    setStatus('改写查询…');
+
+    let rewrittenQuery = q;
+    try {
+      rewrittenQuery = await rewriteQuery(q, cfg);
+    } catch {
+      // keep original
+    }
+
+    thinking.innerHTML = renderMarkdown(`⏳ 召回相关仓库…\n\n_query: \`${rewrittenQuery}\`_`);
+    setStatus('召回中…');
+
+    let retrieved;
+    try {
+      retrieved = await retrieveRepos(rewrittenQuery, { topK: 4 });
+    } catch (err) {
+      thinking.innerHTML = renderMarkdown('⚠ **召回失败:** ' + (err as Error).message);
+      setSending(false);
+      setStatus(cfg.model);
+      return;
+    }
+
+    if (retrieved.length === 0) {
+      thinking.innerHTML = renderMarkdown('_当前页未召回任何相关仓库。请先在搜索框过滤,或换一个关键词。_');
+      setSending(false);
+      setStatus(cfg.model);
+      return;
+    }
+
+    const context = buildContextString(retrieved);
+    const citedList = retrieved.map((r, i) => `[${i + 1}] ${r.fullName}`).join('  ');
+    thinking.innerHTML = renderMarkdown(`💭 命中 **${retrieved.length}** 个仓库:${citedList}\n\n_正在综合分析…_`);
+
+    const systemPrompt = [
+      '你是一个精通开源生态的技术问答助手。用户问题可能涉及任意技术领域,',
+      '你需要综合以下三个来源给出准确、有用的中文回答:',
+      '',
+      '【来源 1 — 知识库召回】当前页面已检索到以下最相关的 GitHub trending 仓库,',
+      '这些是回答的核心依据,优先介绍和推荐:',
+      context,
+      '',
+      '【来源 2 — DeepWiki 上下文】部分仓库标记了 📖(已有 AI 摘要),信息见上;',
+      '若用户问及具体仓库细节而你不确定,坦诚说明并建议查看仓库 README。',
+      '',
+      '【来源 3 — 你的内在知识】如果用户问题超出召回仓库范围(如"剪辑软件还有哪些选择"),',
+      '请主动补充你已知的相关项目、对比、技术原理,但明确标注哪些来自召回、哪些来自你的知识。',
+      '',
+      '回答规范:',
+      '- 用中文,有条理,适合中文开发者阅读',
+      '- 提到召回仓库时用 [n] 引用编号(如 OpenCut [1])',
+      '- 综合多个仓库时给出对比或使用建议',
+      '- 不要编造召回仓库中不存在的功能',
+      '- 推荐方案时给出明确理由',
+    ].join('\n');
+
+    const messages = [
+      { role: 'system' as const, content: systemPrompt },
+      ...history.slice(-6),
+    ];
+
+    setStatus('生成中…');
+    thinking.textContent = '';
+
+    try {
+      const openai = createOpenAI({
+        baseURL: cfg.baseUrl,
+        apiKey: cfg.apiKey,
+        name: 'byok',
+      });
+      const result = await streamText({
+        model: openai(cfg.model),
+        messages,
+        temperature: 0.4,
+        maxTokens: 1200,
+      });
+
+      let acc = '';
+      for await (const delta of result.textStream) {
+        acc += delta;
+        thinking.innerHTML = renderMarkdown(acc);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+      }
+
+      history.push({ role: 'assistant', content: acc });
+      if (history.length > 12) history = history.slice(-12);
+    } catch (err) {
+      thinking.innerHTML = renderMarkdown('⚠ **调用失败:** ' + (err as Error).message + '\n\n请检查 ⚙ 中的 Base URL / Model / API Key。');
+    } finally {
+      setSending(false);
+      setStatus(cfg.model);
+    }
+  });
+</script>
+
+<style is:global>
+  #chat-panel.chat-maximized {
+    position: fixed;
+    inset: 1rem;
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
+  }
+</style>

@@ -1,0 +1,29 @@
+{
+  "name": "@github-trend-daily/web",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.0.0",
+    "@github-trend-daily/shared": "workspace:*",
+    "@ternlight/base": "^0.1.0",
+    "ai": "^4.0.0",
+    "astro": "^4.16.0",
+    "dompurify": "^3.2.0",
+    "marked": "^14.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^5.1.2",
+    "@tailwindcss/typography": "^0.5.15",
+    "pagefind": "^1.1.1",
+    "tailwindcss": "^3.4.13",
+    "vite-plugin-wasm": "^3.6.0"
+  }
+}

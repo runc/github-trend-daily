@@ -1,0 +1,125 @@
+{
+  "fetchedAt": "2026-07-14T20:00:00.000Z",
+  "items": [
+    {
+      "id": "google-gemini-free-tier",
+      "title": "Google Gemini API 免费额度",
+      "summary": "Google AI Studio 提供 Gemini 1.5 Flash / Pro 免费调用,每分钟 15 次请求,适合个人开发与原型验证。",
+      "url": "https://aistudio.google.com/",
+      "provider": "Google",
+      "category": "大模型 API",
+      "freeQuota": "免费层 15 RPM / 1500 RPD,上下文 100 万 tokens",
+      "score": 98,
+      "tags": ["gemini", "llm", "free-tier", "api"],
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cloudflare-workers-ai",
+      "title": "Cloudflare Workers AI",
+      "summary": "在 Cloudflare 边缘网络运行 Llama、Mistral、Whisper 等开源模型,每天 10000 次免费神经元推理。",
+      "url": "https://developers.cloudflare.com/workers-ai/",
+      "provider": "Cloudflare",
+      "category": "边缘推理",
+      "freeQuota": "每天 10000 次神经元推理免费",
+      "score": 95,
+      "tags": ["cloudflare", "edge", "llama", "inference"],
+      "updatedAt": "2026-07-12"
+    },
+    {
+      "id": "groq-free-api",
+      "title": "Groq 超快推理 API",
+      "summary": "Groq 使用 LPU 硬件,Llama 3 / Mixtral 推理速度可达每秒 500+ tokens,免费 API 适合实时场景。",
+      "url": "https://console.groq.com/",
+      "provider": "Groq",
+      "category": "大模型 API",
+      "freeQuota": "免费层 30 RPM,日上限 14400 tokens",
+      "score": 93,
+      "tags": ["groq", "llama", "fast-inference"],
+      "updatedAt": "2026-07-11"
+    },
+    {
+      "id": "github-copilot-free",
+      "title": "GitHub Copilot Free",
+      "summary": "GitHub 为所有用户开放免费版 Copilot,每月 2000 次代码补全、50 次聊天,VS Code / JetBrains 全 IDE 支持。",
+      "url": "https://github.com/features/copilot",
+      "provider": "GitHub",
+      "category": "编程助手",
+      "freeQuota": "每月 2000 次补全 + 50 次聊天",
+      "score": 90,
+      "tags": ["copilot", "coding", "ide"],
+      "updatedAt": "2026-07-09"
+    },
+    {
+      "id": "hugging-face-inference",
+      "title": "Hugging Face Inference API",
+      "summary": "HF Serverless Inference API 提供数千个开源模型的免费调用,适合实验、原型与教学。",
+      "url": "https://huggingface.co/inference-api",
+      "provider": "Hugging Face",
+      "category": "开源模型",
+      "freeQuota": "免费层有限调用,需登录",
+      "score": 88,
+      "tags": ["huggingface", "open-source", "models"],
+      "updatedAt": "2026-07-08"
+    },
+    {
+      "id": "openrouter-free-models",
+      "title": "OpenRouter 免费模型",
+      "summary": "OpenRouter 聚合多家供应商,标记 `:free` 的模型完全免费,统一 OpenAI 兼容接口,适合多模型对比。",
+      "url": "https://openrouter.ai/models?q=free",
+      "provider": "OpenRouter",
+      "category": "大模型 API",
+      "freeQuota": "多个 `:free` 模型,每天 50 次请求",
+      "score": 86,
+      "tags": ["openrouter", "aggregator", "free-models"],
+      "updatedAt": "2026-07-13"
+    },
+    {
+      "id": "supabase-pgvector",
+      "title": "Supabase 向量数据库",
+      "summary": "Supabase 提供免费 PostgreSQL + pgvector,500MB 数据库 + 5GB 带宽,适合构建 RAG 应用。",
+      "url": "https://supabase.com/",
+      "provider": "Supabase",
+      "category": "基础设施",
+      "freeQuota": "免费层 500MB 数据库 + 50000 月活用户",
+      "score": 84,
+      "tags": ["supabase", "pgvector", "rag", "postgres"],
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "together-ai-free-credits",
+      "title": "Together AI $5 免费额度",
+      "summary": "Together AI 新用户赠送 $5 信用,可调用 Llama、Qwen、DeepSeek 等开源模型,推理稳定且支持微调。",
+      "url": "https://www.together.ai/",
+      "provider": "Together AI",
+      "category": "大模型 API",
+      "freeQuota": "新用户 $5 免费额度",
+      "score": 82,
+      "tags": ["together", "open-source", "credits"],
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "modelscope-free",
+      "title": "魔搭 ModelScope 免费调用",
+      "summary": "阿里魔搭社区提供通义千问、百川等开源模型的免费在线推理与微调,中文场景表现优秀。",
+      "url": "https://modelscope.cn/",
+      "provider": "阿里达摩院",
+      "category": "开源模型",
+      "freeQuota": "免费在线推理 + CPU 计算资源",
+      "score": 80,
+      "tags": ["modelscope", "qwen", "chinese"],
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "vercel-ai-sdk",
+      "title": "Vercel AI SDK",
+      "summary": "Vercel 开源 AI SDK,统一接口对接 OpenAI / Anthropic / Google 等,hobby 计划每月 1000 次免费函数调用。",
+      "url": "https://sdk.vercel.ai/",
+      "provider": "Vercel",
+      "category": "开发框架",
+      "freeQuota": "hobby 计划 1000 次 / 月 函数调用",
+      "score": 78,
+      "tags": ["vercel", "ai-sdk", "framework"],
+      "updatedAt": "2026-07-04"
+    }
+  ]
+}

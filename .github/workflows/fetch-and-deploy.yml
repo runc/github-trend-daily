@@ -1,0 +1,92 @@
+name: Fetch trending and deploy
+
+on:
+  schedule:
+    # 04:00 and 16:00 UTC — twice daily
+    - cron: '0 4,16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fetch-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Fetch trending + DeepWiki + LLM enrich
+        env:
+          TREND_SINCE: 'daily,weekly,monthly'
+          TREND_LANGUAGES: 'TypeScript,JavaScript,Python,Go,Rust,Java'
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          SUMMARY_LANG: ${{ vars.SUMMARY_LANG || '中文' }}
+          DEEPWIKI_MCP_URL: ${{ secrets.DEEPWIKI_MCP_URL || 'https://mcp.deepwiki.com/sse' }}
+          ENRICH_CONCURRENCY: '4'
+          ENRICH_LIMIT_PER_SNAPSHOT: '25'
+        run: pnpm fetch
+
+      - name: Commit snapshot data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apps/web/src/data
+          if git diff --cached --quiet; then
+            echo "no new data"
+          else
+            git commit -m "chore(data): trending snapshot $(date -u +%F-%H%M)"
+            git push
+          fi
+
+  build-deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Build (Astro + Pagefind)
+        run: pnpm build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/web/dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
