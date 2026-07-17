@@ -8,8 +8,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: fetch-and-deploy
@@ -55,16 +53,18 @@ jobs:
             git push
           fi
 
-  build-deploy:
+  deploy-cloudflare:
     needs: collect
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      deployments: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout latest main
+        uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref }}
+          ref: main
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v4
 
@@ -77,15 +77,26 @@ jobs:
 
       - name: Build (Astro + Pagefind)
         env:
-          SITE_URL: ${{ vars.SITE_URL || 'https://timus.dev' }}
-          BASE_PATH: /github-trend-daily
+          SITE_URL: ${{ vars.SITE_URL || 'https://github-trend-daily.pages.dev' }}
+          BASE_PATH: /
         run: pnpm build
 
-      - uses: actions/configure-pages@v5
+      - name: Install wrangler
+        run: pnpm add -wD wrangler@3
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Create Pages project (if missing)
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: apps/web/dist
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          packageManager: pnpm
+          command: pages project create github-trend-daily --production-branch=main
+        continue-on-error: true
 
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          packageManager: pnpm
+          command: pages deploy apps/web/dist --project-name=github-trend-daily --branch=${{ github.ref_name }} --commit-dirty=true
