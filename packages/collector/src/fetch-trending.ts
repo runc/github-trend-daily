@@ -2,6 +2,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { IndexEntry, Since, TrendingRepo, TrendingSnapshot } from '@github-trend-daily/shared';
+import { dedupeReposByFullName } from './dedupe-repos.ts';
 import './proxy.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -182,7 +183,7 @@ export async function fetchAndWriteTrending(): Promise<{ entries: IndexEntry[]; 
   for (const since of SINCE_OPTIONS) {
     for (const lang of langList) {
       for (const spoken of spokenList) {
-        const repos = await fetchTrending(since, lang, spoken);
+        const repos = dedupeReposByFullName(await fetchTrending(since, lang, spoken));
         const langSlug = lang || 'all';
         const spokenSlug = spoken || 'all';
         const fileName = `${date}__${since}__${langSlug}__${spokenSlug}.json`;

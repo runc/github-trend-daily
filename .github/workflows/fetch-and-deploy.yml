@@ -2,8 +2,8 @@ name: Fetch trending and deploy
 
 on:
   schedule:
-    # 04:00 and 16:00 UTC — twice daily
-    - cron: '0 4,16 * * *'
+    # 08:00 and 17:00 Beijing (UTC+8) — twice daily
+    - cron: '0 0,9 * * *'
   workflow_dispatch:
 
 permissions:
@@ -41,7 +41,7 @@ jobs:
           DEEPWIKI_MCP_URL: ${{ secrets.DEEPWIKI_MCP_URL || 'https://mcp.deepwiki.com/sse' }}
           ENRICH_CONCURRENCY: '4'
           ENRICH_LIMIT_PER_SNAPSHOT: '25'
-        run: pnpm fetch
+        run: pnpm run fetch
 
       - name: Commit snapshot data
         run: |

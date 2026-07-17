@@ -2,6 +2,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { EnrichedRepo, EnrichedSnapshot, TrendingSnapshot } from '@github-trend-daily/shared';
+import { dedupeReposByFullName } from './dedupe-repos.ts';
 import { enrichRepos } from './enrich.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -28,11 +29,12 @@ async function main(): Promise<void> {
     }
 
     const trending = snap as TrendingSnapshot;
-    const toEnrich = trending.repos.slice(0, maxPerSnapshot);
+    const repos = dedupeReposByFullName(trending.repos);
+    const toEnrich = repos.slice(0, maxPerSnapshot);
     console.log(`[enrich-snapshots] enriching ${toEnrich.length} repos in ${file}`);
 
     const enriched: EnrichedRepo[] = await enrichRepos(toEnrich);
-    const rest = trending.repos.slice(maxPerSnapshot).map(r => ({
+    const rest = repos.slice(maxPerSnapshot).map(r => ({
       ...r,
       summary: r.description || `${r.fullName}.`,
       tags: r.topics,
@@ -47,7 +49,7 @@ async function main(): Promise<void> {
       language: trending.language,
       fetchedAt: trending.fetchedAt,
       enrichedAt: new Date().toISOString(),
-      repos: [...enriched, ...rest],
+      repos: dedupeReposByFullName([...enriched, ...rest]),
     };
 
     await writeFile(path, JSON.stringify(out, null, 2));
