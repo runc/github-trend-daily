@@ -2,63 +2,93 @@
   "date": "2026-07-20",
   "since": "daily",
   "language": "Java",
-  "fetchedAt": "2026-07-20T03:25:18.455Z",
-  "enrichedAt": "2026-07-20T03:26:24.753Z",
+  "fetchedAt": "2026-07-20T11:47:30.368Z",
+  "enrichedAt": "2026-07-20T11:48:27.834Z",
   "repos": [
     {
-      "name": "copilot-sdk",
-      "fullName": "github/copilot-sdk",
-      "url": "https://github.com/github/copilot-sdk",
-      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "name": "Mindustry",
+      "fullName": "Anuken/Mindustry",
+      "url": "https://github.com/Anuken/Mindustry",
+      "description": "The automation tower defense RTS",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 9977,
-      "forks": 1351,
-      "starsToday": 39,
+      "stars": 28303,
+      "forks": 3578,
+      "starsToday": 13,
       "topics": [],
       "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/in/1693627?s=40&amp;v=4",
-        "url": "https://github.com/github"
+        "name": "Anuken",
+        "avatar": "https://avatars.githubusercontent.com/u/10100000?s=40&amp;v=4",
+        "url": "https://github.com/Anuken"
       },
-      "summary": "GitHub 官方 Copilot Agent 多平台 SDK，支持将 Copilot 集成到各类应用与服务中。",
+      "summary": "开源自动化塔防RTS游戏，融合资源管理、生产线建造与基地防御，支持单人战役与多人对战。",
       "tags": [
-        "copilot",
-        "sdk",
-        "github",
-        "ai",
-        "integration"
+        "game",
+        "tower-defense",
+        "rts",
+        "java",
+        "automation",
+        "open-source"
       ],
-      "category": "SDK",
-      "enrichedAt": "2026-07-20T03:26:17.915Z",
+      "category": "App",
+      "enrichedAt": "2026-07-20T11:48:20.831Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "GmsCore",
-      "fullName": "microg/GmsCore",
-      "url": "https://github.com/microg/GmsCore",
-      "description": "Free implementation of Play Services",
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 13970,
-      "forks": 2969,
-      "starsToday": 6,
+      "stars": 57869,
+      "forks": 6995,
+      "starsToday": 56,
       "topics": [],
       "author": {
-        "name": "microg",
-        "avatar": "https://avatars.githubusercontent.com/u/994036?s=40&amp;v=4",
-        "url": "https://github.com/microg"
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
+        "url": "https://github.com/termux"
       },
-      "summary": "Play Services 的开源替代实现，让非谷歌设备也能运行依赖谷歌服务的应用。",
+      "summary": "Android 上的终端模拟器，支持丰富的软件包扩展，将 Linux 环境带入移动设备。",
       "tags": [
         "android",
-        "microg",
-        "play-services",
-        "privacy",
+        "terminal",
+        "linux",
+        "emulator",
         "open-source"
       ],
-      "category": "Library",
-      "enrichedAt": "2026-07-20T03:26:18.003Z",
+      "category": "App",
+      "enrichedAt": "2026-07-20T11:48:20.723Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skillhub",
+      "fullName": "iflytek/skillhub",
+      "url": "https://github.com/iflytek/skillhub",
+      "description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy on-premise with Docker or Kubernetes.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4790,
+      "forks": 638,
+      "starsToday": 318,
+      "topics": [],
+      "author": {
+        "name": "iflytek",
+        "avatar": "https://avatars.githubusercontent.com/u/28803103?s=40&amp;v=4",
+        "url": "https://github.com/iflytek"
+      },
+      "summary": "企业级AI技能注册中心，支持技能包发布与版本管理、RBAC权限控制、审计日志，可通过Docker/K8s私有化部署。",
+      "tags": [
+        "ai",
+        "agent",
+        "skill-registry",
+        "rbac",
+        "self-hosted",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T11:48:20.762Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,8 +98,8 @@
       "description": "The most widely used, high performance Minecraft server that aims to fix gameplay and mechanics inconsistencies",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 12497,
-      "forks": 3479,
+      "stars": 12502,
+      "forks": 3480,
       "starsToday": 7,
       "topics": [],
       "author": {
@@ -90,173 +120,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "elasticsearch",
-      "fullName": "elastic/elasticsearch",
-      "url": "https://github.com/elastic/elasticsearch",
-      "description": "Free and Open Source, Distributed, RESTful Search Engine",
+      "name": "astron-agent",
+      "fullName": "iflytek/astron-agent",
+      "url": "https://github.com/iflytek/astron-agent",
+      "description": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 77561,
-      "forks": 26098,
-      "starsToday": 22,
+      "stars": 9420,
+      "forks": 868,
+      "starsToday": 347,
       "topics": [],
       "author": {
-        "name": "elastic",
-        "avatar": "https://avatars.githubusercontent.com/u/41300?s=40&amp;v=4",
-        "url": "https://github.com/elastic"
+        "name": "iflytek",
+        "avatar": "https://avatars.githubusercontent.com/u/124077501?s=40&amp;v=4",
+        "url": "https://github.com/iflytek"
       },
-      "summary": "开源分布式RESTful搜索引擎，支持全文搜索、实时分析和可扩展集群，ELK核心组件。",
+      "summary": "企业级Agent工作流平台，用于构建下一代SuperAgent，支持商业友好协议。",
       "tags": [
-        "search-engine",
-        "distributed",
-        "restful",
+        "agent",
+        "workflow",
         "java",
-        "big-data",
-        "analytics"
+        "ai",
+        "platform"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-20T03:26:18.170Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "AndroidIDE",
-      "fullName": "AndroidIDEOfficial/AndroidIDE",
-      "url": "https://github.com/AndroidIDEOfficial/AndroidIDE",
-      "description": "AndroidIDE is an IDE for Android to develop full featured Android apps.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 3013,
-      "forks": 600,
-      "starsToday": 5,
-      "topics": [],
-      "author": {
-        "name": "AndroidIDEOfficial",
-        "avatar": "https://avatars.githubusercontent.com/u/46931079?s=40&amp;v=4",
-        "url": "https://github.com/AndroidIDEOfficial"
-      },
-      "summary": "在Android设备上开发Android应用的IDE，支持完整应用构建与调试，移动端原生开发工具。",
-      "tags": [
-        "android",
-        "ide",
-        "java",
-        "mobile-dev",
-        "development"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:19.493Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "FoldCraftLauncher",
-      "fullName": "FCL-Team/FoldCraftLauncher",
-      "url": "https://github.com/FCL-Team/FoldCraftLauncher",
-      "description": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 4290,
-      "forks": 293,
-      "starsToday": 13,
-      "topics": [],
-      "author": {
-        "name": "FCL-Team",
-        "avatar": "https://avatars.githubusercontent.com/u/19233890?s=40&amp;v=4",
-        "url": "https://github.com/FCL-Team"
-      },
-      "summary": "安卓上的Minecraft Java版启动器，支持多版本管理、模组加载与账户登录，提供流畅的移动端游戏体验。",
-      "tags": [
-        "minecraft",
-        "android",
-        "launcher",
-        "game",
-        "java"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-20T03:26:19.622Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "thingsboard",
-      "fullName": "thingsboard/thingsboard",
-      "url": "https://github.com/thingsboard/thingsboard",
-      "description": "Open-source IoT Platform - Device management, data collection, processing and visualization.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 22093,
-      "forks": 6382,
-      "starsToday": 6,
-      "topics": [],
-      "author": {
-        "name": "thingsboard",
-        "avatar": "https://avatars.githubusercontent.com/u/8308069?s=40&amp;v=4",
-        "url": "https://github.com/thingsboard"
-      },
-      "summary": "开源物联网平台，支持设备管理、数据采集、处理与可视化，可快速构建IoT应用。",
-      "tags": [
-        "iot",
-        "device-management",
-        "data-visualization",
-        "java",
-        "dashboard"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-20T03:26:19.569Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Shizuku-API",
-      "fullName": "RikkaApps/Shizuku-API",
-      "url": "https://github.com/RikkaApps/Shizuku-API",
-      "description": "The API and the developer guide for Shizuku and Sui.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 2346,
-      "forks": 1007,
-      "starsToday": 2,
-      "topics": [],
-      "author": {
-        "name": "RikkaApps",
-        "avatar": "https://avatars.githubusercontent.com/u/12999176?s=40&amp;v=4",
-        "url": "https://github.com/RikkaApps"
-      },
-      "summary": "Shizuku 和 Sui 的 API 与开发者指南，帮助应用直接以 ADB 或 root 权限调用系统 API，无需修改系统。",
-      "tags": [
-        "android",
-        "api",
-        "shizuku",
-        "root",
-        "adb",
-        "java"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-07-20T03:26:19.883Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "checkstyle",
-      "fullName": "checkstyle/checkstyle",
-      "url": "https://github.com/checkstyle/checkstyle",
-      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 8975,
-      "forks": 4127,
-      "starsToday": 0,
-      "topics": [],
-      "author": {
-        "name": "checkstyle",
-        "avatar": "https://avatars.githubusercontent.com/u/812984?s=40&amp;v=4",
-        "url": "https://github.com/checkstyle"
-      },
-      "summary": "Java代码静态检查工具，强制遵循编码规范（Google/Sun风格），高度可配置，支持ANT和命令行。",
-      "tags": [
-        "java",
-        "static-analysis",
-        "linting",
-        "code-style",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:20.980Z",
+      "category": "AI",
+      "enrichedAt": "2026-07-20T11:48:21.039Z",
       "deepwikiAvailable": false
     },
     {
@@ -266,7 +154,7 @@
       "description": "Browse media content with your own rules on Android TV",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 31384,
+      "stars": 31387,
       "forks": 1767,
       "starsToday": 50,
       "topics": [],
@@ -288,229 +176,396 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "forge",
-      "fullName": "Card-Forge/forge",
-      "url": "https://github.com/Card-Forge/forge",
-      "description": "An unofficial rules engine for the world's greatest card game.",
+      "name": "awesome-low-level-design",
+      "fullName": "ashishps1/awesome-low-level-design",
+      "url": "https://github.com/ashishps1/awesome-low-level-design",
+      "description": "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 2523,
-      "forks": 1005,
-      "starsToday": 0,
+      "stars": 25468,
+      "forks": 6211,
+      "starsToday": 23,
       "topics": [],
       "author": {
-        "name": "Card-Forge",
-        "avatar": "https://avatars.githubusercontent.com/u/24357441?s=40&amp;v=4",
-        "url": "https://github.com/Card-Forge"
+        "name": "ashishps1",
+        "avatar": "https://avatars.githubusercontent.com/u/8646889?s=40&amp;v=4",
+        "url": "https://github.com/ashishps1"
       },
-      "summary": "万智牌非官方规则引擎，实现完整卡牌交互与游戏逻辑，开源社区驱动。",
+      "summary": "精选低层级设计学习资源，含面试题、设计模式与实战案例，助你备战系统设计面试。",
       "tags": [
-        "mtg",
-        "card-game",
-        "game-engine",
+        "low-level-design",
+        "interview-prep",
+        "design-patterns",
         "java",
-        "rules-engine"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-07-20T03:26:21.141Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openapi-generator",
-      "fullName": "OpenAPITools/openapi-generator",
-      "url": "https://github.com/OpenAPITools/openapi-generator",
-      "description": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 26601,
-      "forks": 7612,
-      "starsToday": 31,
-      "topics": [],
-      "author": {
-        "name": "OpenAPITools",
-        "avatar": "https://avatars.githubusercontent.com/u/934260?s=40&amp;v=4",
-        "url": "https://github.com/OpenAPITools"
-      },
-      "summary": "根据OpenAPI规范自动生成API客户端库、服务端代码、文档和配置，支持v2/v3，极大提升开发效率。",
-      "tags": [
-        "openapi",
-        "api-client",
-        "sdk-generation",
-        "codegen",
-        "java"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:21.615Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "FadCam",
-      "fullName": "anonfaded/FadCam",
-      "url": "https://github.com/anonfaded/FadCam",
-      "description": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 2651,
-      "forks": 216,
-      "starsToday": 4,
-      "topics": [],
-      "author": {
-        "name": "anonfaded",
-        "avatar": "https://avatars.githubusercontent.com/u/124708903?s=40&amp;v=4",
-        "url": "https://github.com/anonfaded"
-      },
-      "summary": "开源无广告安卓多媒体录制器，支持后台录像、屏幕录制、直播推流和远程摄像头控制。",
-      "tags": [
-        "android",
-        "screen-recorder",
-        "video-recording",
-        "live-streaming",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-20T03:26:23.189Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "DevOps-Projects",
-      "fullName": "NotHarshhaa/DevOps-Projects",
-      "url": "https://github.com/NotHarshhaa/DevOps-Projects",
-      "description": "🚀 Real-world DevOps projects for aspiring engineers — Beginner to Advanced. Covers AWS, Kubernetes, Docker, CI/CD, Terraform, Jenkins, and more. Hands-on learning with step-by-step guides.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 4663,
-      "forks": 4292,
-      "starsToday": 17,
-      "topics": [],
-      "author": {
-        "name": "NotHarshhaa",
-        "avatar": "https://avatars.githubusercontent.com/u/112948305?s=40&amp;v=4",
-        "url": "https://github.com/NotHarshhaa"
-      },
-      "summary": "面向初学到高级的实战DevOps项目合集，涵盖AWS、K8s、Docker、CI/CD、Terraform、Jenkins等，含逐步指南。",
-      "tags": [
-        "devops",
-        "aws",
-        "kubernetes",
-        "docker",
-        "ci-cd",
-        "terraform"
+        "system-design"
       ],
       "category": "Education",
-      "enrichedAt": "2026-07-20T03:26:23.077Z",
+      "enrichedAt": "2026-07-20T11:48:22.731Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "openmrs-core",
-      "fullName": "openmrs/openmrs-core",
-      "url": "https://github.com/openmrs/openmrs-core",
-      "description": "OpenMRS API and web application code",
+      "name": "cassandra",
+      "fullName": "apache/cassandra",
+      "url": "https://github.com/apache/cassandra",
+      "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 1874,
-      "forks": 4346,
+      "stars": 9871,
+      "forks": 3954,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/42158?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Cassandra 是开源分布式 NoSQL 数据库，具备线性扩展与高容错能力，适合海量数据场景。",
+      "tags": [
+        "database",
+        "nosql",
+        "distributed",
+        "java",
+        "bigdata"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-20T11:48:22.677Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netdisk-fast-download",
+      "fullName": "qaiu/netdisk-fast-download",
+      "url": "https://github.com/qaiu/netdisk-fast-download",
+      "description": "聚合多种主流网盘的直链解析下载服务, 一键解析下载，已支持夸克网盘/uc网盘/蓝奏云/蓝奏优享/小飞机盘/123云盘等. 支持文件夹分享解析. 体验地址: https://lz.qaiu.top https://189.qaiu.top",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 2989,
+      "forks": 264,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "qaiu",
+        "avatar": "https://avatars.githubusercontent.com/u/29825328?s=40&amp;v=4",
+        "url": "https://github.com/qaiu"
+      },
+      "summary": "聚合夸克、UC、蓝奏云、123云盘等多网盘直链解析下载服务，支持文件夹分享一键解析。",
+      "tags": [
+        "netdisk",
+        "download",
+        "parser",
+        "java",
+        "cloud-storage"
+      ],
+      "category": "Tool",
+      "enrichedAt": "2026-07-20T11:48:22.501Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Twist-Space-Technology-Mod",
+      "fullName": "Nxer/Twist-Space-Technology-Mod",
+      "url": "https://github.com/Nxer/Twist-Space-Technology-Mod",
+      "description": "Modded elements from GTNH players. Mainly about lategame of GTNH.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 394,
+      "forks": 96,
       "starsToday": 0,
       "topics": [],
       "author": {
-        "name": "openmrs",
-        "avatar": "https://avatars.githubusercontent.com/u/1390773?s=40&amp;v=4",
-        "url": "https://github.com/openmrs"
+        "name": "Nxer",
+        "avatar": "https://avatars.githubusercontent.com/u/43300390?s=40&amp;v=4",
+        "url": "https://github.com/Nxer"
       },
-      "summary": "开源医疗记录系统核心API与Web应用，支持模块化扩展，全球中低收入国家广泛部署。",
+      "summary": "GTNH 模组整合包后期扩展模组，添加大量后期游戏元素与内容。",
       "tags": [
-        "healthcare",
-        "emr",
-        "java",
-        "api",
-        "web"
+        "minecraft",
+        "mod",
+        "gtnh",
+        "late-game",
+        "java"
       ],
-      "category": "App",
-      "enrichedAt": "2026-07-20T03:26:23.121Z",
+      "category": "Mod",
+      "enrichedAt": "2026-07-20T11:48:22.675Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "kafka",
-      "fullName": "apache/kafka",
-      "url": "https://github.com/apache/kafka",
-      "description": "Apache Kafka - A distributed event streaming platform",
+      "name": "kestra",
+      "fullName": "kestra-io/kestra",
+      "url": "https://github.com/kestra-io/kestra",
+      "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 33290,
-      "forks": 15364,
-      "starsToday": 24,
+      "stars": 27398,
+      "forks": 2740,
+      "starsToday": 18,
       "topics": [],
       "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/8959638?s=40&amp;v=4",
-        "url": "https://github.com/apache"
+        "name": "kestra-io",
+        "avatar": "https://avatars.githubusercontent.com/u/2064609?s=40&amp;v=4",
+        "url": "https://github.com/kestra-io"
       },
-      "summary": "Apache Kafka 是一个分布式事件流平台，用于构建实时数据管道和流式应用，具备高吞吐、可持久化、容错等核心能力。",
+      "summary": "事件驱动的工作流编排与调度平台，支持声明式YAML、数百种插件，适用于关键任务应用。",
+      "tags": [
+        "orchestration",
+        "workflow",
+        "scheduling",
+        "java",
+        "event-driven"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T11:48:24.136Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "shattered-pixel-dungeon",
+      "fullName": "00-Evan/shattered-pixel-dungeon",
+      "url": "https://github.com/00-Evan/shattered-pixel-dungeon",
+      "description": "Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. It's based on the source code of Pixel Dungeon, by Watabou.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 6334,
+      "forks": 1546,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "00-Evan",
+        "avatar": "https://avatars.githubusercontent.com/u/2347603?s=40&amp;v=4",
+        "url": "https://github.com/00-Evan"
+      },
+      "summary": "开源传统Roguelike地牢爬行游戏，随机生成关卡与敌人，数百种道具，基于Pixel Dungeon源码改进。",
+      "tags": [
+        "roguelike",
+        "game",
+        "java",
+        "android",
+        "dungeon-crawler"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-20T11:48:24.646Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DSA-Bootcamp-Java",
+      "fullName": "kunal-kushwaha/DSA-Bootcamp-Java",
+      "url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+      "description": "This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 23194,
+      "forks": 13426,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "kunal-kushwaha",
+        "avatar": "https://avatars.githubusercontent.com/u/42698533?s=40&amp;v=4",
+        "url": "https://github.com/kunal-kushwaha"
+      },
+      "summary": "Java数据结构与算法面试训练营的代码、作业和笔记，面向求职者系统学习DSA。",
+      "tags": [
+        "java",
+        "data-structures",
+        "algorithms",
+        "interview-prep",
+        "bootcamp"
+      ],
+      "category": "Education",
+      "enrichedAt": "2026-07-20T11:48:24.232Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jabref",
+      "fullName": "JabRef/jabref",
+      "url": "https://github.com/JabRef/jabref",
+      "description": "Desktop app for managing BibTeX and BibLaTeX (.bib) libraries",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4436,
+      "forks": 3468,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "JabRef",
+        "avatar": "https://avatars.githubusercontent.com/u/1366654?s=40&amp;v=4",
+        "url": "https://github.com/JabRef"
+      },
+      "summary": "桌面端 BibTeX/BibLaTeX 文献管理工具，支持引用编辑、搜索与导出，开源跨平台。",
+      "tags": [
+        "bibtex",
+        "reference-manager",
+        "latex",
+        "java",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-20T11:48:24.444Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-java-instrumentation",
+      "fullName": "open-telemetry/opentelemetry-java-instrumentation",
+      "url": "https://github.com/open-telemetry/opentelemetry-java-instrumentation",
+      "description": "OpenTelemetry auto-instrumentation and instrumentation libraries for Java",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 2583,
+      "forks": 1117,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/u/218610?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Java 自动埋点与检测库，提供无侵入式可观测性接入，支持多种框架和库的自动 instrumentation。",
+      "tags": [
+        "java",
+        "opentelemetry",
+        "instrumentation",
+        "observability",
+        "monitoring"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-20T11:48:26.047Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "baritone",
+      "fullName": "cabaletta/baritone",
+      "url": "https://github.com/cabaletta/baritone",
+      "description": "google maps for block game",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9026,
+      "forks": 1968,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "cabaletta",
+        "avatar": "https://avatars.githubusercontent.com/u/3837873?s=40&amp;v=4",
+        "url": "https://github.com/cabaletta"
+      },
+      "summary": "Minecraft 自动寻路机器人，为方块游戏提供类似谷歌地图的路径规划与导航功能。",
+      "tags": [
+        "minecraft",
+        "pathfinding",
+        "bot",
+        "java",
+        "automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-20T11:48:26.043Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jadx",
+      "fullName": "skylot/jadx",
+      "url": "https://github.com/skylot/jadx",
+      "description": "Dex to Java decompiler",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 49695,
+      "forks": 5652,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "skylot",
+        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
+        "url": "https://github.com/skylot"
+      },
+      "summary": "DEX 转 Java 源码反编译器，支持 APK/DEX/JAR/ARSC 等格式，提供 GUI 和命令行工具。",
+      "tags": [
+        "decompiler",
+        "android",
+        "dex",
+        "java",
+        "reverse-engineering"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T11:48:26.198Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "voxy-neoforge",
+      "fullName": "j-shelfwood/voxy-neoforge",
+      "url": "https://github.com/j-shelfwood/voxy-neoforge",
+      "description": "Unofficial NeoForge 1.21.1 port of Voxy (LOD mod) by MCRcortex - Community maintained",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 189,
+      "forks": 187,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "j-shelfwood",
+        "avatar": "https://avatars.githubusercontent.com/u/18544518?s=40&amp;v=4",
+        "url": "https://github.com/j-shelfwood"
+      },
+      "summary": "非官方NeoForge 1.21.1移植版Voxy LOD模组，社区维护，提升Minecraft远距离渲染性能。",
+      "tags": [
+        "minecraft",
+        "mod",
+        "neoforge",
+        "lod",
+        "rendering"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-20T11:48:26.387Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "automq",
+      "fullName": "AutoMQ/automq",
+      "url": "https://github.com/AutoMQ/automq",
+      "description": "Diskless Kafka® on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 10290,
+      "forks": 742,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "AutoMQ",
+        "avatar": "https://avatars.githubusercontent.com/u/24747?s=40&amp;v=4",
+        "url": "https://github.com/AutoMQ"
+      },
+      "summary": "基于S3的无盘Kafka替代方案，成本降低10倍，无跨AZ流量费用，秒级自动扩缩容，毫秒级延迟，多AZ高可用。",
       "tags": [
         "kafka",
-        "event-streaming",
-        "distributed",
+        "s3",
+        "streaming",
+        "cloud-native",
         "java",
-        "messaging",
-        "stream-processing"
+        "message-queue"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-07-20T03:26:23.398Z",
+      "enrichedAt": "2026-07-20T11:48:27.834Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "Nekogram",
-      "fullName": "Nekogram/Nekogram",
-      "url": "https://github.com/Nekogram/Nekogram",
-      "description": "Open-source third-party Telegram client with not many but useful modifications.",
+      "name": "Geyser",
+      "fullName": "GeyserMC/Geyser",
+      "url": "https://github.com/GeyserMC/Geyser",
+      "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 3747,
-      "forks": 260,
-      "starsToday": 2,
+      "stars": 5697,
+      "forks": 852,
+      "starsToday": 8,
       "topics": [],
       "author": {
-        "name": "Nekogram",
-        "avatar": "https://avatars.githubusercontent.com/u/88844448?s=40&amp;v=4",
-        "url": "https://github.com/Nekogram"
+        "name": "GeyserMC",
+        "avatar": "https://avatars.githubusercontent.com/u/20743703?s=40&amp;v=4",
+        "url": "https://github.com/GeyserMC"
       },
-      "summary": "基于Telegram的开源第三方客户端，提供少量但实用的功能增强与修改。",
+      "summary": "让基岩版玩家连接Java版服务器的代理/桥接工具，实现跨版本联机。",
       "tags": [
-        "telegram",
-        "android",
-        "client",
-        "mod",
-        "messaging"
+        "minecraft",
+        "proxy",
+        "bridge",
+        "java",
+        "bedrock"
       ],
       "category": "App",
-      "enrichedAt": "2026-07-20T03:26:24.436Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cloudstack",
-      "fullName": "apache/cloudstack",
-      "url": "https://github.com/apache/cloudstack",
-      "description": "Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 2990,
-      "forks": 1344,
-      "starsToday": 2,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/95203?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "开源IaaS云计算平台，用于构建、管理和部署公有云/私有云基础设施，支持虚拟机、网络和存储资源编排。",
-      "tags": [
-        "cloud",
-        "iaas",
-        "java",
-        "virtualization",
-        "infrastructure"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-20T03:26:24.753Z",
+      "enrichedAt": "2026-07-20T11:48:27.666Z",
       "deepwikiAvailable": false
     }
   ]

@@ -2,63 +2,63 @@
   "date": "2026-07-20",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-07-20T03:25:18.455Z",
-  "enrichedAt": "2026-07-20T03:26:07.345Z",
+  "fetchedAt": "2026-07-20T11:47:30.368Z",
+  "enrichedAt": "2026-07-20T11:48:13.700Z",
   "repos": [
     {
-      "name": "agent-framework-go",
-      "fullName": "microsoft/agent-framework-go",
-      "url": "https://github.com/microsoft/agent-framework-go",
-      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.",
+      "name": "agentfield",
+      "fullName": "Agent-Field/agentfield",
+      "url": "https://github.com/Agent-Field/agentfield",
+      "description": "Build, run and scale AI agents like API and microservices",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 329,
-      "forks": 28,
+      "stars": 2390,
+      "forks": 383,
       "starsToday": 22,
       "topics": [],
       "author": {
-        "name": "microsoft",
-        "avatar": "https://avatars.githubusercontent.com/u/3747816?s=40&amp;v=4",
-        "url": "https://github.com/microsoft"
+        "name": "Agent-Field",
+        "avatar": "https://avatars.githubusercontent.com/u/29346072?s=40&amp;v=4",
+        "url": "https://github.com/Agent-Field"
       },
-      "summary": "微软出品的Go语言AI代理框架，支持构建、编排和部署单/多智能体工作流。",
+      "summary": "将AI智能体像API和微服务一样构建、运行和扩展，基于Go语言的高性能智能体框架。",
       "tags": [
-        "go",
         "ai-agents",
-        "multi-agent",
+        "go",
+        "microservices",
         "framework",
-        "microsoft"
+        "agent-platform"
       ],
       "category": "AI",
-      "enrichedAt": "2026-07-20T03:26:00.281Z",
+      "enrichedAt": "2026-07-20T11:48:08.243Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "LocalAI",
-      "fullName": "mudler/LocalAI",
-      "url": "https://github.com/mudler/LocalAI",
-      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "name": "neko",
+      "fullName": "m1k1o/neko",
+      "url": "https://github.com/m1k1o/neko",
+      "description": "A self hosted virtual browser that runs in docker and uses WebRTC.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 47688,
-      "forks": 4263,
-      "starsToday": 51,
+      "stars": 21612,
+      "forks": 1537,
+      "starsToday": 74,
       "topics": [],
       "author": {
-        "name": "mudler",
-        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
-        "url": "https://github.com/mudler"
+        "name": "m1k1o",
+        "avatar": "https://avatars.githubusercontent.com/u/7534274?s=40&amp;v=4",
+        "url": "https://github.com/m1k1o"
       },
-      "summary": "开源AI引擎，无需GPU即可在本地运行LLM、视觉、语音、图像和视频模型，支持多种硬件。",
+      "summary": "自托管虚拟浏览器，基于Docker和WebRTC，支持多人协作与远程控制。",
       "tags": [
-        "local-ai",
-        "llm",
-        "no-gpu",
+        "docker",
+        "webrtc",
+        "virtual-browser",
         "self-hosted",
-        "open-source"
+        "remote-desktop"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-07-20T03:26:00.334Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T11:48:08.242Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,8 +68,8 @@
       "description": "Open Source realtime backend in 1 file",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 60015,
-      "forks": 3562,
+      "stars": 60033,
+      "forks": 3564,
       "starsToday": 164,
       "topics": [],
       "author": {
@@ -91,257 +91,227 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "portmaster",
-      "fullName": "safing/portmaster",
-      "url": "https://github.com/safing/portmaster",
-      "description": "🏔 Love Freedom - ❌ Block Mass Surveillance",
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 13315,
-      "forks": 548,
-      "starsToday": 54,
+      "stars": 47701,
+      "forks": 4264,
+      "starsToday": 51,
       "topics": [],
       "author": {
-        "name": "safing",
-        "avatar": "https://avatars.githubusercontent.com/u/18184155?s=40&amp;v=4",
-        "url": "https://github.com/safing"
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
       },
-      "summary": "开源网络监控与隐私保护工具，可阻止大规模监控，提供应用级防火墙、DNS过滤与流量控制。",
+      "summary": "开源AI引擎，无需GPU即可在本地运行LLM、视觉、语音、图像和视频模型，支持多种硬件。",
       "tags": [
-        "privacy",
-        "firewall",
-        "network-monitor",
-        "security",
-        "go"
+        "local-ai",
+        "llm",
+        "no-gpu",
+        "self-hosted",
+        "open-source"
       ],
-      "category": "Security",
-      "enrichedAt": "2026-07-20T03:26:00.600Z",
+      "category": "AI",
+      "enrichedAt": "2026-07-20T03:26:00.334Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "DeepSeek-Reasonix",
-      "fullName": "esengine/DeepSeek-Reasonix",
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "name": "cli-printing-press",
+      "fullName": "mvanhorn/cli-printing-press",
+      "url": "https://github.com/mvanhorn/cli-printing-press",
+      "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 27336,
-      "forks": 1743,
-      "starsToday": 78,
+      "stars": 4142,
+      "forks": 447,
+      "starsToday": 104,
       "topics": [],
       "author": {
-        "name": "esengine",
-        "avatar": "https://avatars.githubusercontent.com/u/32437197?s=40&amp;v=4",
-        "url": "https://github.com/esengine"
+        "name": "mvanhorn",
+        "avatar": "https://avatars.githubusercontent.com/u/517103?s=40&amp;v=4",
+        "url": "https://github.com/mvanhorn"
       },
-      "summary": "基于DeepSeek的终端AI编程助手，围绕前缀缓存稳定性设计，可常驻运行提升开发效率。",
+      "summary": "一款为AI Agent设计的终极Go CLI工具，自动发现API特性、整合竞品功能，支持SQLite同步、离线搜索与复合洞察命令。",
       "tags": [
-        "ai",
-        "coding-agent",
-        "terminal",
+        "cli",
         "go",
-        "deepseek"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:01.798Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "auth",
-      "fullName": "supabase/auth",
-      "url": "https://github.com/supabase/auth",
-      "description": "A JWT based API for managing users and issuing JWT tokens",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2500,
-      "forks": 706,
-      "starsToday": 3,
-      "topics": [],
-      "author": {
-        "name": "supabase",
-        "avatar": "https://avatars.githubusercontent.com/u/28647601?s=40&amp;v=4",
-        "url": "https://github.com/supabase"
-      },
-      "summary": "Supabase 开源的 JWT 用户认证 API，支持用户管理和令牌签发，Go 语言实现，轻量高效。",
-      "tags": [
-        "jwt",
-        "authentication",
-        "go",
-        "supabase",
+        "ai-agent",
+        "sqlite",
+        "offline-search",
         "api"
       ],
-      "category": "Auth",
-      "enrichedAt": "2026-07-20T03:26:01.850Z",
+      "category": "CLI",
+      "enrichedAt": "2026-07-20T11:48:08.461Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "nomad",
-      "fullName": "hashicorp/nomad",
-      "url": "https://github.com/hashicorp/nomad",
-      "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
+      "name": "croc",
+      "fullName": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 16715,
-      "forks": 2115,
-      "starsToday": 12,
+      "stars": 36074,
+      "forks": 1425,
+      "starsToday": 441,
       "topics": [],
       "author": {
-        "name": "hashicorp",
-        "avatar": "https://avatars.githubusercontent.com/u/1047914?s=40&amp;v=4",
-        "url": "https://github.com/hashicorp"
+        "name": "schollz",
+        "avatar": "https://avatars.githubusercontent.com/u/6550035?s=40&amp;v=4",
+        "url": "https://github.com/schollz"
       },
-      "summary": "Nomad 是一个易用、灵活、高性能的工作负载编排器，支持微服务、批处理、容器化及非容器化应用部署，原生集成 Consul 和 Vault，易于运维和扩展。",
+      "summary": "用Go编写的命令行工具，可在两台计算机之间轻松、安全地传输文件和文件夹，支持端到端加密和中继转发。",
       "tags": [
-        "orchestrator",
-        "workload",
-        "scheduler",
+        "file-transfer",
+        "cli",
+        "encryption",
         "go",
-        "hashicorp",
-        "container"
+        "p2p"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-20T03:26:02.186Z",
+      "category": "CLI",
+      "enrichedAt": "2026-07-20T11:48:08.284Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "lima",
-      "fullName": "lima-vm/lima",
-      "url": "https://github.com/lima-vm/lima",
-      "description": "Linux virtual machines, with a focus on running containers",
+      "name": "birdnet-go",
+      "fullName": "tphakala/birdnet-go",
+      "url": "https://github.com/tphakala/birdnet-go",
+      "description": "Self-hosted realtime soundscape analyser for birds, bats and other wildlife. Multi-model local AI inference, runs 24/7 on a Raspberry Pi.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 21534,
-      "forks": 930,
-      "starsToday": 11,
-      "topics": [],
-      "author": {
-        "name": "lima-vm",
-        "avatar": "https://avatars.githubusercontent.com/u/9248427?s=40&amp;v=4",
-        "url": "https://github.com/lima-vm"
-      },
-      "summary": "Lima 可一键启动 Linux 虚拟机，专为容器运行优化，支持 macOS 上无缝使用 containerd 和 Docker。",
-      "tags": [
-        "linux",
-        "virtual-machine",
-        "containers",
-        "macos",
-        "docker"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:02.485Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "anubis",
-      "fullName": "TecharoHQ/anubis",
-      "url": "https://github.com/TecharoHQ/anubis",
-      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 20800,
-      "forks": 659,
-      "starsToday": 28,
-      "topics": [],
-      "author": {
-        "name": "TecharoHQ",
-        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
-        "url": "https://github.com/TecharoHQ"
-      },
-      "summary": "通过HTTP请求权重分析识别并拦截AI爬虫，保护网站免受自动化抓取。",
-      "tags": [
-        "go",
-        "security",
-        "anti-bot",
-        "http",
-        "crawler-detection"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-07-20T03:26:03.604Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "oapi-codegen",
-      "fullName": "oapi-codegen/oapi-codegen",
-      "url": "https://github.com/oapi-codegen/oapi-codegen",
-      "description": "Generate Go client and server boilerplate from OpenAPI 3 specifications",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8463,
-      "forks": 1047,
-      "starsToday": 4,
-      "topics": [],
-      "author": {
-        "name": "oapi-codegen",
-        "avatar": "https://avatars.githubusercontent.com/u/3315059?s=40&amp;v=4",
-        "url": "https://github.com/oapi-codegen"
-      },
-      "summary": "从OpenAPI 3规范自动生成Go客户端和服务端样板代码，提升API开发效率。",
-      "tags": [
-        "openapi",
-        "go",
-        "codegen",
-        "api",
-        "client",
-        "server"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:03.474Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "MasterDnsVPN",
-      "fullName": "masterking32/MasterDnsVPN",
-      "url": "https://github.com/masterking32/MasterDnsVPN",
-      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6774,
-      "forks": 685,
-      "starsToday": 20,
-      "topics": [],
-      "author": {
-        "name": "masterking32",
-        "avatar": "https://avatars.githubusercontent.com/u/1076030?s=40&amp;v=4",
-        "url": "https://github.com/masterking32"
-      },
-      "summary": "基于DNS隧道的翻墙VPN，优化了ARQ低开销、解析器负载均衡，在高丢包环境下保持稳定高速，超越DNSTT和SlipStream。",
-      "tags": [
-        "dns-tunneling",
-        "vpn",
-        "censorship-bypass",
-        "go",
-        "network"
-      ],
-      "category": "Network",
-      "enrichedAt": "2026-07-20T03:26:04.322Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-deck",
-      "fullName": "asheshgoplani/agent-deck",
-      "url": "https://github.com/asheshgoplani/agent-deck",
-      "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 547,
-      "forks": 89,
+      "stars": 1486,
+      "forks": 142,
       "starsToday": 10,
       "topics": [],
       "author": {
-        "name": "asheshgoplani",
-        "avatar": "https://avatars.githubusercontent.com/u/36273585?s=40&amp;v=4",
-        "url": "https://github.com/asheshgoplani"
+        "name": "tphakala",
+        "avatar": "https://avatars.githubusercontent.com/u/7030001?s=40&amp;v=4",
+        "url": "https://github.com/tphakala"
       },
-      "summary": "AI编码代理的终端会话管理器，统一TUI界面支持Claude、Gemini、OpenCode、Codex等多种工具。",
+      "summary": "基于Go的自托管实时鸟类/蝙蝠声景分析器，支持多模型本地AI推理，可在树莓派上7x24小时运行。",
       "tags": [
-        "tui",
-        "ai-agents",
-        "terminal",
+        "birding",
+        "soundscape",
+        "ai-inference",
+        "raspberry-pi",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-20T03:26:07.344Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-go-compile-instrumentation",
+      "fullName": "open-telemetry/opentelemetry-go-compile-instrumentation",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation",
+      "description": "OpenTelemetry Go Compile Instrumentation",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 346,
+      "forks": 84,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/u/536449?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Go编译期插桩工具，无需修改源码即可自动注入追踪和监控能力，提升Go应用可观测性。",
+      "tags": [
+        "opentelemetry",
         "go",
-        "session-manager"
+        "instrumentation",
+        "observability",
+        "compiler"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:04.131Z",
+      "enrichedAt": "2026-07-20T11:48:10.198Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-stock",
+      "fullName": "ArvinLovegood/go-stock",
+      "url": "https://github.com/ArvinLovegood/go-stock",
+      "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6956,
+      "forks": 1230,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "ArvinLovegood",
+        "avatar": "https://avatars.githubusercontent.com/u/7401917?s=40&amp;v=4",
+        "url": "https://github.com/ArvinLovegood"
+      },
+      "summary": "AI赋能股票分析工具，支持A股/港股/美股行情获取、热点资讯分析、资金财务分析、情绪分析及AI辅助选股，数据本地保存，兼容DeepSeek/OpenAI/Ollama等多模型平台。",
+      "tags": [
+        "stock",
+        "ai",
+        "analysis",
+        "go",
+        "finance"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-20T11:48:10.316Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "printing-press-library",
+      "fullName": "mvanhorn/printing-press-library",
+      "url": "https://github.com/mvanhorn/printing-press-library",
+      "description": "Official library of CLIs generated by the CLI Printing Press. Endorsed, tested, and community-contributed.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1824,
+      "forks": 529,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "mvanhorn",
+        "avatar": "https://avatars.githubusercontent.com/u/517103?s=40&amp;v=4",
+        "url": "https://github.com/mvanhorn"
+      },
+      "summary": "CLI Printing Press 官方库，收录经测试和社区贡献的 CLI 工具，Go 语言实现。",
+      "tags": [
+        "cli",
+        "go",
+        "tools",
+        "community"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-20T11:48:10.180Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "crabbox",
+      "fullName": "openclaw/crabbox",
+      "url": "https://github.com/openclaw/crabbox",
+      "description": "Crabbox: warm a box, sync the diff, run the suite.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1192,
+      "forks": 140,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "openclaw",
+        "avatar": "https://avatars.githubusercontent.com/u/58493?s=40&amp;v=4",
+        "url": "https://github.com/openclaw"
+      },
+      "summary": "Crabbox 是一个 Go 语言开发的热重载测试工具，自动监测文件变更并运行测试套件，提升开发效率。",
+      "tags": [
+        "go",
+        "testing",
+        "hot-reload",
+        "devtools",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T11:48:10.404Z",
       "deepwikiAvailable": false
     },
     {
@@ -351,8 +321,8 @@
       "description": "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8390,
-      "forks": 1211,
+      "stars": 8404,
+      "forks": 1214,
       "starsToday": 26,
       "topics": [],
       "author": {
@@ -374,116 +344,199 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 176474,
-      "forks": 17034,
-      "starsToday": 79,
+      "stars": 6971,
+      "forks": 1409,
+      "starsToday": 8,
       "topics": [],
       "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
       },
-      "summary": "本地运行大模型的一站式工具，支持Kimi、DeepSeek、Qwen等多种主流模型，开箱即用。",
+      "summary": "开源太阳能电动车充电管理系统，智能调度充电时间以最大化利用光伏发电，支持多种硬件和电价策略。",
       "tags": [
-        "llm",
+        "solar",
+        "ev-charging",
         "go",
-        "local-ai",
-        "inference",
-        "cli"
+        "iot",
+        "energy"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:05.345Z",
+      "category": "App",
+      "enrichedAt": "2026-07-20T11:48:12.003Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "gitea",
-      "fullName": "go-gitea/gitea",
-      "url": "https://github.com/go-gitea/gitea",
-      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "name": "crush",
+      "fullName": "charmbracelet/crush",
+      "url": "https://github.com/charmbracelet/crush",
+      "description": "Glamourous agentic coding for all 💘",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 56916,
-      "forks": 6926,
-      "starsToday": 13,
+      "stars": 26663,
+      "forks": 2038,
+      "starsToday": 46,
       "topics": [],
       "author": {
-        "name": "go-gitea",
-        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
-        "url": "https://github.com/go-gitea"
+        "name": "charmbracelet",
+        "avatar": "https://avatars.githubusercontent.com/u/14311743?s=40&amp;v=4",
+        "url": "https://github.com/charmbracelet"
       },
-      "summary": "轻量级自托管Git服务，集成代码托管、Code Review、CI/CD、包管理及团队协作，开箱即用。",
+      "summary": "基于终端的 AI 编码助手，融合 Charm 生态的优雅交互与智能代理能力，提升开发效率。",
       "tags": [
-        "git",
-        "self-hosted",
+        "ai",
+        "cli",
+        "coding-assistant",
+        "go",
+        "terminal"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T11:48:12.163Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23625,
+      "forks": 904,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据、Docker统计和告警，Go编写，资源占用极低。",
+      "tags": [
+        "server-monitoring",
+        "docker",
+        "go",
         "devops",
-        "ci-cd",
+        "alerts"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T11:48:12.083Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "portmaster",
+      "fullName": "safing/portmaster",
+      "url": "https://github.com/safing/portmaster",
+      "description": "🏔 Love Freedom - ❌ Block Mass Surveillance",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13322,
+      "forks": 549,
+      "starsToday": 54,
+      "topics": [],
+      "author": {
+        "name": "safing",
+        "avatar": "https://avatars.githubusercontent.com/u/18184155?s=40&amp;v=4",
+        "url": "https://github.com/safing"
+      },
+      "summary": "开源网络监控与隐私保护工具，可阻止大规模监控，提供应用级防火墙、DNS过滤与流量控制。",
+      "tags": [
+        "privacy",
+        "firewall",
+        "network-monitor",
+        "security",
         "go"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-20T03:26:05.983Z",
+      "category": "Security",
+      "enrichedAt": "2026-07-20T03:26:00.600Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "cilium",
-      "fullName": "cilium/cilium",
-      "url": "https://github.com/cilium/cilium",
-      "description": "eBPF-based Networking, Security, and Observability",
+      "name": "casbin",
+      "fullName": "apache/casbin",
+      "url": "https://github.com/apache/casbin",
+      "description": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24749,
-      "forks": 3911,
-      "starsToday": 11,
+      "stars": 20264,
+      "forks": 1753,
+      "starsToday": 6,
       "topics": [],
       "author": {
-        "name": "cilium",
-        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
-        "url": "https://github.com/cilium"
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/3787410?s=40&amp;v=4",
+        "url": "https://github.com/apache"
       },
-      "summary": "基于eBPF的网络、安全与可观测性平台，提供高性能容器网络策略与透明服务网格能力。",
+      "summary": "Go语言权限控制库，支持ACL、RBAC、ABAC等多种访问控制模型，灵活高效。",
       "tags": [
-        "ebpf",
-        "networking",
-        "security",
-        "observability",
-        "kubernetes",
-        "service-mesh"
+        "go",
+        "authorization",
+        "rbac",
+        "acl",
+        "security"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-20T03:26:06.167Z",
+      "category": "Library",
+      "enrichedAt": "2026-07-20T11:48:11.907Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "birdnet-go",
-      "fullName": "tphakala/birdnet-go",
-      "url": "https://github.com/tphakala/birdnet-go",
-      "description": "Self-hosted realtime soundscape analyser for birds, bats and other wildlife. Multi-model local AI inference, runs 24/7 on a Raspberry Pi.",
+      "name": "llama-swap",
+      "fullName": "mostlygeek/llama-swap",
+      "url": "https://github.com/mostlygeek/llama-swap",
+      "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 1482,
-      "forks": 142,
+      "stars": 5059,
+      "forks": 383,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "mostlygeek",
+        "avatar": "https://avatars.githubusercontent.com/u/83972?s=40&amp;v=4",
+        "url": "https://github.com/mostlygeek"
+      },
+      "summary": "为本地 OpenAI/Anthropic 兼容服务器（llama.cpp、vllm 等）提供可靠的模型热切换能力，无需重启即可动态替换模型。",
+      "tags": [
+        "llm",
+        "model-swapping",
+        "openai-compatible",
+        "go",
+        "inference"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T11:48:13.700Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-deck",
+      "fullName": "asheshgoplani/agent-deck",
+      "url": "https://github.com/asheshgoplani/agent-deck",
+      "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 550,
+      "forks": 89,
       "starsToday": 10,
       "topics": [],
       "author": {
-        "name": "tphakala",
-        "avatar": "https://avatars.githubusercontent.com/u/7030001?s=40&amp;v=4",
-        "url": "https://github.com/tphakala"
+        "name": "asheshgoplani",
+        "avatar": "https://avatars.githubusercontent.com/u/36273585?s=40&amp;v=4",
+        "url": "https://github.com/asheshgoplani"
       },
-      "summary": "基于Go的自托管实时鸟类/蝙蝠声景分析器，支持多模型本地AI推理，可在树莓派上7x24小时运行。",
+      "summary": "AI编码代理的终端会话管理器，统一TUI界面支持Claude、Gemini、OpenCode、Codex等多种工具。",
       "tags": [
-        "birding",
-        "soundscape",
-        "ai-inference",
-        "raspberry-pi",
-        "self-hosted"
+        "tui",
+        "ai-agents",
+        "terminal",
+        "go",
+        "session-manager"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-07-20T03:26:07.344Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-07-20T03:26:04.131Z",
       "deepwikiAvailable": false
     }
   ]
