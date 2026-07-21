@@ -4,6 +4,12 @@ import RepoCard from '~/components/RepoCard.astro';
 import Filter from '~/components/Filter.astro';
 import ChatWidget from '~/components/ChatWidget.astro';
 import indexEntries from '~/data/index.json';
+import {
+  filterIndexEntries,
+  mergeReposFromSnapshots,
+  snapshotDateRange,
+  yearsFromEntries,
+} from '~/lib/trending-query';
 import type { EnrichedSnapshot, IndexEntry } from '~/types';
 
 const modules = import.meta.glob<{ default: EnrichedSnapshot }>('../data/*.json', { eager: true });
@@ -12,35 +18,41 @@ const entries = indexEntries as IndexEntry[];
 
 const sinces = Array.from(new Set(entries.map(e => e.since))).sort();
 const languages = Array.from(new Set(entries.map(e => e.language).filter(Boolean))).sort();
+const years = yearsFromEntries(entries);
 
 const since = (Astro.url.searchParams.get('since') || sinces[0] || 'daily') as IndexEntry['since'];
 const language = Astro.url.searchParams.get('language') || '';
+const year = Astro.url.searchParams.get('year') || '';
 
-const candidate = entries
-  .filter(e => e.since === since && (language === '' || e.language === language))
-  .sort((a, b) => (a.date < b.date ? 1 : -1))[0];
+const matchedEntries = filterIndexEntries(entries, { since, language, year });
+const snapshots = matchedEntries
+  .map(entry => {
+    const key = Object.keys(modules).find(k => k.endsWith(`/${entry.file}`));
+    return key ? modules[key].default : null;
+  })
+  .filter((snap): snap is EnrichedSnapshot => snap !== null);
 
-let snapshot: EnrichedSnapshot | null = null;
-if (candidate) {
-  const key = Object.keys(modules).find(k => k.endsWith(`/${candidate.file}`));
-  snapshot = key ? modules[key].default : null;
-}
+const repos = mergeReposFromSnapshots(snapshots);
+const dateRange = snapshotDateRange(matchedEntries);
+const latestFetchedAt = snapshots
+  .map(s => s.fetchedAt)
+  .sort((a, b) => b.localeCompare(a))[0];
 ---
 
-<Base title={`GitHub Trending Daily RAG · ${since}${language ? ' · ' + language : ''}`} active="trending">
+<Base title={`GitHub Trending Daily RAG · ${since}${language ? ' · ' + language : ''}${year ? ' · ' + year : ''}`} active="trending">
   <p class="text-sm text-slate-500 dark:text-slate-400 mb-4">
-    {snapshot
-      ? `共 ${snapshot.repos.length} 个仓库 · ${snapshot.date} · 抓取于 ${snapshot.fetchedAt.slice(0, 19).replace('T', ' ')} UTC${snapshot.enrichedAt ? ` · AI 增强于 ${snapshot.enrichedAt.slice(0, 19).replace('T', ' ')} UTC` : ''}`
+    {repos.length > 0
+      ? `共 ${repos.length} 个仓库（去重） · ${snapshots.length} 次快照${dateRange ? ` · ${dateRange}` : ''}${latestFetchedAt ? ` · 最近抓取 ${latestFetchedAt.slice(0, 19).replace('T', ' ')} UTC` : ''}`
       : '暂无数据。请在本地运行 `pnpm fetch`,或触发 GitHub Action。'}
   </p>
 
-  <Filter languages={languages} sinces={sinces} current={{ language, since }} action="/" />
+  <Filter languages={languages} sinces={sinces} years={years} current={{ language, since, year }} action="/" />
 
   <div id="search" class="mb-6"></div>
 
   <div id="repo-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
-    {snapshot && snapshot.repos.length > 0 ? (
-      snapshot.repos.map(repo => <RepoCard repo={repo} />)
+    {repos.length > 0 ? (
+      repos.map(repo => <RepoCard repo={repo} />)
     ) : (
       <p class="text-slate-500 dark:text-slate-400 col-span-full">No repos found.</p>
     )}

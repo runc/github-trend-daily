@@ -1,8 +1,9 @@
-import { writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import type { IndexEntry, Since, TrendingRepo, TrendingSnapshot } from '@github-trend-daily/shared';
+import type { EnrichedSnapshot, IndexEntry, Since, TrendingRepo, TrendingSnapshot } from '@github-trend-daily/shared';
 import { dedupeReposByFullName } from './dedupe-repos.ts';
+import { mergeReposByFullName } from './merge-repos.ts';
 import './proxy.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -162,9 +163,18 @@ async function writeJSON(path: string, data: unknown): Promise<void> {
 
 async function loadIndex(): Promise<IndexEntry[]> {
   try {
-    const f = await import('node:fs/promises');
-    const txt = await f.readFile(join(DATA_DIR, 'index.json'), 'utf8');
+    const txt = await readFile(join(DATA_DIR, 'index.json'), 'utf8');
     return JSON.parse(txt) as IndexEntry[];
+  } catch {
+    return [];
+  }
+}
+
+async function loadSnapshotRepos(fileName: string): Promise<TrendingRepo[]> {
+  try {
+    const txt = await readFile(join(DATA_DIR, fileName), 'utf8');
+    const snap = JSON.parse(txt) as TrendingSnapshot | EnrichedSnapshot;
+    return snap.repos ?? [];
   } catch {
     return [];
   }
@@ -183,10 +193,12 @@ export async function fetchAndWriteTrending(): Promise<{ entries: IndexEntry[]; 
   for (const since of SINCE_OPTIONS) {
     for (const lang of langList) {
       for (const spoken of spokenList) {
-        const repos = dedupeReposByFullName(await fetchTrending(since, lang, spoken));
+        const fresh = dedupeReposByFullName(await fetchTrending(since, lang, spoken));
         const langSlug = lang || 'all';
         const spokenSlug = spoken || 'all';
         const fileName = `${date}__${since}__${langSlug}__${spokenSlug}.json`;
+        const existingRepos = await loadSnapshotRepos(fileName);
+        const repos = existingRepos.length ? mergeReposByFullName(fresh, existingRepos) : fresh;
         const snapshot: TrendingSnapshot = { date, since, language: lang, fetchedAt, repos };
         await writeJSON(join(DATA_DIR, fileName), snapshot);
         console.log(`[write] ${fileName} (${repos.length} repos)`);
