@@ -2,8 +2,8 @@
   "date": "2026-07-22",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-07-22T02:50:03.758Z",
-  "enrichedAt": "2026-07-22T02:50:55.564Z",
+  "fetchedAt": "2026-07-22T11:11:28.077Z",
+  "enrichedAt": "2026-07-22T11:12:11.717Z",
   "repos": [
     {
       "name": "croc",
@@ -12,8 +12,8 @@
       "description": "Easily and securely send things from one computer to another 🐊 📦",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 36853,
-      "forks": 1461,
+      "stars": 37133,
+      "forks": 1469,
       "starsToday": 361,
       "topics": [],
       "author": {
@@ -31,6 +31,567 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-07-22T02:50:48.530Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "yopass",
+      "fullName": "jhaals/yopass",
+      "url": "https://github.com/jhaals/yopass",
+      "description": "Secure sharing of secrets, passwords and files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2984,
+      "forks": 431,
+      "starsToday": 53,
+      "topics": [],
+      "author": {
+        "name": "jhaals",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/jhaals"
+      },
+      "summary": "基于Go的加密秘密共享工具，支持密码与文件的安全临时分享，端到端加密，自动过期。",
+      "tags": [
+        "security",
+        "encryption",
+        "secrets",
+        "go",
+        "sharing"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-22T11:12:06.272Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33562,
+      "forks": 6907,
+      "starsToday": 285,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式AI订阅中转服务，统一接入Claude/OpenAI/Gemini/Grok，支持拼车分摊成本，原生工具无缝使用。",
+      "tags": [
+        "ai-proxy",
+        "subscription",
+        "open-source",
+        "go",
+        "api-gateway"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T11:12:06.159Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wx_channels_download",
+      "fullName": "ltaoo/wx_channels_download",
+      "url": "https://github.com/ltaoo/wx_channels_download",
+      "description": "微信视频号下载器",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7884,
+      "forks": 1273,
+      "starsToday": 381,
+      "topics": [],
+      "author": {
+        "name": "ltaoo",
+        "avatar": "https://avatars.githubusercontent.com/u/15319872?s=40&amp;v=4",
+        "url": "https://github.com/ltaoo"
+      },
+      "summary": "微信视频号视频下载工具，支持解析并下载视频号内容，操作简单高效。",
+      "tags": [
+        "wechat",
+        "video-downloader",
+        "go",
+        "downloader"
+      ],
+      "category": "Tool",
+      "enrichedAt": "2026-07-22T02:50:48.793Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pyroscope",
+      "fullName": "grafana/pyroscope",
+      "url": "https://github.com/grafana/pyroscope",
+      "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11566,
+      "forks": 777,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/223048?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "持续性能分析平台，可定位到单行代码的性能瓶颈，支持多种语言，与Grafana生态深度集成。",
+      "tags": [
+        "profiling",
+        "performance",
+        "observability",
+        "go",
+        "grafana"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T02:50:53.901Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whatsmeow",
+      "fullName": "tulir/whatsmeow",
+      "url": "https://github.com/tulir/whatsmeow",
+      "description": "Go library for the WhatsApp web multidevice API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6791,
+      "forks": 1100,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "tulir",
+        "avatar": "https://avatars.githubusercontent.com/u/4224639?s=40&amp;v=4",
+        "url": "https://github.com/tulir"
+      },
+      "summary": "Go 语言实现的 WhatsApp 多设备 API 库，支持发送接收消息、媒体、群组管理等，是构建 WhatsApp 机器人和客户端的核心工具。",
+      "tags": [
+        "go",
+        "whatsapp",
+        "library",
+        "api",
+        "messaging"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-22T11:12:06.209Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "alloy",
+      "fullName": "grafana/alloy",
+      "url": "https://github.com/grafana/alloy",
+      "description": "OpenTelemetry Collector distribution with programmable pipelines",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3355,
+      "forks": 655,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/630212?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "基于OpenTelemetry的可编程管道收集器，集成了Grafana生态，用于灵活采集、处理和路由遥测数据。",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "telemetry",
+        "grafana",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T02:50:50.426Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10911,
+      "forks": 750,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的高性能代码审查工具，混合架构（确定性流水线+LLM Agent），支持行级评论、内置NPE/线程安全/XSS/SQL注入规则集，兼容OpenAI和Anthropic。",
+      "tags": [
+        "code-review",
+        "static-analysis",
+        "llm",
+        "security",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T11:12:06.435Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "domain-list-community",
+      "fullName": "v2fly/domain-list-community",
+      "url": "https://github.com/v2fly/domain-list-community",
+      "description": "Community managed domain list. Generate geosite.dat for V2Ray.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9182,
+      "forks": 1390,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "v2fly",
+        "avatar": "https://avatars.githubusercontent.com/u/10487845?s=40&amp;v=4",
+        "url": "https://github.com/v2fly"
+      },
+      "summary": "社区维护的域名列表，为 V2Ray 生成 geosite.dat 规则文件，用于网络分流与路由。",
+      "tags": [
+        "v2ray",
+        "domain-list",
+        "geosite",
+        "proxy",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T11:12:07.599Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kueue",
+      "fullName": "kubernetes-sigs/kueue",
+      "url": "https://github.com/kubernetes-sigs/kueue",
+      "description": "Kubernetes-native Job Queueing",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2737,
+      "forks": 699,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/13921122?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubernetes 原生的作业排队与调度系统，支持批处理、AI/ML 工作负载的公平调度与资源配额管理。",
+      "tags": [
+        "kubernetes",
+        "job-scheduling",
+        "batch",
+        "queueing",
+        "ai-ml"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T11:12:07.964Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-collector",
+      "fullName": "open-telemetry/opentelemetry-collector",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "description": "OpenTelemetry Collector",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7289,
+      "forks": 2162,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/u/1373887?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Collector 是一个厂商无关的数据采集器，用于接收、处理和导出遥测数据（追踪、指标、日志），是可观测性基础设施的核心组件。",
+      "tags": [
+        "observability",
+        "telemetry",
+        "go",
+        "collector",
+        "opentelemetry"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T11:12:08.191Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "volcano",
+      "fullName": "volcano-sh/volcano",
+      "url": "https://github.com/volcano-sh/volcano",
+      "description": "A Cloud Native Batch System (Project under CNCF)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5791,
+      "forks": 1457,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "volcano-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/49986348?s=40&amp;v=4",
+        "url": "https://github.com/volcano-sh"
+      },
+      "summary": "CNCF 云原生批处理系统，用于 Kubernetes 上的高性能批处理、AI/ML 和大数据作业调度。",
+      "tags": [
+        "kubernetes",
+        "batch-scheduling",
+        "cloud-native",
+        "ai-ml",
+        "cncf",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T11:12:09.315Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58612,
+      "forks": 5236,
+      "starsToday": 99,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "云存储文件同步工具，支持 Google Drive、S3、Dropbox 等 40+ 存储后端，功能类似 rsync。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "go",
+        "cli",
+        "backup"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-22T02:50:50.542Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "golangci-lint",
+      "fullName": "golangci/golangci-lint",
+      "url": "https://github.com/golangci/golangci-lint",
+      "description": "Fast linters runner for Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19198,
+      "forks": 1593,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "golangci",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/golangci"
+      },
+      "summary": "Go 语言高性能 lint 运行器，集成多种 linter，极速并行分析，提升代码质量与开发效率。",
+      "tags": [
+        "go",
+        "linter",
+        "static-analysis",
+        "code-quality",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T11:12:09.553Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41505,
+      "forks": 5246,
+      "starsToday": 176,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源托管式AI智能体平台，将编码智能体转化为真正的队友，支持任务分配、进度追踪与技能积累。",
+      "tags": [
+        "ai-agents",
+        "platform",
+        "go",
+        "open-source",
+        "devtools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T11:12:09.707Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "frp",
+      "fullName": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 108265,
+      "forks": 15131,
+      "starsToday": 54,
+      "topics": [],
+      "author": {
+        "name": "fatedier",
+        "avatar": "https://avatars.githubusercontent.com/u/7346661?s=40&amp;v=4",
+        "url": "https://github.com/fatedier"
+      },
+      "summary": "高性能反向代理工具，帮助将内网或防火墙后的本地服务安全暴露到公网，支持多种协议和流量加密。",
+      "tags": [
+        "reverse-proxy",
+        "nat",
+        "tunnel",
+        "networking",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T11:12:10.080Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-sandbox",
+      "fullName": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3246,
+      "forks": 417,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/4876867?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "基于Kubernetes的隔离有状态单例工作负载管理工具，专为AI Agent运行时等场景设计。",
+      "tags": [
+        "kubernetes",
+        "ai-agents",
+        "sandbox",
+        "workload-management",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T11:12:11.037Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23692,
+      "forks": 7542,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于GitOps的Kubernetes声明式持续部署工具，通过应用定义、同步和自动化实现可靠交付。",
+      "tags": [
+        "gitops",
+        "kubernetes",
+        "cd",
+        "declarative",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T11:12:11.283Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terragrunt",
+      "fullName": "gruntwork-io/terragrunt",
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "description": "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9724,
+      "forks": 1214,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "gruntwork-io",
+        "avatar": "https://avatars.githubusercontent.com/u/11247449?s=40&amp;v=4",
+        "url": "https://github.com/gruntwork-io"
+      },
+      "summary": "Terragrunt 是 OpenTofu/Terraform 的灵活编排工具，帮助基础设施即代码实现规模化管理和多环境部署。",
+      "tags": [
+        "terraform",
+        "opentofu",
+        "infrastructure",
+        "iac",
+        "orchestration",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T11:12:11.417Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AgentTeams",
+      "fullName": "agentscope-ai/AgentTeams",
+      "url": "https://github.com/agentscope-ai/AgentTeams",
+      "description": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5136,
+      "forks": 608,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "agentscope-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/6763318?s=40&amp;v=4",
+        "url": "https://github.com/agentscope-ai"
+      },
+      "summary": "基于Matrix房间的开源协作式多智能体操作系统，支持透明的人机协同任务协调。",
+      "tags": [
+        "multi-agent",
+        "collaboration",
+        "matrix",
+        "human-in-the-loop",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-22T02:50:52.040Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "podman",
+      "fullName": "podman-container-tools/podman",
+      "url": "https://github.com/podman-container-tools/podman",
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32331,
+      "forks": 3202,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "podman-container-tools",
+        "avatar": "https://avatars.githubusercontent.com/u/30189218?s=40&amp;v=4",
+        "url": "https://github.com/podman-container-tools"
+      },
+      "summary": "Podman 是一款无守护进程的 OCI 容器与 Pod 管理工具，兼容 Docker CLI，支持 rootless 运行，安全轻量。",
+      "tags": [
+        "containers",
+        "podman",
+        "docker-alternative",
+        "oci",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-22T11:12:11.717Z",
       "deepwikiAvailable": false
     },
     {
@@ -90,33 +651,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "wx_channels_download",
-      "fullName": "ltaoo/wx_channels_download",
-      "url": "https://github.com/ltaoo/wx_channels_download",
-      "description": "微信视频号下载器",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7834,
-      "forks": 1259,
-      "starsToday": 381,
-      "topics": [],
-      "author": {
-        "name": "ltaoo",
-        "avatar": "https://avatars.githubusercontent.com/u/15319872?s=40&amp;v=4",
-        "url": "https://github.com/ltaoo"
-      },
-      "summary": "微信视频号视频下载工具，支持解析并下载视频号内容，操作简单高效。",
-      "tags": [
-        "wechat",
-        "video-downloader",
-        "go",
-        "downloader"
-      ],
-      "category": "Tool",
-      "enrichedAt": "2026-07-22T02:50:48.793Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "agentfield",
       "fullName": "Agent-Field/agentfield",
       "url": "https://github.com/Agent-Field/agentfield",
@@ -145,34 +679,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "alloy",
-      "fullName": "grafana/alloy",
-      "url": "https://github.com/grafana/alloy",
-      "description": "OpenTelemetry Collector distribution with programmable pipelines",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3355,
-      "forks": 655,
-      "starsToday": 4,
-      "topics": [],
-      "author": {
-        "name": "grafana",
-        "avatar": "https://avatars.githubusercontent.com/u/630212?s=40&amp;v=4",
-        "url": "https://github.com/grafana"
-      },
-      "summary": "基于OpenTelemetry的可编程管道收集器，集成了Grafana生态，用于灵活采集、处理和路由遥测数据。",
-      "tags": [
-        "opentelemetry",
-        "observability",
-        "telemetry",
-        "grafana",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-22T02:50:50.426Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "temporal",
       "fullName": "temporalio/temporal",
       "url": "https://github.com/temporalio/temporal",
@@ -198,34 +704,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-07-22T02:50:50.523Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rclone",
-      "fullName": "rclone/rclone",
-      "url": "https://github.com/rclone/rclone",
-      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 58591,
-      "forks": 5235,
-      "starsToday": 99,
-      "topics": [],
-      "author": {
-        "name": "rclone",
-        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
-        "url": "https://github.com/rclone"
-      },
-      "summary": "云存储文件同步工具，支持 Google Drive、S3、Dropbox 等 40+ 存储后端，功能类似 rsync。",
-      "tags": [
-        "cloud-storage",
-        "sync",
-        "go",
-        "cli",
-        "backup"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-22T02:50:50.542Z",
       "deepwikiAvailable": false
     },
     {
@@ -282,34 +760,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-07-22T02:50:52.163Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "AgentTeams",
-      "fullName": "agentscope-ai/AgentTeams",
-      "url": "https://github.com/agentscope-ai/AgentTeams",
-      "description": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5127,
-      "forks": 608,
-      "starsToday": 9,
-      "topics": [],
-      "author": {
-        "name": "agentscope-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/6763318?s=40&amp;v=4",
-        "url": "https://github.com/agentscope-ai"
-      },
-      "summary": "基于Matrix房间的开源协作式多智能体操作系统，支持透明的人机协同任务协调。",
-      "tags": [
-        "multi-agent",
-        "collaboration",
-        "matrix",
-        "human-in-the-loop",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-22T02:50:52.040Z",
       "deepwikiAvailable": false
     },
     {
@@ -423,34 +873,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-07-22T02:50:53.744Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pyroscope",
-      "fullName": "grafana/pyroscope",
-      "url": "https://github.com/grafana/pyroscope",
-      "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 11564,
-      "forks": 777,
-      "starsToday": 6,
-      "topics": [],
-      "author": {
-        "name": "grafana",
-        "avatar": "https://avatars.githubusercontent.com/u/223048?s=40&amp;v=4",
-        "url": "https://github.com/grafana"
-      },
-      "summary": "持续性能分析平台，可定位到单行代码的性能瓶颈，支持多种语言，与Grafana生态深度集成。",
-      "tags": [
-        "profiling",
-        "performance",
-        "observability",
-        "go",
-        "grafana"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-22T02:50:53.901Z",
       "deepwikiAvailable": false
     },
     {

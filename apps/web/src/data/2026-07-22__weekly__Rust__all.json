@@ -2,8 +2,8 @@
   "date": "2026-07-22",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-07-22T02:50:03.758Z",
-  "enrichedAt": "2026-07-22T02:52:00.403Z",
+  "fetchedAt": "2026-07-22T11:11:28.077Z",
+  "enrichedAt": "2026-07-22T11:12:40.260Z",
   "repos": [
     {
       "name": "jcode",
@@ -12,8 +12,8 @@
       "description": "The most intelligent agent harness for code",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 10380,
-      "forks": 1140,
+      "stars": 10583,
+      "forks": 1155,
       "starsToday": 1769,
       "topics": [],
       "author": {
@@ -34,31 +34,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "destructive_command_guard",
-      "fullName": "Dicklesworthstone/destructive_command_guard",
-      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "name": "openinterpreter",
+      "fullName": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5290,
-      "forks": 196,
-      "starsToday": 1167,
+      "stars": 67105,
+      "forks": 5761,
+      "starsToday": 2205,
       "topics": [],
       "author": {
-        "name": "Dicklesworthstone",
-        "avatar": "https://avatars.githubusercontent.com/u/35050222?s=40&amp;v=4",
-        "url": "https://github.com/Dicklesworthstone"
+        "name": "openinterpreter",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openinterpreter"
       },
-      "summary": "用Rust编写的命令行安全防护工具，阻止AI代理执行危险的git和shell命令，保护系统免受破坏性操作。",
+      "summary": "基于开源模型（如Kimi K3）的编码代理，支持自然语言驱动代码执行与自动化任务。",
       "tags": [
-        "security",
-        "cli",
+        "coding-agent",
+        "open-models",
+        "automation",
         "rust",
-        "agent-safety",
-        "git"
+        "ai"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-22T02:51:52.719Z",
+      "category": "AI",
+      "enrichedAt": "2026-07-22T02:51:52.589Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,8 +68,8 @@
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 100445,
-      "forks": 15035,
+      "stars": 100605,
+      "forks": 15062,
       "starsToday": 2445,
       "topics": [],
       "author": {
@@ -91,42 +91,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "openinterpreter",
-      "fullName": "openinterpreter/openinterpreter",
-      "url": "https://github.com/openinterpreter/openinterpreter",
-      "description": "A coding agent for open models like Kimi K3",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 67076,
-      "forks": 5759,
-      "starsToday": 2205,
-      "topics": [],
-      "author": {
-        "name": "openinterpreter",
-        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
-        "url": "https://github.com/openinterpreter"
-      },
-      "summary": "基于开源模型（如Kimi K3）的编码代理，支持自然语言驱动代码执行与自动化任务。",
-      "tags": [
-        "coding-agent",
-        "open-models",
-        "automation",
-        "rust",
-        "ai"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-22T02:51:52.589Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "herdr",
       "fullName": "ogulcancelik/herdr",
       "url": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 19194,
-      "forks": 1258,
+      "stars": 19324,
+      "forks": 1264,
       "starsToday": 2799,
       "topics": [],
       "author": {
@@ -147,14 +119,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 82910,
+      "forks": 11170,
+      "starsToday": 2313,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "利用商用WiFi信号实现实时空间感知、生命体征监测与存在检测，无需摄像头，隐私安全。",
+      "tags": [
+        "wifi-sensing",
+        "spatial-intelligence",
+        "vital-signs",
+        "presence-detection",
+        "rust",
+        "privacy"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-22T11:12:38.472Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "screenpipe",
       "fullName": "screenpipe/screenpipe",
       "url": "https://github.com/screenpipe/screenpipe",
       "description": "YC (S26) | Record your screen 24/7 and plug into your agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 20370,
-      "forks": 2011,
+      "stars": 20381,
+      "forks": 2010,
       "starsToday": 542,
       "topics": [],
       "author": {
@@ -175,14 +176,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2911,
+      "forks": 207,
+      "starsToday": 2720,
+      "topics": [],
+      "author": {
+        "name": "block",
+        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
+        "url": "https://github.com/block"
+      },
+      "summary": "基于Rust的蜂群思维通信平台，实现去中心化群体协作与信息共享。",
+      "tags": [
+        "rust",
+        "decentralized",
+        "communication",
+        "collaboration"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-22T11:12:38.474Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "dioxus",
       "fullName": "DioxusLabs/dioxus",
       "url": "https://github.com/DioxusLabs/dioxus",
       "description": "Fullstack app framework for web, desktop, and mobile.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37699,
-      "forks": 1777,
+      "stars": 37848,
+      "forks": 1779,
       "starsToday": 791,
       "topics": [],
       "author": {
@@ -204,14 +232,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "memvid",
+      "fullName": "memvid/memvid",
+      "url": "https://github.com/memvid/memvid",
+      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16029,
+      "forks": 1388,
+      "starsToday": 210,
+      "topics": [],
+      "author": {
+        "name": "memvid",
+        "avatar": "https://avatars.githubusercontent.com/u/83120892?s=40&amp;v=4",
+        "url": "https://github.com/memvid"
+      },
+      "summary": "为AI Agent提供内存层，用无服务器单文件方案替代复杂RAG管道，实现即时检索与长期记忆。",
+      "tags": [
+        "ai",
+        "memory",
+        "rag",
+        "agent",
+        "serverless",
+        "rust"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-22T11:12:38.439Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "llmfit",
       "fullName": "AlexsJones/llmfit",
       "url": "https://github.com/AlexsJones/llmfit",
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30255,
-      "forks": 1844,
+      "stars": 30396,
+      "forks": 1846,
       "starsToday": 616,
       "topics": [],
       "author": {
@@ -238,7 +295,7 @@
       "description": "✨ Making your shell magical",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30695,
+      "stars": 30699,
       "forks": 900,
       "starsToday": 149,
       "topics": [],
@@ -260,14 +317,210 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30091,
+      "forks": 1323,
+      "starsToday": 277,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "比MinIO快2.3倍的开源S3兼容对象存储系统，支持与MinIO、Ceph等平台迁移共存，高性能Rust实现。",
+      "tags": [
+        "s3-compatible",
+        "object-storage",
+        "high-performance",
+        "rust",
+        "minio-alternative"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T02:51:57.613Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8105,
+      "forks": 576,
+      "starsToday": 149,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用Rust编写的高性能Minecraft服务端，让每个人都能快速高效地开服，性能远超原版。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "game-server",
+        "performance",
+        "server-software"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T11:12:38.435Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ironclaw",
+      "fullName": "nearai/ironclaw",
+      "url": "https://github.com/nearai/ironclaw",
+      "description": "IronClaw is an Agent OS focused on privacy, security and extensibility",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12546,
+      "forks": 1484,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "nearai",
+        "avatar": "https://avatars.githubusercontent.com/u/5748809?s=40&amp;v=4",
+        "url": "https://github.com/nearai"
+      },
+      "summary": "基于Rust的Agent OS，专注隐私、安全与可扩展性，为AI代理提供底层运行环境。",
+      "tags": [
+        "rust",
+        "agent-os",
+        "privacy",
+        "security",
+        "ai"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-22T02:51:59.157Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pnpm",
+      "fullName": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 35853,
+      "forks": 1592,
+      "starsToday": 89,
+      "topics": [],
+      "author": {
+        "name": "pnpm",
+        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
+        "url": "https://github.com/pnpm"
+      },
+      "summary": "快速、节省磁盘空间的 JavaScript 包管理器，支持 monorepo，比 npm/yarn 更快更高效。",
+      "tags": [
+        "package-manager",
+        "javascript",
+        "nodejs",
+        "monorepo",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-22T02:51:57.303Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wezterm",
+      "fullName": "wezterm/wezterm",
+      "url": "https://github.com/wezterm/wezterm",
+      "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 27835,
+      "forks": 1605,
+      "starsToday": 259,
+      "topics": [],
+      "author": {
+        "name": "wezterm",
+        "avatar": "https://avatars.githubusercontent.com/u/117777?s=40&amp;v=4",
+        "url": "https://github.com/wezterm"
+      },
+      "summary": "GPU加速的跨平台终端模拟器与多路复用器，基于Rust开发，性能出色且功能丰富。",
+      "tags": [
+        "terminal",
+        "gpu-accelerated",
+        "multiplexer",
+        "rust",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-22T02:51:55.994Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "warp",
+      "fullName": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 63553,
+      "forks": 5313,
+      "starsToday": 391,
+      "topics": [],
+      "author": {
+        "name": "warpdotdev",
+        "avatar": "https://avatars.githubusercontent.com/u/260729474?s=40&amp;v=4",
+        "url": "https://github.com/warpdotdev"
+      },
+      "summary": "Warp 是一个基于终端构建的智能代理开发环境，融合 AI 辅助与现代化终端体验，提升开发效率。",
+      "tags": [
+        "terminal",
+        "ai",
+        "developer-tools",
+        "rust",
+        "productivity"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T02:51:58.889Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "destructive_command_guard",
+      "fullName": "Dicklesworthstone/destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5312,
+      "forks": 197,
+      "starsToday": 1167,
+      "topics": [],
+      "author": {
+        "name": "Dicklesworthstone",
+        "avatar": "https://avatars.githubusercontent.com/u/35050222?s=40&amp;v=4",
+        "url": "https://github.com/Dicklesworthstone"
+      },
+      "summary": "用Rust编写的命令行安全防护工具，阻止AI代理执行危险的git和shell命令，保护系统免受破坏性操作。",
+      "tags": [
+        "security",
+        "cli",
+        "rust",
+        "agent-safety",
+        "git"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-22T02:51:52.719Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "pgrust",
       "fullName": "malisper/pgrust",
       "url": "https://github.com/malisper/pgrust",
       "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3675,
-      "forks": 131,
+      "stars": 3693,
+      "forks": 132,
       "starsToday": 775,
       "topics": [],
       "author": {
@@ -284,6 +537,89 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-07-22T02:51:55.704Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentos",
+      "fullName": "rivet-dev/agentos",
+      "url": "https://github.com/rivet-dev/agentos",
+      "description": "A faster, lighter, cheaper alternative to sandboxes. Run any coding agent inside an isolated Linux VM, with agent orchestration built in.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3986,
+      "forks": 198,
+      "starsToday": 341,
+      "topics": [],
+      "author": {
+        "name": "rivet-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/3322446?s=40&amp;v=4",
+        "url": "https://github.com/rivet-dev"
+      },
+      "summary": "轻量级隔离Linux VM，专为运行编码代理设计，内置代理编排，比传统沙箱更快更省。",
+      "tags": [
+        "sandbox",
+        "vm",
+        "agent",
+        "rust",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-22T11:12:40.168Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jellium-desktop",
+      "fullName": "andrewrabert/jellium-desktop",
+      "url": "https://github.com/andrewrabert/jellium-desktop",
+      "description": "An unofficial desktop client for Jellyfin",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1512,
+      "forks": 118,
+      "starsToday": 365,
+      "topics": [],
+      "author": {
+        "name": "andrewrabert",
+        "avatar": "https://avatars.githubusercontent.com/u/6550543?s=40&amp;v=4",
+        "url": "https://github.com/andrewrabert"
+      },
+      "summary": "基于Rust的非官方Jellyfin桌面客户端，提供流畅的媒体播放体验。",
+      "tags": [
+        "jellyfin",
+        "media-client",
+        "rust",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-22T02:52:00.278Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4319,
+      "forks": 421,
+      "starsToday": 255,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "全球首个开源AI原生矢量设计工具，支持Agent团队协作，将提示词直接转为UI画布，实现Design-as-Code。",
+      "tags": [
+        "ai-native",
+        "vector-design",
+        "design-as-code",
+        "open-source",
+        "rust"
+      ],
+      "category": "DesignTool",
+      "enrichedAt": "2026-07-22T11:12:40.260Z",
       "deepwikiAvailable": false
     },
     {
@@ -315,62 +651,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "wezterm",
-      "fullName": "wezterm/wezterm",
-      "url": "https://github.com/wezterm/wezterm",
-      "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 27833,
-      "forks": 1603,
-      "starsToday": 259,
-      "topics": [],
-      "author": {
-        "name": "wezterm",
-        "avatar": "https://avatars.githubusercontent.com/u/117777?s=40&amp;v=4",
-        "url": "https://github.com/wezterm"
-      },
-      "summary": "GPU加速的跨平台终端模拟器与多路复用器，基于Rust开发，性能出色且功能丰富。",
-      "tags": [
-        "terminal",
-        "gpu-accelerated",
-        "multiplexer",
-        "rust",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-22T02:51:55.994Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pnpm",
-      "fullName": "pnpm/pnpm",
-      "url": "https://github.com/pnpm/pnpm",
-      "description": "Fast, disk space efficient package manager",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 35848,
-      "forks": 1591,
-      "starsToday": 89,
-      "topics": [],
-      "author": {
-        "name": "pnpm",
-        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
-        "url": "https://github.com/pnpm"
-      },
-      "summary": "快速、节省磁盘空间的 JavaScript 包管理器，支持 monorepo，比 npm/yarn 更快更高效。",
-      "tags": [
-        "package-manager",
-        "javascript",
-        "nodejs",
-        "monorepo",
-        "cli"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-22T02:51:57.303Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "stalwart",
       "fullName": "stalwartlabs/stalwart",
       "url": "https://github.com/stalwartlabs/stalwart",
@@ -397,34 +677,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-07-22T02:51:57.231Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 30071,
-      "forks": 1321,
-      "starsToday": 277,
-      "topics": [],
-      "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
-      },
-      "summary": "比MinIO快2.3倍的开源S3兼容对象存储系统，支持与MinIO、Ceph等平台迁移共存，高性能Rust实现。",
-      "tags": [
-        "s3-compatible",
-        "object-storage",
-        "high-performance",
-        "rust",
-        "minio-alternative"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-22T02:51:57.613Z",
       "deepwikiAvailable": false
     },
     {
@@ -484,34 +736,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "warp",
-      "fullName": "warpdotdev/warp",
-      "url": "https://github.com/warpdotdev/warp",
-      "description": "Warp is an agentic development environment, born out of the terminal.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 63535,
-      "forks": 5307,
-      "starsToday": 391,
-      "topics": [],
-      "author": {
-        "name": "warpdotdev",
-        "avatar": "https://avatars.githubusercontent.com/u/260729474?s=40&amp;v=4",
-        "url": "https://github.com/warpdotdev"
-      },
-      "summary": "Warp 是一个基于终端构建的智能代理开发环境，融合 AI 辅助与现代化终端体验，提升开发效率。",
-      "tags": [
-        "terminal",
-        "ai",
-        "developer-tools",
-        "rust",
-        "productivity"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-22T02:51:58.889Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "lance",
       "fullName": "lance-format/lance",
       "url": "https://github.com/lance-format/lance",
@@ -541,34 +765,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ironclaw",
-      "fullName": "nearai/ironclaw",
-      "url": "https://github.com/nearai/ironclaw",
-      "description": "IronClaw is an Agent OS focused on privacy, security and extensibility",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 12546,
-      "forks": 1482,
-      "starsToday": 42,
-      "topics": [],
-      "author": {
-        "name": "nearai",
-        "avatar": "https://avatars.githubusercontent.com/u/5748809?s=40&amp;v=4",
-        "url": "https://github.com/nearai"
-      },
-      "summary": "基于Rust的Agent OS，专注隐私、安全与可扩展性，为AI代理提供底层运行环境。",
-      "tags": [
-        "rust",
-        "agent-os",
-        "privacy",
-        "security",
-        "ai"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-22T02:51:59.157Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "jj",
       "fullName": "jj-vcs/jj",
       "url": "https://github.com/jj-vcs/jj",
@@ -593,33 +789,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-22T02:52:00.403Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jellium-desktop",
-      "fullName": "andrewrabert/jellium-desktop",
-      "url": "https://github.com/andrewrabert/jellium-desktop",
-      "description": "An unofficial desktop client for Jellyfin",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1492,
-      "forks": 118,
-      "starsToday": 365,
-      "topics": [],
-      "author": {
-        "name": "andrewrabert",
-        "avatar": "https://avatars.githubusercontent.com/u/6550543?s=40&amp;v=4",
-        "url": "https://github.com/andrewrabert"
-      },
-      "summary": "基于Rust的非官方Jellyfin桌面客户端，提供流畅的媒体播放体验。",
-      "tags": [
-        "jellyfin",
-        "media-client",
-        "rust",
-        "desktop"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-22T02:52:00.278Z",
       "deepwikiAvailable": false
     }
   ]
