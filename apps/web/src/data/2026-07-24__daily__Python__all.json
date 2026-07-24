@@ -2,9 +2,37 @@
   "date": "2026-07-24",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-07-24T02:50:43.722Z",
-  "enrichedAt": "2026-07-24T02:51:21.230Z",
+  "fetchedAt": "2026-07-24T11:04:59.547Z",
+  "enrichedAt": "2026-07-24T11:05:36.620Z",
   "repos": [
+    {
+      "name": "awesome-claude-skills",
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 69743,
+      "forks": 7871,
+      "starsToday": 636,
+      "topics": [],
+      "author": {
+        "name": "ComposioHQ",
+        "avatar": "https://avatars.githubusercontent.com/u/67639393?s=40&amp;v=4",
+        "url": "https://github.com/ComposioHQ"
+      },
+      "summary": "Claude Skills 精选资源合集，包含工具、教程和工作流定制方案，帮助用户扩展 Claude AI 能力。",
+      "tags": [
+        "claude",
+        "ai",
+        "resources",
+        "curated-list",
+        "workflow"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-24T02:51:18.077Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "Kronos",
       "fullName": "shiyu-coder/Kronos",
@@ -12,8 +40,8 @@
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 33120,
-      "forks": 5652,
+      "stars": 33310,
+      "forks": 5662,
       "starsToday": 401,
       "topics": [],
       "author": {
@@ -34,31 +62,395 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "awesome-claude-skills",
-      "fullName": "ComposioHQ/awesome-claude-skills",
-      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "name": "outlines",
+      "fullName": "dottxt-ai/outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "description": "Structured Outputs",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 69500,
-      "forks": 7859,
-      "starsToday": 636,
+      "stars": 15302,
+      "forks": 812,
+      "starsToday": 56,
       "topics": [],
       "author": {
-        "name": "ComposioHQ",
-        "avatar": "https://avatars.githubusercontent.com/u/67639393?s=40&amp;v=4",
-        "url": "https://github.com/ComposioHQ"
+        "name": "dottxt-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/3885044?s=40&amp;v=4",
+        "url": "https://github.com/dottxt-ai"
       },
-      "summary": "Claude Skills 精选资源合集，包含工具、教程和工作流定制方案，帮助用户扩展 Claude AI 能力。",
+      "summary": "为LLM生成结构化输出（JSON/模式）的可靠库，确保模型输出严格遵循预定义格式。",
       "tags": [
-        "claude",
+        "llm",
+        "structured-output",
+        "python",
+        "json",
+        "validation"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-24T11:05:32.891Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "paperless-ngx",
+      "fullName": "paperless-ngx/paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 43422,
+      "forks": 2932,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "paperless-ngx",
+        "avatar": "https://avatars.githubusercontent.com/u/4887959?s=40&amp;v=4",
+        "url": "https://github.com/paperless-ngx"
+      },
+      "summary": "开源文档管理系统，支持扫描、索引、归档和智能搜索，自托管首选。",
+      "tags": [
+        "document-management",
+        "self-hosted",
+        "ocr",
+        "python",
+        "scan"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-24T11:05:32.921Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skypilot",
+      "fullName": "skypilot-org/skypilot",
+      "url": "https://github.com/skypilot-org/skypilot",
+      "description": "The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 10376,
+      "forks": 1150,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "skypilot-org",
+        "avatar": "https://avatars.githubusercontent.com/u/6753189?s=40&amp;v=4",
+        "url": "https://github.com/skypilot-org"
+      },
+      "summary": "统一多云AI算力平台，将分散的GPU资源整合为单一超级计算机，简化AI训练与推理部署。",
+      "tags": [
+        "cloud",
+        "gpu",
+        "mlops",
+        "infrastructure",
+        "python"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:19.602Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 42981,
+      "forks": 7179,
+      "starsToday": 802,
+      "topics": [],
+      "author": {
+        "name": "rohitg00",
+        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
+        "url": "https://github.com/rohitg00"
+      },
+      "summary": "从零开始学习AI工程，涵盖理论、构建与部署，适合自学和实战的完整教程项目。",
+      "tags": [
         "ai",
-        "resources",
-        "curated-list",
-        "workflow"
+        "engineering",
+        "tutorial",
+        "python",
+        "learning"
+      ],
+      "category": "Education",
+      "enrichedAt": "2026-07-24T02:51:19.701Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 41823,
+      "forks": 4982,
+      "starsToday": 349,
+      "topics": [],
+      "author": {
+        "name": "calesthio",
+        "avatar": "https://avatars.githubusercontent.com/u/213189893?s=40&amp;v=4",
+        "url": "https://github.com/calesthio"
+      },
+      "summary": "全球首个开源智能视频制作系统，集成12条生产管线、100+工具和700+智能体技能文件，将AI编程助手变为完整视频工作室。",
+      "tags": [
+        "video-production",
+        "agentic",
+        "open-source",
+        "ai",
+        "python"
       ],
       "category": "AI",
-      "enrichedAt": "2026-07-24T02:51:18.077Z",
+      "enrichedAt": "2026-07-24T11:05:32.948Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "flashinfer",
+      "fullName": "flashinfer-ai/flashinfer",
+      "url": "https://github.com/flashinfer-ai/flashinfer",
+      "description": "FlashInfer: Kernel Library for LLM Serving",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6016,
+      "forks": 1192,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "flashinfer-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/11773619?s=40&amp;v=4",
+        "url": "https://github.com/flashinfer-ai"
+      },
+      "summary": "面向大模型推理的高性能GPU内核库，优化注意力机制和KV缓存，显著加速LLM服务部署。",
+      "tags": [
+        "llm",
+        "gpu",
+        "inference",
+        "attention",
+        "kernel"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-24T11:05:33.057Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 60446,
+      "forks": 4858,
+      "starsToday": 488,
+      "topics": [],
+      "author": {
+        "name": "Panniantong",
+        "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&amp;v=4",
+        "url": "https://github.com/Panniantong"
+      },
+      "summary": "开源CLI工具，让AI代理无需API费用即可读取和搜索Twitter、Reddit、YouTube、GitHub、B站、小红书等全网平台。",
+      "tags": [
+        "cli",
+        "ai-agent",
+        "web-scraper",
+        "python",
+        "social-media"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T11:05:34.615Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "browser-use",
+      "fullName": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 106509,
+      "forks": 11710,
+      "starsToday": 270,
+      "topics": [],
+      "author": {
+        "name": "browser-use",
+        "avatar": "https://avatars.githubusercontent.com/u/67061560?s=40&amp;v=4",
+        "url": "https://github.com/browser-use"
+      },
+      "summary": "让AI代理像人一样操控浏览器，自动化网页任务，降低AI使用网站的门槛。",
+      "tags": [
+        "ai-agent",
+        "browser-automation",
+        "python",
+        "web-scraping",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-24T11:05:34.381Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pytorch_geometric",
+      "fullName": "pyg-team/pytorch_geometric",
+      "url": "https://github.com/pyg-team/pytorch_geometric",
+      "description": "Graph Neural Network Library for PyTorch",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 23912,
+      "forks": 4020,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "pyg-team",
+        "avatar": "https://avatars.githubusercontent.com/u/6945922?s=40&amp;v=4",
+        "url": "https://github.com/pyg-team"
+      },
+      "summary": "基于PyTorch的图神经网络库，提供丰富的GNN算子、数据集和实用工具，支持图数据高效处理与模型构建。",
+      "tags": [
+        "gnn",
+        "pytorch",
+        "graph-neural-network",
+        "deep-learning",
+        "python"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-24T11:05:34.901Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "memanto",
+      "fullName": "moorcheh-ai/memanto",
+      "url": "https://github.com/moorcheh-ai/memanto",
+      "description": "Memory that AI Agents Love!",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1678,
+      "forks": 541,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "moorcheh-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/102370804?s=40&amp;v=4",
+        "url": "https://github.com/moorcheh-ai"
+      },
+      "summary": "为AI Agent提供持久化记忆能力的轻量级工具，支持向量存储与语义检索，让AI记住对话上下文。",
+      "tags": [
+        "ai",
+        "memory",
+        "vector-store",
+        "python",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-24T11:05:34.716Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "free-llm-api-resources",
+      "fullName": "cheahjs/free-llm-api-resources",
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 28059,
+      "forks": 2906,
+      "starsToday": 179,
+      "topics": [],
+      "author": {
+        "name": "cheahjs",
+        "avatar": "https://avatars.githubusercontent.com/u/818368?s=40&amp;v=4",
+        "url": "https://github.com/cheahjs"
+      },
+      "summary": "收录可通过API免费使用的LLM推理资源列表，方便开发者快速获取和测试大模型能力。",
+      "tags": [
+        "llm",
+        "free-api",
+        "resources",
+        "ai",
+        "list"
+      ],
+      "category": "Resource",
+      "enrichedAt": "2026-07-24T11:05:36.054Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Summer2026-Internships",
+      "fullName": "SimplifyJobs/Summer2026-Internships",
+      "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "description": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 45496,
+      "forks": 3201,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "SimplifyJobs",
+        "avatar": "https://avatars.githubusercontent.com/u/143137531?s=40&amp;v=4",
+        "url": "https://github.com/SimplifyJobs"
+      },
+      "summary": "汇总2026年暑期实习岗位信息（软件工程、数据科学、AI、量化、PM、硬件），每日更新，社区维护。",
+      "tags": [
+        "internships",
+        "job-board",
+        "summer-2026",
+        "career",
+        "community"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-07-24T11:05:36.361Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tilelang",
+      "fullName": "tile-ai/tilelang",
+      "url": "https://github.com/tile-ai/tilelang",
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6867,
+      "forks": 650,
+      "starsToday": 109,
+      "topics": [],
+      "author": {
+        "name": "tile-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/34334180?s=40&amp;v=4",
+        "url": "https://github.com/tile-ai"
+      },
+      "summary": "面向GPU/CPU/加速器的高性能内核开发领域特定语言，大幅简化并行编程流程。",
+      "tags": [
+        "gpu",
+        "dsl",
+        "kernel",
+        "parallel-computing",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T11:05:36.416Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "crawl4ai",
+      "fullName": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 74797,
+      "forks": 7708,
+      "starsToday": 462,
+      "topics": [],
+      "author": {
+        "name": "unclecode",
+        "avatar": "https://avatars.githubusercontent.com/u/12494079?s=40&amp;v=4",
+        "url": "https://github.com/unclecode"
+      },
+      "summary": "开源LLM友好的网络爬虫与抓取工具，支持智能提取、多格式输出，专为大模型数据采集优化。",
+      "tags": [
+        "web-crawler",
+        "scraper",
+        "llm",
+        "python",
+        "data-extraction"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T11:05:36.620Z",
       "deepwikiAvailable": false
     },
     {
@@ -146,34 +538,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "skypilot",
-      "fullName": "skypilot-org/skypilot",
-      "url": "https://github.com/skypilot-org/skypilot",
-      "description": "The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 10371,
-      "forks": 1150,
-      "starsToday": 13,
-      "topics": [],
-      "author": {
-        "name": "skypilot-org",
-        "avatar": "https://avatars.githubusercontent.com/u/6753189?s=40&amp;v=4",
-        "url": "https://github.com/skypilot-org"
-      },
-      "summary": "统一多云AI算力平台，将分散的GPU资源整合为单一超级计算机，简化AI训练与推理部署。",
-      "tags": [
-        "cloud",
-        "gpu",
-        "mlops",
-        "infrastructure",
-        "python"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-24T02:51:19.602Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Rapid-MLX",
       "fullName": "raullenchai/Rapid-MLX",
       "url": "https://github.com/raullenchai/Rapid-MLX",
@@ -199,34 +563,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-07-24T02:51:19.620Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 42876,
-      "forks": 7160,
-      "starsToday": 802,
-      "topics": [],
-      "author": {
-        "name": "rohitg00",
-        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
-        "url": "https://github.com/rohitg00"
-      },
-      "summary": "从零开始学习AI工程，涵盖理论、构建与部署，适合自学和实战的完整教程项目。",
-      "tags": [
-        "ai",
-        "engineering",
-        "tutorial",
-        "python",
-        "learning"
-      ],
-      "category": "Education",
-      "enrichedAt": "2026-07-24T02:51:19.701Z",
       "deepwikiAvailable": false
     },
     {

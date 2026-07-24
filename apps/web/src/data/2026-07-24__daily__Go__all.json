@@ -2,9 +2,37 @@
   "date": "2026-07-24",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-07-24T02:50:43.722Z",
-  "enrichedAt": "2026-07-24T02:51:29.232Z",
+  "fetchedAt": "2026-07-24T11:04:59.547Z",
+  "enrichedAt": "2026-07-24T11:05:42.782Z",
   "repos": [
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19093,
+      "forks": 587,
+      "starsToday": 312,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "一款美观现代的终端文件管理器，基于Go构建，交互流畅，支持多面板、主题和快捷键操作。",
+      "tags": [
+        "terminal",
+        "file-manager",
+        "go",
+        "tui",
+        "cross-platform"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T11:05:38.171Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "open-code-review",
       "fullName": "alibaba/open-code-review",
@@ -12,8 +40,8 @@
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 11643,
-      "forks": 803,
+      "stars": 12115,
+      "forks": 824,
       "starsToday": 180,
       "topics": [],
       "author": {
@@ -40,8 +68,8 @@
       "description": "Easily and securely send things from one computer to another 🐊 📦",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38121,
-      "forks": 1510,
+      "stars": 38180,
+      "forks": 1516,
       "starsToday": 797,
       "topics": [],
       "author": {
@@ -62,14 +90,211 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5025,
+      "forks": 599,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "Gentle AI 是一个用 Go 编写的 AI 工具库，提供简洁的接口来调用大语言模型，降低 AI 功能集成门槛。",
+      "tags": [
+        "go",
+        "ai",
+        "llm",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-24T11:05:38.162Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "minio",
+      "fullName": "minio/minio",
+      "url": "https://github.com/minio/minio",
+      "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 61381,
+      "forks": 7682,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "minio",
+        "avatar": "https://avatars.githubusercontent.com/u/622699?s=40&amp;v=4",
+        "url": "https://github.com/minio"
+      },
+      "summary": "高性能、兼容S3协议的对象存储服务，支持私有云部署，AGPLv3开源。",
+      "tags": [
+        "object-storage",
+        "s3-compatible",
+        "go",
+        "cloud-native",
+        "distributed"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T11:05:38.229Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "alloy",
+      "fullName": "grafana/alloy",
+      "url": "https://github.com/grafana/alloy",
+      "description": "OpenTelemetry Collector distribution with programmable pipelines",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3363,
+      "forks": 660,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/630212?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "基于 OpenTelemetry 的 Collector 发行版，支持可编程管道，用于灵活采集、处理与导出遥测数据。",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "collector",
+        "go",
+        "telemetry"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T11:05:38.602Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41829,
+      "forks": 5296,
+      "starsToday": 160,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源托管式AI智能体平台，将编码代理转化为真正的队友，支持任务分配、进度追踪与技能积累。",
+      "tags": [
+        "ai-agents",
+        "platform",
+        "go",
+        "devtools",
+        "open-source"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T11:05:39.631Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33687,
+      "forks": 2924,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是一个高性能分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可轻松处理数十亿文件并实现 O(1) 磁盘访问与水平扩展。",
+      "tags": [
+        "distributed-storage",
+        "object-storage",
+        "s3",
+        "file-system",
+        "go",
+        "high-performance"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:27.713Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25617,
+      "forks": 1727,
+      "starsToday": 95,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久化记忆升级的开源工具，基于Go构建，让AI助手记住上下文与历史。",
+      "tags": [
+        "agent",
+        "memory",
+        "go",
+        "ai",
+        "context"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T02:51:25.860Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 85884,
+      "forks": 10054,
+      "starsToday": 132,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/12318111?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供优质上下文层，支持深度文档理解与智能问答。",
+      "tags": [
+        "rag",
+        "llm",
+        "retrieval",
+        "agent",
+        "go",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-24T11:05:39.619Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "sub2api",
       "fullName": "Wei-Shaw/sub2api",
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 33884,
-      "forks": 6985,
+      "stars": 33990,
+      "forks": 7000,
       "starsToday": 221,
       "topics": [],
       "author": {
@@ -96,8 +321,8 @@
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 37050,
-      "forks": 552,
+      "stars": 37057,
+      "forks": 553,
       "starsToday": 24,
       "topics": [],
       "author": {
@@ -116,6 +341,261 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-24T02:51:22.903Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "Intelligent Mixture-of-Models Router for Efficient Heterogeneous LLMs Inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5040,
+      "forks": 775,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "基于混合模型路由的智能推理调度系统，动态选择最优LLM以提升推理效率与资源利用率。",
+      "tags": [
+        "llm",
+        "routing",
+        "inference",
+        "mixture-of-models",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T11:05:39.690Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18863,
+      "forks": 2640,
+      "starsToday": 75,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的LLM知识平台，将原始文档转化为可查询的RAG、自主推理Agent和自维护Wiki。",
+      "tags": [
+        "rag",
+        "knowledge-base",
+        "llm",
+        "agent",
+        "wiki",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-24T11:05:40.205Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pocket-id",
+      "fullName": "pocket-id/pocket-id",
+      "url": "https://github.com/pocket-id/pocket-id",
+      "description": "The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8544,
+      "forks": 283,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "pocket-id",
+        "avatar": "https://avatars.githubusercontent.com/u/58886915?s=40&amp;v=4",
+        "url": "https://github.com/pocket-id"
+      },
+      "summary": "轻量级 OpenID Connect 认证服务，支持 Passkey 无密码登录，兼容 OAuth 2.0 标准。",
+      "tags": [
+        "go",
+        "openid-connect",
+        "oauth2",
+        "passkey",
+        "authentication"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T11:05:41.166Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ainovel-cli",
+      "fullName": "voocel/ainovel-cli",
+      "url": "https://github.com/voocel/ainovel-cli",
+      "description": "✨多agent实现全自动AI小说生成",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1494,
+      "forks": 297,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "voocel",
+        "avatar": "https://avatars.githubusercontent.com/u/21246707?s=40&amp;v=4",
+        "url": "https://github.com/voocel"
+      },
+      "summary": "基于多Agent的AI全自动小说生成CLI工具，Go编写，可独立完成从构思到成文的全流程创作。",
+      "tags": [
+        "ai",
+        "novel",
+        "cli",
+        "agent",
+        "writing",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T02:51:27.429Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microservices-demo",
+      "fullName": "GoogleCloudPlatform/microservices-demo",
+      "url": "https://github.com/GoogleCloudPlatform/microservices-demo",
+      "description": "Sample cloud-first application with 10 microservices showcasing Kubernetes, Istio, and gRPC.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20624,
+      "forks": 10222,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "GoogleCloudPlatform",
+        "avatar": "https://avatars.githubusercontent.com/u/25180681?s=40&amp;v=4",
+        "url": "https://github.com/GoogleCloudPlatform"
+      },
+      "summary": "Google 官方微服务演示应用，包含10个服务，展示 Kubernetes、Istio 和 gRPC 的云原生最佳实践。",
+      "tags": [
+        "go",
+        "kubernetes",
+        "microservices",
+        "istio",
+        "grpc",
+        "cloud"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T11:05:41.136Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "age",
+      "fullName": "FiloSottile/age",
+      "url": "https://github.com/FiloSottile/age",
+      "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22980,
+      "forks": 656,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "FiloSottile",
+        "avatar": "https://avatars.githubusercontent.com/u/1225294?s=40&amp;v=4",
+        "url": "https://github.com/FiloSottile"
+      },
+      "summary": "一个简单、现代且安全的文件加密工具和Go库，使用小型显式密钥，零配置，支持UNIX风格管道组合。",
+      "tags": [
+        "encryption",
+        "go",
+        "cli",
+        "security",
+        "privacy"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T11:05:41.216Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oauth2-proxy",
+      "fullName": "oauth2-proxy/oauth2-proxy",
+      "url": "https://github.com/oauth2-proxy/oauth2-proxy",
+      "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14713,
+      "forks": 2156,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "oauth2-proxy",
+        "avatar": "https://avatars.githubusercontent.com/u/9232216?s=40&amp;v=4",
+        "url": "https://github.com/oauth2-proxy"
+      },
+      "summary": "基于OAuth2的反向代理，集成Google、Azure、OpenID Connect等多种身份提供商，为应用提供统一认证入口。",
+      "tags": [
+        "oauth2",
+        "reverse-proxy",
+        "authentication",
+        "go",
+        "identity-provider"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T11:05:41.747Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kagent",
+      "fullName": "kagent-dev/kagent",
+      "url": "https://github.com/kagent-dev/kagent",
+      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3372,
+      "forks": 670,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "kagent-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&amp;v=4",
+        "url": "https://github.com/kagent-dev"
+      },
+      "summary": "云原生AI代理框架，基于Go构建，提供可扩展的智能体编排与部署能力。",
+      "tags": [
+        "go",
+        "ai-agents",
+        "cloud-native",
+        "agent-framework",
+        "orchestration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-24T11:05:42.566Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mediamtx",
+      "fullName": "bluenviron/mediamtx",
+      "url": "https://github.com/bluenviron/mediamtx",
+      "description": "Ready-to-use Media-over-QUIC / SRT / WebRTC / RTSP / RTMP / LL-HLS / MPEG-TS / RTP live media server and media proxy that allows to read, publish, proxy, record and playback real-time video and audio streams.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19603,
+      "forks": 2307,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "bluenviron",
+        "avatar": "https://avatars.githubusercontent.com/u/46489434?s=40&amp;v=4",
+        "url": "https://github.com/bluenviron"
+      },
+      "summary": "支持多种协议（RTSP/RTMP/WebRTC等）的实时流媒体服务器和代理，可读写、转发、录制和回放音视频流。",
+      "tags": [
+        "media-server",
+        "rtsp",
+        "webrtc",
+        "streaming",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T11:05:42.782Z",
       "deepwikiAvailable": false
     },
     {
@@ -287,34 +767,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "beads",
-      "fullName": "gastownhall/beads",
-      "url": "https://github.com/gastownhall/beads",
-      "description": "Beads - A memory upgrade for your coding agent",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 25603,
-      "forks": 1726,
-      "starsToday": 95,
-      "topics": [],
-      "author": {
-        "name": "gastownhall",
-        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
-        "url": "https://github.com/gastownhall"
-      },
-      "summary": "为编码智能体提供持久化记忆升级的开源工具，基于Go构建，让AI助手记住上下文与历史。",
-      "tags": [
-        "agent",
-        "memory",
-        "go",
-        "ai",
-        "context"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-24T02:51:25.860Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "telegraf",
       "fullName": "influxdata/telegraf",
       "url": "https://github.com/influxdata/telegraf",
@@ -397,64 +849,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-07-24T02:51:27.456Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ainovel-cli",
-      "fullName": "voocel/ainovel-cli",
-      "url": "https://github.com/voocel/ainovel-cli",
-      "description": "✨多agent实现全自动AI小说生成",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1486,
-      "forks": 297,
-      "starsToday": 25,
-      "topics": [],
-      "author": {
-        "name": "voocel",
-        "avatar": "https://avatars.githubusercontent.com/u/21246707?s=40&amp;v=4",
-        "url": "https://github.com/voocel"
-      },
-      "summary": "基于多Agent的AI全自动小说生成CLI工具，Go编写，可独立完成从构思到成文的全流程创作。",
-      "tags": [
-        "ai",
-        "novel",
-        "cli",
-        "agent",
-        "writing",
-        "go"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-24T02:51:27.429Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "seaweedfs",
-      "fullName": "seaweedfs/seaweedfs",
-      "url": "https://github.com/seaweedfs/seaweedfs",
-      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 33680,
-      "forks": 2923,
-      "starsToday": 30,
-      "topics": [],
-      "author": {
-        "name": "seaweedfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
-        "url": "https://github.com/seaweedfs"
-      },
-      "summary": "SeaweedFS 是一个高性能分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可轻松处理数十亿文件并实现 O(1) 磁盘访问与水平扩展。",
-      "tags": [
-        "distributed-storage",
-        "object-storage",
-        "s3",
-        "file-system",
-        "go",
-        "high-performance"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-24T02:51:27.713Z",
       "deepwikiAvailable": false
     },
     {

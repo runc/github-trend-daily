@@ -2,8 +2,8 @@
   "date": "2026-07-24",
   "since": "monthly",
   "language": "Go",
-  "fetchedAt": "2026-07-24T02:50:43.722Z",
-  "enrichedAt": "2026-07-24T02:53:11.313Z",
+  "fetchedAt": "2026-07-24T11:04:59.547Z",
+  "enrichedAt": "2026-07-24T11:06:15.266Z",
   "repos": [
     {
       "name": "no-mistakes",
@@ -12,8 +12,8 @@
       "description": "git push no-mistakes",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6972,
-      "forks": 536,
+      "stars": 7006,
+      "forks": 539,
       "starsToday": 5370,
       "topics": [],
       "author": {
@@ -40,7 +40,7 @@
       "description": "🌸 A command-line fuzzy finder",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 81938,
+      "stars": 81942,
       "forks": 2820,
       "starsToday": 1083,
       "topics": [],
@@ -70,7 +70,7 @@
       "language": "Go",
       "languageColor": "#00ADD8",
       "stars": 23712,
-      "forks": 7545,
+      "forks": 7547,
       "starsToday": 630,
       "topics": [],
       "author": {
@@ -91,31 +91,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agentsview",
-      "fullName": "kenn-io/agentsview",
-      "url": "https://github.com/kenn-io/agentsview",
-      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4529,
-      "forks": 417,
-      "starsToday": 1482,
+      "stars": 34266,
+      "forks": 2871,
+      "starsToday": 1597,
       "topics": [],
       "author": {
-        "name": "kenn-io",
-        "avatar": "https://avatars.githubusercontent.com/u/329591?s=40&amp;v=4",
-        "url": "https://github.com/kenn-io"
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
       },
-      "summary": "本地优先的编码智能体会话搜索与分析工具，支持 Claude Code、Codex 等 20+ 智能体，提供 Token 用量统计与洞察。",
+      "summary": "基于 WireGuard 的零配置 VPN 工具，内置 2FA 认证，安全便捷地连接设备与网络。",
       "tags": [
-        "local-first",
-        "analytics",
-        "ai-agents",
-        "token-tracking",
-        "developer-tools"
+        "vpn",
+        "wireguard",
+        "networking",
+        "security",
+        "go"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-24T02:53:02.912Z",
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:53:04.472Z",
       "deepwikiAvailable": false
     },
     {
@@ -125,7 +125,7 @@
       "description": "Application Kernel for Containers",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 18847,
+      "stars": 18849,
       "forks": 1764,
       "starsToday": 372,
       "topics": [],
@@ -148,13 +148,97 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "croc",
+      "fullName": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38180,
+      "forks": 1516,
+      "starsToday": 2809,
+      "topics": [],
+      "author": {
+        "name": "schollz",
+        "avatar": "https://avatars.githubusercontent.com/u/6550035?s=40&amp;v=4",
+        "url": "https://github.com/schollz"
+      },
+      "summary": "轻量安全的跨平台文件传输工具，端到端加密，支持断点续传，一条命令即可在两台电脑间传送文件或文件夹。",
+      "tags": [
+        "file-transfer",
+        "encryption",
+        "cli",
+        "go",
+        "cross-platform"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T02:53:05.833Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentsview",
+      "fullName": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4538,
+      "forks": 422,
+      "starsToday": 1482,
+      "topics": [],
+      "author": {
+        "name": "kenn-io",
+        "avatar": "https://avatars.githubusercontent.com/u/329591?s=40&amp;v=4",
+        "url": "https://github.com/kenn-io"
+      },
+      "summary": "本地优先的编码智能体会话搜索与分析工具，支持 Claude Code、Codex 等 20+ 智能体，提供 Token 用量统计与洞察。",
+      "tags": [
+        "local-first",
+        "analytics",
+        "ai-agents",
+        "token-tracking",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T02:53:02.912Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19093,
+      "forks": 587,
+      "starsToday": 1434,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "现代化终端文件管理器，颜值高、交互流畅，支持多面板和自定义主题，提升命令行文件操作体验。",
+      "tags": [
+        "terminal",
+        "file-manager",
+        "go",
+        "tui",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T02:53:06.098Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "prometheus",
       "fullName": "prometheus/prometheus",
       "url": "https://github.com/prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 65277,
+      "stars": 65283,
       "forks": 10678,
       "starsToday": 1068,
       "topics": [],
@@ -176,42 +260,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "tailscale",
-      "fullName": "tailscale/tailscale",
-      "url": "https://github.com/tailscale/tailscale",
-      "description": "The easiest, most secure way to use WireGuard and 2FA.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 34246,
-      "forks": 2868,
-      "starsToday": 1597,
-      "topics": [],
-      "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
-      },
-      "summary": "基于 WireGuard 的零配置 VPN 工具，内置 2FA 认证，安全便捷地连接设备与网络。",
-      "tags": [
-        "vpn",
-        "wireguard",
-        "networking",
-        "security",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-24T02:53:04.472Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ntfy",
       "fullName": "binwiederhier/ntfy",
       "url": "https://github.com/binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 32153,
-      "forks": 1432,
+      "stars": 32160,
+      "forks": 1433,
       "starsToday": 1261,
       "topics": [],
       "author": {
@@ -232,69 +288,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "croc",
-      "fullName": "schollz/croc",
-      "url": "https://github.com/schollz/croc",
-      "description": "Easily and securely send things from one computer to another 🐊 📦",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 38121,
-      "forks": 1510,
-      "starsToday": 2809,
-      "topics": [],
-      "author": {
-        "name": "schollz",
-        "avatar": "https://avatars.githubusercontent.com/u/6550035?s=40&amp;v=4",
-        "url": "https://github.com/schollz"
-      },
-      "summary": "轻量安全的跨平台文件传输工具，端到端加密，支持断点续传，一条命令即可在两台电脑间传送文件或文件夹。",
-      "tags": [
-        "file-transfer",
-        "encryption",
-        "cli",
-        "go",
-        "cross-platform"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-24T02:53:05.833Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "superfile",
-      "fullName": "yorukot/superfile",
-      "url": "https://github.com/yorukot/superfile",
-      "description": "Pretty fancy and modern terminal file manager",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 18982,
-      "forks": 582,
-      "starsToday": 1434,
-      "topics": [],
-      "author": {
-        "name": "yorukot",
-        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
-        "url": "https://github.com/yorukot"
-      },
-      "summary": "现代化终端文件管理器，颜值高、交互流畅，支持多面板和自定义主题，提升命令行文件操作体验。",
-      "tags": [
-        "terminal",
-        "file-manager",
-        "go",
-        "tui",
-        "cli"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-24T02:53:06.098Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "kubernetes",
       "fullName": "kubernetes/kubernetes",
       "url": "https://github.com/kubernetes/kubernetes",
       "description": "Production-Grade Container Scheduling and Management",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 123902,
+      "stars": 123907,
       "forks": 43572,
       "starsToday": 1857,
       "topics": [],
@@ -316,42 +316,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "CasaOS",
-      "fullName": "IceWhaleTech/CasaOS",
-      "url": "https://github.com/IceWhaleTech/CasaOS",
-      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 36826,
-      "forks": 2153,
-      "starsToday": 2761,
-      "topics": [],
-      "author": {
-        "name": "IceWhaleTech",
-        "avatar": "https://avatars.githubusercontent.com/u/13556972?s=40&amp;v=4",
-        "url": "https://github.com/IceWhaleTech"
-      },
-      "summary": "CasaOS 是一个简单优雅的开源个人云系统，让用户轻松搭建和管理家庭云服务，降低自建 NAS 门槛。",
-      "tags": [
-        "personal-cloud",
-        "nas",
-        "home-server",
-        "docker",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-24T02:53:06.254Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "grok2api",
       "fullName": "chenyme/grok2api",
       "url": "https://github.com/chenyme/grok2api",
       "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6656,
-      "forks": 2086,
+      "stars": 6695,
+      "forks": 2091,
       "starsToday": 1450,
       "topics": [],
       "author": {
@@ -378,8 +350,8 @@
       "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8519,
-      "forks": 812,
+      "stars": 8517,
+      "forks": 813,
       "starsToday": 418,
       "topics": [],
       "author": {
@@ -406,8 +378,8 @@
       "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 108305,
-      "forks": 15135,
+      "stars": 108315,
+      "forks": 15137,
       "starsToday": 953,
       "topics": [],
       "author": {
@@ -434,7 +406,7 @@
       "description": "An open source, self-hosted implementation of the Tailscale control server",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 42028,
+      "stars": 42043,
       "forks": 2370,
       "starsToday": 1804,
       "topics": [],
@@ -456,71 +428,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "pentagi",
-      "fullName": "vxcontrol/pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 21176,
-      "forks": 2781,
-      "starsToday": 3317,
-      "topics": [],
-      "author": {
-        "name": "vxcontrol",
-        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
-        "url": "https://github.com/vxcontrol"
-      },
-      "summary": "基于AI Agent的全自动渗透测试系统，可自主执行复杂安全检测任务",
-      "tags": [
-        "penetration-testing",
-        "ai-agent",
-        "security",
-        "go",
-        "automation"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-07-24T02:53:09.601Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 18820,
-      "forks": 2633,
-      "starsToday": 1825,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的LLM知识平台，将原始文档转为可查询的RAG、自主推理Agent和自维护Wiki，支持多模态与知识图谱。",
-      "tags": [
-        "rag",
-        "knowledge-base",
-        "llm",
-        "wiki",
-        "agent",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-24T02:53:09.056Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "typescript-go",
       "fullName": "microsoft/typescript-go",
       "url": "https://github.com/microsoft/typescript-go",
       "description": "Staging repo for development of native port of TypeScript",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 26034,
-      "forks": 1078,
+      "stars": 26039,
+      "forks": 1081,
       "starsToday": 371,
       "topics": [],
       "author": {
@@ -547,8 +462,8 @@
       "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 29956,
-      "forks": 3631,
+      "stars": 29966,
+      "forks": 3634,
       "starsToday": 779,
       "topics": [],
       "author": {
@@ -569,14 +484,126 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "CasaOS",
+      "fullName": "IceWhaleTech/CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36832,
+      "forks": 2154,
+      "starsToday": 2761,
+      "topics": [],
+      "author": {
+        "name": "IceWhaleTech",
+        "avatar": "https://avatars.githubusercontent.com/u/13556972?s=40&amp;v=4",
+        "url": "https://github.com/IceWhaleTech"
+      },
+      "summary": "CasaOS 是一个简单优雅的开源个人云系统，让用户轻松搭建和管理家庭云服务，降低自建 NAS 门槛。",
+      "tags": [
+        "personal-cloud",
+        "nas",
+        "home-server",
+        "docker",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:53:06.254Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18863,
+      "forks": 2640,
+      "starsToday": 1825,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的LLM知识平台，将原始文档转为可查询的RAG、自主推理Agent和自维护Wiki，支持多模态与知识图谱。",
+      "tags": [
+        "rag",
+        "knowledge-base",
+        "llm",
+        "wiki",
+        "agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-24T02:53:09.056Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21200,
+      "forks": 2783,
+      "starsToday": 3317,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于AI Agent的全自动渗透测试系统，可自主执行复杂安全检测任务",
+      "tags": [
+        "penetration-testing",
+        "ai-agent",
+        "security",
+        "go",
+        "automation"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-07-24T02:53:09.601Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5025,
+      "forks": 599,
+      "starsToday": 880,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "基于Go的AI工具平台，提供简洁高效的AI模型调用与管理能力，适合开发者快速集成AI功能。",
+      "tags": [
+        "go",
+        "ai",
+        "platform",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T11:06:15.254Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "google-maps-scraper",
       "fullName": "gosom/google-maps-scraper",
       "url": "https://github.com/gosom/google-maps-scraper",
       "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5239,
-      "forks": 829,
+      "stars": 5247,
+      "forks": 828,
       "starsToday": 738,
       "topics": [],
       "author": {
@@ -593,6 +620,34 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-24T02:53:10.619Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-orchestrator",
+      "fullName": "AgentWrapper/agent-orchestrator",
+      "url": "https://github.com/AgentWrapper/agent-orchestrator",
+      "description": "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8537,
+      "forks": 1238,
+      "starsToday": 932,
+      "topics": [],
+      "author": {
+        "name": "AgentWrapper",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/AgentWrapper"
+      },
+      "summary": "基于Go的智能体IDE，支持编排多编码代理集群，自动处理CI修复、合并冲突和代码审查。",
+      "tags": [
+        "agent-ide",
+        "orchestrator",
+        "go",
+        "ci-automation",
+        "code-review"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T11:06:15.266Z",
       "deepwikiAvailable": false
     },
     {
