@@ -1,0 +1,573 @@
+{
+  "date": "2026-07-24",
+  "since": "daily",
+  "language": "Go",
+  "fetchedAt": "2026-07-24T02:50:43.722Z",
+  "enrichedAt": "2026-07-24T02:51:29.232Z",
+  "repos": [
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11643,
+      "forks": 803,
+      "starsToday": 180,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源代码审查工具，混合架构（确定性流水线+LLM Agent），支持行级评论、内置NPE/线程安全/XSS/SQL注入规则，兼容OpenAI和Anthropic。",
+      "tags": [
+        "code-review",
+        "static-analysis",
+        "llm",
+        "security",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T02:51:22.963Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "croc",
+      "fullName": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38121,
+      "forks": 1510,
+      "starsToday": 797,
+      "topics": [],
+      "author": {
+        "name": "schollz",
+        "avatar": "https://avatars.githubusercontent.com/u/6550035?s=40&amp;v=4",
+        "url": "https://github.com/schollz"
+      },
+      "summary": "跨平台安全文件传输工具，支持端到端加密和断点续传，一条命令即可在两台电脑间传送任意文件或文件夹。",
+      "tags": [
+        "file-transfer",
+        "cli",
+        "encryption",
+        "go",
+        "cross-platform"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T02:51:22.875Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33884,
+      "forks": 6985,
+      "starsToday": 221,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式AI订阅中转服务，统一接入Claude/OpenAI/Gemini/Grok，支持拼车共享与成本分摊，原生工具无缝使用。",
+      "tags": [
+        "ai-proxy",
+        "api-gateway",
+        "subscription",
+        "cost-sharing",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:22.852Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37050,
+      "forks": 552,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "开源容器安全扫描器，可检测容器、K8s、代码仓库和云环境中的漏洞、错误配置及密钥。",
+      "tags": [
+        "security",
+        "container",
+        "vulnerability",
+        "scanner",
+        "devsecops",
+        "kubernetes"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T02:51:22.903Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bifrost",
+      "fullName": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6746,
+      "forks": 935,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "maximhq",
+        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
+        "url": "https://github.com/maximhq"
+      },
+      "summary": "企业级AI网关，比LiteLLM快50倍，支持自适应负载均衡、集群模式、1000+模型，5k RPS下开销<100µs。",
+      "tags": [
+        "ai-gateway",
+        "load-balancing",
+        "go",
+        "high-performance",
+        "llm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:24.390Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-whatsapp-web-multidevice",
+      "fullName": "aldinokemal/go-whatsapp-web-multidevice",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4323,
+      "forks": 1049,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "aldinokemal",
+        "avatar": "https://avatars.githubusercontent.com/u/14232125?s=40&amp;v=4",
+        "url": "https://github.com/aldinokemal"
+      },
+      "summary": "基于Go的WhatsApp多设备REST API，支持多账户、Webhook、MCP和Chatwoot集成，内存高效。",
+      "tags": [
+        "whatsapp",
+        "rest-api",
+        "golang",
+        "multi-device",
+        "webhook"
+      ],
+      "category": "API",
+      "enrichedAt": "2026-07-24T02:51:24.246Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "syft",
+      "fullName": "anchore/syft",
+      "url": "https://github.com/anchore/syft",
+      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9288,
+      "forks": 902,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "anchore",
+        "avatar": "https://avatars.githubusercontent.com/u/590471?s=40&amp;v=4",
+        "url": "https://github.com/anchore"
+      },
+      "summary": "从容器镜像和文件系统生成SBOM（软件物料清单）的CLI工具和库，支持多种格式输出。",
+      "tags": [
+        "sbom",
+        "container",
+        "security",
+        "cli",
+        "supply-chain"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T02:51:24.562Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hatchet",
+      "fullName": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "description": "🪓 An orchestration engine for background tasks, AI agents, and durable workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7572,
+      "forks": 454,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "hatchet-dev",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/hatchet-dev"
+      },
+      "summary": "基于Go的编排引擎，用于后台任务、AI代理和持久化工作流调度与管理。",
+      "tags": [
+        "go",
+        "workflow",
+        "orchestration",
+        "ai-agents",
+        "task-scheduler"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:24.366Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "optimism",
+      "fullName": "ethereum-optimism/optimism",
+      "url": "https://github.com/ethereum-optimism/optimism",
+      "description": "Optimism is Ethereum, scaled.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6454,
+      "forks": 3999,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "ethereum-optimism",
+        "avatar": "https://avatars.githubusercontent.com/u/6626818?s=40&amp;v=4",
+        "url": "https://github.com/ethereum-optimism"
+      },
+      "summary": "Optimism 是以太坊的 Layer 2 扩容方案，通过 OP Stack 提供低成本、高吞吐的交易体验，核心是 Optimistic Rollup 技术。",
+      "tags": [
+        "ethereum",
+        "layer2",
+        "rollup",
+        "blockchain",
+        "scaling"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:25.843Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pyroscope",
+      "fullName": "grafana/pyroscope",
+      "url": "https://github.com/grafana/pyroscope",
+      "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11583,
+      "forks": 777,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/223048?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "持续性能分析平台，可定位到单行代码的性能瓶颈，帮助开发者调试和优化应用性能。",
+      "tags": [
+        "profiling",
+        "performance",
+        "go",
+        "observability",
+        "debugging"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T02:51:25.813Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25603,
+      "forks": 1726,
+      "starsToday": 95,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久化记忆升级的开源工具，基于Go构建，让AI助手记住上下文与历史。",
+      "tags": [
+        "agent",
+        "memory",
+        "go",
+        "ai",
+        "context"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T02:51:25.860Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "telegraf",
+      "fullName": "influxdata/telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17721,
+      "forks": 5831,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "influxdata",
+        "avatar": "https://avatars.githubusercontent.com/u/1048079?s=40&amp;v=4",
+        "url": "https://github.com/influxdata"
+      },
+      "summary": "基于插件的指标采集与处理代理，支持多种输入输出插件，用于收集、处理、聚合和写入指标、日志等数据。",
+      "tags": [
+        "metrics",
+        "monitoring",
+        "agent",
+        "go",
+        "data-pipeline"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:26.123Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wal-g",
+      "fullName": "wal-g/wal-g",
+      "url": "https://github.com/wal-g/wal-g",
+      "description": "Archival and Restoration for databases in the Cloud",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4188,
+      "forks": 564,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "wal-g",
+        "avatar": "https://avatars.githubusercontent.com/u/6000069?s=40&amp;v=4",
+        "url": "https://github.com/wal-g"
+      },
+      "summary": "云原生数据库归档与恢复工具，支持PostgreSQL、MySQL、MongoDB等，提供高效WAL归档和快速时间点恢复。",
+      "tags": [
+        "database",
+        "backup",
+        "cloud",
+        "postgresql",
+        "wal",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-24T02:51:27.448Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lo",
+      "fullName": "samber/lo",
+      "url": "https://github.com/samber/lo",
+      "description": "💥 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21394,
+      "forks": 946,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "samber",
+        "avatar": "https://avatars.githubusercontent.com/u/2951285?s=40&amp;v=4",
+        "url": "https://github.com/samber"
+      },
+      "summary": "基于 Go 1.18+ 泛型的 Lodash 风格工具库，提供 map、filter、contains 等常用函数，简化 Go 集合操作。",
+      "tags": [
+        "go",
+        "generics",
+        "lodash",
+        "utility",
+        "functional"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-24T02:51:27.456Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ainovel-cli",
+      "fullName": "voocel/ainovel-cli",
+      "url": "https://github.com/voocel/ainovel-cli",
+      "description": "✨多agent实现全自动AI小说生成",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1486,
+      "forks": 297,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "voocel",
+        "avatar": "https://avatars.githubusercontent.com/u/21246707?s=40&amp;v=4",
+        "url": "https://github.com/voocel"
+      },
+      "summary": "基于多Agent的AI全自动小说生成CLI工具，Go编写，可独立完成从构思到成文的全流程创作。",
+      "tags": [
+        "ai",
+        "novel",
+        "cli",
+        "agent",
+        "writing",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-24T02:51:27.429Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33680,
+      "forks": 2923,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是一个高性能分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可轻松处理数十亿文件并实现 O(1) 磁盘访问与水平扩展。",
+      "tags": [
+        "distributed-storage",
+        "object-storage",
+        "s3",
+        "file-system",
+        "go",
+        "high-performance"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:27.713Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zitadel",
+      "fullName": "zitadel/zitadel",
+      "url": "https://github.com/zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for you.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14522,
+      "forks": 1197,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "zitadel",
+        "avatar": "https://avatars.githubusercontent.com/u/9405495?s=40&amp;v=4",
+        "url": "https://github.com/zitadel"
+      },
+      "summary": "开源身份管理平台，提供用户认证、授权和单点登录服务，简化企业级身份基础设施搭建。",
+      "tags": [
+        "identity",
+        "auth",
+        "sso",
+        "go",
+        "iam"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:29.119Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "avalanchego",
+      "fullName": "ava-labs/avalanchego",
+      "url": "https://github.com/ava-labs/avalanchego",
+      "description": "Go implementation of an Avalanche node.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2355,
+      "forks": 860,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "ava-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/22109487?s=40&amp;v=4",
+        "url": "https://github.com/ava-labs"
+      },
+      "summary": "Avalanche 节点 Go 实现，支持高吞吐、低延迟的去中心化区块链网络。",
+      "tags": [
+        "go",
+        "blockchain",
+        "avalanche",
+        "node",
+        "consensus"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:28.940Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "glance",
+      "fullName": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35914,
+      "forks": 1385,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "glanceapp",
+        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
+        "url": "https://github.com/glanceapp"
+      },
+      "summary": "自托管仪表盘，将所有信息流聚合在一处，轻量高效，支持多种小部件自定义。",
+      "tags": [
+        "self-hosted",
+        "dashboard",
+        "go",
+        "rss",
+        "widgets"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-07-24T02:51:29.004Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18847,
+      "forks": 1764,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "为容器提供安全应用级内核的沙箱运行时，隔离性强，兼容OCI标准。",
+      "tags": [
+        "go",
+        "container",
+        "security",
+        "sandbox",
+        "kernel"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-24T02:51:29.232Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
