@@ -2,8 +2,8 @@
   "date": "2026-07-27",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-07-27T03:24:27.619Z",
-  "enrichedAt": "2026-07-27T03:26:23.197Z",
+  "fetchedAt": "2026-07-27T12:26:33.686Z",
+  "enrichedAt": "2026-07-27T12:27:33.573Z",
   "repos": [
     {
       "name": "croc",
@@ -12,8 +12,8 @@
       "description": "Easily and securely send things from one computer to another 🐊 📦",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38699,
-      "forks": 1540,
+      "stars": 38781,
+      "forks": 1542,
       "starsToday": 2993,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 13970,
-      "forks": 947,
+      "stars": 14391,
+      "forks": 971,
       "starsToday": 2836,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6791,
-      "forks": 2111,
+      "stars": 6831,
+      "forks": 2116,
       "starsToday": 494,
       "topics": [],
       "author": {
@@ -90,14 +90,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34626,
+      "forks": 7127,
+      "starsToday": 1537,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式AI订阅中转服务，统一接入Claude/OpenAI/Gemini/Grok，支持拼车共享与成本分摊。",
+      "tags": [
+        "proxy",
+        "ai",
+        "subscription",
+        "api",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-27T03:26:16.587Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "alloy",
+      "fullName": "grafana/alloy",
+      "url": "https://github.com/grafana/alloy",
+      "description": "OpenTelemetry Collector distribution with programmable pipelines",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3370,
+      "forks": 666,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/630212?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "基于 OpenTelemetry 的分布式可观测性数据收集器，支持可编程管道灵活处理指标、日志和链路数据。",
+      "tags": [
+        "observability",
+        "opentelemetry",
+        "collector",
+        "monitoring",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-27T03:26:21.621Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "wx_channels_download",
       "fullName": "ltaoo/wx_channels_download",
       "url": "https://github.com/ltaoo/wx_channels_download",
       "description": "微信视频号下载器",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8140,
-      "forks": 1310,
+      "stars": 8159,
+      "forks": 1314,
       "starsToday": 835,
       "topics": [],
       "author": {
@@ -123,8 +179,8 @@
       "description": "Open Source realtime backend in 1 file",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 60278,
-      "forks": 3603,
+      "stars": 60293,
+      "forks": 3604,
       "starsToday": 303,
       "topics": [],
       "author": {
@@ -143,6 +199,370 @@
       ],
       "category": "Backend",
       "enrichedAt": "2026-07-27T03:26:16.254Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 176979,
+      "forks": 17131,
+      "starsToday": 593,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大模型的一站式工具，支持Kimi、DeepSeek、Qwen等主流模型，简单易用。",
+      "tags": [
+        "llm",
+        "go",
+        "local-ai",
+        "inference",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-27T03:26:17.912Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25689,
+      "forks": 1725,
+      "starsToday": 252,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久化记忆升级的开源工具，基于Go构建，让AI助手记住上下文与历史交互。",
+      "tags": [
+        "memory",
+        "ai-agent",
+        "go",
+        "context",
+        "coding-agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-27T03:26:19.932Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58736,
+      "forks": 5260,
+      "starsToday": 322,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "云存储文件同步工具，支持 Google Drive、S3、Dropbox 等 40+ 存储后端，类似 rsync 的命令行体验。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "cli",
+        "go",
+        "backup"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-27T03:26:18.455Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hatchet",
+      "fullName": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "description": "🪓 An orchestration engine for background tasks, AI agents, and durable workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7600,
+      "forks": 456,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "hatchet-dev",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/hatchet-dev"
+      },
+      "summary": "基于Go的编排引擎，用于后台任务、AI代理和持久化工作流调度与管理。",
+      "tags": [
+        "go",
+        "workflow",
+        "orchestration",
+        "ai-agents",
+        "task-scheduler"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-27T03:26:20.133Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "litestream",
+      "fullName": "benbjohnson/litestream",
+      "url": "https://github.com/benbjohnson/litestream",
+      "description": "Streaming replication for SQLite.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14041,
+      "forks": 379,
+      "starsToday": 94,
+      "topics": [],
+      "author": {
+        "name": "benbjohnson",
+        "avatar": "https://avatars.githubusercontent.com/u/118015?s=40&amp;v=4",
+        "url": "https://github.com/benbjohnson"
+      },
+      "summary": "SQLite 的流式复制工具，实现实时备份与灾难恢复，轻量可靠。",
+      "tags": [
+        "sqlite",
+        "replication",
+        "backup",
+        "go",
+        "database"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-27T12:27:33.535Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "k3s",
+      "fullName": "k3s-io/k3s",
+      "url": "https://github.com/k3s-io/k3s",
+      "description": "Lightweight Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33579,
+      "forks": 2689,
+      "starsToday": 81,
+      "topics": [],
+      "author": {
+        "name": "k3s-io",
+        "avatar": "https://avatars.githubusercontent.com/u/370103?s=40&amp;v=4",
+        "url": "https://github.com/k3s-io"
+      },
+      "summary": "轻量级 Kubernetes 发行版，专为边缘计算、IoT 和资源受限环境设计，安装简单，启动快速。",
+      "tags": [
+        "kubernetes",
+        "lightweight",
+        "edge",
+        "iot",
+        "container-orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-27T03:26:18.631Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45450,
+      "forks": 8768,
+      "starsToday": 131,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub 官方命令行工具，支持 PR、Issue、Actions 等核心功能管理，提升 GitHub 工作流效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "devtool",
+        "git"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-27T12:27:33.573Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5095,
+      "forks": 606,
+      "starsToday": 162,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "基于Go的AI开发工具，简化AI模型调用与工作流编排，提供轻量级本地推理能力。",
+      "tags": [
+        "go",
+        "ai",
+        "llm",
+        "workflow",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-27T03:26:19.756Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evolution-go",
+      "fullName": "evolution-foundation/evolution-go",
+      "url": "https://github.com/evolution-foundation/evolution-go",
+      "description": "Evolution API / Evolution Go is an open-source WhatsApp integration API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 545,
+      "forks": 292,
+      "starsToday": 98,
+      "topics": [],
+      "author": {
+        "name": "evolution-foundation",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/evolution-foundation"
+      },
+      "summary": "基于Go的开源WhatsApp集成API，提供消息收发、媒体处理等核心功能，自托管方案替代商业服务。",
+      "tags": [
+        "whatsapp",
+        "api",
+        "go",
+        "messaging",
+        "integration"
+      ],
+      "category": "API",
+      "enrichedAt": "2026-07-27T03:26:20.331Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20548,
+      "forks": 651,
+      "starsToday": 1855,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "超漂亮的现代化终端文件管理器，基于Go开发，交互流畅且视觉惊艳。",
+      "tags": [
+        "terminal",
+        "file-manager",
+        "go",
+        "tui",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-27T12:27:33.562Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "syft",
+      "fullName": "anchore/syft",
+      "url": "https://github.com/anchore/syft",
+      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9299,
+      "forks": 907,
+      "starsToday": 46,
+      "topics": [],
+      "author": {
+        "name": "anchore",
+        "avatar": "https://avatars.githubusercontent.com/u/590471?s=40&amp;v=4",
+        "url": "https://github.com/anchore"
+      },
+      "summary": "从容器镜像和文件系统生成SBOM（软件物料清单）的CLI工具和库，支持多种格式输出。",
+      "tags": [
+        "sbom",
+        "container",
+        "security",
+        "cli",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-27T03:26:21.504Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netdata",
+      "fullName": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 79872,
+      "forks": 6546,
+      "starsToday": 186,
+      "topics": [],
+      "author": {
+        "name": "netdata",
+        "avatar": "https://avatars.githubusercontent.com/u/2662304?s=40&amp;v=4",
+        "url": "https://github.com/netdata"
+      },
+      "summary": "开源实时监控和可观测性平台，零配置即可采集数千指标，内置AI异常检测，轻量高效适合任何规模团队。",
+      "tags": [
+        "monitoring",
+        "observability",
+        "devops",
+        "real-time",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-27T03:26:22.092Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentfield",
+      "fullName": "Agent-Field/agentfield",
+      "url": "https://github.com/Agent-Field/agentfield",
+      "description": "Build, run and scale AI agents like API and microservices",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2450,
+      "forks": 387,
+      "starsToday": 77,
+      "topics": [],
+      "author": {
+        "name": "Agent-Field",
+        "avatar": "https://avatars.githubusercontent.com/u/29346072?s=40&amp;v=4",
+        "url": "https://github.com/Agent-Field"
+      },
+      "summary": "将AI智能体构建为API和微服务，支持快速部署与规模化运行，Go语言实现。",
+      "tags": [
+        "ai-agents",
+        "microservices",
+        "go",
+        "api",
+        "deployment"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-27T03:26:18.017Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,34 +594,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "sub2api",
-      "fullName": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 34514,
-      "forks": 7102,
-      "starsToday": 1537,
-      "topics": [],
-      "author": {
-        "name": "Wei-Shaw",
-        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
-        "url": "https://github.com/Wei-Shaw"
-      },
-      "summary": "一站式AI订阅中转服务，统一接入Claude/OpenAI/Gemini/Grok，支持拼车共享与成本分摊。",
-      "tags": [
-        "proxy",
-        "ai",
-        "subscription",
-        "api",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-27T03:26:16.587Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "neko",
       "fullName": "m1k1o/neko",
       "url": "https://github.com/m1k1o/neko",
@@ -230,286 +622,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 176952,
-      "forks": 17124,
-      "starsToday": 593,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地运行大模型的一站式工具，支持Kimi、DeepSeek、Qwen等主流模型，简单易用。",
-      "tags": [
-        "llm",
-        "go",
-        "local-ai",
-        "inference",
-        "cli"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-27T03:26:17.912Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agentfield",
-      "fullName": "Agent-Field/agentfield",
-      "url": "https://github.com/Agent-Field/agentfield",
-      "description": "Build, run and scale AI agents like API and microservices",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2448,
-      "forks": 388,
-      "starsToday": 77,
-      "topics": [],
-      "author": {
-        "name": "Agent-Field",
-        "avatar": "https://avatars.githubusercontent.com/u/29346072?s=40&amp;v=4",
-        "url": "https://github.com/Agent-Field"
-      },
-      "summary": "将AI智能体构建为API和微服务，支持快速部署与规模化运行，Go语言实现。",
-      "tags": [
-        "ai-agents",
-        "microservices",
-        "go",
-        "api",
-        "deployment"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-27T03:26:18.017Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rclone",
-      "fullName": "rclone/rclone",
-      "url": "https://github.com/rclone/rclone",
-      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 58724,
-      "forks": 5258,
-      "starsToday": 322,
-      "topics": [],
-      "author": {
-        "name": "rclone",
-        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
-        "url": "https://github.com/rclone"
-      },
-      "summary": "云存储文件同步工具，支持 Google Drive、S3、Dropbox 等 40+ 存储后端，类似 rsync 的命令行体验。",
-      "tags": [
-        "cloud-storage",
-        "sync",
-        "cli",
-        "go",
-        "backup"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-27T03:26:18.455Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "k3s",
-      "fullName": "k3s-io/k3s",
-      "url": "https://github.com/k3s-io/k3s",
-      "description": "Lightweight Kubernetes",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 33575,
-      "forks": 2689,
-      "starsToday": 81,
-      "topics": [],
-      "author": {
-        "name": "k3s-io",
-        "avatar": "https://avatars.githubusercontent.com/u/370103?s=40&amp;v=4",
-        "url": "https://github.com/k3s-io"
-      },
-      "summary": "轻量级 Kubernetes 发行版，专为边缘计算、IoT 和资源受限环境设计，安装简单，启动快速。",
-      "tags": [
-        "kubernetes",
-        "lightweight",
-        "edge",
-        "iot",
-        "container-orchestration"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-27T03:26:18.631Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "beads",
-      "fullName": "gastownhall/beads",
-      "url": "https://github.com/gastownhall/beads",
-      "description": "Beads - A memory upgrade for your coding agent",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 25678,
-      "forks": 1725,
-      "starsToday": 252,
-      "topics": [],
-      "author": {
-        "name": "gastownhall",
-        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
-        "url": "https://github.com/gastownhall"
-      },
-      "summary": "为编码智能体提供持久化记忆升级的开源工具，基于Go构建，让AI助手记住上下文与历史交互。",
-      "tags": [
-        "memory",
-        "ai-agent",
-        "go",
-        "context",
-        "coding-agent"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-27T03:26:19.932Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gentle-ai",
-      "fullName": "Gentleman-Programming/gentle-ai",
-      "url": "https://github.com/Gentleman-Programming/gentle-ai",
-      "description": "",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5092,
-      "forks": 605,
-      "starsToday": 162,
-      "topics": [],
-      "author": {
-        "name": "Gentleman-Programming",
-        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
-        "url": "https://github.com/Gentleman-Programming"
-      },
-      "summary": "基于Go的AI开发工具，简化AI模型调用与工作流编排，提供轻量级本地推理能力。",
-      "tags": [
-        "go",
-        "ai",
-        "llm",
-        "workflow",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-27T03:26:19.756Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hatchet",
-      "fullName": "hatchet-dev/hatchet",
-      "url": "https://github.com/hatchet-dev/hatchet",
-      "description": "🪓 An orchestration engine for background tasks, AI agents, and durable workflows",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7596,
-      "forks": 456,
-      "starsToday": 69,
-      "topics": [],
-      "author": {
-        "name": "hatchet-dev",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/hatchet-dev"
-      },
-      "summary": "基于Go的编排引擎，用于后台任务、AI代理和持久化工作流调度与管理。",
-      "tags": [
-        "go",
-        "workflow",
-        "orchestration",
-        "ai-agents",
-        "task-scheduler"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-27T03:26:20.133Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "evolution-go",
-      "fullName": "evolution-foundation/evolution-go",
-      "url": "https://github.com/evolution-foundation/evolution-go",
-      "description": "Evolution API / Evolution Go is an open-source WhatsApp integration API",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 541,
-      "forks": 292,
-      "starsToday": 98,
-      "topics": [],
-      "author": {
-        "name": "evolution-foundation",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/evolution-foundation"
-      },
-      "summary": "基于Go的开源WhatsApp集成API，提供消息收发、媒体处理等核心功能，自托管方案替代商业服务。",
-      "tags": [
-        "whatsapp",
-        "api",
-        "go",
-        "messaging",
-        "integration"
-      ],
-      "category": "API",
-      "enrichedAt": "2026-07-27T03:26:20.331Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "alloy",
-      "fullName": "grafana/alloy",
-      "url": "https://github.com/grafana/alloy",
-      "description": "OpenTelemetry Collector distribution with programmable pipelines",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3369,
-      "forks": 665,
-      "starsToday": 27,
-      "topics": [],
-      "author": {
-        "name": "grafana",
-        "avatar": "https://avatars.githubusercontent.com/u/630212?s=40&amp;v=4",
-        "url": "https://github.com/grafana"
-      },
-      "summary": "基于 OpenTelemetry 的分布式可观测性数据收集器，支持可编程管道灵活处理指标、日志和链路数据。",
-      "tags": [
-        "observability",
-        "opentelemetry",
-        "collector",
-        "monitoring",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-27T03:26:21.621Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "syft",
-      "fullName": "anchore/syft",
-      "url": "https://github.com/anchore/syft",
-      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 9297,
-      "forks": 906,
-      "starsToday": 46,
-      "topics": [],
-      "author": {
-        "name": "anchore",
-        "avatar": "https://avatars.githubusercontent.com/u/590471?s=40&amp;v=4",
-        "url": "https://github.com/anchore"
-      },
-      "summary": "从容器镜像和文件系统生成SBOM（软件物料清单）的CLI工具和库，支持多种格式输出。",
-      "tags": [
-        "sbom",
-        "container",
-        "security",
-        "cli",
-        "go"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-27T03:26:21.504Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "vikunja",
       "fullName": "go-vikunja/vikunja",
       "url": "https://github.com/go-vikunja/vikunja",
@@ -535,34 +647,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-07-27T03:26:21.697Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "netdata",
-      "fullName": "netdata/netdata",
-      "url": "https://github.com/netdata/netdata",
-      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 79863,
-      "forks": 6546,
-      "starsToday": 186,
-      "topics": [],
-      "author": {
-        "name": "netdata",
-        "avatar": "https://avatars.githubusercontent.com/u/2662304?s=40&amp;v=4",
-        "url": "https://github.com/netdata"
-      },
-      "summary": "开源实时监控和可观测性平台，零配置即可采集数千指标，内置AI异常检测，轻量高效适合任何规模团队。",
-      "tags": [
-        "monitoring",
-        "observability",
-        "devops",
-        "real-time",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-27T03:26:22.092Z",
       "deepwikiAvailable": false
     },
     {
