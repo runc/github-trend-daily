@@ -2,9 +2,571 @@
   "date": "2026-07-28",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-07-28T02:42:24.948Z",
-  "enrichedAt": "2026-07-28T02:43:23.367Z",
+  "fetchedAt": "2026-07-28T11:20:14.964Z",
+  "enrichedAt": "2026-07-28T11:21:07.380Z",
   "repos": [
+    {
+      "name": "vaultwarden",
+      "fullName": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 64464,
+      "forks": 3052,
+      "starsToday": 94,
+      "topics": [],
+      "author": {
+        "name": "dani-garcia",
+        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
+        "url": "https://github.com/dani-garcia"
+      },
+      "summary": "用Rust编写的非官方Bitwarden兼容服务器，轻量高效，可自托管密码管理服务。",
+      "tags": [
+        "rust",
+        "bitwarden",
+        "password-manager",
+        "self-hosted",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-28T02:43:16.046Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119067,
+      "forks": 18168,
+      "starsToday": 121,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面软件，支持自托管，功能全面的 TeamViewer 替代品，基于 Rust 开发，性能优秀。",
+      "tags": [
+        "remote-desktop",
+        "self-hosted",
+        "rust",
+        "teamviewer-alternative",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-28T02:43:20.911Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "meetily",
+      "fullName": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 27112,
+      "forks": 2753,
+      "starsToday": 204,
+      "topics": [],
+      "author": {
+        "name": "Zackriya-Solutions",
+        "avatar": "https://avatars.githubusercontent.com/u/85450497?s=40&amp;v=4",
+        "url": "https://github.com/Zackriya-Solutions"
+      },
+      "summary": "隐私优先的AI会议助手，基于Rust实现4倍速实时转录、说话人分离和Ollama摘要，100%本地运行，无需云端。",
+      "tags": [
+        "meeting-assistant",
+        "transcription",
+        "privacy",
+        "rust",
+        "ai",
+        "local"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-28T02:43:16.201Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "baml",
+      "fullName": "BoundaryML/baml",
+      "url": "https://github.com/BoundaryML/baml",
+      "description": "The programming language for agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8668,
+      "forks": 458,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "BoundaryML",
+        "avatar": "https://avatars.githubusercontent.com/u/2448742?s=40&amp;v=4",
+        "url": "https://github.com/BoundaryML"
+      },
+      "summary": "面向 AI Agent 的编程语言，简化 LLM 输出结构化与验证，提升开发效率。",
+      "tags": [
+        "llm",
+        "agent",
+        "rust",
+        "validation",
+        "structured-output"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-28T11:21:02.515Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ripgrep",
+      "fullName": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 66602,
+      "forks": 2664,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "BurntSushi",
+        "avatar": "https://avatars.githubusercontent.com/u/456674?s=40&amp;v=4",
+        "url": "https://github.com/BurntSushi"
+      },
+      "summary": "基于Rust的超高速递归文本搜索工具，默认遵守gitignore规则，比grep快数倍。",
+      "tags": [
+        "rust",
+        "grep",
+        "cli",
+        "search",
+        "regex",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-28T11:21:02.785Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tensorzero",
+      "fullName": "tensorzero/tensorzero",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11720,
+      "forks": 957,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "tensorzero",
+        "avatar": "https://avatars.githubusercontent.com/u/1408859?s=40&amp;v=4",
+        "url": "https://github.com/tensorzero"
+      },
+      "summary": "开源LLMOps平台，整合LLM网关、可观测性、评估、优化与实验功能于一体。",
+      "tags": [
+        "llmops",
+        "llm-gateway",
+        "observability",
+        "evaluation",
+        "optimization",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-28T11:21:02.500Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7844,
+      "forks": 1085,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 开源的自治 AI 代理安全运行时，基于 Rust 构建，提供隐私保护和隔离执行环境。",
+      "tags": [
+        "ai-agents",
+        "runtime",
+        "security",
+        "rust",
+        "nvidia"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-28T11:21:02.597Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dynamo",
+      "fullName": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7604,
+      "forks": 1374,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "ai-dynamo",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/ai-dynamo"
+      },
+      "summary": "面向数据中心规模的分布式推理服务框架，基于Rust实现高性能模型推理调度。",
+      "tags": [
+        "distributed-inference",
+        "llm-serving",
+        "rust",
+        "datacenter",
+        "inference-framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-28T11:21:04.109Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "axum",
+      "fullName": "tokio-rs/axum",
+      "url": "https://github.com/tokio-rs/axum",
+      "description": "HTTP routing and request-handling library for Rust that focuses on ergonomics and modularity",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 26685,
+      "forks": 1453,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/718941?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "基于Tokio的Rust HTTP框架，注重易用性与模块化，提供声明式路由和中间件支持。",
+      "tags": [
+        "rust",
+        "http",
+        "web-framework",
+        "async",
+        "tokio"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-28T11:21:04.178Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dockpanel",
+      "fullName": "ovexro/dockpanel",
+      "url": "https://github.com/ovexro/dockpanel",
+      "description": "Modern server management panel built with Rust and React. Sites, databases, Docker apps, Git deploy, mail, DNS, monitoring, backups, and security — all in one panel.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 732,
+      "forks": 108,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "ovexro",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/ovexro"
+      },
+      "summary": "基于 Rust + React 的现代化服务器管理面板，集成站点、数据库、Docker、Git 部署、邮件、DNS、监控、备份与安全功能。",
+      "tags": [
+        "rust",
+        "react",
+        "server-panel",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-28T02:43:17.460Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "goose",
+      "fullName": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 51836,
+      "forks": 5758,
+      "starsToday": 83,
+      "topics": [],
+      "author": {
+        "name": "aaif-goose",
+        "avatar": "https://avatars.githubusercontent.com/u/22990146?s=40&amp;v=4",
+        "url": "https://github.com/aaif-goose"
+      },
+      "summary": "开源可扩展AI代理，超越代码补全，支持安装、执行、编辑和测试，兼容任意LLM。",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "rust",
+        "open-source",
+        "extensible"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-28T02:43:17.546Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "alacritty",
+      "fullName": "alacritty/alacritty",
+      "url": "https://github.com/alacritty/alacritty",
+      "description": "A cross-platform, OpenGL terminal emulator.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 65134,
+      "forks": 3528,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "alacritty",
+        "avatar": "https://avatars.githubusercontent.com/u/8886672?s=40&amp;v=4",
+        "url": "https://github.com/alacritty"
+      },
+      "summary": "基于OpenGL的跨平台终端模拟器，主打高性能与GPU加速渲染，Rust编写。",
+      "tags": [
+        "terminal",
+        "gpu-accelerated",
+        "cross-platform",
+        "rust",
+        "opengl"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-28T11:21:04.144Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "herdr",
+      "fullName": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 21729,
+      "forks": 1458,
+      "starsToday": 544,
+      "topics": [],
+      "author": {
+        "name": "ogulcancelik",
+        "avatar": "https://avatars.githubusercontent.com/u/7064011?s=40&amp;v=4",
+        "url": "https://github.com/ogulcancelik"
+      },
+      "summary": "终端里的AI代理多路复用器，可同时运行多个LLM代理并实时交互。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "terminal",
+        "multiplexer",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-28T11:21:04.166Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uv",
+      "fullName": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 87992,
+      "forks": 3399,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "极速 Python 包与项目管理器，Rust 编写，替代 pip/poetry，性能极佳。",
+      "tags": [
+        "python",
+        "package-manager",
+        "rust",
+        "pip",
+        "fast"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-28T11:21:05.622Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "candle",
+      "fullName": "huggingface/candle",
+      "url": "https://github.com/huggingface/candle",
+      "description": "Minimalist ML framework for Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 20770,
+      "forks": 1679,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "huggingface",
+        "avatar": "https://avatars.githubusercontent.com/u/1041292?s=40&amp;v=4",
+        "url": "https://github.com/huggingface"
+      },
+      "summary": "基于Rust的极简机器学习框架，专注性能与轻量化，支持GPU推理与主流模型。",
+      "tags": [
+        "rust",
+        "machine-learning",
+        "deep-learning",
+        "framework",
+        "gpu"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-28T02:43:20.628Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12155,
+      "forks": 1163,
+      "starsToday": 300,
+      "topics": [],
+      "author": {
+        "name": "t8y2",
+        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
+        "url": "https://github.com/t8y2"
+      },
+      "summary": "轻量级跨平台数据库管理工具，支持70+数据库，内置AI助手、MCP Server，提供桌面端、CLI和Docker部署。",
+      "tags": [
+        "database-client",
+        "cross-platform",
+        "rust",
+        "ai",
+        "mcp"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-28T11:21:05.870Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nautilus_trader",
+      "fullName": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 25096,
+      "forks": 3243,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "nautechsystems",
+        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
+        "url": "https://github.com/nautechsystems"
+      },
+      "summary": "高性能Rust原生交易引擎，基于确定性事件驱动架构，支持生产级算法交易与回测。",
+      "tags": [
+        "trading",
+        "rust",
+        "backtesting",
+        "algorithmic-trading",
+        "event-driven"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-28T02:43:21.885Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spotify-player",
+      "fullName": "aome510/spotify-player",
+      "url": "https://github.com/aome510/spotify-player",
+      "description": "A Spotify player in the terminal with full feature parity",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7008,
+      "forks": 368,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "aome510",
+        "avatar": "https://avatars.githubusercontent.com/u/40011582?s=40&amp;v=4",
+        "url": "https://github.com/aome510"
+      },
+      "summary": "终端里的全功能 Spotify 播放器，支持播放控制、搜索、歌单管理，Rust 编写，性能出色。",
+      "tags": [
+        "spotify",
+        "terminal",
+        "music",
+        "rust",
+        "tui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-28T11:21:05.846Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbt-core",
+      "fullName": "dbt-labs/dbt-core",
+      "url": "https://github.com/dbt-labs/dbt-core",
+      "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13532,
+      "forks": 2482,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "dbt-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/1541139?s=40&amp;v=4",
+        "url": "https://github.com/dbt-labs"
+      },
+      "summary": "dbt 核心框架，让数据分析师和工程师用软件工程最佳实践（版本控制、测试、CI/CD）来转换数据。",
+      "tags": [
+        "data-transformation",
+        "analytics-engineering",
+        "data-ops",
+        "sql",
+        "etl"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-28T11:21:06.009Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "verus",
+      "fullName": "verus-lang/verus",
+      "url": "https://github.com/verus-lang/verus",
+      "description": "Verified Rust for low-level systems code",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2780,
+      "forks": 195,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "verus-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/592054?s=40&amp;v=4",
+        "url": "https://github.com/verus-lang"
+      },
+      "summary": "Verus 是一个用于低级系统代码的形式化验证工具，扩展 Rust 类型系统以支持可证明的内存安全和功能正确性。",
+      "tags": [
+        "rust",
+        "formal-verification",
+        "systems-programming",
+        "verification"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-28T11:21:07.380Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "rust",
       "fullName": "rust-lang/rust",
@@ -30,63 +592,6 @@
       ],
       "category": "Language",
       "enrichedAt": "2026-07-28T02:43:16.186Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "meetily",
-      "fullName": "Zackriya-Solutions/meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 27034,
-      "forks": 2750,
-      "starsToday": 204,
-      "topics": [],
-      "author": {
-        "name": "Zackriya-Solutions",
-        "avatar": "https://avatars.githubusercontent.com/u/85450497?s=40&amp;v=4",
-        "url": "https://github.com/Zackriya-Solutions"
-      },
-      "summary": "隐私优先的AI会议助手，基于Rust实现4倍速实时转录、说话人分离和Ollama摘要，100%本地运行，无需云端。",
-      "tags": [
-        "meeting-assistant",
-        "transcription",
-        "privacy",
-        "rust",
-        "ai",
-        "local"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-28T02:43:16.201Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "vaultwarden",
-      "fullName": "dani-garcia/vaultwarden",
-      "url": "https://github.com/dani-garcia/vaultwarden",
-      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 64434,
-      "forks": 3048,
-      "starsToday": 94,
-      "topics": [],
-      "author": {
-        "name": "dani-garcia",
-        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
-        "url": "https://github.com/dani-garcia"
-      },
-      "summary": "用Rust编写的非官方Bitwarden兼容服务器，轻量高效，可自托管密码管理服务。",
-      "tags": [
-        "rust",
-        "bitwarden",
-        "password-manager",
-        "self-hosted",
-        "server"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-28T02:43:16.046Z",
       "deepwikiAvailable": false
     },
     {
@@ -116,34 +621,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-28T02:43:16.175Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dockpanel",
-      "fullName": "ovexro/dockpanel",
-      "url": "https://github.com/ovexro/dockpanel",
-      "description": "Modern server management panel built with Rust and React. Sites, databases, Docker apps, Git deploy, mail, DNS, monitoring, backups, and security — all in one panel.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 709,
-      "forks": 106,
-      "starsToday": 61,
-      "topics": [],
-      "author": {
-        "name": "ovexro",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/ovexro"
-      },
-      "summary": "基于 Rust + React 的现代化服务器管理面板，集成站点、数据库、Docker、Git 部署、邮件、DNS、监控、备份与安全功能。",
-      "tags": [
-        "rust",
-        "react",
-        "server-panel",
-        "devops",
-        "self-hosted"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-28T02:43:17.460Z",
       "deepwikiAvailable": false
     },
     {
@@ -200,34 +677,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-07-28T02:43:17.686Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "goose",
-      "fullName": "aaif-goose/goose",
-      "url": "https://github.com/aaif-goose/goose",
-      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 51824,
-      "forks": 5755,
-      "starsToday": 83,
-      "topics": [],
-      "author": {
-        "name": "aaif-goose",
-        "avatar": "https://avatars.githubusercontent.com/u/22990146?s=40&amp;v=4",
-        "url": "https://github.com/aaif-goose"
-      },
-      "summary": "开源可扩展AI代理，超越代码补全，支持安装、执行、编辑和测试，兼容任意LLM。",
-      "tags": [
-        "ai-agent",
-        "llm",
-        "rust",
-        "open-source",
-        "extensible"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-28T02:43:17.546Z",
       "deepwikiAvailable": false
     },
     {
@@ -398,90 +847,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-07-28T02:43:20.404Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "candle",
-      "fullName": "huggingface/candle",
-      "url": "https://github.com/huggingface/candle",
-      "description": "Minimalist ML framework for Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 20762,
-      "forks": 1677,
-      "starsToday": 22,
-      "topics": [],
-      "author": {
-        "name": "huggingface",
-        "avatar": "https://avatars.githubusercontent.com/u/1041292?s=40&amp;v=4",
-        "url": "https://github.com/huggingface"
-      },
-      "summary": "基于Rust的极简机器学习框架，专注性能与轻量化，支持GPU推理与主流模型。",
-      "tags": [
-        "rust",
-        "machine-learning",
-        "deep-learning",
-        "framework",
-        "gpu"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-07-28T02:43:20.628Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 119031,
-      "forks": 18157,
-      "starsToday": 121,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面软件，支持自托管，功能全面的 TeamViewer 替代品，基于 Rust 开发，性能优秀。",
-      "tags": [
-        "remote-desktop",
-        "self-hosted",
-        "rust",
-        "teamviewer-alternative",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-28T02:43:20.911Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "nautilus_trader",
-      "fullName": "nautechsystems/nautilus_trader",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 25076,
-      "forks": 3242,
-      "starsToday": 49,
-      "topics": [],
-      "author": {
-        "name": "nautechsystems",
-        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
-        "url": "https://github.com/nautechsystems"
-      },
-      "summary": "高性能Rust原生交易引擎，基于确定性事件驱动架构，支持生产级算法交易与回测。",
-      "tags": [
-        "trading",
-        "rust",
-        "backtesting",
-        "algorithmic-trading",
-        "event-driven"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-07-28T02:43:21.885Z",
       "deepwikiAvailable": false
     },
     {
