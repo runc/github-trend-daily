@@ -1,0 +1,596 @@
+{
+  "date": "2026-07-29",
+  "since": "daily",
+  "language": "Go",
+  "fetchedAt": "2026-07-29T02:49:21.024Z",
+  "enrichedAt": "2026-07-29T02:50:14.961Z",
+  "repos": [
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21523,
+      "forks": 698,
+      "starsToday": 662,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "超炫酷的现代化终端文件管理器，美观易用，支持多面板、预览等功能。",
+      "tags": [
+        "terminal",
+        "file-manager",
+        "go",
+        "tui",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-29T02:50:05.672Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15539,
+      "forks": 1052,
+      "starsToday": 918,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里巴巴开源的代码审查工具，混合架构（确定性流水线+LLM Agent），支持行级评论、内置NPE/线程安全/XSS/SQL注入规则集，兼容OpenAI和Anthropic。",
+      "tags": [
+        "code-review",
+        "static-analysis",
+        "llm",
+        "go",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T02:50:05.853Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15929,
+      "forks": 1188,
+      "starsToday": 46,
+      "topics": [],
+      "author": {
+        "name": "larksuite",
+        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
+        "url": "https://github.com/larksuite"
+      },
+      "summary": "飞书/Lark 官方 CLI 工具，支持 200+ 命令和 20+ AI Agent 技能，覆盖消息、文档、表格、日历等核心业务域。",
+      "tags": [
+        "cli",
+        "lark",
+        "feishu",
+        "productivity",
+        "ai-agent"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-29T02:50:05.497Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "litestream",
+      "fullName": "benbjohnson/litestream",
+      "url": "https://github.com/benbjohnson/litestream",
+      "description": "Streaming replication for SQLite.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14113,
+      "forks": 382,
+      "starsToday": 54,
+      "topics": [],
+      "author": {
+        "name": "benbjohnson",
+        "avatar": "https://avatars.githubusercontent.com/u/118015?s=40&amp;v=4",
+        "url": "https://github.com/benbjohnson"
+      },
+      "summary": "SQLite 的流式复制工具，实现实时备份与灾难恢复，轻量可靠。",
+      "tags": [
+        "sqlite",
+        "replication",
+        "backup",
+        "go",
+        "database"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T02:50:05.582Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18898,
+      "forks": 1805,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "为容器提供安全应用内核的沙箱运行时，隔离容器与宿主机内核，增强安全性与兼容性。",
+      "tags": [
+        "container",
+        "security",
+        "sandbox",
+        "kernel",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T02:50:07.341Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "adk-go",
+      "fullName": "google/adk-go",
+      "url": "https://github.com/google/adk-go",
+      "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8549,
+      "forks": 849,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/20398573?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google开源的Go语言AI代理开发工具包，支持构建、评估和部署复杂AI代理，代码优先、灵活可控。",
+      "tags": [
+        "go",
+        "ai-agents",
+        "llm",
+        "toolkit",
+        "google"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-29T02:50:07.445Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CyberStrikeAI",
+      "fullName": "Ed1s0nZ/CyberStrikeAI",
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "description": "The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5348,
+      "forks": 854,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "Ed1s0nZ",
+        "avatar": "https://avatars.githubusercontent.com/u/83812544?s=40&amp;v=4",
+        "url": "https://github.com/Ed1s0nZ"
+      },
+      "summary": "AI原生网络安全系统，将意图转化为受控执行、证据转化为操作记忆，实现持续自我优化的安全运营。",
+      "tags": [
+        "ai",
+        "cybersecurity",
+        "go",
+        "security-automation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T02:50:07.524Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microservices-demo",
+      "fullName": "GoogleCloudPlatform/microservices-demo",
+      "url": "https://github.com/GoogleCloudPlatform/microservices-demo",
+      "description": "Sample cloud-first application with 10 microservices showcasing Kubernetes, Istio, and gRPC.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20759,
+      "forks": 10250,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "GoogleCloudPlatform",
+        "avatar": "https://avatars.githubusercontent.com/u/25180681?s=40&amp;v=4",
+        "url": "https://github.com/GoogleCloudPlatform"
+      },
+      "summary": "谷歌云官方微服务示例，10个微服务演示Kubernetes、Istio和gRPC的云原生最佳实践。",
+      "tags": [
+        "kubernetes",
+        "microservices",
+        "istio",
+        "grpc",
+        "google-cloud",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T02:50:07.616Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Ant-Browser",
+      "fullName": "black-ant/Ant-Browser",
+      "url": "https://github.com/black-ant/Ant-Browser",
+      "description": "指纹浏览器",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1481,
+      "forks": 237,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "black-ant",
+        "avatar": "https://avatars.githubusercontent.com/u/26599473?s=40&amp;v=4",
+        "url": "https://github.com/black-ant"
+      },
+      "summary": "基于Go的指纹浏览器，通过修改浏览器指纹实现多账号隔离管理，防关联检测。",
+      "tags": [
+        "fingerprint",
+        "browser",
+        "anti-detection",
+        "go",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-29T02:50:09.101Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "woodpecker",
+      "fullName": "woodpecker-ci/woodpecker",
+      "url": "https://github.com/woodpecker-ci/woodpecker",
+      "description": "Woodpecker is a simple, yet powerful CI/CD engine with great extensibility.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7577,
+      "forks": 638,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "woodpecker-ci",
+        "avatar": "https://avatars.githubusercontent.com/u/817538?s=40&amp;v=4",
+        "url": "https://github.com/woodpecker-ci"
+      },
+      "summary": "轻量级、可扩展的 CI/CD 引擎，支持多种代码托管平台和插件，易于部署和配置。",
+      "tags": [
+        "ci/cd",
+        "go",
+        "devops",
+        "self-hosted",
+        "docker"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T02:50:09.315Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform-provider-aws",
+      "fullName": "hashicorp/terraform-provider-aws",
+      "url": "https://github.com/hashicorp/terraform-provider-aws",
+      "description": "The AWS Provider enables Terraform to manage AWS resources.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11004,
+      "forks": 10272,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/2404182?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "Terraform官方AWS资源管理Provider，支持数百种AWS服务的声明式基础设施编排。",
+      "tags": [
+        "terraform",
+        "aws",
+        "infrastructure",
+        "iac",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T02:50:09.136Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 71916,
+      "forks": 19072,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Docker 核心开源项目，提供容器化应用构建、交付和运行的基础平台，容器生态基石。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "devops",
+        "infrastructure"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T02:50:09.591Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "micro",
+      "fullName": "micro-editor/micro",
+      "url": "https://github.com/micro-editor/micro",
+      "description": "A modern and intuitive terminal-based text editor",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29218,
+      "forks": 1346,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "micro-editor",
+        "avatar": "https://avatars.githubusercontent.com/u/5513065?s=40&amp;v=4",
+        "url": "https://github.com/micro-editor"
+      },
+      "summary": "基于终端的现代化文本编辑器，操作直观，支持插件和语法高亮，轻量且易用。",
+      "tags": [
+        "editor",
+        "terminal",
+        "go",
+        "cli",
+        "text-editor"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-29T02:50:10.945Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "listmonk",
+      "fullName": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22521,
+      "forks": 2455,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "knadh",
+        "avatar": "https://avatars.githubusercontent.com/u/547147?s=40&amp;v=4",
+        "url": "https://github.com/knadh"
+      },
+      "summary": "高性能自托管新闻通讯和邮件列表管理器，单二进制部署，带现代化仪表盘。",
+      "tags": [
+        "go",
+        "newsletter",
+        "mailing-list",
+        "self-hosted",
+        "email"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-29T02:50:10.932Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skill-up",
+      "fullName": "alibaba/skill-up",
+      "url": "https://github.com/alibaba/skill-up",
+      "description": "An evaluation and evolution tool for Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 241,
+      "forks": 14,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/14896023?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里巴巴开源的Agent技能评估与进化工具，帮助开发者测试、优化和迭代AI Agent的各项技能表现。",
+      "tags": [
+        "agent",
+        "evaluation",
+        "ai",
+        "go",
+        "skill"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-29T02:50:11.200Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-ethereum",
+      "fullName": "ethereum/go-ethereum",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "description": "Go implementation of the Ethereum protocol",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 51232,
+      "forks": 22028,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "ethereum",
+        "avatar": "https://avatars.githubusercontent.com/u/6264126?s=40&amp;v=4",
+        "url": "https://github.com/ethereum"
+      },
+      "summary": "以太坊协议的官方Go语言实现，核心客户端，支持全节点、挖矿、智能合约与DApp交互。",
+      "tags": [
+        "ethereum",
+        "blockchain",
+        "go",
+        "cryptocurrency",
+        "node"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T02:50:11.569Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "octo-server",
+      "fullName": "Mininglamp-OSS/octo-server",
+      "url": "https://github.com/Mininglamp-OSS/octo-server",
+      "description": "🐙 The Go backend powering OCTO — an open workplace built for humans × AI agents. REST & WebSocket APIs, Lobster (AI agent) orchestration, and WuKongIM real-time messaging control plane.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 454,
+      "forks": 78,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "Mininglamp-OSS",
+        "avatar": "https://avatars.githubusercontent.com/u/7678334?s=40&amp;v=4",
+        "url": "https://github.com/Mininglamp-OSS"
+      },
+      "summary": "OCTO 的 Go 后端，提供 REST/WebSocket API、Lobster AI 智能体编排与 WuKongIM 实时消息控制平面，构建人机协作开放工作空间。",
+      "tags": [
+        "go",
+        "ai-agent",
+        "real-time",
+        "backend",
+        "workplace"
+      ],
+      "category": "Backend",
+      "enrichedAt": "2026-07-29T02:50:12.876Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "viper",
+      "fullName": "spf13/viper",
+      "url": "https://github.com/spf13/viper",
+      "description": "Go configuration with fangs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30398,
+      "forks": 2212,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "spf13",
+        "avatar": "https://avatars.githubusercontent.com/u/1226384?s=40&amp;v=4",
+        "url": "https://github.com/spf13"
+      },
+      "summary": "Go 应用的全功能配置库，支持多数据源、环境变量、远程配置，是 Go 生态最流行的配置管理方案。",
+      "tags": [
+        "go",
+        "configuration",
+        "config",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-29T02:50:12.902Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "picoclaw",
+      "fullName": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29752,
+      "forks": 4348,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "sipeed",
+        "avatar": "https://avatars.githubusercontent.com/u/10548612?s=40&amp;v=4",
+        "url": "https://github.com/sipeed"
+      },
+      "summary": "轻量级Go自动化工具，快速部署，助你摆脱重复劳动释放创造力。",
+      "tags": [
+        "go",
+        "automation",
+        "cli",
+        "lightweight"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-29T02:50:12.968Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "yq",
+      "fullName": "mikefarah/yq",
+      "url": "https://github.com/mikefarah/yq",
+      "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15756,
+      "forks": 803,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "mikefarah",
+        "avatar": "https://avatars.githubusercontent.com/u/1151925?s=40&amp;v=4",
+        "url": "https://github.com/mikefarah"
+      },
+      "summary": "便携式命令行工具，用于处理YAML、JSON、XML、CSV、TOML等多种格式数据，支持查询、修改和转换。",
+      "tags": [
+        "yaml",
+        "json",
+        "cli",
+        "go",
+        "data-processing"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-29T02:50:13.376Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "livekit",
+      "fullName": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20011,
+      "forks": 2197,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "livekit",
+        "avatar": "https://avatars.githubusercontent.com/u/6278212?s=40&amp;v=4",
+        "url": "https://github.com/livekit"
+      },
+      "summary": "开源实时音视频/AI交互平台，提供端到端连接人类与AI的底层基础设施，支持语音、视频和数据传输。",
+      "tags": [
+        "realtime",
+        "webrtc",
+        "ai",
+        "voice",
+        "video",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T02:50:14.961Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
