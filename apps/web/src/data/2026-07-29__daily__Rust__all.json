@@ -2,9 +2,571 @@
   "date": "2026-07-29",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-07-29T02:49:21.024Z",
-  "enrichedAt": "2026-07-29T02:50:24.696Z",
+  "fetchedAt": "2026-07-29T11:27:41.115Z",
+  "enrichedAt": "2026-07-29T11:28:35.914Z",
   "repos": [
+    {
+      "name": "jcode",
+      "fullName": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most RAM effiecent harness",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13083,
+      "forks": 1447,
+      "starsToday": 652,
+      "topics": [],
+      "author": {
+        "name": "1jehuang",
+        "avatar": "https://avatars.githubusercontent.com/u/94247773?s=40&amp;v=4",
+        "url": "https://github.com/1jehuang"
+      },
+      "summary": "极致内存效率的Rust测试框架，以极低资源消耗运行大规模测试用例。",
+      "tags": [
+        "rust",
+        "testing",
+        "memory-efficient",
+        "framework"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T11:28:30.828Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "atuin",
+      "fullName": "atuinsh/atuin",
+      "url": "https://github.com/atuinsh/atuin",
+      "description": "✨ Making your shell magical",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30888,
+      "forks": 908,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "atuinsh",
+        "avatar": "https://avatars.githubusercontent.com/u/53315310?s=40&amp;v=4",
+        "url": "https://github.com/atuinsh"
+      },
+      "summary": "用 Rust 编写的 shell 历史记录工具，支持同步、加密、模糊搜索和智能补全，大幅提升终端操作效率。",
+      "tags": [
+        "shell",
+        "history",
+        "rust",
+        "productivity",
+        "cli",
+        "sync"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-29T11:28:31.143Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uv",
+      "fullName": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 88064,
+      "forks": 3411,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "极速 Python 包与项目管理工具，Rust 编写，替代 pip/poetry，性能惊人。",
+      "tags": [
+        "python",
+        "package-manager",
+        "rust",
+        "pip",
+        "fast"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T02:50:22.250Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust-sdk",
+      "fullName": "modelcontextprotocol/rust-sdk",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "description": "The official Rust SDK for the Model Context Protocol",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3691,
+      "forks": 575,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "modelcontextprotocol",
+        "avatar": "https://avatars.githubusercontent.com/u/5466341?s=40&amp;v=4",
+        "url": "https://github.com/modelcontextprotocol"
+      },
+      "summary": "MCP 官方 Rust SDK，为 AI 工具和模型提供标准化的上下文交互协议实现，支持异步、类型安全。",
+      "tags": [
+        "rust",
+        "mcp",
+        "sdk",
+        "ai",
+        "protocol"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-29T11:28:31.110Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nono",
+      "fullName": "nolabs-ai/nono",
+      "url": "https://github.com/nolabs-ai/nono",
+      "description": "Sandbox any AI agent in seconds - zero setup, zero latency.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3268,
+      "forks": 224,
+      "starsToday": 73,
+      "topics": [],
+      "author": {
+        "name": "nolabs-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/7058938?s=40&amp;v=4",
+        "url": "https://github.com/nolabs-ai"
+      },
+      "summary": "秒级沙箱隔离AI代理，零配置零延迟，基于Rust的高性能安全执行环境。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "security",
+        "rust",
+        "isolation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T11:28:30.987Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30378,
+      "forks": 1343,
+      "starsToday": 66,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "开源高性能S3兼容对象存储，4KB小对象性能比MinIO快2.3倍，支持与MinIO/Ceph迁移共存。",
+      "tags": [
+        "s3-compatible",
+        "object-storage",
+        "high-performance",
+        "rust",
+        "minio-alternative"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T11:28:32.655Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microsandbox",
+      "fullName": "superradcompany/microsandbox",
+      "url": "https://github.com/superradcompany/microsandbox",
+      "description": "🧱 easy fast local-first microVM runtime and library",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7052,
+      "forks": 363,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "superradcompany",
+        "avatar": "https://avatars.githubusercontent.com/u/20358651?s=40&amp;v=4",
+        "url": "https://github.com/superradcompany"
+      },
+      "summary": "轻量级本地优先的微虚拟机运行时与库，基于Rust实现，快速易用。",
+      "tags": [
+        "microvm",
+        "rust",
+        "sandbox",
+        "runtime",
+        "local-first"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T11:28:32.568Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zed",
+      "fullName": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 87687,
+      "forks": 9764,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "zed-industries",
+        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
+        "url": "https://github.com/zed-industries"
+      },
+      "summary": "Zed 是一款由 Atom 和 Tree-sitter 团队打造的高性能多人协作代码编辑器，追求极速编码体验。",
+      "tags": [
+        "editor",
+        "rust",
+        "multiplayer",
+        "performance",
+        "ide"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-29T11:28:32.701Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "herdr",
+      "fullName": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22182,
+      "forks": 1499,
+      "starsToday": 532,
+      "topics": [],
+      "author": {
+        "name": "ogulcancelik",
+        "avatar": "https://avatars.githubusercontent.com/u/7064011?s=40&amp;v=4",
+        "url": "https://github.com/ogulcancelik"
+      },
+      "summary": "终端里的 AI 代理多路复用器，可同时运行多个 LLM 代理并管理对话流。",
+      "tags": [
+        "rust",
+        "terminal",
+        "ai-agent",
+        "multiplexer",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-29T02:50:21.992Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tuicr",
+      "fullName": "agavra/tuicr",
+      "url": "https://github.com/agavra/tuicr",
+      "description": "a code review TUI with vim keybindings",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1493,
+      "forks": 143,
+      "starsToday": 310,
+      "topics": [],
+      "author": {
+        "name": "agavra",
+        "avatar": "https://avatars.githubusercontent.com/u/3172405?s=40&amp;v=4",
+        "url": "https://github.com/agavra"
+      },
+      "summary": "基于终端的代码审查工具，支持 vim 快捷键，用 Rust 编写，轻量高效。",
+      "tags": [
+        "tui",
+        "code-review",
+        "vim",
+        "rust",
+        "terminal"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T11:28:32.646Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "baml",
+      "fullName": "BoundaryML/baml",
+      "url": "https://github.com/BoundaryML/baml",
+      "description": "The programming language for agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8727,
+      "forks": 460,
+      "starsToday": 46,
+      "topics": [],
+      "author": {
+        "name": "BoundaryML",
+        "avatar": "https://avatars.githubusercontent.com/u/2448742?s=40&amp;v=4",
+        "url": "https://github.com/BoundaryML"
+      },
+      "summary": "面向AI Agent的编程语言，将提示词与逻辑分离，支持类型安全、多模型调用和编译时验证。",
+      "tags": [
+        "ai",
+        "agent",
+        "llm",
+        "programming-language",
+        "rust",
+        "prompt-engineering"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T02:50:17.026Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119155,
+      "forks": 18185,
+      "starsToday": 105,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面软件，支持自托管，功能齐全，性能优异，是TeamViewer的替代品。",
+      "tags": [
+        "remote-desktop",
+        "self-hosted",
+        "rust",
+        "teamviewer-alternative",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-29T02:50:16.777Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tensorzero",
+      "fullName": "tensorzero/tensorzero",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11727,
+      "forks": 958,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "tensorzero",
+        "avatar": "https://avatars.githubusercontent.com/u/1408859?s=40&amp;v=4",
+        "url": "https://github.com/tensorzero"
+      },
+      "summary": "开源LLMOps平台，集成了LLM网关、可观测性、评估、优化和实验功能，帮助团队高效构建和迭代大模型应用。",
+      "tags": [
+        "llmops",
+        "llm-gateway",
+        "observability",
+        "evaluation",
+        "optimization",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T02:50:18.717Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentgateway",
+      "fullName": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4106,
+      "forks": 683,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "agentgateway",
+        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
+        "url": "https://github.com/agentgateway"
+      },
+      "summary": "基于Rust的下一代AI代理网关，为AI Agent和MCP服务器提供高性能代理与通信能力。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "proxy",
+        "mcp",
+        "gateway"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T11:28:34.360Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rio",
+      "fullName": "raphamorim/rio",
+      "url": "https://github.com/raphamorim/rio",
+      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7087,
+      "forks": 310,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "raphamorim",
+        "avatar": "https://avatars.githubusercontent.com/u/3630346?s=40&amp;v=4",
+        "url": "https://github.com/raphamorim"
+      },
+      "summary": "基于GPU硬件加速的终端模拟器，支持桌面端与浏览器运行，性能出色。",
+      "tags": [
+        "terminal",
+        "gpu-accelerated",
+        "rust",
+        "emulator",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T11:28:34.349Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "burn",
+      "fullName": "tracel-ai/burn",
+      "url": "https://github.com/tracel-ai/burn",
+      "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15663,
+      "forks": 998,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "tracel-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/14095719?s=40&amp;v=4",
+        "url": "https://github.com/tracel-ai"
+      },
+      "summary": "Rust 原生的下一代张量库与深度学习框架，兼顾灵活、高效与跨平台可移植性。",
+      "tags": [
+        "rust",
+        "deep-learning",
+        "tensor",
+        "ml",
+        "framework"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-29T11:28:34.400Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-browser",
+      "fullName": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 39468,
+      "forks": 2577,
+      "starsToday": 89,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "面向AI代理的浏览器自动化CLI工具，基于Rust构建，让AI能操控浏览器完成网页交互任务。",
+      "tags": [
+        "browser-automation",
+        "ai-agents",
+        "cli",
+        "rust",
+        "web-scraping"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-29T11:28:34.383Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freenet-core",
+      "fullName": "freenet/freenet-core",
+      "url": "https://github.com/freenet/freenet-core",
+      "description": "Declare your digital independence",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2966,
+      "forks": 166,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "freenet",
+        "avatar": "https://avatars.githubusercontent.com/u/23075?s=40&amp;v=4",
+        "url": "https://github.com/freenet"
+      },
+      "summary": "去中心化网络协议，基于 Rust 构建，旨在实现数字独立与隐私保护。",
+      "tags": [
+        "decentralized",
+        "privacy",
+        "rust",
+        "p2p",
+        "network"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-29T11:28:35.914Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "axum",
+      "fullName": "tokio-rs/axum",
+      "url": "https://github.com/tokio-rs/axum",
+      "description": "HTTP routing and request-handling library for Rust that focuses on ergonomics and modularity",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 26707,
+      "forks": 1458,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/718941?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "基于Tokio的Rust HTTP框架，以易用性和模块化著称，提供声明式路由和中间件系统。",
+      "tags": [
+        "rust",
+        "http-framework",
+        "web",
+        "async",
+        "tokio"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-29T02:50:20.418Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Codex-Manager",
+      "fullName": "qxcnm/Codex-Manager",
+      "url": "https://github.com/qxcnm/Codex-Manager",
+      "description": "一个Codex cli 账号管理与切换工具。为 Codex cli提供本地网关转发。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2828,
+      "forks": 377,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "qxcnm",
+        "avatar": "https://avatars.githubusercontent.com/u/51312019?s=40&amp;v=4",
+        "url": "https://github.com/qxcnm"
+      },
+      "summary": "Codex CLI 账号管理与切换工具，提供本地网关转发，方便多账号使用。",
+      "tags": [
+        "codex",
+        "cli",
+        "account-manager",
+        "proxy",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-29T11:28:35.866Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "vaultwarden",
       "fullName": "dani-garcia/vaultwarden",
@@ -31,34 +593,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-07-29T02:50:16.714Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 119119,
-      "forks": 18176,
-      "starsToday": 105,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面软件，支持自托管，功能齐全，性能优异，是TeamViewer的替代品。",
-      "tags": [
-        "remote-desktop",
-        "self-hosted",
-        "rust",
-        "teamviewer-alternative",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-29T02:50:16.777Z",
       "deepwikiAvailable": false
     },
     {
@@ -91,35 +625,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "baml",
-      "fullName": "BoundaryML/baml",
-      "url": "https://github.com/BoundaryML/baml",
-      "description": "The programming language for agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8714,
-      "forks": 459,
-      "starsToday": 46,
-      "topics": [],
-      "author": {
-        "name": "BoundaryML",
-        "avatar": "https://avatars.githubusercontent.com/u/2448742?s=40&amp;v=4",
-        "url": "https://github.com/BoundaryML"
-      },
-      "summary": "面向AI Agent的编程语言，将提示词与逻辑分离，支持类型安全、多模型调用和编译时验证。",
-      "tags": [
-        "ai",
-        "agent",
-        "llm",
-        "programming-language",
-        "rust",
-        "prompt-engineering"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-29T02:50:17.026Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ripgrep",
       "fullName": "BurntSushi/ripgrep",
       "url": "https://github.com/BurntSushi/ripgrep",
@@ -145,35 +650,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-07-29T02:50:18.568Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "tensorzero",
-      "fullName": "tensorzero/tensorzero",
-      "url": "https://github.com/tensorzero/tensorzero",
-      "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11726,
-      "forks": 957,
-      "starsToday": 20,
-      "topics": [],
-      "author": {
-        "name": "tensorzero",
-        "avatar": "https://avatars.githubusercontent.com/u/1408859?s=40&amp;v=4",
-        "url": "https://github.com/tensorzero"
-      },
-      "summary": "开源LLMOps平台，集成了LLM网关、可观测性、评估、优化和实验功能，帮助团队高效构建和迭代大模型应用。",
-      "tags": [
-        "llmops",
-        "llm-gateway",
-        "observability",
-        "evaluation",
-        "optimization",
-        "rust"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-29T02:50:18.717Z",
       "deepwikiAvailable": false
     },
     {
@@ -231,34 +707,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-07-29T02:50:18.763Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "axum",
-      "fullName": "tokio-rs/axum",
-      "url": "https://github.com/tokio-rs/axum",
-      "description": "HTTP routing and request-handling library for Rust that focuses on ergonomics and modularity",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 26697,
-      "forks": 1458,
-      "starsToday": 26,
-      "topics": [],
-      "author": {
-        "name": "tokio-rs",
-        "avatar": "https://avatars.githubusercontent.com/u/718941?s=40&amp;v=4",
-        "url": "https://github.com/tokio-rs"
-      },
-      "summary": "基于Tokio的Rust HTTP框架，以易用性和模块化著称，提供声明式路由和中间件系统。",
-      "tags": [
-        "rust",
-        "http-framework",
-        "web",
-        "async",
-        "tokio"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-07-29T02:50:20.418Z",
       "deepwikiAvailable": false
     },
     {
@@ -343,62 +791,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-07-29T02:50:20.760Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "herdr",
-      "fullName": "ogulcancelik/herdr",
-      "url": "https://github.com/ogulcancelik/herdr",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 22014,
-      "forks": 1478,
-      "starsToday": 532,
-      "topics": [],
-      "author": {
-        "name": "ogulcancelik",
-        "avatar": "https://avatars.githubusercontent.com/u/7064011?s=40&amp;v=4",
-        "url": "https://github.com/ogulcancelik"
-      },
-      "summary": "终端里的 AI 代理多路复用器，可同时运行多个 LLM 代理并管理对话流。",
-      "tags": [
-        "rust",
-        "terminal",
-        "ai-agent",
-        "multiplexer",
-        "cli"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-29T02:50:21.992Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "uv",
-      "fullName": "astral-sh/uv",
-      "url": "https://github.com/astral-sh/uv",
-      "description": "An extremely fast Python package and project manager, written in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 88031,
-      "forks": 3405,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "astral-sh",
-        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
-        "url": "https://github.com/astral-sh"
-      },
-      "summary": "极速 Python 包与项目管理工具，Rust 编写，替代 pip/poetry，性能惊人。",
-      "tags": [
-        "python",
-        "package-manager",
-        "rust",
-        "pip",
-        "fast"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-29T02:50:22.250Z",
       "deepwikiAvailable": false
     },
     {
