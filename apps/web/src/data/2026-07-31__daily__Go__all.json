@@ -2,9 +2,623 @@
   "date": "2026-07-31",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-07-31T03:15:10.772Z",
-  "enrichedAt": "2026-07-31T03:16:07.310Z",
+  "fetchedAt": "2026-07-31T11:30:45.646Z",
+  "enrichedAt": "2026-07-31T11:31:28.947Z",
   "repos": [
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43982,
+      "forks": 10303,
+      "starsToday": 121,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，支持将多种大模型互转为OpenAI、Claude或Gemini兼容格式，提供个人与企业级集中式模型管理分发能力。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "openai-compatible",
+        "model-hub",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T11:31:22.861Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "IRIS",
+      "fullName": "versenilvis/IRIS",
+      "url": "https://github.com/versenilvis/IRIS",
+      "description": "A shell auto-completion tool for your terminal",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 981,
+      "forks": 28,
+      "starsToday": 112,
+      "topics": [],
+      "author": {
+        "name": "versenilvis",
+        "avatar": "https://avatars.githubusercontent.com/u/95265895?s=40&amp;v=4",
+        "url": "https://github.com/versenilvis"
+      },
+      "summary": "用Go编写的终端Shell自动补全工具，为命令行提供智能补全建议，提升终端操作效率。",
+      "tags": [
+        "shell",
+        "autocomplete",
+        "terminal",
+        "cli",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-31T11:31:22.500Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AgentHound",
+      "fullName": "adithyan-ak/AgentHound",
+      "url": "https://github.com/adithyan-ak/AgentHound",
+      "description": "Offensive security framework for AI agent infrastructure - recon, credential looting, model exfiltration, poisoning, and attack-path analysis across MCP, A2A, gateways, and AI services. BloodHound for the agentic stack.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 133,
+      "forks": 29,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "adithyan-ak",
+        "avatar": "https://avatars.githubusercontent.com/u/34126904?s=40&amp;v=4",
+        "url": "https://github.com/adithyan-ak"
+      },
+      "summary": "面向AI代理基础设施的攻防安全框架，支持侦察、凭证窃取、模型外渗、投毒及攻击路径分析，覆盖MCP、A2A和网关，堪称代理栈的BloodHound。",
+      "tags": [
+        "security",
+        "ai-agents",
+        "offensive",
+        "pentesting",
+        "go"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-07-31T11:31:22.733Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-stack",
+      "fullName": "github/gh-stack",
+      "url": "https://github.com/github/gh-stack",
+      "description": "GitHub Stacked PRs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 642,
+      "forks": 29,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/1701557?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 堆叠式 PR 管理工具，用 Go 编写，帮助开发者将大型变更拆分为多个依赖的拉取请求，简化审查和合并流程。",
+      "tags": [
+        "github",
+        "pr",
+        "stacked-pr",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:31:22.668Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CyberStrikeAI",
+      "fullName": "Ed1s0nZ/CyberStrikeAI",
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "description": "The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5417,
+      "forks": 868,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "Ed1s0nZ",
+        "avatar": "https://avatars.githubusercontent.com/u/83812544?s=40&amp;v=4",
+        "url": "https://github.com/Ed1s0nZ"
+      },
+      "summary": "AI原生网络安全执行系统，将意图转化为受治理的安全操作，以证据为运行记忆，持续优化每次安全行动，基于Go构建。",
+      "tags": [
+        "cybersecurity",
+        "ai-native",
+        "go",
+        "security-automation",
+        "governance"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-07-31T11:31:24.140Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42866,
+      "forks": 5417,
+      "starsToday": 249,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源托管式AI智能体平台，将编码智能体转化为真正的团队成员，支持任务分配、进度跟踪与技能沉淀，基于Go构建。",
+      "tags": [
+        "ai-agents",
+        "platform",
+        "go",
+        "task-management",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T11:31:24.213Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 48061,
+      "forks": 4317,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "LocalAI 是开源 AI 推理引擎，可在任意硬件上运行 LLM、视觉、语音、图像和视频模型，无需 GPU，兼容 OpenAI API。",
+      "tags": [
+        "ai",
+        "llm",
+        "inference",
+        "self-hosted",
+        "openai-api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T11:31:24.115Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nakama",
+      "fullName": "heroiclabs/nakama",
+      "url": "https://github.com/heroiclabs/nakama",
+      "description": "Scalable open-source game backend server: multiplayer, matchmaking, leaderboards, chat, and social features for games.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13057,
+      "forks": 1458,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "heroiclabs",
+        "avatar": "https://avatars.githubusercontent.com/u/308795?s=40&amp;v=4",
+        "url": "https://github.com/heroiclabs"
+      },
+      "summary": "可扩展的开源游戏后端服务器，提供多人联机、匹配、排行榜、聊天和社交功能，基于Go构建，适合各类游戏开发。",
+      "tags": [
+        "game-backend",
+        "multiplayer",
+        "go",
+        "matchmaking",
+        "leaderboards"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T11:31:24.640Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terragrunt",
+      "fullName": "gruntwork-io/terragrunt",
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "description": "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9746,
+      "forks": 1217,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "gruntwork-io",
+        "avatar": "https://avatars.githubusercontent.com/u/11247449?s=40&amp;v=4",
+        "url": "https://github.com/gruntwork-io"
+      },
+      "summary": "Terragrunt 是 Terraform/OpenTofu 的灵活编排工具，通过薄封装实现 IaC 规模化，支持模块复用、远程状态与依赖管理，简化多环境基础设施部署。",
+      "tags": [
+        "terraform",
+        "infrastructure",
+        "iac",
+        "orchestration",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:16:07.310Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37161,
+      "forks": 558,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "全面的开源安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、错误配置、密钥泄露及SBOM，支持多种扫描目标。",
+      "tags": [
+        "security",
+        "vulnerability",
+        "container",
+        "kubernetes",
+        "sbom",
+        "scanner"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-07-31T11:31:25.643Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19196,
+      "forks": 2716,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的LLM知识平台，将原始文档转化为可查询的RAG系统、自主推理智能体及自维护Wiki，支持知识全流程管理。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge",
+        "agent",
+        "wiki"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T11:31:25.513Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "91",
+      "fullName": "nianzhibai/91",
+      "url": "https://github.com/nianzhibai/91",
+      "description": "nine one",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1309,
+      "forks": 358,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "nianzhibai",
+        "avatar": "https://avatars.githubusercontent.com/u/177086871?s=40&amp;v=4",
+        "url": "https://github.com/nianzhibai"
+      },
+      "summary": "用Go语言编写的\"九一\"项目，一个轻量级工具/应用，近期在GitHub上热度上升，获得1300星标。",
+      "tags": [
+        "go",
+        "tool",
+        "utility"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T03:16:06.977Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 177393,
+      "forks": 17213,
+      "starsToday": 123,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行大模型的开源工具，支持Kimi、DeepSeek、Qwen、Gemma等主流模型，安装简单跨平台，开发者社区活跃。",
+      "tags": [
+        "llm",
+        "local",
+        "go",
+        "inference",
+        "models"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:31:25.744Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nightingale",
+      "fullName": "ccfos/nightingale",
+      "url": "https://github.com/ccfos/nightingale",
+      "description": "Nightingale is to monitoring and alerting what Grafana is to visualization.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13194,
+      "forks": 1745,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "ccfos",
+        "avatar": "https://avatars.githubusercontent.com/u/2169271?s=40&amp;v=4",
+        "url": "https://github.com/ccfos"
+      },
+      "summary": "开源云原生监控告警平台，支持多集群、多租户，提供指标采集、告警规则、可视化大盘等能力，定位类似Grafana之于可视化，是运维监控领域的一站式解决方案。",
+      "tags": [
+        "monitoring",
+        "alerting",
+        "observability",
+        "devops",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T03:16:05.517Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cert-manager",
+      "fullName": "cert-manager/cert-manager",
+      "url": "https://github.com/cert-manager/cert-manager",
+      "description": "Automatically provision and manage TLS certificates in Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13992,
+      "forks": 2416,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "cert-manager",
+        "avatar": "https://avatars.githubusercontent.com/u/32282838?s=40&amp;v=4",
+        "url": "https://github.com/cert-manager"
+      },
+      "summary": "Kubernetes 原生 TLS 证书自动化管理工具，自动签发、续期和吊销证书，支持多种签发源，是集群安全通信的基础设施。",
+      "tags": [
+        "kubernetes",
+        "tls",
+        "certificates",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T03:16:00.352Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CasaOS",
+      "fullName": "IceWhaleTech/CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36931,
+      "forks": 2164,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "IceWhaleTech",
+        "avatar": "https://avatars.githubusercontent.com/u/13556972?s=40&amp;v=4",
+        "url": "https://github.com/IceWhaleTech"
+      },
+      "summary": "CasaOS 是一个简单优雅的开源个人云系统，基于 Go 构建，提供易用的 Web 界面来管理自托管应用、文件存储和家庭服务器，适合个人搭建私有云。",
+      "tags": [
+        "personal-cloud",
+        "self-hosted",
+        "home-server",
+        "go",
+        "web-ui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T11:31:26.267Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform-provider-aws",
+      "fullName": "hashicorp/terraform-provider-aws",
+      "url": "https://github.com/hashicorp/terraform-provider-aws",
+      "description": "The AWS Provider enables Terraform to manage AWS resources.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11012,
+      "forks": 10278,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/2404182?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "Terraform官方AWS Provider，通过Terraform声明式管理AWS云资源，覆盖计算、存储、网络等海量服务，是基础设施即代码的核心组件。",
+      "tags": [
+        "terraform",
+        "aws",
+        "infrastructure",
+        "iac",
+        "cloud"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T11:31:27.059Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nginx-ui",
+      "fullName": "0xJacky/nginx-ui",
+      "url": "https://github.com/0xJacky/nginx-ui",
+      "description": "Yet another WebUI for Nginx",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11358,
+      "forks": 853,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "0xJacky",
+        "avatar": "https://avatars.githubusercontent.com/u/13096985?s=40&amp;v=4",
+        "url": "https://github.com/0xJacky"
+      },
+      "summary": "Nginx 的现代化 Web 管理界面，提供可视化配置、实时监控、证书管理和在线编辑等功能，让 Nginx 运维更简单高效。",
+      "tags": [
+        "nginx",
+        "webui",
+        "devops",
+        "monitoring",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:31:27.313Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43988,
+      "forks": 8444,
+      "starsToday": 91,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于Xray的多协议多用户代理面板，支持Vmess、Vless、Trojan、Shadowsocks等协议，提供到期日、流量和IP限制功能，功能全面且活跃维护。",
+      "tags": [
+        "xray",
+        "vpn",
+        "proxy",
+        "panel",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:31:27.625Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jira-cli",
+      "fullName": "ankitpokhrel/jira-cli",
+      "url": "https://github.com/ankitpokhrel/jira-cli",
+      "description": "🔥 Feature-rich interactive Jira command line.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5864,
+      "forks": 404,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "ankitpokhrel",
+        "avatar": "https://avatars.githubusercontent.com/u/2364546?s=40&amp;v=4",
+        "url": "https://github.com/ankitpokhrel"
+      },
+      "summary": "功能丰富的交互式 Jira 命令行工具，支持议题管理、看板操作、搜索与自定义查询，用 Go 编写，提升 Jira 使用效率。",
+      "tags": [
+        "jira",
+        "cli",
+        "productivity",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-31T11:31:27.681Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kserve",
+      "fullName": "kserve/kserve",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5754,
+      "forks": 1600,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "kserve",
+        "avatar": "https://avatars.githubusercontent.com/u/7662095?s=40&amp;v=4",
+        "url": "https://github.com/kserve"
+      },
+      "summary": "基于Kubernetes的标准分布式生成式与预测式AI推理平台，支持多框架模型规模化部署，提供统一的服务治理与弹性伸缩能力。",
+      "tags": [
+        "kubernetes",
+        "inference",
+        "mlops",
+        "ai-platform",
+        "serving"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T11:31:28.431Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "axonhub",
+      "fullName": "looplj/axonhub",
+      "url": "https://github.com/looplj/axonhub",
+      "description": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4838,
+      "forks": 622,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "looplj",
+        "avatar": "https://avatars.githubusercontent.com/u/231043908?s=40&amp;v=4",
+        "url": "https://github.com/looplj"
+      },
+      "summary": "开源的AI网关，兼容任意SDK调用100+大模型，内置故障转移、负载均衡、成本控制与全链路追踪，用Go构建。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "go",
+        "load-balancing",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T11:31:28.947Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "argo-cd",
       "fullName": "argoproj/argo-cd",
@@ -143,34 +757,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-31T03:16:00.379Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cert-manager",
-      "fullName": "cert-manager/cert-manager",
-      "url": "https://github.com/cert-manager/cert-manager",
-      "description": "Automatically provision and manage TLS certificates in Kubernetes",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 13989,
-      "forks": 2416,
-      "starsToday": 6,
-      "topics": [],
-      "author": {
-        "name": "cert-manager",
-        "avatar": "https://avatars.githubusercontent.com/u/32282838?s=40&amp;v=4",
-        "url": "https://github.com/cert-manager"
-      },
-      "summary": "Kubernetes 原生 TLS 证书自动化管理工具，自动签发、续期和吊销证书，支持多种签发源，是集群安全通信的基础设施。",
-      "tags": [
-        "kubernetes",
-        "tls",
-        "certificates",
-        "security",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-31T03:16:00.352Z",
       "deepwikiAvailable": false
     },
     {
@@ -480,34 +1066,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nightingale",
-      "fullName": "ccfos/nightingale",
-      "url": "https://github.com/ccfos/nightingale",
-      "description": "Nightingale is to monitoring and alerting what Grafana is to visualization.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 13185,
-      "forks": 1745,
-      "starsToday": 8,
-      "topics": [],
-      "author": {
-        "name": "ccfos",
-        "avatar": "https://avatars.githubusercontent.com/u/2169271?s=40&amp;v=4",
-        "url": "https://github.com/ccfos"
-      },
-      "summary": "开源云原生监控告警平台，支持多集群、多租户，提供指标采集、告警规则、可视化大盘等能力，定位类似Grafana之于可视化，是运维监控领域的一站式解决方案。",
-      "tags": [
-        "monitoring",
-        "alerting",
-        "observability",
-        "devops",
-        "cloud-native"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-31T03:16:05.517Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "gh-aw",
       "fullName": "github/gh-aw",
       "url": "https://github.com/github/gh-aw",
@@ -588,60 +1146,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-07-31T03:16:07.052Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "91",
-      "fullName": "nianzhibai/91",
-      "url": "https://github.com/nianzhibai/91",
-      "description": "nine one",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1300,
-      "forks": 356,
-      "starsToday": 20,
-      "topics": [],
-      "author": {
-        "name": "nianzhibai",
-        "avatar": "https://avatars.githubusercontent.com/u/177086871?s=40&amp;v=4",
-        "url": "https://github.com/nianzhibai"
-      },
-      "summary": "用Go语言编写的\"九一\"项目，一个轻量级工具/应用，近期在GitHub上热度上升，获得1300星标。",
-      "tags": [
-        "go",
-        "tool",
-        "utility"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-31T03:16:06.977Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "terragrunt",
-      "fullName": "gruntwork-io/terragrunt",
-      "url": "https://github.com/gruntwork-io/terragrunt",
-      "description": "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 9745,
-      "forks": 1216,
-      "starsToday": 8,
-      "topics": [],
-      "author": {
-        "name": "gruntwork-io",
-        "avatar": "https://avatars.githubusercontent.com/u/11247449?s=40&amp;v=4",
-        "url": "https://github.com/gruntwork-io"
-      },
-      "summary": "Terragrunt 是 Terraform/OpenTofu 的灵活编排工具，通过薄封装实现 IaC 规模化，支持模块复用、远程状态与依赖管理，简化多环境基础设施部署。",
-      "tags": [
-        "terraform",
-        "infrastructure",
-        "iac",
-        "orchestration",
-        "devops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:16:07.310Z",
       "deepwikiAvailable": false
     }
   ]

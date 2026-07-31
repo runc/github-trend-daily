@@ -2,35 +2,35 @@
   "date": "2026-07-31",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-07-31T03:15:10.772Z",
-  "enrichedAt": "2026-07-31T03:15:57.185Z",
+  "fetchedAt": "2026-07-31T11:30:45.646Z",
+  "enrichedAt": "2026-07-31T11:31:21.092Z",
   "repos": [
     {
-      "name": "speech-to-speech",
-      "fullName": "huggingface/speech-to-speech",
-      "url": "https://github.com/huggingface/speech-to-speech",
-      "description": "Build local voice agents with open-source models",
+      "name": "last30days-skill",
+      "fullName": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 9046,
-      "forks": 1108,
-      "starsToday": 628,
+      "stars": 55848,
+      "forks": 4806,
+      "starsToday": 378,
       "topics": [],
       "author": {
-        "name": "huggingface",
-        "avatar": "https://avatars.githubusercontent.com/u/9143109?s=40&amp;v=4",
-        "url": "https://github.com/huggingface"
+        "name": "mvanhorn",
+        "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&amp;v=4",
+        "url": "https://github.com/mvanhorn"
       },
-      "summary": "Hugging Face 开源语音到语音智能体框架，支持用本地开源模型构建实时语音对话代理，端到端语音交互解决方案。",
+      "summary": "AI代理技能，跨Reddit、X、YouTube、HN、Polymarket及全网研究任意主题，合成有据可依的摘要报告。",
       "tags": [
-        "speech-to-speech",
-        "voice-agent",
-        "huggingface",
-        "llm",
-        "realtime"
+        "ai-agent",
+        "research",
+        "summarization",
+        "python",
+        "skill"
       ],
       "category": "AI",
-      "enrichedAt": "2026-07-31T03:15:48.255Z",
+      "enrichedAt": "2026-07-31T03:15:48.081Z",
       "deepwikiAvailable": false
     },
     {
@@ -40,8 +40,8 @@
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 11144,
-      "forks": 1423,
+      "stars": 11449,
+      "forks": 1443,
       "starsToday": 621,
       "topics": [],
       "author": {
@@ -62,31 +62,451 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "last30days-skill",
-      "fullName": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "name": "faceswap",
+      "fullName": "deepfakes/faceswap",
+      "url": "https://github.com/deepfakes/faceswap",
+      "description": "Deepfakes Software For All",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 55616,
-      "forks": 4789,
-      "starsToday": 378,
+      "stars": 56745,
+      "forks": 13461,
+      "starsToday": 619,
       "topics": [],
       "author": {
-        "name": "mvanhorn",
-        "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&amp;v=4",
-        "url": "https://github.com/mvanhorn"
+        "name": "deepfakes",
+        "avatar": "https://avatars.githubusercontent.com/u/36920800?s=40&amp;v=4",
+        "url": "https://github.com/deepfakes"
       },
-      "summary": "AI代理技能，跨Reddit、X、YouTube、HN、Polymarket及全网研究任意主题，合成有据可依的摘要报告。",
+      "summary": "开源深度换脸工具，支持人脸检测、对齐、训练与实时换脸，提供图形界面和命令行，社区活跃持续更新。",
       "tags": [
-        "ai-agent",
-        "research",
-        "summarization",
+        "deepfake",
+        "face-swap",
+        "machine-learning",
         "python",
-        "skill"
+        "computer-vision"
       ],
       "category": "AI",
-      "enrichedAt": "2026-07-31T03:15:48.081Z",
+      "enrichedAt": "2026-07-31T03:15:49.970Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "book-to-skill",
+      "fullName": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 14019,
+      "forks": 1532,
+      "starsToday": 1224,
+      "topics": [],
+      "author": {
+        "name": "virgiliojr94",
+        "avatar": "https://avatars.githubusercontent.com/u/23645449?s=40&amp;v=4",
+        "url": "https://github.com/virgiliojr94"
+      },
+      "summary": "将任意技术书籍PDF转换为Claude Code技能，便于学习、查阅并在工作中直接使用，提升开发效率。",
+      "tags": [
+        "pdf",
+        "claude",
+        "ai",
+        "learning",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:15:49.470Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "speech-to-speech",
+      "fullName": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 9540,
+      "forks": 1168,
+      "starsToday": 628,
+      "topics": [],
+      "author": {
+        "name": "huggingface",
+        "avatar": "https://avatars.githubusercontent.com/u/9143109?s=40&amp;v=4",
+        "url": "https://github.com/huggingface"
+      },
+      "summary": "Hugging Face 开源语音到语音智能体框架，支持用本地开源模型构建实时语音对话代理，端到端语音交互解决方案。",
+      "tags": [
+        "speech-to-speech",
+        "voice-agent",
+        "huggingface",
+        "llm",
+        "realtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:15:48.255Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 100741,
+      "forks": 15003,
+      "starsToday": 403,
+      "topics": [],
+      "author": {
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
+      },
+      "summary": "利用AI大模型和自动化工作流，根据主题或关键词一键生成高清短视频，支持文案、配音、字幕和素材自动合成，开箱即用的爆款视频生产工具。",
+      "tags": [
+        "ai-video",
+        "automation",
+        "short-video",
+        "workflow",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:15:50.521Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "trailofbits/skills",
+      "url": "https://github.com/trailofbits/skills",
+      "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6362,
+      "forks": 548,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "trailofbits",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/trailofbits"
+      },
+      "summary": "Trail of Bits 出品的 Claude Code 技能库，面向安全研究、漏洞检测与审计工作流，提供可复用的安全分析能力。",
+      "tags": [
+        "security",
+        "audit",
+        "claude-code",
+        "vulnerability",
+        "research"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-07-31T11:31:17.901Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cangjie-skill",
+      "fullName": "kangarooking/cangjie-skill",
+      "url": "https://github.com/kangarooking/cangjie-skill",
+      "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 5746,
+      "forks": 729,
+      "starsToday": 363,
+      "topics": [],
+      "author": {
+        "name": "kangarooking",
+        "avatar": "https://avatars.githubusercontent.com/u/251981839?s=40&amp;v=4",
+        "url": "https://github.com/kangarooking"
+      },
+      "summary": "将书籍、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills，帮助用户把知识转化为可复用的智能体技能。",
+      "tags": [
+        "agent",
+        "content",
+        "skills",
+        "python",
+        "knowledge"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T11:31:17.673Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "public-apis",
+      "fullName": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 453722,
+      "forks": 49989,
+      "starsToday": 245,
+      "topics": [],
+      "author": {
+        "name": "public-apis",
+        "avatar": "https://avatars.githubusercontent.com/u/50463866?s=40&amp;v=4",
+        "url": "https://github.com/public-apis"
+      },
+      "summary": "汇集数千个免费公开API的集体清单，按类别分类整理，方便开发者查找和选用各类接口资源。",
+      "tags": [
+        "api",
+        "list",
+        "resources",
+        "developer-tools",
+        "collection"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:31:17.890Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TRELLIS.2",
+      "fullName": "microsoft/TRELLIS.2",
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "description": "Native and Compact Structured Latents for 3D Generation",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 9676,
+      "forks": 1173,
+      "starsToday": 439,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/45420254?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的3D生成框架，采用原生紧凑结构化潜空间表示，支持高质量3D资产快速生成，性能与效果兼备。",
+      "tags": [
+        "3d-generation",
+        "latent-diffusion",
+        "microsoft",
+        "structured-latents",
+        "generative-ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:15:49.843Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mcp-server-guide",
+      "fullName": "figma/mcp-server-guide",
+      "url": "https://github.com/figma/mcp-server-guide",
+      "description": "A guide on how to use the Figma MCP server",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1829,
+      "forks": 170,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "figma",
+        "avatar": "https://avatars.githubusercontent.com/u/111350777?s=40&amp;v=4",
+        "url": "https://github.com/figma"
+      },
+      "summary": "Figma官方MCP服务器使用指南，帮助开发者通过模型上下文协议将Figma设计接入AI工具，实现设计文件读取与协作自动化。",
+      "tags": [
+        "figma",
+        "mcp",
+        "guide",
+        "ai",
+        "design"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:31:17.850Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "VibeVoice",
+      "fullName": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 51645,
+      "forks": 5727,
+      "starsToday": 484,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/20237658?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的前沿语音AI框架，提供高质量语音合成与交互能力，支持多场景部署，社区活跃增长迅猛。",
+      "tags": [
+        "voice-ai",
+        "tts",
+        "microsoft",
+        "open-source",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:15:57.185Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 223178,
+      "forks": 42913,
+      "starsToday": 595,
+      "topics": [],
+      "author": {
+        "name": "NousResearch",
+        "avatar": "https://avatars.githubusercontent.com/u/127238744?s=40&amp;v=4",
+        "url": "https://github.com/NousResearch"
+      },
+      "summary": "Hermes Agent 是一个随用户成长的自适应智能体框架，基于 Python 构建，提供可扩展的代理能力，支持个性化演进与持续学习，社区热度极高。",
+      "tags": [
+        "agent",
+        "ai",
+        "python",
+        "framework",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T11:31:19.356Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fish-speech",
+      "fullName": "fishaudio/fish-speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 31810,
+      "forks": 2737,
+      "starsToday": 99,
+      "topics": [],
+      "author": {
+        "name": "fishaudio",
+        "avatar": "https://avatars.githubusercontent.com/u/25119060?s=40&amp;v=4",
+        "url": "https://github.com/fishaudio"
+      },
+      "summary": "Fish Speech 是一款开源的 SOTA 级文本转语音(TTS)工具，支持多语言高质量语音合成，拥有强大的声音克隆能力，社区活跃且持续更新。",
+      "tags": [
+        "tts",
+        "text-to-speech",
+        "voice-cloning",
+        "audio",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T11:31:19.581Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hexstrike-ai",
+      "fullName": "0x4m4/hexstrike-ai",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 10690,
+      "forks": 2231,
+      "starsToday": 78,
+      "topics": [],
+      "author": {
+        "name": "0x4m4",
+        "avatar": "https://avatars.githubusercontent.com/u/127080303?s=40&amp;v=4",
+        "url": "https://github.com/0x4m4"
+      },
+      "summary": "基于MCP协议的AI渗透测试服务器，让Claude、GPT等LLM代理自主调用150+网络安全工具，实现自动化渗透测试、漏洞发现和漏洞赏金，桥接大模型与真实攻防能力。",
+      "tags": [
+        "mcp",
+        "pentesting",
+        "security",
+        "ai-agents",
+        "automation"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-07-31T11:31:19.507Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 63178,
+      "forks": 5160,
+      "starsToday": 543,
+      "topics": [],
+      "author": {
+        "name": "Panniantong",
+        "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&amp;v=4",
+        "url": "https://github.com/Panniantong"
+      },
+      "summary": "让AI代理\"看见\"整个互联网的开源CLI工具，零API费用即可读取和搜索Twitter、Reddit、YouTube、GitHub、B站、小红书等平台内容，为智能体提供全网数据访问能力。",
+      "tags": [
+        "ai-agent",
+        "cli",
+        "web-scraping",
+        "python",
+        "search"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:15:51.162Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whisper",
+      "fullName": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 106255,
+      "forks": 12900,
+      "starsToday": 136,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/266841?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 开源的通用语音识别模型，基于大规模弱监督训练，支持多语言转录与翻译，准确率高且易于使用。",
+      "tags": [
+        "speech-recognition",
+        "openai",
+        "multilingual",
+        "transcription",
+        "deep-learning"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T11:31:19.354Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "deepagents",
+      "fullName": "langchain-ai/deepagents",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "description": "The batteries-included agent harness.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 27147,
+      "forks": 3795,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "langchain-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/61371264?s=40&amp;v=4",
+        "url": "https://github.com/langchain-ai"
+      },
+      "summary": "LangChain 官方推出的开箱即用智能体框架，内置工具调用、记忆与多智能体协作能力，简化复杂 Agent 应用开发。",
+      "tags": [
+        "langchain",
+        "agents",
+        "llm",
+        "framework",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T11:31:21.092Z",
       "deepwikiAvailable": false
     },
     {
@@ -115,146 +535,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-31T03:15:48.892Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "book-to-skill",
-      "fullName": "virgiliojr94/book-to-skill",
-      "url": "https://github.com/virgiliojr94/book-to-skill",
-      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 13786,
-      "forks": 1499,
-      "starsToday": 1224,
-      "topics": [],
-      "author": {
-        "name": "virgiliojr94",
-        "avatar": "https://avatars.githubusercontent.com/u/23645449?s=40&amp;v=4",
-        "url": "https://github.com/virgiliojr94"
-      },
-      "summary": "将任意技术书籍PDF转换为Claude Code技能，便于学习、查阅并在工作中直接使用，提升开发效率。",
-      "tags": [
-        "pdf",
-        "claude",
-        "ai",
-        "learning",
-        "python"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:15:49.470Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "TRELLIS.2",
-      "fullName": "microsoft/TRELLIS.2",
-      "url": "https://github.com/microsoft/TRELLIS.2",
-      "description": "Native and Compact Structured Latents for 3D Generation",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 9638,
-      "forks": 1171,
-      "starsToday": 439,
-      "topics": [],
-      "author": {
-        "name": "microsoft",
-        "avatar": "https://avatars.githubusercontent.com/u/45420254?s=40&amp;v=4",
-        "url": "https://github.com/microsoft"
-      },
-      "summary": "微软开源的3D生成框架，采用原生紧凑结构化潜空间表示，支持高质量3D资产快速生成，性能与效果兼备。",
-      "tags": [
-        "3d-generation",
-        "latent-diffusion",
-        "microsoft",
-        "structured-latents",
-        "generative-ai"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:15:49.843Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "faceswap",
-      "fullName": "deepfakes/faceswap",
-      "url": "https://github.com/deepfakes/faceswap",
-      "description": "Deepfakes Software For All",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 56723,
-      "forks": 13459,
-      "starsToday": 619,
-      "topics": [],
-      "author": {
-        "name": "deepfakes",
-        "avatar": "https://avatars.githubusercontent.com/u/36920800?s=40&amp;v=4",
-        "url": "https://github.com/deepfakes"
-      },
-      "summary": "开源深度换脸工具，支持人脸检测、对齐、训练与实时换脸，提供图形界面和命令行，社区活跃持续更新。",
-      "tags": [
-        "deepfake",
-        "face-swap",
-        "machine-learning",
-        "python",
-        "computer-vision"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:15:49.970Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "MoneyPrinterTurbo",
-      "fullName": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 100680,
-      "forks": 14996,
-      "starsToday": 403,
-      "topics": [],
-      "author": {
-        "name": "harry0703",
-        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
-        "url": "https://github.com/harry0703"
-      },
-      "summary": "利用AI大模型和自动化工作流，根据主题或关键词一键生成高清短视频，支持文案、配音、字幕和素材自动合成，开箱即用的爆款视频生产工具。",
-      "tags": [
-        "ai-video",
-        "automation",
-        "short-video",
-        "workflow",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:15:50.521Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 62996,
-      "forks": 5153,
-      "starsToday": 543,
-      "topics": [],
-      "author": {
-        "name": "Panniantong",
-        "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&amp;v=4",
-        "url": "https://github.com/Panniantong"
-      },
-      "summary": "让AI代理\"看见\"整个互联网的开源CLI工具，零API费用即可读取和搜索Twitter、Reddit、YouTube、GitHub、B站、小红书等平台内容，为智能体提供全网数据访问能力。",
-      "tags": [
-        "ai-agent",
-        "cli",
-        "web-scraping",
-        "python",
-        "search"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:15:51.162Z",
       "deepwikiAvailable": false
     },
     {
@@ -480,34 +760,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-31T03:15:54.607Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "VibeVoice",
-      "fullName": "microsoft/VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 51622,
-      "forks": 5726,
-      "starsToday": 484,
-      "topics": [],
-      "author": {
-        "name": "microsoft",
-        "avatar": "https://avatars.githubusercontent.com/u/20237658?s=40&amp;v=4",
-        "url": "https://github.com/microsoft"
-      },
-      "summary": "微软开源的前沿语音AI框架，提供高质量语音合成与交互能力，支持多场景部署，社区活跃增长迅猛。",
-      "tags": [
-        "voice-ai",
-        "tts",
-        "microsoft",
-        "open-source",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:15:57.185Z",
       "deepwikiAvailable": false
     }
   ]

@@ -2,8 +2,8 @@
   "date": "2026-07-31",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-07-31T03:15:10.772Z",
-  "enrichedAt": "2026-07-31T03:17:11.460Z",
+  "fetchedAt": "2026-07-31T11:30:45.646Z",
+  "enrichedAt": "2026-07-31T11:31:50.968Z",
   "repos": [
     {
       "name": "buzz",
@@ -12,8 +12,8 @@
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 18559,
-      "forks": 1818,
+      "stars": 18918,
+      "forks": 1878,
       "starsToday": 12444,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "The most RAM efficient harness",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14243,
-      "forks": 1567,
+      "stars": 14370,
+      "forks": 1588,
       "starsToday": 3107,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "A batteries-included framework for building web apps",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3952,
-      "forks": 132,
+      "stars": 3996,
+      "forks": 136,
       "starsToday": 1263,
       "topics": [],
       "author": {
@@ -95,8 +95,8 @@
       "description": "Empowering everyone to host fast and efficient Minecraft servers.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 10442,
-      "forks": 697,
+      "stars": 10458,
+      "forks": 699,
       "starsToday": 1714,
       "topics": [],
       "author": {
@@ -123,8 +123,8 @@
       "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14012,
-      "forks": 540,
+      "stars": 14039,
+      "forks": 539,
       "starsToday": 2026,
       "topics": [],
       "author": {
@@ -145,31 +145,87 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "RuView",
-      "fullName": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "name": "turbovec",
+      "fullName": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 87743,
-      "forks": 11657,
-      "starsToday": 3008,
+      "stars": 14531,
+      "forks": 1288,
+      "starsToday": 750,
       "topics": [],
       "author": {
-        "name": "ruvnet",
-        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
-        "url": "https://github.com/ruvnet"
+        "name": "RyanCodrai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/RyanCodrai"
       },
-      "summary": "用WiFi信号实现实时空间感知、生命体征监测和存在检测的Rust库，无需任何摄像头画面，将普通WiFi转化为空间智能。",
+      "summary": "基于TurboQuant的Rust向量索引库，提供Python绑定，主打高性能向量检索与量化加速，适合大规模相似度搜索场景。",
       "tags": [
-        "wifi-sensing",
-        "spatial-intelligence",
+        "vector-index",
         "rust",
-        "vital-signs",
-        "presence-detection"
+        "python",
+        "quantization",
+        "search"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:17:06.515Z",
+      "category": "Library",
+      "enrichedAt": "2026-07-31T11:31:50.530Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uv",
+      "fullName": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 88155,
+      "forks": 3423,
+      "starsToday": 379,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用Rust编写的极速Python包与项目管理器，替代pip、pip-tools和virtualenv，提供统一快速的依赖管理与项目工作流。",
+      "tags": [
+        "python",
+        "package-manager",
+        "rust",
+        "cli",
+        "dependency"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:17:08.358Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vaultwarden",
+      "fullName": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 64670,
+      "forks": 3064,
+      "starsToday": 550,
+      "topics": [],
+      "author": {
+        "name": "dani-garcia",
+        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
+        "url": "https://github.com/dani-garcia"
+      },
+      "summary": "用 Rust 编写的非官方 Bitwarden 兼容密码管理服务器，支持自托管，功能完整且轻量高效，是自建密码库的热门选择。",
+      "tags": [
+        "rust",
+        "password-manager",
+        "self-hosted",
+        "bitwarden",
+        "server"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T03:17:06.664Z",
       "deepwikiAvailable": false
     },
     {
@@ -179,7 +235,7 @@
       "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30443,
+      "stars": 30468,
       "forks": 1343,
       "starsToday": 310,
       "topics": [],
@@ -201,31 +257,311 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "vaultwarden",
-      "fullName": "dani-garcia/vaultwarden",
-      "url": "https://github.com/dani-garcia/vaultwarden",
-      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 64641,
-      "forks": 3063,
-      "starsToday": 550,
+      "stars": 7920,
+      "forks": 1114,
+      "starsToday": 146,
       "topics": [],
       "author": {
-        "name": "dani-garcia",
-        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
-        "url": "https://github.com/dani-garcia"
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
       },
-      "summary": "用 Rust 编写的非官方 Bitwarden 兼容密码管理服务器，支持自托管，功能完整且轻量高效，是自建密码库的热门选择。",
+      "summary": "NVIDIA 开源的自主 AI 智能体安全私有运行时，基于 Rust 构建，为智能体提供隔离、可控的执行环境，保障安全与隐私。",
       "tags": [
+        "ai-agents",
         "rust",
-        "password-manager",
-        "self-hosted",
-        "bitwarden",
-        "server"
+        "sandbox",
+        "security",
+        "runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:17:09.750Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6211,
+      "forks": 223,
+      "starsToday": 231,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "基于Rust的Git worktree管理CLI工具，专为并行AI代理工作流设计，支持高效管理多个工作树，提升多任务协作开发效率。",
+      "tags": [
+        "git",
+        "cli",
+        "worktree",
+        "ai-agents",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:17:08.248Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "goose",
+      "fullName": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 52005,
+      "forks": 5815,
+      "starsToday": 486,
+      "topics": [],
+      "author": {
+        "name": "aaif-goose",
+        "avatar": "https://avatars.githubusercontent.com/u/22990146?s=40&amp;v=4",
+        "url": "https://github.com/aaif-goose"
+      },
+      "summary": "开源可扩展AI智能体，超越代码建议，可安装、执行、编辑和测试，支持任意LLM，基于Rust构建。",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "rust",
+        "automation",
+        "devtool"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:17:08.175Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vector",
+      "fullName": "vectordotdev/vector",
+      "url": "https://github.com/vectordotdev/vector",
+      "description": "A high-performance observability data pipeline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22261,
+      "forks": 2229,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "vectordotdev",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/vectordotdev"
+      },
+      "summary": "高性能可观测性数据管道，用 Rust 编写，支持采集、转换和路由各类日志与指标数据，部署灵活且资源占用低。",
+      "tags": [
+        "observability",
+        "rust",
+        "data-pipeline",
+        "logging",
+        "metrics"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T11:31:50.968Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 28155,
+      "forks": 2457,
+      "starsToday": 805,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "免费开源的离线语音转文字应用，基于Rust构建，完全本地运行无需联网，支持扩展，隐私安全。",
+      "tags": [
+        "speech-to-text",
+        "offline",
+        "rust",
+        "privacy",
+        "open-source"
       ],
       "category": "App",
-      "enrichedAt": "2026-07-31T03:17:06.664Z",
+      "enrichedAt": "2026-07-31T11:31:50.834Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "baml",
+      "fullName": "BoundaryML/baml",
+      "url": "https://github.com/BoundaryML/baml",
+      "description": "The programming language for agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8742,
+      "forks": 463,
+      "starsToday": 146,
+      "topics": [],
+      "author": {
+        "name": "BoundaryML",
+        "avatar": "https://avatars.githubusercontent.com/u/2448742?s=40&amp;v=4",
+        "url": "https://github.com/BoundaryML"
+      },
+      "summary": "BAML 是面向 AI 代理的编程语言，用 Rust 编写，提供类型安全的提示词与结构化输出，简化 LLM 应用开发，支持多模型调用与验证。",
+      "tags": [
+        "llm",
+        "agents",
+        "rust",
+        "prompt",
+        "typesafe"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:17:09.703Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119301,
+      "forks": 18217,
+      "starsToday": 597,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自托管，可作为TeamViewer替代品。基于Rust开发，跨平台，注重隐私与安全。",
+      "tags": [
+        "remote-desktop",
+        "self-hosted",
+        "rust",
+        "privacy",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T03:17:11.346Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pi_agent_rust",
+      "fullName": "Dicklesworthstone/pi_agent_rust",
+      "url": "https://github.com/Dicklesworthstone/pi_agent_rust",
+      "description": "High-performance AI coding agent CLI written in Rust with zero unsafe code",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1461,
+      "forks": 171,
+      "starsToday": 70,
+      "topics": [],
+      "author": {
+        "name": "Dicklesworthstone",
+        "avatar": "https://avatars.githubusercontent.com/u/35050222?s=40&amp;v=4",
+        "url": "https://github.com/Dicklesworthstone"
+      },
+      "summary": "用 Rust 编写的高性能 AI 编程代理 CLI，零 unsafe 代码，兼顾安全与速度，适合自动化编码任务。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "cli",
+        "coding",
+        "safe-code"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:17:09.774Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omniget",
+      "fullName": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8171,
+      "forks": 689,
+      "starsToday": 630,
+      "topics": [],
+      "author": {
+        "name": "tonhowtf",
+        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
+        "url": "https://github.com/tonhowtf"
+      },
+      "summary": "开源桌面下载工具，支持1800+网站抓取课程、视频、音乐和电子书，内置播放器与阅读器，跨平台且无需命令行。",
+      "tags": [
+        "downloader",
+        "desktop-app",
+        "rust",
+        "yt-dlp",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T03:17:09.913Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "datafusion",
+      "fullName": "apache/datafusion",
+      "url": "https://github.com/apache/datafusion",
+      "description": "Apache DataFusion SQL Query Engine",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9054,
+      "forks": 2272,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/490673?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache DataFusion 是一个用 Rust 编写的高性能可扩展 SQL 查询引擎，支持分布式数据处理、丰富的 SQL 功能和内存优化，广泛用于构建数据管道和分析系统。",
+      "tags": [
+        "sql",
+        "query-engine",
+        "rust",
+        "data-processing",
+        "apache"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-07-31T11:31:50.717Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 87813,
+      "forks": 11668,
+      "starsToday": 3008,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用WiFi信号实现实时空间感知、生命体征监测和存在检测的Rust库，无需任何摄像头画面，将普通WiFi转化为空间智能。",
+      "tags": [
+        "wifi-sensing",
+        "spatial-intelligence",
+        "rust",
+        "vital-signs",
+        "presence-detection"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:17:06.515Z",
       "deepwikiAvailable": false
     },
     {
@@ -254,202 +590,6 @@
       ],
       "category": "Game",
       "enrichedAt": "2026-07-31T03:17:08.028Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "worktrunk",
-      "fullName": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6200,
-      "forks": 223,
-      "starsToday": 231,
-      "topics": [],
-      "author": {
-        "name": "max-sixty",
-        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
-        "url": "https://github.com/max-sixty"
-      },
-      "summary": "基于Rust的Git worktree管理CLI工具，专为并行AI代理工作流设计，支持高效管理多个工作树，提升多任务协作开发效率。",
-      "tags": [
-        "git",
-        "cli",
-        "worktree",
-        "ai-agents",
-        "rust"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:17:08.248Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "goose",
-      "fullName": "aaif-goose/goose",
-      "url": "https://github.com/aaif-goose/goose",
-      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 51992,
-      "forks": 5816,
-      "starsToday": 486,
-      "topics": [],
-      "author": {
-        "name": "aaif-goose",
-        "avatar": "https://avatars.githubusercontent.com/u/22990146?s=40&amp;v=4",
-        "url": "https://github.com/aaif-goose"
-      },
-      "summary": "开源可扩展AI智能体，超越代码建议，可安装、执行、编辑和测试，支持任意LLM，基于Rust构建。",
-      "tags": [
-        "ai-agent",
-        "llm",
-        "rust",
-        "automation",
-        "devtool"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:17:08.175Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "uv",
-      "fullName": "astral-sh/uv",
-      "url": "https://github.com/astral-sh/uv",
-      "description": "An extremely fast Python package and project manager, written in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 88143,
-      "forks": 3418,
-      "starsToday": 379,
-      "topics": [],
-      "author": {
-        "name": "astral-sh",
-        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
-        "url": "https://github.com/astral-sh"
-      },
-      "summary": "用Rust编写的极速Python包与项目管理器，替代pip、pip-tools和virtualenv，提供统一快速的依赖管理与项目工作流。",
-      "tags": [
-        "python",
-        "package-manager",
-        "rust",
-        "cli",
-        "dependency"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:17:08.358Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "baml",
-      "fullName": "BoundaryML/baml",
-      "url": "https://github.com/BoundaryML/baml",
-      "description": "The programming language for agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8739,
-      "forks": 463,
-      "starsToday": 146,
-      "topics": [],
-      "author": {
-        "name": "BoundaryML",
-        "avatar": "https://avatars.githubusercontent.com/u/2448742?s=40&amp;v=4",
-        "url": "https://github.com/BoundaryML"
-      },
-      "summary": "BAML 是面向 AI 代理的编程语言，用 Rust 编写，提供类型安全的提示词与结构化输出，简化 LLM 应用开发，支持多模型调用与验证。",
-      "tags": [
-        "llm",
-        "agents",
-        "rust",
-        "prompt",
-        "typesafe"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:17:09.703Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omniget",
-      "fullName": "tonhowtf/omniget",
-      "url": "https://github.com/tonhowtf/omniget",
-      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8155,
-      "forks": 688,
-      "starsToday": 630,
-      "topics": [],
-      "author": {
-        "name": "tonhowtf",
-        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
-        "url": "https://github.com/tonhowtf"
-      },
-      "summary": "开源桌面下载工具，支持1800+网站抓取课程、视频、音乐和电子书，内置播放器与阅读器，跨平台且无需命令行。",
-      "tags": [
-        "downloader",
-        "desktop-app",
-        "rust",
-        "yt-dlp",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-31T03:17:09.913Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7909,
-      "forks": 1115,
-      "starsToday": 146,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 开源的自主 AI 智能体安全私有运行时，基于 Rust 构建，为智能体提供隔离、可控的执行环境，保障安全与隐私。",
-      "tags": [
-        "ai-agents",
-        "rust",
-        "sandbox",
-        "security",
-        "runtime"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:17:09.750Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pi_agent_rust",
-      "fullName": "Dicklesworthstone/pi_agent_rust",
-      "url": "https://github.com/Dicklesworthstone/pi_agent_rust",
-      "description": "High-performance AI coding agent CLI written in Rust with zero unsafe code",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1456,
-      "forks": 171,
-      "starsToday": 70,
-      "topics": [],
-      "author": {
-        "name": "Dicklesworthstone",
-        "avatar": "https://avatars.githubusercontent.com/u/35050222?s=40&amp;v=4",
-        "url": "https://github.com/Dicklesworthstone"
-      },
-      "summary": "用 Rust 编写的高性能 AI 编程代理 CLI，零 unsafe 代码，兼顾安全与速度，适合自动化编码任务。",
-      "tags": [
-        "rust",
-        "ai-agent",
-        "cli",
-        "coding",
-        "safe-code"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:17:09.774Z",
       "deepwikiAvailable": false
     },
     {
@@ -535,34 +675,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-31T03:17:11.449Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 119269,
-      "forks": 18209,
-      "starsToday": 597,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面应用，支持自托管，可作为TeamViewer替代品。基于Rust开发，跨平台，注重隐私与安全。",
-      "tags": [
-        "remote-desktop",
-        "self-hosted",
-        "rust",
-        "privacy",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-31T03:17:11.346Z",
       "deepwikiAvailable": false
     }
   ]

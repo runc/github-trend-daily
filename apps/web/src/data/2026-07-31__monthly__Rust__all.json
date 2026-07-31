@@ -2,8 +2,8 @@
   "date": "2026-07-31",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-07-31T03:15:10.772Z",
-  "enrichedAt": "2026-07-31T03:18:07.983Z",
+  "fetchedAt": "2026-07-31T11:30:45.646Z",
+  "enrichedAt": "2026-07-31T11:32:03.711Z",
   "repos": [
     {
       "name": "meetily",
@@ -12,8 +12,8 @@
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 27551,
-      "forks": 2828,
+      "stars": 27603,
+      "forks": 2832,
       "starsToday": 14791,
       "topics": [],
       "author": {
@@ -41,8 +41,8 @@
       "description": "The most RAM efficient harness",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14243,
-      "forks": 1567,
+      "stars": 14370,
+      "forks": 1588,
       "starsToday": 6259,
       "topics": [],
       "author": {
@@ -69,8 +69,8 @@
       "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 10781,
-      "forks": 981,
+      "stars": 10792,
+      "forks": 986,
       "starsToday": 4385,
       "topics": [],
       "author": {
@@ -97,8 +97,8 @@
       "description": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 12685,
-      "forks": 1222,
+      "stars": 12819,
+      "forks": 1233,
       "starsToday": 5115,
       "topics": [],
       "author": {
@@ -120,42 +120,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Pumpkin",
-      "fullName": "Pumpkin-MC/Pumpkin",
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 10442,
-      "forks": 697,
-      "starsToday": 2595,
-      "topics": [],
-      "author": {
-        "name": "Pumpkin-MC",
-        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
-        "url": "https://github.com/Pumpkin-MC"
-      },
-      "summary": "用 Rust 编写的高性能 Minecraft 服务器软件，让任何人都能轻松托管快速高效的服务器，性能与易用性兼备。",
-      "tags": [
-        "minecraft",
-        "rust",
-        "server",
-        "gaming",
-        "high-performance"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-31T03:18:01.601Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Handy",
       "fullName": "cjpais/Handy",
       "url": "https://github.com/cjpais/Handy",
       "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 28058,
-      "forks": 2445,
+      "stars": 28155,
+      "forks": 2457,
       "starsToday": 2791,
       "topics": [],
       "author": {
@@ -176,13 +148,406 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10458,
+      "forks": 699,
+      "starsToday": 2595,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用 Rust 编写的高性能 Minecraft 服务器软件，让任何人都能轻松托管快速高效的服务器，性能与易用性兼备。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "server",
+        "gaming",
+        "high-performance"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T03:18:01.601Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "workmux",
+      "fullName": "raine/workmux",
+      "url": "https://github.com/raine/workmux",
+      "description": "git worktrees + tmux windows for zero-friction parallel dev",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2023,
+      "forks": 228,
+      "starsToday": 443,
+      "topics": [],
+      "author": {
+        "name": "raine",
+        "avatar": "https://avatars.githubusercontent.com/u/11027?s=40&amp;v=4",
+        "url": "https://github.com/raine"
+      },
+      "summary": "Rust 工具，将 git worktrees 与 tmux 窗口结合，实现零摩擦的并行开发工作流，轻松管理多个分支同时工作。",
+      "tags": [
+        "git",
+        "tmux",
+        "worktree",
+        "productivity",
+        "rust",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:18:04.698Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "datafusion",
+      "fullName": "apache/datafusion",
+      "url": "https://github.com/apache/datafusion",
+      "description": "Apache DataFusion SQL Query Engine",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9054,
+      "forks": 2272,
+      "starsToday": 141,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/490673?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache DataFusion 是一个用 Rust 编写的高性能可扩展 SQL 查询引擎，支持分布式数据处理、丰富的 SQL 功能和多种数据源，是构建数据系统的核心基础设施。",
+      "tags": [
+        "sql",
+        "query-engine",
+        "rust",
+        "data-processing",
+        "apache"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-07-31T03:18:03.269Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dioxus",
+      "fullName": "DioxusLabs/dioxus",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 38393,
+      "forks": 1815,
+      "starsToday": 1910,
+      "topics": [],
+      "author": {
+        "name": "DioxusLabs",
+        "avatar": "https://avatars.githubusercontent.com/u/10237910?s=40&amp;v=4",
+        "url": "https://github.com/DioxusLabs"
+      },
+      "summary": "基于 Rust 的全栈应用框架，支持 Web、桌面和移动端开发，采用 React 风格语法，性能出色，生态活跃。",
+      "tags": [
+        "rust",
+        "fullstack",
+        "web",
+        "cross-platform",
+        "ui-framework"
+      ],
+      "category": "Framework",
+      "enrichedAt": "2026-07-31T03:18:03.129Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wealthfolio",
+      "fullName": "wealthfolio/wealthfolio",
+      "url": "https://github.com/wealthfolio/wealthfolio",
+      "description": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8424,
+      "forks": 605,
+      "starsToday": 739,
+      "topics": [],
+      "author": {
+        "name": "wealthfolio",
+        "avatar": "https://avatars.githubusercontent.com/u/8382496?s=40&amp;v=4",
+        "url": "https://github.com/wealthfolio"
+      },
+      "summary": "美观、私密、本地优先的个人财务管理工具，支持投资、净资产、支出追踪和模拟，基于 Rust 构建。",
+      "tags": [
+        "finance",
+        "rust",
+        "local-first",
+        "privacy",
+        "tracker"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T03:18:04.827Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jellium-desktop",
+      "fullName": "andrewrabert/jellium-desktop",
+      "url": "https://github.com/andrewrabert/jellium-desktop",
+      "description": "An unofficial desktop client for Jellyfin",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1696,
+      "forks": 125,
+      "starsToday": 703,
+      "topics": [],
+      "author": {
+        "name": "andrewrabert",
+        "avatar": "https://avatars.githubusercontent.com/u/6550543?s=40&amp;v=4",
+        "url": "https://github.com/andrewrabert"
+      },
+      "summary": "基于Rust构建的非官方Jellyfin桌面客户端，提供轻量高效的媒体播放体验，支持跨平台运行，今日新增700+星标。",
+      "tags": [
+        "jellyfin",
+        "media-player",
+        "rust",
+        "desktop",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T03:18:03.155Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 114980,
+      "forks": 15278,
+      "starsToday": 1671,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust编程语言官方仓库，提供内存安全、高性能的系统编程语言编译器与标准库，赋能开发者构建可靠高效的软件。",
+      "tags": [
+        "rust",
+        "compiler",
+        "language",
+        "systems"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-07-31T03:18:03.739Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119301,
+      "forks": 18217,
+      "starsToday": 2294,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面工具，支持自托管，TeamViewer 替代方案。基于 Rust 开发，跨平台，端到端加密，可完全掌控数据。",
+      "tags": [
+        "remote-desktop",
+        "self-hosted",
+        "rust",
+        "cross-platform",
+        "teamviewer-alternative"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T11:32:03.711Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 102823,
+      "forks": 15463,
+      "starsToday": 8644,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 推出的轻量级终端编码代理，基于 Rust 构建，可在命令行中直接执行编码任务，开源且今日新增超八千星，热度极高。",
+      "tags": [
+        "coding-agent",
+        "cli",
+        "openai",
+        "rust",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-31T03:18:04.831Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wezterm",
+      "fullName": "wezterm/wezterm",
+      "url": "https://github.com/wezterm/wezterm",
+      "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 28055,
+      "forks": 1631,
+      "starsToday": 1057,
+      "topics": [],
+      "author": {
+        "name": "wezterm",
+        "avatar": "https://avatars.githubusercontent.com/u/117777?s=40&amp;v=4",
+        "url": "https://github.com/wezterm"
+      },
+      "summary": "基于Rust的GPU加速跨平台终端模拟器与多路复用器，支持分屏、标签页、自定义主题和丰富的配置，性能出色且功能强大。",
+      "tags": [
+        "terminal",
+        "gpu",
+        "rust",
+        "multiplexer",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:18:07.982Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "screenpipe",
+      "fullName": "screenpipe/screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "description": "YC (S26) | Record your screen 24/7 and plug into your agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 20648,
+      "forks": 2045,
+      "starsToday": 1142,
+      "topics": [],
+      "author": {
+        "name": "screenpipe",
+        "avatar": "https://avatars.githubusercontent.com/u/25003283?s=40&amp;v=4",
+        "url": "https://github.com/screenpipe"
+      },
+      "summary": "本地化屏幕录制与AI代理工具，24/7记录屏幕内容并接入OpenClaw等100多个应用，注重隐私安全，基于Rust构建。",
+      "tags": [
+        "screen-recording",
+        "ai-agents",
+        "privacy",
+        "rust",
+        "local-first"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:18:06.533Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vaultwarden",
+      "fullName": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 64670,
+      "forks": 3064,
+      "starsToday": 1680,
+      "topics": [],
+      "author": {
+        "name": "dani-garcia",
+        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
+        "url": "https://github.com/dani-garcia"
+      },
+      "summary": "用 Rust 编写的非官方 Bitwarden 兼容服务器，支持自托管密码管理，轻量高效，功能完整且持续活跃。",
+      "tags": [
+        "rust",
+        "bitwarden",
+        "self-hosted",
+        "password-manager",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T11:32:03.663Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omniget",
+      "fullName": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8171,
+      "forks": 689,
+      "starsToday": 2087,
+      "topics": [],
+      "author": {
+        "name": "tonhowtf",
+        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
+        "url": "https://github.com/tonhowtf"
+      },
+      "summary": "开源桌面应用，支持从1800+网站下载课程、视频、音乐和书籍，内置播放器与阅读器，基于yt-dlp，跨平台且无需终端。",
+      "tags": [
+        "downloader",
+        "desktop-app",
+        "rust",
+        "yt-dlp",
+        "media"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-07-31T03:18:05.489Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "biome",
+      "fullName": "biomejs/biome",
+      "url": "https://github.com/biomejs/biome",
+      "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 25453,
+      "forks": 1162,
+      "starsToday": 549,
+      "topics": [],
+      "author": {
+        "name": "biomejs",
+        "avatar": "https://avatars.githubusercontent.com/u/602478?s=40&amp;v=4",
+        "url": "https://github.com/biomejs"
+      },
+      "summary": "用Rust编写的Web项目工具链，提供格式化器和代码检查器，支持CLI和LSP，性能优异，可作为Prettier和ESLint的替代方案。",
+      "tags": [
+        "rust",
+        "formatter",
+        "linter",
+        "toolchain",
+        "web",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:32:03.613Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "atuin",
       "fullName": "atuinsh/atuin",
       "url": "https://github.com/atuinsh/atuin",
       "description": "✨ Making your shell magical",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30931,
+      "stars": 30935,
       "forks": 912,
       "starsToday": 587,
       "topics": [],
@@ -201,6 +566,62 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-07-31T03:18:01.494Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "GenieX",
+      "fullName": "qualcomm/GenieX",
+      "url": "https://github.com/qualcomm/GenieX",
+      "description": "Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8288,
+      "forks": 1035,
+      "starsToday": 193,
+      "topics": [],
+      "author": {
+        "name": "qualcomm",
+        "avatar": "https://avatars.githubusercontent.com/u/37139489?s=40&amp;v=4",
+        "url": "https://github.com/qualcomm"
+      },
+      "summary": "在骁龙设备上本地运行前沿大语言模型和多模态模型，支持NPU/GPU/CPU异构加速，仅需几行代码即可部署。",
+      "tags": [
+        "llm",
+        "on-device",
+        "qualcomm",
+        "inference",
+        "rust"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:18:06.341Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tokio",
+      "fullName": "tokio-rs/tokio",
+      "url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32726,
+      "forks": 3171,
+      "starsToday": 368,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "Rust 异步运行时，提供 I/O、网络、调度、定时器等能力，用于构建可靠的高性能异步应用，是 Rust 生态的核心基础设施。",
+      "tags": [
+        "async",
+        "runtime",
+        "rust",
+        "networking",
+        "io"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-07-31T11:32:03.560Z",
       "deepwikiAvailable": false
     },
     {
@@ -229,286 +650,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-31T03:18:02.031Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "datafusion",
-      "fullName": "apache/datafusion",
-      "url": "https://github.com/apache/datafusion",
-      "description": "Apache DataFusion SQL Query Engine",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 9052,
-      "forks": 2269,
-      "starsToday": 141,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/490673?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache DataFusion 是一个用 Rust 编写的高性能可扩展 SQL 查询引擎，支持分布式数据处理、丰富的 SQL 功能和多种数据源，是构建数据系统的核心基础设施。",
-      "tags": [
-        "sql",
-        "query-engine",
-        "rust",
-        "data-processing",
-        "apache"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-07-31T03:18:03.269Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jellium-desktop",
-      "fullName": "andrewrabert/jellium-desktop",
-      "url": "https://github.com/andrewrabert/jellium-desktop",
-      "description": "An unofficial desktop client for Jellyfin",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1692,
-      "forks": 125,
-      "starsToday": 703,
-      "topics": [],
-      "author": {
-        "name": "andrewrabert",
-        "avatar": "https://avatars.githubusercontent.com/u/6550543?s=40&amp;v=4",
-        "url": "https://github.com/andrewrabert"
-      },
-      "summary": "基于Rust构建的非官方Jellyfin桌面客户端，提供轻量高效的媒体播放体验，支持跨平台运行，今日新增700+星标。",
-      "tags": [
-        "jellyfin",
-        "media-player",
-        "rust",
-        "desktop",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-31T03:18:03.155Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dioxus",
-      "fullName": "DioxusLabs/dioxus",
-      "url": "https://github.com/DioxusLabs/dioxus",
-      "description": "Fullstack app framework for web, desktop, and mobile.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 38390,
-      "forks": 1816,
-      "starsToday": 1910,
-      "topics": [],
-      "author": {
-        "name": "DioxusLabs",
-        "avatar": "https://avatars.githubusercontent.com/u/10237910?s=40&amp;v=4",
-        "url": "https://github.com/DioxusLabs"
-      },
-      "summary": "基于 Rust 的全栈应用框架，支持 Web、桌面和移动端开发，采用 React 风格语法，性能出色，生态活跃。",
-      "tags": [
-        "rust",
-        "fullstack",
-        "web",
-        "cross-platform",
-        "ui-framework"
-      ],
-      "category": "Framework",
-      "enrichedAt": "2026-07-31T03:18:03.129Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rust",
-      "fullName": "rust-lang/rust",
-      "url": "https://github.com/rust-lang/rust",
-      "description": "Empowering everyone to build reliable and efficient software.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 114972,
-      "forks": 15276,
-      "starsToday": 1671,
-      "topics": [],
-      "author": {
-        "name": "rust-lang",
-        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
-        "url": "https://github.com/rust-lang"
-      },
-      "summary": "Rust编程语言官方仓库，提供内存安全、高性能的系统编程语言编译器与标准库，赋能开发者构建可靠高效的软件。",
-      "tags": [
-        "rust",
-        "compiler",
-        "language",
-        "systems"
-      ],
-      "category": "Language",
-      "enrichedAt": "2026-07-31T03:18:03.739Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "workmux",
-      "fullName": "raine/workmux",
-      "url": "https://github.com/raine/workmux",
-      "description": "git worktrees + tmux windows for zero-friction parallel dev",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2021,
-      "forks": 228,
-      "starsToday": 443,
-      "topics": [],
-      "author": {
-        "name": "raine",
-        "avatar": "https://avatars.githubusercontent.com/u/11027?s=40&amp;v=4",
-        "url": "https://github.com/raine"
-      },
-      "summary": "Rust 工具，将 git worktrees 与 tmux 窗口结合，实现零摩擦的并行开发工作流，轻松管理多个分支同时工作。",
-      "tags": [
-        "git",
-        "tmux",
-        "worktree",
-        "productivity",
-        "rust",
-        "cli"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:18:04.698Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "codex",
-      "fullName": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 102685,
-      "forks": 15440,
-      "starsToday": 8644,
-      "topics": [],
-      "author": {
-        "name": "openai",
-        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
-        "url": "https://github.com/openai"
-      },
-      "summary": "OpenAI 推出的轻量级终端编码代理，基于 Rust 构建，可在命令行中直接执行编码任务，开源且今日新增超八千星，热度极高。",
-      "tags": [
-        "coding-agent",
-        "cli",
-        "openai",
-        "rust",
-        "terminal"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-31T03:18:04.831Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "wealthfolio",
-      "fullName": "wealthfolio/wealthfolio",
-      "url": "https://github.com/wealthfolio/wealthfolio",
-      "description": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8419,
-      "forks": 605,
-      "starsToday": 739,
-      "topics": [],
-      "author": {
-        "name": "wealthfolio",
-        "avatar": "https://avatars.githubusercontent.com/u/8382496?s=40&amp;v=4",
-        "url": "https://github.com/wealthfolio"
-      },
-      "summary": "美观、私密、本地优先的个人财务管理工具，支持投资、净资产、支出追踪和模拟，基于 Rust 构建。",
-      "tags": [
-        "finance",
-        "rust",
-        "local-first",
-        "privacy",
-        "tracker"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-31T03:18:04.827Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omniget",
-      "fullName": "tonhowtf/omniget",
-      "url": "https://github.com/tonhowtf/omniget",
-      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8155,
-      "forks": 688,
-      "starsToday": 2087,
-      "topics": [],
-      "author": {
-        "name": "tonhowtf",
-        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
-        "url": "https://github.com/tonhowtf"
-      },
-      "summary": "开源桌面应用，支持从1800+网站下载课程、视频、音乐和书籍，内置播放器与阅读器，基于yt-dlp，跨平台且无需终端。",
-      "tags": [
-        "downloader",
-        "desktop-app",
-        "rust",
-        "yt-dlp",
-        "media"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-07-31T03:18:05.489Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "screenpipe",
-      "fullName": "screenpipe/screenpipe",
-      "url": "https://github.com/screenpipe/screenpipe",
-      "description": "YC (S26) | Record your screen 24/7 and plug into your agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 20637,
-      "forks": 2041,
-      "starsToday": 1142,
-      "topics": [],
-      "author": {
-        "name": "screenpipe",
-        "avatar": "https://avatars.githubusercontent.com/u/25003283?s=40&amp;v=4",
-        "url": "https://github.com/screenpipe"
-      },
-      "summary": "本地化屏幕录制与AI代理工具，24/7记录屏幕内容并接入OpenClaw等100多个应用，注重隐私安全，基于Rust构建。",
-      "tags": [
-        "screen-recording",
-        "ai-agents",
-        "privacy",
-        "rust",
-        "local-first"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:18:06.533Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "GenieX",
-      "fullName": "qualcomm/GenieX",
-      "url": "https://github.com/qualcomm/GenieX",
-      "description": "Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8287,
-      "forks": 1035,
-      "starsToday": 193,
-      "topics": [],
-      "author": {
-        "name": "qualcomm",
-        "avatar": "https://avatars.githubusercontent.com/u/37139489?s=40&amp;v=4",
-        "url": "https://github.com/qualcomm"
-      },
-      "summary": "在骁龙设备上本地运行前沿大语言模型和多模态模型，支持NPU/GPU/CPU异构加速，仅需几行代码即可部署。",
-      "tags": [
-        "llm",
-        "on-device",
-        "qualcomm",
-        "inference",
-        "rust"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:18:06.341Z",
       "deepwikiAvailable": false
     },
     {
@@ -565,34 +706,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-31T03:18:07.062Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "wezterm",
-      "fullName": "wezterm/wezterm",
-      "url": "https://github.com/wezterm/wezterm",
-      "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 28044,
-      "forks": 1629,
-      "starsToday": 1057,
-      "topics": [],
-      "author": {
-        "name": "wezterm",
-        "avatar": "https://avatars.githubusercontent.com/u/117777?s=40&amp;v=4",
-        "url": "https://github.com/wezterm"
-      },
-      "summary": "基于Rust的GPU加速跨平台终端模拟器与多路复用器，支持分屏、标签页、自定义主题和丰富的配置，性能出色且功能强大。",
-      "tags": [
-        "terminal",
-        "gpu",
-        "rust",
-        "multiplexer",
-        "cross-platform"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:18:07.982Z",
       "deepwikiAvailable": false
     }
   ]

@@ -2,8 +2,8 @@
   "date": "2026-07-31",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-07-31T03:15:10.772Z",
-  "enrichedAt": "2026-07-31T03:17:03.076Z",
+  "fetchedAt": "2026-07-31T11:30:45.646Z",
+  "enrichedAt": "2026-07-31T11:31:49.052Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,8 +12,8 @@
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 16639,
-      "forks": 1126,
+      "stars": 16840,
+      "forks": 1145,
       "starsToday": 5322,
       "topics": [],
       "author": {
@@ -34,42 +34,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "croc",
-      "fullName": "schollz/croc",
-      "url": "https://github.com/schollz/croc",
-      "description": "Easily and securely send things from one computer to another 🐊 📦",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 39149,
-      "forks": 1550,
-      "starsToday": 1118,
-      "topics": [],
-      "author": {
-        "name": "schollz",
-        "avatar": "https://avatars.githubusercontent.com/u/6550035?s=40&amp;v=4",
-        "url": "https://github.com/schollz"
-      },
-      "summary": "croc 是一款用 Go 编写的命令行文件传输工具，支持在两台电脑间安全、轻松地传送任意文件和数据，端到端加密，无需注册，即装即用。",
-      "tags": [
-        "file-transfer",
-        "cli",
-        "encryption",
-        "go",
-        "p2p"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-07-31T03:16:55.042Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "superfile",
       "fullName": "yorukot/superfile",
       "url": "https://github.com/yorukot/superfile",
       "description": "Pretty fancy and modern terminal file manager",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 21978,
-      "forks": 730,
+      "stars": 22001,
+      "forks": 732,
       "starsToday": 3142,
       "topics": [],
       "author": {
@@ -90,98 +62,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "litestream",
-      "fullName": "benbjohnson/litestream",
-      "url": "https://github.com/benbjohnson/litestream",
-      "description": "Streaming replication for SQLite.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 14148,
-      "forks": 383,
-      "starsToday": 194,
-      "topics": [],
-      "author": {
-        "name": "benbjohnson",
-        "avatar": "https://avatars.githubusercontent.com/u/118015?s=40&amp;v=4",
-        "url": "https://github.com/benbjohnson"
-      },
-      "summary": "SQLite 的流式复制工具，通过持续将数据库变更复制到 S3 等对象存储，实现轻量级灾难恢复和实时备份，无需额外基础设施。",
-      "tags": [
-        "sqlite",
-        "replication",
-        "backup",
-        "database",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-31T03:16:55.069Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 177357,
-      "forks": 17210,
-      "starsToday": 712,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地一键运行大模型的开源工具，支持Kimi、DeepSeek、Qwen、Gemma等主流模型，提供简单命令行与API接口，跨平台易部署。",
-      "tags": [
-        "llm",
-        "go",
-        "local-ai",
-        "inference",
-        "cli"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:16:56.563Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sub2api",
-      "fullName": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 35292,
-      "forks": 7243,
-      "starsToday": 1462,
-      "topics": [],
-      "author": {
-        "name": "Wei-Shaw",
-        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
-        "url": "https://github.com/Wei-Shaw"
-      },
-      "summary": "一站式订阅中转服务，将Claude、OpenAI、Gemini、Grok订阅统一转为API接口，支持拼车共享分摊成本，原生工具无缝接入使用。",
-      "tags": [
-        "api-gateway",
-        "subscription",
-        "proxy",
-        "ai",
-        "golang"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-31T03:16:56.564Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "cli",
       "fullName": "cli/cli",
       "url": "https://github.com/cli/cli",
       "description": "GitHub’s official command line tool",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 45529,
-      "forks": 8792,
+      "stars": 45537,
+      "forks": 8795,
       "starsToday": 164,
       "topics": [],
       "author": {
@@ -202,14 +90,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 177393,
+      "forks": 17213,
+      "starsToday": 712,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行大模型的开源工具，支持Kimi、DeepSeek、Qwen、Gemma等主流模型，提供简单命令行与API接口，跨平台易部署。",
+      "tags": [
+        "llm",
+        "go",
+        "local-ai",
+        "inference",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:16:56.563Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "evolution-go",
       "fullName": "evolution-foundation/evolution-go",
       "url": "https://github.com/evolution-foundation/evolution-go",
       "description": "Evolution API / Evolution Go is an open-source WhatsApp integration API",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 569,
-      "forks": 303,
+      "stars": 571,
+      "forks": 305,
       "starsToday": 127,
       "topics": [],
       "author": {
@@ -230,115 +146,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ragflow",
-      "fullName": "infiniflow/ragflow",
-      "url": "https://github.com/infiniflow/ragflow",
-      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "name": "litestream",
+      "fullName": "benbjohnson/litestream",
+      "url": "https://github.com/benbjohnson/litestream",
+      "description": "Streaming replication for SQLite.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 86461,
-      "forks": 10149,
-      "starsToday": 698,
+      "stars": 14151,
+      "forks": 384,
+      "starsToday": 194,
       "topics": [],
       "author": {
-        "name": "infiniflow",
-        "avatar": "https://avatars.githubusercontent.com/u/12318111?s=40&amp;v=4",
-        "url": "https://github.com/infiniflow"
+        "name": "benbjohnson",
+        "avatar": "https://avatars.githubusercontent.com/u/118015?s=40&amp;v=4",
+        "url": "https://github.com/benbjohnson"
       },
-      "summary": "RAGFlow 是领先的开源检索增强生成(RAG)引擎，融合前沿 RAG 与 Agent 能力，为 LLM 构建高质量上下文层，支持深度文档理解与智能问答。",
+      "summary": "SQLite 的流式复制工具，通过持续将数据库变更复制到 S3 等对象存储，实现轻量级灾难恢复和实时备份，无需额外基础设施。",
       "tags": [
-        "rag",
-        "llm",
-        "agent",
-        "search",
-        "nlp"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-07-31T03:16:58.056Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gvisor",
-      "fullName": "google/gvisor",
-      "url": "https://github.com/google/gvisor",
-      "description": "Application Kernel for Containers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 18924,
-      "forks": 1819,
-      "starsToday": 93,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "gVisor是谷歌开源的容器应用内核，为容器提供隔离的用户态内核层，增强安全性与沙箱能力，兼容现有容器生态。",
-      "tags": [
-        "container",
-        "security",
-        "sandbox",
-        "kernel",
+        "sqlite",
+        "replication",
+        "backup",
+        "database",
         "go"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-07-31T03:16:58.201Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cloudflared",
-      "fullName": "cloudflare/cloudflared",
-      "url": "https://github.com/cloudflare/cloudflared",
-      "description": "Cloudflare Tunnel client",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 15030,
-      "forks": 1371,
-      "starsToday": 97,
-      "topics": [],
-      "author": {
-        "name": "cloudflare",
-        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
-        "url": "https://github.com/cloudflare"
-      },
-      "summary": "Cloudflare官方Tunnel客户端，通过安全隧道将本地服务暴露到公网，无需开放端口，支持代理、负载均衡与零信任访问。",
-      "tags": [
-        "tunnel",
-        "proxy",
-        "cloudflare",
-        "networking",
-        "devtool"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-31T03:16:58.356Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hatchet",
-      "fullName": "hatchet-dev/hatchet",
-      "url": "https://github.com/hatchet-dev/hatchet",
-      "description": "🪓 An orchestration engine for background tasks, AI agents, and durable workflows",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7635,
-      "forks": 457,
-      "starsToday": 68,
-      "topics": [],
-      "author": {
-        "name": "hatchet-dev",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/hatchet-dev"
-      },
-      "summary": "Hatchet 是一个用 Go 构建的编排引擎，用于后台任务、AI 智能体和持久化工作流，提供可靠的任务调度与执行能力。",
-      "tags": [
-        "orchestration",
-        "workflow",
-        "ai-agents",
-        "task-queue",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-31T03:16:58.490Z",
+      "enrichedAt": "2026-07-31T03:16:55.069Z",
       "deepwikiAvailable": false
     },
     {
@@ -348,7 +180,7 @@
       "description": "OpenTelemetry Collector distribution with programmable pipelines",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3396,
+      "stars": 3397,
       "forks": 673,
       "starsToday": 38,
       "topics": [],
@@ -370,13 +202,125 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "cloudflared",
+      "fullName": "cloudflare/cloudflared",
+      "url": "https://github.com/cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15034,
+      "forks": 1369,
+      "starsToday": 97,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare官方Tunnel客户端，通过安全隧道将本地服务暴露到公网，无需开放端口，支持代理、负载均衡与零信任访问。",
+      "tags": [
+        "tunnel",
+        "proxy",
+        "cloudflare",
+        "networking",
+        "devtool"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T03:16:58.356Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18929,
+      "forks": 1819,
+      "starsToday": 93,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "gVisor是谷歌开源的容器应用内核，为容器提供隔离的用户态内核层，增强安全性与沙箱能力，兼容现有容器生态。",
+      "tags": [
+        "container",
+        "security",
+        "sandbox",
+        "kernel",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T03:16:58.201Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35387,
+      "forks": 7259,
+      "starsToday": 1462,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式订阅中转服务，将Claude、OpenAI、Gemini、Grok订阅统一转为API接口，支持拼车共享分摊成本，原生工具无缝接入使用。",
+      "tags": [
+        "api-gateway",
+        "subscription",
+        "proxy",
+        "ai",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T03:16:56.564Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4839,
+      "forks": 472,
+      "starsToday": 45,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的代理式工作流工具，用 Go 编写，帮助开发者通过 AI 代理自动化 GitHub 上的开发任务与协作流程。",
+      "tags": [
+        "github",
+        "agentic",
+        "workflow",
+        "automation",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T03:16:59.946Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "gitleaks",
       "fullName": "gitleaks/gitleaks",
       "url": "https://github.com/gitleaks/gitleaks",
       "description": "Find secrets with Gitleaks 🔑",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 28393,
+      "stars": 28403,
       "forks": 2168,
       "starsToday": 122,
       "topics": [],
@@ -398,31 +342,170 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gh-aw",
-      "fullName": "github/gh-aw",
-      "url": "https://github.com/github/gh-aw",
-      "description": "GitHub Agentic Workflows",
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4837,
-      "forks": 473,
-      "starsToday": 45,
+      "stars": 86508,
+      "forks": 10157,
+      "starsToday": 698,
       "topics": [],
       "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
-        "url": "https://github.com/github"
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/12318111?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
       },
-      "summary": "GitHub 官方推出的代理式工作流工具，用 Go 编写，帮助开发者通过 AI 代理自动化 GitHub 上的开发任务与协作流程。",
+      "summary": "RAGFlow 是领先的开源检索增强生成(RAG)引擎，融合前沿 RAG 与 Agent 能力，为 LLM 构建高质量上下文层，支持深度文档理解与智能问答。",
       "tags": [
-        "github",
-        "agentic",
-        "workflow",
-        "automation",
+        "rag",
+        "llm",
+        "agent",
+        "search",
+        "nlp"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-07-31T03:16:58.056Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58846,
+      "forks": 5271,
+      "starsToday": 188,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "云存储同步命令行工具，支持 Google Drive、S3、Dropbox 等 40+ 存储服务，功能类似 rsync，可复制、同步、加密和挂载云端文件。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "cli",
         "go"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-07-31T03:16:59.946Z",
+      "category": "CLI",
+      "enrichedAt": "2026-07-31T11:31:48.955Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gcx",
+      "fullName": "grafana/gcx",
+      "url": "https://github.com/grafana/gcx",
+      "description": "A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 508,
+      "forks": 39,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "面向代理场景优化的Grafana资源管理CLI工具，用Go编写，可高效管理Grafana及Grafana Cloud资源，适合自动化与AI代理集成使用。",
+      "tags": [
+        "grafana",
+        "cli",
+        "cloud",
+        "agentic",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-31T11:31:49.052Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "croc",
+      "fullName": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 39171,
+      "forks": 1549,
+      "starsToday": 1118,
+      "topics": [],
+      "author": {
+        "name": "schollz",
+        "avatar": "https://avatars.githubusercontent.com/u/6550035?s=40&amp;v=4",
+        "url": "https://github.com/schollz"
+      },
+      "summary": "croc 是一款用 Go 编写的命令行文件传输工具，支持在两台电脑间安全、轻松地传送任意文件和数据，端到端加密，无需注册，即装即用。",
+      "tags": [
+        "file-transfer",
+        "cli",
+        "encryption",
+        "go",
+        "p2p"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-07-31T03:16:55.042Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hatchet",
+      "fullName": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "description": "🪓 An orchestration engine for background tasks, AI agents, and durable workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7636,
+      "forks": 458,
+      "starsToday": 68,
+      "topics": [],
+      "author": {
+        "name": "hatchet-dev",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/hatchet-dev"
+      },
+      "summary": "Hatchet 是一个用 Go 构建的编排引擎，用于后台任务、AI 智能体和持久化工作流，提供可靠的任务调度与执行能力。",
+      "tags": [
+        "orchestration",
+        "workflow",
+        "ai-agents",
+        "task-queue",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T03:16:58.490Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-workflows",
+      "fullName": "argoproj/argo-workflows",
+      "url": "https://github.com/argoproj/argo-workflows",
+      "description": "Workflow Engine for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16862,
+      "forks": 3593,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/u/1142830?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于Kubernetes的工作流引擎，支持容器原生工作流编排、DAG依赖、定时调度与大规模并行任务执行，是云原生CI/CD和批处理领域的核心开源项目。",
+      "tags": [
+        "kubernetes",
+        "workflow",
+        "container-native",
+        "cron",
+        "dag"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-07-31T03:17:02.195Z",
       "deepwikiAvailable": false
     },
     {
@@ -432,8 +515,8 @@
       "description": "Podman: A tool for managing OCI containers and pods.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 32402,
-      "forks": 3248,
+      "stars": 32404,
+      "forks": 3249,
       "starsToday": 69,
       "topics": [],
       "author": {
@@ -451,6 +534,62 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-07-31T03:17:00.181Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37161,
+      "forks": 558,
+      "starsToday": 117,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "全面的开源安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、错误配置、密钥和SBOM，支持多平台集成。",
+      "tags": [
+        "security",
+        "vulnerability",
+        "container",
+        "kubernetes",
+        "scanner"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:31:48.960Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "xiaohongshu-mcp",
+      "fullName": "xpzouying/xiaohongshu-mcp",
+      "url": "https://github.com/xpzouying/xiaohongshu-mcp",
+      "description": "MCP for xiaohongshu.com",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15007,
+      "forks": 2206,
+      "starsToday": 186,
+      "topics": [],
+      "author": {
+        "name": "xpzouying",
+        "avatar": "https://avatars.githubusercontent.com/u/3946563?s=40&amp;v=4",
+        "url": "https://github.com/xpzouying"
+      },
+      "summary": "基于Go实现的小红书MCP服务器，通过Model Context Protocol接口访问小红书内容，支持搜索、笔记获取等能力，方便AI应用集成小红书数据。",
+      "tags": [
+        "mcp",
+        "xiaohongshu",
+        "go",
+        "api",
+        "social-media"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-07-31T11:31:48.917Z",
       "deepwikiAvailable": false
     },
     {
@@ -535,34 +674,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-07-31T03:17:01.453Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "argo-workflows",
-      "fullName": "argoproj/argo-workflows",
-      "url": "https://github.com/argoproj/argo-workflows",
-      "description": "Workflow Engine for Kubernetes",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 16859,
-      "forks": 3593,
-      "starsToday": 20,
-      "topics": [],
-      "author": {
-        "name": "argoproj",
-        "avatar": "https://avatars.githubusercontent.com/u/1142830?s=40&amp;v=4",
-        "url": "https://github.com/argoproj"
-      },
-      "summary": "基于Kubernetes的工作流引擎，支持容器原生工作流编排、DAG依赖、定时调度与大规模并行任务执行，是云原生CI/CD和批处理领域的核心开源项目。",
-      "tags": [
-        "kubernetes",
-        "workflow",
-        "container-native",
-        "cron",
-        "dag"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-07-31T03:17:02.195Z",
       "deepwikiAvailable": false
     },
     {
