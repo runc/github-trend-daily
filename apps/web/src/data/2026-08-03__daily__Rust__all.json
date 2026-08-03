@@ -2,9 +2,598 @@
   "date": "2026-08-03",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-08-03T03:15:31.947Z",
-  "enrichedAt": "2026-08-03T03:16:31.914Z",
+  "fetchedAt": "2026-08-03T12:26:31.704Z",
+  "enrichedAt": "2026-08-03T12:27:24.627Z",
   "repos": [
+    {
+      "name": "pdf-inspector",
+      "fullName": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6763,
+      "forks": 475,
+      "starsToday": 1769,
+      "topics": [],
+      "author": {
+        "name": "firecrawl",
+        "avatar": "https://avatars.githubusercontent.com/u/1450169?s=40&amp;v=4",
+        "url": "https://github.com/firecrawl"
+      },
+      "summary": "高性能Rust PDF检查库，支持分类与文本提取，智能识别扫描版与文本版PDF，助力路由决策。",
+      "tags": [
+        "pdf",
+        "rust",
+        "text-extraction",
+        "classification",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-03T12:27:19.402Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anki",
+      "fullName": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 29492,
+      "forks": 3126,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "ankitects",
+        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
+        "url": "https://github.com/ankitects"
+      },
+      "summary": "Anki 是一款基于间隔重复算法的智能闪卡学习程序，帮助用户高效记忆。Rust 编写，跨平台支持，拥有庞大社区和丰富插件生态。",
+      "tags": [
+        "flashcard",
+        "spaced-repetition",
+        "learning",
+        "rust",
+        "education"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-03T03:16:25.051Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CodeWhale",
+      "fullName": "Hmbown/CodeWhale",
+      "url": "https://github.com/Hmbown/CodeWhale",
+      "description": "Open-source, community-driven agent harness",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 40403,
+      "forks": 3491,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "Hmbown",
+        "avatar": "https://avatars.githubusercontent.com/u/101357273?s=40&amp;v=4",
+        "url": "https://github.com/Hmbown"
+      },
+      "summary": "开源社区驱动的智能体框架，用Rust构建，提供灵活的工具链与执行环境，支持开发者快速搭建和部署AI代理工作流。",
+      "tags": [
+        "agent",
+        "rust",
+        "framework",
+        "open-source",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-03T03:16:28.488Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wealthfolio",
+      "fullName": "wealthfolio/wealthfolio",
+      "url": "https://github.com/wealthfolio/wealthfolio",
+      "description": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8464,
+      "forks": 616,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "wealthfolio",
+        "avatar": "https://avatars.githubusercontent.com/u/8382496?s=40&amp;v=4",
+        "url": "https://github.com/wealthfolio"
+      },
+      "summary": "本地优先的私人个人财务追踪工具，界面美观，支持投资、净资产、支出追踪与模拟，数据完全本地存储，注重隐私。",
+      "tags": [
+        "finance",
+        "local-first",
+        "privacy",
+        "rust",
+        "tracker"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-03T03:16:25.883Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nautilus_trader",
+      "fullName": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 25235,
+      "forks": 3285,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "nautechsystems",
+        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
+        "url": "https://github.com/nautechsystems"
+      },
+      "summary": "生产级Rust原生交易引擎，采用确定性事件驱动架构，支持多资产类别、回测与实盘交易，性能卓越且跨平台。",
+      "tags": [
+        "trading",
+        "rust",
+        "quant",
+        "backtesting",
+        "engine"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-03T12:27:19.440Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "stalwart",
+      "fullName": "stalwartlabs/stalwart",
+      "url": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13990,
+      "forks": 863,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "stalwartlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
+        "url": "https://github.com/stalwartlabs"
+      },
+      "summary": "用Rust编写的全功能邮件与协作服务器，支持IMAP、JMAP、SMTP、CalDAV、CardDAV、WebDAV等所有主流协议，安全可扩展，一站式部署。",
+      "tags": [
+        "mail-server",
+        "rust",
+        "collaboration",
+        "imap",
+        "smtp",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-03T12:27:19.413Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wasmtime",
+      "fullName": "bytecodealliance/wasmtime",
+      "url": "https://github.com/bytecodealliance/wasmtime",
+      "description": "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18468,
+      "forks": 1785,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "bytecodealliance",
+        "avatar": "https://avatars.githubusercontent.com/u/64996?s=40&amp;v=4",
+        "url": "https://github.com/bytecodealliance"
+      },
+      "summary": "轻量级WebAssembly运行时，基于Rust开发，性能优异、安全可靠且完全符合标准规范，支持多种语言嵌入。",
+      "tags": [
+        "wasm",
+        "runtime",
+        "rust",
+        "webassembly",
+        "jit"
+      ],
+      "category": "Runtime",
+      "enrichedAt": "2026-08-03T12:27:19.462Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rig",
+      "fullName": "0xPlaygrounds/rig",
+      "url": "https://github.com/0xPlaygrounds/rig",
+      "description": "⚙️🦀 Build modular and scalable LLM Applications in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8148,
+      "forks": 918,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "0xPlaygrounds",
+        "avatar": "https://avatars.githubusercontent.com/u/102877324?s=40&amp;v=4",
+        "url": "https://github.com/0xPlaygrounds"
+      },
+      "summary": "用 Rust 构建模块化、可扩展的 LLM 应用框架，提供类型安全、高性能的 AI 开发体验，支持多种模型提供商和 Agent 编排。",
+      "tags": [
+        "rust",
+        "llm",
+        "ai-framework",
+        "agents",
+        "modular"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-03T12:27:21.125Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "check-if-email-exists",
+      "fullName": "reacherhq/check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9229,
+      "forks": 670,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "reacherhq",
+        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
+        "url": "https://github.com/reacherhq"
+      },
+      "summary": "用Rust编写的邮箱地址验证工具，无需发送邮件即可检测邮箱是否存在，附带HTTP后端接口，可集成到各类服务中。",
+      "tags": [
+        "email",
+        "rust",
+        "validation",
+        "http-api",
+        "verification"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-03T12:27:21.047Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "neon",
+      "fullName": "neondatabase/neon",
+      "url": "https://github.com/neondatabase/neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22740,
+      "forks": 1049,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "neondatabase",
+        "avatar": "https://avatars.githubusercontent.com/u/191602?s=40&amp;v=4",
+        "url": "https://github.com/neondatabase"
+      },
+      "summary": "Neon 是开源的无服务器 Postgres 数据库，分离存储与计算，提供自动扩缩容、类似代码的数据库分支和按需归零能力，用 Rust 实现。",
+      "tags": [
+        "postgres",
+        "serverless",
+        "database",
+        "rust",
+        "autoscaling"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-03T12:27:21.106Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iroh",
+      "fullName": "n0-computer/iroh",
+      "url": "https://github.com/n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12009,
+      "forks": 696,
+      "starsToday": 68,
+      "topics": [],
+      "author": {
+        "name": "n0-computer",
+        "avatar": "https://avatars.githubusercontent.com/u/790842?s=40&amp;v=4",
+        "url": "https://github.com/n0-computer"
+      },
+      "summary": "基于QUIC和NAT穿透的Rust库，用加密密钥替代IP地址实现点对点连接，为应用提供可靠、去中心化的网络通信能力。",
+      "tags": [
+        "quic",
+        "nat-traversal",
+        "p2p",
+        "rust",
+        "networking"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-03T03:16:28.554Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustlings",
+      "fullName": "rust-lang/rustlings",
+      "url": "https://github.com/rust-lang/rustlings",
+      "description": "🦀 Small exercises to get you used to reading and writing Rust code!",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 63724,
+      "forks": 11238,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/76752051?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "通过大量小型练习帮助初学者熟悉Rust读写语法，交互式命令行逐题通关，是官方推荐的入门练手项目，社区活跃持续更新。",
+      "tags": [
+        "rust",
+        "learning",
+        "exercises",
+        "tutorial",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-03T12:27:21.233Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cargo",
+      "fullName": "rust-lang/cargo",
+      "url": "https://github.com/rust-lang/cargo",
+      "description": "The Rust package manager",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15319,
+      "forks": 3008,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 官方包管理器，负责依赖管理、构建与发布，是 Rust 生态的核心工具，支持 crate 下载、版本解析和项目构建。",
+      "tags": [
+        "package-manager",
+        "rust",
+        "build-tool",
+        "dependency"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-03T12:27:22.630Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wgpu",
+      "fullName": "gfx-rs/wgpu",
+      "url": "https://github.com/gfx-rs/wgpu",
+      "description": "A cross-platform, safe, pure-Rust graphics API.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17709,
+      "forks": 1379,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "gfx-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/107301?s=40&amp;v=4",
+        "url": "https://github.com/gfx-rs"
+      },
+      "summary": "wgpu 是跨平台、安全、纯 Rust 实现的图形 API，提供统一抽象层，支持 Vulkan、Metal、DX12 等后端，是 WebGPU 规范的 Rust 实现。",
+      "tags": [
+        "rust",
+        "graphics",
+        "webgpu",
+        "gpu",
+        "cross-platform"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-03T12:27:22.965Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "komodo",
+      "fullName": "moghtech/komodo",
+      "url": "https://github.com/moghtech/komodo",
+      "description": "🦎 a tool to build and deploy software on many servers 🦎",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11784,
+      "forks": 369,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "moghtech",
+        "avatar": "https://avatars.githubusercontent.com/u/49575486?s=40&amp;v=4",
+        "url": "https://github.com/moghtech"
+      },
+      "summary": "Komodo 是一个用 Rust 构建的多服务器部署与编排工具，支持在多台服务器上构建、部署和管理软件，提供统一控制面板，简化 DevOps 流程。",
+      "tags": [
+        "deployment",
+        "devops",
+        "rust",
+        "self-hosted",
+        "orchestration"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-03T03:16:24.384Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "destructive_command_guard",
+      "fullName": "Dicklesworthstone/destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5544,
+      "forks": 219,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "Dicklesworthstone",
+        "avatar": "https://avatars.githubusercontent.com/u/35050222?s=40&amp;v=4",
+        "url": "https://github.com/Dicklesworthstone"
+      },
+      "summary": "用Rust编写的命令行防护工具，拦截AI代理执行危险的git和shell命令，防止误操作造成破坏，保障自动化环境安全。",
+      "tags": [
+        "security",
+        "rust",
+        "cli",
+        "agent",
+        "guard"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-03T12:27:22.811Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4566,
+      "forks": 436,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "全球首个开源AI原生矢量设计工具，支持并发Agent团队协作，将提示词直接转化为画布上的UI，实现Design-as-Code，是Pencil的现代替代品。",
+      "tags": [
+        "ai-design",
+        "vector",
+        "design-tool",
+        "rust",
+        "canvas"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-03T12:27:22.837Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust-clippy",
+      "fullName": "rust-lang/rust-clippy",
+      "url": "https://github.com/rust-lang/rust-clippy",
+      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13410,
+      "forks": 2096,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust官方静态分析工具，提供大量lint规则帮助开发者发现常见错误并改进代码质量，是Rust生态中必备的代码检查利器。",
+      "tags": [
+        "rust",
+        "linter",
+        "static-analysis",
+        "code-quality",
+        "clippy"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-03T03:16:26.740Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenLogi",
+      "fullName": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8133,
+      "forks": 208,
+      "starsToday": 111,
+      "topics": [],
+      "author": {
+        "name": "AprilNEA",
+        "avatar": "https://avatars.githubusercontent.com/u/37977109?s=40&amp;v=4",
+        "url": "https://github.com/AprilNEA"
+      },
+      "summary": "用 Rust 编写的 Logitech Options+ 本地替代品，通过 HID++ 重映射按键、DPI 和 SmartShift，无需账号、无遥测，主打隐私与原生性能。",
+      "tags": [
+        "rust",
+        "logitech",
+        "hid",
+        "local-first",
+        "privacy",
+        "input"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-03T12:27:24.327Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 28567,
+      "forks": 2495,
+      "starsToday": 122,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "免费开源的离线语音转文字应用，基于Rust构建，完全本地运行，支持扩展，保护隐私且无需联网。",
+      "tags": [
+        "speech-to-text",
+        "offline",
+        "rust",
+        "privacy",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-03T12:27:24.541Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "plano",
+      "fullName": "katanemo/plano",
+      "url": "https://github.com/katanemo/plano",
+      "description": "Plano is an AI-native proxy server and data plane for agentic apps. Smart LLM routing, observability, agent orchestration, and guardrails so you stay focused on your agents core logic.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6926,
+      "forks": 476,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "katanemo",
+        "avatar": "https://avatars.githubusercontent.com/u/13196462?s=40&amp;v=4",
+        "url": "https://github.com/katanemo"
+      },
+      "summary": "AI原生代理服务器与数据平面，为智能体应用提供智能LLM路由、可观测性、代理编排和护栏，让开发者专注核心逻辑。基于Rust构建。",
+      "tags": [
+        "llm-routing",
+        "agent",
+        "proxy",
+        "observability",
+        "rust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-03T12:27:24.627Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "bat",
       "fullName": "sharkdp/bat",
@@ -31,34 +620,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-08-03T03:16:24.326Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "anki",
-      "fullName": "ankitects/anki",
-      "url": "https://github.com/ankitects/anki",
-      "description": "Anki is a smart spaced repetition flashcard program",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 29485,
-      "forks": 3127,
-      "starsToday": 21,
-      "topics": [],
-      "author": {
-        "name": "ankitects",
-        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
-        "url": "https://github.com/ankitects"
-      },
-      "summary": "Anki 是一款基于间隔重复算法的智能闪卡学习程序，帮助用户高效记忆。Rust 编写，跨平台支持，拥有庞大社区和丰富插件生态。",
-      "tags": [
-        "flashcard",
-        "spaced-repetition",
-        "learning",
-        "rust",
-        "education"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-08-03T03:16:25.051Z",
       "deepwikiAvailable": false
     },
     {
@@ -90,62 +651,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "komodo",
-      "fullName": "moghtech/komodo",
-      "url": "https://github.com/moghtech/komodo",
-      "description": "🦎 a tool to build and deploy software on many servers 🦎",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11775,
-      "forks": 368,
-      "starsToday": 13,
-      "topics": [],
-      "author": {
-        "name": "moghtech",
-        "avatar": "https://avatars.githubusercontent.com/u/49575486?s=40&amp;v=4",
-        "url": "https://github.com/moghtech"
-      },
-      "summary": "Komodo 是一个用 Rust 构建的多服务器部署与编排工具，支持在多台服务器上构建、部署和管理软件，提供统一控制面板，简化 DevOps 流程。",
-      "tags": [
-        "deployment",
-        "devops",
-        "rust",
-        "self-hosted",
-        "orchestration"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-03T03:16:24.384Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "wealthfolio",
-      "fullName": "wealthfolio/wealthfolio",
-      "url": "https://github.com/wealthfolio/wealthfolio",
-      "description": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8458,
-      "forks": 616,
-      "starsToday": 9,
-      "topics": [],
-      "author": {
-        "name": "wealthfolio",
-        "avatar": "https://avatars.githubusercontent.com/u/8382496?s=40&amp;v=4",
-        "url": "https://github.com/wealthfolio"
-      },
-      "summary": "本地优先的私人个人财务追踪工具，界面美观，支持投资、净资产、支出追踪与模拟，数据完全本地存储，注重隐私。",
-      "tags": [
-        "finance",
-        "local-first",
-        "privacy",
-        "rust",
-        "tracker"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-08-03T03:16:25.883Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "rust",
       "fullName": "rust-lang/rust",
       "url": "https://github.com/rust-lang/rust",
@@ -171,34 +676,6 @@
       ],
       "category": "Language",
       "enrichedAt": "2026-08-03T03:16:26.738Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rust-clippy",
-      "fullName": "rust-lang/rust-clippy",
-      "url": "https://github.com/rust-lang/rust-clippy",
-      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 13407,
-      "forks": 2096,
-      "starsToday": 6,
-      "topics": [],
-      "author": {
-        "name": "rust-lang",
-        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
-        "url": "https://github.com/rust-lang"
-      },
-      "summary": "Rust官方静态分析工具，提供大量lint规则帮助开发者发现常见错误并改进代码质量，是Rust生态中必备的代码检查利器。",
-      "tags": [
-        "rust",
-        "linter",
-        "static-analysis",
-        "code-quality",
-        "clippy"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-03T03:16:26.740Z",
       "deepwikiAvailable": false
     },
     {
@@ -255,62 +732,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-08-03T03:16:27.580Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "iroh",
-      "fullName": "n0-computer/iroh",
-      "url": "https://github.com/n0-computer/iroh",
-      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11986,
-      "forks": 682,
-      "starsToday": 22,
-      "topics": [],
-      "author": {
-        "name": "n0-computer",
-        "avatar": "https://avatars.githubusercontent.com/u/790842?s=40&amp;v=4",
-        "url": "https://github.com/n0-computer"
-      },
-      "summary": "基于QUIC和NAT穿透的Rust库，用加密密钥替代IP地址实现点对点连接，为应用提供可靠、去中心化的网络通信能力。",
-      "tags": [
-        "quic",
-        "nat-traversal",
-        "p2p",
-        "rust",
-        "networking"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-08-03T03:16:28.554Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "CodeWhale",
-      "fullName": "Hmbown/CodeWhale",
-      "url": "https://github.com/Hmbown/CodeWhale",
-      "description": "Open-source, community-driven agent harness",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 40371,
-      "forks": 3491,
-      "starsToday": 41,
-      "topics": [],
-      "author": {
-        "name": "Hmbown",
-        "avatar": "https://avatars.githubusercontent.com/u/101357273?s=40&amp;v=4",
-        "url": "https://github.com/Hmbown"
-      },
-      "summary": "开源社区驱动的智能体框架，用Rust构建，提供灵活的工具链与执行环境，支持开发者快速搭建和部署AI代理工作流。",
-      "tags": [
-        "agent",
-        "rust",
-        "framework",
-        "open-source",
-        "automation"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-03T03:16:28.488Z",
       "deepwikiAvailable": false
     },
     {
