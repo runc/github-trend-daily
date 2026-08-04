@@ -1,0 +1,591 @@
+{
+  "date": "2026-08-04",
+  "since": "weekly",
+  "language": "Go",
+  "fetchedAt": "2026-08-04T02:44:36.011Z",
+  "enrichedAt": "2026-08-04T02:48:04.594Z",
+  "repos": [
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18483,
+      "forks": 1245,
+      "starsToday": 3881,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里巴巴开源的代码审查工具，混合架构结合确定性流水线与LLM Agent，提供精准行级评论，内置多语言规则集（NPE、线程安全、XSS、SQL注入），兼容OpenAI与Anthropic。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "devtool",
+        "alibaba"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:47:47.544Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45632,
+      "forks": 8815,
+      "starsToday": 197,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub官方命令行工具，支持PR、Issue、Release等全流程管理，可直接在终端操作仓库，提升开发者工作效率。",
+      "tags": [
+        "github",
+        "cli",
+        "git",
+        "devops",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-04T02:47:51.700Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 48218,
+      "forks": 4343,
+      "starsToday": 295,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "tags": [
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:47:50.383Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-stack",
+      "fullName": "github/gh-stack",
+      "url": "https://github.com/github/gh-stack",
+      "description": "GitHub Stacked PRs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 999,
+      "forks": 42,
+      "starsToday": 413,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/1701557?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "Go 编写的 GitHub 堆叠式 PR 管理工具，支持将多个依赖分支按顺序提交，简化大型变更的审查与合并流程。",
+      "tags": [
+        "github",
+        "pr",
+        "stacked-pr",
+        "cli",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:47:45.209Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gluetun",
+      "fullName": "passteque/gluetun",
+      "url": "https://github.com/passteque/gluetun",
+      "description": "VPN client in a thin Docker container for multiple VPN providers, written in Go, and using OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15065,
+      "forks": 606,
+      "starsToday": 82,
+      "topics": [],
+      "author": {
+        "name": "passteque",
+        "avatar": "https://avatars.githubusercontent.com/u/15654980?s=40&amp;v=4",
+        "url": "https://github.com/passteque"
+      },
+      "summary": "基于Go的轻量Docker VPN客户端，支持多家VPN提供商，兼容OpenVPN和WireGuard，内置DNS over TLS及多种代理服务器，配置灵活易用。",
+      "tags": [
+        "vpn",
+        "docker",
+        "openvpn",
+        "wireguard",
+        "proxy",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:47:46.963Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 177715,
+      "forks": 17253,
+      "starsToday": 795,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大模型的一站式工具，支持Kimi、GLM、DeepSeek、Qwen、Gemma等主流模型，安装简单，开箱即用。",
+      "tags": [
+        "llm",
+        "local-ai",
+        "go",
+        "model-runner",
+        "inference"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:47:48.765Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "traefik",
+      "fullName": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 64263,
+      "forks": 6115,
+      "starsToday": 137,
+      "topics": [],
+      "author": {
+        "name": "traefik",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/traefik"
+      },
+      "summary": "云原生应用代理，支持动态配置、服务发现、负载均衡与TLS终止，与Kubernetes深度集成，是流行的反向代理和边缘路由器。",
+      "tags": [
+        "proxy",
+        "kubernetes",
+        "reverse-proxy",
+        "load-balancer",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:47:56.127Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caddy",
+      "fullName": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 74624,
+      "forks": 4861,
+      "starsToday": 228,
+      "topics": [],
+      "author": {
+        "name": "caddyserver",
+        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
+        "url": "https://github.com/caddyserver"
+      },
+      "summary": "Caddy 是一款快速、可扩展的多平台 HTTP/1-2-3 Web 服务器，支持自动 HTTPS 证书配置，配置简单，开箱即用，广受开发者欢迎。",
+      "tags": [
+        "web-server",
+        "https",
+        "go",
+        "reverse-proxy",
+        "http3"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:47:49.963Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22198,
+      "forks": 799,
+      "starsToday": 1596,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "一款用Go编写的现代化终端文件管理器，界面精美时尚，支持多面板操作、快捷键导航和丰富自定义配置，为终端用户提供高效优雅的文件管理体验。",
+      "tags": [
+        "file-manager",
+        "terminal",
+        "tui",
+        "go",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-04T02:47:51.412Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "litestream",
+      "fullName": "benbjohnson/litestream",
+      "url": "https://github.com/benbjohnson/litestream",
+      "description": "Streaming replication for SQLite.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14175,
+      "forks": 386,
+      "starsToday": 128,
+      "topics": [],
+      "author": {
+        "name": "benbjohnson",
+        "avatar": "https://avatars.githubusercontent.com/u/118015?s=40&amp;v=4",
+        "url": "https://github.com/benbjohnson"
+      },
+      "summary": "SQLite 的流式复制工具，将数据库实时复制到 S3 等对象存储，实现灾难恢复与高可用，轻量易部署。",
+      "tags": [
+        "sqlite",
+        "replication",
+        "backup",
+        "s3",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:47:54.472Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30020,
+      "forks": 1929,
+      "starsToday": 1851,
+      "topics": [],
+      "author": {
+        "name": "esengine",
+        "avatar": "https://avatars.githubusercontent.com/u/32437197?s=40&amp;v=4",
+        "url": "https://github.com/esengine"
+      },
+      "summary": "基于DeepSeek的终端AI编程助手，围绕前缀缓存稳定性设计，可常驻运行，提升编码效率。",
+      "tags": [
+        "ai-agent",
+        "deepseek",
+        "terminal",
+        "coding",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:47:53.261Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evilginx2",
+      "fullName": "kgretzky/evilginx2",
+      "url": "https://github.com/kgretzky/evilginx2",
+      "description": "Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15424,
+      "forks": 2690,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "kgretzky",
+        "avatar": "https://avatars.githubusercontent.com/u/19260967?s=40&amp;v=4",
+        "url": "https://github.com/kgretzky"
+      },
+      "summary": "独立的中间人攻击框架，用于钓鱼窃取登录凭证和会话Cookie，可绕过双因素认证，是红队渗透测试和社工攻击的利器。",
+      "tags": [
+        "security",
+        "phishing",
+        "pentest",
+        "mitm",
+        "redteam"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-04T02:47:53.025Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4860,
+      "forks": 476,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方开源的Agentic工作流框架，用Go构建，支持自动化GitHub操作与智能代理工作流编排，简化开发者自动化流程。",
+      "tags": [
+        "agentic",
+        "workflow",
+        "github",
+        "automation",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:47:54.570Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43621,
+      "forks": 5530,
+      "starsToday": 1286,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源托管式智能体平台，将编码智能体转化为真正的团队队友，支持任务分配、进度追踪与技能积累，基于Go构建。",
+      "tags": [
+        "agents",
+        "platform",
+        "go",
+        "automation",
+        "devtools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:47:57.725Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "waveterm",
+      "fullName": "wavetermdev/waveterm",
+      "url": "https://github.com/wavetermdev/waveterm",
+      "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21912,
+      "forks": 1086,
+      "starsToday": 100,
+      "topics": [],
+      "author": {
+        "name": "wavetermdev",
+        "avatar": "https://avatars.githubusercontent.com/u/2722291?s=40&amp;v=4",
+        "url": "https://github.com/wavetermdev"
+      },
+      "summary": "开源跨平台终端，深度集成AI能力，支持无缝工作流，用Go构建，界面现代功能强大。",
+      "tags": [
+        "terminal",
+        "ai",
+        "cross-platform",
+        "go",
+        "open-source"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:47:55.943Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7042,
+      "forks": 1433,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
+      },
+      "summary": "开源太阳能电动车充电管理系统，支持光伏发电智能调度充电，兼容多种充电桩与逆变器，实现绿色能源最大化利用。",
+      "tags": [
+        "solar",
+        "ev-charging",
+        "energy",
+        "go",
+        "iot"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-04T02:47:56.288Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nightingale",
+      "fullName": "ccfos/nightingale",
+      "url": "https://github.com/ccfos/nightingale",
+      "description": "Nightingale is to monitoring and alerting what Grafana is to visualization.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13206,
+      "forks": 1746,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "ccfos",
+        "avatar": "https://avatars.githubusercontent.com/u/2169271?s=40&amp;v=4",
+        "url": "https://github.com/ccfos"
+      },
+      "summary": "开源云原生监控告警平台，对标Grafana在可视化领域的地位，提供指标采集、告警规则、可视化大盘等一体化监控能力，Go语言开发，社区活跃。",
+      "tags": [
+        "monitoring",
+        "alerting",
+        "observability",
+        "devops",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:48:04.594Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 86747,
+      "forks": 10190,
+      "starsToday": 621,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "tags": [
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:48:03.156Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 964,
+      "forks": 189,
+      "starsToday": 81,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 核心系统，用 Go 构建的智能体基础设施，提供可扩展的 Agent 运行框架，今日新增 81 星，社区热度高。",
+      "tags": [
+        "agent",
+        "go",
+        "framework",
+        "infrastructure",
+        "ai"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:48:00.330Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "probo",
+      "fullName": "getprobo/probo",
+      "url": "https://github.com/getprobo/probo",
+      "description": "Open source solutions for SOC2, GDPR, and ISO27001",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1264,
+      "forks": 187,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "getprobo",
+        "avatar": "https://avatars.githubusercontent.com/u/4477761?s=40&amp;v=4",
+        "url": "https://github.com/getprobo"
+      },
+      "summary": "开源的合规自动化平台，帮助团队轻松通过SOC2、GDPR和ISO27001认证，用Go构建，支持持续监控与证据收集。",
+      "tags": [
+        "compliance",
+        "security",
+        "soc2",
+        "gdpr",
+        "iso27001",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:47:59.532Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "podman",
+      "fullName": "podman-container-tools/podman",
+      "url": "https://github.com/podman-container-tools/podman",
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32442,
+      "forks": 3266,
+      "starsToday": 80,
+      "topics": [],
+      "author": {
+        "name": "podman-container-tools",
+        "avatar": "https://avatars.githubusercontent.com/u/30189218?s=40&amp;v=4",
+        "url": "https://github.com/podman-container-tools"
+      },
+      "summary": "Podman 是无守护进程的 OCI 容器与 Pod 管理工具，兼容 Docker CLI，支持 rootless 运行、Pod 编排与 Kubernetes 兼容，是安全的容器管理方案。",
+      "tags": [
+        "containers",
+        "oci",
+        "devops",
+        "cli",
+        "kubernetes"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:48:01.404Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
