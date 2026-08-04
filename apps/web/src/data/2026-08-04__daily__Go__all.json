@@ -2,8 +2,8 @@
   "date": "2026-08-04",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-08-04T02:44:36.011Z",
-  "enrichedAt": "2026-08-04T02:46:03.661Z",
+  "fetchedAt": "2026-08-04T11:25:25.747Z",
+  "enrichedAt": "2026-08-04T11:26:18.902Z",
   "repos": [
     {
       "name": "DeepSeek-Reasonix",
@@ -12,8 +12,8 @@
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 30020,
-      "forks": 1929,
+      "stars": 30447,
+      "forks": 1964,
       "starsToday": 883,
       "topics": [],
       "author": {
@@ -31,6 +31,621 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-08-04T02:45:44.577Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 71973,
+      "forks": 19146,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby是Docker的开源容器引擎项目，提供构建容器化系统的核心组件，支持镜像构建、容器运行与编排，是容器生态的基石。",
+      "tags": [
+        "docker",
+        "container",
+        "go",
+        "runtime",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T11:26:12.496Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 124213,
+      "forks": 43746,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes是生产级容器编排与调度平台，提供自动化部署、弹性伸缩和服务管理，是云原生生态的核心基础设施。",
+      "tags": [
+        "kubernetes",
+        "container",
+        "orchestration",
+        "cloud-native",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T11:26:12.034Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 135579,
+      "forks": 19234,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 编程语言的官方仓库，包含编译器、标准库和工具链，以简洁高效的并发模型和快速编译著称，是云原生和基础设施领域的核心语言。",
+      "tags": [
+        "golang",
+        "compiler",
+        "language",
+        "toolchain",
+        "concurrency"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-08-04T11:26:12.814Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nuclei",
+      "fullName": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30273,
+      "forks": 3766,
+      "starsToday": 54,
+      "topics": [],
+      "author": {
+        "name": "projectdiscovery",
+        "avatar": "https://avatars.githubusercontent.com/u/13421144?s=40&amp;v=4",
+        "url": "https://github.com/projectdiscovery"
+      },
+      "summary": "基于YAML DSL的快速可定制漏洞扫描器，由全球安全社区驱动，支持应用、API、网络、DNS和云配置的漏洞检测。",
+      "tags": [
+        "security",
+        "scanner",
+        "yaml",
+        "pentest",
+        "go"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-04T11:26:12.675Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23833,
+      "forks": 7687,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "Argo CD 是 Kubernetes 的声明式持续交付工具，通过 GitOps 模式自动同步应用状态，支持多集群部署、回滚和策略管理，是云原生 CI/CD 的核心组件。",
+      "tags": [
+        "gitops",
+        "kubernetes",
+        "cd",
+        "declarative",
+        "argo"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T11:26:13.596Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-ethereum",
+      "fullName": "ethereum/go-ethereum",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "description": "Go implementation of the Ethereum protocol",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 51266,
+      "forks": 22087,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "ethereum",
+        "avatar": "https://avatars.githubusercontent.com/u/6264126?s=40&amp;v=4",
+        "url": "https://github.com/ethereum"
+      },
+      "summary": "以太坊官方Go语言实现，提供完整节点客户端、共识引擎、智能合约执行环境及核心协议支持，是生态最广泛使用的客户端之一。",
+      "tags": [
+        "ethereum",
+        "blockchain",
+        "golang",
+        "web3",
+        "node"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T11:26:13.940Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "viper",
+      "fullName": "spf13/viper",
+      "url": "https://github.com/spf13/viper",
+      "description": "Go configuration with fangs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30419,
+      "forks": 2278,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "spf13",
+        "avatar": "https://avatars.githubusercontent.com/u/1226384?s=40&amp;v=4",
+        "url": "https://github.com/spf13"
+      },
+      "summary": "Go 生态最流行的配置管理库，支持多格式（JSON/YAML/TOML等）、环境变量、远程配置与实时监听，功能全面易用。",
+      "tags": [
+        "go",
+        "config",
+        "library",
+        "viper"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-04T11:26:14.064Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43795,
+      "forks": 5546,
+      "starsToday": 415,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源托管智能体平台，将编码代理转化为真正的团队成员，支持任务分配、进度追踪和技能积累，基于Go构建。",
+      "tags": [
+        "agents",
+        "platform",
+        "go",
+        "ai",
+        "collaboration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-04T11:26:14.660Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37953,
+      "forks": 5780,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker官方容器编排工具，通过YAML文件定义并运行多容器应用，支持服务编排、网络与卷管理，是本地开发和CI/CD的标准方案。",
+      "tags": [
+        "docker",
+        "container",
+        "orchestration",
+        "devops",
+        "yaml"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T11:26:15.006Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SafeLine",
+      "fullName": "chaitin/SafeLine",
+      "url": "https://github.com/chaitin/SafeLine",
+      "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22254,
+      "forks": 1493,
+      "starsToday": 172,
+      "topics": [],
+      "author": {
+        "name": "chaitin",
+        "avatar": "https://avatars.githubusercontent.com/u/150229899?s=40&amp;v=4",
+        "url": "https://github.com/chaitin"
+      },
+      "summary": "SafeLine 是一款自托管的 Web 应用防火墙（WAF）兼反向代理，基于 Go 构建，可保护 Web 应用免受攻击和漏洞利用，支持社区免费使用。",
+      "tags": [
+        "waf",
+        "security",
+        "reverse-proxy",
+        "self-hosted",
+        "go"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-04T02:45:52.382Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25944,
+      "forks": 1743,
+      "starsToday": 108,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 为编码代理提供持久记忆升级，用 Go 实现，帮助 AI 代理跨会话记住上下文与决策，提升编码效率。",
+      "tags": [
+        "memory",
+        "coding-agent",
+        "ai",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T11:26:15.699Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "The open source control plane for agentic engineering.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4535,
+      "forks": 473,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的智能体工程控制平面，用Go构建，为agentic工程提供统一的管理、编排与治理能力，帮助团队规模化运行AI智能体工作流。",
+      "tags": [
+        "agent",
+        "control-plane",
+        "go",
+        "workflow",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T02:45:44.798Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37233,
+      "forks": 566,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是一款全面的开源安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、错误配置、密钥泄露及 SBOM，支持多平台集成。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "container",
+        "kubernetes",
+        "sbom"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-04T11:26:16.925Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dolt",
+      "fullName": "dolthub/dolt",
+      "url": "https://github.com/dolthub/dolt",
+      "description": "Dolt – Git for Data",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24056,
+      "forks": 844,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "dolthub",
+        "avatar": "https://avatars.githubusercontent.com/u/474773?s=40&amp;v=4",
+        "url": "https://github.com/dolthub"
+      },
+      "summary": "Dolt 是\"数据的Git\"，将Git版本控制能力引入数据库，支持分支、合并、回滚和协作，可像操作Git仓库一样管理SQL数据。",
+      "tags": [
+        "database",
+        "git",
+        "version-control",
+        "sql",
+        "data"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T11:26:16.124Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MasterDnsVPN",
+      "fullName": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6889,
+      "forks": 777,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "masterking32",
+        "avatar": "https://avatars.githubusercontent.com/u/1076030?s=40&amp;v=4",
+        "url": "https://github.com/masterking32"
+      },
+      "summary": "基于Go的高性能DNS隧道VPN，用于绕过网络审查。相比DNSTT和SlipStream优化了低开销ARQ、解析器负载均衡，具备高丢包稳定性和速度。",
+      "tags": [
+        "dns-tunnel",
+        "vpn",
+        "censorship-bypass",
+        "go",
+        "networking"
+      ],
+      "category": "Network",
+      "enrichedAt": "2026-08-04T11:26:17.064Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gortex",
+      "fullName": "zzet/gortex",
+      "url": "https://github.com/zzet/gortex",
+      "description": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/ysC2prTGD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1058,
+      "forks": 96,
+      "starsToday": 55,
+      "topics": [],
+      "author": {
+        "name": "zzet",
+        "avatar": "https://avatars.githubusercontent.com/u/510788?s=40&amp;v=4",
+        "url": "https://github.com/zzet"
+      },
+      "summary": "基于图的高性能代码智能引擎，支持257种语言和多仓库，通过CLI、MCP Server和API访问，为AI代理和IDE提供精准信息，可削减高达50倍token消耗，100%本地运行。",
+      "tags": [
+        "code-intelligence",
+        "mcp",
+        "ai-agent",
+        "graph",
+        "local",
+        "golang"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T11:26:17.114Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Fabric",
+      "fullName": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43316,
+      "forks": 4222,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "danielmiessler",
+        "avatar": "https://avatars.githubusercontent.com/u/50654?s=40&amp;v=4",
+        "url": "https://github.com/danielmiessler"
+      },
+      "summary": "开源的AI增强人类框架，提供模块化系统，通过众包AI提示词解决具体问题，可随处使用。",
+      "tags": [
+        "ai",
+        "prompts",
+        "framework",
+        "go",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-04T02:45:58.902Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "HAMi",
+      "fullName": "Project-HAMi/HAMi",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4178,
+      "forks": 710,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "Project-HAMi",
+        "avatar": "https://avatars.githubusercontent.com/u/58680927?s=40&amp;v=4",
+        "url": "https://github.com/Project-HAMi"
+      },
+      "summary": "Kubernetes上的异构GPU共享调度方案，支持多厂商GPU资源切分与复用，提升集群GPU利用率和调度灵活性。",
+      "tags": [
+        "kubernetes",
+        "gpu-sharing",
+        "scheduler",
+        "heterogeneous",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-04T11:26:17.480Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 82247,
+      "forks": 2837,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "summary": "命令行模糊查找器，交互式快速筛选文件、命令历史等，支持多种数据源与快捷键绑定，极速响应，是终端效率利器。",
+      "tags": [
+        "fuzzy-finder",
+        "cli",
+        "terminal",
+        "go",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-04T11:26:18.325Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cobra",
+      "fullName": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 44386,
+      "forks": 3195,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "spf13",
+        "avatar": "https://avatars.githubusercontent.com/u/8093535?s=40&amp;v=4",
+        "url": "https://github.com/spf13"
+      },
+      "summary": "Go 语言最流行的 CLI 框架，提供命令、子命令、标志解析和自动补全等能力，是构建现代命令行工具的核心库。",
+      "tags": [
+        "go",
+        "cli",
+        "framework",
+        "command-line"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-04T11:26:18.295Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-stack",
+      "fullName": "github/gh-stack",
+      "url": "https://github.com/github/gh-stack",
+      "description": "GitHub Stacked PRs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1018,
+      "forks": 42,
+      "starsToday": 63,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/1701557?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "用Go编写的GitHub堆叠式PR管理工具，支持将多个依赖PR分层提交，简化大型代码变更的审查与合并流程。",
+      "tags": [
+        "github",
+        "pr",
+        "stacked-pr",
+        "cli",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T02:45:49.671Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "syncthing",
+      "fullName": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "description": "Open Source Continuous File Synchronization",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 87254,
+      "forks": 5393,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "syncthing",
+        "avatar": "https://avatars.githubusercontent.com/u/125426?s=40&amp;v=4",
+        "url": "https://github.com/syncthing"
+      },
+      "summary": "开源持续文件同步工具，支持多设备间实时双向同步，去中心化、安全加密，无需中央服务器，跨平台运行。",
+      "tags": [
+        "file-sync",
+        "p2p",
+        "go",
+        "privacy",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-04T11:26:18.902Z",
       "deepwikiAvailable": false
     },
     {
@@ -59,34 +674,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-08-04T02:45:44.583Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "superplane",
-      "fullName": "superplanehq/superplane",
-      "url": "https://github.com/superplanehq/superplane",
-      "description": "The open source control plane for agentic engineering.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4445,
-      "forks": 469,
-      "starsToday": 9,
-      "topics": [],
-      "author": {
-        "name": "superplanehq",
-        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
-        "url": "https://github.com/superplanehq"
-      },
-      "summary": "开源的智能体工程控制平面，用Go构建，为agentic工程提供统一的管理、编排与治理能力，帮助团队规模化运行AI智能体工作流。",
-      "tags": [
-        "agent",
-        "control-plane",
-        "go",
-        "workflow",
-        "orchestration"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-04T02:45:44.798Z",
       "deepwikiAvailable": false
     },
     {
@@ -202,34 +789,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gh-stack",
-      "fullName": "github/gh-stack",
-      "url": "https://github.com/github/gh-stack",
-      "description": "GitHub Stacked PRs",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 999,
-      "forks": 42,
-      "starsToday": 63,
-      "topics": [],
-      "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/u/1701557?s=40&amp;v=4",
-        "url": "https://github.com/github"
-      },
-      "summary": "用Go编写的GitHub堆叠式PR管理工具，支持将多个依赖PR分层提交，简化大型代码变更的审查与合并流程。",
-      "tags": [
-        "github",
-        "pr",
-        "stacked-pr",
-        "cli",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-04T02:45:49.671Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "authelia",
       "fullName": "authelia/authelia",
       "url": "https://github.com/authelia/authelia",
@@ -311,34 +870,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-08-04T02:45:53.102Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "SafeLine",
-      "fullName": "chaitin/SafeLine",
-      "url": "https://github.com/chaitin/SafeLine",
-      "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 22240,
-      "forks": 1493,
-      "starsToday": 172,
-      "topics": [],
-      "author": {
-        "name": "chaitin",
-        "avatar": "https://avatars.githubusercontent.com/u/150229899?s=40&amp;v=4",
-        "url": "https://github.com/chaitin"
-      },
-      "summary": "SafeLine 是一款自托管的 Web 应用防火墙（WAF）兼反向代理，基于 Go 构建，可保护 Web 应用免受攻击和漏洞利用，支持社区免费使用。",
-      "tags": [
-        "waf",
-        "security",
-        "reverse-proxy",
-        "self-hosted",
-        "go"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-08-04T02:45:52.382Z",
       "deepwikiAvailable": false
     },
     {
@@ -526,34 +1057,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-08-04T02:46:00.051Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Fabric",
-      "fullName": "danielmiessler/Fabric",
-      "url": "https://github.com/danielmiessler/Fabric",
-      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 43315,
-      "forks": 4222,
-      "starsToday": 23,
-      "topics": [],
-      "author": {
-        "name": "danielmiessler",
-        "avatar": "https://avatars.githubusercontent.com/u/50654?s=40&amp;v=4",
-        "url": "https://github.com/danielmiessler"
-      },
-      "summary": "开源的AI增强人类框架，提供模块化系统，通过众包AI提示词解决具体问题，可随处使用。",
-      "tags": [
-        "ai",
-        "prompts",
-        "framework",
-        "go",
-        "cli"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-08-04T02:45:58.902Z",
       "deepwikiAvailable": false
     },
     {
