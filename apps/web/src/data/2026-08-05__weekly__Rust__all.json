@@ -2,8 +2,8 @@
   "date": "2026-08-05",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-08-05T02:42:17.719Z",
-  "enrichedAt": "2026-08-05T02:44:24.466Z",
+  "fetchedAt": "2026-08-05T11:22:30.709Z",
+  "enrichedAt": "2026-08-05T11:23:50.553Z",
   "repos": [
     {
       "name": "buzz",
@@ -12,8 +12,8 @@
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 22585,
-      "forks": 2526,
+      "stars": 22774,
+      "forks": 2562,
       "starsToday": 7262,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "The most RAM efficient harness",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 15905,
-      "forks": 1753,
+      "stars": 15984,
+      "forks": 1761,
       "starsToday": 3294,
       "topics": [],
       "author": {
@@ -68,7 +68,7 @@
       "description": "A cat(1) clone with wings.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 60091,
+      "stars": 60100,
       "forks": 1619,
       "starsToday": 213,
       "topics": [],
@@ -90,31 +90,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "name": "vaultwarden",
+      "fullName": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30645,
-      "forks": 1357,
-      "starsToday": 321,
+      "stars": 64973,
+      "forks": 3086,
+      "starsToday": 479,
       "topics": [],
       "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
+        "name": "dani-garcia",
+        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
+        "url": "https://github.com/dani-garcia"
       },
-      "summary": "Rust 编写的高性能 S3 兼容对象存储系统，4KB 小对象性能比 MinIO 快 2.3 倍，支持与 MinIO、Ceph 等平台迁移共存。",
+      "summary": "用Rust编写的非官方Bitwarden兼容密码管理服务器，轻量高效，支持自托管，功能完整可替代官方服务。",
       "tags": [
-        "object-storage",
-        "s3-compatible",
         "rust",
-        "high-performance",
-        "storage"
+        "password-manager",
+        "self-hosted",
+        "bitwarden",
+        "server"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-05T02:44:17.765Z",
+      "category": "App",
+      "enrichedAt": "2026-08-05T02:44:19.276Z",
       "deepwikiAvailable": false
     },
     {
@@ -124,8 +124,8 @@
       "description": "a code review TUI with vim keybindings",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2383,
-      "forks": 184,
+      "stars": 2398,
+      "forks": 187,
       "starsToday": 1187,
       "topics": [],
       "author": {
@@ -152,8 +152,8 @@
       "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 66992,
-      "forks": 2699,
+      "stars": 67015,
+      "forks": 2700,
       "starsToday": 397,
       "topics": [],
       "author": {
@@ -174,31 +174,396 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "vaultwarden",
-      "fullName": "dani-garcia/vaultwarden",
-      "url": "https://github.com/dani-garcia/vaultwarden",
-      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "name": "SpacetimeDB",
+      "fullName": "clockworklabs/SpacetimeDB",
+      "url": "https://github.com/clockworklabs/SpacetimeDB",
+      "description": "Development at the speed of light",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 64951,
-      "forks": 3084,
-      "starsToday": 479,
+      "stars": 24973,
+      "forks": 1035,
+      "starsToday": 149,
       "topics": [],
       "author": {
-        "name": "dani-garcia",
-        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
-        "url": "https://github.com/dani-garcia"
+        "name": "clockworklabs",
+        "avatar": "https://avatars.githubusercontent.com/u/196249?s=40&amp;v=4",
+        "url": "https://github.com/clockworklabs"
       },
-      "summary": "用Rust编写的非官方Bitwarden兼容密码管理服务器，轻量高效，支持自托管，功能完整可替代官方服务。",
+      "summary": "基于Rust的实时数据库与服务器引擎，将数据库逻辑直接编译为模块，实现客户端直连数据库，大幅简化后端开发，支持多语言SDK。",
       "tags": [
+        "database",
+        "realtime",
         "rust",
-        "password-manager",
+        "backend",
+        "serverless"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-05T02:44:20.923Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 104078,
+      "forks": 15722,
+      "starsToday": 1874,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 开源的轻量级终端编码代理，基于 Rust 构建，可在命令行中直接执行编码任务，支持自然语言驱动的代码生成与修改。",
+      "tags": [
+        "coding-agent",
+        "cli",
+        "openai",
+        "rust",
+        "ai"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-05T02:44:20.887Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "komodo",
+      "fullName": "moghtech/komodo",
+      "url": "https://github.com/moghtech/komodo",
+      "description": "🦎 a tool to build and deploy software on many servers 🦎",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11827,
+      "forks": 372,
+      "starsToday": 97,
+      "topics": [],
+      "author": {
+        "name": "moghtech",
+        "avatar": "https://avatars.githubusercontent.com/u/49575486?s=40&amp;v=4",
+        "url": "https://github.com/moghtech"
+      },
+      "summary": "基于Rust的多服务器构建与部署工具，支持在众多服务器上统一管理软件部署流程，提供高效可靠的DevOps能力。",
+      "tags": [
+        "deployment",
+        "devops",
+        "rust",
+        "server",
+        "ci-cd"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-05T11:23:48.762Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119649,
+      "forks": 18280,
+      "starsToday": 553,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源自托管远程桌面工具，TeamViewer替代方案，支持跨平台，端到端加密，可自建服务器，Rust编写性能优异。",
+      "tags": [
+        "remote-desktop",
         "self-hosted",
-        "bitwarden",
-        "server"
+        "rust",
+        "cross-platform",
+        "teamviewer-alternative"
       ],
       "category": "App",
-      "enrichedAt": "2026-08-05T02:44:19.276Z",
+      "enrichedAt": "2026-08-05T02:44:22.773Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "egui",
+      "fullName": "emilk/egui",
+      "url": "https://github.com/emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 29973,
+      "forks": 2095,
+      "starsToday": 110,
+      "topics": [],
+      "author": {
+        "name": "emilk",
+        "avatar": "https://avatars.githubusercontent.com/u/1148717?s=40&amp;v=4",
+        "url": "https://github.com/emilk"
+      },
+      "summary": "egui 是 Rust 生态中流行的即时模式 GUI 库，API 简单易用，可同时运行于 Web 和原生平台，适合快速构建工具和交互界面。",
+      "tags": [
+        "rust",
+        "gui",
+        "immediate-mode",
+        "cross-platform",
+        "web"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-05T11:23:48.720Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gleam",
+      "fullName": "gleam-lang/gleam",
+      "url": "https://github.com/gleam-lang/gleam",
+      "description": "⭐️ A friendly language for building type-safe, scalable systems!",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 21713,
+      "forks": 999,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "gleam-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/6134406?s=40&amp;v=4",
+        "url": "https://github.com/gleam-lang"
+      },
+      "summary": "Gleam 是一门友好、类型安全的编程语言，基于 BEAM 虚拟机，编译为 Erlang 字节码，用于构建可扩展的并发系统，语法简洁、生态活跃。",
+      "tags": [
+        "gleam",
+        "language",
+        "beam",
+        "functional",
+        "typesafe"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-08-05T11:23:48.679Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust-sdk",
+      "fullName": "modelcontextprotocol/rust-sdk",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "description": "The official Rust SDK for the Model Context Protocol",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3757,
+      "forks": 582,
+      "starsToday": 77,
+      "topics": [],
+      "author": {
+        "name": "modelcontextprotocol",
+        "avatar": "https://avatars.githubusercontent.com/u/5466341?s=40&amp;v=4",
+        "url": "https://github.com/modelcontextprotocol"
+      },
+      "summary": "MCP官方Rust SDK，提供模型上下文协议的完整实现，支持客户端与服务端开发，帮助Rust开发者轻松构建AI工具集成。",
+      "tags": [
+        "mcp",
+        "rust",
+        "sdk",
+        "ai",
+        "protocol"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-05T02:44:24.466Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wasmtime",
+      "fullName": "bytecodealliance/wasmtime",
+      "url": "https://github.com/bytecodealliance/wasmtime",
+      "description": "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18479,
+      "forks": 1786,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "bytecodealliance",
+        "avatar": "https://avatars.githubusercontent.com/u/64996?s=40&amp;v=4",
+        "url": "https://github.com/bytecodealliance"
+      },
+      "summary": "高性能、安全且符合标准的轻量级WebAssembly运行时，基于Rust实现，支持WASI和多种平台，适合嵌入式与云端场景。",
+      "tags": [
+        "wasm",
+        "runtime",
+        "rust",
+        "wasi",
+        "security"
+      ],
+      "category": "Runtime",
+      "enrichedAt": "2026-08-05T11:23:48.783Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30668,
+      "forks": 1358,
+      "starsToday": 321,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "Rust 编写的高性能 S3 兼容对象存储系统，4KB 小对象性能比 MinIO 快 2.3 倍，支持与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "object-storage",
+        "s3-compatible",
+        "rust",
+        "high-performance",
+        "storage"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-05T02:44:17.765Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tokio",
+      "fullName": "tokio-rs/tokio",
+      "url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32815,
+      "forks": 3182,
+      "starsToday": 118,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "Rust 异步运行时，提供 I/O、网络、调度、定时器等能力，用于构建可靠的高性能异步应用，生态核心基础设施。",
+      "tags": [
+        "async",
+        "rust",
+        "runtime",
+        "networking",
+        "io"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-05T11:23:50.222Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 28744,
+      "forks": 2520,
+      "starsToday": 955,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "免费开源的离线语音转文字应用，基于Rust构建，完全本地运行保护隐私，支持扩展，无需联网即可实现高质量语音识别。",
+      "tags": [
+        "speech-to-text",
+        "offline",
+        "rust",
+        "privacy",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-05T11:23:50.348Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freenet-core",
+      "fullName": "freenet/freenet-core",
+      "url": "https://github.com/freenet/freenet-core",
+      "description": "Declare your digital independence",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3031,
+      "forks": 181,
+      "starsToday": 68,
+      "topics": [],
+      "author": {
+        "name": "freenet",
+        "avatar": "https://avatars.githubusercontent.com/u/23075?s=40&amp;v=4",
+        "url": "https://github.com/freenet"
+      },
+      "summary": "用Rust重写的Freenet核心，去中心化点对点网络协议，让用户掌控自己的数据与数字身份，实现真正的数字独立。",
+      "tags": [
+        "p2p",
+        "decentralized",
+        "privacy",
+        "rust",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-05T11:23:50.553Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "foundry",
+      "fullName": "foundry-rs/foundry",
+      "url": "https://github.com/foundry-rs/foundry",
+      "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10542,
+      "forks": 2593,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "foundry-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/19890894?s=40&amp;v=4",
+        "url": "https://github.com/foundry-rs"
+      },
+      "summary": "Foundry 是 Rust 编写的高性能以太坊开发工具包，提供快速、可移植、模块化的智能合约开发、测试与部署能力。",
+      "tags": [
+        "ethereum",
+        "smart-contracts",
+        "rust",
+        "devtool",
+        "blockchain"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-05T02:44:22.624Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "stalwart",
+      "fullName": "stalwartlabs/stalwart",
+      "url": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 14025,
+      "forks": 865,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "stalwartlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
+        "url": "https://github.com/stalwartlabs"
+      },
+      "summary": "用Rust编写的全功能邮件与协作服务器，支持IMAP、JMAP、SMTP、CalDAV、CardDAV和WebDAV等所有协议，安全可扩展，一站式部署。",
+      "tags": [
+        "mail-server",
+        "rust",
+        "collaboration",
+        "imap",
+        "jmap",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-05T02:44:22.999Z",
       "deepwikiAvailable": false
     },
     {
@@ -227,62 +592,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-08-05T02:44:19.319Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "codex",
-      "fullName": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 103966,
-      "forks": 15699,
-      "starsToday": 1874,
-      "topics": [],
-      "author": {
-        "name": "openai",
-        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
-        "url": "https://github.com/openai"
-      },
-      "summary": "OpenAI 开源的轻量级终端编码代理，基于 Rust 构建，可在命令行中直接执行编码任务，支持自然语言驱动的代码生成与修改。",
-      "tags": [
-        "coding-agent",
-        "cli",
-        "openai",
-        "rust",
-        "ai"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-08-05T02:44:20.887Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "SpacetimeDB",
-      "fullName": "clockworklabs/SpacetimeDB",
-      "url": "https://github.com/clockworklabs/SpacetimeDB",
-      "description": "Development at the speed of light",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 24973,
-      "forks": 1034,
-      "starsToday": 149,
-      "topics": [],
-      "author": {
-        "name": "clockworklabs",
-        "avatar": "https://avatars.githubusercontent.com/u/196249?s=40&amp;v=4",
-        "url": "https://github.com/clockworklabs"
-      },
-      "summary": "基于Rust的实时数据库与服务器引擎，将数据库逻辑直接编译为模块，实现客户端直连数据库，大幅简化后端开发，支持多语言SDK。",
-      "tags": [
-        "database",
-        "realtime",
-        "rust",
-        "backend",
-        "serverless"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-05T02:44:20.923Z",
       "deepwikiAvailable": false
     },
     {
@@ -339,91 +648,6 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-08-05T02:44:21.069Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 119618,
-      "forks": 18275,
-      "starsToday": 553,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源自托管远程桌面工具，TeamViewer替代方案，支持跨平台，端到端加密，可自建服务器，Rust编写性能优异。",
-      "tags": [
-        "remote-desktop",
-        "self-hosted",
-        "rust",
-        "cross-platform",
-        "teamviewer-alternative"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-08-05T02:44:22.773Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "foundry",
-      "fullName": "foundry-rs/foundry",
-      "url": "https://github.com/foundry-rs/foundry",
-      "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 10542,
-      "forks": 2592,
-      "starsToday": 21,
-      "topics": [],
-      "author": {
-        "name": "foundry-rs",
-        "avatar": "https://avatars.githubusercontent.com/u/19890894?s=40&amp;v=4",
-        "url": "https://github.com/foundry-rs"
-      },
-      "summary": "Foundry 是 Rust 编写的高性能以太坊开发工具包，提供快速、可移植、模块化的智能合约开发、测试与部署能力。",
-      "tags": [
-        "ethereum",
-        "smart-contracts",
-        "rust",
-        "devtool",
-        "blockchain"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-05T02:44:22.624Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "stalwart",
-      "fullName": "stalwartlabs/stalwart",
-      "url": "https://github.com/stalwartlabs/stalwart",
-      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 14018,
-      "forks": 865,
-      "starsToday": 142,
-      "topics": [],
-      "author": {
-        "name": "stalwartlabs",
-        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
-        "url": "https://github.com/stalwartlabs"
-      },
-      "summary": "用Rust编写的全功能邮件与协作服务器，支持IMAP、JMAP、SMTP、CalDAV、CardDAV和WebDAV等所有协议，安全可扩展，一站式部署。",
-      "tags": [
-        "mail-server",
-        "rust",
-        "collaboration",
-        "imap",
-        "jmap",
-        "self-hosted"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-05T02:44:22.999Z",
       "deepwikiAvailable": false
     },
     {
@@ -508,34 +732,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-08-05T02:44:24.396Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rust-sdk",
-      "fullName": "modelcontextprotocol/rust-sdk",
-      "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "description": "The official Rust SDK for the Model Context Protocol",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3755,
-      "forks": 579,
-      "starsToday": 77,
-      "topics": [],
-      "author": {
-        "name": "modelcontextprotocol",
-        "avatar": "https://avatars.githubusercontent.com/u/5466341?s=40&amp;v=4",
-        "url": "https://github.com/modelcontextprotocol"
-      },
-      "summary": "MCP官方Rust SDK，提供模型上下文协议的完整实现，支持客户端与服务端开发，帮助Rust开发者轻松构建AI工具集成。",
-      "tags": [
-        "mcp",
-        "rust",
-        "sdk",
-        "ai",
-        "protocol"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-08-05T02:44:24.466Z",
       "deepwikiAvailable": false
     }
   ]
