@@ -2,8 +2,8 @@
   "date": "2026-08-06",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-08-06T02:45:04.498Z",
-  "enrichedAt": "2026-08-06T02:46:03.250Z",
+  "fetchedAt": "2026-08-06T11:24:52.197Z",
+  "enrichedAt": "2026-08-06T11:25:49.577Z",
   "repos": [
     {
       "name": "pdf-inspector",
@@ -12,8 +12,8 @@
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 11545,
-      "forks": 779,
+      "stars": 11976,
+      "forks": 802,
       "starsToday": 1582,
       "topics": [],
       "author": {
@@ -34,13 +34,350 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "mise",
+      "fullName": "jdx/mise",
+      "url": "https://github.com/jdx/mise",
+      "description": "dev tools, env vars, task runner",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31821,
+      "forks": 1319,
+      "starsToday": 264,
+      "topics": [],
+      "author": {
+        "name": "jdx",
+        "avatar": "https://avatars.githubusercontent.com/u/216188?s=40&amp;v=4",
+        "url": "https://github.com/jdx"
+      },
+      "summary": "mise 是一个用 Rust 编写的开发工具管理器，集成了版本管理、环境变量配置和任务运行器，可替代 asdf、direnv 和 make 等工具，统一开发环境工作流。",
+      "tags": [
+        "devtools",
+        "env",
+        "task-runner",
+        "rust",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T11:25:46.457Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "warpgate",
+      "fullName": "warp-tech/warpgate",
+      "url": "https://github.com/warp-tech/warpgate",
+      "description": "Fully transparent SSH, HTTPS, Kubernetes, MySQL and Postgres bastion/PAM that doesn't need additional client-side software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7461,
+      "forks": 328,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "warp-tech",
+        "avatar": "https://avatars.githubusercontent.com/u/161476?s=40&amp;v=4",
+        "url": "https://github.com/warp-tech"
+      },
+      "summary": "基于 Rust 的透明堡垒机/PAM 网关，支持 SSH、HTTPS、Kubernetes、MySQL 和 Postgres，无需客户端额外软件即可接入。",
+      "tags": [
+        "bastion",
+        "ssh",
+        "pam",
+        "rust",
+        "gateway",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T11:25:46.007Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rio",
+      "fullName": "raphamorim/rio",
+      "url": "https://github.com/raphamorim/rio",
+      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7220,
+      "forks": 317,
+      "starsToday": 81,
+      "topics": [],
+      "author": {
+        "name": "raphamorim",
+        "avatar": "https://avatars.githubusercontent.com/u/3630346?s=40&amp;v=4",
+        "url": "https://github.com/raphamorim"
+      },
+      "summary": "基于Rust的GPU硬件加速终端模拟器，支持桌面端和浏览器运行，提供高性能渲染体验。",
+      "tags": [
+        "terminal",
+        "gpu",
+        "rust",
+        "web",
+        "emulator"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T11:25:46.168Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FalkorDB",
+      "fullName": "FalkorDB/FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5363,
+      "forks": 419,
+      "starsToday": 82,
+      "topics": [],
+      "author": {
+        "name": "FalkorDB",
+        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
+        "url": "https://github.com/FalkorDB"
+      },
+      "summary": "基于GraphBLAS稀疏矩阵的超快图数据库，专为LLM知识图谱和GraphRAG场景优化，Rust实现，性能卓越。",
+      "tags": [
+        "graph-database",
+        "graphrag",
+        "knowledge-graph",
+        "rust",
+        "llm"
+      ],
+      "category": "Database",
+      "enrichedAt": "2026-08-06T02:45:59.175Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119742,
+      "forks": 18303,
+      "starsToday": 92,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自托管，可作为TeamViewer替代品，基于Rust开发，跨平台，注重隐私与数据安全。",
+      "tags": [
+        "remote-desktop",
+        "self-hosted",
+        "rust",
+        "cross-platform",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-06T11:25:46.306Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hyperswitch",
+      "fullName": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 43404,
+      "forks": 5005,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "juspay",
+        "avatar": "https://avatars.githubusercontent.com/in/411175?s=40&amp;v=4",
+        "url": "https://github.com/juspay"
+      },
+      "summary": "开源可组合支付平台，PCI合规，支持SaaS与自托管，连接多家支付、欺诈、代币化服务商，提供智能路由、成本观测与对账功能，提升授权率并降低支付成本。",
+      "tags": [
+        "payments",
+        "fintech",
+        "rust",
+        "open-source",
+        "routing"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:46:02.069Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "plano",
+      "fullName": "katanemo/plano",
+      "url": "https://github.com/katanemo/plano",
+      "description": "Plano is an AI-native proxy server and data plane for agentic apps. Smart LLM routing, observability, agent orchestration, and guardrails so you stay focused on your agents core logic.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6974,
+      "forks": 483,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "katanemo",
+        "avatar": "https://avatars.githubusercontent.com/u/13196462?s=40&amp;v=4",
+        "url": "https://github.com/katanemo"
+      },
+      "summary": "AI原生代理服务器与数据平面，为智能体应用提供智能LLM路由、可观测性、代理编排和安全护栏，让开发者专注核心逻辑。",
+      "tags": [
+        "llm-routing",
+        "proxy",
+        "agent-orchestration",
+        "observability",
+        "rust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:45:58.916Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zola",
+      "fullName": "getzola/zola",
+      "url": "https://github.com/getzola/zola",
+      "description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17296,
+      "forks": 1170,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "getzola",
+        "avatar": "https://avatars.githubusercontent.com/u/680355?s=40&amp;v=4",
+        "url": "https://github.com/getzola"
+      },
+      "summary": "Zola 是一个用 Rust 编写的极速静态站点生成器，单二进制内置全部功能，无需依赖即可快速构建网站。",
+      "tags": [
+        "static-site",
+        "rust",
+        "ssg",
+        "blog",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T11:25:47.587Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BitFun",
+      "fullName": "GCWing/BitFun",
+      "url": "https://github.com/GCWing/BitFun",
+      "description": "BitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1476,
+      "forks": 170,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "GCWing",
+        "avatar": "https://avatars.githubusercontent.com/u/84692569?s=40&amp;v=4",
+        "url": "https://github.com/GCWing"
+      },
+      "summary": "BitFun 用 Rust 构建高性能智能体运行时，搭配精致桌面应用，兼具代码智能体深度与通用工作能力，适用于软件开发之外的多种场景。",
+      "tags": [
+        "rust",
+        "agent",
+        "desktop",
+        "ai",
+        "code-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-06T11:25:47.759Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zed",
+      "fullName": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 88126,
+      "forks": 9889,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "zed-industries",
+        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
+        "url": "https://github.com/zed-industries"
+      },
+      "summary": "Zed 是一款由 Atom 和 Tree-sitter 团队打造的高性能多人协作代码编辑器，基于 Rust 构建，主打极速响应与实时协作体验。",
+      "tags": [
+        "editor",
+        "rust",
+        "collaboration",
+        "performance",
+        "ide"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:46:01.675Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rayhunter",
+      "fullName": "EFForg/rayhunter",
+      "url": "https://github.com/EFForg/rayhunter",
+      "description": "Rust tool to detect cell site simulators on an orbic mobile hotspot",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5440,
+      "forks": 449,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "EFForg",
+        "avatar": "https://avatars.githubusercontent.com/u/626277?s=40&amp;v=4",
+        "url": "https://github.com/EFForg"
+      },
+      "summary": "EFF开源Rust工具，用于在Orbic移动热点设备上检测基站模拟器（IMSI捕捉器），帮助用户识别伪基站攻击，保护通信安全。",
+      "tags": [
+        "security",
+        "privacy",
+        "rust",
+        "detection",
+        "mobile"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-06T11:25:48.011Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 74978,
+      "forks": 4720,
+      "starsToday": 162,
+      "topics": [],
+      "author": {
+        "name": "rtk-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
+        "url": "https://github.com/rtk-ai"
+      },
+      "summary": "Rust 编写的 CLI 代理，可将常见开发命令的 LLM token 消耗降低 60-90%。单一二进制文件，零依赖，轻量高效。",
+      "tags": [
+        "llm",
+        "cli",
+        "proxy",
+        "rust",
+        "token-saving"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T11:25:48.174Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "dockpanel",
       "fullName": "ovexro/dockpanel",
       "url": "https://github.com/ovexro/dockpanel",
       "description": "Modern server management panel built with Rust and React. Sites, databases, Docker apps, Git deploy, mail, DNS, monitoring, backups, and security — all in one panel.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 864,
+      "stars": 868,
       "forks": 134,
       "starsToday": 28,
       "topics": [],
@@ -59,6 +396,90 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-08-06T02:45:57.213Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lean-ctx",
+      "fullName": "yvgude/lean-ctx",
+      "url": "https://github.com/yvgude/lean-ctx",
+      "description": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3522,
+      "forks": 318,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "yvgude",
+        "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&amp;v=4",
+        "url": "https://github.com/yvgude"
+      },
+      "summary": "LeanCTX 是面向 AI 代理的上下文智能层，一个本地 Rust 二进制文件，控制 AI 读取内容、记忆学习、守护访问并证明保存，可减少 60-90% token 消耗，支持 76 个 MCP 工具和 30+ 代理。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "context",
+        "mcp",
+        "local-first"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-06T02:46:00.300Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nub",
+      "fullName": "nubjs/nub",
+      "url": "https://github.com/nubjs/nub",
+      "description": "The fast all-in-one Node.js toolkit",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3869,
+      "forks": 55,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "nubjs",
+        "avatar": "https://avatars.githubusercontent.com/u/3084745?s=40&amp;v=4",
+        "url": "https://github.com/nubjs"
+      },
+      "summary": "基于 Rust 打造的全能 Node.js 工具链，以极速性能为核心，整合包管理、运行与构建等能力，一站式替代传统 Node 开发工具。",
+      "tags": [
+        "nodejs",
+        "toolkit",
+        "rust",
+        "cli",
+        "devtools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T11:25:49.299Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tree-sitter",
+      "fullName": "tree-sitter/tree-sitter",
+      "url": "https://github.com/tree-sitter/tree-sitter",
+      "description": "An incremental parsing system for programming tools",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 26559,
+      "forks": 2799,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "tree-sitter",
+        "avatar": "https://avatars.githubusercontent.com/u/326587?s=40&amp;v=4",
+        "url": "https://github.com/tree-sitter"
+      },
+      "summary": "增量解析系统，为编程工具提供快速、健壮的语法解析能力，支持多种语言，广泛用于编辑器与代码分析工具。",
+      "tags": [
+        "parser",
+        "incremental",
+        "syntax",
+        "rust",
+        "editor"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-06T11:25:49.577Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,90 +595,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "FalkorDB",
-      "fullName": "FalkorDB/FalkorDB",
-      "url": "https://github.com/FalkorDB/FalkorDB",
-      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5349,
-      "forks": 419,
-      "starsToday": 82,
-      "topics": [],
-      "author": {
-        "name": "FalkorDB",
-        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
-        "url": "https://github.com/FalkorDB"
-      },
-      "summary": "基于GraphBLAS稀疏矩阵的超快图数据库，专为LLM知识图谱和GraphRAG场景优化，Rust实现，性能卓越。",
-      "tags": [
-        "graph-database",
-        "graphrag",
-        "knowledge-graph",
-        "rust",
-        "llm"
-      ],
-      "category": "Database",
-      "enrichedAt": "2026-08-06T02:45:59.175Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "plano",
-      "fullName": "katanemo/plano",
-      "url": "https://github.com/katanemo/plano",
-      "description": "Plano is an AI-native proxy server and data plane for agentic apps. Smart LLM routing, observability, agent orchestration, and guardrails so you stay focused on your agents core logic.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6973,
-      "forks": 483,
-      "starsToday": 20,
-      "topics": [],
-      "author": {
-        "name": "katanemo",
-        "avatar": "https://avatars.githubusercontent.com/u/13196462?s=40&amp;v=4",
-        "url": "https://github.com/katanemo"
-      },
-      "summary": "AI原生代理服务器与数据平面，为智能体应用提供智能LLM路由、可观测性、代理编排和安全护栏，让开发者专注核心逻辑。",
-      "tags": [
-        "llm-routing",
-        "proxy",
-        "agent-orchestration",
-        "observability",
-        "rust"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-06T02:45:58.916Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "lean-ctx",
-      "fullName": "yvgude/lean-ctx",
-      "url": "https://github.com/yvgude/lean-ctx",
-      "description": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3514,
-      "forks": 315,
-      "starsToday": 20,
-      "topics": [],
-      "author": {
-        "name": "yvgude",
-        "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&amp;v=4",
-        "url": "https://github.com/yvgude"
-      },
-      "summary": "LeanCTX 是面向 AI 代理的上下文智能层，一个本地 Rust 二进制文件，控制 AI 读取内容、记忆学习、守护访问并证明保存，可减少 60-90% token 消耗，支持 76 个 MCP 工具和 30+ 代理。",
-      "tags": [
-        "rust",
-        "ai-agents",
-        "context",
-        "mcp",
-        "local-first"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-08-06T02:46:00.300Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "rust",
       "fullName": "rust-lang/rust",
       "url": "https://github.com/rust-lang/rust",
@@ -342,34 +679,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "zed",
-      "fullName": "zed-industries/zed",
-      "url": "https://github.com/zed-industries/zed",
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 88094,
-      "forks": 9883,
-      "starsToday": 72,
-      "topics": [],
-      "author": {
-        "name": "zed-industries",
-        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
-        "url": "https://github.com/zed-industries"
-      },
-      "summary": "Zed 是一款由 Atom 和 Tree-sitter 团队打造的高性能多人协作代码编辑器，基于 Rust 构建，主打极速响应与实时协作体验。",
-      "tags": [
-        "editor",
-        "rust",
-        "collaboration",
-        "performance",
-        "ide"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-06T02:46:01.675Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "codex",
       "fullName": "openai/codex",
       "url": "https://github.com/openai/codex",
@@ -395,34 +704,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-08-06T02:46:01.711Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hyperswitch",
-      "fullName": "juspay/hyperswitch",
-      "url": "https://github.com/juspay/hyperswitch",
-      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 43403,
-      "forks": 5006,
-      "starsToday": 24,
-      "topics": [],
-      "author": {
-        "name": "juspay",
-        "avatar": "https://avatars.githubusercontent.com/in/411175?s=40&amp;v=4",
-        "url": "https://github.com/juspay"
-      },
-      "summary": "开源可组合支付平台，PCI合规，支持SaaS与自托管，连接多家支付、欺诈、代币化服务商，提供智能路由、成本观测与对账功能，提升授权率并降低支付成本。",
-      "tags": [
-        "payments",
-        "fintech",
-        "rust",
-        "open-source",
-        "routing"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-06T02:46:02.069Z",
       "deepwikiAvailable": false
     },
     {

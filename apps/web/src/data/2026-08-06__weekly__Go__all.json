@@ -2,8 +2,8 @@
   "date": "2026-08-06",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-08-06T02:45:04.498Z",
-  "enrichedAt": "2026-08-06T02:46:42.020Z",
+  "fetchedAt": "2026-08-06T11:24:52.197Z",
+  "enrichedAt": "2026-08-06T11:26:08.793Z",
   "repos": [
     {
       "name": "DeepSeek-Reasonix",
@@ -12,8 +12,8 @@
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 31727,
-      "forks": 2037,
+      "stars": 32055,
+      "forks": 2070,
       "starsToday": 3408,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 19191,
-      "forks": 1317,
+      "stars": 19293,
+      "forks": 1326,
       "starsToday": 3293,
       "topics": [],
       "author": {
@@ -62,69 +62,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "LocalAI",
-      "fullName": "mudler/LocalAI",
-      "url": "https://github.com/mudler/LocalAI",
-      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 48269,
-      "forks": 4348,
-      "starsToday": 292,
-      "topics": [],
-      "author": {
-        "name": "mudler",
-        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
-        "url": "https://github.com/mudler"
-      },
-      "summary": "开源AI推理引擎，无需GPU即可在任意硬件上运行LLM、视觉、语音、图像和视频模型，兼容OpenAI API，支持本地私有化部署。",
-      "tags": [
-        "llm",
-        "inference",
-        "self-hosted",
-        "openai-compatible",
-        "ai"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-08-06T02:46:34.195Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "traefik",
-      "fullName": "traefik/traefik",
-      "url": "https://github.com/traefik/traefik",
-      "description": "The Cloud Native Application Proxy",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 64298,
-      "forks": 6122,
-      "starsToday": 142,
-      "topics": [],
-      "author": {
-        "name": "traefik",
-        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
-        "url": "https://github.com/traefik"
-      },
-      "summary": "Traefik 是云原生应用代理，支持动态配置、自动服务发现、多种后端协议与中间件，让部署和路由管理更简单高效。",
-      "tags": [
-        "proxy",
-        "kubernetes",
-        "reverse-proxy",
-        "cloud-native",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-06T02:46:34.200Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "gluetun",
       "fullName": "passteque/gluetun",
       "url": "https://github.com/passteque/gluetun",
       "description": "VPN client in a thin Docker container for multiple VPN providers, written in Go, and using OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 15096,
+      "stars": 15097,
       "forks": 604,
       "starsToday": 98,
       "topics": [],
@@ -146,14 +90,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "traefik",
+      "fullName": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 64306,
+      "forks": 6122,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "traefik",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/traefik"
+      },
+      "summary": "Traefik 是云原生应用代理，支持动态配置、自动服务发现、多种后端协议与中间件，让部署和路由管理更简单高效。",
+      "tags": [
+        "proxy",
+        "kubernetes",
+        "reverse-proxy",
+        "cloud-native",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:46:34.200Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 48280,
+      "forks": 4349,
+      "starsToday": 292,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "开源AI推理引擎，无需GPU即可在任意硬件上运行LLM、视觉、语音、图像和视频模型，兼容OpenAI API，支持本地私有化部署。",
+      "tags": [
+        "llm",
+        "inference",
+        "self-hosted",
+        "openai-compatible",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-06T02:46:34.195Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "gh-stack",
       "fullName": "github/gh-stack",
       "url": "https://github.com/github/gh-stack",
       "description": "GitHub Stacked PRs",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 1096,
-      "forks": 45,
+      "stars": 1112,
+      "forks": 47,
       "starsToday": 515,
       "topics": [],
       "author": {
@@ -174,42 +174,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 982,
-      "forks": 201,
-      "starsToday": 86,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "Agent Substrate 核心系统，基于 Go 构建的 AI 智能体基础设施，提供可扩展的代理运行框架，今日增长强劲。",
-      "tags": [
-        "agent",
-        "ai",
-        "go",
-        "infrastructure",
-        "framework"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-08-06T02:46:35.648Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ntfy",
       "fullName": "binwiederhier/ntfy",
       "url": "https://github.com/binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 33090,
-      "forks": 1513,
+      "stars": 33124,
+      "forks": 1519,
       "starsToday": 724,
       "topics": [],
       "author": {
@@ -230,13 +202,404 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 44410,
+      "forks": 5638,
+      "starsToday": 1764,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源托管式AI智能体平台，将编码代理转化为真正的团队成员，支持任务分配、进度追踪与技能沉淀，基于Go构建。",
+      "tags": [
+        "agents",
+        "platform",
+        "go",
+        "automation",
+        "devtools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-06T02:46:38.369Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 82392,
+      "forks": 2849,
+      "starsToday": 354,
+      "topics": [],
+      "author": {
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "summary": "命令行模糊查找神器，支持交互式搜索文件、进程、Git提交等，可嵌入Vim/Shell，极速响应，高度可定制，开发者效率利器。",
+      "tags": [
+        "fuzzy-finder",
+        "cli",
+        "tui",
+        "go",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-06T02:46:37.309Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45693,
+      "forks": 8826,
+      "starsToday": 201,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub官方命令行工具，支持PR、Issue、Release等全流程操作，将GitHub工作流带入终端，极大提升开发者效率。",
+      "tags": [
+        "github",
+        "cli",
+        "developer-tools",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-06T02:46:38.873Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "The open source control plane for agentic engineering.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4733,
+      "forks": 508,
+      "starsToday": 335,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的智能体工程控制平面，用Go构建，帮助团队编排、管理和监控AI智能体工作流，提供统一治理与可观测性。",
+      "tags": [
+        "agentic",
+        "control-plane",
+        "go",
+        "orchestration",
+        "observability"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:46:40.499Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evilginx2",
+      "fullName": "kgretzky/evilginx2",
+      "url": "https://github.com/kgretzky/evilginx2",
+      "description": "Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15435,
+      "forks": 2691,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "kgretzky",
+        "avatar": "https://avatars.githubusercontent.com/u/19260967?s=40&amp;v=4",
+        "url": "https://github.com/kgretzky"
+      },
+      "summary": "独立中间人攻击框架，用于钓鱼窃取登录凭据和会话Cookie，可绕过双因素认证，常用于红队渗透测试与安全意识培训。",
+      "tags": [
+        "phishing",
+        "security",
+        "mitm",
+        "redteam",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-06T02:46:38.858Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26073,
+      "forks": 1750,
+      "starsToday": 325,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 为编码代理提供持久化记忆升级，用 Go 构建，帮助 AI 编程助手跨会话记住上下文与决策，提升编码效率。",
+      "tags": [
+        "memory",
+        "coding-agent",
+        "ai",
+        "go",
+        "context"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-06T02:46:40.571Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bettercap",
+      "fullName": "bettercap/bettercap",
+      "url": "https://github.com/bettercap/bettercap",
+      "description": "The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19735,
+      "forks": 1701,
+      "starsToday": 191,
+      "topics": [],
+      "author": {
+        "name": "bettercap",
+        "avatar": "https://avatars.githubusercontent.com/u/86922?s=40&amp;v=4",
+        "url": "https://github.com/bettercap"
+      },
+      "summary": "功能强大的网络侦察与中间人攻击框架，支持802.11、蓝牙、HID、CAN总线及IPv4/IPv6，模块化插件架构，适合渗透测试与安全研究。",
+      "tags": [
+        "networking",
+        "security",
+        "pentesting",
+        "mitm",
+        "wifi"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-06T11:26:08.793Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SafeLine",
+      "fullName": "chaitin/SafeLine",
+      "url": "https://github.com/chaitin/SafeLine",
+      "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22294,
+      "forks": 1499,
+      "starsToday": 280,
+      "topics": [],
+      "author": {
+        "name": "chaitin",
+        "avatar": "https://avatars.githubusercontent.com/u/150229899?s=40&amp;v=4",
+        "url": "https://github.com/chaitin"
+      },
+      "summary": "SafeLine 是一款自托管的 Web 应用防火墙（WAF）兼反向代理，基于 Go 构建，可保护 Web 应用免受攻击和漏洞利用，支持社区部署。",
+      "tags": [
+        "waf",
+        "security",
+        "reverse-proxy",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-06T02:46:38.834Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "phoneinfoga",
+      "fullName": "sundowndev/phoneinfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17364,
+      "forks": 5365,
+      "starsToday": 162,
+      "topics": [],
+      "author": {
+        "name": "sundowndev",
+        "avatar": "https://avatars.githubusercontent.com/u/16480203?s=40&amp;v=4",
+        "url": "https://github.com/sundowndev"
+      },
+      "summary": "用Go编写的电话号码信息收集框架，支持多国号码格式、多种扫描器与自定义模块，可追踪号码归属地、运营商等情报，适合OSINT调查。",
+      "tags": [
+        "osint",
+        "phone",
+        "go",
+        "recon",
+        "security"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-06T02:46:40.048Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 985,
+      "forks": 203,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 核心系统，基于 Go 构建的 AI 智能体基础设施，提供可扩展的代理运行框架，今日增长强劲。",
+      "tags": [
+        "agent",
+        "ai",
+        "go",
+        "infrastructure",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-06T02:46:35.648Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 177906,
+      "forks": 17281,
+      "starsToday": 741,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行大模型的开源工具，支持Kimi、GLM、DeepSeek、Qwen、Gemma等主流模型，极简安装与命令行操作，广受开发者欢迎。",
+      "tags": [
+        "llm",
+        "go",
+        "local-ai",
+        "inference",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T11:26:08.716Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "qui",
+      "fullName": "autobrr/qui",
+      "url": "https://github.com/autobrr/qui",
+      "description": "A fast, single-binary qBittorrent web UI: manage multiple instances, automate torrent workflows, and cross-seed across trackers.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4313,
+      "forks": 144,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "autobrr",
+        "avatar": "https://avatars.githubusercontent.com/u/18177310?s=40&amp;v=4",
+        "url": "https://github.com/autobrr"
+      },
+      "summary": "基于Go的高性能单二进制qBittorrent Web界面，支持多实例管理、自动化种子工作流及跨站做种，提升BT管理效率。",
+      "tags": [
+        "qbittorrent",
+        "torrent",
+        "web-ui",
+        "go",
+        "automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-06T02:46:42.020Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "filebrowser",
+      "fullName": "gtsteffaniak/filebrowser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7682,
+      "forks": 402,
+      "starsToday": 123,
+      "topics": [],
+      "author": {
+        "name": "gtsteffaniak",
+        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
+        "url": "https://github.com/gtsteffaniak"
+      },
+      "summary": "Go 编写的网页文件管理器，提供简洁美观的界面，支持文件上传下载、在线预览编辑、用户权限管理，可快速部署到任意服务器。",
+      "tags": [
+        "file-manager",
+        "web",
+        "go",
+        "self-hosted",
+        "browser"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-06T02:46:37.445Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubescape",
+      "fullName": "kubescape/kubescape",
+      "url": "https://github.com/kubescape/kubescape",
+      "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11568,
+      "forks": 989,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "kubescape",
+        "avatar": "https://avatars.githubusercontent.com/u/20683409?s=40&amp;v=4",
+        "url": "https://github.com/kubescape"
+      },
+      "summary": "开源的Kubernetes安全平台，覆盖IDE、CI/CD和集群，提供风险分析、安全、合规及错误配置扫描，帮助K8s用户节省时间和资源。",
+      "tags": [
+        "kubernetes",
+        "security",
+        "compliance",
+        "scanning",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T11:26:08.586Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "caddy",
       "fullName": "caddyserver/caddy",
       "url": "https://github.com/caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 74689,
+      "stars": 74705,
       "forks": 4865,
       "starsToday": 251,
       "topics": [],
@@ -257,31 +620,32 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "fzf",
-      "fullName": "junegunn/fzf",
-      "url": "https://github.com/junegunn/fzf",
-      "description": "🌸 A command-line fuzzy finder",
+      "name": "witr",
+      "fullName": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 82377,
-      "forks": 2846,
-      "starsToday": 354,
+      "stars": 19130,
+      "forks": 615,
+      "starsToday": 784,
       "topics": [],
       "author": {
-        "name": "junegunn",
-        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
-        "url": "https://github.com/junegunn"
+        "name": "pranshuparmar",
+        "avatar": "https://avatars.githubusercontent.com/u/4262592?s=40&amp;v=4",
+        "url": "https://github.com/pranshuparmar"
       },
-      "summary": "命令行模糊查找神器，支持交互式搜索文件、进程、Git提交等，可嵌入Vim/Shell，极速响应，高度可定制，开发者效率利器。",
+      "summary": "进程溯源工具，可追踪任意进程、端口、容器或文件的启动来源，提供CLI和TUI界面，用Go编写，帮助排查系统运行原因。",
       "tags": [
-        "fuzzy-finder",
+        "process-tracing",
         "cli",
         "tui",
         "go",
-        "productivity"
+        "devops",
+        "forensics"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-08-06T02:46:37.309Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T11:26:08.575Z",
       "deepwikiAvailable": false
     },
     {
@@ -313,173 +677,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "filebrowser",
-      "fullName": "gtsteffaniak/filebrowser",
-      "url": "https://github.com/gtsteffaniak/filebrowser",
-      "description": "📂 Web File Browser",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7677,
-      "forks": 402,
-      "starsToday": 123,
-      "topics": [],
-      "author": {
-        "name": "gtsteffaniak",
-        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
-        "url": "https://github.com/gtsteffaniak"
-      },
-      "summary": "Go 编写的网页文件管理器，提供简洁美观的界面，支持文件上传下载、在线预览编辑、用户权限管理，可快速部署到任意服务器。",
-      "tags": [
-        "file-manager",
-        "web",
-        "go",
-        "self-hosted",
-        "browser"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-08-06T02:46:37.445Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "multica",
-      "fullName": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 44296,
-      "forks": 5619,
-      "starsToday": 1764,
-      "topics": [],
-      "author": {
-        "name": "multica-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/multica-ai"
-      },
-      "summary": "开源托管式AI智能体平台，将编码代理转化为真正的团队成员，支持任务分配、进度追踪与技能沉淀，基于Go构建。",
-      "tags": [
-        "agents",
-        "platform",
-        "go",
-        "automation",
-        "devtools"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-08-06T02:46:38.369Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "SafeLine",
-      "fullName": "chaitin/SafeLine",
-      "url": "https://github.com/chaitin/SafeLine",
-      "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 22286,
-      "forks": 1499,
-      "starsToday": 280,
-      "topics": [],
-      "author": {
-        "name": "chaitin",
-        "avatar": "https://avatars.githubusercontent.com/u/150229899?s=40&amp;v=4",
-        "url": "https://github.com/chaitin"
-      },
-      "summary": "SafeLine 是一款自托管的 Web 应用防火墙（WAF）兼反向代理，基于 Go 构建，可保护 Web 应用免受攻击和漏洞利用，支持社区部署。",
-      "tags": [
-        "waf",
-        "security",
-        "reverse-proxy",
-        "go",
-        "self-hosted"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-08-06T02:46:38.834Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "evilginx2",
-      "fullName": "kgretzky/evilginx2",
-      "url": "https://github.com/kgretzky/evilginx2",
-      "description": "Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 15431,
-      "forks": 2691,
-      "starsToday": 49,
-      "topics": [],
-      "author": {
-        "name": "kgretzky",
-        "avatar": "https://avatars.githubusercontent.com/u/19260967?s=40&amp;v=4",
-        "url": "https://github.com/kgretzky"
-      },
-      "summary": "独立中间人攻击框架，用于钓鱼窃取登录凭据和会话Cookie，可绕过双因素认证，常用于红队渗透测试与安全意识培训。",
-      "tags": [
-        "phishing",
-        "security",
-        "mitm",
-        "redteam",
-        "pentest"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-08-06T02:46:38.858Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "cli/cli",
-      "url": "https://github.com/cli/cli",
-      "description": "GitHub’s official command line tool",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 45684,
-      "forks": 8823,
-      "starsToday": 201,
-      "topics": [],
-      "author": {
-        "name": "cli",
-        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
-        "url": "https://github.com/cli"
-      },
-      "summary": "GitHub官方命令行工具，支持PR、Issue、Release等全流程操作，将GitHub工作流带入终端，极大提升开发者效率。",
-      "tags": [
-        "github",
-        "cli",
-        "developer-tools",
-        "go"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-08-06T02:46:38.873Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "phoneinfoga",
-      "fullName": "sundowndev/phoneinfoga",
-      "url": "https://github.com/sundowndev/phoneinfoga",
-      "description": "Information gathering framework for phone numbers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 17354,
-      "forks": 5352,
-      "starsToday": 162,
-      "topics": [],
-      "author": {
-        "name": "sundowndev",
-        "avatar": "https://avatars.githubusercontent.com/u/16480203?s=40&amp;v=4",
-        "url": "https://github.com/sundowndev"
-      },
-      "summary": "用Go编写的电话号码信息收集框架，支持多国号码格式、多种扫描器与自定义模块，可追踪号码归属地、运营商等情报，适合OSINT调查。",
-      "tags": [
-        "osint",
-        "phone",
-        "go",
-        "recon",
-        "security"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-08-06T02:46:40.048Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "trivy",
       "fullName": "aquasecurity/trivy",
       "url": "https://github.com/aquasecurity/trivy",
@@ -506,62 +703,6 @@
       ],
       "category": "Security",
       "enrichedAt": "2026-08-06T02:46:40.325Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "superplane",
-      "fullName": "superplanehq/superplane",
-      "url": "https://github.com/superplanehq/superplane",
-      "description": "The open source control plane for agentic engineering.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4689,
-      "forks": 502,
-      "starsToday": 335,
-      "topics": [],
-      "author": {
-        "name": "superplanehq",
-        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
-        "url": "https://github.com/superplanehq"
-      },
-      "summary": "开源的智能体工程控制平面，用Go构建，帮助团队编排、管理和监控AI智能体工作流，提供统一治理与可观测性。",
-      "tags": [
-        "agentic",
-        "control-plane",
-        "go",
-        "orchestration",
-        "observability"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-06T02:46:40.499Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "beads",
-      "fullName": "gastownhall/beads",
-      "url": "https://github.com/gastownhall/beads",
-      "description": "Beads - A memory upgrade for your coding agent",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 26057,
-      "forks": 1750,
-      "starsToday": 325,
-      "topics": [],
-      "author": {
-        "name": "gastownhall",
-        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
-        "url": "https://github.com/gastownhall"
-      },
-      "summary": "Beads 为编码代理提供持久化记忆升级，用 Go 构建，帮助 AI 编程助手跨会话记住上下文与决策，提升编码效率。",
-      "tags": [
-        "memory",
-        "coding-agent",
-        "ai",
-        "go",
-        "context"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-08-06T02:46:40.571Z",
       "deepwikiAvailable": false
     },
     {
@@ -618,34 +759,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-08-06T02:46:41.687Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "qui",
-      "fullName": "autobrr/qui",
-      "url": "https://github.com/autobrr/qui",
-      "description": "A fast, single-binary qBittorrent web UI: manage multiple instances, automate torrent workflows, and cross-seed across trackers.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4311,
-      "forks": 144,
-      "starsToday": 47,
-      "topics": [],
-      "author": {
-        "name": "autobrr",
-        "avatar": "https://avatars.githubusercontent.com/u/18177310?s=40&amp;v=4",
-        "url": "https://github.com/autobrr"
-      },
-      "summary": "基于Go的高性能单二进制qBittorrent Web界面，支持多实例管理、自动化种子工作流及跨站做种，提升BT管理效率。",
-      "tags": [
-        "qbittorrent",
-        "torrent",
-        "web-ui",
-        "go",
-        "automation"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-08-06T02:46:42.020Z",
       "deepwikiAvailable": false
     }
   ]
