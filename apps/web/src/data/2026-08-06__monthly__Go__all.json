@@ -1,0 +1,653 @@
+{
+  "date": "2026-08-06",
+  "since": "monthly",
+  "language": "Go",
+  "fetchedAt": "2026-08-06T02:45:04.498Z",
+  "enrichedAt": "2026-08-06T02:47:39.043Z",
+  "repos": [
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23850,
+      "forks": 7692,
+      "starsToday": 680,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "Argo CD 是 Kubernetes 的声明式持续交付工具，通过 GitOps 模式实现应用自动同步部署，提供可视化界面、多集群管理和回滚能力，是云原生领域最流行的 CD 方案之一。",
+      "tags": [
+        "gitops",
+        "kubernetes",
+        "cd",
+        "declarative",
+        "argo"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:47:31.156Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34851,
+      "forks": 3028,
+      "starsToday": 1876,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于WireGuard的零配置组网工具，支持2FA认证，跨平台安全连接设备，构建私有加密网络，简单易用且安全可靠。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "security",
+        "zero-config"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:47:31.129Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19191,
+      "forks": 1317,
+      "starsToday": 9236,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里巴巴开源的代码审查工具，采用确定性流水线加LLM Agent混合架构，提供精准行级评论，内置多语言规则集（NPE、线程安全、XSS、SQL注入），兼容OpenAI与Anthropic。",
+      "tags": [
+        "code-review",
+        "llm-agent",
+        "go",
+        "static-analysis",
+        "alibaba"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:47:31.131Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "typescript-go",
+      "fullName": "microsoft/typescript-go",
+      "url": "https://github.com/microsoft/typescript-go",
+      "description": "Staging repo for development of native port of TypeScript",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26146,
+      "forks": 1115,
+      "starsToday": 416,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/5341706?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软官方用Go语言原生重写TypeScript编译器，目标大幅提升编译性能，当前为开发暂存仓库，社区关注度极高。",
+      "tags": [
+        "typescript",
+        "compiler",
+        "golang",
+        "microsoft",
+        "performance"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:47:31.168Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18993,
+      "forks": 1884,
+      "starsToday": 446,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google 开源的容器应用内核，用 Go 实现用户态内核，为容器提供强隔离的 syscall 拦截与安全沙箱，显著增强容器安全边界。",
+      "tags": [
+        "container",
+        "sandbox",
+        "kernel",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:47:32.598Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45684,
+      "forks": 8823,
+      "starsToday": 643,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub官方命令行工具，支持PR、Issue、Release等全流程操作，可在终端直接管理仓库，极大提升开发效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-06T02:47:32.638Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21651,
+      "forks": 2850,
+      "starsToday": 3613,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI代理渗透测试系统，可自动执行复杂安全测试任务，支持多代理协作与智能决策。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "automation",
+        "go"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-06T02:47:32.733Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pocket-id",
+      "fullName": "pocket-id/pocket-id",
+      "url": "https://github.com/pocket-id/pocket-id",
+      "description": "The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8711,
+      "forks": 284,
+      "starsToday": 474,
+      "topics": [],
+      "author": {
+        "name": "pocket-id",
+        "avatar": "https://avatars.githubusercontent.com/u/58886915?s=40&amp;v=4",
+        "url": "https://github.com/pocket-id"
+      },
+      "summary": "最易用的 OpenID Connect 认证和 OAuth 2.0 提供商，支持用户通过通行密钥（passkeys）登录应用，已获官方认证。",
+      "tags": [
+        "oidc",
+        "oauth2",
+        "passkeys",
+        "authentication",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:47:32.651Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pocketbase",
+      "fullName": "pocketbase/pocketbase",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "description": "Open Source realtime backend in 1 file",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 60484,
+      "forks": 3625,
+      "starsToday": 1144,
+      "topics": [],
+      "author": {
+        "name": "pocketbase",
+        "avatar": "https://avatars.githubusercontent.com/u/8248071?s=40&amp;v=4",
+        "url": "https://github.com/pocketbase"
+      },
+      "summary": "单文件开源实时后端，内置数据库、认证、文件存储和REST API，可嵌入Go应用或独立运行，部署极简。",
+      "tags": [
+        "backend",
+        "realtime",
+        "go",
+        "database",
+        "api"
+      ],
+      "category": "Backend",
+      "enrichedAt": "2026-08-06T02:47:34.181Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22287,
+      "forks": 806,
+      "starsToday": 4095,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "一款用Go编写的现代化终端文件管理器，界面精美时尚，支持多标签、预览等丰富功能，操作流畅体验出色。",
+      "tags": [
+        "file-manager",
+        "terminal",
+        "go",
+        "tui",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-06T02:47:34.195Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nuclei",
+      "fullName": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30323,
+      "forks": 3780,
+      "starsToday": 1002,
+      "topics": [],
+      "author": {
+        "name": "projectdiscovery",
+        "avatar": "https://avatars.githubusercontent.com/u/13421144?s=40&amp;v=4",
+        "url": "https://github.com/projectdiscovery"
+      },
+      "summary": "Nuclei 是一款基于 YAML DSL 的快速可定制漏洞扫描器，由全球安全社区驱动，支持应用、API、网络、DNS 和云配置的漏洞检测。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "yaml",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-06T02:47:34.124Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "croc",
+      "fullName": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 39384,
+      "forks": 1561,
+      "starsToday": 4044,
+      "topics": [],
+      "author": {
+        "name": "schollz",
+        "avatar": "https://avatars.githubusercontent.com/u/6550035?s=40&amp;v=4",
+        "url": "https://github.com/schollz"
+      },
+      "summary": "croc 是一款用 Go 编写的命令行工具，可在两台电脑之间轻松安全地传输文件和数据，支持端到端加密与中继穿透，无需配置即可快速使用。",
+      "tags": [
+        "file-transfer",
+        "cli",
+        "encryption",
+        "go",
+        "p2p"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-06T02:47:34.406Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 65598,
+      "forks": 10739,
+      "starsToday": 1014,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 是业界领先的开源监控系统和时序数据库，提供强大的指标采集、告警和可视化能力，是云原生监控的事实标准。",
+      "tags": [
+        "monitoring",
+        "time-series",
+        "metrics",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:47:35.647Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform",
+      "fullName": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49415,
+      "forks": 10601,
+      "starsToday": 961,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/35067?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "Terraform 是 HashiCorp 出品的开源基础设施即代码工具，通过声明式配置文件安全、可预测地创建和管理云基础设施，支持团队协作与版本化。",
+      "tags": [
+        "iac",
+        "infrastructure",
+        "terraform",
+        "cloud",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:47:35.696Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 135645,
+      "forks": 19245,
+      "starsToday": 1385,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 编程语言的官方仓库，包含编译器、标准库和工具链。作为高性能静态类型语言，以简洁语法和强大并发模型著称，是云原生和基础设施领域的核心语言。",
+      "tags": [
+        "golang",
+        "compiler",
+        "language",
+        "concurrency",
+        "toolchain"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-08-06T02:47:35.756Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "phoneinfoga",
+      "fullName": "sundowndev/phoneinfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17354,
+      "forks": 5352,
+      "starsToday": 593,
+      "topics": [],
+      "author": {
+        "name": "sundowndev",
+        "avatar": "https://avatars.githubusercontent.com/u/16480203?s=40&amp;v=4",
+        "url": "https://github.com/sundowndev"
+      },
+      "summary": "基于Go编写的电话号码信息收集框架，支持多种扫描器与自定义模块，用于OSINT侦察、追踪和调查电话号码相关信息。",
+      "tags": [
+        "osint",
+        "phone",
+        "recon",
+        "go",
+        "security"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-06T02:47:35.876Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58965,
+      "forks": 5289,
+      "starsToday": 863,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "云存储同步命令行工具，支持Google Drive、S3、Dropbox等40多种云服务，功能类似rsync，可复制、同步、挂载和加密云端文件。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "cli",
+        "go",
+        "rsync"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-06T02:47:37.362Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72006,
+      "forks": 19156,
+      "starsToday": 349,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby是Docker的开源容器引擎项目，提供构建、运行和编排容器化系统的核心工具链，是容器生态的基础设施。",
+      "tags": [
+        "docker",
+        "container",
+        "go",
+        "runtime",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:47:37.270Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helm",
+      "fullName": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30108,
+      "forks": 7743,
+      "starsToday": 184,
+      "topics": [],
+      "author": {
+        "name": "helm",
+        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
+        "url": "https://github.com/helm"
+      },
+      "summary": "Kubernetes 官方包管理器，用于定义、安装和升级复杂的 K8s 应用，通过 Helm Charts 简化部署流程，是云原生生态的核心工具。",
+      "tags": [
+        "kubernetes",
+        "package-manager",
+        "charts",
+        "devops",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:47:37.389Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "frp",
+      "fullName": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 108581,
+      "forks": 15164,
+      "starsToday": 951,
+      "topics": [],
+      "author": {
+        "name": "fatedier",
+        "avatar": "https://avatars.githubusercontent.com/u/7346661?s=40&amp;v=4",
+        "url": "https://github.com/fatedier"
+      },
+      "summary": "高性能反向代理工具，帮助将NAT或防火墙后的本地服务器安全暴露到公网，支持多种协议和丰富的配置，是内网穿透领域的标杆项目。",
+      "tags": [
+        "reverse-proxy",
+        "nat-traversal",
+        "tunnel",
+        "golang",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:47:37.667Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zitadel",
+      "fullName": "zitadel/zitadel",
+      "url": "https://github.com/zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for you.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14652,
+      "forks": 1212,
+      "starsToday": 379,
+      "topics": [],
+      "author": {
+        "name": "zitadel",
+        "avatar": "https://avatars.githubusercontent.com/u/9405495?s=40&amp;v=4",
+        "url": "https://github.com/zitadel"
+      },
+      "summary": "ZITADEL 是一个开源身份认证与授权基础设施，提供单点登录、多租户、OIDC/SAML 支持，简化企业级身份管理。",
+      "tags": [
+        "identity",
+        "authentication",
+        "oauth",
+        "sso",
+        "go",
+        "iam"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-06T02:47:39.042Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5432,
+      "forks": 846,
+      "starsToday": 784,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用Go编写的Google Maps数据抓取工具，可提取地点名称、地址、电话、网站、评分、评论、经纬度及邮箱等详细信息，支持批量采集。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "golang",
+        "data-extraction",
+        "web-scraping"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:47:38.873Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "no-mistakes",
+      "fullName": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7420,
+      "forks": 691,
+      "starsToday": 2249,
+      "topics": [],
+      "author": {
+        "name": "kunchenguid",
+        "avatar": "https://avatars.githubusercontent.com/u/3233006?s=40&amp;v=4",
+        "url": "https://github.com/kunchenguid"
+      },
+      "summary": "Git push 前自动检查代码质量与潜在错误的 Go 工具，防止误提交，提升开发效率。",
+      "tags": [
+        "git",
+        "quality",
+        "golang",
+        "cli",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-06T02:47:38.844Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
