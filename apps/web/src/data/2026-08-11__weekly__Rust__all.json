@@ -1,0 +1,540 @@
+{
+  "date": "2026-08-11",
+  "since": "weekly",
+  "language": "Rust",
+  "fetchedAt": "2026-08-11T01:54:03.772Z",
+  "enrichedAt": "2026-08-11T01:55:50.481Z",
+  "repos": [
+    {
+      "name": "pdf-inspector",
+      "fullName": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 14393,
+      "forks": 988,
+      "starsToday": 7143,
+      "topics": [],
+      "author": {
+        "name": "firecrawl",
+        "avatar": "https://avatars.githubusercontent.com/u/1450169?s=40&amp;v=4",
+        "url": "https://github.com/firecrawl"
+      },
+      "summary": "基于Rust的高性能PDF检查库，支持分类与文本提取，智能识别扫描件与文本型PDF，帮助做出智能路由决策。",
+      "tags": [
+        "pdf",
+        "rust",
+        "text-extraction",
+        "classification"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-11T01:55:42.612Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mise",
+      "fullName": "jdx/mise",
+      "url": "https://github.com/jdx/mise",
+      "description": "dev tools, env vars, task runner",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32253,
+      "forks": 1344,
+      "starsToday": 779,
+      "topics": [],
+      "author": {
+        "name": "jdx",
+        "avatar": "https://avatars.githubusercontent.com/u/216188?s=40&amp;v=4",
+        "url": "https://github.com/jdx"
+      },
+      "summary": "Rust 编写的开发工具管理器，统一管理多语言版本、环境变量和任务运行，替代 asdf 等工具，支持 .mise.toml 配置，功能强大且活跃。",
+      "tags": [
+        "devtools",
+        "env-manager",
+        "task-runner",
+        "rust",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-11T01:55:42.782Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rio",
+      "fullName": "raphamorim/rio",
+      "url": "https://github.com/raphamorim/rio",
+      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7308,
+      "forks": 325,
+      "starsToday": 184,
+      "topics": [],
+      "author": {
+        "name": "raphamorim",
+        "avatar": "https://avatars.githubusercontent.com/u/3630346?s=40&amp;v=4",
+        "url": "https://github.com/raphamorim"
+      },
+      "summary": "基于Rust的GPU硬件加速终端模拟器，可在桌面端和浏览器中运行，主打高性能渲染与跨平台体验。",
+      "tags": [
+        "terminal",
+        "gpu",
+        "rust",
+        "web",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-11T01:55:42.679Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FalkorDB",
+      "fullName": "FalkorDB/FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5486,
+      "forks": 426,
+      "starsToday": 418,
+      "topics": [],
+      "author": {
+        "name": "FalkorDB",
+        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
+        "url": "https://github.com/FalkorDB"
+      },
+      "summary": "基于GraphBLAS稀疏矩阵的超快图数据库，专为LLM知识图谱与GraphRAG场景优化，性能卓越。",
+      "tags": [
+        "graph-database",
+        "graphrag",
+        "llm",
+        "graphblas",
+        "rust"
+      ],
+      "category": "Database",
+      "enrichedAt": "2026-08-11T01:55:42.705Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust-sdk",
+      "fullName": "modelcontextprotocol/rust-sdk",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "description": "The official Rust SDK for the Model Context Protocol",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3784,
+      "forks": 599,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "modelcontextprotocol",
+        "avatar": "https://avatars.githubusercontent.com/u/5466341?s=40&amp;v=4",
+        "url": "https://github.com/modelcontextprotocol"
+      },
+      "summary": "Model Context Protocol 官方 Rust SDK，为 Rust 开发者提供构建 MCP 服务器和客户端的完整工具链，支持异步、类型安全和协议规范实现。",
+      "tags": [
+        "rust",
+        "mcp",
+        "sdk",
+        "ai",
+        "protocol"
+      ],
+      "category": "SDK",
+      "enrichedAt": "2026-08-11T01:55:44.637Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "warpgate",
+      "fullName": "warp-tech/warpgate",
+      "url": "https://github.com/warp-tech/warpgate",
+      "description": "Fully transparent SSH, HTTPS, Kubernetes, MySQL and Postgres bastion/PAM that doesn't need additional client-side software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7544,
+      "forks": 335,
+      "starsToday": 96,
+      "topics": [],
+      "author": {
+        "name": "warp-tech",
+        "avatar": "https://avatars.githubusercontent.com/u/161476?s=40&amp;v=4",
+        "url": "https://github.com/warp-tech"
+      },
+      "summary": "基于 Rust 的透明堡垒机/PAM 网关，支持 SSH、HTTPS、Kubernetes、MySQL 和 Postgres，无需客户端额外安装软件即可接入。",
+      "tags": [
+        "bastion",
+        "ssh",
+        "rust",
+        "pam",
+        "gateway"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-11T01:55:44.569Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tokio",
+      "fullName": "tokio-rs/tokio",
+      "url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32893,
+      "forks": 3195,
+      "starsToday": 144,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "Rust 异步运行时，提供 I/O、网络、调度和定时器等组件，用于构建可靠的高性能异步应用，是 Rust 生态最核心的异步基础设施。",
+      "tags": [
+        "rust",
+        "async",
+        "runtime",
+        "networking",
+        "io"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-11T01:55:44.616Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zed",
+      "fullName": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 88390,
+      "forks": 9976,
+      "starsToday": 492,
+      "topics": [],
+      "author": {
+        "name": "zed-industries",
+        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
+        "url": "https://github.com/zed-industries"
+      },
+      "summary": "Zed 是一款由 Atom 和 Tree-sitter 作者打造的高性能多人协作代码编辑器，基于 Rust 开发，主打极速响应与实时协作体验。",
+      "tags": [
+        "editor",
+        "rust",
+        "collaboration",
+        "performance",
+        "gui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-11T01:55:44.738Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "servo",
+      "fullName": "servo/servo",
+      "url": "https://github.com/servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37669,
+      "forks": 3745,
+      "starsToday": 96,
+      "topics": [],
+      "author": {
+        "name": "servo",
+        "avatar": "https://avatars.githubusercontent.com/u/1323194?s=40&amp;v=4",
+        "url": "https://github.com/servo"
+      },
+      "summary": "Servo 是 Mozilla 发起的开源浏览器引擎，用 Rust 编写，主打轻量高性能，可嵌入应用实现 Web 技术渲染，支持并行与安全的内存模型。",
+      "tags": [
+        "browser-engine",
+        "rust",
+        "web",
+        "rendering",
+        "embedding"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-11T01:55:46.591Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "risingwave",
+      "fullName": "risingwavelabs/risingwave",
+      "url": "https://github.com/risingwavelabs/risingwave",
+      "description": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9244,
+      "forks": 811,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "risingwavelabs",
+        "avatar": "https://avatars.githubusercontent.com/in/10562?s=40&amp;v=4",
+        "url": "https://github.com/risingwavelabs"
+      },
+      "summary": "基于Rust构建的实时事件流平台，面向智能体AI场景，支持大规模持续采集、转换和实时服务事件流。",
+      "tags": [
+        "streaming",
+        "rust",
+        "realtime",
+        "ai",
+        "data-platform"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-11T01:55:46.621Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "devenv",
+      "fullName": "cachix/devenv",
+      "url": "https://github.com/cachix/devenv",
+      "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7249,
+      "forks": 536,
+      "starsToday": 46,
+      "topics": [],
+      "author": {
+        "name": "cachix",
+        "avatar": "https://avatars.githubusercontent.com/u/126339?s=40&amp;v=4",
+        "url": "https://github.com/cachix"
+      },
+      "summary": "基于Nix的开发者环境管理工具，提供快速、声明式、可复现且可组合的开发环境配置，用Rust编写，简化Nix开发流程。",
+      "tags": [
+        "nix",
+        "dev-environment",
+        "declarative",
+        "rust",
+        "reproducible"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-11T01:55:46.689Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 750,
+      "forks": 82,
+      "starsToday": 485,
+      "topics": [],
+      "author": {
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
+      },
+      "summary": "基于Rust构建的开源CAD应用，支持2D/3D绘图、DWG/DXF格式导入导出，GPU加速渲染，性能出色，今日新增近500星。",
+      "tags": [
+        "rust",
+        "cad",
+        "gpu-rendering",
+        "dwg",
+        "dxf"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-11T01:55:46.718Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "himalaya",
+      "fullName": "pimalaya/himalaya",
+      "url": "https://github.com/pimalaya/himalaya",
+      "description": "CLI to manage emails",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6998,
+      "forks": 225,
+      "starsToday": 187,
+      "topics": [],
+      "author": {
+        "name": "pimalaya",
+        "avatar": "https://avatars.githubusercontent.com/u/10437171?s=40&amp;v=4",
+        "url": "https://github.com/pimalaya"
+      },
+      "summary": "用Rust编写的命令行电子邮件客户端，支持多账户、IMAP/SMTP、邮件搜索与撰写，轻量高效，适合终端用户管理邮件。",
+      "tags": [
+        "email",
+        "cli",
+        "rust",
+        "terminal",
+        "imap"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-11T01:55:48.489Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "check-if-email-exists",
+      "fullName": "reacherhq/check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9434,
+      "forks": 682,
+      "starsToday": 196,
+      "topics": [],
+      "author": {
+        "name": "reacherhq",
+        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
+        "url": "https://github.com/reacherhq"
+      },
+      "summary": "用Rust编写的邮箱地址验证工具，无需发送邮件即可检测邮箱是否存在，附带HTTP后端服务，支持批量验证和API调用。",
+      "tags": [
+        "rust",
+        "email",
+        "validation",
+        "http-api",
+        "tool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-11T01:55:48.582Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "komodo",
+      "fullName": "moghtech/komodo",
+      "url": "https://github.com/moghtech/komodo",
+      "description": "🦎 a tool to build and deploy software on many servers 🦎",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11896,
+      "forks": 376,
+      "starsToday": 105,
+      "topics": [],
+      "author": {
+        "name": "moghtech",
+        "avatar": "https://avatars.githubusercontent.com/u/49575486?s=40&amp;v=4",
+        "url": "https://github.com/moghtech"
+      },
+      "summary": "Komodo 是一个用 Rust 编写的多服务器构建与部署工具，支持在众多服务器上集中管理软件构建、部署和运维流程，开源且活跃。",
+      "tags": [
+        "deployment",
+        "devops",
+        "rust",
+        "server",
+        "ci-cd"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-11T01:55:48.668Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "quiche",
+      "fullName": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11754,
+      "forks": 1057,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare 出品的 Rust 实现的 QUIC 传输协议和 HTTP/3 库，性能优异，广泛应用于生产环境，是构建下一代网络应用的核心基础设施。",
+      "tags": [
+        "quic",
+        "http3",
+        "rust",
+        "networking",
+        "cloudflare"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-11T01:55:48.590Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 26095,
+      "forks": 3098,
+      "starsToday": 4419,
+      "topics": [],
+      "author": {
+        "name": "block",
+        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
+        "url": "https://github.com/block"
+      },
+      "summary": "基于Rust构建的蜂群思维通信平台，实现去中心化的群体协作与信息共享，今日新增超四千星标，热度极高。",
+      "tags": [
+        "rust",
+        "communication",
+        "decentralized",
+        "collaboration",
+        "platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-11T01:55:50.260Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bat",
+      "fullName": "sharkdp/bat",
+      "url": "https://github.com/sharkdp/bat",
+      "description": "A cat(1) clone with wings.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 60188,
+      "forks": 1636,
+      "starsToday": 132,
+      "topics": [],
+      "author": {
+        "name": "sharkdp",
+        "avatar": "https://avatars.githubusercontent.com/u/4209276?s=40&amp;v=4",
+        "url": "https://github.com/sharkdp"
+      },
+      "summary": "bat 是 cat 命令的增强克隆版，支持语法高亮、Git 集成、分页显示和自动主题切换，是开发者日常查看代码文件的利器。",
+      "tags": [
+        "cli",
+        "rust",
+        "syntax-highlighting",
+        "terminal",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-11T01:55:50.481Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BitFun",
+      "fullName": "GCWing/BitFun",
+      "url": "https://github.com/GCWing/BitFun",
+      "description": "BitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1657,
+      "forks": 180,
+      "starsToday": 248,
+      "topics": [],
+      "author": {
+        "name": "GCWing",
+        "avatar": "https://avatars.githubusercontent.com/u/84692569?s=40&amp;v=4",
+        "url": "https://github.com/GCWing"
+      },
+      "summary": "BitFun 将 Rust 高性能智能体运行时与精致桌面应用结合，兼具代码智能体深度与开放通用能力，适用于软件开发之外的多种工作场景。",
+      "tags": [
+        "rust",
+        "agent",
+        "desktop",
+        "ai",
+        "code-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-11T01:55:50.465Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
