@@ -1,0 +1,597 @@
+{
+  "date": "2026-08-12",
+  "since": "daily",
+  "language": "Go",
+  "fetchedAt": "2026-08-12T02:06:46.680Z",
+  "enrichedAt": "2026-08-12T02:07:40.378Z",
+  "repos": [
+    {
+      "name": "nvm-windows",
+      "fullName": "coreybutler/nvm-windows",
+      "url": "https://github.com/coreybutler/nvm-windows",
+      "description": "A node.js version management utility for Windows. Ironically written in Go.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47288,
+      "forks": 3862,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "coreybutler",
+        "avatar": "https://avatars.githubusercontent.com/u/770982?s=40&amp;v=4",
+        "url": "https://github.com/coreybutler"
+      },
+      "summary": "Windows 平台的 Node.js 版本管理工具，用 Go 编写，支持安装、切换和管理多个 Node 版本，功能强大且社区活跃。",
+      "tags": [
+        "nodejs",
+        "version-manager",
+        "windows",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-12T02:07:32.388Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28614,
+      "forks": 2179,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Gitleaks 是一款用 Go 编写的开源密钥扫描工具，可扫描 Git 仓库中的密码、API 密钥等敏感信息，支持自定义规则与 CI 集成，帮助开发者防止机密泄露。",
+      "tags": [
+        "security",
+        "secrets-scanning",
+        "git",
+        "cli",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-12T02:07:32.622Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 178298,
+      "forks": 17359,
+      "starsToday": 93,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行大模型的开源工具，支持Kimi、DeepSeek、Qwen、Gemma等主流模型，安装简单跨平台，社区活跃。",
+      "tags": [
+        "llm",
+        "go",
+        "local-ai",
+        "inference",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-12T02:07:32.575Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "KrillinAI",
+      "fullName": "krillinai/KrillinAI",
+      "url": "https://github.com/krillinai/KrillinAI",
+      "description": "AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10960,
+      "forks": 1028,
+      "starsToday": 155,
+      "topics": [],
+      "author": {
+        "name": "krillinai",
+        "avatar": "https://avatars.githubusercontent.com/u/114557800?s=40&amp;v=4",
+        "url": "https://github.com/krillinai"
+      },
+      "summary": "AI视频翻译配音工具，基于LLM实现下载、转写、翻译、配音、封面生成全链路，支持100+语言，CLI分阶段调用，适配抖音、B站、TikTok、YouTube等平台。",
+      "tags": [
+        "video-translation",
+        "dubbing",
+        "llm",
+        "tts",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-12T02:07:32.686Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "frp",
+      "fullName": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 108721,
+      "forks": 15175,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "fatedier",
+        "avatar": "https://avatars.githubusercontent.com/u/7346661?s=40&amp;v=4",
+        "url": "https://github.com/fatedier"
+      },
+      "summary": "高性能反向代理工具，帮助将NAT或防火墙后的本地服务安全暴露到公网，支持TCP/UDP/HTTP等多种协议，配置灵活，生态成熟。",
+      "tags": [
+        "reverse-proxy",
+        "nat",
+        "tunnel",
+        "go",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-12T02:07:34.138Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37362,
+      "forks": 588,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是一款全面的开源安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、错误配置、密钥泄露及 SBOM，支持多平台多场景。",
+      "tags": [
+        "security",
+        "vulnerability",
+        "container",
+        "kubernetes",
+        "scanner",
+        "sbom"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-12T02:07:33.941Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45801,
+      "forks": 8856,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub官方命令行工具，支持PR、Issue、Release等全流程操作，可直接在终端管理仓库，极大提升开发效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "devtools"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-12T02:07:34.037Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28278,
+      "forks": 1594,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于WireGuard的安全组网工具，支持SSO、MFA和细粒度访问控制，轻松将设备接入私有覆盖网络，开源且易部署。",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "networking",
+        "security",
+        "sso",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-12T02:07:34.443Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45438,
+      "forks": 5775,
+      "starsToday": 310,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的AI编码代理编排工具，将任务分配给Claude Code、Codex、Cursor等20多种编码代理，像管理队友一样管理它们。",
+      "tags": [
+        "ai-agents",
+        "orchestration",
+        "self-hosted",
+        "devtool",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-12T02:07:35.688Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caddy",
+      "fullName": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 74862,
+      "forks": 4890,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "caddyserver",
+        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
+        "url": "https://github.com/caddyserver"
+      },
+      "summary": "Caddy 是一款快速、可扩展的多平台 HTTP/1-2-3 Web 服务器，支持自动 HTTPS 证书配置，以简单配置和内置 TLS 管理著称。",
+      "tags": [
+        "web-server",
+        "https",
+        "go",
+        "reverse-proxy",
+        "tls"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-12T02:07:35.685Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nats-server",
+      "fullName": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20459,
+      "forks": 1899,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "nats-io",
+        "avatar": "https://avatars.githubusercontent.com/u/90097?s=40&amp;v=4",
+        "url": "https://github.com/nats-io"
+      },
+      "summary": "NATS.io 官方高性能消息服务器，Go 编写，面向云和边缘原生消息系统，支持发布订阅、请求响应、JetStream 持久化，轻量高吞吐。",
+      "tags": [
+        "messaging",
+        "pubsub",
+        "nats",
+        "go",
+        "jetstream"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-12T02:07:35.962Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "traefik",
+      "fullName": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 64415,
+      "forks": 6143,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "traefik",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/traefik"
+      },
+      "summary": "云原生应用代理，支持动态配置、服务发现、负载均衡与TLS终止，广泛用于Kubernetes和微服务架构的入口流量管理。",
+      "tags": [
+        "proxy",
+        "kubernetes",
+        "load-balancer",
+        "cloud-native",
+        "reverse-proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-12T02:07:36.178Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sops",
+      "fullName": "getsops/sops",
+      "url": "https://github.com/getsops/sops",
+      "description": "Simple and flexible tool for managing secrets",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22770,
+      "forks": 1068,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "getsops",
+        "avatar": "https://avatars.githubusercontent.com/u/5781356?s=40&amp;v=4",
+        "url": "https://github.com/getsops"
+      },
+      "summary": "SOPS 是用于管理加密密钥和配置文件的工具，支持 YAML、JSON、ENV 等格式，可与 AWS KMS、GCP KMS、Age 等集成，简单灵活。",
+      "tags": [
+        "secrets",
+        "encryption",
+        "devops",
+        "cli",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-12T02:07:37.332Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tempo",
+      "fullName": "grafana/tempo",
+      "url": "https://github.com/grafana/tempo",
+      "description": "Grafana Tempo is a high volume, minimal dependency distributed tracing backend.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5432,
+      "forks": 742,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/2272392?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "Grafana Tempo 是高吞吐、低依赖的分布式追踪后端，支持大规模 trace 数据存储与查询，与 Grafana 生态深度集成。",
+      "tags": [
+        "tracing",
+        "observability",
+        "grafana",
+        "distributed-systems",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-12T02:07:37.496Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "typescript-go",
+      "fullName": "microsoft/typescript-go",
+      "url": "https://github.com/microsoft/typescript-go",
+      "description": "Staging repo for development of native port of TypeScript",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26187,
+      "forks": 1128,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/5341706?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软官方用Go语言原生重写TypeScript编译器，大幅提升编译速度，目标是成为下一代TypeScript基础设施。",
+      "tags": [
+        "typescript",
+        "compiler",
+        "golang",
+        "microsoft",
+        "native"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-12T02:07:37.499Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 65693,
+      "forks": 10764,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 是业界领先的开源监控系统与时序数据库，提供强大的指标采集、存储、查询和告警能力，是云原生监控的事实标准。",
+      "tags": [
+        "monitoring",
+        "time-series",
+        "metrics",
+        "observability",
+        "promql"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-12T02:07:37.547Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19693,
+      "forks": 2826,
+      "starsToday": 70,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的LLM知识平台，将原始文档转化为可查询的RAG、自主推理智能体和自维护Wiki，支持多格式文档处理与知识管理。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "agent",
+        "wiki"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-12T02:07:38.752Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "syft",
+      "fullName": "anchore/syft",
+      "url": "https://github.com/anchore/syft",
+      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9382,
+      "forks": 922,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "anchore",
+        "avatar": "https://avatars.githubusercontent.com/u/590471?s=40&amp;v=4",
+        "url": "https://github.com/anchore"
+      },
+      "summary": "Go 编写的 CLI 工具和库，从容器镜像和文件系统生成软件物料清单（SBOM），支持多种格式输出，帮助追踪软件供应链依赖。",
+      "tags": [
+        "sbom",
+        "container",
+        "security",
+        "cli",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-12T02:07:38.914Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "portmaster",
+      "fullName": "safing/portmaster",
+      "url": "https://github.com/safing/portmaster",
+      "description": "🏔 Love Freedom - ❌ Block Mass Surveillance",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13519,
+      "forks": 564,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "safing",
+        "avatar": "https://avatars.githubusercontent.com/u/18184155?s=40&amp;v=4",
+        "url": "https://github.com/safing"
+      },
+      "summary": "Portmaster是一款开源的隐私与安全监控应用，通过阻止大规模监控、追踪器和恶意软件来保护用户，提供网络流量可视化和精细控制能力。",
+      "tags": [
+        "privacy",
+        "security",
+        "network",
+        "monitoring",
+        "go"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-12T02:07:39.432Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 87298,
+      "forks": 10280,
+      "starsToday": 85,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "RAGFlow 是领先的开源检索增强生成引擎，融合 RAG 与 Agent 能力，为 LLM 构建高质量上下文层，支持深度文档理解与智能问答。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "nlp"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-12T02:07:39.147Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rancher",
+      "fullName": "rancher/rancher",
+      "url": "https://github.com/rancher/rancher",
+      "description": "Complete container management platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25847,
+      "forks": 3218,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "rancher",
+        "avatar": "https://avatars.githubusercontent.com/u/1754002?s=40&amp;v=4",
+        "url": "https://github.com/rancher"
+      },
+      "summary": "Rancher 是完整的容器管理平台，支持 Kubernetes 集群的部署、监控与治理，提供多集群统一管理和企业级安全策略，简化容器化应用运维。",
+      "tags": [
+        "kubernetes",
+        "container",
+        "devops",
+        "management",
+        "platform"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-12T02:07:40.377Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
