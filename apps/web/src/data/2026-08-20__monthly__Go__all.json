@@ -1,0 +1,596 @@
+{
+  "date": "2026-08-20",
+  "since": "monthly",
+  "language": "Go",
+  "fetchedAt": "2026-08-20T01:21:07.213Z",
+  "enrichedAt": "2026-08-20T01:23:43.549Z",
+  "repos": [
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20870,
+      "forks": 1492,
+      "starsToday": 10275,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里巴巴开源的代码审查工具，混合架构结合确定性流水线与LLM Agent，支持行级精准评论，内置多语言规则集（NPE、线程安全、XSS、SQL注入），兼容OpenAI与Anthropic。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "devtools",
+        "static-analysis"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-20T01:23:35.430Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "The open source control plane for agentic engineering.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5382,
+      "forks": 584,
+      "starsToday": 1454,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的智能体工程控制平面，用Go构建，为agentic工程提供统一的管理、编排与治理能力，帮助团队规模化运行AI智能体工作流。",
+      "tags": [
+        "agent",
+        "control-plane",
+        "go",
+        "orchestration",
+        "ai"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-20T01:23:35.273Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45894,
+      "forks": 8886,
+      "starsToday": 706,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub官方命令行工具，支持PR、Issue、Release等全流程操作，可在终端直接管理仓库和协作，提升开发效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "devtools"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-20T01:23:35.619Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26460,
+      "forks": 1780,
+      "starsToday": 1127,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 为编码智能体提供持久化记忆层，用Go编写，帮助AI代理跨会话保留上下文和知识，显著提升编码效率。",
+      "tags": [
+        "memory",
+        "ai-agent",
+        "coding",
+        "go",
+        "context"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-20T01:23:35.495Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "phoneinfoga",
+      "fullName": "sundowndev/phoneinfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17553,
+      "forks": 5629,
+      "starsToday": 541,
+      "topics": [],
+      "author": {
+        "name": "sundowndev",
+        "avatar": "https://avatars.githubusercontent.com/u/16480203?s=40&amp;v=4",
+        "url": "https://github.com/sundowndev"
+      },
+      "summary": "开源电话号码信息收集框架，支持全球号码扫描、OSINT情报搜集与多种数据源查询，Go语言编写，适合安全研究与侦查工作。",
+      "tags": [
+        "osint",
+        "phone",
+        "security",
+        "recon",
+        "go"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-20T01:23:36.967Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "traefik",
+      "fullName": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 64499,
+      "forks": 6145,
+      "starsToday": 579,
+      "topics": [],
+      "author": {
+        "name": "traefik",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/traefik"
+      },
+      "summary": "云原生应用代理，支持动态配置、自动服务发现、负载均衡与TLS终止，兼容多种编排平台，是Kubernetes等场景下的主流反向代理与网关方案。",
+      "tags": [
+        "proxy",
+        "kubernetes",
+        "reverse-proxy",
+        "load-balancer",
+        "cloud-native",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-20T01:23:37.495Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46874,
+      "forks": 5991,
+      "starsToday": 6058,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源自托管的AI编程代理编排工具，可将任务分配给Claude Code、Codex、Cursor等20多种编码代理，像管理团队成员一样协作。用Go编写，支持自部署。",
+      "tags": [
+        "ai-agents",
+        "orchestration",
+        "self-hosted",
+        "go",
+        "devtools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-20T01:23:37.111Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "grok2api",
+      "fullName": "chenyme/grok2api",
+      "url": "https://github.com/chenyme/grok2api",
+      "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7464,
+      "forks": 2253,
+      "starsToday": 1240,
+      "topics": [],
+      "author": {
+        "name": "chenyme",
+        "avatar": "https://avatars.githubusercontent.com/u/118253778?s=40&amp;v=4",
+        "url": "https://github.com/chenyme"
+      },
+      "summary": "Grok2API 是一个用 Go 编写的多账户 API 网关，统一封装 Grok Build、Web 和 Console 接口，支持多账号轮询与负载均衡，方便开发者接入 Grok 能力。",
+      "tags": [
+        "grok",
+        "api-gateway",
+        "go",
+        "multi-account",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-20T01:23:37.260Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubescape",
+      "fullName": "kubescape/kubescape",
+      "url": "https://github.com/kubescape/kubescape",
+      "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11664,
+      "forks": 1013,
+      "starsToday": 132,
+      "topics": [],
+      "author": {
+        "name": "kubescape",
+        "avatar": "https://avatars.githubusercontent.com/u/20683409?s=40&amp;v=4",
+        "url": "https://github.com/kubescape"
+      },
+      "summary": "开源的Kubernetes安全平台，支持IDE、CI/CD和集群的风险分析、安全合规与错误配置扫描，帮助K8s用户节省时间和资源。",
+      "tags": [
+        "kubernetes",
+        "security",
+        "compliance",
+        "scanning",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-20T01:23:38.465Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caddy",
+      "fullName": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 75029,
+      "forks": 4895,
+      "starsToday": 974,
+      "topics": [],
+      "author": {
+        "name": "caddyserver",
+        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
+        "url": "https://github.com/caddyserver"
+      },
+      "summary": "高性能可扩展的多平台Web服务器，支持HTTP/1-3协议和自动HTTPS，配置简单，生态插件丰富。",
+      "tags": [
+        "web-server",
+        "https",
+        "go",
+        "reverse-proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-20T01:23:38.683Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "witr",
+      "fullName": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21577,
+      "forks": 752,
+      "starsToday": 3371,
+      "topics": [],
+      "author": {
+        "name": "pranshuparmar",
+        "avatar": "https://avatars.githubusercontent.com/u/4262592?s=40&amp;v=4",
+        "url": "https://github.com/pranshuparmar"
+      },
+      "summary": "用Go编写的进程溯源工具，CLI+TUI双界面，可追踪任意进程、端口、容器或文件追溯到其启动源头，帮助理解系统上正在运行的内容。",
+      "tags": [
+        "process-tracing",
+        "cli",
+        "tui",
+        "go",
+        "devops",
+        "observability"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-20T01:23:39.241Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35367,
+      "forks": 3087,
+      "starsToday": 1398,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于WireGuard的零配置VPN工具，内置2FA认证，让设备跨网络安全组网，部署简单且开源免费。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-20T01:23:39.280Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudflared",
+      "fullName": "cloudflare/cloudflared",
+      "url": "https://github.com/cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15304,
+      "forks": 1403,
+      "starsToday": 440,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare官方Tunnel客户端，通过安全隧道将本地服务暴露到公网，无需开放端口或公网IP，支持零信任访问与流量加密。",
+      "tags": [
+        "tunnel",
+        "cloudflare",
+        "networking",
+        "proxy",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-20T01:23:40.224Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go2rtc",
+      "fullName": "AlexxIT/go2rtc",
+      "url": "https://github.com/AlexxIT/go2rtc",
+      "description": "Ultimate camera streaming application",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13993,
+      "forks": 1267,
+      "starsToday": 515,
+      "topics": [],
+      "author": {
+        "name": "AlexxIT",
+        "avatar": "https://avatars.githubusercontent.com/u/511909?s=40&amp;v=4",
+        "url": "https://github.com/AlexxIT"
+      },
+      "summary": "终极摄像头流媒体应用，支持RTSP/WebRTC/RTMP等多种协议，实现低延迟视频流传输与多平台接入，配置简单功能强大。",
+      "tags": [
+        "camera",
+        "streaming",
+        "webrtc",
+        "rtsp",
+        "home-assistant"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-20T01:23:40.555Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22643,
+      "forks": 822,
+      "starsToday": 4067,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "一款用Go编写的现代化终端文件管理器，界面精美时尚，支持多面板操作和丰富的快捷键，让终端文件管理更高效美观。",
+      "tags": [
+        "file-manager",
+        "terminal",
+        "tui",
+        "go",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-20T01:23:40.969Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28841,
+      "forks": 2201,
+      "starsToday": 671,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Gitleaks 是一款 Go 编写的开源密钥扫描工具，可深度扫描 Git 仓库历史中的密码、API 密钥等敏感信息，支持自定义规则与 CI 集成，帮助团队防止机密泄露。",
+      "tags": [
+        "security",
+        "secrets",
+        "git",
+        "scanner",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-20T01:23:41.264Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helm",
+      "fullName": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30157,
+      "forks": 7758,
+      "starsToday": 205,
+      "topics": [],
+      "author": {
+        "name": "helm",
+        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
+        "url": "https://github.com/helm"
+      },
+      "summary": "Kubernetes 官方包管理器，用于定义、安装和升级复杂的 K8s 应用，通过 Chart 简化部署流程，是云原生生态的核心工具。",
+      "tags": [
+        "kubernetes",
+        "package-manager",
+        "charts",
+        "devops",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-20T01:23:41.961Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kyverno",
+      "fullName": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno",
+      "description": "Unified Policy as Code",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8054,
+      "forks": 1549,
+      "starsToday": 122,
+      "topics": [],
+      "author": {
+        "name": "kyverno",
+        "avatar": "https://avatars.githubusercontent.com/u/25727662?s=40&amp;v=4",
+        "url": "https://github.com/kyverno"
+      },
+      "summary": "Kubernetes 原生策略引擎，以统一 Policy as Code 方式实现集群资源的安全、合规与治理，支持准入控制和变更管理。",
+      "tags": [
+        "kubernetes",
+        "policy",
+        "security",
+        "go",
+        "admission-control"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-20T01:23:42.479Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 88843,
+      "forks": 10429,
+      "starsToday": 3692,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "RAGFlow 是领先的开源检索增强生成引擎，融合 RAG 与 Agent 能力，为 LLM 构建高质量上下文层，支持深度文档理解与智能问答。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "opensource"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-20T01:23:42.661Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenList",
+      "fullName": "OpenListTeam/OpenList",
+      "url": "https://github.com/OpenListTeam/OpenList",
+      "description": "A new AList Fork to Anti Trust Crisis",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24206,
+      "forks": 2211,
+      "starsToday": 687,
+      "topics": [],
+      "author": {
+        "name": "OpenListTeam",
+        "avatar": "https://avatars.githubusercontent.com/u/36558727?s=40&amp;v=4",
+        "url": "https://github.com/OpenListTeam"
+      },
+      "summary": "AList 的分叉项目，旨在应对信任危机。基于 Go 开发的开源文件列表与分享工具，支持多存储后端，提供 Web 界面管理文件。",
+      "tags": [
+        "alist",
+        "file-sharing",
+        "go",
+        "self-hosted",
+        "storage"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-20T01:23:43.087Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 178986,
+      "forks": 17479,
+      "starsToday": 3149,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大模型的开源工具，支持Kimi、GLM、DeepSeek、Qwen等主流模型，一条命令即可下载并启动推理，极简易用。",
+      "tags": [
+        "llm",
+        "inference",
+        "local-ai",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-20T01:23:43.549Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
