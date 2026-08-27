@@ -2,9 +2,36 @@
   "date": "2026-08-27",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-08-27T08:10:51.401Z",
-  "enrichedAt": "2026-08-27T08:11:53.160Z",
+  "fetchedAt": "2026-08-27T19:40:17.345Z",
+  "enrichedAt": "2026-08-27T19:41:00.056Z",
   "repos": [
+    {
+      "name": "go-modern-guidelines",
+      "fullName": "JetBrains/go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "description": "Help AI coding agents write modern Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2012,
+      "forks": 62,
+      "starsToday": 314,
+      "topics": [],
+      "author": {
+        "name": "JetBrains",
+        "avatar": "https://avatars.githubusercontent.com/u/25866352?s=40&amp;v=4",
+        "url": "https://github.com/JetBrains"
+      },
+      "summary": "JetBrains 出品的现代 Go 编程指南，帮助 AI 编码代理写出符合最佳实践的 Go 代码，覆盖工程规范与常见陷阱。",
+      "tags": [
+        "go",
+        "guidelines",
+        "ai-agents",
+        "best-practices"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-27T19:40:54.184Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "hister",
       "fullName": "asciimoo/hister",
@@ -12,9 +39,9 @@
       "description": "Your own search engine",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3096,
-      "forks": 138,
-      "starsToday": 430,
+      "stars": 3113,
+      "forks": 139,
+      "starsToday": 52,
       "topics": [],
       "author": {
         "name": "asciimoo",
@@ -34,15 +61,463 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5343,
+      "forks": 841,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "可编程的混合模型路由器，用于异构LLM推理，支持按语义智能路由请求到不同模型，提升推理效率与成本控制。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "semantic"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-27T19:40:54.637Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wails",
+      "fullName": "wailsapp/wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Create beautiful applications using Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36017,
+      "forks": 1822,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "wailsapp",
+        "avatar": "https://avatars.githubusercontent.com/u/1943904?s=40&amp;v=4",
+        "url": "https://github.com/wailsapp"
+      },
+      "summary": "用Go构建跨平台桌面应用的开源框架，结合Web前端技术打造原生界面，支持Windows/macOS/Linux，提供简洁API和内置工具链。",
+      "tags": [
+        "go",
+        "desktop",
+        "gui",
+        "cross-platform",
+        "webview"
+      ],
+      "category": "Framework",
+      "enrichedAt": "2026-08-27T19:40:54.655Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26648,
+      "forks": 1802,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 为编码智能体提供持久化记忆升级，用 Go 构建的高性能记忆存储层，帮助 AI 编码助手跨会话记住上下文与决策。",
+      "tags": [
+        "memory",
+        "ai-agent",
+        "go",
+        "coding-assistant"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-27T19:40:54.236Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "docker-agent",
+      "fullName": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3292,
+      "forks": 444,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker官方出品的AI智能体构建与运行时工具，基于Go开发，提供Agent构建、部署和运行的完整框架，与Docker生态深度集成。",
+      "tags": [
+        "docker",
+        "ai-agent",
+        "runtime",
+        "golang",
+        "builder"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-27T19:40:55.557Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-sandbox",
+      "fullName": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3658,
+      "forks": 468,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/4876867?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubernetes SIG 推出的沙箱管理工具，轻松管理隔离、有状态、单例的工作负载，适用于 AI 代理运行时和强化学习等场景。",
+      "tags": [
+        "kubernetes",
+        "sandbox",
+        "ai-agent",
+        "workload",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-27T08:11:48.108Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37656,
+      "forks": 636,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是一款全面的开源安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、错误配置、密钥泄露及 SBOM，支持多种平台。",
+      "tags": [
+        "security",
+        "container",
+        "vulnerability",
+        "scanner",
+        "kubernetes",
+        "sbom"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-27T08:11:51.503Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24011,
+      "forks": 7793,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "Argo CD 是 Kubernetes 的声明式持续交付工具，通过 GitOps 模式实现应用自动部署、同步与回滚，支持多集群管理和可视化界面。",
+      "tags": [
+        "gitops",
+        "kubernetes",
+        "cd",
+        "declarative",
+        "argo"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-27T19:40:55.649Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "higress",
+      "fullName": "higress-group/higress",
+      "url": "https://github.com/higress-group/higress",
+      "description": "🤖 AI Gateway | AI Native API Gateway",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9218,
+      "forks": 1256,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "higress-group",
+        "avatar": "https://avatars.githubusercontent.com/u/6763318?s=40&amp;v=4",
+        "url": "https://github.com/higress-group"
+      },
+      "summary": "基于 Envoy 的云原生 AI 网关，提供 AI 原生 API 治理能力，支持多模型路由、限流、安全防护与可观测性，助力企业统一管理 AI 服务流量。",
+      "tags": [
+        "ai-gateway",
+        "envoy",
+        "api-gateway",
+        "kubernetes",
+        "llm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-27T19:40:56.123Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "github-mcp-server",
+      "fullName": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32561,
+      "forks": 4861,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/4811358?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方MCP服务器，基于Go构建，让AI助手通过Model Context Protocol安全访问GitHub API，支持仓库、Issue、PR等操作。",
+      "tags": [
+        "mcp",
+        "github",
+        "ai",
+        "go",
+        "api"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-27T19:40:56.010Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vitess",
+      "fullName": "vitessio/vitess",
+      "url": "https://github.com/vitessio/vitess",
+      "description": "Vitess is a database clustering system for horizontal scaling of MySQL.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21265,
+      "forks": 2384,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "vitessio",
+        "avatar": "https://avatars.githubusercontent.com/u/589370?s=40&amp;v=4",
+        "url": "https://github.com/vitessio"
+      },
+      "summary": "Vitess 是用于 MySQL 水平扩展的数据库集群系统，提供分片、连接池和查询路由能力，支持大规模在线服务，已被多家大型企业生产使用。",
+      "tags": [
+        "mysql",
+        "sharding",
+        "database",
+        "cluster",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-27T19:40:57.137Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opencost",
+      "fullName": "opencost/opencost",
+      "url": "https://github.com/opencost/opencost",
+      "description": "Cost monitoring for Kubernetes workloads and cloud costs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6705,
+      "forks": 866,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "opencost",
+        "avatar": "https://avatars.githubusercontent.com/u/453512?s=40&amp;v=4",
+        "url": "https://github.com/opencost"
+      },
+      "summary": "开源的Kubernetes成本监控工具，实时追踪工作负载与云资源费用，提供成本分配、优化建议与多集群支持。",
+      "tags": [
+        "kubernetes",
+        "cost-monitoring",
+        "cloud-cost",
+        "finops",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-27T19:40:56.925Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "docker/cli",
+      "url": "https://github.com/docker/cli",
+      "description": "The Docker CLI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6029,
+      "forks": 2190,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker官方命令行工具，用Go编写，用于构建、运行和管理容器镜像与容器，是Docker生态的核心交互入口。",
+      "tags": [
+        "docker",
+        "cli",
+        "container",
+        "go",
+        "devops"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-27T19:40:57.464Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16802,
+      "forks": 1354,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "larksuite",
+        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
+        "url": "https://github.com/larksuite"
+      },
+      "summary": "飞书官方CLI工具，覆盖消息、文档、多维表格、日历、邮件等核心业务域，提供200+命令和20+AI Agent技能，专为人类和AI代理设计。",
+      "tags": [
+        "lark",
+        "cli",
+        "ai-agent",
+        "productivity",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-27T08:11:49.844Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "eino",
+      "fullName": "cloudwego/eino",
+      "url": "https://github.com/cloudwego/eino",
+      "description": "The ultimate LLM/AI application development framework in Go.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12850,
+      "forks": 1070,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "cloudwego",
+        "avatar": "https://avatars.githubusercontent.com/u/187591992?s=40&amp;v=4",
+        "url": "https://github.com/cloudwego"
+      },
+      "summary": "CloudWeGo 出品的 Go 语言 LLM/AI 应用开发框架，提供组件化编排、模型接入和工具链，帮助开发者快速构建生产级 AI 应用。",
+      "tags": [
+        "llm",
+        "ai-framework",
+        "golang",
+        "agent",
+        "cloudwego"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-27T19:40:57.437Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "podman",
+      "fullName": "podman-container-tools/podman",
+      "url": "https://github.com/podman-container-tools/podman",
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32709,
+      "forks": 3352,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "podman-container-tools",
+        "avatar": "https://avatars.githubusercontent.com/u/30189218?s=40&amp;v=4",
+        "url": "https://github.com/podman-container-tools"
+      },
+      "summary": "Podman 是无需守护进程的 OCI 容器与 Pod 管理工具，兼容 Docker CLI，支持 rootless 运行，更安全更轻量。",
+      "tags": [
+        "containers",
+        "oci",
+        "cli",
+        "kubernetes",
+        "devops"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-27T19:40:58.472Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "milvus",
+      "fullName": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45833,
+      "forks": 4204,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "milvus-io",
+        "avatar": "https://avatars.githubusercontent.com/u/84113973?s=40&amp;v=4",
+        "url": "https://github.com/milvus-io"
+      },
+      "summary": "Milvus 是一款高性能云原生向量数据库，专为大规模向量 ANN 搜索设计，支持十亿级向量检索与混合查询，广泛用于 AI 应用。",
+      "tags": [
+        "vector-database",
+        "ann-search",
+        "cloud-native",
+        "ai",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-27T08:11:48.287Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "containerd",
       "fullName": "containerd/containerd",
       "url": "https://github.com/containerd/containerd",
       "description": "An open and reliable container runtime",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 21195,
-      "forks": 4079,
-      "starsToday": 22,
+      "stars": 21204,
+      "forks": 4080,
+      "starsToday": 23,
       "topics": [],
       "author": {
         "name": "containerd",
@@ -59,6 +534,119 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-08-27T08:11:45.441Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 89401,
+      "forks": 10521,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "RAGFlow 是领先的开源检索增强生成引擎，融合 RAG 与 Agent 能力，为 LLM 提供高质量上下文层，支持深度文档理解与智能问答。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "nlp"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-27T19:40:58.802Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whatsmeow",
+      "fullName": "tulir/whatsmeow",
+      "url": "https://github.com/tulir/whatsmeow",
+      "description": "Go library for the WhatsApp web multidevice API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7159,
+      "forks": 1172,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "tulir",
+        "avatar": "https://avatars.githubusercontent.com/u/4224639?s=40&amp;v=4",
+        "url": "https://github.com/tulir"
+      },
+      "summary": "Go 编写的 WhatsApp Web 多设备 API 库，支持消息收发、群组管理、媒体传输等完整功能，是构建 WhatsApp 机器人和自动化工具的核心依赖。",
+      "tags": [
+        "whatsapp",
+        "go",
+        "library",
+        "multidevice",
+        "messaging",
+        "api"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-27T19:40:59.195Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "yq",
+      "fullName": "mikefarah/yq",
+      "url": "https://github.com/mikefarah/yq",
+      "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15889,
+      "forks": 827,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "mikefarah",
+        "avatar": "https://avatars.githubusercontent.com/u/1151925?s=40&amp;v=4",
+        "url": "https://github.com/mikefarah"
+      },
+      "summary": "yq 是一个可移植的命令行工具，用于处理 YAML、JSON、XML、CSV、TOML、HCL 和 properties 等多种格式，支持查询、修改和转换数据，功能强大且易于使用。",
+      "tags": [
+        "yaml",
+        "cli",
+        "json",
+        "processor",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-27T19:40:58.963Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "etcd",
+      "fullName": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52190,
+      "forks": 10473,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "etcd-io",
+        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
+        "url": "https://github.com/etcd-io"
+      },
+      "summary": "etcd 是分布式系统中最关键数据的可靠键值存储，提供强一致性和高可用性，广泛用于服务发现和配置管理，是 Kubernetes 的核心组件。",
+      "tags": [
+        "distributed",
+        "key-value",
+        "consensus",
+        "kubernetes",
+        "storage"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-27T19:41:00.056Z",
       "deepwikiAvailable": false
     },
     {
@@ -230,62 +818,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agent-sandbox",
-      "fullName": "kubernetes-sigs/agent-sandbox",
-      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
-      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3648,
-      "forks": 467,
-      "starsToday": 15,
-      "topics": [],
-      "author": {
-        "name": "kubernetes-sigs",
-        "avatar": "https://avatars.githubusercontent.com/u/4876867?s=40&amp;v=4",
-        "url": "https://github.com/kubernetes-sigs"
-      },
-      "summary": "Kubernetes SIG 推出的沙箱管理工具，轻松管理隔离、有状态、单例的工作负载，适用于 AI 代理运行时和强化学习等场景。",
-      "tags": [
-        "kubernetes",
-        "sandbox",
-        "ai-agent",
-        "workload",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-27T08:11:48.108Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "milvus",
-      "fullName": "milvus-io/milvus",
-      "url": "https://github.com/milvus-io/milvus",
-      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 45817,
-      "forks": 4204,
-      "starsToday": 22,
-      "topics": [],
-      "author": {
-        "name": "milvus-io",
-        "avatar": "https://avatars.githubusercontent.com/u/84113973?s=40&amp;v=4",
-        "url": "https://github.com/milvus-io"
-      },
-      "summary": "Milvus 是一款高性能云原生向量数据库，专为大规模向量 ANN 搜索设计，支持十亿级向量检索与混合查询，广泛用于 AI 应用。",
-      "tags": [
-        "vector-database",
-        "ann-search",
-        "cloud-native",
-        "ai",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-27T08:11:48.287Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "opa",
       "fullName": "open-policy-agent/opa",
       "url": "https://github.com/open-policy-agent/opa",
@@ -371,34 +903,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "cli",
-      "fullName": "larksuite/cli",
-      "url": "https://github.com/larksuite/cli",
-      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 16788,
-      "forks": 1351,
-      "starsToday": 31,
-      "topics": [],
-      "author": {
-        "name": "larksuite",
-        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
-        "url": "https://github.com/larksuite"
-      },
-      "summary": "飞书官方CLI工具，覆盖消息、文档、多维表格、日历、邮件等核心业务域，提供200+命令和20+AI Agent技能，专为人类和AI代理设计。",
-      "tags": [
-        "lark",
-        "cli",
-        "ai-agent",
-        "productivity",
-        "go"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-08-27T08:11:49.844Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "arcane",
       "fullName": "getarcaneapp/arcane",
       "url": "https://github.com/getarcaneapp/arcane",
@@ -452,35 +956,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-08-27T08:11:50.377Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trivy",
-      "fullName": "aquasecurity/trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 37648,
-      "forks": 636,
-      "starsToday": 21,
-      "topics": [],
-      "author": {
-        "name": "aquasecurity",
-        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
-        "url": "https://github.com/aquasecurity"
-      },
-      "summary": "Trivy 是一款全面的开源安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、错误配置、密钥泄露及 SBOM，支持多种平台。",
-      "tags": [
-        "security",
-        "container",
-        "vulnerability",
-        "scanner",
-        "kubernetes",
-        "sbom"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-08-27T08:11:51.503Z",
       "deepwikiAvailable": false
     },
     {

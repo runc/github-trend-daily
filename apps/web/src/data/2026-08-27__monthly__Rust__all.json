@@ -2,8 +2,8 @@
   "date": "2026-08-27",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-08-27T08:10:51.401Z",
-  "enrichedAt": "2026-08-27T08:13:31.196Z",
+  "fetchedAt": "2026-08-27T19:40:17.345Z",
+  "enrichedAt": "2026-08-27T19:41:32.449Z",
   "repos": [
     {
       "name": "buzz",
@@ -12,8 +12,8 @@
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 31002,
-      "forks": 3947,
+      "stars": 31102,
+      "forks": 3967,
       "starsToday": 18291,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 16964,
-      "forks": 481,
+      "stars": 17111,
+      "forks": 487,
       "starsToday": 9221,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 4886,
-      "forks": 346,
+      "stars": 4965,
+      "forks": 349,
       "starsToday": 3583,
       "topics": [],
       "author": {
@@ -96,8 +96,8 @@
       "description": "The most RAM efficient harness",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 18664,
-      "forks": 2112,
+      "stars": 18695,
+      "forks": 2116,
       "starsToday": 7209,
       "topics": [],
       "author": {
@@ -124,8 +124,8 @@
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 34277,
-      "forks": 2144,
+      "stars": 34356,
+      "forks": 2148,
       "starsToday": 3599,
       "topics": [],
       "author": {
@@ -146,59 +146,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "mise",
-      "fullName": "jdx/mise",
-      "url": "https://github.com/jdx/mise",
-      "description": "dev tools, env vars, task runner",
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 33104,
-      "forks": 1399,
-      "starsToday": 1998,
+      "stars": 119173,
+      "forks": 18188,
+      "starsToday": 17769,
       "topics": [],
       "author": {
-        "name": "jdx",
-        "avatar": "https://avatars.githubusercontent.com/u/216188?s=40&amp;v=4",
-        "url": "https://github.com/jdx"
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
       },
-      "summary": "mise 是一个用 Rust 编写的开发工具管理器，集成了多语言版本管理、环境变量配置和任务运行功能，可替代 asdf、direnv 和 make 等工具，提供统一高效的开发环境管理体验。",
+      "summary": "OpenAI 开源的轻量级终端编码代理，基于 Rust 构建，可在命令行中自动完成代码编写、修改与执行任务，今日新增近两万星。",
       "tags": [
-        "devtools",
-        "env-manager",
-        "task-runner",
+        "openai",
+        "coding-agent",
+        "cli",
         "rust",
-        "cli"
+        "terminal"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-08-27T08:13:26.732Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Handy",
-      "fullName": "cjpais/Handy",
-      "url": "https://github.com/cjpais/Handy",
-      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 30422,
-      "forks": 2729,
-      "starsToday": 2899,
-      "topics": [],
-      "author": {
-        "name": "cjpais",
-        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
-        "url": "https://github.com/cjpais"
-      },
-      "summary": "免费开源的离线语音转文字应用，基于Rust构建，完全本地运行无需联网，支持扩展，保护隐私且高效。",
-      "tags": [
-        "speech-to-text",
-        "offline",
-        "rust",
-        "privacy",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-08-27T08:13:26.725Z",
+      "enrichedAt": "2026-08-27T08:13:28.112Z",
       "deepwikiAvailable": false
     },
     {
@@ -208,7 +180,7 @@
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 13546,
+      "stars": 13563,
       "forks": 818,
       "starsToday": 1295,
       "topics": [],
@@ -230,14 +202,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30461,
+      "forks": 2735,
+      "starsToday": 2899,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "免费开源的离线语音转文字应用，基于Rust构建，完全本地运行无需联网，支持扩展，保护隐私且高效。",
+      "tags": [
+        "speech-to-text",
+        "offline",
+        "rust",
+        "privacy",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-27T08:13:26.725Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "rustdesk",
       "fullName": "rustdesk/rustdesk",
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 121935,
-      "forks": 18676,
+      "stars": 121979,
+      "forks": 18688,
       "starsToday": 3308,
       "topics": [],
       "author": {
@@ -257,14 +257,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "mise",
+      "fullName": "jdx/mise",
+      "url": "https://github.com/jdx/mise",
+      "description": "dev tools, env vars, task runner",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33118,
+      "forks": 1399,
+      "starsToday": 1998,
+      "topics": [],
+      "author": {
+        "name": "jdx",
+        "avatar": "https://avatars.githubusercontent.com/u/216188?s=40&amp;v=4",
+        "url": "https://github.com/jdx"
+      },
+      "summary": "mise 是一个用 Rust 编写的开发工具管理器，集成了多语言版本管理、环境变量配置和任务运行功能，可替代 asdf、direnv 和 make 等工具，提供统一高效的开发环境管理体验。",
+      "tags": [
+        "devtools",
+        "env-manager",
+        "task-runner",
+        "rust",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-27T08:13:26.732Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "vaultwarden",
       "fullName": "dani-garcia/vaultwarden",
       "url": "https://github.com/dani-garcia/vaultwarden",
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 66331,
-      "forks": 3157,
+      "stars": 66372,
+      "forks": 3158,
       "starsToday": 2108,
       "topics": [],
       "author": {
@@ -291,8 +319,8 @@
       "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5683,
-      "forks": 493,
+      "stars": 5694,
+      "forks": 494,
       "starsToday": 1269,
       "topics": [],
       "author": {
@@ -313,59 +341,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "codex",
-      "fullName": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
+      "name": "rio",
+      "fullName": "raphamorim/rio",
+      "url": "https://github.com/raphamorim/rio",
+      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 118990,
-      "forks": 18153,
-      "starsToday": 17769,
+      "stars": 7406,
+      "forks": 336,
+      "starsToday": 357,
       "topics": [],
       "author": {
-        "name": "openai",
-        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
-        "url": "https://github.com/openai"
+        "name": "raphamorim",
+        "avatar": "https://avatars.githubusercontent.com/u/3630346?s=40&amp;v=4",
+        "url": "https://github.com/raphamorim"
       },
-      "summary": "OpenAI 开源的轻量级终端编码代理，基于 Rust 构建，可在命令行中自动完成代码编写、修改与执行任务，今日新增近两万星。",
+      "summary": "基于Rust的硬件加速GPU终端模拟器，可在桌面和浏览器中运行，提供高性能渲染体验。",
       "tags": [
-        "openai",
-        "coding-agent",
-        "cli",
+        "terminal",
+        "gpu",
         "rust",
-        "terminal"
+        "web",
+        "emulator"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-08-27T08:13:28.112Z",
+      "enrichedAt": "2026-08-27T19:41:32.449Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "polars",
-      "fullName": "pola-rs/polars",
-      "url": "https://github.com/pola-rs/polars",
-      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "name": "fresh",
+      "fullName": "sinelaw/fresh",
+      "url": "https://github.com/sinelaw/fresh",
+      "description": "Terminal based IDE & text editor: easy, powerful and fast",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 39507,
-      "forks": 3053,
-      "starsToday": 456,
+      "stars": 8539,
+      "forks": 317,
+      "starsToday": 617,
       "topics": [],
       "author": {
-        "name": "pola-rs",
-        "avatar": "https://avatars.githubusercontent.com/u/3023000?s=40&amp;v=4",
-        "url": "https://github.com/pola-rs"
+        "name": "sinelaw",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/sinelaw"
       },
-      "summary": "基于Rust编写的高性能DataFrame查询引擎，以极致速度和内存效率著称，提供Python/Node等多语言接口，是Pandas的现代替代方案。",
+      "summary": "基于终端的IDE与文本编辑器，用Rust编写，兼顾易用性、强大功能与高性能，提供轻量快速的开发体验。",
       "tags": [
-        "dataframe",
         "rust",
-        "query-engine",
-        "pandas-alternative",
-        "data-analysis"
+        "terminal",
+        "editor",
+        "ide",
+        "tui"
       ],
-      "category": "Data",
-      "enrichedAt": "2026-08-27T08:13:29.028Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-08-27T19:41:32.111Z",
       "deepwikiAvailable": false
     },
     {
@@ -375,8 +403,8 @@
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 27907,
-      "forks": 3606,
+      "stars": 27952,
+      "forks": 3610,
       "starsToday": 2962,
       "topics": [],
       "author": {
@@ -397,31 +425,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "baml",
-      "fullName": "BoundaryML/baml",
-      "url": "https://github.com/BoundaryML/baml",
-      "description": "The programming language for agents",
+      "name": "polars",
+      "fullName": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 9080,
-      "forks": 488,
-      "starsToday": 494,
+      "stars": 39517,
+      "forks": 3057,
+      "starsToday": 456,
       "topics": [],
       "author": {
-        "name": "BoundaryML",
-        "avatar": "https://avatars.githubusercontent.com/u/2448742?s=40&amp;v=4",
-        "url": "https://github.com/BoundaryML"
+        "name": "pola-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/3023000?s=40&amp;v=4",
+        "url": "https://github.com/pola-rs"
       },
-      "summary": "BAML 是面向 AI 代理的编程语言，用 Rust 编写，可声明式定义结构化输出与工具调用，简化 LLM 应用开发并提升可靠性。",
+      "summary": "基于Rust编写的高性能DataFrame查询引擎，以极致速度和内存效率著称，提供Python/Node等多语言接口，是Pandas的现代替代方案。",
       "tags": [
-        "llm",
-        "agents",
+        "dataframe",
         "rust",
-        "programming-language",
-        "structured-output"
+        "query-engine",
+        "pandas-alternative",
+        "data-analysis"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-27T08:13:29.692Z",
+      "category": "Data",
+      "enrichedAt": "2026-08-27T08:13:29.028Z",
       "deepwikiAvailable": false
     },
     {
@@ -431,8 +459,8 @@
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7879,
-      "forks": 1499,
+      "stars": 7885,
+      "forks": 1504,
       "starsToday": 296,
       "topics": [],
       "author": {
@@ -450,6 +478,34 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-08-27T08:13:30.004Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "baml",
+      "fullName": "BoundaryML/baml",
+      "url": "https://github.com/BoundaryML/baml",
+      "description": "The programming language for agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9083,
+      "forks": 489,
+      "starsToday": 494,
+      "topics": [],
+      "author": {
+        "name": "BoundaryML",
+        "avatar": "https://avatars.githubusercontent.com/u/2448742?s=40&amp;v=4",
+        "url": "https://github.com/BoundaryML"
+      },
+      "summary": "BAML 是面向 AI 代理的编程语言，用 Rust 编写，可声明式定义结构化输出与工具调用，简化 LLM 应用开发并提升可靠性。",
+      "tags": [
+        "llm",
+        "agents",
+        "rust",
+        "programming-language",
+        "structured-output"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-27T08:13:29.692Z",
       "deepwikiAvailable": false
     },
     {
