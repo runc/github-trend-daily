@@ -2,9 +2,37 @@
   "date": "2026-08-30",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-08-30T04:21:24.091Z",
-  "enrichedAt": "2026-08-30T04:23:43.841Z",
+  "fetchedAt": "2026-08-30T14:19:09.322Z",
+  "enrichedAt": "2026-08-30T14:20:29.649Z",
   "repos": [
+    {
+      "name": "pdf-inspector",
+      "fullName": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16929,
+      "forks": 1178,
+      "starsToday": 15332,
+      "topics": [],
+      "author": {
+        "name": "firecrawl",
+        "avatar": "https://avatars.githubusercontent.com/u/1450169?s=40&amp;v=4",
+        "url": "https://github.com/firecrawl"
+      },
+      "summary": "基于Rust的高性能PDF检查、分类与文本提取库，智能识别扫描版与文本版PDF，帮助系统做出智能路由决策。",
+      "tags": [
+        "rust",
+        "pdf",
+        "text-extraction",
+        "classification",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-30T14:20:29.504Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "OpenLogi",
       "fullName": "AprilNEA/OpenLogi",
@@ -12,8 +40,8 @@
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 17675,
-      "forks": 514,
+      "stars": 17775,
+      "forks": 518,
       "starsToday": 9787,
       "topics": [],
       "author": {
@@ -40,8 +68,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5143,
-      "forks": 354,
+      "stars": 5186,
+      "forks": 356,
       "starsToday": 3846,
       "topics": [],
       "author": {
@@ -68,8 +96,8 @@
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 31445,
-      "forks": 4022,
+      "stars": 31501,
+      "forks": 4031,
       "starsToday": 15144,
       "topics": [],
       "author": {
@@ -90,42 +118,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "codex",
-      "fullName": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 119871,
-      "forks": 18307,
-      "starsToday": 18031,
-      "topics": [],
-      "author": {
-        "name": "openai",
-        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
-        "url": "https://github.com/openai"
-      },
-      "summary": "OpenAI 开源的轻量级终端编码代理，基于 Rust 构建，可在命令行中直接执行编码任务，支持自动化代码生成与修改。",
-      "tags": [
-        "coding-agent",
-        "cli",
-        "openai",
-        "rust",
-        "terminal"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-08-30T04:23:37.682Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "llmfit",
       "fullName": "AlexsJones/llmfit",
       "url": "https://github.com/AlexsJones/llmfit",
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 34511,
-      "forks": 2162,
+      "stars": 34528,
+      "forks": 2164,
       "starsToday": 3716,
       "topics": [],
       "author": {
@@ -146,115 +146,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "jcode",
-      "fullName": "1jehuang/jcode",
-      "url": "https://github.com/1jehuang/jcode",
-      "description": "The most RAM efficient harness",
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 18793,
-      "forks": 2143,
-      "starsToday": 5717,
+      "stars": 119998,
+      "forks": 18334,
+      "starsToday": 18031,
       "topics": [],
       "author": {
-        "name": "1jehuang",
-        "avatar": "https://avatars.githubusercontent.com/u/94247773?s=40&amp;v=4",
-        "url": "https://github.com/1jehuang"
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
       },
-      "summary": "用Rust编写的高效测试执行框架，主打极低内存占用，为大规模并发测试场景优化资源利用。",
+      "summary": "OpenAI 开源的轻量级终端编码代理，基于 Rust 构建，可在命令行中直接执行编码任务，支持自动化代码生成与修改。",
       "tags": [
+        "coding-agent",
+        "cli",
+        "openai",
         "rust",
-        "testing",
-        "harness",
-        "memory",
-        "performance"
+        "terminal"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-30T04:23:39.268Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gpui-component",
-      "fullName": "longbridge/gpui-component",
-      "url": "https://github.com/longbridge/gpui-component",
-      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 13606,
-      "forks": 824,
-      "starsToday": 1340,
-      "topics": [],
-      "author": {
-        "name": "longbridge",
-        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
-        "url": "https://github.com/longbridge"
-      },
-      "summary": "基于 GPUI 的 Rust 跨平台桌面 GUI 组件库，提供丰富的高质量组件，帮助开发者快速构建美观的桌面应用。",
-      "tags": [
-        "rust",
-        "gui",
-        "desktop",
-        "components",
-        "cross-platform"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-08-30T04:23:38.818Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 122120,
-      "forks": 18721,
-      "starsToday": 3252,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源自托管的远程桌面工具，TeamViewer 替代品，支持跨平台使用，Rust 编写，性能出色且完全掌控数据。",
-      "tags": [
-        "remote-desktop",
-        "self-hosted",
-        "rust",
-        "cross-platform",
-        "opensource"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-08-30T04:23:39.052Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openpencil",
-      "fullName": "ZSeven-W/openpencil",
-      "url": "https://github.com/ZSeven-W/openpencil",
-      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5726,
-      "forks": 496,
-      "starsToday": 1258,
-      "topics": [],
-      "author": {
-        "name": "ZSeven-W",
-        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
-        "url": "https://github.com/ZSeven-W"
-      },
-      "summary": "全球首个开源AI原生矢量设计工具，支持并发Agent团队协作，以Design-as-Code理念将提示词直接转化为实时画布上的UI，是Pencil的现代替代品。",
-      "tags": [
-        "ai-design",
-        "vector",
-        "rust",
-        "design-tool",
-        "agent"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-30T04:23:40.193Z",
+      "category": "AI",
+      "enrichedAt": "2026-08-30T04:23:37.682Z",
       "deepwikiAvailable": false
     },
     {
@@ -264,7 +180,7 @@
       "description": "dev tools, env vars, task runner",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 33219,
+      "stars": 33231,
       "forks": 1402,
       "starsToday": 2009,
       "topics": [],
@@ -286,14 +202,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "microsandbox",
+      "fullName": "superradcompany/microsandbox",
+      "url": "https://github.com/superradcompany/microsandbox",
+      "description": "🧱 easy fast local-first microVM runtime and library",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8016,
+      "forks": 420,
+      "starsToday": 962,
+      "topics": [],
+      "author": {
+        "name": "superradcompany",
+        "avatar": "https://avatars.githubusercontent.com/u/20358651?s=40&amp;v=4",
+        "url": "https://github.com/superradcompany"
+      },
+      "summary": "基于Rust的轻量级本地优先microVM运行时与库，提供快速、易用的虚拟机沙箱能力，适合安全隔离与边缘计算场景。",
+      "tags": [
+        "rust",
+        "microvm",
+        "sandbox",
+        "runtime",
+        "virtualization"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:20:29.390Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5731,
+      "forks": 498,
+      "starsToday": 1258,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "全球首个开源AI原生矢量设计工具，支持并发Agent团队协作，以Design-as-Code理念将提示词直接转化为实时画布上的UI，是Pencil的现代替代品。",
+      "tags": [
+        "ai-design",
+        "vector",
+        "rust",
+        "design-tool",
+        "agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T04:23:40.193Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "nautilus_trader",
       "fullName": "nautechsystems/nautilus_trader",
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 28110,
-      "forks": 3634,
+      "stars": 28139,
+      "forks": 3642,
       "starsToday": 3069,
       "topics": [],
       "author": {
@@ -314,31 +286,87 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "vaultwarden",
-      "fullName": "dani-garcia/vaultwarden",
-      "url": "https://github.com/dani-garcia/vaultwarden",
-      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "name": "gpui-component",
+      "fullName": "longbridge/gpui-component",
+      "url": "https://github.com/longbridge/gpui-component",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 66479,
-      "forks": 3166,
-      "starsToday": 2028,
+      "stars": 13618,
+      "forks": 825,
+      "starsToday": 1340,
       "topics": [],
       "author": {
-        "name": "dani-garcia",
-        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
-        "url": "https://github.com/dani-garcia"
+        "name": "longbridge",
+        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
+        "url": "https://github.com/longbridge"
       },
-      "summary": "用 Rust 编写的非官方 Bitwarden 兼容密码管理服务器，可自托管部署，功能完整且轻量高效，是开源密码管理的主流选择。",
+      "summary": "基于 GPUI 的 Rust 跨平台桌面 GUI 组件库，提供丰富的高质量组件，帮助开发者快速构建美观的桌面应用。",
       "tags": [
         "rust",
-        "password-manager",
+        "gui",
+        "desktop",
+        "components",
+        "cross-platform"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-30T04:23:38.818Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jcode",
+      "fullName": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most RAM efficient harness",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18819,
+      "forks": 2147,
+      "starsToday": 5717,
+      "topics": [],
+      "author": {
+        "name": "1jehuang",
+        "avatar": "https://avatars.githubusercontent.com/u/94247773?s=40&amp;v=4",
+        "url": "https://github.com/1jehuang"
+      },
+      "summary": "用Rust编写的高效测试执行框架，主打极低内存占用，为大规模并发测试场景优化资源利用。",
+      "tags": [
+        "rust",
+        "testing",
+        "harness",
+        "memory",
+        "performance"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T04:23:39.268Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 122150,
+      "forks": 18723,
+      "starsToday": 3252,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源自托管的远程桌面工具，TeamViewer 替代品，支持跨平台使用，Rust 编写，性能出色且完全掌控数据。",
+      "tags": [
+        "remote-desktop",
         "self-hosted",
-        "bitwarden",
-        "server"
+        "rust",
+        "cross-platform",
+        "opensource"
       ],
       "category": "App",
-      "enrichedAt": "2026-08-30T04:23:40.755Z",
+      "enrichedAt": "2026-08-30T04:23:39.052Z",
       "deepwikiAvailable": false
     },
     {
@@ -348,8 +376,8 @@
       "description": "Extremely fast Query Engine for DataFrames, written in Rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 39547,
-      "forks": 3067,
+      "stars": 39552,
+      "forks": 3068,
       "starsToday": 472,
       "topics": [],
       "author": {
@@ -376,7 +404,7 @@
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7909,
+      "stars": 7916,
       "forks": 1513,
       "starsToday": 303,
       "topics": [],
@@ -395,6 +423,34 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-08-30T04:23:41.434Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vaultwarden",
+      "fullName": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 66494,
+      "forks": 3167,
+      "starsToday": 2028,
+      "topics": [],
+      "author": {
+        "name": "dani-garcia",
+        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
+        "url": "https://github.com/dani-garcia"
+      },
+      "summary": "用 Rust 编写的非官方 Bitwarden 兼容密码管理服务器，可自托管部署，功能完整且轻量高效，是开源密码管理的主流选择。",
+      "tags": [
+        "rust",
+        "password-manager",
+        "self-hosted",
+        "bitwarden",
+        "server"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-30T04:23:40.755Z",
       "deepwikiAvailable": false
     },
     {
@@ -423,6 +479,90 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-08-30T04:23:41.858Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rio",
+      "fullName": "raphamorim/rio",
+      "url": "https://github.com/raphamorim/rio",
+      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7430,
+      "forks": 340,
+      "starsToday": 347,
+      "topics": [],
+      "author": {
+        "name": "raphamorim",
+        "avatar": "https://avatars.githubusercontent.com/u/3630346?s=40&amp;v=4",
+        "url": "https://github.com/raphamorim"
+      },
+      "summary": "基于Rust的GPU硬件加速终端模拟器，支持桌面端和浏览器运行，提供高性能渲染体验。",
+      "tags": [
+        "terminal",
+        "gpu",
+        "rust",
+        "web",
+        "emulator"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T04:23:42.878Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pnpm",
+      "fullName": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36318,
+      "forks": 1678,
+      "starsToday": 440,
+      "topics": [],
+      "author": {
+        "name": "pnpm",
+        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
+        "url": "https://github.com/pnpm"
+      },
+      "summary": "pnpm 是一个快速且节省磁盘空间的包管理器，采用内容寻址存储实现依赖全局共享，支持 npm 生态，安装速度远超 npm 和 yarn。",
+      "tags": [
+        "package-manager",
+        "nodejs",
+        "rust",
+        "npm",
+        "tooling"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T04:23:43.841Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fresh",
+      "fullName": "sinelaw/fresh",
+      "url": "https://github.com/sinelaw/fresh",
+      "description": "Terminal based IDE & text editor: easy, powerful and fast",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8580,
+      "forks": 319,
+      "starsToday": 627,
+      "topics": [],
+      "author": {
+        "name": "sinelaw",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/sinelaw"
+      },
+      "summary": "基于终端的IDE与文本编辑器，用Rust编写，兼顾易用性、强大功能与高性能，提供轻量级开发体验。",
+      "tags": [
+        "rust",
+        "editor",
+        "ide",
+        "terminal",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T14:20:29.649Z",
       "deepwikiAvailable": false
     },
     {
@@ -482,34 +622,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "rio",
-      "fullName": "raphamorim/rio",
-      "url": "https://github.com/raphamorim/rio",
-      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7423,
-      "forks": 339,
-      "starsToday": 347,
-      "topics": [],
-      "author": {
-        "name": "raphamorim",
-        "avatar": "https://avatars.githubusercontent.com/u/3630346?s=40&amp;v=4",
-        "url": "https://github.com/raphamorim"
-      },
-      "summary": "基于Rust的GPU硬件加速终端模拟器，支持桌面端和浏览器运行，提供高性能渲染体验。",
-      "tags": [
-        "terminal",
-        "gpu",
-        "rust",
-        "web",
-        "emulator"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-30T04:23:42.878Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "firecracker",
       "fullName": "firecracker-microvm/firecracker",
       "url": "https://github.com/firecracker-microvm/firecracker",
@@ -535,34 +647,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-08-30T04:23:43.198Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pnpm",
-      "fullName": "pnpm/pnpm",
-      "url": "https://github.com/pnpm/pnpm",
-      "description": "Fast, disk space efficient package manager",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 36314,
-      "forks": 1679,
-      "starsToday": 440,
-      "topics": [],
-      "author": {
-        "name": "pnpm",
-        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
-        "url": "https://github.com/pnpm"
-      },
-      "summary": "pnpm 是一个快速且节省磁盘空间的包管理器，采用内容寻址存储实现依赖全局共享，支持 npm 生态，安装速度远超 npm 和 yarn。",
-      "tags": [
-        "package-manager",
-        "nodejs",
-        "rust",
-        "npm",
-        "tooling"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-30T04:23:43.841Z",
       "deepwikiAvailable": false
     }
   ]

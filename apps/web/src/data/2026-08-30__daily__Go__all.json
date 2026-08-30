@@ -2,9 +2,93 @@
   "date": "2026-08-30",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-08-30T04:21:24.091Z",
-  "enrichedAt": "2026-08-30T04:22:09.937Z",
+  "fetchedAt": "2026-08-30T14:19:09.322Z",
+  "enrichedAt": "2026-08-30T14:19:51.089Z",
   "repos": [
+    {
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10061,
+      "forks": 869,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
+      },
+      "summary": "命令行工具，可从 App Store 搜索并下载 iOS、iPadOS、tvOS 和 visionOS 的 ipa 应用安装包，用 Go 编写，简单高效。",
+      "tags": [
+        "ios",
+        "appstore",
+        "cli",
+        "golang",
+        "ipa"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-30T14:19:45.601Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentsview",
+      "fullName": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5628,
+      "forks": 633,
+      "starsToday": 185,
+      "topics": [],
+      "author": {
+        "name": "kenn-io",
+        "avatar": "https://avatars.githubusercontent.com/u/329591?s=40&amp;v=4",
+        "url": "https://github.com/kenn-io"
+      },
+      "summary": "本地优先的编码智能体会话搜索与分析工具，支持Claude Code、Codex等20多种智能体，提供会话检索、洞察和token用量统计。",
+      "tags": [
+        "local-first",
+        "analytics",
+        "coding-agents",
+        "go",
+        "token-stats"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T14:19:45.526Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "witr",
+      "fullName": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21925,
+      "forks": 763,
+      "starsToday": 134,
+      "topics": [],
+      "author": {
+        "name": "pranshuparmar",
+        "avatar": "https://avatars.githubusercontent.com/u/4262592?s=40&amp;v=4",
+        "url": "https://github.com/pranshuparmar"
+      },
+      "summary": "进程溯源工具，通过CLI和TUI界面追踪任意进程、端口、容器或文件是由什么启动的，快速解答\"为什么它在运行\"。",
+      "tags": [
+        "process-tracing",
+        "cli",
+        "tui",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T14:19:45.630Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "tailcat",
       "fullName": "tailscale/tailcat",
@@ -12,9 +96,9 @@
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3629,
-      "forks": 110,
-      "starsToday": 789,
+      "stars": 4025,
+      "forks": 122,
+      "starsToday": 891,
       "topics": [],
       "author": {
         "name": "tailscale",
@@ -31,6 +115,508 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-08-30T04:22:03.257Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "1Panel",
+      "fullName": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36726,
+      "forks": 3318,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "1Panel-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/31820853?s=40&amp;v=4",
+        "url": "https://github.com/1Panel-dev"
+      },
+      "summary": "1Panel 是一款现代化开源 Linux 服务器管理面板，同时提供轻量级 AI 管理平台，支持网站、数据库、容器等一站式运维管理。",
+      "tags": [
+        "server-panel",
+        "linux",
+        "devops",
+        "ai-platform",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T14:19:45.672Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "router",
+      "fullName": "workweave/router",
+      "url": "https://github.com/workweave/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2998,
+      "forks": 84,
+      "starsToday": 284,
+      "topics": [],
+      "author": {
+        "name": "workweave",
+        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
+        "url": "https://github.com/workweave"
+      },
+      "summary": "面向智能体系统的模型路由器，50ms内将每个提示路由到最合适的模型，仅需更换端点即可降低40-70%成本，用Go编写。",
+      "tags": [
+        "model-router",
+        "llm",
+        "cost-optimization",
+        "go",
+        "agentic"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T04:22:03.371Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35803,
+      "forks": 3132,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于WireGuard的零配置VPN工具，支持2FA认证，让设备跨网络安全组网，部署简单且开源免费。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T04:22:09.937Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bubbletea",
+      "fullName": "charmbracelet/bubbletea",
+      "url": "https://github.com/charmbracelet/bubbletea",
+      "description": "A powerful little TUI framework 🏗",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 44691,
+      "forks": 1306,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "charmbracelet",
+        "avatar": "https://avatars.githubusercontent.com/u/3187948?s=40&amp;v=4",
+        "url": "https://github.com/charmbracelet"
+      },
+      "summary": "Go 语言编写的轻量级终端 UI 框架，提供优雅的组件模型和弹性布局，帮助开发者快速构建交互式命令行应用。",
+      "tags": [
+        "tui",
+        "go",
+        "terminal",
+        "framework",
+        "cli"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-30T14:19:47.370Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6079,
+      "forks": 703,
+      "starsToday": 40,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "用Go构建的AI代理框架，提供轻量级、可扩展的智能体开发能力，支持自定义工具与工作流编排，适合快速搭建AI应用。",
+      "tags": [
+        "ai-agent",
+        "go",
+        "framework",
+        "workflow"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-30T04:22:08.649Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "picoclaw",
+      "fullName": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29917,
+      "forks": 4442,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "sipeed",
+        "avatar": "https://avatars.githubusercontent.com/u/10548612?s=40&amp;v=4",
+        "url": "https://github.com/sipeed"
+      },
+      "summary": "基于Go的轻量级自动化工具，体积小、速度快、可随处部署，帮助用户自动化繁琐任务并释放创造力。",
+      "tags": [
+        "automation",
+        "go",
+        "cli",
+        "lightweight",
+        "deployable"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-30T14:19:47.094Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "indicator",
+      "fullName": "cinar/indicator",
+      "url": "https://github.com/cinar/indicator",
+      "description": "Indicator Go delivers a rich set of technical analysis indicators, customizable strategies, and a powerful backtesting framework. No dependencies, just pure simplicity. ✨ See how! 👀",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1596,
+      "forks": 244,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "cinar",
+        "avatar": "https://avatars.githubusercontent.com/u/1754092?s=40&amp;v=4",
+        "url": "https://github.com/cinar"
+      },
+      "summary": "Go 编写的技术分析指标库，内置丰富指标、可定制策略和强大的回测框架，零依赖，简洁易用。",
+      "tags": [
+        "go",
+        "trading",
+        "backtesting",
+        "technical-analysis",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-30T04:22:05.725Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "komari",
+      "fullName": "komari-monitor/komari",
+      "url": "https://github.com/komari-monitor/komari",
+      "description": "A simple server monitor tool.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6021,
+      "forks": 574,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "komari-monitor",
+        "avatar": "https://avatars.githubusercontent.com/u/64686663?s=40&amp;v=4",
+        "url": "https://github.com/komari-monitor"
+      },
+      "summary": "基于Go的轻量级服务器监控工具，界面简洁，功能实用，支持实时查看服务器运行状态与资源指标。",
+      "tags": [
+        "server-monitor",
+        "go",
+        "monitoring",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T14:19:47.032Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenList",
+      "fullName": "OpenListTeam/OpenList",
+      "url": "https://github.com/OpenListTeam/OpenList",
+      "description": "A new AList Fork to Anti Trust Crisis",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24393,
+      "forks": 2240,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "OpenListTeam",
+        "avatar": "https://avatars.githubusercontent.com/u/36558727?s=40&amp;v=4",
+        "url": "https://github.com/OpenListTeam"
+      },
+      "summary": "AList 的分叉项目，旨在应对信任危机，提供开源文件列表与分享服务，支持多存储后端，社区驱动持续活跃开发。",
+      "tags": [
+        "alist",
+        "file-sharing",
+        "self-hosted",
+        "go",
+        "storage"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-30T14:19:47.327Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-zero",
+      "fullName": "zeromicro/go-zero",
+      "url": "https://github.com/zeromicro/go-zero",
+      "description": "A cloud-native Go microservices framework with cli tool for productivity.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33289,
+      "forks": 4318,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "zeromicro",
+        "avatar": "https://avatars.githubusercontent.com/u/1918356?s=40&amp;v=4",
+        "url": "https://github.com/zeromicro"
+      },
+      "summary": "云原生Go微服务框架，内置CLI工具提升开发效率，提供高可用、高性能的微服务构建能力，社区活跃。",
+      "tags": [
+        "microservices",
+        "go",
+        "cloud-native",
+        "framework",
+        "cli"
+      ],
+      "category": "Framework",
+      "enrichedAt": "2026-08-30T14:19:48.356Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 125574,
+      "forks": 43944,
+      "starsToday": 249,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes是生产级容器编排与调度平台，提供自动化部署、扩缩容和管理容器化应用的核心基础设施，是云原生生态的基石。",
+      "tags": [
+        "kubernetes",
+        "container",
+        "orchestration",
+        "cloud-native",
+        "infrastructure"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:19:48.963Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudflared",
+      "fullName": "cloudflare/cloudflared",
+      "url": "https://github.com/cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15437,
+      "forks": 1415,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare官方Tunnel客户端，通过安全隧道将本地服务暴露到公网，无需开放端口，支持任意协议，自带DNS与访问策略管理。",
+      "tags": [
+        "tunnel",
+        "cloudflare",
+        "networking",
+        "proxy",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:19:48.833Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vikunja",
+      "fullName": "go-vikunja/vikunja",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "description": "The task manager you actually own.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5209,
+      "forks": 650,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "go-vikunja",
+        "avatar": "https://avatars.githubusercontent.com/u/13721712?s=40&amp;v=4",
+        "url": "https://github.com/go-vikunja"
+      },
+      "summary": "Vikunja 是一个用 Go 编写的开源任务管理工具，支持自托管，提供多用户、看板、列表和日历视图，让用户完全掌控自己的数据。",
+      "tags": [
+        "task-manager",
+        "self-hosted",
+        "go",
+        "productivity",
+        "kanban"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-30T14:19:49.022Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19192,
+      "forks": 1953,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "谷歌开源的容器应用内核，为容器提供安全隔离的用户态内核层，增强沙箱安全性，兼容Linux系统调用。",
+      "tags": [
+        "container",
+        "kernel",
+        "sandbox",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:19:49.766Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37384,
+      "forks": 4496,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，支持多种协议与平台，高性能、可配置性强，广泛用于网络代理与翻墙场景，Go语言编写。",
+      "tags": [
+        "proxy",
+        "network",
+        "vpn",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:19:50.412Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "loki",
+      "fullName": "grafana/loki",
+      "url": "https://github.com/grafana/loki",
+      "description": "Like Prometheus, but for logs.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28809,
+      "forks": 4097,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "Grafana Loki 是受 Prometheus 启发的水平可扩展、高可用的日志聚合系统，专为日志数据设计，支持多租户和高效存储，与 Grafana 深度集成。",
+      "tags": [
+        "logging",
+        "observability",
+        "grafana",
+        "prometheus",
+        "distributed"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:19:50.533Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bettercap",
+      "fullName": "bettercap/bettercap",
+      "url": "https://github.com/bettercap/bettercap",
+      "description": "The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19909,
+      "forks": 1716,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "bettercap",
+        "avatar": "https://avatars.githubusercontent.com/u/86922?s=40&amp;v=4",
+        "url": "https://github.com/bettercap"
+      },
+      "summary": "功能强大的网络侦察与中间人攻击框架，支持802.11、蓝牙、HID、CAN总线及IPv4/IPv6，模块化插件架构，适合渗透测试与安全研究。",
+      "tags": [
+        "security",
+        "pentesting",
+        "mitm",
+        "networking",
+        "wifi"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-30T14:19:50.470Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5050,
+      "forks": 526,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的 Agentic Workflows 工具，用 Go 编写，帮助开发者构建和运行基于 GitHub 的智能代理工作流，实现自动化开发任务。",
+      "tags": [
+        "github",
+        "agentic",
+        "workflow",
+        "automation",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T14:19:51.088Z",
       "deepwikiAvailable": false
     },
     {
@@ -58,34 +644,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-08-30T04:22:03.068Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "router",
-      "fullName": "workweave/router",
-      "url": "https://github.com/workweave/router",
-      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2822,
-      "forks": 78,
-      "starsToday": 284,
-      "topics": [],
-      "author": {
-        "name": "workweave",
-        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
-        "url": "https://github.com/workweave"
-      },
-      "summary": "面向智能体系统的模型路由器，50ms内将每个提示路由到最合适的模型，仅需更换端点即可降低40-70%成本，用Go编写。",
-      "tags": [
-        "model-router",
-        "llm",
-        "cost-optimization",
-        "go",
-        "agentic"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-30T04:22:03.371Z",
       "deepwikiAvailable": false
     },
     {
@@ -227,34 +785,6 @@
       ],
       "category": "Security",
       "enrichedAt": "2026-08-30T04:22:04.544Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "indicator",
-      "fullName": "cinar/indicator",
-      "url": "https://github.com/cinar/indicator",
-      "description": "Indicator Go delivers a rich set of technical analysis indicators, customizable strategies, and a powerful backtesting framework. No dependencies, just pure simplicity. ✨ See how! 👀",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1563,
-      "forks": 240,
-      "starsToday": 69,
-      "topics": [],
-      "author": {
-        "name": "cinar",
-        "avatar": "https://avatars.githubusercontent.com/u/1754092?s=40&amp;v=4",
-        "url": "https://github.com/cinar"
-      },
-      "summary": "Go 编写的技术分析指标库，内置丰富指标、可定制策略和强大的回测框架，零依赖，简洁易用。",
-      "tags": [
-        "go",
-        "trading",
-        "backtesting",
-        "technical-analysis",
-        "library"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-08-30T04:22:05.725Z",
       "deepwikiAvailable": false
     },
     {
@@ -482,33 +1012,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gentle-ai",
-      "fullName": "Gentleman-Programming/gentle-ai",
-      "url": "https://github.com/Gentleman-Programming/gentle-ai",
-      "description": "",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6068,
-      "forks": 701,
-      "starsToday": 40,
-      "topics": [],
-      "author": {
-        "name": "Gentleman-Programming",
-        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
-        "url": "https://github.com/Gentleman-Programming"
-      },
-      "summary": "用Go构建的AI代理框架，提供轻量级、可扩展的智能体开发能力，支持自定义工具与工作流编排，适合快速搭建AI应用。",
-      "tags": [
-        "ai-agent",
-        "go",
-        "framework",
-        "workflow"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-08-30T04:22:08.649Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "waveterm",
       "fullName": "wavetermdev/waveterm",
       "url": "https://github.com/wavetermdev/waveterm",
@@ -590,34 +1093,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-08-30T04:22:09.796Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "tailscale",
-      "fullName": "tailscale/tailscale",
-      "url": "https://github.com/tailscale/tailscale",
-      "description": "The easiest, most secure way to use WireGuard and 2FA.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 35780,
-      "forks": 3130,
-      "starsToday": 61,
-      "topics": [],
-      "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
-      },
-      "summary": "基于WireGuard的零配置VPN工具，支持2FA认证，让设备跨网络安全组网，部署简单且开源免费。",
-      "tags": [
-        "vpn",
-        "wireguard",
-        "networking",
-        "security",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-30T04:22:09.937Z",
       "deepwikiAvailable": false
     }
   ]

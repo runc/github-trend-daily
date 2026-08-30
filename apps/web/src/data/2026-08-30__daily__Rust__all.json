@@ -2,9 +2,455 @@
   "date": "2026-08-30",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-08-30T04:21:24.091Z",
-  "enrichedAt": "2026-08-30T04:22:17.004Z",
+  "fetchedAt": "2026-08-30T14:19:09.322Z",
+  "enrichedAt": "2026-08-30T14:19:58.103Z",
   "repos": [
+    {
+      "name": "helix",
+      "fullName": "helix-editor/helix",
+      "url": "https://github.com/helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 46017,
+      "forks": 3709,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "helix-editor",
+        "avatar": "https://avatars.githubusercontent.com/u/1372918?s=40&amp;v=4",
+        "url": "https://github.com/helix-editor"
+      },
+      "summary": "基于Rust的后现代模态文本编辑器，内置LSP支持、树状选择和多光标编辑，性能出色且开箱即用。",
+      "tags": [
+        "editor",
+        "rust",
+        "modal",
+        "terminal",
+        "lsp"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T14:19:52.869Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "datafusion",
+      "fullName": "apache/datafusion",
+      "url": "https://github.com/apache/datafusion",
+      "description": "Apache DataFusion SQL Query Engine",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9252,
+      "forks": 2361,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/490673?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache 数据融合 SQL 查询引擎，基于 Rust 构建的分布式内存查询框架，支持 SQL 解析、优化与执行，可嵌入或作为独立服务运行。",
+      "tags": [
+        "sql",
+        "query-engine",
+        "rust",
+        "apache",
+        "data-processing"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-08-30T14:19:52.982Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruffle",
+      "fullName": "ruffle-rs/ruffle",
+      "url": "https://github.com/ruffle-rs/ruffle",
+      "description": "A Flash Player emulator written in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18477,
+      "forks": 1079,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "ruffle-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/108736?s=40&amp;v=4",
+        "url": "https://github.com/ruffle-rs"
+      },
+      "summary": "用 Rust 编写的 Flash Player 模拟器，可在现代浏览器和桌面端运行旧版 SWF 文件，致力于完整还原 Flash 体验。",
+      "tags": [
+        "flash",
+        "emulator",
+        "rust",
+        "wasm",
+        "web"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-30T14:19:52.676Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "librespot",
+      "fullName": "librespot-org/librespot",
+      "url": "https://github.com/librespot-org/librespot",
+      "description": "Open Source Spotify client library",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6994,
+      "forks": 868,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "librespot-org",
+        "avatar": "https://avatars.githubusercontent.com/u/113727?s=40&amp;v=4",
+        "url": "https://github.com/librespot-org"
+      },
+      "summary": "开源Spotify客户端库，用Rust实现，可播放Spotify音乐流，支持多种音频后端和离线缓存，适合嵌入式与桌面应用集成。",
+      "tags": [
+        "spotify",
+        "rust",
+        "music",
+        "audio",
+        "client"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-08-30T14:19:52.976Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iggy",
+      "fullName": "apache/iggy",
+      "url": "https://github.com/apache/iggy",
+      "description": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4609,
+      "forks": 388,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/5490304?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Iggy 是一个用 Rust 编写的高性能消息流平台，主打极速消息传输，支持持久化流式数据，性能卓越，适合大规模实时数据管道场景。",
+      "tags": [
+        "rust",
+        "message-streaming",
+        "high-performance",
+        "apache",
+        "realtime"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:19:54.766Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "celld",
+      "fullName": "denoland/celld",
+      "url": "https://github.com/denoland/celld",
+      "description": "self-hosted, distributed Durable Objects",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4364,
+      "forks": 148,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "denoland",
+        "avatar": "https://avatars.githubusercontent.com/u/80?s=40&amp;v=4",
+        "url": "https://github.com/denoland"
+      },
+      "summary": "Deno 推出的自托管分布式持久化对象（Durable Objects）运行时，用 Rust 实现，提供跨节点持久状态与协调能力，适合构建分布式有状态应用。",
+      "tags": [
+        "durable-objects",
+        "distributed",
+        "rust",
+        "self-hosted",
+        "runtime"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:19:54.405Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "warp",
+      "fullName": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 64656,
+      "forks": 5489,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "warpdotdev",
+        "avatar": "https://avatars.githubusercontent.com/u/260729474?s=40&amp;v=4",
+        "url": "https://github.com/warpdotdev"
+      },
+      "summary": "Warp 是一款基于终端打造的智能体开发环境，用 Rust 编写，提供 AI 辅助的现代化终端体验，支持智能命令补全、协作与工作流自动化。",
+      "tags": [
+        "terminal",
+        "agentic",
+        "rust",
+        "ai",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T04:22:14.030Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "delta",
+      "fullName": "dandavison/delta",
+      "url": "https://github.com/dandavison/delta",
+      "description": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32002,
+      "forks": 566,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "dandavison",
+        "avatar": "https://avatars.githubusercontent.com/u/52205?s=40&amp;v=4",
+        "url": "https://github.com/dandavison"
+      },
+      "summary": "用Rust编写的语法高亮分页器，为git、diff、grep、rg和blame输出提供美观的着色与排版，极大提升命令行代码阅读体验。",
+      "tags": [
+        "git",
+        "pager",
+        "syntax-highlighting",
+        "diff",
+        "cli",
+        "rust"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-30T04:22:15.493Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coreutils",
+      "fullName": "uutils/coreutils",
+      "url": "https://github.com/uutils/coreutils",
+      "description": "Cross-platform Rust rewrite of the GNU coreutils",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24002,
+      "forks": 2014,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "uutils",
+        "avatar": "https://avatars.githubusercontent.com/u/733326?s=40&amp;v=4",
+        "url": "https://github.com/uutils"
+      },
+      "summary": "用Rust跨平台重写GNU coreutils，提供更安全、可移植的Unix命令行工具集，兼容主流命令并持续完善中。",
+      "tags": [
+        "rust",
+        "coreutils",
+        "cli",
+        "cross-platform"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-30T14:19:54.858Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openinterpreter",
+      "fullName": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 68200,
+      "forks": 5871,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "openinterpreter",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openinterpreter"
+      },
+      "summary": "面向Kimi K3等开放模型的编码智能体，支持自然语言驱动代码生成与执行，用Rust重写，性能与稳定性大幅提升。",
+      "tags": [
+        "coding-agent",
+        "rust",
+        "llm",
+        "open-source",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-30T14:19:54.851Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fish-shell",
+      "fullName": "fish-shell/fish-shell",
+      "url": "https://github.com/fish-shell/fish-shell",
+      "description": "The user-friendly command line shell.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 34096,
+      "forks": 2360,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "fish-shell",
+        "avatar": "https://avatars.githubusercontent.com/u/920838?s=40&amp;v=4",
+        "url": "https://github.com/fish-shell"
+      },
+      "summary": "fish-shell 是一款用户友好的命令行 shell，以智能自动补全、语法高亮和易用性著称，采用 Rust 重写，深受开发者喜爱。",
+      "tags": [
+        "shell",
+        "cli",
+        "rust",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-30T14:19:55.976Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30676,
+      "forks": 2767,
+      "starsToday": 73,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "Handy 是一款免费开源的离线语音转文字应用，基于 Rust 构建，完全本地运行，支持扩展，无需联网即可实现高质量语音识别。",
+      "tags": [
+        "speech-to-text",
+        "offline",
+        "rust",
+        "open-source",
+        "voice-recognition"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-30T14:19:56.593Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 116648,
+      "forks": 15478,
+      "starsToday": 315,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust编程语言官方仓库，提供内存安全、高性能的系统编程语言编译器与标准库，赋能开发者构建可靠高效的软件。",
+      "tags": [
+        "rust",
+        "compiler",
+        "programming-language",
+        "systems"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-08-30T14:19:56.299Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 14809,
+      "forks": 591,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "Harper 是一款离线、隐私优先的语法检查器，基于 Rust 构建，开源且速度快，无需联网即可提供本地语法纠错服务。",
+      "tags": [
+        "grammar-checker",
+        "rust",
+        "offline",
+        "privacy",
+        "open-source"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-30T14:19:56.659Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BitFun",
+      "fullName": "GCWing/BitFun",
+      "url": "https://github.com/GCWing/BitFun",
+      "description": "BitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1869,
+      "forks": 211,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "GCWing",
+        "avatar": "https://avatars.githubusercontent.com/u/84692569?s=40&amp;v=4",
+        "url": "https://github.com/GCWing"
+      },
+      "summary": "BitFun 将 Rust 编写的高性能代理运行时与精美桌面应用结合，兼具代码代理深度与通用工作能力，适用于软件开发之外的多种场景。",
+      "tags": [
+        "rust",
+        "agent",
+        "desktop",
+        "ai",
+        "code-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-08-30T14:19:57.663Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "meilisearch",
+      "fullName": "meilisearch/meilisearch",
+      "url": "https://github.com/meilisearch/meilisearch",
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 59135,
+      "forks": 2692,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "meilisearch",
+        "avatar": "https://avatars.githubusercontent.com/u/3610253?s=40&amp;v=4",
+        "url": "https://github.com/meilisearch"
+      },
+      "summary": "闪电般快速的搜索API引擎，为网站和应用提供AI驱动的混合搜索能力，支持全文搜索与语义搜索结合，性能卓越且易于部署。",
+      "tags": [
+        "search-engine",
+        "rust",
+        "hybrid-search",
+        "ai",
+        "api"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-30T14:19:58.102Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "worktrunk",
       "fullName": "max-sixty/worktrunk",
@@ -258,34 +704,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "warp",
-      "fullName": "warpdotdev/warp",
-      "url": "https://github.com/warpdotdev/warp",
-      "description": "Warp is an agentic development environment, born out of the terminal.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 64639,
-      "forks": 5489,
-      "starsToday": 37,
-      "topics": [],
-      "author": {
-        "name": "warpdotdev",
-        "avatar": "https://avatars.githubusercontent.com/u/260729474?s=40&amp;v=4",
-        "url": "https://github.com/warpdotdev"
-      },
-      "summary": "Warp 是一款基于终端打造的智能体开发环境，用 Rust 编写，提供 AI 辅助的现代化终端体验，支持智能命令补全、协作与工作流自动化。",
-      "tags": [
-        "terminal",
-        "agentic",
-        "rust",
-        "ai",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-30T04:22:14.030Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "vite-plus",
       "fullName": "voidzero-dev/vite-plus",
       "url": "https://github.com/voidzero-dev/vite-plus",
@@ -423,35 +841,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-08-30T04:22:15.752Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "delta",
-      "fullName": "dandavison/delta",
-      "url": "https://github.com/dandavison/delta",
-      "description": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31984,
-      "forks": 566,
-      "starsToday": 64,
-      "topics": [],
-      "author": {
-        "name": "dandavison",
-        "avatar": "https://avatars.githubusercontent.com/u/52205?s=40&amp;v=4",
-        "url": "https://github.com/dandavison"
-      },
-      "summary": "用Rust编写的语法高亮分页器，为git、diff、grep、rg和blame输出提供美观的着色与排版，极大提升命令行代码阅读体验。",
-      "tags": [
-        "git",
-        "pager",
-        "syntax-highlighting",
-        "diff",
-        "cli",
-        "rust"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-08-30T04:22:15.493Z",
       "deepwikiAvailable": false
     },
     {
