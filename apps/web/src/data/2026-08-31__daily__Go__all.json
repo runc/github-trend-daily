@@ -2,8 +2,8 @@
   "date": "2026-08-31",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-08-31T04:26:18.818Z",
-  "enrichedAt": "2026-08-31T04:27:11.780Z",
+  "fetchedAt": "2026-08-31T16:50:07.417Z",
+  "enrichedAt": "2026-08-31T16:50:45.517Z",
   "repos": [
     {
       "name": "ipatool",
@@ -12,9 +12,9 @@
       "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 10281,
-      "forks": 885,
-      "starsToday": 58,
+      "stars": 10448,
+      "forks": 891,
+      "starsToday": 376,
       "topics": [],
       "author": {
         "name": "majd",
@@ -34,15 +34,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "no-mistakes",
+      "fullName": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8191,
+      "forks": 831,
+      "starsToday": 217,
+      "topics": [],
+      "author": {
+        "name": "kunchenguid",
+        "avatar": "https://avatars.githubusercontent.com/u/3233006?s=40&amp;v=4",
+        "url": "https://github.com/kunchenguid"
+      },
+      "summary": "用Go编写的Git辅助工具，在push前自动检查常见错误，防止误提交，提升开发效率。",
+      "tags": [
+        "git",
+        "cli",
+        "go",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-31T16:50:42.419Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35877,
+      "forks": 3146,
+      "starsToday": 70,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于WireGuard的零配置VPN工具，提供安全组网、2FA认证和跨设备连接，是最简单安全的远程网络解决方案。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-31T04:27:05.746Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "agentsview",
       "fullName": "kenn-io/agentsview",
       "url": "https://github.com/kenn-io/agentsview",
       "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5657,
-      "forks": 638,
-      "starsToday": 142,
+      "stars": 5677,
+      "forks": 646,
+      "starsToday": 45,
       "topics": [],
       "author": {
         "name": "kenn-io",
@@ -59,6 +114,369 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-08-31T04:27:03.961Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "router",
+      "fullName": "workweave/router",
+      "url": "https://github.com/workweave/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3268,
+      "forks": 87,
+      "starsToday": 248,
+      "topics": [],
+      "author": {
+        "name": "workweave",
+        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
+        "url": "https://github.com/workweave"
+      },
+      "summary": "面向智能体系统的模型路由器，50ms内将每个提示词路由到最合适的模型，仅需更换端点即可降低40-70%成本，用Go编写。",
+      "tags": [
+        "model-router",
+        "llm",
+        "cost-optimization",
+        "go",
+        "agentic"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-31T04:27:05.391Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37442,
+      "forks": 4503,
+      "starsToday": 60,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，基于Go开发，支持多种协议和平台，提供灵活的路由规则与配置，是高性能的跨平台网络代理工具。",
+      "tags": [
+        "proxy",
+        "vpn",
+        "go",
+        "network",
+        "cross-platform"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-31T04:27:10.116Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailcat",
+      "fullName": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4623,
+      "forks": 152,
+      "starsToday": 510,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "类似 netcat 的工具，但通过 Tailscale 数据平面传输，无需其控制平面，实现基于 Tailnet 身份验证的轻量网络连接。",
+      "tags": [
+        "netcat",
+        "tailscale",
+        "networking",
+        "go",
+        "vpn"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-31T04:27:04.305Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "headscale",
+      "fullName": "juanfont/headscale",
+      "url": "https://github.com/juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43377,
+      "forks": 2546,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "juanfont",
+        "avatar": "https://avatars.githubusercontent.com/u/98431?s=40&amp;v=4",
+        "url": "https://github.com/juanfont"
+      },
+      "summary": "开源自托管的 Tailscale 控制服务器实现，用 Go 编写，可替代官方协调服务，支持自建私有网络、多节点管理和 ACL 策略，广受自托管社区欢迎。",
+      "tags": [
+        "tailscale",
+        "vpn",
+        "self-hosted",
+        "networking",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-31T16:50:43.595Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MasterDnsVPN",
+      "fullName": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6943,
+      "forks": 807,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "masterking32",
+        "avatar": "https://avatars.githubusercontent.com/u/1076030?s=40&amp;v=4",
+        "url": "https://github.com/masterking32"
+      },
+      "summary": "基于Go的先进DNS隧道VPN，用于绕过网络审查，优化DNSTT和SlipStream，支持低开销ARQ、解析器负载均衡，在高丢包环境下保持稳定与高速。",
+      "tags": [
+        "dns-tunnel",
+        "vpn",
+        "censorship-bypass",
+        "go",
+        "network"
+      ],
+      "category": "Network",
+      "enrichedAt": "2026-08-31T16:50:42.500Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23012,
+      "forks": 853,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "用Go编写的现代化终端文件管理器，界面精美时尚，支持多面板浏览、快捷键操作和丰富的自定义主题，提升终端文件管理体验。",
+      "tags": [
+        "file-manager",
+        "terminal",
+        "go",
+        "tui",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-08-31T16:50:42.911Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "phoneinfoga",
+      "fullName": "sundowndev/phoneinfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17716,
+      "forks": 5721,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "sundowndev",
+        "avatar": "https://avatars.githubusercontent.com/u/16480203?s=40&amp;v=4",
+        "url": "https://github.com/sundowndev"
+      },
+      "summary": "基于Go的号码信息收集框架，支持全球号码格式解析、运营商识别及多源OSINT情报聚合，适合安全研究与侦查场景。",
+      "tags": [
+        "osint",
+        "phone",
+        "recon",
+        "security",
+        "go"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-08-31T16:50:44.093Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WiiUDownloader",
+      "fullName": "Xpl0itU/WiiUDownloader",
+      "url": "https://github.com/Xpl0itU/WiiUDownloader",
+      "description": "Cross-platform Wii U NUS downloader for Windows, macOS & Linux. No title keys needed. Alternative to Wii U USB Helper.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2062,
+      "forks": 67,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "Xpl0itU",
+        "avatar": "https://avatars.githubusercontent.com/u/24777100?s=40&amp;v=4",
+        "url": "https://github.com/Xpl0itU"
+      },
+      "summary": "跨平台Wii U游戏下载工具，支持Windows、macOS和Linux，无需标题密钥即可从NUS下载游戏，是Wii U USB Helper的开源替代品。",
+      "tags": [
+        "wii-u",
+        "downloader",
+        "gaming",
+        "cross-platform",
+        "go"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-08-31T16:50:43.857Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "awg-manager",
+      "fullName": "hoaxisr/awg-manager",
+      "url": "https://github.com/hoaxisr/awg-manager",
+      "description": "AmneziaWG tunnel manager with web interface for Keenetic routers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 563,
+      "forks": 39,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "hoaxisr",
+        "avatar": "https://avatars.githubusercontent.com/u/205931037?s=40&amp;v=4",
+        "url": "https://github.com/hoaxisr"
+      },
+      "summary": "面向Keenetic路由器的AmneziaWG隧道管理器，提供Web界面，基于Go开发，简化VPN隧道配置与管理。",
+      "tags": [
+        "vpn",
+        "router",
+        "go",
+        "tunnel",
+        "web-ui"
+      ],
+      "category": "Network",
+      "enrichedAt": "2026-08-31T16:50:44.252Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15501,
+      "forks": 1687,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
+      },
+      "summary": "开源自托管邮件服务器，集邮件收发、新闻通讯和营销邮件于一体，开发者友好且免月费，基于Go构建。",
+      "tags": [
+        "mailserver",
+        "self-hosted",
+        "newsletter",
+        "email-marketing",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-31T16:50:45.367Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anubis",
+      "fullName": "TecharoHQ/anubis",
+      "url": "https://github.com/TecharoHQ/anubis",
+      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21958,
+      "forks": 699,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "TecharoHQ",
+        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
+        "url": "https://github.com/TecharoHQ"
+      },
+      "summary": "用工作量证明机制拦截AI爬虫的Go代理服务，通过计算请求\"灵魂重量\"来区分人类与机器人，保护网站免受AI抓取。",
+      "tags": [
+        "ai-crawler",
+        "proof-of-work",
+        "proxy",
+        "go",
+        "anti-bot"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-08-31T16:50:45.468Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "picoclaw",
+      "fullName": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29917,
+      "forks": 4462,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "sipeed",
+        "avatar": "https://avatars.githubusercontent.com/u/10548612?s=40&amp;v=4",
+        "url": "https://github.com/sipeed"
+      },
+      "summary": "基于Go的轻量级自动化工具，体积小、速度快、可随处部署，帮助用户自动化日常琐事并释放创造力。",
+      "tags": [
+        "automation",
+        "go",
+        "cli",
+        "lightweight"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-31T04:27:06.641Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opencode",
+      "fullName": "opencode-ai/opencode",
+      "url": "https://github.com/opencode-ai/opencode",
+      "description": "A powerful AI coding agent. Built for the terminal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13710,
+      "forks": 1817,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "opencode-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/14311743?s=40&amp;v=4",
+        "url": "https://github.com/opencode-ai"
+      },
+      "summary": "基于Go构建的终端AI编程代理，功能强大，支持在命令行中完成代码生成、编辑与执行等任务，为开发者提供高效的AI辅助编码体验。",
+      "tags": [
+        "ai-agent",
+        "coding",
+        "cli",
+        "terminal",
+        "golang"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-08-31T16:50:45.517Z",
       "deepwikiAvailable": false
     },
     {
@@ -90,34 +508,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "tailcat",
-      "fullName": "tailscale/tailcat",
-      "url": "https://github.com/tailscale/tailcat",
-      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4387,
-      "forks": 144,
-      "starsToday": 841,
-      "topics": [],
-      "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
-      },
-      "summary": "类似 netcat 的工具，但通过 Tailscale 数据平面传输，无需其控制平面，实现基于 Tailnet 身份验证的轻量网络连接。",
-      "tags": [
-        "netcat",
-        "tailscale",
-        "networking",
-        "go",
-        "vpn"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-08-31T04:27:04.305Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "1Panel",
       "fullName": "1Panel-dev/1Panel",
       "url": "https://github.com/1Panel-dev/1Panel",
@@ -143,62 +533,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-08-31T04:27:05.196Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "router",
-      "fullName": "workweave/router",
-      "url": "https://github.com/workweave/router",
-      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3140,
-      "forks": 86,
-      "starsToday": 464,
-      "topics": [],
-      "author": {
-        "name": "workweave",
-        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
-        "url": "https://github.com/workweave"
-      },
-      "summary": "面向智能体系统的模型路由器，50ms内将每个提示词路由到最合适的模型，仅需更换端点即可降低40-70%成本，用Go编写。",
-      "tags": [
-        "model-router",
-        "llm",
-        "cost-optimization",
-        "go",
-        "agentic"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-31T04:27:05.391Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "tailscale",
-      "fullName": "tailscale/tailscale",
-      "url": "https://github.com/tailscale/tailscale",
-      "description": "The easiest, most secure way to use WireGuard and 2FA.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 35836,
-      "forks": 3141,
-      "starsToday": 58,
-      "topics": [],
-      "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
-      },
-      "summary": "基于WireGuard的零配置VPN工具，提供安全组网、2FA认证和跨设备连接，是最简单安全的远程网络解决方案。",
-      "tags": [
-        "vpn",
-        "wireguard",
-        "networking",
-        "security",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-31T04:27:05.746Z",
       "deepwikiAvailable": false
     },
     {
@@ -254,33 +588,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-08-31T04:27:06.719Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "picoclaw",
-      "fullName": "sipeed/picoclaw",
-      "url": "https://github.com/sipeed/picoclaw",
-      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 29919,
-      "forks": 4451,
-      "starsToday": 3,
-      "topics": [],
-      "author": {
-        "name": "sipeed",
-        "avatar": "https://avatars.githubusercontent.com/u/10548612?s=40&amp;v=4",
-        "url": "https://github.com/sipeed"
-      },
-      "summary": "基于Go的轻量级自动化工具，体积小、速度快、可随处部署，帮助用户自动化日常琐事并释放创造力。",
-      "tags": [
-        "automation",
-        "go",
-        "cli",
-        "lightweight"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-08-31T04:27:06.641Z",
       "deepwikiAvailable": false
     },
     {
@@ -504,34 +811,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-08-31T04:27:10.008Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sing-box",
-      "fullName": "SagerNet/sing-box",
-      "url": "https://github.com/SagerNet/sing-box",
-      "description": "The universal proxy platform",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 37406,
-      "forks": 4498,
-      "starsToday": 30,
-      "topics": [],
-      "author": {
-        "name": "SagerNet",
-        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
-        "url": "https://github.com/SagerNet"
-      },
-      "summary": "通用代理平台，基于Go开发，支持多种协议和平台，提供灵活的路由规则与配置，是高性能的跨平台网络代理工具。",
-      "tags": [
-        "proxy",
-        "vpn",
-        "go",
-        "network",
-        "cross-platform"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-08-31T04:27:10.116Z",
       "deepwikiAvailable": false
     },
     {
