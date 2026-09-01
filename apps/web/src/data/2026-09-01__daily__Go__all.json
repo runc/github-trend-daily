@@ -2,9 +2,205 @@
   "date": "2026-09-01",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-01T04:09:44.047Z",
-  "enrichedAt": "2026-09-01T04:10:31.477Z",
+  "fetchedAt": "2026-09-01T13:59:58.486Z",
+  "enrichedAt": "2026-09-01T14:00:53.244Z",
   "repos": [
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37494,
+      "forks": 4508,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，基于Go语言构建，支持多种协议和平台，提供高性能、可配置的代理解决方案，是SagerNet系列的核心引擎。",
+      "tags": [
+        "proxy",
+        "network",
+        "go",
+        "vpn",
+        "clash"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T04:10:26.798Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11581,
+      "forks": 1081,
+      "starsToday": 113,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "腾讯开源的轻量级AI智能体沙箱，支持即时启动、高并发、安全隔离，为AI Agent提供快速可靠的运行环境。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "security",
+        "go",
+        "isolation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T14:00:46.071Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1693,
+      "forks": 285,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 是AI代理核心系统，基于Go构建，提供代理运行的基础框架与基础设施，支持构建和部署自主智能体。",
+      "tags": [
+        "ai-agent",
+        "go",
+        "framework",
+        "infrastructure"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-01T14:00:46.236Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21115,
+      "forks": 3047,
+      "starsToday": 67,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的LLM知识平台，将原始文档转化为可查询的RAG、自主推理智能体及自维护Wiki，支持知识管理与智能问答。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge",
+        "agent",
+        "wiki"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-01T14:00:46.372Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anubis",
+      "fullName": "TecharoHQ/anubis",
+      "url": "https://github.com/TecharoHQ/anubis",
+      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22017,
+      "forks": 700,
+      "starsToday": 107,
+      "topics": [],
+      "author": {
+        "name": "TecharoHQ",
+        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
+        "url": "https://github.com/TecharoHQ"
+      },
+      "summary": "用工作量证明机制拦截AI爬虫的Go代理服务，通过给HTTP请求施加计算成本来过滤自动化流量，保护网站免受AI抓取。",
+      "tags": [
+        "go",
+        "anti-bot",
+        "proxy",
+        "ai-crawler",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T04:10:30.079Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CPA-Manager-Plus",
+      "fullName": "seakee/CPA-Manager-Plus",
+      "url": "https://github.com/seakee/CPA-Manager-Plus",
+      "description": "A self-hosted CPA / CLIProxyAPI management panel and AI gateway observability dashboard for requests, usage, cost, quota, failures, and account health.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3030,
+      "forks": 318,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "seakee",
+        "avatar": "https://avatars.githubusercontent.com/u/7602294?s=40&amp;v=4",
+        "url": "https://github.com/seakee"
+      },
+      "summary": "自托管的CPA/CLI代理API管理面板与AI网关可观测性仪表盘，支持请求、用量、成本、配额、失败监控及账户健康状态追踪。",
+      "tags": [
+        "cpa",
+        "ai-gateway",
+        "observability",
+        "self-hosted",
+        "dashboard",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:46.458Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semaphore",
+      "fullName": "semaphoreui/semaphore",
+      "url": "https://github.com/semaphoreui/semaphore",
+      "description": "Modern UI and powerful API for Ansible, Terraform/OpenTofu/Terragrunt, PowerShell and other DevOps tools.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14084,
+      "forks": 1297,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "semaphoreui",
+        "avatar": "https://avatars.githubusercontent.com/u/914224?s=40&amp;v=4",
+        "url": "https://github.com/semaphoreui"
+      },
+      "summary": "为Ansible、Terraform、PowerShell等DevOps工具提供现代UI和强大API的开源自动化管理平台，支持任务调度、部署与团队协作。",
+      "tags": [
+        "devops",
+        "ansible",
+        "terraform",
+        "automation",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:48.210Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "ipatool",
       "fullName": "majd/ipatool",
@@ -12,9 +208,9 @@
       "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 10599,
-      "forks": 897,
-      "starsToday": 373,
+      "stars": 10714,
+      "forks": 902,
+      "starsToday": 304,
       "topics": [],
       "author": {
         "name": "majd",
@@ -34,14 +230,321 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "lego",
+      "fullName": "go-acme/lego",
+      "url": "https://github.com/go-acme/lego",
+      "description": "Let's Encrypt/ACME client and library written in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9845,
+      "forks": 1163,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "go-acme",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/go-acme"
+      },
+      "summary": "用Go编写的Let's Encrypt/ACME客户端和库，支持自动化申请、续期和管理SSL证书，提供CLI和可嵌入的编程接口。",
+      "tags": [
+        "acme",
+        "ssl",
+        "letsencrypt",
+        "go",
+        "certificate"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:48.529Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lazygit",
+      "fullName": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 81854,
+      "forks": 3010,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "jesseduffield",
+        "avatar": "https://avatars.githubusercontent.com/u/8456633?s=40&amp;v=4",
+        "url": "https://github.com/jesseduffield"
+      },
+      "summary": "基于终端的Git图形界面工具，提供直观的交互式操作，让开发者无需记忆复杂命令即可高效管理Git仓库。",
+      "tags": [
+        "git",
+        "tui",
+        "terminal",
+        "productivity",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-01T14:00:48.779Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Fabric",
+      "fullName": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43697,
+      "forks": 4247,
+      "starsToday": 94,
+      "topics": [],
+      "author": {
+        "name": "danielmiessler",
+        "avatar": "https://avatars.githubusercontent.com/u/50654?s=40&amp;v=4",
+        "url": "https://github.com/danielmiessler"
+      },
+      "summary": "开源AI增强框架，提供模块化系统，通过众包AI提示词解决特定问题，可随处使用，帮助人类借助AI提升效率。",
+      "tags": [
+        "ai",
+        "framework",
+        "prompts",
+        "open-source",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-01T14:00:48.616Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "v2",
+      "fullName": "miniflux/v2",
+      "url": "https://github.com/miniflux/v2",
+      "description": "Minimalist and opinionated feed reader",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9638,
+      "forks": 924,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "miniflux",
+        "avatar": "https://avatars.githubusercontent.com/u/323546?s=40&amp;v=4",
+        "url": "https://github.com/miniflux"
+      },
+      "summary": "极简且注重隐私的RSS阅读器，基于Go构建，支持自托管、多平台客户端和丰富的订阅管理功能，界面清爽无广告。",
+      "tags": [
+        "rss",
+        "feed-reader",
+        "self-hosted",
+        "go"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-01T14:00:50.413Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26777,
+      "forks": 1807,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 为编码代理提供记忆升级，通过 Go 实现持久化上下文管理，让 AI 编码助手跨会话记住项目状态与决策，提升开发效率。",
+      "tags": [
+        "memory",
+        "coding-agent",
+        "go",
+        "context",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:50.886Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5688,
+      "forks": 897,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用Go编写的Google Maps数据抓取工具，可提取地点名称、地址、电话、网站、评分、评论、经纬度、邮箱等信息，支持批量采集。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "go",
+        "data-extraction",
+        "web-scraping"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:50.912Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CyberStrikeAI",
+      "fullName": "Ed1s0nZ/CyberStrikeAI",
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "description": "The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6185,
+      "forks": 998,
+      "starsToday": 106,
+      "topics": [],
+      "author": {
+        "name": "Ed1s0nZ",
+        "avatar": "https://avatars.githubusercontent.com/u/83812544?s=40&amp;v=4",
+        "url": "https://github.com/Ed1s0nZ"
+      },
+      "summary": "AI原生网络安全行动系统，将意图转化为受治理的执行，把证据沉淀为可操作记忆，让每次安全操作持续优化下一次，用Go构建。",
+      "tags": [
+        "cybersecurity",
+        "ai-agent",
+        "go",
+        "security-automation",
+        "governance"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-01T14:00:51.034Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "headscale",
+      "fullName": "juanfont/headscale",
+      "url": "https://github.com/juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43428,
+      "forks": 2548,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "juanfont",
+        "avatar": "https://avatars.githubusercontent.com/u/98431?s=40&amp;v=4",
+        "url": "https://github.com/juanfont"
+      },
+      "summary": "开源自托管的 Tailscale 控制服务器实现，用 Go 编写，让用户完全掌控自己的 VPN 协调基础设施，无需依赖官方云服务。",
+      "tags": [
+        "tailscale",
+        "vpn",
+        "self-hosted",
+        "go",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T04:10:27.494Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 137090,
+      "forks": 19338,
+      "starsToday": 249,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 编程语言官方仓库，包含编译器、运行时和标准库，以简洁高效著称，支持并发编程，是云原生和基础设施领域的核心语言。",
+      "tags": [
+        "golang",
+        "compiler",
+        "programming-language",
+        "runtime",
+        "standard-library"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-09-01T14:00:52.768Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "memos",
+      "fullName": "usememos/memos",
+      "url": "https://github.com/usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 62704,
+      "forks": 4711,
+      "starsToday": 44,
+      "topics": [],
+      "author": {
+        "name": "usememos",
+        "avatar": "https://avatars.githubusercontent.com/u/24653555?s=40&amp;v=4",
+        "url": "https://github.com/usememos"
+      },
+      "summary": "开源自托管的轻量笔记工具，支持Markdown快速记录，数据完全自主掌控，界面简洁响应快，适合个人知识管理。",
+      "tags": [
+        "notes",
+        "self-hosted",
+        "markdown",
+        "privacy",
+        "go"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-01T14:00:53.025Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 125913,
+      "forks": 43980,
+      "starsToday": 314,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和容器集群管理能力，是云原生生态的核心基础设施。",
+      "tags": [
+        "kubernetes",
+        "container",
+        "orchestration",
+        "cloud-native",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T14:00:53.244Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "no-mistakes",
       "fullName": "kunchenguid/no-mistakes",
       "url": "https://github.com/kunchenguid/no-mistakes",
       "description": "git push no-mistakes",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8209,
-      "forks": 832,
+      "stars": 8232,
+      "forks": 834,
       "starsToday": 236,
       "topics": [],
       "author": {
@@ -146,34 +649,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "sing-box",
-      "fullName": "SagerNet/sing-box",
-      "url": "https://github.com/SagerNet/sing-box",
-      "description": "The universal proxy platform",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 37465,
-      "forks": 4506,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "SagerNet",
-        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
-        "url": "https://github.com/SagerNet"
-      },
-      "summary": "通用代理平台，基于Go语言构建，支持多种协议和平台，提供高性能、可配置的代理解决方案，是SagerNet系列的核心引擎。",
-      "tags": [
-        "proxy",
-        "network",
-        "go",
-        "vpn",
-        "clash"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-01T04:10:26.798Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "tailcat",
       "fullName": "tailscale/tailcat",
       "url": "https://github.com/tailscale/tailcat",
@@ -199,34 +674,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-09-01T04:10:26.790Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "headscale",
-      "fullName": "juanfont/headscale",
-      "url": "https://github.com/juanfont/headscale",
-      "description": "An open source, self-hosted implementation of the Tailscale control server",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 43395,
-      "forks": 2547,
-      "starsToday": 43,
-      "topics": [],
-      "author": {
-        "name": "juanfont",
-        "avatar": "https://avatars.githubusercontent.com/u/98431?s=40&amp;v=4",
-        "url": "https://github.com/juanfont"
-      },
-      "summary": "开源自托管的 Tailscale 控制服务器实现，用 Go 编写，让用户完全掌控自己的 VPN 协调基础设施，无需依赖官方云服务。",
-      "tags": [
-        "tailscale",
-        "vpn",
-        "self-hosted",
-        "go",
-        "networking"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-01T04:10:27.494Z",
       "deepwikiAvailable": false
     },
     {
@@ -395,34 +842,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-01T04:10:29.827Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "anubis",
-      "fullName": "TecharoHQ/anubis",
-      "url": "https://github.com/TecharoHQ/anubis",
-      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 21986,
-      "forks": 699,
-      "starsToday": 107,
-      "topics": [],
-      "author": {
-        "name": "TecharoHQ",
-        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
-        "url": "https://github.com/TecharoHQ"
-      },
-      "summary": "用工作量证明机制拦截AI爬虫的Go代理服务，通过给HTTP请求施加计算成本来过滤自动化流量，保护网站免受AI抓取。",
-      "tags": [
-        "go",
-        "anti-bot",
-        "proxy",
-        "ai-crawler",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-01T04:10:30.079Z",
       "deepwikiAvailable": false
     },
     {

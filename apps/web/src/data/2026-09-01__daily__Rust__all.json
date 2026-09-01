@@ -2,8 +2,8 @@
   "date": "2026-09-01",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-01T04:09:44.047Z",
-  "enrichedAt": "2026-09-01T04:10:36.175Z",
+  "fetchedAt": "2026-09-01T13:59:58.486Z",
+  "enrichedAt": "2026-09-01T14:01:00.127Z",
   "repos": [
     {
       "name": "pdf-inspector",
@@ -12,9 +12,9 @@
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 17451,
-      "forks": 1203,
-      "starsToday": 228,
+      "stars": 17717,
+      "forks": 1214,
+      "starsToday": 545,
       "topics": [],
       "author": {
         "name": "firecrawl",
@@ -34,15 +34,295 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 78168,
+      "forks": 4928,
+      "starsToday": 155,
+      "topics": [],
+      "author": {
+        "name": "rtk-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
+        "url": "https://github.com/rtk-ai"
+      },
+      "summary": "Rust 编写的 CLI 代理，可将常见开发命令的 LLM token 消耗降低 60-90%，单二进制零依赖，轻量高效。",
+      "tags": [
+        "llm",
+        "cli",
+        "rust",
+        "proxy",
+        "optimization"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:55.540Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "firecracker",
+      "fullName": "firecracker-microvm/firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "description": "Secure and fast microVMs for serverless computing.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36417,
+      "forks": 2590,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "firecracker-microvm",
+        "avatar": "https://avatars.githubusercontent.com/u/115481277?s=40&amp;v=4",
+        "url": "https://github.com/firecracker-microvm"
+      },
+      "summary": "Firecracker 是 AWS 开源的轻量级安全微虚拟机，专为无服务器计算设计，毫秒级启动、极低内存开销，基于 Rust 构建。",
+      "tags": [
+        "microvm",
+        "serverless",
+        "rust",
+        "virtualization",
+        "aws"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T14:00:55.430Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iggy",
+      "fullName": "apache/iggy",
+      "url": "https://github.com/apache/iggy",
+      "description": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4721,
+      "forks": 403,
+      "starsToday": 85,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/5490304?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Iggy：基于Rust的超高效消息流平台，主打激光级速度与低延迟，支持持久化流式传输、多协议接入，适合高吞吐实时数据场景。",
+      "tags": [
+        "rust",
+        "message-streaming",
+        "low-latency",
+        "apache",
+        "high-throughput"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T14:00:55.702Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rig",
+      "fullName": "0xPlaygrounds/rig",
+      "url": "https://github.com/0xPlaygrounds/rig",
+      "description": "⚙️🦀 Build modular and scalable LLM Applications in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8481,
+      "forks": 947,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "0xPlaygrounds",
+        "avatar": "https://avatars.githubusercontent.com/u/157451540?s=40&amp;v=4",
+        "url": "https://github.com/0xPlaygrounds"
+      },
+      "summary": "基于Rust构建模块化、可扩展的LLM应用框架，提供高性能、类型安全的AI开发体验，支持多种模型提供商和工具链。",
+      "tags": [
+        "rust",
+        "llm",
+        "ai-framework",
+        "modular"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-01T14:00:55.604Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "meetily",
+      "fullName": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30195,
+      "forks": 3255,
+      "starsToday": 44,
+      "topics": [],
+      "author": {
+        "name": "Zackriya-Solutions",
+        "avatar": "https://avatars.githubusercontent.com/u/85450497?s=40&amp;v=4",
+        "url": "https://github.com/Zackriya-Solutions"
+      },
+      "summary": "隐私优先的AI会议助手，基于Rust构建，支持4倍速实时转录、说话人分离和本地Ollama摘要，100%本地处理无需云端，支持macOS与Windows。",
+      "tags": [
+        "meeting-assistant",
+        "privacy",
+        "rust",
+        "transcription",
+        "self-hosted",
+        "ai"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-01T14:00:57.613Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "workmux",
+      "fullName": "raine/workmux",
+      "url": "https://github.com/raine/workmux",
+      "description": "git worktrees + tmux windows for zero-friction parallel dev",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2336,
+      "forks": 315,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "raine",
+        "avatar": "https://avatars.githubusercontent.com/u/11027?s=40&amp;v=4",
+        "url": "https://github.com/raine"
+      },
+      "summary": "用Rust编写的开发工具，将git worktrees与tmux窗口结合，实现零摩擦的并行开发工作流，大幅提升多分支切换效率。",
+      "tags": [
+        "git",
+        "tmux",
+        "worktree",
+        "rust",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:57.552Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "servo",
+      "fullName": "servo/servo",
+      "url": "https://github.com/servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37867,
+      "forks": 3776,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "servo",
+        "avatar": "https://avatars.githubusercontent.com/u/1323194?s=40&amp;v=4",
+        "url": "https://github.com/servo"
+      },
+      "summary": "Servo 是 Mozilla 发起的开源浏览器引擎，用 Rust 编写，主打轻量高性能，可嵌入应用实现 Web 技术渲染，是 Firefox 引擎的替代方案。",
+      "tags": [
+        "browser-engine",
+        "rust",
+        "web-rendering",
+        "embedding",
+        "open-source"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-01T14:00:57.827Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8471,
+      "forks": 1253,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 推出的开源安全运行时，为自主 AI 智能体提供隔离、私密的执行环境，基于 Rust 构建，强调安全与隐私保护。",
+      "tags": [
+        "ai-agents",
+        "security",
+        "rust",
+        "runtime",
+        "sandbox"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-01T14:00:57.924Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 130527,
+      "forks": 8963,
+      "starsToday": 189,
+      "topics": [],
+      "author": {
+        "name": "farion1231",
+        "avatar": "https://avatars.githubusercontent.com/u/44939412?s=40&amp;v=4",
+        "url": "https://github.com/farion1231"
+      },
+      "summary": "跨平台桌面一体化助手，统一管理 Claude Code、Codex、OpenCode 等多个 AI 编码工具，提供便捷切换与集中控制能力。",
+      "tags": [
+        "rust",
+        "desktop",
+        "ai-assistant",
+        "cross-platform",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:59.759Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openresearch-cli",
+      "fullName": "alphaXiv/openresearch-cli",
+      "url": "https://github.com/alphaXiv/openresearch-cli",
+      "description": "Run parallel research agents with any model",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 621,
+      "forks": 46,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "alphaXiv",
+        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
+        "url": "https://github.com/alphaXiv"
+      },
+      "summary": "用Rust编写的开源命令行工具，支持并行运行多个研究代理，可搭配任意AI模型，大幅提升研究效率。",
+      "tags": [
+        "research",
+        "cli",
+        "rust",
+        "agents",
+        "ai"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-01T04:10:34.375Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "stalwart",
       "fullName": "stalwartlabs/stalwart",
       "url": "https://github.com/stalwartlabs/stalwart",
       "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14453,
-      "forks": 916,
-      "starsToday": 27,
+      "stars": 14457,
+      "forks": 917,
+      "starsToday": 23,
       "topics": [],
       "author": {
         "name": "stalwartlabs",
@@ -60,6 +340,90 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-01T04:10:33.211Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbt-core",
+      "fullName": "dbt-labs/dbt-core",
+      "url": "https://github.com/dbt-labs/dbt-core",
+      "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13759,
+      "forks": 2543,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "dbt-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/1541139?s=40&amp;v=4",
+        "url": "https://github.com/dbt-labs"
+      },
+      "summary": "dbt核心仓库，让数据分析师和工程师用软件工程实践转换数据，支持SQL转换、测试、文档化与CI/CD工作流，是数据工程领域最流行的ELT工具。",
+      "tags": [
+        "data",
+        "elt",
+        "analytics",
+        "sql",
+        "transformation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:00:59.870Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fff",
+      "fullName": "dmtrKovalenko/fff",
+      "url": "https://github.com/dmtrKovalenko/fff",
+      "description": "The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C, Python, Bun and NodeJS",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10346,
+      "forks": 434,
+      "starsToday": 70,
+      "topics": [],
+      "author": {
+        "name": "dmtrKovalenko",
+        "avatar": "https://avatars.githubusercontent.com/u/16926049?s=40&amp;v=4",
+        "url": "https://github.com/dmtrKovalenko"
+      },
+      "summary": "基于Rust的高性能文件搜索SDK，为AI智能体、Neovim及多种语言提供极速精准的文件查找能力。",
+      "tags": [
+        "file-search",
+        "rust",
+        "sdk",
+        "ai-agents",
+        "neovim"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:01:00.025Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 122327,
+      "forks": 18760,
+      "starsToday": 97,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自托管，作为TeamViewer的替代方案，基于Rust编写，跨平台且注重隐私与安全。",
+      "tags": [
+        "remote-desktop",
+        "self-hosted",
+        "rust",
+        "cross-platform",
+        "teamviewer-alternative"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-01T14:01:00.127Z",
       "deepwikiAvailable": false
     },
     {
@@ -200,34 +564,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-01T04:10:34.543Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openresearch-cli",
-      "fullName": "alphaXiv/openresearch-cli",
-      "url": "https://github.com/alphaXiv/openresearch-cli",
-      "description": "Run parallel research agents with any model",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 595,
-      "forks": 46,
-      "starsToday": 63,
-      "topics": [],
-      "author": {
-        "name": "alphaXiv",
-        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
-        "url": "https://github.com/alphaXiv"
-      },
-      "summary": "用Rust编写的开源命令行工具，支持并行运行多个研究代理，可搭配任意AI模型，大幅提升研究效率。",
-      "tags": [
-        "research",
-        "cli",
-        "rust",
-        "agents",
-        "ai"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-01T04:10:34.375Z",
       "deepwikiAvailable": false
     },
     {

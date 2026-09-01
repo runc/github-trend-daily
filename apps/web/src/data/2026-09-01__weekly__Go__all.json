@@ -2,8 +2,8 @@
   "date": "2026-09-01",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-09-01T04:09:44.047Z",
-  "enrichedAt": "2026-09-01T04:11:13.300Z",
+  "fetchedAt": "2026-09-01T13:59:58.486Z",
+  "enrichedAt": "2026-09-01T14:01:25.807Z",
   "repos": [
     {
       "name": "hister",
@@ -12,8 +12,8 @@
       "description": "Your own search engine",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3463,
-      "forks": 155,
+      "stars": 3509,
+      "forks": 159,
       "starsToday": 936,
       "topics": [],
       "author": {
@@ -34,70 +34,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "3x-ui",
-      "fullName": "MHSanaei/3x-ui",
-      "url": "https://github.com/MHSanaei/3x-ui",
-      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 45656,
-      "forks": 10364,
-      "starsToday": 492,
-      "topics": [],
-      "author": {
-        "name": "MHSanaei",
-        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
-        "url": "https://github.com/MHSanaei"
-      },
-      "summary": "基于Xray的现代化多协议代理面板，支持Vmess、Vless、Trojan、Shadowsocks等十余种协议，提供Web管理界面、多用户管理和流量统计，部署简单功能强大。",
-      "tags": [
-        "proxy",
-        "vpn",
-        "panel",
-        "xray",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-01T04:11:06.324Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "milvus",
-      "fullName": "milvus-io/milvus",
-      "url": "https://github.com/milvus-io/milvus",
-      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 45911,
-      "forks": 4212,
-      "starsToday": 154,
-      "topics": [],
-      "author": {
-        "name": "milvus-io",
-        "avatar": "https://avatars.githubusercontent.com/u/84113973?s=40&amp;v=4",
-        "url": "https://github.com/milvus-io"
-      },
-      "summary": "Milvus 是一款高性能云原生向量数据库，专为大规模向量近似最近邻搜索而设计，支持海量向量数据的存储与毫秒级检索。",
-      "tags": [
-        "vector-database",
-        "ann-search",
-        "cloud-native",
-        "go",
-        "ai-infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-01T04:11:06.532Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "router",
       "fullName": "workweave/router",
       "url": "https://github.com/workweave/router",
       "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3371,
-      "forks": 92,
+      "stars": 3447,
+      "forks": 96,
       "starsToday": 2304,
       "topics": [],
       "author": {
@@ -118,14 +62,210 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10714,
+      "forks": 902,
+      "starsToday": 658,
+      "topics": [],
+      "author": {
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
+      },
+      "summary": "ipatool 是一个用 Go 编写的命令行工具，可从 App Store 搜索并下载 iOS、iPadOS、tvOS 和 visionOS 的 ipa 应用安装包，方便开发者获取应用包文件。",
+      "tags": [
+        "cli",
+        "app-store",
+        "ios",
+        "golang",
+        "downloader"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-01T14:01:23.229Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anubis",
+      "fullName": "TecharoHQ/anubis",
+      "url": "https://github.com/TecharoHQ/anubis",
+      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22017,
+      "forks": 700,
+      "starsToday": 340,
+      "topics": [],
+      "author": {
+        "name": "TecharoHQ",
+        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
+        "url": "https://github.com/TecharoHQ"
+      },
+      "summary": "用Go编写的反向代理，通过工作量证明挑战来识别并拦截AI爬虫流量，保护网站免受自动化抓取，同时不影响真实用户访问。",
+      "tags": [
+        "go",
+        "anti-bot",
+        "proxy",
+        "ai-crawler",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T14:01:23.479Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37494,
+      "forks": 4508,
+      "starsToday": 276,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，支持多种协议与平台，高性能、可配置性强，是SagerNet系列的核心引擎，广受开发者与用户欢迎。",
+      "tags": [
+        "proxy",
+        "vpn",
+        "go",
+        "network",
+        "sing-box"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T14:01:23.469Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "glance",
+      "fullName": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36767,
+      "forks": 1440,
+      "starsToday": 210,
+      "topics": [],
+      "author": {
+        "name": "glanceapp",
+        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
+        "url": "https://github.com/glanceapp"
+      },
+      "summary": "自托管仪表盘，将新闻、天气、股票等所有信息源聚合到一个页面，支持高度自定义布局，轻量快速，是个人信息中心的理想选择。",
+      "tags": [
+        "dashboard",
+        "self-hosted",
+        "rss",
+        "go",
+        "monitoring"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-01T04:11:09.514Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "milvus",
+      "fullName": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45920,
+      "forks": 4215,
+      "starsToday": 154,
+      "topics": [],
+      "author": {
+        "name": "milvus-io",
+        "avatar": "https://avatars.githubusercontent.com/u/84113973?s=40&amp;v=4",
+        "url": "https://github.com/milvus-io"
+      },
+      "summary": "Milvus 是一款高性能云原生向量数据库，专为大规模向量近似最近邻搜索而设计，支持海量向量数据的存储与毫秒级检索。",
+      "tags": [
+        "vector-database",
+        "ann-search",
+        "cloud-native",
+        "go",
+        "ai-infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T04:11:06.532Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45691,
+      "forks": 10460,
+      "starsToday": 492,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于Xray的现代化多协议代理面板，支持Vmess、Vless、Trojan、Shadowsocks等十余种协议，提供Web管理界面、多用户管理和流量统计，部署简单功能强大。",
+      "tags": [
+        "proxy",
+        "vpn",
+        "panel",
+        "xray",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T04:11:06.324Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "certimate",
+      "fullName": "certimate-go/certimate",
+      "url": "https://github.com/certimate-go/certimate",
+      "description": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9223,
+      "forks": 891,
+      "starsToday": 153,
+      "topics": [],
+      "author": {
+        "name": "certimate-go",
+        "avatar": "https://avatars.githubusercontent.com/u/18504146?s=40&amp;v=4",
+        "url": "https://github.com/certimate-go"
+      },
+      "summary": "开源免费的自托管 SSL 证书 ACME 工具，可视化自动化证书申请、部署、续期和监控全流程，支持各大主流云厂商，基于 Go 构建。",
+      "tags": [
+        "ssl",
+        "acme",
+        "certificate",
+        "self-hosted",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T04:11:09.025Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "higress",
       "fullName": "higress-group/higress",
       "url": "https://github.com/higress-group/higress",
       "description": "🤖 AI Gateway | AI Native API Gateway",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 9258,
-      "forks": 1269,
+      "stars": 9265,
+      "forks": 1270,
       "starsToday": 80,
       "topics": [],
       "author": {
@@ -143,6 +283,287 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-01T04:11:07.778Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5472,
+      "forks": 878,
+      "starsToday": 196,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "可编程的混合模型路由器，用于异构LLM推理调度，支持按语义将请求路由到不同模型，提升推理效率与资源利用率。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "mixture-of-models"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T04:11:07.807Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21115,
+      "forks": 3047,
+      "starsToday": 546,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的LLM知识平台，将原始文档转化为可查询的RAG、自主推理代理和自维护Wiki，支持知识库全流程管理。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "wiki",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-01T04:11:09.098Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47006,
+      "forks": 11193,
+      "starsToday": 834,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，支持将多种LLM转换为OpenAI、Claude或Gemini兼容格式，提供模型聚合与分发能力，适用于个人和企业级模型管理。",
+      "tags": [
+        "llm-gateway",
+        "api-hub",
+        "model-aggregation",
+        "openai-compatible",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T04:11:08.837Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CPA-Manager-Plus",
+      "fullName": "seakee/CPA-Manager-Plus",
+      "url": "https://github.com/seakee/CPA-Manager-Plus",
+      "description": "A self-hosted CPA / CLIProxyAPI management panel and AI gateway observability dashboard for requests, usage, cost, quota, failures, and account health.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3030,
+      "forks": 318,
+      "starsToday": 167,
+      "topics": [],
+      "author": {
+        "name": "seakee",
+        "avatar": "https://avatars.githubusercontent.com/u/7602294?s=40&amp;v=4",
+        "url": "https://github.com/seakee"
+      },
+      "summary": "自托管的CPA/CLIProxyAPI管理面板与AI网关可观测性仪表盘，支持请求、用量、成本、配额、失败与账户健康监控。",
+      "tags": [
+        "self-hosted",
+        "dashboard",
+        "ai-gateway",
+        "observability",
+        "golang",
+        "proxy"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:01:23.349Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5077,
+      "forks": 530,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方推出的Agentic工作流工具，基于Go构建，让开发者通过智能代理自动化GitHub开发流程，提升协作与交付效率。",
+      "tags": [
+        "github",
+        "agentic",
+        "workflow",
+        "automation",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T04:11:10.214Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 57735,
+      "forks": 7086,
+      "starsToday": 183,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "Gitea 是一款轻量级自托管 Git 服务，提供代码托管、代码审查、团队协作、包管理及 CI/CD 一体化功能，是 GitHub 的开源替代方案。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "golang",
+        "code-hosting"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T04:11:12.281Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "1Panel",
+      "fullName": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36764,
+      "forks": 3326,
+      "starsToday": 139,
+      "topics": [],
+      "author": {
+        "name": "1Panel-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/31820853?s=40&amp;v=4",
+        "url": "https://github.com/1Panel-dev"
+      },
+      "summary": "1Panel 是一款现代化开源 Linux 服务器管理面板，同时集成轻量级 AI 管理平台，提供直观的 Web 界面进行服务器运维、应用部署与 AI 服务管理。",
+      "tags": [
+        "server-panel",
+        "linux",
+        "devops",
+        "ai-platform",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T04:11:10.992Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-sandbox",
+      "fullName": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3704,
+      "forks": 475,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/4876867?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubernetes SIG 推出的沙箱管理工具，用于轻松管理隔离、有状态、单例的工作负载，特别适合 AI 智能体运行时和强化学习等场景。",
+      "tags": [
+        "kubernetes",
+        "sandbox",
+        "ai-agents",
+        "workloads",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-01T14:01:25.374Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Fabric",
+      "fullName": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43697,
+      "forks": 4247,
+      "starsToday": 185,
+      "topics": [],
+      "author": {
+        "name": "danielmiessler",
+        "avatar": "https://avatars.githubusercontent.com/u/50654?s=40&amp;v=4",
+        "url": "https://github.com/danielmiessler"
+      },
+      "summary": "开源AI增强框架，通过众包AI提示词模块化解决具体问题，可在任何地方使用，帮助人类高效利用AI完成各类任务。",
+      "tags": [
+        "ai-framework",
+        "prompts",
+        "open-source",
+        "go",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-01T14:01:25.508Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentsview",
+      "fullName": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5705,
+      "forks": 648,
+      "starsToday": 461,
+      "topics": [],
+      "author": {
+        "name": "kenn-io",
+        "avatar": "https://avatars.githubusercontent.com/u/329591?s=40&amp;v=4",
+        "url": "https://github.com/kenn-io"
+      },
+      "summary": "本地优先的编程智能体会话搜索、分析与洞察工具，支持 Claude Code、Codex 等 20 多种智能体，提供 token 使用统计。",
+      "tags": [
+        "local-first",
+        "analytics",
+        "coding-agents",
+        "token-tracking",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-01T14:01:25.806Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,34 +595,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "semantic-router",
-      "fullName": "vllm-project/semantic-router",
-      "url": "https://github.com/vllm-project/semantic-router",
-      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5458,
-      "forks": 871,
-      "starsToday": 196,
-      "topics": [],
-      "author": {
-        "name": "vllm-project",
-        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
-        "url": "https://github.com/vllm-project"
-      },
-      "summary": "可编程的混合模型路由器，用于异构LLM推理调度，支持按语义将请求路由到不同模型，提升推理效率与资源利用率。",
-      "tags": [
-        "llm",
-        "router",
-        "inference",
-        "go",
-        "mixture-of-models"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-01T04:11:07.807Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "incus",
       "fullName": "lxc/incus",
       "url": "https://github.com/lxc/incus",
@@ -230,146 +623,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "new-api",
-      "fullName": "QuantumNous/new-api",
-      "url": "https://github.com/QuantumNous/new-api",
-      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 46948,
-      "forks": 11170,
-      "starsToday": 834,
-      "topics": [],
-      "author": {
-        "name": "QuantumNous",
-        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
-        "url": "https://github.com/QuantumNous"
-      },
-      "summary": "统一AI模型网关，支持将多种LLM转换为OpenAI、Claude或Gemini兼容格式，提供模型聚合与分发能力，适用于个人和企业级模型管理。",
-      "tags": [
-        "llm-gateway",
-        "api-hub",
-        "model-aggregation",
-        "openai-compatible",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-01T04:11:08.837Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "certimate",
-      "fullName": "certimate-go/certimate",
-      "url": "https://github.com/certimate-go/certimate",
-      "description": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 9214,
-      "forks": 890,
-      "starsToday": 153,
-      "topics": [],
-      "author": {
-        "name": "certimate-go",
-        "avatar": "https://avatars.githubusercontent.com/u/18504146?s=40&amp;v=4",
-        "url": "https://github.com/certimate-go"
-      },
-      "summary": "开源免费的自托管 SSL 证书 ACME 工具，可视化自动化证书申请、部署、续期和监控全流程，支持各大主流云厂商，基于 Go 构建。",
-      "tags": [
-        "ssl",
-        "acme",
-        "certificate",
-        "self-hosted",
-        "automation"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-01T04:11:09.025Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 21072,
-      "forks": 3038,
-      "starsToday": 546,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的LLM知识平台，将原始文档转化为可查询的RAG、自主推理代理和自维护Wiki，支持知识库全流程管理。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "wiki",
-        "agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-01T04:11:09.098Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "glance",
-      "fullName": "glanceapp/glance",
-      "url": "https://github.com/glanceapp/glance",
-      "description": "A self-hosted dashboard that puts all your feeds in one place",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 36763,
-      "forks": 1441,
-      "starsToday": 210,
-      "topics": [],
-      "author": {
-        "name": "glanceapp",
-        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
-        "url": "https://github.com/glanceapp"
-      },
-      "summary": "自托管仪表盘，将新闻、天气、股票等所有信息源聚合到一个页面，支持高度自定义布局，轻量快速，是个人信息中心的理想选择。",
-      "tags": [
-        "dashboard",
-        "self-hosted",
-        "rss",
-        "go",
-        "monitoring"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-01T04:11:09.514Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gh-aw",
-      "fullName": "github/gh-aw",
-      "url": "https://github.com/github/gh-aw",
-      "description": "GitHub Agentic Workflows",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5074,
-      "forks": 528,
-      "starsToday": 88,
-      "topics": [],
-      "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
-        "url": "https://github.com/github"
-      },
-      "summary": "GitHub官方推出的Agentic工作流工具，基于Go构建，让开发者通过智能代理自动化GitHub开发流程，提升协作与交付效率。",
-      "tags": [
-        "github",
-        "agentic",
-        "workflow",
-        "automation",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-01T04:11:10.214Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "containerd",
       "fullName": "containerd/containerd",
       "url": "https://github.com/containerd/containerd",
@@ -395,34 +648,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-01T04:11:10.438Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "1Panel",
-      "fullName": "1Panel-dev/1Panel",
-      "url": "https://github.com/1Panel-dev/1Panel",
-      "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 36754,
-      "forks": 3323,
-      "starsToday": 139,
-      "topics": [],
-      "author": {
-        "name": "1Panel-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/31820853?s=40&amp;v=4",
-        "url": "https://github.com/1Panel-dev"
-      },
-      "summary": "1Panel 是一款现代化开源 Linux 服务器管理面板，同时集成轻量级 AI 管理平台，提供直观的 Web 界面进行服务器运维、应用部署与 AI 服务管理。",
-      "tags": [
-        "server-panel",
-        "linux",
-        "devops",
-        "ai-platform",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-01T04:11:10.992Z",
       "deepwikiAvailable": false
     },
     {
@@ -507,34 +732,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-01T04:11:12.196Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gitea",
-      "fullName": "go-gitea/gitea",
-      "url": "https://github.com/go-gitea/gitea",
-      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 57720,
-      "forks": 7085,
-      "starsToday": 183,
-      "topics": [],
-      "author": {
-        "name": "go-gitea",
-        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
-        "url": "https://github.com/go-gitea"
-      },
-      "summary": "Gitea 是一款轻量级自托管 Git 服务，提供代码托管、代码审查、团队协作、包管理及 CI/CD 一体化功能，是 GitHub 的开源替代方案。",
-      "tags": [
-        "git",
-        "self-hosted",
-        "devops",
-        "golang",
-        "code-hosting"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-01T04:11:12.281Z",
       "deepwikiAvailable": false
     },
     {
