@@ -2,65 +2,9 @@
   "date": "2026-09-02",
   "since": "monthly",
   "language": "Go",
-  "fetchedAt": "2026-09-02T03:32:15.709Z",
-  "enrichedAt": "2026-09-02T03:34:27.384Z",
+  "fetchedAt": "2026-09-02T13:22:24.254Z",
+  "enrichedAt": "2026-09-02T13:23:44.486Z",
   "repos": [
-    {
-      "name": "DeepSeek-Reasonix",
-      "fullName": "esengine/DeepSeek-Reasonix",
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 35323,
-      "forks": 2363,
-      "starsToday": 7532,
-      "topics": [],
-      "author": {
-        "name": "esengine",
-        "avatar": "https://avatars.githubusercontent.com/u/32437197?s=40&amp;v=4",
-        "url": "https://github.com/esengine"
-      },
-      "summary": "基于DeepSeek的终端AI编程助手，围绕前缀缓存稳定性设计，可长期驻留运行，提升编码效率。",
-      "tags": [
-        "ai-agent",
-        "deepseek",
-        "cli",
-        "coding",
-        "terminal"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-02T03:34:20.939Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1707,
-      "forks": 287,
-      "starsToday": 776,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "Agent Substrate 核心系统，用 Go 构建的 AI 代理基础设施，提供代理运行与编排的底层框架，今日新增 776 星。",
-      "tags": [
-        "ai-agent",
-        "go",
-        "infrastructure",
-        "framework",
-        "orchestration"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-02T03:34:21.177Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "caddy",
       "fullName": "caddyserver/caddy",
@@ -68,7 +12,7 @@
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 75400,
+      "stars": 75413,
       "forks": 4933,
       "starsToday": 983,
       "topics": [],
@@ -90,31 +34,114 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "phoneinfoga",
-      "fullName": "sundowndev/phoneinfoga",
-      "url": "https://github.com/sundowndev/phoneinfoga",
-      "description": "Information gathering framework for phone numbers",
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 17745,
-      "forks": 5736,
-      "starsToday": 546,
+      "stars": 10757,
+      "forks": 904,
+      "starsToday": 994,
       "topics": [],
       "author": {
-        "name": "sundowndev",
-        "avatar": "https://avatars.githubusercontent.com/u/16480203?s=40&amp;v=4",
-        "url": "https://github.com/sundowndev"
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
       },
-      "summary": "开源的电话号码信息收集框架，支持全球号码扫描、OSINT侦察与多种数据源集成，帮助安全研究人员进行威胁情报分析。",
+      "summary": "命令行工具，可从 App Store 搜索并下载 iOS、iPadOS、tvOS 和 visionOS 的 IPA 应用包，用 Go 编写，简单高效。",
       "tags": [
-        "osint",
-        "phone",
+        "ios",
+        "cli",
+        "appstore",
+        "golang",
+        "ipa"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-02T03:34:22.445Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1721,
+      "forks": 287,
+      "starsToday": 776,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 核心系统，用 Go 构建的 AI 代理基础设施，提供代理运行与编排的底层框架，今日新增 776 星。",
+      "tags": [
+        "ai-agent",
+        "go",
+        "infrastructure",
+        "framework",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:34:21.177Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "osv-scanner",
+      "fullName": "google/osv-scanner",
+      "url": "https://github.com/google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10962,
+      "forks": 786,
+      "starsToday": 266,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/106129829?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "基于OSV.dev数据的Go语言漏洞扫描器，可扫描多种语言依赖与锁文件，快速发现开源软件供应链中的已知安全漏洞。",
+      "tags": [
         "security",
-        "recon",
+        "vulnerability",
+        "scanner",
+        "go",
+        "osv"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T13:23:44.486Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "glance",
+      "fullName": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36791,
+      "forks": 1441,
+      "starsToday": 761,
+      "topics": [],
+      "author": {
+        "name": "glanceapp",
+        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
+        "url": "https://github.com/glanceapp"
+      },
+      "summary": "自托管个人仪表盘，聚合所有信息源到单一界面，支持RSS、天气、股票等多种组件，轻量快速可高度定制。",
+      "tags": [
+        "dashboard",
+        "self-hosted",
+        "rss",
         "go"
       ],
-      "category": "Security",
-      "enrichedAt": "2026-09-02T03:34:21.197Z",
+      "category": "App",
+      "enrichedAt": "2026-09-02T03:34:22.377Z",
       "deepwikiAvailable": false
     },
     {
@@ -124,7 +151,7 @@
       "description": "Run your GitHub Actions locally 🚀",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 71742,
+      "stars": 71756,
       "forks": 2022,
       "starsToday": 536,
       "topics": [],
@@ -146,196 +173,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "glance",
-      "fullName": "glanceapp/glance",
-      "url": "https://github.com/glanceapp/glance",
-      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 36780,
-      "forks": 1441,
-      "starsToday": 761,
+      "stars": 35342,
+      "forks": 2362,
+      "starsToday": 7532,
       "topics": [],
       "author": {
-        "name": "glanceapp",
-        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
-        "url": "https://github.com/glanceapp"
+        "name": "esengine",
+        "avatar": "https://avatars.githubusercontent.com/u/32437197?s=40&amp;v=4",
+        "url": "https://github.com/esengine"
       },
-      "summary": "自托管个人仪表盘，聚合所有信息源到单一界面，支持RSS、天气、股票等多种组件，轻量快速可高度定制。",
+      "summary": "基于DeepSeek的终端AI编程助手，围绕前缀缓存稳定性设计，可长期驻留运行，提升编码效率。",
       "tags": [
-        "dashboard",
-        "self-hosted",
-        "rss",
-        "go"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-02T03:34:22.377Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "superplane",
-      "fullName": "superplanehq/superplane",
-      "url": "https://github.com/superplanehq/superplane",
-      "description": "Open source factory for one-shot engineering",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5701,
-      "forks": 625,
-      "starsToday": 1419,
-      "topics": [],
-      "author": {
-        "name": "superplanehq",
-        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
-        "url": "https://github.com/superplanehq"
-      },
-      "summary": "开源一次性工程工厂，用Go构建，帮助开发者快速生成和编排完整工程方案，今日新增1400+星，热度极高。",
-      "tags": [
-        "go",
-        "engineering",
-        "automation",
-        "factory",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-02T03:34:22.561Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ipatool",
-      "fullName": "majd/ipatool",
-      "url": "https://github.com/majd/ipatool",
-      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 10735,
-      "forks": 903,
-      "starsToday": 994,
-      "topics": [],
-      "author": {
-        "name": "majd",
-        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
-        "url": "https://github.com/majd"
-      },
-      "summary": "命令行工具，可从 App Store 搜索并下载 iOS、iPadOS、tvOS 和 visionOS 的 IPA 应用包，用 Go 编写，简单高效。",
-      "tags": [
-        "ios",
-        "cli",
-        "appstore",
-        "golang",
-        "ipa"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-02T03:34:22.445Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "traefik",
-      "fullName": "traefik/traefik",
-      "url": "https://github.com/traefik/traefik",
-      "description": "The Cloud Native Application Proxy",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 64704,
-      "forks": 6181,
-      "starsToday": 610,
-      "topics": [],
-      "author": {
-        "name": "traefik",
-        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
-        "url": "https://github.com/traefik"
-      },
-      "summary": "云原生应用代理，支持HTTP/HTTPS/TCP/UDP路由、自动服务发现、动态配置与TLS终止，广泛用于Kubernetes和微服务网关场景。",
-      "tags": [
-        "proxy",
-        "kubernetes",
-        "reverse-proxy",
-        "cloud-native",
-        "load-balancer"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-02T03:34:23.558Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "github-mcp-server",
-      "fullName": "github/github-mcp-server",
-      "url": "https://github.com/github/github-mcp-server",
-      "description": "GitHub's official MCP Server",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 32662,
-      "forks": 4883,
-      "starsToday": 854,
-      "topics": [],
-      "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/u/4811358?s=40&amp;v=4",
-        "url": "https://github.com/github"
-      },
-      "summary": "GitHub官方MCP服务器，让AI助手通过Model Context Protocol安全访问GitHub API，支持仓库、Issue、PR等操作，Go语言实现。",
-      "tags": [
-        "mcp",
-        "github",
-        "ai",
-        "go",
-        "api"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-02T03:34:23.531Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "beads",
-      "fullName": "gastownhall/beads",
-      "url": "https://github.com/gastownhall/beads",
-      "description": "Beads - A memory upgrade for your coding agent",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 26802,
-      "forks": 1809,
-      "starsToday": 1092,
-      "topics": [],
-      "author": {
-        "name": "gastownhall",
-        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
-        "url": "https://github.com/gastownhall"
-      },
-      "summary": "Beads 为编程代理提供持久化记忆层，用 Go 编写，帮助 AI 编码助手跨会话记住上下文，提升开发效率。",
-      "tags": [
-        "memory",
         "ai-agent",
+        "deepseek",
+        "cli",
         "coding",
-        "go"
+        "terminal"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-02T03:34:23.626Z",
+      "enrichedAt": "2026-09-02T03:34:20.939Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "hister",
-      "fullName": "asciimoo/hister",
-      "url": "https://github.com/asciimoo/hister",
-      "description": "Your own search engine",
+      "name": "authelia",
+      "fullName": "authelia/authelia",
+      "url": "https://github.com/authelia/authelia",
+      "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3531,
-      "forks": 161,
-      "starsToday": 1793,
+      "stars": 28769,
+      "forks": 1475,
+      "starsToday": 397,
       "topics": [],
       "author": {
-        "name": "asciimoo",
-        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
-        "url": "https://github.com/asciimoo"
+        "name": "authelia",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/authelia"
       },
-      "summary": "用Go编写的自托管搜索引擎，可部署为个人搜索服务，支持自定义索引与隐私保护，轻量易用。",
+      "summary": "开源的Web应用单点登录与多因素认证门户，支持OpenID Connect、LDAP等协议，提供集中式身份认证与访问控制，已获OpenID认证。",
       "tags": [
-        "search-engine",
-        "self-hosted",
-        "go",
-        "privacy"
+        "sso",
+        "authentication",
+        "mfa",
+        "security",
+        "go"
       ],
-      "category": "App",
-      "enrichedAt": "2026-09-02T03:34:23.721Z",
+      "category": "Security",
+      "enrichedAt": "2026-09-02T13:23:44.385Z",
       "deepwikiAvailable": false
     },
     {
@@ -345,7 +235,7 @@
       "description": "Find secrets with Gitleaks 🔑",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 29059,
+      "stars": 29067,
       "forks": 2227,
       "starsToday": 678,
       "topics": [],
@@ -367,31 +257,170 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "beszel",
-      "fullName": "henrygd/beszel",
-      "url": "https://github.com/henrygd/beszel",
-      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "name": "traefik",
+      "fullName": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24970,
-      "forks": 984,
-      "starsToday": 1088,
+      "stars": 64710,
+      "forks": 6181,
+      "starsToday": 610,
       "topics": [],
       "author": {
-        "name": "henrygd",
-        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
-        "url": "https://github.com/henrygd"
+        "name": "traefik",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/traefik"
       },
-      "summary": "轻量级服务器监控工具，支持历史数据、Docker 统计和告警功能，基于 Go 构建，资源占用极低。",
+      "summary": "云原生应用代理，支持HTTP/HTTPS/TCP/UDP路由、自动服务发现、动态配置与TLS终止，广泛用于Kubernetes和微服务网关场景。",
       "tags": [
-        "monitoring",
-        "server",
-        "docker",
+        "proxy",
+        "kubernetes",
+        "reverse-proxy",
+        "cloud-native",
+        "load-balancer"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:34:23.558Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "phoneinfoga",
+      "fullName": "sundowndev/phoneinfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17745,
+      "forks": 5741,
+      "starsToday": 546,
+      "topics": [],
+      "author": {
+        "name": "sundowndev",
+        "avatar": "https://avatars.githubusercontent.com/u/16480203?s=40&amp;v=4",
+        "url": "https://github.com/sundowndev"
+      },
+      "summary": "开源的电话号码信息收集框架，支持全球号码扫描、OSINT侦察与多种数据源集成，帮助安全研究人员进行威胁情报分析。",
+      "tags": [
+        "osint",
+        "phone",
+        "security",
+        "recon",
+        "go"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-02T03:34:21.197Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "github-mcp-server",
+      "fullName": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32667,
+      "forks": 4886,
+      "starsToday": 854,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/4811358?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方MCP服务器，让AI助手通过Model Context Protocol安全访问GitHub API，支持仓库、Issue、PR等操作，Go语言实现。",
+      "tags": [
+        "mcp",
+        "github",
+        "ai",
         "go",
-        "alerts"
+        "api"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-02T03:34:24.825Z",
+      "enrichedAt": "2026-09-02T03:34:23.531Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "Open source factory for one-shot engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5705,
+      "forks": 625,
+      "starsToday": 1419,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源一次性工程工厂，用Go构建，帮助开发者快速生成和编排完整工程方案，今日新增1400+星，热度极高。",
+      "tags": [
+        "go",
+        "engineering",
+        "automation",
+        "factory",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:34:22.561Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3544,
+      "forks": 162,
+      "starsToday": 1793,
+      "topics": [],
+      "author": {
+        "name": "asciimoo",
+        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
+        "url": "https://github.com/asciimoo"
+      },
+      "summary": "用Go编写的自托管搜索引擎，可部署为个人搜索服务，支持自定义索引与隐私保护，轻量易用。",
+      "tags": [
+        "search-engine",
+        "self-hosted",
+        "go",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-02T03:34:23.721Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudflared",
+      "fullName": "cloudflare/cloudflared",
+      "url": "https://github.com/cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15478,
+      "forks": 1415,
+      "starsToday": 460,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare官方Tunnel客户端，通过安全隧道将本地服务暴露到公网，无需开放端口或公网IP，支持零信任访问与流量加密。",
+      "tags": [
+        "tunnel",
+        "networking",
+        "cloudflare",
+        "proxy",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T13:23:44.348Z",
       "deepwikiAvailable": false
     },
     {
@@ -401,8 +430,8 @@
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 89854,
-      "forks": 10594,
+      "stars": 89897,
+      "forks": 10602,
       "starsToday": 3530,
       "topics": [],
       "author": {
@@ -423,14 +452,69 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24985,
+      "forks": 985,
+      "starsToday": 1088,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据、Docker 统计和告警功能，基于 Go 构建，资源占用极低。",
+      "tags": [
+        "monitoring",
+        "server",
+        "docker",
+        "go",
+        "alerts"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:34:24.825Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26814,
+      "forks": 1808,
+      "starsToday": 1092,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 为编程代理提供持久化记忆层，用 Go 编写，帮助 AI 编码助手跨会话记住上下文，提升开发效率。",
+      "tags": [
+        "memory",
+        "ai-agent",
+        "coding",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:34:23.626Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "App-Store-Connect-CLI",
       "fullName": "rorkai/App-Store-Connect-CLI",
       "url": "https://github.com/rorkai/App-Store-Connect-CLI",
       "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6359,
-      "forks": 549,
+      "stars": 6367,
+      "forks": 551,
       "starsToday": 1001,
       "topics": [],
       "author": {
@@ -448,6 +532,91 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-02T03:34:25.321Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "KrillinAI",
+      "fullName": "krillinai/KrillinAI",
+      "url": "https://github.com/krillinai/KrillinAI",
+      "description": "AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11329,
+      "forks": 1081,
+      "starsToday": 765,
+      "topics": [],
+      "author": {
+        "name": "krillinai",
+        "avatar": "https://avatars.githubusercontent.com/u/114557800?s=40&amp;v=4",
+        "url": "https://github.com/krillinai"
+      },
+      "summary": "基于LLM的AI视频翻译与配音工具，支持100+语言全链路处理，涵盖下载、转录、翻译、配音、封面生成，适配YouTube、抖音、B站等主流平台，提供CLI分阶段调用。",
+      "tags": [
+        "video-translation",
+        "tts",
+        "ai-agent",
+        "llm",
+        "cli",
+        "dubbing"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-02T03:34:26.325Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 179963,
+      "forks": 17660,
+      "starsToday": 3018,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行大模型的开源工具，支持Kimi、DeepSeek、Qwen、Gemma等主流模型，跨平台易用，社区活跃。",
+      "tags": [
+        "llm",
+        "go",
+        "local-ai",
+        "inference",
+        "docker"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-02T13:23:44.302Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46111,
+      "forks": 8950,
+      "starsToday": 672,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub官方命令行工具，支持PR、Issue、Release等全流程管理，可直接在终端操作GitHub仓库，极大提升开发效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "devtools",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-02T03:34:26.803Z",
       "deepwikiAvailable": false
     },
     {
@@ -504,63 +673,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-02T03:34:26.137Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "KrillinAI",
-      "fullName": "krillinai/KrillinAI",
-      "url": "https://github.com/krillinai/KrillinAI",
-      "description": "AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 11321,
-      "forks": 1081,
-      "starsToday": 765,
-      "topics": [],
-      "author": {
-        "name": "krillinai",
-        "avatar": "https://avatars.githubusercontent.com/u/114557800?s=40&amp;v=4",
-        "url": "https://github.com/krillinai"
-      },
-      "summary": "基于LLM的AI视频翻译与配音工具，支持100+语言全链路处理，涵盖下载、转录、翻译、配音、封面生成，适配YouTube、抖音、B站等主流平台，提供CLI分阶段调用。",
-      "tags": [
-        "video-translation",
-        "tts",
-        "ai-agent",
-        "llm",
-        "cli",
-        "dubbing"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-02T03:34:26.325Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "cli/cli",
-      "url": "https://github.com/cli/cli",
-      "description": "GitHub’s official command line tool",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 46103,
-      "forks": 8949,
-      "starsToday": 672,
-      "topics": [],
-      "author": {
-        "name": "cli",
-        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
-        "url": "https://github.com/cli"
-      },
-      "summary": "GitHub官方命令行工具，支持PR、Issue、Release等全流程管理，可直接在终端操作GitHub仓库，极大提升开发效率。",
-      "tags": [
-        "github",
-        "cli",
-        "go",
-        "devtools",
-        "terminal"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-02T03:34:26.803Z",
       "deepwikiAvailable": false
     },
     {
