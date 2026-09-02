@@ -1,0 +1,571 @@
+{
+  "date": "2026-09-02",
+  "since": "weekly",
+  "language": "Go",
+  "fetchedAt": "2026-09-02T03:32:15.709Z",
+  "enrichedAt": "2026-09-02T03:33:43.385Z",
+  "repos": [
+    {
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3531,
+      "forks": 161,
+      "starsToday": 869,
+      "topics": [],
+      "author": {
+        "name": "asciimoo",
+        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
+        "url": "https://github.com/asciimoo"
+      },
+      "summary": "用Go编写的自托管搜索引擎，可部署自己的搜索服务，支持自定义索引与隐私保护，轻量易用。",
+      "tags": [
+        "search-engine",
+        "self-hosted",
+        "go",
+        "privacy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:37.993Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "router",
+      "fullName": "workweave/router",
+      "url": "https://github.com/workweave/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3534,
+      "forks": 97,
+      "starsToday": 2510,
+      "topics": [],
+      "author": {
+        "name": "workweave",
+        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
+        "url": "https://github.com/workweave"
+      },
+      "summary": "面向智能体系统的模型路由器，50ms内将每个提示词路由到合适模型，仅需更换端点即可降低40-70%成本，用Go编写。",
+      "tags": [
+        "llm",
+        "router",
+        "go",
+        "cost-saving",
+        "agent"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:37.665Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10735,
+      "forks": 903,
+      "starsToday": 822,
+      "topics": [],
+      "author": {
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
+      },
+      "summary": "ipatool 是一个用 Go 编写的命令行工具，可从 App Store 搜索并下载 iOS、iPadOS、tvOS 和 visionOS 的 IPA 应用安装包，方便开发者获取应用包进行测试和分析。",
+      "tags": [
+        "cli",
+        "ios",
+        "app-store",
+        "ipa",
+        "golang"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-02T03:33:37.949Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anubis",
+      "fullName": "TecharoHQ/anubis",
+      "url": "https://github.com/TecharoHQ/anubis",
+      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22055,
+      "forks": 701,
+      "starsToday": 341,
+      "topics": [],
+      "author": {
+        "name": "TecharoHQ",
+        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
+        "url": "https://github.com/TecharoHQ"
+      },
+      "summary": "用工作量证明机制拦截AI爬虫的Go代理服务，通过给HTTP请求\"称重\"来识别并阻止自动化爬虫，保护网站内容不被AI抓取。",
+      "tags": [
+        "go",
+        "proxy",
+        "anti-bot",
+        "ai-crawler",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:37.877Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37511,
+      "forks": 4511,
+      "starsToday": 279,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，基于Go语言实现，支持多种协议与平台，提供高性能、可配置的网络代理解决方案，是SagerNet系列的核心引擎。",
+      "tags": [
+        "proxy",
+        "vpn",
+        "network",
+        "go",
+        "cross-platform"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:38.957Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "glance",
+      "fullName": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36780,
+      "forks": 1441,
+      "starsToday": 214,
+      "topics": [],
+      "author": {
+        "name": "glanceapp",
+        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
+        "url": "https://github.com/glanceapp"
+      },
+      "summary": "自托管仪表盘，将新闻、RSS、天气、股票等所有信息源聚合到一个页面，高度可定制，轻量快速。",
+      "tags": [
+        "dashboard",
+        "self-hosted",
+        "rss",
+        "go",
+        "monitoring"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-02T03:33:39.212Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "milvus",
+      "fullName": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45925,
+      "forks": 4217,
+      "starsToday": 152,
+      "topics": [],
+      "author": {
+        "name": "milvus-io",
+        "avatar": "https://avatars.githubusercontent.com/u/84113973?s=40&amp;v=4",
+        "url": "https://github.com/milvus-io"
+      },
+      "summary": "Milvus 是高性能云原生向量数据库，专为大规模向量 ANN 搜索设计，支持十亿级向量检索，广泛应用于 AI 与 RAG 场景。",
+      "tags": [
+        "vector-database",
+        "ann-search",
+        "cloud-native",
+        "ai",
+        "rag",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:39.300Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45707,
+      "forks": 10557,
+      "starsToday": 460,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于Xray的多协议多用户面板，支持Vmess、Vless、Trojan、Shadowsocks、Wireguard等十余种协议，提供Web管理界面，功能强大且活跃维护。",
+      "tags": [
+        "proxy",
+        "panel",
+        "xray",
+        "vpn",
+        "web"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-02T03:33:39.501Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "certimate",
+      "fullName": "certimate-go/certimate",
+      "url": "https://github.com/certimate-go/certimate",
+      "description": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9232,
+      "forks": 892,
+      "starsToday": 168,
+      "topics": [],
+      "author": {
+        "name": "certimate-go",
+        "avatar": "https://avatars.githubusercontent.com/u/18504146?s=40&amp;v=4",
+        "url": "https://github.com/certimate-go"
+      },
+      "summary": "开源免费的自托管 SSL 证书 ACME 工具，可视化自动化完成证书申请、部署、续期和监控全流程，支持各大主流云厂商。",
+      "tags": [
+        "ssl",
+        "acme",
+        "certificate",
+        "self-hosted",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:33:40.227Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "higress",
+      "fullName": "higress-group/higress",
+      "url": "https://github.com/higress-group/higress",
+      "description": "🤖 AI Gateway | AI Native API Gateway",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9268,
+      "forks": 1273,
+      "starsToday": 85,
+      "topics": [],
+      "author": {
+        "name": "higress-group",
+        "avatar": "https://avatars.githubusercontent.com/u/6763318?s=40&amp;v=4",
+        "url": "https://github.com/higress-group"
+      },
+      "summary": "基于Istio和Envoy的云原生AI网关，提供AI原生API管理、多模型路由、限流与安全防护，支持主流大模型协议。",
+      "tags": [
+        "ai-gateway",
+        "istio",
+        "envoy",
+        "api-gateway",
+        "kubernetes",
+        "llm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:40.519Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5482,
+      "forks": 886,
+      "starsToday": 187,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "可编程的混合模型路由器，用于异构LLM推理场景，支持按语义智能路由请求到不同模型，提升推理效率与资源利用率。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "mixture-of-models"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:40.525Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21134,
+      "forks": 3050,
+      "starsToday": 529,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的LLM知识平台，可将原始文档转化为可查询的RAG系统、自主推理代理和自维护Wiki，支持知识管理与智能问答。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge",
+        "wiki",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-02T03:33:40.516Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47035,
+      "forks": 11210,
+      "starsToday": 835,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，支持将各类LLM转换为OpenAI、Claude或Gemini兼容格式，提供模型聚合与分发能力，适合个人和企业集中管理模型。",
+      "tags": [
+        "llm",
+        "gateway",
+        "openai",
+        "api",
+        "model-hub"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:41.480Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CPA-Manager-Plus",
+      "fullName": "seakee/CPA-Manager-Plus",
+      "url": "https://github.com/seakee/CPA-Manager-Plus",
+      "description": "A self-hosted CPA / CLIProxyAPI management panel and AI gateway observability dashboard for requests, usage, cost, quota, failures, and account health.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3037,
+      "forks": 318,
+      "starsToday": 172,
+      "topics": [],
+      "author": {
+        "name": "seakee",
+        "avatar": "https://avatars.githubusercontent.com/u/7602294?s=40&amp;v=4",
+        "url": "https://github.com/seakee"
+      },
+      "summary": "自托管CPA/CLIProxyAPI管理面板与AI网关可观测性仪表盘，支持请求、用量、成本、配额、失败与账户健康监控，基于Go构建。",
+      "tags": [
+        "self-hosted",
+        "ai-gateway",
+        "observability",
+        "dashboard",
+        "golang",
+        "monitoring"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:33:41.825Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5085,
+      "forks": 530,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方推出的Agentic工作流工具，用Go编写，支持在GitHub上构建和运行自动化代理工作流，简化开发流程。",
+      "tags": [
+        "github",
+        "agentic",
+        "workflow",
+        "automation",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:33:42.220Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 57761,
+      "forks": 7091,
+      "starsToday": 186,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "Gitea 是一款轻量级自托管 Git 服务，集代码托管、代码审查、团队协作、包注册和 CI/CD 于一体，部署简单，社区活跃。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "golang",
+        "code-review"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:33:41.838Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "1Panel",
+      "fullName": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36770,
+      "forks": 3327,
+      "starsToday": 148,
+      "topics": [],
+      "author": {
+        "name": "1Panel-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/31820853?s=40&amp;v=4",
+        "url": "https://github.com/1Panel-dev"
+      },
+      "summary": "1Panel 是一款现代化开源 Linux 服务器管理面板，同时提供轻量级 AI 管理平台，支持容器、网站、数据库等一站式运维管理。",
+      "tags": [
+        "server-panel",
+        "linux",
+        "devops",
+        "ai-platform",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:33:42.703Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-sandbox",
+      "fullName": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3711,
+      "forks": 476,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/4876867?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubernetes SIG 推出的 Go 工具，用于管理隔离、有状态、单例的工作负载，特别适合 AI 智能体运行时和强化学习等场景，简化沙箱环境部署。",
+      "tags": [
+        "kubernetes",
+        "sandbox",
+        "ai-agent",
+        "workload",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-02T03:33:43.095Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Fabric",
+      "fullName": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43719,
+      "forks": 4251,
+      "starsToday": 203,
+      "topics": [],
+      "author": {
+        "name": "danielmiessler",
+        "avatar": "https://avatars.githubusercontent.com/u/50654?s=40&amp;v=4",
+        "url": "https://github.com/danielmiessler"
+      },
+      "summary": "Fabric 是一个开源 AI 增强框架，提供模块化系统，通过众包 AI 提示词解决具体问题，可在任何地方使用。",
+      "tags": [
+        "ai",
+        "prompts",
+        "framework",
+        "go",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-02T03:33:43.385Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentsview",
+      "fullName": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5715,
+      "forks": 642,
+      "starsToday": 464,
+      "topics": [],
+      "author": {
+        "name": "kenn-io",
+        "avatar": "https://avatars.githubusercontent.com/u/329591?s=40&amp;v=4",
+        "url": "https://github.com/kenn-io"
+      },
+      "summary": "本地优先的编码智能体会话搜索与分析工具，支持Claude Code、Codex等20多种智能体，提供token用量统计与洞察。",
+      "tags": [
+        "coding-agents",
+        "analytics",
+        "local-first",
+        "session-search",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-02T03:33:43.307Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
