@@ -2,8 +2,8 @@
   "date": "2026-09-04",
   "since": "daily",
   "language": "TypeScript",
-  "fetchedAt": "2026-09-04T03:31:58.566Z",
-  "enrichedAt": "2026-09-04T03:32:24.756Z",
+  "fetchedAt": "2026-09-04T13:15:11.945Z",
+  "enrichedAt": "2026-09-04T13:15:37.672Z",
   "repos": [
     {
       "name": "magnitude",
@@ -12,9 +12,9 @@
       "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 2007,
-      "forks": 143,
-      "starsToday": 161,
+      "stars": 2169,
+      "forks": 151,
+      "starsToday": 395,
       "topics": [],
       "author": {
         "name": "magnitudedev",
@@ -34,57 +34,143 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "openclaude",
-      "fullName": "Gitlawb/openclaude",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "description": "runs anywhere. uses anything",
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 32383,
-      "forks": 9019,
-      "starsToday": 451,
+      "stars": 203760,
+      "forks": 26587,
+      "starsToday": 314,
       "topics": [],
       "author": {
-        "name": "Gitlawb",
-        "avatar": "https://avatars.githubusercontent.com/u/268502447?s=40&amp;v=4",
-        "url": "https://github.com/Gitlawb"
+        "name": "anomalyco",
+        "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&amp;v=4",
+        "url": "https://github.com/anomalyco"
       },
-      "summary": "跨平台AI代理工具，可接入任意模型与工具，支持在任何环境运行，灵活扩展性强。",
+      "summary": "开源编码代理，支持多模型接入，可在终端中自主完成代码编写、调试与任务执行，是热门的AI编程助手。",
       "tags": [
-        "ai-agent",
+        "coding-agent",
         "typescript",
-        "cross-platform",
+        "ai",
+        "cli",
         "open-source"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-09-04T03:32:21.202Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T13:15:36.423Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "portless",
-      "fullName": "vercel-labs/portless",
-      "url": "https://github.com/vercel-labs/portless",
-      "description": "Replace port numbers with stable, named local URLs. For humans and agents.",
+      "name": "aidlc-workflows",
+      "fullName": "awslabs/aidlc-workflows",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 12065,
-      "forks": 394,
-      "starsToday": 450,
+      "stars": 4336,
+      "forks": 774,
+      "starsToday": 26,
       "topics": [],
       "author": {
-        "name": "vercel-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
-        "url": "https://github.com/vercel-labs"
+        "name": "awslabs",
+        "avatar": "https://avatars.githubusercontent.com/u/2102737?s=40&amp;v=4",
+        "url": "https://github.com/awslabs"
       },
-      "summary": "用稳定的命名本地URL替代端口号，让开发者和AI代理更容易访问本地服务，告别记忆端口号的烦恼。",
+      "summary": "AWS Labs 开源的 AI 驱动生命周期工作流规则集，为 AI 编码代理提供自适应任务引导与流程编排，帮助代理更规范高效地完成开发任务。",
       "tags": [
-        "local-dev",
-        "url",
+        "ai-agents",
+        "workflow",
+        "aws",
         "typescript",
-        "developer-tools"
+        "coding"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:32:21.138Z",
+      "enrichedAt": "2026-09-04T03:32:22.706Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 50886,
+      "forks": 3569,
+      "starsToday": 295,
+      "topics": [],
+      "author": {
+        "name": "ChromeDevTools",
+        "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&amp;v=4",
+        "url": "https://github.com/ChromeDevTools"
+      },
+      "summary": "Chrome DevTools 官方 MCP 服务器，让 AI 编码代理直接控制浏览器，实现调试、性能分析和页面操作，打通开发工具链。",
+      "tags": [
+        "mcp",
+        "devtools",
+        "chrome",
+        "debugging",
+        "ai-agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:32:22.506Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OB1",
+      "fullName": "NateBJones-Projects/OB1",
+      "url": "https://github.com/NateBJones-Projects/OB1",
+      "description": "Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4554,
+      "forks": 879,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "NateBJones-Projects",
+        "avatar": "https://avatars.githubusercontent.com/u/191722084?s=40&amp;v=4",
+        "url": "https://github.com/NateBJones-Projects"
+      },
+      "summary": "Open Brain 是思维基础设施层，将数据库、AI 网关和聊天通道统一为一个平台，支持任意 AI 接入，无需中间件或 SaaS 依赖。",
+      "tags": [
+        "ai-gateway",
+        "infrastructure",
+        "typescript",
+        "database",
+        "chat"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-04T13:15:36.155Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ui",
+      "fullName": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 122996,
+      "forks": 10094,
+      "starsToday": 114,
+      "topics": [],
+      "author": {
+        "name": "shadcn-ui",
+        "avatar": "https://avatars.githubusercontent.com/u/124599?s=40&amp;v=4",
+        "url": "https://github.com/shadcn-ui"
+      },
+      "summary": "shadcn/ui 是一套设计精美、可访问的 React 组件库，支持复制粘贴式集成到任意框架，提供开源代码分发平台，广受开发者欢迎。",
+      "tags": [
+        "react",
+        "components",
+        "ui",
+        "design-system",
+        "typescript"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-04T13:15:36.214Z",
       "deepwikiAvailable": false
     },
     {
@@ -94,8 +180,8 @@
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 61089,
-      "forks": 4098,
+      "stars": 61437,
+      "forks": 4118,
       "starsToday": 914,
       "topics": [],
       "author": {
@@ -116,31 +202,196 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "chrome-devtools-mcp",
-      "fullName": "ChromeDevTools/chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
+      "name": "context7",
+      "fullName": "upstash/context7",
+      "url": "https://github.com/upstash/context7",
+      "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 50855,
-      "forks": 3567,
-      "starsToday": 295,
+      "stars": 61610,
+      "forks": 2968,
+      "starsToday": 47,
       "topics": [],
       "author": {
-        "name": "ChromeDevTools",
-        "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&amp;v=4",
-        "url": "https://github.com/ChromeDevTools"
+        "name": "upstash",
+        "avatar": "https://avatars.githubusercontent.com/u/101020733?s=40&amp;v=4",
+        "url": "https://github.com/upstash"
       },
-      "summary": "Chrome DevTools 官方 MCP 服务器，让 AI 编码代理直接控制浏览器，实现调试、性能分析和页面操作，打通开发工具链。",
+      "summary": "Context7为LLM和AI代码编辑器提供最新代码文档平台，帮助AI工具获取实时、准确的库文档上下文，提升代码生成质量。",
       "tags": [
-        "mcp",
-        "devtools",
-        "chrome",
-        "debugging",
-        "ai-agent"
+        "llm",
+        "documentation",
+        "ai",
+        "code-editor",
+        "context"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:32:22.506Z",
+      "enrichedAt": "2026-09-04T13:15:36.202Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openclaude",
+      "fullName": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 32500,
+      "forks": 9034,
+      "starsToday": 311,
+      "topics": [],
+      "author": {
+        "name": "Gitlawb",
+        "avatar": "https://avatars.githubusercontent.com/u/268502447?s=40&amp;v=4",
+        "url": "https://github.com/Gitlawb"
+      },
+      "summary": "跨平台AI代理工具，可接入任意模型与工具，支持在任何环境运行，灵活扩展性强。",
+      "tags": [
+        "ai-agent",
+        "typescript",
+        "cross-platform",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-04T03:32:21.202Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "docs",
+      "fullName": "github/docs",
+      "url": "https://github.com/github/docs",
+      "description": "The open-source repo for docs.github.com",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 20779,
+      "forks": 68557,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/63058869?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方文档的开源仓库，托管 docs.github.com 全部内容，涵盖产品文档、API 参考与贡献指南，社区可协作维护。",
+      "tags": [
+        "documentation",
+        "github",
+        "opensource",
+        "typescript"
+      ],
+      "category": "Docs",
+      "enrichedAt": "2026-09-04T13:15:37.316Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gstack",
+      "fullName": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 131253,
+      "forks": 19708,
+      "starsToday": 300,
+      "topics": [],
+      "author": {
+        "name": "garrytan",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/garrytan"
+      },
+      "summary": "复刻 Garry Tan 的 Claude Code 配置，内置 23 个角色化工具（CEO、设计师、工程经理、QA 等），开箱即用的 AI 开发工作流。",
+      "tags": [
+        "claude-code",
+        "ai-agent",
+        "workflow",
+        "typescript",
+        "devtools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:32:24.170Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "humanlayer/skills",
+      "url": "https://github.com/humanlayer/skills",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2074,
+      "forks": 58,
+      "starsToday": 1322,
+      "topics": [],
+      "author": {
+        "name": "humanlayer",
+        "avatar": "https://avatars.githubusercontent.com/u/3730605?s=40&amp;v=4",
+        "url": "https://github.com/humanlayer"
+      },
+      "summary": "HumanLayer Skills 是一个让 AI 智能体通过标准接口调用真实工具与技能的 TypeScript 框架，帮助开发者快速构建可扩展的 Agent 应用。",
+      "tags": [
+        "agent",
+        "typescript",
+        "tools",
+        "ai",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-04T13:15:37.402Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "portless",
+      "fullName": "vercel-labs/portless",
+      "url": "https://github.com/vercel-labs/portless",
+      "description": "Replace port numbers with stable, named local URLs. For humans and agents.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 12098,
+      "forks": 397,
+      "starsToday": 450,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "用稳定的命名本地URL替代端口号，让开发者和AI代理更容易访问本地服务，告别记忆端口号的烦恼。",
+      "tags": [
+        "local-dev",
+        "url",
+        "typescript",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:32:21.138Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dify",
+      "fullName": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 154425,
+      "forks": 24410,
+      "starsToday": 117,
+      "topics": [],
+      "author": {
+        "name": "langgenius",
+        "avatar": "https://avatars.githubusercontent.com/in/243519?s=40&amp;v=4",
+        "url": "https://github.com/langgenius"
+      },
+      "summary": "开源的 LLM 应用开发平台，支持 Agent 工作流、RAG 管道和丰富模型工具，可云端或自托管部署，帮助团队从原型快速走向生产。",
+      "tags": [
+        "llm",
+        "rag",
+        "agent",
+        "workflow",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T13:15:37.672Z",
       "deepwikiAvailable": false
     },
     {
@@ -172,34 +423,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "aidlc-workflows",
-      "fullName": "awslabs/aidlc-workflows",
-      "url": "https://github.com/awslabs/aidlc-workflows",
-      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 4331,
-      "forks": 772,
-      "starsToday": 26,
-      "topics": [],
-      "author": {
-        "name": "awslabs",
-        "avatar": "https://avatars.githubusercontent.com/u/2102737?s=40&amp;v=4",
-        "url": "https://github.com/awslabs"
-      },
-      "summary": "AWS Labs 开源的 AI 驱动生命周期工作流规则集，为 AI 编码代理提供自适应任务引导与流程编排，帮助代理更规范高效地完成开发任务。",
-      "tags": [
-        "ai-agents",
-        "workflow",
-        "aws",
-        "typescript",
-        "coding"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:32:22.706Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "pi",
       "fullName": "earendil-works/pi",
       "url": "https://github.com/earendil-works/pi",
@@ -225,34 +448,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-04T03:32:23.286Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gstack",
-      "fullName": "garrytan/gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 131203,
-      "forks": 19700,
-      "starsToday": 300,
-      "topics": [],
-      "author": {
-        "name": "garrytan",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/garrytan"
-      },
-      "summary": "复刻 Garry Tan 的 Claude Code 配置，内置 23 个角色化工具（CEO、设计师、工程经理、QA 等），开箱即用的 AI 开发工作流。",
-      "tags": [
-        "claude-code",
-        "ai-agent",
-        "workflow",
-        "typescript",
-        "devtools"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:32:24.170Z",
       "deepwikiAvailable": false
     },
     {

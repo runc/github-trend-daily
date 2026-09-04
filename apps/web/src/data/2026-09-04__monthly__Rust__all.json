@@ -2,8 +2,8 @@
   "date": "2026-09-04",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-09-04T03:31:58.566Z",
-  "enrichedAt": "2026-09-04T03:34:26.622Z",
+  "fetchedAt": "2026-09-04T13:15:11.945Z",
+  "enrichedAt": "2026-09-04T13:16:20.244Z",
   "repos": [
     {
       "name": "OpenLogi",
@@ -12,8 +12,8 @@
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 18936,
-      "forks": 571,
+      "stars": 19128,
+      "forks": 574,
       "starsToday": 10662,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Algorithm powering the For You feed on X",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 32594,
-      "forks": 5357,
+      "stars": 32627,
+      "forks": 5358,
       "starsToday": 5828,
       "topics": [],
       "author": {
@@ -62,14 +62,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "celld",
+      "fullName": "denoland/celld",
+      "url": "https://github.com/denoland/celld",
+      "description": "self-hosted, distributed Durable Objects",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4466,
+      "forks": 156,
+      "starsToday": 4425,
+      "topics": [],
+      "author": {
+        "name": "denoland",
+        "avatar": "https://avatars.githubusercontent.com/u/80?s=40&amp;v=4",
+        "url": "https://github.com/denoland"
+      },
+      "summary": "Deno 团队开源的分布式持久化对象运行时，支持自托管，用 Rust 实现，为构建有状态分布式应用提供 Durable Objects 能力。",
+      "tags": [
+        "durable-objects",
+        "distributed",
+        "rust",
+        "self-hosted",
+        "deno"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-04T13:16:20.059Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ai-memory",
       "fullName": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5657,
-      "forks": 400,
+      "stars": 5689,
+      "forks": 401,
       "starsToday": 4278,
       "topics": [],
       "author": {
@@ -90,41 +118,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "pdf-inspector",
-      "fullName": "firecrawl/pdf-inspector",
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 18779,
-      "forks": 1257,
-      "starsToday": 11370,
-      "topics": [],
-      "author": {
-        "name": "firecrawl",
-        "avatar": "https://avatars.githubusercontent.com/u/1450169?s=40&amp;v=4",
-        "url": "https://github.com/firecrawl"
-      },
-      "summary": "高性能Rust PDF检查库，支持分类与文本提取，智能识别扫描版与文本版PDF以辅助路由决策，性能极快。",
-      "tags": [
-        "pdf",
-        "rust",
-        "text-extraction",
-        "classification",
-        "library"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-04T03:34:19.824Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "llmfit",
       "fullName": "AlexsJones/llmfit",
       "url": "https://github.com/AlexsJones/llmfit",
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 34846,
+      "stars": 34863,
       "forks": 2188,
       "starsToday": 3834,
       "topics": [],
@@ -146,31 +146,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "codex",
-      "fullName": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
+      "name": "pdf-inspector",
+      "fullName": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 121313,
-      "forks": 18591,
-      "starsToday": 18297,
+      "stars": 18801,
+      "forks": 1261,
+      "starsToday": 11370,
       "topics": [],
       "author": {
-        "name": "openai",
-        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
-        "url": "https://github.com/openai"
+        "name": "firecrawl",
+        "avatar": "https://avatars.githubusercontent.com/u/1450169?s=40&amp;v=4",
+        "url": "https://github.com/firecrawl"
       },
-      "summary": "OpenAI 开源的轻量级终端编码代理，基于 Rust 构建，可在命令行中自动完成代码编写与修改任务，今日新增近两万星。",
+      "summary": "高性能Rust PDF检查库，支持分类与文本提取，智能识别扫描版与文本版PDF以辅助路由决策，性能极快。",
       "tags": [
-        "coding-agent",
-        "cli",
-        "openai",
+        "pdf",
         "rust",
-        "ai"
+        "text-extraction",
+        "classification",
+        "library"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-09-04T03:34:21.399Z",
+      "category": "Library",
+      "enrichedAt": "2026-09-04T03:34:19.824Z",
       "deepwikiAvailable": false
     },
     {
@@ -180,7 +180,7 @@
       "description": "🧱 easy fast local-first microVM runtime and library",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8071,
+      "stars": 8078,
       "forks": 426,
       "starsToday": 966,
       "topics": [],
@@ -202,59 +202,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "mise",
-      "fullName": "jdx/mise",
-      "url": "https://github.com/jdx/mise",
-      "description": "dev tools, env vars, task runner",
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 33435,
-      "forks": 1418,
-      "starsToday": 2024,
+      "stars": 121460,
+      "forks": 18600,
+      "starsToday": 18297,
       "topics": [],
       "author": {
-        "name": "jdx",
-        "avatar": "https://avatars.githubusercontent.com/u/216188?s=40&amp;v=4",
-        "url": "https://github.com/jdx"
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
       },
-      "summary": "Rust 编写的开发工具管理器，统一管理多语言版本、环境变量和任务运行，替代 asdf、direnv 等工具，支持速度极快且配置简单。",
+      "summary": "OpenAI 开源的轻量级终端编码代理，基于 Rust 构建，可在命令行中自动完成代码编写与修改任务，今日新增近两万星。",
       "tags": [
-        "devtools",
-        "env",
-        "task-runner",
+        "coding-agent",
+        "cli",
+        "openai",
         "rust",
-        "cli"
+        "ai"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:34:21.739Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openpencil",
-      "fullName": "ZSeven-W/openpencil",
-      "url": "https://github.com/ZSeven-W/openpencil",
-      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5813,
-      "forks": 501,
-      "starsToday": 1252,
-      "topics": [],
-      "author": {
-        "name": "ZSeven-W",
-        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
-        "url": "https://github.com/ZSeven-W"
-      },
-      "summary": "全球首个开源AI原生矢量设计工具，支持并发Agent团队协作，可将提示词直接转化为画布上的UI，实现Design-as-Code，是Pencil的现代替代品。",
-      "tags": [
-        "design-tool",
-        "ai-native",
-        "vector",
-        "rust",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-04T03:34:22.565Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-04T03:34:21.399Z",
       "deepwikiAvailable": false
     },
     {
@@ -264,8 +236,8 @@
       "description": "A Datacenter Scale Distributed Inference Serving Framework",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7957,
-      "forks": 1542,
+      "stars": 7964,
+      "forks": 1544,
       "starsToday": 307,
       "topics": [],
       "author": {
@@ -292,8 +264,8 @@
       "description": "Fast, disk space efficient package manager",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 36399,
-      "forks": 1688,
+      "stars": 36404,
+      "forks": 1690,
       "starsToday": 499,
       "topics": [],
       "author": {
@@ -319,8 +291,8 @@
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 28355,
-      "forks": 3678,
+      "stars": 28365,
+      "forks": 3682,
       "starsToday": 3214,
       "topics": [],
       "author": {
@@ -341,14 +313,126 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "mise",
+      "fullName": "jdx/mise",
+      "url": "https://github.com/jdx/mise",
+      "description": "dev tools, env vars, task runner",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33463,
+      "forks": 1419,
+      "starsToday": 2024,
+      "topics": [],
+      "author": {
+        "name": "jdx",
+        "avatar": "https://avatars.githubusercontent.com/u/216188?s=40&amp;v=4",
+        "url": "https://github.com/jdx"
+      },
+      "summary": "Rust 编写的开发工具管理器，统一管理多语言版本、环境变量和任务运行，替代 asdf、direnv 等工具，支持速度极快且配置简单。",
+      "tags": [
+        "devtools",
+        "env",
+        "task-runner",
+        "rust",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:34:21.739Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "polars",
+      "fullName": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 39645,
+      "forks": 3079,
+      "starsToday": 474,
+      "topics": [],
+      "author": {
+        "name": "pola-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/3023000?s=40&amp;v=4",
+        "url": "https://github.com/pola-rs"
+      },
+      "summary": "基于Rust编写的极速DataFrame查询引擎，性能远超Pandas，提供Python与Rust双接口，支持惰性与流式处理海量数据。",
+      "tags": [
+        "dataframe",
+        "rust",
+        "query-engine",
+        "data-processing",
+        "polars"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-04T03:34:25.617Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5816,
+      "forks": 501,
+      "starsToday": 1252,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "全球首个开源AI原生矢量设计工具，支持并发Agent团队协作，可将提示词直接转化为画布上的UI，实现Design-as-Code，是Pencil的现代替代品。",
+      "tags": [
+        "design-tool",
+        "ai-native",
+        "vector",
+        "rust",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-04T03:34:22.565Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31004,
+      "forks": 3334,
+      "starsToday": 926,
+      "topics": [],
+      "author": {
+        "name": "lbjlaq",
+        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
+        "url": "https://github.com/lbjlaq"
+      },
+      "summary": "基于 Tauri v2 + React (Rust) 的 Antigravity 专业账号管理与一键无缝切换工具，界面轻量高效。",
+      "tags": [
+        "tauri",
+        "rust",
+        "react",
+        "account-manager",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-04T03:34:26.622Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "rustdesk",
       "fullName": "rustdesk/rustdesk",
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 122543,
-      "forks": 18829,
+      "stars": 122578,
+      "forks": 18832,
       "starsToday": 3331,
       "topics": [],
       "author": {
@@ -366,6 +450,90 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-04T03:34:24.010Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fresh",
+      "fullName": "sinelaw/fresh",
+      "url": "https://github.com/sinelaw/fresh",
+      "description": "Terminal based IDE & text editor: easy, powerful and fast",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8685,
+      "forks": 329,
+      "starsToday": 607,
+      "topics": [],
+      "author": {
+        "name": "sinelaw",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/sinelaw"
+      },
+      "summary": "基于Rust的终端IDE与文本编辑器，主打易用、强大且快速，提供现代终端编辑体验。",
+      "tags": [
+        "editor",
+        "ide",
+        "terminal",
+        "rust",
+        "tui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:34:24.364Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "baml",
+      "fullName": "BoundaryML/baml",
+      "url": "https://github.com/BoundaryML/baml",
+      "description": "The programming language for agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9139,
+      "forks": 491,
+      "starsToday": 368,
+      "topics": [],
+      "author": {
+        "name": "BoundaryML",
+        "avatar": "https://avatars.githubusercontent.com/u/2448742?s=40&amp;v=4",
+        "url": "https://github.com/BoundaryML"
+      },
+      "summary": "BAML 是专为 AI 智能体设计的编程语言，用 Rust 编写，帮助开发者以类型安全的方式定义和编排 LLM 调用与工作流，简化复杂代理应用的构建。",
+      "tags": [
+        "agent",
+        "llm",
+        "rust",
+        "language",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T13:16:20.244Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FluxDown",
+      "fullName": "zerx-lab/FluxDown",
+      "url": "https://github.com/zerx-lab/FluxDown",
+      "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2882,
+      "forks": 148,
+      "starsToday": 1475,
+      "topics": [],
+      "author": {
+        "name": "zerx-lab",
+        "avatar": "https://avatars.githubusercontent.com/u/161401688?s=40&amp;v=4",
+        "url": "https://github.com/zerx-lab"
+      },
+      "summary": "Rust 编写的高性能多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力及 HLS/DASH 流媒体，多线程加速与浏览器集成，界面精美且免费无广告。",
+      "tags": [
+        "downloader",
+        "rust",
+        "bittorrent",
+        "streaming",
+        "gui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-04T03:34:24.652Z",
       "deepwikiAvailable": false
     },
     {
@@ -394,118 +562,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-04T03:34:24.466Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "fresh",
-      "fullName": "sinelaw/fresh",
-      "url": "https://github.com/sinelaw/fresh",
-      "description": "Terminal based IDE & text editor: easy, powerful and fast",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8670,
-      "forks": 329,
-      "starsToday": 607,
-      "topics": [],
-      "author": {
-        "name": "sinelaw",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/sinelaw"
-      },
-      "summary": "基于Rust的终端IDE与文本编辑器，主打易用、强大且快速，提供现代终端编辑体验。",
-      "tags": [
-        "editor",
-        "ide",
-        "terminal",
-        "rust",
-        "tui"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:34:24.364Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "FluxDown",
-      "fullName": "zerx-lab/FluxDown",
-      "url": "https://github.com/zerx-lab/FluxDown",
-      "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2870,
-      "forks": 147,
-      "starsToday": 1475,
-      "topics": [],
-      "author": {
-        "name": "zerx-lab",
-        "avatar": "https://avatars.githubusercontent.com/u/161401688?s=40&amp;v=4",
-        "url": "https://github.com/zerx-lab"
-      },
-      "summary": "Rust 编写的高性能多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力及 HLS/DASH 流媒体，多线程加速与浏览器集成，界面精美且免费无广告。",
-      "tags": [
-        "downloader",
-        "rust",
-        "bittorrent",
-        "streaming",
-        "gui"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-04T03:34:24.652Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "polars",
-      "fullName": "pola-rs/polars",
-      "url": "https://github.com/pola-rs/polars",
-      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 39639,
-      "forks": 3078,
-      "starsToday": 474,
-      "topics": [],
-      "author": {
-        "name": "pola-rs",
-        "avatar": "https://avatars.githubusercontent.com/u/3023000?s=40&amp;v=4",
-        "url": "https://github.com/pola-rs"
-      },
-      "summary": "基于Rust编写的极速DataFrame查询引擎，性能远超Pandas，提供Python与Rust双接口，支持惰性与流式处理海量数据。",
-      "tags": [
-        "dataframe",
-        "rust",
-        "query-engine",
-        "data-processing",
-        "polars"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-09-04T03:34:25.617Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Antigravity-Manager",
-      "fullName": "lbjlaq/Antigravity-Manager",
-      "url": "https://github.com/lbjlaq/Antigravity-Manager",
-      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 30984,
-      "forks": 3335,
-      "starsToday": 926,
-      "topics": [],
-      "author": {
-        "name": "lbjlaq",
-        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
-        "url": "https://github.com/lbjlaq"
-      },
-      "summary": "基于 Tauri v2 + React (Rust) 的 Antigravity 专业账号管理与一键无缝切换工具，界面轻量高效。",
-      "tags": [
-        "tauri",
-        "rust",
-        "react",
-        "account-manager",
-        "desktop"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-04T03:34:26.622Z",
       "deepwikiAvailable": false
     },
     {

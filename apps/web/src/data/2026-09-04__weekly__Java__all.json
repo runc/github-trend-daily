@@ -2,9 +2,37 @@
   "date": "2026-09-04",
   "since": "weekly",
   "language": "Java",
-  "fetchedAt": "2026-09-04T03:31:58.566Z",
-  "enrichedAt": "2026-09-04T03:33:45.085Z",
+  "fetchedAt": "2026-09-04T13:15:11.945Z",
+  "enrichedAt": "2026-09-04T13:16:12.526Z",
   "repos": [
+    {
+      "name": "checkstyle",
+      "fullName": "checkstyle/checkstyle",
+      "url": "https://github.com/checkstyle/checkstyle",
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9529,
+      "forks": 4217,
+      "starsToday": 579,
+      "topics": [],
+      "author": {
+        "name": "checkstyle",
+        "avatar": "https://avatars.githubusercontent.com/u/812984?s=40&amp;v=4",
+        "url": "https://github.com/checkstyle"
+      },
+      "summary": "Checkstyle 是帮助 Java 开发者遵循编码规范的工具，默认支持 Google Java Style 和 Sun Code Conventions，高度可配置，支持命令行和 ANT 任务调用。",
+      "tags": [
+        "java",
+        "linting",
+        "code-quality",
+        "style-checker",
+        "devtools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:33:38.329Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "ghidra",
       "fullName": "NationalSecurityAgency/ghidra",
@@ -12,8 +40,8 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 74339,
-      "forks": 8103,
+      "stars": 74363,
+      "forks": 8109,
       "starsToday": 1398,
       "topics": [],
       "author": {
@@ -34,31 +62,534 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "checkstyle",
-      "fullName": "checkstyle/checkstyle",
-      "url": "https://github.com/checkstyle/checkstyle",
-      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "name": "nacos",
+      "fullName": "alibaba/nacos",
+      "url": "https://github.com/alibaba/nacos",
+      "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 9528,
-      "forks": 4217,
-      "starsToday": 579,
+      "stars": 33345,
+      "forks": 13287,
+      "starsToday": 36,
       "topics": [],
       "author": {
-        "name": "checkstyle",
-        "avatar": "https://avatars.githubusercontent.com/u/812984?s=40&amp;v=4",
-        "url": "https://github.com/checkstyle"
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/37170243?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
       },
-      "summary": "Checkstyle 是帮助 Java 开发者遵循编码规范的工具，默认支持 Google Java Style 和 Sun Code Conventions，高度可配置，支持命令行和 ANT 任务调用。",
+      "summary": "阿里巴巴开源的动态服务发现、配置管理和服务管理平台，专为AI云原生应用设计，易用且功能强大，是微服务架构的核心基础设施。",
+      "tags": [
+        "service-discovery",
+        "config-management",
+        "microservices",
+        "cloud-native",
+        "java"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-04T03:33:38.274Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "quarkus",
+      "fullName": "quarkusio/quarkus",
+      "url": "https://github.com/quarkusio/quarkus",
+      "description": "Quarkus: Supersonic Subatomic Java.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 15866,
+      "forks": 3283,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "quarkusio",
+        "avatar": "https://avatars.githubusercontent.com/u/1279749?s=40&amp;v=4",
+        "url": "https://github.com/quarkusio"
+      },
+      "summary": "Quarkus 是面向 Kubernetes 与云原生的 Java 框架，主打超音速启动与亚原子级内存占用，支持 GraalVM 原生镜像与响应式编程。",
       "tags": [
         "java",
-        "linting",
-        "code-quality",
-        "style-checker",
-        "devtools"
+        "kubernetes",
+        "cloud-native",
+        "graalvm",
+        "framework"
+      ],
+      "category": "Framework",
+      "enrichedAt": "2026-09-04T03:33:42.036Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "JeecgBoot",
+      "fullName": "jeecgboot/JeecgBoot",
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "description": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 47628,
+      "forks": 16179,
+      "starsToday": 153,
+      "topics": [],
+      "author": {
+        "name": "jeecgboot",
+        "avatar": "https://avatars.githubusercontent.com/u/3162115?s=40&amp;v=4",
+        "url": "https://github.com/jeecgboot"
+      },
+      "summary": "企业级AI低代码平台，一句话即可生成整个前后端系统，内置AI聊天、知识库、流程编排等应用，兼容主流大模型，解决Java项目90%重复工作。",
+      "tags": [
+        "low-code",
+        "ai",
+        "java",
+        "codegen",
+        "platform"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:33:38.329Z",
+      "enrichedAt": "2026-09-04T03:33:39.539Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keycloak",
+      "fullName": "keycloak/keycloak",
+      "url": "https://github.com/keycloak/keycloak",
+      "description": "Open Source Identity and Access Management For Modern Applications and Services",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 36600,
+      "forks": 8893,
+      "starsToday": 147,
+      "topics": [],
+      "author": {
+        "name": "keycloak",
+        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
+        "url": "https://github.com/keycloak"
+      },
+      "summary": "开源身份与访问管理(IAM)平台，为现代应用和服务提供单点登录、认证授权、社交登录等企业级安全能力，支持多协议与可扩展自定义。",
+      "tags": [
+        "iam",
+        "authentication",
+        "sso",
+        "security",
+        "java"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-04T03:33:40.508Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuoYi-Vue-Plus",
+      "fullName": "dromara/RuoYi-Vue-Plus",
+      "url": "https://github.com/dromara/RuoYi-Vue-Plus",
+      "description": "多租户后台管理系统 重写RuoYi-Vue所有功能 集成 Sa-Token、Mybatis-Plus、WarmFlow、SpringDoc、Hutool、OSS 定期同步",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 2630,
+      "forks": 757,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "dromara",
+        "avatar": "https://avatars.githubusercontent.com/u/31852897?s=40&amp;v=4",
+        "url": "https://github.com/dromara"
+      },
+      "summary": "基于RuoYi-Vue重写的多租户后台管理系统，集成Sa-Token、Mybatis-Plus、WarmFlow等主流组件，功能全面且持续同步更新。",
+      "tags": [
+        "admin",
+        "multi-tenant",
+        "java",
+        "spring-boot",
+        "rbac"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-09-04T03:33:43.569Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jimureport",
+      "fullName": "jeecgboot/jimureport",
+      "url": "https://github.com/jeecgboot/jimureport",
+      "description": "一款真正的 AI 报表诞生了！JimuChatBI —— 首款免费开源对话式智能数据分析产品（Chat2BI）。 一句话生成报表和数据大屏，支持对话式 AI 修改优化；类 Excel 在线报表设计，兼容国产信创数据源。 对着 AI 说句话，报表就出来了——表格、图表、分组汇总自动生成，复杂报表场景轻松应对。想做数据大屏？同样一句话搞定，让数据分析进入 AI 时代。",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 8371,
+      "forks": 1879,
+      "starsToday": 104,
+      "topics": [],
+      "author": {
+        "name": "jeecgboot",
+        "avatar": "https://avatars.githubusercontent.com/u/3162115?s=40&amp;v=4",
+        "url": "https://github.com/jeecgboot"
+      },
+      "summary": "积木报表 JimuReport 推出 AI 对话式数据分析产品 JimuChatBI，一句话生成报表和数据大屏，支持对话式 AI 修改优化，类 Excel 在线设计，兼容国产信创数据源。",
+      "tags": [
+        "ai-reporting",
+        "chat2bi",
+        "data-analysis",
+        "java",
+        "bi"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-04T03:33:39.747Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FtcRobotController",
+      "fullName": "FIRST-Tech-Challenge/FtcRobotController",
+      "url": "https://github.com/FIRST-Tech-Challenge/FtcRobotController",
+      "description": "FTC Android Studio Workspace for robot programming in Android Studio",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1276,
+      "forks": 9618,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "FIRST-Tech-Challenge",
+        "avatar": "https://avatars.githubusercontent.com/u/51927529?s=40&amp;v=4",
+        "url": "https://github.com/FIRST-Tech-Challenge"
+      },
+      "summary": "FIRST科技挑战赛官方Android Studio机器人编程工作区，提供FTC竞赛机器人的控制代码框架与开发环境，支持Java编程。",
+      "tags": [
+        "ftc",
+        "robotics",
+        "android",
+        "competition",
+        "java"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T13:16:11.619Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iceberg",
+      "fullName": "apache/iceberg",
+      "url": "https://github.com/apache/iceberg",
+      "description": "Apache Iceberg",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9203,
+      "forks": 3508,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Iceberg 是开源大数据表格格式标准，为数据湖提供高性能、可扩展的表管理能力，支持 ACID 事务、时间旅行和模式演进，广泛用于数据湖仓一体架构。",
+      "tags": [
+        "data-lake",
+        "table-format",
+        "big-data",
+        "apache",
+        "java"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-04T03:33:43.779Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "piko",
+      "fullName": "crimera/piko",
+      "url": "https://github.com/crimera/piko",
+      "description": "morphe patches for twitter and instagram",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 5091,
+      "forks": 189,
+      "starsToday": 168,
+      "topics": [],
+      "author": {
+        "name": "crimera",
+        "avatar": "https://avatars.githubusercontent.com/u/107795576?s=40&amp;v=4",
+        "url": "https://github.com/crimera"
+      },
+      "summary": "为Twitter和Instagram提供Morphe补丁的开源项目，通过Java实现社交媒体应用的增强与定制功能，支持社区持续更新维护。",
+      "tags": [
+        "twitter",
+        "instagram",
+        "patches",
+        "android",
+        "modding"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:33:42.037Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "grpc-java",
+      "fullName": "grpc/grpc-java",
+      "url": "https://github.com/grpc/grpc-java",
+      "description": "The Java gRPC implementation. HTTP/2 based RPC",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 12063,
+      "forks": 4004,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "grpc",
+        "avatar": "https://avatars.githubusercontent.com/u/2811396?s=40&amp;v=4",
+        "url": "https://github.com/grpc"
+      },
+      "summary": "Java 版 gRPC 官方实现，基于 HTTP/2 的高性能 RPC 框架，支持双向流式通信、负载均衡及多种认证机制，广泛用于微服务通信。",
+      "tags": [
+        "grpc",
+        "rpc",
+        "http2",
+        "java",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-04T03:33:42.387Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SmartTube",
+      "fullName": "yuliskov/SmartTube",
+      "url": "https://github.com/yuliskov/SmartTube",
+      "description": "Browse media content with your own rules on Android TV",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 32586,
+      "forks": 1993,
+      "starsToday": 217,
+      "topics": [],
+      "author": {
+        "name": "yuliskov",
+        "avatar": "https://avatars.githubusercontent.com/u/5897464?s=40&amp;v=4",
+        "url": "https://github.com/yuliskov"
+      },
+      "summary": "SmartTube 是 Android TV 上开源的 YouTube 客户端，支持无广告播放、自定义规则浏览媒体内容，功能强大且持续活跃更新。",
+      "tags": [
+        "android-tv",
+        "youtube",
+        "ad-free",
+        "media-player",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-04T03:33:45.085Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DevOps-Projects",
+      "fullName": "NotHarshhaa/DevOps-Projects",
+      "url": "https://github.com/NotHarshhaa/DevOps-Projects",
+      "description": "🚀 Real-world DevOps projects for aspiring engineers — Beginner to Advanced. Covers AWS, Kubernetes, Docker, CI/CD, Terraform, Jenkins, and more. Hands-on learning with step-by-step guides.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 5053,
+      "forks": 4580,
+      "starsToday": 83,
+      "topics": [],
+      "author": {
+        "name": "NotHarshhaa",
+        "avatar": "https://avatars.githubusercontent.com/u/112948305?s=40&amp;v=4",
+        "url": "https://github.com/NotHarshhaa"
+      },
+      "summary": "面向初学者的真实DevOps实战项目合集，覆盖AWS、Kubernetes、Docker、CI/CD、Terraform、Jenkins等，提供从入门到进阶的分步指南，适合动手实践学习。",
+      "tags": [
+        "devops",
+        "kubernetes",
+        "docker",
+        "ci-cd",
+        "aws",
+        "terraform"
+      ],
+      "category": "Learning",
+      "enrichedAt": "2026-09-04T13:16:11.235Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skillhub",
+      "fullName": "iflytek/skillhub",
+      "url": "https://github.com/iflytek/skillhub",
+      "description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy on-premise with Docker or Kubernetes.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4973,
+      "forks": 824,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "iflytek",
+        "avatar": "https://avatars.githubusercontent.com/u/28803103?s=40&amp;v=4",
+        "url": "https://github.com/iflytek"
+      },
+      "summary": "面向企业的自托管开源智能体技能注册中心，支持技能包发布与版本管理，内置RBAC权限与审计日志，可通过Docker或Kubernetes本地部署。",
+      "tags": [
+        "agent",
+        "registry",
+        "rbac",
+        "self-hosted",
+        "enterprise"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-04T13:16:11.171Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 60303,
+      "forks": 7423,
+      "starsToday": 427,
+      "topics": [],
+      "author": {
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
+        "url": "https://github.com/termux"
+      },
+      "summary": "Termux是Android平台强大的终端模拟器，支持通过包管理器安装数百种Linux工具和编程环境，无需root权限即可在手机上获得完整命令行体验。",
+      "tags": [
+        "terminal",
+        "android",
+        "linux",
+        "emulator"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-04T03:33:44.952Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "strykerapp",
+      "fullName": "zalexdev/strykerapp",
+      "url": "https://github.com/zalexdev/strykerapp",
+      "description": "Magic tool for pentest from your android device!",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1480,
+      "forks": 213,
+      "starsToday": 108,
+      "topics": [],
+      "author": {
+        "name": "zalexdev",
+        "avatar": "https://avatars.githubusercontent.com/u/73614708?s=40&amp;v=4",
+        "url": "https://github.com/zalexdev"
+      },
+      "summary": "Android 端渗透测试魔法工具，集多功能于一体，让安全测试直接在移动设备上完成，轻量便携且功能强大。",
+      "tags": [
+        "pentest",
+        "android",
+        "security",
+        "mobile"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-04T13:16:11.280Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cryptomator",
+      "fullName": "cryptomator/cryptomator",
+      "url": "https://github.com/cryptomator/cryptomator",
+      "description": "Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 16080,
+      "forks": 1553,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "cryptomator",
+        "avatar": "https://avatars.githubusercontent.com/u/1204330?s=40&amp;v=4",
+        "url": "https://github.com/cryptomator"
+      },
+      "summary": "跨平台客户端加密工具，为云存储提供端到端加密保护，确保数据隐私与自主可控，支持Windows、macOS和Linux。",
+      "tags": [
+        "encryption",
+        "cloud-storage",
+        "privacy",
+        "security",
+        "java"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-04T03:33:43.689Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "plantuml",
+      "fullName": "plantuml/plantuml",
+      "url": "https://github.com/plantuml/plantuml",
+      "description": "Generate diagrams from textual description",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 13297,
+      "forks": 1235,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "plantuml",
+        "avatar": "https://avatars.githubusercontent.com/u/467517?s=40&amp;v=4",
+        "url": "https://github.com/plantuml"
+      },
+      "summary": "PlantUML 是一款用文本描述生成 UML 及各类图表的开源工具，支持时序图、用例图、类图等，Java 实现，可集成到文档与 CI 流程中。",
+      "tags": [
+        "uml",
+        "diagram",
+        "text-to-diagram",
+        "java",
+        "documentation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T13:16:12.465Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "halo",
+      "fullName": "halo-dev/halo",
+      "url": "https://github.com/halo-dev/halo",
+      "description": "Halo 是一款强大易用的开源建站工具，从个人博客、知识库，到企业官网、在线商城，Halo 都能助您轻松实现，一站式满足您的多样化建站需求。",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 39670,
+      "forks": 10336,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "halo-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/21301288?s=40&amp;v=4",
+        "url": "https://github.com/halo-dev"
+      },
+      "summary": "Halo 是一款强大易用的开源建站工具，基于 Java 开发，支持个人博客、知识库、企业官网和在线商城等多种场景，一站式满足多样化建站需求。",
+      "tags": [
+        "cms",
+        "blog",
+        "java",
+        "website-builder",
+        "open-source"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-09-04T13:16:12.328Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jabref",
+      "fullName": "JabRef/jabref",
+      "url": "https://github.com/JabRef/jabref",
+      "description": "Desktop app for managing BibTeX and BibLaTeX (.bib) libraries",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4688,
+      "forks": 3550,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "JabRef",
+        "avatar": "https://avatars.githubusercontent.com/u/1366654?s=40&amp;v=4",
+        "url": "https://github.com/JabRef"
+      },
+      "summary": "开源桌面文献管理工具，支持 BibTeX/BibLaTeX 库的创建、编辑与引用管理，跨平台 Java 应用，功能丰富且社区活跃。",
+      "tags": [
+        "bibliography",
+        "bibtex",
+        "reference-manager",
+        "java",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-04T13:16:12.526Z",
       "deepwikiAvailable": false
     },
     {
@@ -90,62 +621,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nacos",
-      "fullName": "alibaba/nacos",
-      "url": "https://github.com/alibaba/nacos",
-      "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 33342,
-      "forks": 13287,
-      "starsToday": 36,
-      "topics": [],
-      "author": {
-        "name": "alibaba",
-        "avatar": "https://avatars.githubusercontent.com/u/37170243?s=40&amp;v=4",
-        "url": "https://github.com/alibaba"
-      },
-      "summary": "阿里巴巴开源的动态服务发现、配置管理和服务管理平台，专为AI云原生应用设计，易用且功能强大，是微服务架构的核心基础设施。",
-      "tags": [
-        "service-discovery",
-        "config-management",
-        "microservices",
-        "cloud-native",
-        "java"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-04T03:33:38.274Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "JeecgBoot",
-      "fullName": "jeecgboot/JeecgBoot",
-      "url": "https://github.com/jeecgboot/JeecgBoot",
-      "description": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 47623,
-      "forks": 16176,
-      "starsToday": 153,
-      "topics": [],
-      "author": {
-        "name": "jeecgboot",
-        "avatar": "https://avatars.githubusercontent.com/u/3162115?s=40&amp;v=4",
-        "url": "https://github.com/jeecgboot"
-      },
-      "summary": "企业级AI低代码平台，一句话即可生成整个前后端系统，内置AI聊天、知识库、流程编排等应用，兼容主流大模型，解决Java项目90%重复工作。",
-      "tags": [
-        "low-code",
-        "ai",
-        "java",
-        "codegen",
-        "platform"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:33:39.539Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ghidra-mcp",
       "fullName": "bethington/ghidra-mcp",
       "url": "https://github.com/bethington/ghidra-mcp",
@@ -171,62 +646,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-04T03:33:39.652Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jimureport",
-      "fullName": "jeecgboot/jimureport",
-      "url": "https://github.com/jeecgboot/jimureport",
-      "description": "一款真正的 AI 报表诞生了！JimuChatBI —— 首款免费开源对话式智能数据分析产品（Chat2BI）。 一句话生成报表和数据大屏，支持对话式 AI 修改优化；类 Excel 在线报表设计，兼容国产信创数据源。 对着 AI 说句话，报表就出来了——表格、图表、分组汇总自动生成，复杂报表场景轻松应对。想做数据大屏？同样一句话搞定，让数据分析进入 AI 时代。",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 8356,
-      "forks": 1879,
-      "starsToday": 104,
-      "topics": [],
-      "author": {
-        "name": "jeecgboot",
-        "avatar": "https://avatars.githubusercontent.com/u/3162115?s=40&amp;v=4",
-        "url": "https://github.com/jeecgboot"
-      },
-      "summary": "积木报表 JimuReport 推出 AI 对话式数据分析产品 JimuChatBI，一句话生成报表和数据大屏，支持对话式 AI 修改优化，类 Excel 在线设计，兼容国产信创数据源。",
-      "tags": [
-        "ai-reporting",
-        "chat2bi",
-        "data-analysis",
-        "java",
-        "bi"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-04T03:33:39.747Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "keycloak",
-      "fullName": "keycloak/keycloak",
-      "url": "https://github.com/keycloak/keycloak",
-      "description": "Open Source Identity and Access Management For Modern Applications and Services",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 36593,
-      "forks": 8891,
-      "starsToday": 147,
-      "topics": [],
-      "author": {
-        "name": "keycloak",
-        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
-        "url": "https://github.com/keycloak"
-      },
-      "summary": "开源身份与访问管理(IAM)平台，为现代应用和服务提供单点登录、认证授权、社交登录等企业级安全能力，支持多协议与可扩展自定义。",
-      "tags": [
-        "iam",
-        "authentication",
-        "sso",
-        "security",
-        "java"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-04T03:33:40.508Z",
       "deepwikiAvailable": false
     },
     {
@@ -314,90 +733,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "quarkus",
-      "fullName": "quarkusio/quarkus",
-      "url": "https://github.com/quarkusio/quarkus",
-      "description": "Quarkus: Supersonic Subatomic Java.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 15865,
-      "forks": 3282,
-      "starsToday": 19,
-      "topics": [],
-      "author": {
-        "name": "quarkusio",
-        "avatar": "https://avatars.githubusercontent.com/u/1279749?s=40&amp;v=4",
-        "url": "https://github.com/quarkusio"
-      },
-      "summary": "Quarkus 是面向 Kubernetes 与云原生的 Java 框架，主打超音速启动与亚原子级内存占用，支持 GraalVM 原生镜像与响应式编程。",
-      "tags": [
-        "java",
-        "kubernetes",
-        "cloud-native",
-        "graalvm",
-        "framework"
-      ],
-      "category": "Framework",
-      "enrichedAt": "2026-09-04T03:33:42.036Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "piko",
-      "fullName": "crimera/piko",
-      "url": "https://github.com/crimera/piko",
-      "description": "morphe patches for twitter and instagram",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 5089,
-      "forks": 189,
-      "starsToday": 168,
-      "topics": [],
-      "author": {
-        "name": "crimera",
-        "avatar": "https://avatars.githubusercontent.com/u/107795576?s=40&amp;v=4",
-        "url": "https://github.com/crimera"
-      },
-      "summary": "为Twitter和Instagram提供Morphe补丁的开源项目，通过Java实现社交媒体应用的增强与定制功能，支持社区持续更新维护。",
-      "tags": [
-        "twitter",
-        "instagram",
-        "patches",
-        "android",
-        "modding"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:33:42.037Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "grpc-java",
-      "fullName": "grpc/grpc-java",
-      "url": "https://github.com/grpc/grpc-java",
-      "description": "The Java gRPC implementation. HTTP/2 based RPC",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 12063,
-      "forks": 4004,
-      "starsToday": 3,
-      "topics": [],
-      "author": {
-        "name": "grpc",
-        "avatar": "https://avatars.githubusercontent.com/u/2811396?s=40&amp;v=4",
-        "url": "https://github.com/grpc"
-      },
-      "summary": "Java 版 gRPC 官方实现，基于 HTTP/2 的高性能 RPC 框架，支持双向流式通信、负载均衡及多种认证机制，广泛用于微服务通信。",
-      "tags": [
-        "grpc",
-        "rpc",
-        "http2",
-        "java",
-        "microservices"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-04T03:33:42.387Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "GmsCore",
       "fullName": "microg/GmsCore",
       "url": "https://github.com/microg/GmsCore",
@@ -426,90 +761,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "iceberg",
-      "fullName": "apache/iceberg",
-      "url": "https://github.com/apache/iceberg",
-      "description": "Apache Iceberg",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 9201,
-      "forks": 3508,
-      "starsToday": 25,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache Iceberg 是开源大数据表格格式标准，为数据湖提供高性能、可扩展的表管理能力，支持 ACID 事务、时间旅行和模式演进，广泛用于数据湖仓一体架构。",
-      "tags": [
-        "data-lake",
-        "table-format",
-        "big-data",
-        "apache",
-        "java"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-04T03:33:43.779Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "RuoYi-Vue-Plus",
-      "fullName": "dromara/RuoYi-Vue-Plus",
-      "url": "https://github.com/dromara/RuoYi-Vue-Plus",
-      "description": "多租户后台管理系统 重写RuoYi-Vue所有功能 集成 Sa-Token、Mybatis-Plus、WarmFlow、SpringDoc、Hutool、OSS 定期同步",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 2625,
-      "forks": 757,
-      "starsToday": 43,
-      "topics": [],
-      "author": {
-        "name": "dromara",
-        "avatar": "https://avatars.githubusercontent.com/u/31852897?s=40&amp;v=4",
-        "url": "https://github.com/dromara"
-      },
-      "summary": "基于RuoYi-Vue重写的多租户后台管理系统，集成Sa-Token、Mybatis-Plus、WarmFlow等主流组件，功能全面且持续同步更新。",
-      "tags": [
-        "admin",
-        "multi-tenant",
-        "java",
-        "spring-boot",
-        "rbac"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-09-04T03:33:43.569Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cryptomator",
-      "fullName": "cryptomator/cryptomator",
-      "url": "https://github.com/cryptomator/cryptomator",
-      "description": "Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 16077,
-      "forks": 1552,
-      "starsToday": 69,
-      "topics": [],
-      "author": {
-        "name": "cryptomator",
-        "avatar": "https://avatars.githubusercontent.com/u/1204330?s=40&amp;v=4",
-        "url": "https://github.com/cryptomator"
-      },
-      "summary": "跨平台客户端加密工具，为云存储提供端到端加密保护，确保数据隐私与自主可控，支持Windows、macOS和Linux。",
-      "tags": [
-        "encryption",
-        "cloud-storage",
-        "privacy",
-        "security",
-        "java"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-09-04T03:33:43.689Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "selenium",
       "fullName": "SeleniumHQ/selenium",
       "url": "https://github.com/SeleniumHQ/selenium",
@@ -535,61 +786,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-04T03:33:43.814Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "termux-app",
-      "fullName": "termux/termux-app",
-      "url": "https://github.com/termux/termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 60275,
-      "forks": 7416,
-      "starsToday": 427,
-      "topics": [],
-      "author": {
-        "name": "termux",
-        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
-        "url": "https://github.com/termux"
-      },
-      "summary": "Termux是Android平台强大的终端模拟器，支持通过包管理器安装数百种Linux工具和编程环境，无需root权限即可在手机上获得完整命令行体验。",
-      "tags": [
-        "terminal",
-        "android",
-        "linux",
-        "emulator"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-04T03:33:44.952Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "SmartTube",
-      "fullName": "yuliskov/SmartTube",
-      "url": "https://github.com/yuliskov/SmartTube",
-      "description": "Browse media content with your own rules on Android TV",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 32579,
-      "forks": 1992,
-      "starsToday": 217,
-      "topics": [],
-      "author": {
-        "name": "yuliskov",
-        "avatar": "https://avatars.githubusercontent.com/u/5897464?s=40&amp;v=4",
-        "url": "https://github.com/yuliskov"
-      },
-      "summary": "SmartTube 是 Android TV 上开源的 YouTube 客户端，支持无广告播放、自定义规则浏览媒体内容，功能强大且持续活跃更新。",
-      "tags": [
-        "android-tv",
-        "youtube",
-        "ad-free",
-        "media-player",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-04T03:33:45.085Z",
       "deepwikiAvailable": false
     }
   ]

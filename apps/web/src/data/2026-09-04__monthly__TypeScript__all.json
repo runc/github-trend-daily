@@ -2,35 +2,35 @@
   "date": "2026-09-04",
   "since": "monthly",
   "language": "TypeScript",
-  "fetchedAt": "2026-09-04T03:31:58.566Z",
-  "enrichedAt": "2026-09-04T03:33:52.092Z",
+  "fetchedAt": "2026-09-04T13:15:11.945Z",
+  "enrichedAt": "2026-09-04T13:16:13.679Z",
   "repos": [
     {
-      "name": "plugins",
-      "fullName": "cursor/plugins",
-      "url": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
+      "name": "prime-agent",
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 6791,
-      "forks": 558,
-      "starsToday": 4258,
+      "stars": 19807,
+      "forks": 2171,
+      "starsToday": 19906,
       "topics": [],
       "author": {
-        "name": "cursor",
-        "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&amp;v=4",
-        "url": "https://github.com/cursor"
+        "name": "PrimeIntellect-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/46242684?s=40&amp;v=4",
+        "url": "https://github.com/PrimeIntellect-ai"
       },
-      "summary": "Cursor 官方插件规范与插件集合，定义插件开发标准并提供官方示例，帮助开发者扩展 Cursor 编辑器能力，今日新增超四千星。",
+      "summary": "基于RLM（强化学习）的自我改进编码智能体，面向编码工作流和长时间自主任务，支持持续学习与迭代优化。",
       "tags": [
-        "cursor",
-        "plugins",
+        "rl-agent",
+        "coding",
+        "autonomous",
         "typescript",
-        "editor",
-        "specification"
+        "self-improving"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:33:46.760Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-04T13:16:13.679Z",
       "deepwikiAvailable": false
     },
     {
@@ -40,8 +40,8 @@
       "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 9581,
-      "forks": 1125,
+      "stars": 9603,
+      "forks": 1129,
       "starsToday": 9562,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 31114,
-      "forks": 5146,
+      "stars": 31326,
+      "forks": 5167,
       "starsToday": 10599,
       "topics": [],
       "author": {
@@ -93,11 +93,11 @@
       "name": "maka",
       "fullName": "apache/maka",
       "url": "https://github.com/apache/maka",
-      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 4659,
-      "forks": 438,
+      "stars": 4683,
+      "forks": 445,
       "starsToday": 3545,
       "topics": [],
       "author": {
@@ -118,14 +118,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 21666,
+      "forks": 5271,
+      "starsToday": 5313,
+      "topics": [],
+      "author": {
+        "name": "pingdotgg",
+        "avatar": "https://avatars.githubusercontent.com/u/51714798?s=40&amp;v=4",
+        "url": "https://github.com/pingdotgg"
+      },
+      "summary": "T3 Code 是 Theo 推出的 AI 编程工具，基于 TypeScript 构建，提供智能代码生成与辅助能力，今日新增五千余星，社区热度极高。",
+      "tags": [
+        "ai-coding",
+        "typescript",
+        "developer-tools",
+        "codegen"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:33:47.899Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "TencentDB-Agent-Memory",
       "fullName": "TencentCloud/TencentDB-Agent-Memory",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 25862,
-      "forks": 2414,
+      "stars": 25909,
+      "forks": 2416,
       "starsToday": 14291,
       "topics": [],
       "author": {
@@ -146,68 +173,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "computer",
-      "fullName": "cloudflare/computer",
-      "url": "https://github.com/cloudflare/computer",
-      "description": "Give your agent a computer 👾",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 8986,
-      "forks": 502,
-      "starsToday": 8938,
-      "topics": [],
-      "author": {
-        "name": "cloudflare",
-        "avatar": "https://avatars.githubusercontent.com/u/263346377?s=40&amp;v=4",
-        "url": "https://github.com/cloudflare"
-      },
-      "summary": "Cloudflare推出的开源项目，为AI代理提供可用的计算机环境，让代理能像人类一样操作浏览器和桌面应用，基于TypeScript构建。",
-      "tags": [
-        "ai-agent",
-        "cloudflare",
-        "browser-automation",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-04T03:33:47.908Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "t3code",
-      "fullName": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 21621,
-      "forks": 5251,
-      "starsToday": 5313,
-      "topics": [],
-      "author": {
-        "name": "pingdotgg",
-        "avatar": "https://avatars.githubusercontent.com/u/51714798?s=40&amp;v=4",
-        "url": "https://github.com/pingdotgg"
-      },
-      "summary": "T3 Code 是 Theo 推出的 AI 编程工具，基于 TypeScript 构建，提供智能代码生成与辅助能力，今日新增五千余星，社区热度极高。",
-      "tags": [
-        "ai-coding",
-        "typescript",
-        "developer-tools",
-        "codegen"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-04T03:33:47.899Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "freebuff",
       "fullName": "CodebuffAI/freebuff",
       "url": "https://github.com/CodebuffAI/freebuff",
       "description": "The free coding agent",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 11581,
-      "forks": 1248,
+      "stars": 11603,
+      "forks": 1249,
       "starsToday": 3404,
       "topics": [],
       "author": {
@@ -228,42 +201,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "pi",
-      "fullName": "earendil-works/pi",
-      "url": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 101523,
-      "forks": 12629,
-      "starsToday": 18982,
-      "topics": [],
-      "author": {
-        "name": "earendil-works",
-        "avatar": "https://avatars.githubusercontent.com/u/514052?s=40&amp;v=4",
-        "url": "https://github.com/earendil-works"
-      },
-      "summary": "AI智能体工具包，提供统一LLM API、智能体循环、TUI界面和编码智能体CLI，基于TypeScript构建，帮助开发者快速搭建AI应用。",
-      "tags": [
-        "ai-agent",
-        "llm",
-        "cli",
-        "typescript",
-        "tui"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-04T03:33:48.962Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "open-seo",
       "fullName": "every-app/open-seo",
       "url": "https://github.com/every-app/open-seo",
       "description": "Open source alternative to Semrush and Ahrefs",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 16699,
-      "forks": 2063,
+      "stars": 16860,
+      "forks": 2086,
       "starsToday": 6496,
       "topics": [],
       "author": {
@@ -284,14 +229,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "pi",
+      "fullName": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 101707,
+      "forks": 12669,
+      "starsToday": 18982,
+      "topics": [],
+      "author": {
+        "name": "earendil-works",
+        "avatar": "https://avatars.githubusercontent.com/u/514052?s=40&amp;v=4",
+        "url": "https://github.com/earendil-works"
+      },
+      "summary": "AI智能体工具包，提供统一LLM API、智能体循环、TUI界面和编码智能体CLI，基于TypeScript构建，帮助开发者快速搭建AI应用。",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "cli",
+        "typescript",
+        "tui"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-04T03:33:48.962Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "oh-my-pi",
       "fullName": "can1357/oh-my-pi",
       "url": "https://github.com/can1357/oh-my-pi",
       "description": "⌥ Coding agent with the IDE wired in",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 29337,
-      "forks": 2966,
+      "stars": 29418,
+      "forks": 2978,
       "starsToday": 7988,
       "topics": [],
       "author": {
@@ -317,8 +290,8 @@
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 60925,
-      "forks": 8470,
+      "stars": 61078,
+      "forks": 8497,
       "starsToday": 22754,
       "topics": [],
       "author": {
@@ -345,8 +318,8 @@
       "description": "BookOrbit: Your Reading Space",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 3825,
-      "forks": 235,
+      "stars": 3845,
+      "forks": 237,
       "starsToday": 1917,
       "topics": [],
       "author": {
@@ -373,8 +346,8 @@
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 24142,
-      "forks": 3285,
+      "stars": 24236,
+      "forks": 3300,
       "starsToday": 6626,
       "topics": [],
       "author": {
@@ -395,14 +368,69 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "computer",
+      "fullName": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "description": "Give your agent a computer 👾",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 9018,
+      "forks": 503,
+      "starsToday": 8938,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/263346377?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare推出的开源项目，为AI代理提供可用的计算机环境，让代理能像人类一样操作浏览器和桌面应用，基于TypeScript构建。",
+      "tags": [
+        "ai-agent",
+        "cloudflare",
+        "browser-automation",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-04T03:33:47.908Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "distilly",
+      "fullName": "titanwings/distilly",
+      "url": "https://github.com/titanwings/distilly",
+      "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 24342,
+      "forks": 2131,
+      "starsToday": 3741,
+      "topics": [],
+      "author": {
+        "name": "titanwings",
+        "avatar": "https://avatars.githubusercontent.com/u/85022018?s=40&amp;v=4",
+        "url": "https://github.com/titanwings"
+      },
+      "summary": "Distilly 将智能体的思维方式蒸馏为可复用的 Skills，供任意 Agent 或 Bot 使用，帮助沉淀和共享推理能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "skills",
+        "typescript",
+        "distillation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-04T13:16:13.543Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "eliza",
       "fullName": "elizaOS/eliza",
       "url": "https://github.com/elizaOS/eliza",
       "description": "Open source agentic operating system",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 19243,
-      "forks": 5707,
+      "stars": 19244,
+      "forks": 5708,
       "starsToday": 425,
       "topics": [],
       "author": {
@@ -423,14 +451,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "zod",
+      "fullName": "colinhacks/zod",
+      "url": "https://github.com/colinhacks/zod",
+      "description": "TypeScript-first schema validation with static type inference",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 43826,
+      "forks": 2172,
+      "starsToday": 468,
+      "topics": [],
+      "author": {
+        "name": "colinhacks",
+        "avatar": "https://avatars.githubusercontent.com/u/3084745?s=40&amp;v=4",
+        "url": "https://github.com/colinhacks"
+      },
+      "summary": "TypeScript优先的schema声明与校验库，通过静态类型推断实现运行时验证与编译期类型安全，API简洁，生态活跃。",
+      "tags": [
+        "typescript",
+        "validation",
+        "schema",
+        "type-safe"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-04T03:33:52.037Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "reactive-resume",
       "fullName": "amruthpillai/reactive-resume",
       "url": "https://github.com/amruthpillai/reactive-resume",
       "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 42162,
-      "forks": 4685,
+      "stars": 42178,
+      "forks": 4687,
       "starsToday": 2267,
       "topics": [],
       "author": {
@@ -451,30 +506,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "zod",
-      "fullName": "colinhacks/zod",
-      "url": "https://github.com/colinhacks/zod",
-      "description": "TypeScript-first schema validation with static type inference",
+      "name": "plugins",
+      "fullName": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 43819,
-      "forks": 2174,
-      "starsToday": 468,
+      "stars": 6791,
+      "forks": 558,
+      "starsToday": 4258,
       "topics": [],
       "author": {
-        "name": "colinhacks",
-        "avatar": "https://avatars.githubusercontent.com/u/3084745?s=40&amp;v=4",
-        "url": "https://github.com/colinhacks"
+        "name": "cursor",
+        "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&amp;v=4",
+        "url": "https://github.com/cursor"
       },
-      "summary": "TypeScript优先的schema声明与校验库，通过静态类型推断实现运行时验证与编译期类型安全，API简洁，生态活跃。",
+      "summary": "Cursor 官方插件规范与插件集合，定义插件开发标准并提供官方示例，帮助开发者扩展 Cursor 编辑器能力，今日新增超四千星。",
       "tags": [
+        "cursor",
+        "plugins",
         "typescript",
-        "validation",
-        "schema",
-        "type-safe"
+        "editor",
+        "specification"
       ],
-      "category": "Library",
-      "enrichedAt": "2026-09-04T03:33:52.037Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-09-04T03:33:46.760Z",
       "deepwikiAvailable": false
     },
     {
