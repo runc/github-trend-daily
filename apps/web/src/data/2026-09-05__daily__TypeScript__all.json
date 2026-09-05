@@ -2,9 +2,119 @@
   "date": "2026-09-05",
   "since": "daily",
   "language": "TypeScript",
-  "fetchedAt": "2026-09-05T03:32:43.028Z",
-  "enrichedAt": "2026-09-05T03:33:08.791Z",
+  "fetchedAt": "2026-09-05T12:28:26.504Z",
+  "enrichedAt": "2026-09-05T12:28:52.269Z",
   "repos": [
+    {
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 204417,
+      "forks": 26667,
+      "starsToday": 725,
+      "topics": [],
+      "author": {
+        "name": "anomalyco",
+        "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&amp;v=4",
+        "url": "https://github.com/anomalyco"
+      },
+      "summary": "开源编码智能体，用TypeScript构建，支持在终端中自主完成编程任务，可接入多种大模型，社区活跃增长迅速。",
+      "tags": [
+        "coding-agent",
+        "ai",
+        "cli",
+        "typescript",
+        "open-source"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T03:33:05.133Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruflo",
+      "fullName": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 70556,
+      "forks": 8406,
+      "starsToday": 127,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "TypeScript 编写的智能体元框架，支持多智能体集群部署、自主工作流编排与对话式 AI 系统，内置自适应记忆、自学习、RAG 集成，兼容 Claude Code、Codex、Hermes 等多种模型。",
+      "tags": [
+        "agent",
+        "ai",
+        "workflow",
+        "rag",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-05T12:28:48.376Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "humanlayer/skills",
+      "url": "https://github.com/humanlayer/skills",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2472,
+      "forks": 71,
+      "starsToday": 1141,
+      "topics": [],
+      "author": {
+        "name": "humanlayer",
+        "avatar": "https://avatars.githubusercontent.com/u/3730605?s=40&amp;v=4",
+        "url": "https://github.com/humanlayer"
+      },
+      "summary": "TypeScript 技能库，为 AI 代理提供可复用、可组合的技能模块，帮助开发者快速构建和扩展智能代理功能。",
+      "tags": [
+        "ai-agents",
+        "skills",
+        "typescript",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-05T03:33:07.909Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FckSignups",
+      "fullName": "BraveOPotato/FckSignups",
+      "url": "https://github.com/BraveOPotato/FckSignups",
+      "description": "A list of tools that are open-source, in-browser, and require no-signups!",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2660,
+      "forks": 191,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "BraveOPotato",
+        "avatar": "https://avatars.githubusercontent.com/u/57965732?s=40&amp;v=4",
+        "url": "https://github.com/BraveOPotato"
+      },
+      "summary": "收录无需注册、开源且可在浏览器直接使用的工具清单，覆盖各类在线实用工具，方便用户零门槛快速上手。",
+      "tags": [
+        "awesome-list",
+        "tools",
+        "open-source",
+        "browser"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-09-05T12:28:48.282Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "magnitude",
       "fullName": "magnitudedev/magnitude",
@@ -12,9 +122,9 @@
       "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 2561,
-      "forks": 186,
-      "starsToday": 391,
+      "stars": 2838,
+      "forks": 204,
+      "starsToday": 686,
       "topics": [],
       "author": {
         "name": "magnitudedev",
@@ -34,31 +144,339 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "opencode",
-      "fullName": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
+      "name": "context-mode",
+      "fullName": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 204189,
-      "forks": 26639,
-      "starsToday": 345,
+      "stars": 20382,
+      "forks": 1484,
+      "starsToday": 36,
       "topics": [],
       "author": {
-        "name": "anomalyco",
-        "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&amp;v=4",
-        "url": "https://github.com/anomalyco"
+        "name": "mksglu",
+        "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&amp;v=4",
+        "url": "https://github.com/mksglu"
       },
-      "summary": "开源编码智能体，用TypeScript构建，支持在终端中自主完成编程任务，可接入多种大模型，社区活跃增长迅速。",
+      "summary": "面向AI编程代理的上下文窗口优化工具，通过沙箱化工具输出（减少98%）、持久化会话记忆，并借助MCP和钩子在17个平台间强制路由，显著提升长任务处理能力。",
       "tags": [
-        "coding-agent",
-        "ai",
-        "cli",
+        "context-window",
+        "ai-agents",
+        "mcp",
         "typescript",
-        "open-source"
+        "optimization"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-05T03:33:05.133Z",
+      "enrichedAt": "2026-09-05T12:28:48.667Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oh-my-pi",
+      "fullName": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥ Coding agent with the IDE wired in",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 29610,
+      "forks": 3005,
+      "starsToday": 202,
+      "topics": [],
+      "author": {
+        "name": "can1357",
+        "avatar": "https://avatars.githubusercontent.com/u/11807264?s=40&amp;v=4",
+        "url": "https://github.com/can1357"
+      },
+      "summary": "将IDE深度接入的编程智能体，让AI编码助手直接操作开发环境，实现上下文感知的自动编码与重构。",
+      "tags": [
+        "coding-agent",
+        "ide",
+        "typescript",
+        "ai",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T12:28:48.294Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "upload-artifact",
+      "fullName": "actions/upload-artifact",
+      "url": "https://github.com/actions/upload-artifact",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4187,
+      "forks": 1095,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "actions",
+        "avatar": "https://avatars.githubusercontent.com/u/16991201?s=40&amp;v=4",
+        "url": "https://github.com/actions"
+      },
+      "summary": "GitHub官方Action，用于在CI工作流中上传构建产物，支持路径通配、保留期限和压缩，是CI/CD流水线的核心组件。",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "artifact",
+        "typescript",
+        "workflow"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T12:28:49.693Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openclaw",
+      "fullName": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 388928,
+      "forks": 81706,
+      "starsToday": 164,
+      "topics": [],
+      "author": {
+        "name": "openclaw",
+        "avatar": "https://avatars.githubusercontent.com/u/58493?s=40&amp;v=4",
+        "url": "https://github.com/openclaw"
+      },
+      "summary": "跨平台AI智能体框架，可在任意操作系统和平台上自主执行真实任务，采用TypeScript构建，社区活跃度高。",
+      "tags": [
+        "ai-agent",
+        "typescript",
+        "cross-platform",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-05T12:28:49.415Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-teams-ai",
+      "fullName": "777genius/agent-teams-ai",
+      "url": "https://github.com/777genius/agent-teams-ai",
+      "description": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode/Cursor/Grok/GitHub Copilot/Kiro/Z.AI/MiniMax/Kimi(200+ models, 75+ LLM providers, free models no auth). Build your AI company with multiple teams",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2067,
+      "forks": 348,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "777genius",
+        "avatar": "https://avatars.githubusercontent.com/u/13103045?s=40&amp;v=4",
+        "url": "https://github.com/777genius"
+      },
+      "summary": "多智能体团队协作平台，让你扮演老板角色，通过看板下达高层指令，智能体自主分工、互相沟通并审查彼此工作。支持200+模型、75+ LLM提供商，可构建多团队的AI公司。",
+      "tags": [
+        "ai-agents",
+        "multi-agent",
+        "kanban",
+        "llm",
+        "typescript",
+        "collaboration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-05T12:28:49.794Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iptv",
+      "fullName": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 137671,
+      "forks": 7993,
+      "starsToday": 137,
+      "topics": [],
+      "author": {
+        "name": "iptv-org",
+        "avatar": "https://avatars.githubusercontent.com/u/7253922?s=40&amp;v=4",
+        "url": "https://github.com/iptv-org"
+      },
+      "summary": "汇集全球公开可用的IPTV频道列表，覆盖数千个直播频道，支持多种播放格式，持续更新维护，是开源电视直播源的重要资源库。",
+      "tags": [
+        "iptv",
+        "streaming",
+        "tv-channels",
+        "playlist",
+        "typescript"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-05T12:28:50.005Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vibe",
+      "fullName": "thewh1teagle/vibe",
+      "url": "https://github.com/thewh1teagle/vibe",
+      "description": "Transcribe on your own!",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 7331,
+      "forks": 509,
+      "starsToday": 53,
+      "topics": [],
+      "author": {
+        "name": "thewh1teagle",
+        "avatar": "https://avatars.githubusercontent.com/u/61390950?s=40&amp;v=4",
+        "url": "https://github.com/thewh1teagle"
+      },
+      "summary": "本地语音转文字工具，基于AI模型在设备端完成转录，无需上传云端，保护隐私且免费使用。",
+      "tags": [
+        "transcription",
+        "speech-to-text",
+        "local-ai",
+        "privacy",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-05T12:28:50.972Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lightweight-charts",
+      "fullName": "tradingview/lightweight-charts",
+      "url": "https://github.com/tradingview/lightweight-charts",
+      "description": "Performant financial charts built with HTML5 canvas",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 17180,
+      "forks": 2585,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "tradingview",
+        "avatar": "https://avatars.githubusercontent.com/u/3112183?s=40&amp;v=4",
+        "url": "https://github.com/tradingview"
+      },
+      "summary": "基于HTML5 Canvas的高性能金融图表库，由TradingView开发，轻量级、快速渲染，支持K线图等金融数据可视化，适合交易应用集成。",
+      "tags": [
+        "charts",
+        "canvas",
+        "trading",
+        "typescript",
+        "visualization"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-05T12:28:51.299Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "loop-engineering",
+      "fullName": "cobusgreyling/loop-engineering",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 10964,
+      "forks": 1490,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "cobusgreyling",
+        "avatar": "https://avatars.githubusercontent.com/u/7868717?s=40&amp;v=4",
+        "url": "https://github.com/cobusgreyling"
+      },
+      "summary": "面向AI编码代理的循环工程实践模式与CLI工具集，提供设计系统来提示和编排代理，包含loop-audit、loop-init、loop-cost等工具。",
+      "tags": [
+        "ai-agents",
+        "cli",
+        "typescript",
+        "devtools",
+        "orchestration"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T12:28:51.338Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lazycodex",
+      "fullName": "code-yeongyu/lazycodex",
+      "url": "https://github.com/code-yeongyu/lazycodex",
+      "description": "The one and only agent harness for complex codebases. Project memory, planning, execution, and verified completion inside Codex.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 3394,
+      "forks": 213,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "code-yeongyu",
+        "avatar": "https://avatars.githubusercontent.com/u/11153873?s=40&amp;v=4",
+        "url": "https://github.com/code-yeongyu"
+      },
+      "summary": "面向复杂代码库的AI代理框架，为Codex提供项目记忆、规划、执行与验证完成能力，帮助代理高效处理大型工程。",
+      "tags": [
+        "ai-agent",
+        "codex",
+        "typescript",
+        "codebase",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T12:28:51.137Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pi",
+      "fullName": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 102006,
+      "forks": 12708,
+      "starsToday": 323,
+      "topics": [],
+      "author": {
+        "name": "earendil-works",
+        "avatar": "https://avatars.githubusercontent.com/u/514052?s=40&amp;v=4",
+        "url": "https://github.com/earendil-works"
+      },
+      "summary": "TypeScript 编写的 AI 智能体工具包，提供统一 LLM API、智能体循环、TUI 界面和编码智能体 CLI，一站式构建 AI 应用。",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "cli",
+        "typescript",
+        "tui"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-05T12:28:52.259Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Libraries.dev",
+      "fullName": "Jakubantalik/Libraries.dev",
+      "url": "https://github.com/Jakubantalik/Libraries.dev",
+      "description": "High-crafted UI libraries for AI agents: Border beam, Orbs, Metal, Gooey, Image",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2909,
+      "forks": 167,
+      "starsToday": 82,
+      "topics": [],
+      "author": {
+        "name": "Jakubantalik",
+        "avatar": "https://avatars.githubusercontent.com/u/14873517?s=40&amp;v=4",
+        "url": "https://github.com/Jakubantalik"
+      },
+      "summary": "为AI代理打造的高品质UI组件库集合，包含Border beam、Orbs、Metal、Gooey、Image等视觉组件，TypeScript编写，设计精美。",
+      "tags": [
+        "ui-library",
+        "ai-agents",
+        "typescript",
+        "components",
+        "visual-effects"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-05T12:28:52.268Z",
       "deepwikiAvailable": false
     },
     {
@@ -310,33 +728,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-05T03:33:07.477Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "skills",
-      "fullName": "humanlayer/skills",
-      "url": "https://github.com/humanlayer/skills",
-      "description": "",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 2338,
-      "forks": 63,
-      "starsToday": 1141,
-      "topics": [],
-      "author": {
-        "name": "humanlayer",
-        "avatar": "https://avatars.githubusercontent.com/u/3730605?s=40&amp;v=4",
-        "url": "https://github.com/humanlayer"
-      },
-      "summary": "TypeScript 技能库，为 AI 代理提供可复用、可组合的技能模块，帮助开发者快速构建和扩展智能代理功能。",
-      "tags": [
-        "ai-agents",
-        "skills",
-        "typescript",
-        "library"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-05T03:33:07.909Z",
       "deepwikiAvailable": false
     },
     {

@@ -2,9 +2,122 @@
   "date": "2026-09-05",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-05T03:32:43.028Z",
-  "enrichedAt": "2026-09-05T03:33:29.608Z",
+  "fetchedAt": "2026-09-05T12:28:26.504Z",
+  "enrichedAt": "2026-09-05T12:29:02.923Z",
   "repos": [
+    {
+      "name": "github-mcp-server",
+      "fullName": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32723,
+      "forks": 4903,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/4811358?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方MCP服务器，让AI助手通过Model Context Protocol安全访问GitHub API，支持仓库、Issue、PR等操作，Go语言实现。",
+      "tags": [
+        "mcp",
+        "github",
+        "ai",
+        "api",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T12:28:57.749Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 180205,
+      "forks": 17708,
+      "starsToday": 100,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大模型的一站式工具，支持Kimi、DeepSeek、Qwen、Gemma等主流开源模型，提供简单命令行与API，轻松在本地部署和运行LLM。",
+      "tags": [
+        "llm",
+        "go",
+        "local-ai",
+        "inference",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T12:28:58.082Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 40519,
+      "forks": 8406,
+      "starsToday": 130,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式开源AI订阅中转服务，将Claude、OpenAI、Gemini、Grok等订阅统一接入API，支持拼车共享分摊成本，原生工具无缝使用。",
+      "tags": [
+        "ai-gateway",
+        "proxy",
+        "subscription",
+        "go",
+        "openai",
+        "cost-sharing"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T03:33:24.521Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28918,
+      "forks": 1653,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于WireGuard的安全组网工具，支持SSO、MFA和细粒度访问控制，可将设备连接成私有覆盖网络，适合零信任远程访问场景。",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "networking",
+        "zero-trust",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:28:57.793Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "caveman",
       "fullName": "JuliusBrussee/caveman",
@@ -12,9 +125,9 @@
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 103612,
-      "forks": 6007,
-      "starsToday": 501,
+      "stars": 103733,
+      "forks": 6008,
+      "starsToday": 399,
       "topics": [],
       "author": {
         "name": "JuliusBrussee",
@@ -33,14 +146,182 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "hatchet",
+      "fullName": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "description": "🪓 An orchestration engine for background tasks, AI agents, and durable workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7875,
+      "forks": 487,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "hatchet-dev",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/hatchet-dev"
+      },
+      "summary": "Hatchet 是一个用 Go 构建的编排引擎，用于后台任务、AI 智能体和持久化工作流，提供可靠的任务调度与执行能力。",
+      "tags": [
+        "orchestration",
+        "workflow",
+        "ai-agents",
+        "go",
+        "background-jobs"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:28:58.031Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openfga",
+      "fullName": "openfga/openfga",
+      "url": "https://github.com/openfga/openfga",
+      "description": "A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5707,
+      "forks": 481,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "openfga",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/openfga"
+      },
+      "summary": "高性能灵活的授权与权限引擎，受 Google Zanzibar 启发，为开发者提供细粒度访问控制，支持关系型权限建模与实时查询。",
+      "tags": [
+        "authorization",
+        "zanzibar",
+        "permission",
+        "go",
+        "access-control"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:28:58.923Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "livekit",
+      "fullName": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20714,
+      "forks": 2306,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "livekit",
+        "avatar": "https://avatars.githubusercontent.com/u/6278212?s=40&amp;v=4",
+        "url": "https://github.com/livekit"
+      },
+      "summary": "LiveKit 是开源的端到端实时通信与 AI 接入平台，提供 WebRTC 基础设施、音视频通话及 AI 代理能力，支持大规模实时场景。",
+      "tags": [
+        "webrtc",
+        "realtime",
+        "ai",
+        "voice",
+        "video",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:28:59.085Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 59570,
+      "forks": 5363,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "云存储同步命令行工具，支持Google Drive、S3、Dropbox等数十种云服务，功能强大，可进行文件传输、同步、加密和挂载。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "cli",
+        "go",
+        "file-transfer"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-05T12:28:59.179Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "k9s",
+      "fullName": "derailed/k9s",
+      "url": "https://github.com/derailed/k9s",
+      "description": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34506,
+      "forks": 2277,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "derailed",
+        "avatar": "https://avatars.githubusercontent.com/u/4060?s=40&amp;v=4",
+        "url": "https://github.com/derailed"
+      },
+      "summary": "K9s 是一款终端风格的 Kubernetes 集群管理 CLI 工具，提供类 vi 的交互式界面，让你快速浏览、监控和管理集群资源，大幅提升运维效率。",
+      "tags": [
+        "kubernetes",
+        "cli",
+        "terminal",
+        "devops",
+        "monitoring"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-05T12:28:59.671Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6261,
+      "forks": 720,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "用Go编写的AI编程助手，提供代码生成、补全和自动化开发能力，帮助开发者提升编码效率。",
+      "tags": [
+        "ai",
+        "go",
+        "coding-assistant",
+        "developer-tools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-05T12:29:00.110Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "multica",
       "fullName": "multica-ai/multica",
       "url": "https://github.com/multica-ai/multica",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 48924,
-      "forks": 6318,
+      "stars": 48963,
+      "forks": 6326,
       "starsToday": 118,
       "topics": [],
       "author": {
@@ -58,6 +339,286 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-05T03:33:23.037Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rook",
+      "fullName": "rook/rook",
+      "url": "https://github.com/rook/rook",
+      "description": "Storage Orchestration for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13637,
+      "forks": 2859,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "rook",
+        "avatar": "https://avatars.githubusercontent.com/u/1048514?s=40&amp;v=4",
+        "url": "https://github.com/rook"
+      },
+      "summary": "基于 Kubernetes 的存储编排工具，将 Ceph 等分布式存储系统自动部署、配置和管理为云原生存储服务。",
+      "tags": [
+        "kubernetes",
+        "storage",
+        "ceph",
+        "orchestration",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:29:00.312Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26915,
+      "forks": 1821,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 为编码代理提供持久化记忆升级，用 Go 实现，帮助 AI 编程助手跨会话记住上下文与决策，提升开发效率。",
+      "tags": [
+        "memory",
+        "coding-agent",
+        "ai",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T03:33:24.465Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45914,
+      "forks": 11035,
+      "starsToday": 44,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于Xray的轻量级面板，支持Vmess、Vless、Trojan、Shadowsocks、Wireguard等多种协议及多用户管理，提供Web界面便于配置和监控。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "vpn",
+        "web-ui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-05T12:29:00.436Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go2rtc",
+      "fullName": "AlexxIT/go2rtc",
+      "url": "https://github.com/AlexxIT/go2rtc",
+      "description": "Ultimate camera streaming application",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14111,
+      "forks": 1300,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "AlexxIT",
+        "avatar": "https://avatars.githubusercontent.com/u/511909?s=40&amp;v=4",
+        "url": "https://github.com/AlexxIT"
+      },
+      "summary": "go2rtc 是一个用 Go 编写的终极摄像头流媒体应用，支持 RTSP、WebRTC、HLS 等多种协议转换与流分发，可接入各类 IP 摄像头并集成 Home Assistant，轻量高效。",
+      "tags": [
+        "camera",
+        "streaming",
+        "webrtc",
+        "rtsp",
+        "home-assistant"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:29:01.265Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coredns",
+      "fullName": "coredns/coredns",
+      "url": "https://github.com/coredns/coredns",
+      "description": "CoreDNS is a DNS server that chains plugins",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14293,
+      "forks": 2522,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "coredns",
+        "avatar": "https://avatars.githubusercontent.com/u/353371?s=40&amp;v=4",
+        "url": "https://github.com/coredns"
+      },
+      "summary": "CoreDNS 是一个基于插件架构的 DNS 服务器，采用 Go 编写，支持链式插件组合，可灵活扩展，常用于 Kubernetes 集群的 DNS 解析。",
+      "tags": [
+        "dns",
+        "kubernetes",
+        "go",
+        "plugin",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:29:01.357Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "axonhub",
+      "fullName": "looplj/axonhub",
+      "url": "https://github.com/looplj/axonhub",
+      "description": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5165,
+      "forks": 695,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "looplj",
+        "avatar": "https://avatars.githubusercontent.com/u/231043908?s=40&amp;v=4",
+        "url": "https://github.com/looplj"
+      },
+      "summary": "开源AI网关，支持任意SDK调用100+大模型，内置故障转移、负载均衡、成本控制与端到端追踪，Go语言实现。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "go",
+        "load-balancing",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:29:01.436Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kagent",
+      "fullName": "kagent-dev/kagent",
+      "url": "https://github.com/kagent-dev/kagent",
+      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3656,
+      "forks": 741,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "kagent-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&amp;v=4",
+        "url": "https://github.com/kagent-dev"
+      },
+      "summary": "云原生智能体AI框架，用Go构建，帮助在Kubernetes等云环境中部署、编排和管理Agentic AI应用，支持多智能体协作与基础设施集成。",
+      "tags": [
+        "agentic-ai",
+        "cloud-native",
+        "kubernetes",
+        "go",
+        "ai-agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-05T12:29:01.680Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "glance",
+      "fullName": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36853,
+      "forks": 1445,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "glanceapp",
+        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
+        "url": "https://github.com/glanceapp"
+      },
+      "summary": "自托管个人仪表盘，将新闻、天气、书签、服务器状态等所有信息源聚合到单一界面，高度可定制，轻量快速。",
+      "tags": [
+        "dashboard",
+        "self-hosted",
+        "rss",
+        "go",
+        "monitoring"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-05T12:29:02.729Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "chisel",
+      "fullName": "jpillora/chisel",
+      "url": "https://github.com/jpillora/chisel",
+      "description": "A fast TCP/UDP tunnel over HTTP",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16489,
+      "forks": 1611,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "jpillora",
+        "avatar": "https://avatars.githubusercontent.com/u/633843?s=40&amp;v=4",
+        "url": "https://github.com/jpillora"
+      },
+      "summary": "基于Go的高性能TCP/UDP隧道工具，通过HTTP传输实现穿透防火墙和内网访问，支持反向代理与多路复用，部署简单。",
+      "tags": [
+        "tunnel",
+        "proxy",
+        "tcp",
+        "udp",
+        "go",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-05T12:29:02.923Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudreve",
+      "fullName": "cloudreve/cloudreve",
+      "url": "https://github.com/cloudreve/cloudreve",
+      "description": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28661,
+      "forks": 3893,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "cloudreve",
+        "avatar": "https://avatars.githubusercontent.com/u/16058869?s=40&amp;v=4",
+        "url": "https://github.com/cloudreve"
+      },
+      "summary": "自托管云盘与文件管理系统，支持多种存储后端，提供文件分享、多用户管理等功能，部署简单且功能丰富。",
+      "tags": [
+        "self-hosted",
+        "cloud-storage",
+        "file-sharing",
+        "go",
+        "web-app"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-05T12:29:02.817Z",
       "deepwikiAvailable": false
     },
     {
@@ -171,62 +732,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-05T03:33:24.446Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sub2api",
-      "fullName": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 40473,
-      "forks": 8388,
-      "starsToday": 130,
-      "topics": [],
-      "author": {
-        "name": "Wei-Shaw",
-        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
-        "url": "https://github.com/Wei-Shaw"
-      },
-      "summary": "一站式开源AI订阅中转服务，将Claude、OpenAI、Gemini、Grok等订阅统一接入API，支持拼车共享分摊成本，原生工具无缝使用。",
-      "tags": [
-        "ai-gateway",
-        "proxy",
-        "subscription",
-        "go",
-        "openai",
-        "cost-sharing"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-05T03:33:24.521Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "beads",
-      "fullName": "gastownhall/beads",
-      "url": "https://github.com/gastownhall/beads",
-      "description": "Beads - A memory upgrade for your coding agent",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 26905,
-      "forks": 1818,
-      "starsToday": 43,
-      "topics": [],
-      "author": {
-        "name": "gastownhall",
-        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
-        "url": "https://github.com/gastownhall"
-      },
-      "summary": "Beads 为编码代理提供持久化记忆升级，用 Go 实现，帮助 AI 编程助手跨会话记住上下文与决策，提升开发效率。",
-      "tags": [
-        "memory",
-        "coding-agent",
-        "ai",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-05T03:33:24.465Z",
       "deepwikiAvailable": false
     },
     {
