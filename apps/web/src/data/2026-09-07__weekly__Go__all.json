@@ -1,0 +1,682 @@
+{
+  "date": "2026-09-07",
+  "since": "weekly",
+  "language": "Go",
+  "fetchedAt": "2026-09-07T03:33:31.142Z",
+  "enrichedAt": "2026-09-07T03:35:07.756Z",
+  "repos": [
+    {
+      "name": "tailcat",
+      "fullName": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6574,
+      "forks": 255,
+      "starsToday": 2467,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "类似netcat的网络工具，但走Tailscale数据平面而非控制平面，无需登录即可在两台设备间直接传输数据，轻量高效。",
+      "tags": [
+        "netcat",
+        "tailscale",
+        "networking",
+        "go",
+        "p2p"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-07T03:34:59.796Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10980,
+      "forks": 914,
+      "starsToday": 893,
+      "topics": [],
+      "author": {
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
+      },
+      "summary": "命令行工具，可从 App Store 搜索并下载 iOS、iPadOS、tvOS 和 visionOS 的 IPA 应用安装包，用 Go 编写，简单易用。",
+      "tags": [
+        "app-store",
+        "ipa",
+        "cli",
+        "ios",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-07T03:34:59.464Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Fabric",
+      "fullName": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43857,
+      "forks": 4256,
+      "starsToday": 292,
+      "topics": [],
+      "author": {
+        "name": "danielmiessler",
+        "avatar": "https://avatars.githubusercontent.com/u/50654?s=40&amp;v=4",
+        "url": "https://github.com/danielmiessler"
+      },
+      "summary": "开源AI增强框架，提供模块化系统，通过众包AI提示词解决特定问题，可随处使用，帮助人类用AI处理日常任务。",
+      "tags": [
+        "ai-framework",
+        "prompts",
+        "open-source",
+        "go",
+        "modular"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-07T03:34:59.846Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37696,
+      "forks": 4539,
+      "starsToday": 326,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，基于Go构建的高性能网络代理工具，支持多协议、多平台部署，提供灵活的路由与规则配置能力。",
+      "tags": [
+        "proxy",
+        "network",
+        "go",
+        "vpn",
+        "clash"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T03:35:00.113Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11827,
+      "forks": 1099,
+      "starsToday": 434,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "腾讯开源的轻量级AI智能体沙箱，支持即时启动、并发运行与安全隔离，为AI Agent提供高效可靠的执行环境。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "security",
+        "go",
+        "tencent"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:00.808Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "minikube",
+      "fullName": "kubernetes/minikube",
+      "url": "https://github.com/kubernetes/minikube",
+      "description": "Run Kubernetes locally",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32104,
+      "forks": 5316,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/4564227?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "minikube 是本地运行 Kubernetes 的流行工具，支持在笔记本上快速搭建单节点集群，提供跨平台支持与丰富的驱动选项，适合开发测试。",
+      "tags": [
+        "kubernetes",
+        "local-dev",
+        "go",
+        "devops",
+        "cluster"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T03:35:01.612Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anubis",
+      "fullName": "TecharoHQ/anubis",
+      "url": "https://github.com/TecharoHQ/anubis",
+      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22198,
+      "forks": 710,
+      "starsToday": 330,
+      "topics": [],
+      "author": {
+        "name": "TecharoHQ",
+        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
+        "url": "https://github.com/TecharoHQ"
+      },
+      "summary": "用工作量证明机制拦截AI爬虫的Go代理服务，通过给HTTP请求增加计算成本来区分真实用户与机器人，保护网站免受AI抓取。",
+      "tags": [
+        "go",
+        "anti-bot",
+        "ai-crawler",
+        "proxy",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:01.790Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CPA-Manager-Plus",
+      "fullName": "seakee/CPA-Manager-Plus",
+      "url": "https://github.com/seakee/CPA-Manager-Plus",
+      "description": "A self-hosted CPA / CLIProxyAPI management panel and AI gateway observability dashboard for requests, usage, cost, quota, failures, and account health.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3235,
+      "forks": 331,
+      "starsToday": 259,
+      "topics": [],
+      "author": {
+        "name": "seakee",
+        "avatar": "https://avatars.githubusercontent.com/u/7602294?s=40&amp;v=4",
+        "url": "https://github.com/seakee"
+      },
+      "summary": "自托管的 CPA/CLIProxyAPI 管理面板与 AI 网关可观测性仪表盘，支持请求、用量、成本、配额、失败监控及账户健康状态追踪。",
+      "tags": [
+        "go",
+        "dashboard",
+        "observability",
+        "ai-gateway",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T03:35:01.795Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nebula",
+      "fullName": "slackhq/nebula",
+      "url": "https://github.com/slackhq/nebula",
+      "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18300,
+      "forks": 1181,
+      "starsToday": 642,
+      "topics": [],
+      "author": {
+        "name": "slackhq",
+        "avatar": "https://avatars.githubusercontent.com/u/957319?s=40&amp;v=4",
+        "url": "https://github.com/slackhq"
+      },
+      "summary": "Nebula是Slack开源的轻量级overlay组网工具，基于Go实现，主打高性能、简单与安全，支持大规模节点自动发现与加密隧道通信。",
+      "tags": [
+        "networking",
+        "overlay",
+        "vpn",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:02.756Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5628,
+      "forks": 917,
+      "starsToday": 198,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "可编程的混合模型路由器，用于异构LLM推理场景，支持按语义智能分发请求到不同模型，提升推理效率与成本控制。",
+      "tags": [
+        "llm-router",
+        "mixture-of-models",
+        "inference",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:03.020Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "glance",
+      "fullName": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36899,
+      "forks": 1449,
+      "starsToday": 185,
+      "topics": [],
+      "author": {
+        "name": "glanceapp",
+        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
+        "url": "https://github.com/glanceapp"
+      },
+      "summary": "自托管个人仪表盘，将新闻、天气、股票、书签等所有信息源聚合到一个页面，轻量快速，支持高度自定义布局。",
+      "tags": [
+        "dashboard",
+        "self-hosted",
+        "rss",
+        "go",
+        "aggregator"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-07T03:35:03.151Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21599,
+      "forks": 3123,
+      "starsToday": 601,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的LLM知识平台，可将原始文档转化为可查询的RAG系统、自主推理智能体以及自维护的Wiki知识库。",
+      "tags": [
+        "rag",
+        "knowledge-base",
+        "llm",
+        "agent",
+        "wiki"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-07T03:35:03.434Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28960,
+      "forks": 1658,
+      "starsToday": 219,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于 WireGuard 的安全覆盖网络工具，支持 SSO、MFA 和细粒度访问控制，轻松将设备连接成私有网络。",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "networking",
+        "security",
+        "sso",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:04.373Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "router",
+      "fullName": "weave-os/router",
+      "url": "https://github.com/weave-os/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4033,
+      "forks": 116,
+      "starsToday": 983,
+      "topics": [],
+      "author": {
+        "name": "weave-os",
+        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
+        "url": "https://github.com/weave-os"
+      },
+      "summary": "面向智能体系统的模型路由器，50ms内将每个提示词路由到最合适的模型，仅需更换端点即可降低40-70%成本，用Go编写。",
+      "tags": [
+        "llm",
+        "router",
+        "agent",
+        "cost-saving",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-07T03:35:04.518Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36188,
+      "forks": 3179,
+      "starsToday": 390,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于WireGuard的零配置VPN解决方案，提供安全的内网组网、设备管理和2FA认证，跨平台支持，是构建私有网络的最简单方式。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:04.569Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34498,
+      "forks": 2990,
+      "starsToday": 134,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可处理数十亿文件，具备 O(1) 磁盘访问和轻松水平扩展能力。",
+      "tags": [
+        "distributed-storage",
+        "s3",
+        "object-storage",
+        "go",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:04.766Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vikunja",
+      "fullName": "go-vikunja/vikunja",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "description": "The task manager you actually own.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5304,
+      "forks": 668,
+      "starsToday": 96,
+      "topics": [],
+      "author": {
+        "name": "go-vikunja",
+        "avatar": "https://avatars.githubusercontent.com/u/13721712?s=40&amp;v=4",
+        "url": "https://github.com/go-vikunja"
+      },
+      "summary": "开源的待办事项管理器，支持自托管部署，数据完全由用户掌控，提供多平台客户端和丰富的任务管理功能。",
+      "tags": [
+        "task-manager",
+        "self-hosted",
+        "go",
+        "todo",
+        "productivity"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-07T03:35:05.710Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "certificates",
+      "fullName": "smallstep/certificates",
+      "url": "https://github.com/smallstep/certificates",
+      "description": "🛡️ A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8839,
+      "forks": 590,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "smallstep",
+        "avatar": "https://avatars.githubusercontent.com/u/416157?s=40&amp;v=4",
+        "url": "https://github.com/smallstep"
+      },
+      "summary": "私有证书颁发机构（X.509与SSH）及ACME服务器，支持自动化证书管理，实现全站TLS与SSH单点登录。",
+      "tags": [
+        "tls",
+        "acme",
+        "certificate",
+        "ssh",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:05.967Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "goreleaser",
+      "fullName": "goreleaser/goreleaser",
+      "url": "https://github.com/goreleaser/goreleaser",
+      "description": "Release engineering, simplified",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16021,
+      "forks": 1104,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "goreleaser",
+        "avatar": "https://avatars.githubusercontent.com/u/245435?s=40&amp;v=4",
+        "url": "https://github.com/goreleaser"
+      },
+      "summary": "Go 语言发布工程工具，自动化构建、打包、签名和发布流程，支持多平台多架构，简化软件交付。",
+      "tags": [
+        "release",
+        "go",
+        "ci-cd",
+        "automation",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T03:35:06.039Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25135,
+      "forks": 997,
+      "starsToday": 279,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据、Docker统计和告警功能，Go语言编写，部署简单资源占用低。",
+      "tags": [
+        "monitoring",
+        "server",
+        "docker",
+        "go",
+        "alerts"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T03:35:06.173Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kopia",
+      "fullName": "kopia/kopia",
+      "url": "https://github.com/kopia/kopia",
+      "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14055,
+      "forks": 723,
+      "starsToday": 67,
+      "topics": [],
+      "author": {
+        "name": "kopia",
+        "avatar": "https://avatars.githubusercontent.com/u/249880?s=40&amp;v=4",
+        "url": "https://github.com/kopia"
+      },
+      "summary": "跨平台备份工具，支持Windows/macOS/Linux，提供快速增量备份、客户端端到端加密、压缩与数据去重，内置CLI和GUI。",
+      "tags": [
+        "backup",
+        "encryption",
+        "deduplication",
+        "go",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T03:35:07.250Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-gateway",
+      "fullName": "envoyproxy/ai-gateway",
+      "url": "https://github.com/envoyproxy/ai-gateway",
+      "description": "Manages Unified Access to Generative AI Services built on Envoy Gateway",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2001,
+      "forks": 361,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "envoyproxy",
+        "avatar": "https://avatars.githubusercontent.com/u/13513977?s=40&amp;v=4",
+        "url": "https://github.com/envoyproxy"
+      },
+      "summary": "基于Envoy Gateway构建的AI网关，提供对生成式AI服务的统一访问管理，支持多模型路由、认证与流量治理。",
+      "tags": [
+        "ai-gateway",
+        "envoy",
+        "proxy",
+        "llm",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:07.275Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dapr",
+      "fullName": "dapr/dapr",
+      "url": "https://github.com/dapr/dapr",
+      "description": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26081,
+      "forks": 2145,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "dapr",
+        "avatar": "https://avatars.githubusercontent.com/u/16295283?s=40&amp;v=4",
+        "url": "https://github.com/dapr"
+      },
+      "summary": "Dapr 是一个跨云和边缘的可移植分布式应用运行时，结合事件驱动架构与工作流编排，帮助开发者简化微服务构建。",
+      "tags": [
+        "distributed-systems",
+        "microservices",
+        "runtime",
+        "event-driven",
+        "workflow"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T03:35:07.479Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CyberStrikeAI",
+      "fullName": "Ed1s0nZ/CyberStrikeAI",
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "description": "The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6404,
+      "forks": 1036,
+      "starsToday": 347,
+      "topics": [],
+      "author": {
+        "name": "Ed1s0nZ",
+        "avatar": "https://avatars.githubusercontent.com/u/83812544?s=40&amp;v=4",
+        "url": "https://github.com/Ed1s0nZ"
+      },
+      "summary": "AI原生的网络安全行动系统，将意图转化为受治理的执行流程，让安全证据成为可操作记忆，每次操作持续优化下一次响应。",
+      "tags": [
+        "cybersecurity",
+        "ai-native",
+        "go",
+        "security",
+        "automation"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-07T03:35:07.756Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
