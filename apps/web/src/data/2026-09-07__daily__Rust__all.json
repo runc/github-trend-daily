@@ -2,9 +2,485 @@
   "date": "2026-09-07",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-07T03:33:31.142Z",
-  "enrichedAt": "2026-09-07T03:34:26.780Z",
+  "fetchedAt": "2026-09-07T14:53:14.041Z",
+  "enrichedAt": "2026-09-07T14:53:59.085Z",
   "repos": [
+    {
+      "name": "jcode",
+      "fullName": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most RAM efficient harness",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 19275,
+      "forks": 2215,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "1jehuang",
+        "avatar": "https://avatars.githubusercontent.com/u/94247773?s=40&amp;v=4",
+        "url": "https://github.com/1jehuang"
+      },
+      "summary": "用Rust编写的高内存效率测试框架，主打极低RAM占用，适合资源受限环境下的测试执行。",
+      "tags": [
+        "rust",
+        "testing",
+        "harness",
+        "memory"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T14:53:55.737Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omniget",
+      "fullName": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9643,
+      "forks": 814,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "tonhowtf",
+        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
+        "url": "https://github.com/tonhowtf"
+      },
+      "summary": "开源跨平台桌面应用，支持从1800+网站下载课程、视频、音乐和书籍，内置播放器与阅读器，基于yt-dlp，文件本地保存。",
+      "tags": [
+        "downloader",
+        "desktop",
+        "media",
+        "yt-dlp",
+        "rust"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-07T14:53:56.169Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nautilus_trader",
+      "fullName": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 28591,
+      "forks": 3725,
+      "starsToday": 123,
+      "topics": [],
+      "author": {
+        "name": "nautechsystems",
+        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
+        "url": "https://github.com/nautechsystems"
+      },
+      "summary": "基于Rust的高性能生产级交易引擎，采用确定性事件驱动架构，支持多资产类别、回测与实盘交易，具备低延迟和高可靠性。",
+      "tags": [
+        "trading",
+        "rust",
+        "quant",
+        "backtesting",
+        "low-latency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-07T14:53:55.834Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "arnis",
+      "fullName": "louis-e/arnis",
+      "url": "https://github.com/louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17764,
+      "forks": 1490,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "louis-e",
+        "avatar": "https://avatars.githubusercontent.com/u/44675238?s=40&amp;v=4",
+        "url": "https://github.com/louis-e"
+      },
+      "summary": "用Rust编写的高精度Minecraft世界生成器，可将真实世界的任意地理位置以高细节度生成到游戏中，支持真实地形数据导入。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "world-gen",
+        "geodata",
+        "gaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-07T14:53:56.178Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11134,
+      "forks": 786,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用 Rust 编写的高性能 Minecraft 服务器软件，让每个人都能快速高效地托管服务器，性能卓越且易于部署。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "server",
+        "gaming",
+        "high-performance"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-07T03:34:26.007Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1143,
+      "forks": 129,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
+      },
+      "summary": "用Rust构建的开源CAD应用，支持2D/3D绘图、DWG/DXF格式及GPU加速渲染，性能出色。",
+      "tags": [
+        "rust",
+        "cad",
+        "rendering",
+        "dwg",
+        "dxf",
+        "gpu"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-07T14:53:56.815Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Konnect",
+      "fullName": "mixelpixx/Konnect",
+      "url": "https://github.com/mixelpixx/Konnect",
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 501,
+      "forks": 76,
+      "starsToday": 53,
+      "topics": [],
+      "author": {
+        "name": "mixelpixx",
+        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
+        "url": "https://github.com/mixelpixx"
+      },
+      "summary": "AI辅助PCB设计插件，为KiCAD提供217个原理图、布局、布线、设计审查与制造工具，以单一Rust二进制暴露给Claude等LLM使用。",
+      "tags": [
+        "pcb-design",
+        "kicad",
+        "ai-tools",
+        "rust",
+        "llm"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T03:34:24.843Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sofka",
+      "fullName": "nklmilojevic/sofka",
+      "url": "https://github.com/nklmilojevic/sofka",
+      "description": "A Kubernetes TUI, reimagined in Rust - built on kube-rs and ratatui, async-first from the ground up.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 749,
+      "forks": 31,
+      "starsToday": 254,
+      "topics": [],
+      "author": {
+        "name": "nklmilojevic",
+        "avatar": "https://avatars.githubusercontent.com/u/9573356?s=40&amp;v=4",
+        "url": "https://github.com/nklmilojevic"
+      },
+      "summary": "用Rust重写的Kubernetes终端UI工具，基于kube-rs和ratatui构建，从底层采用异步架构，提供流畅的K8s集群管理体验。",
+      "tags": [
+        "kubernetes",
+        "tui",
+        "rust",
+        "cli",
+        "async"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T03:34:21.900Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpuix",
+      "fullName": "remorses/gpuix",
+      "url": "https://github.com/remorses/gpuix",
+      "description": "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1634,
+      "forks": 45,
+      "starsToday": 76,
+      "topics": [],
+      "author": {
+        "name": "remorses",
+        "avatar": "https://avatars.githubusercontent.com/u/31321188?s=40&amp;v=4",
+        "url": "https://github.com/remorses"
+      },
+      "summary": "基于Rust GPUI框架的Node.js与React绑定，让开发者无需Electron即可用React构建内存高效的原生桌面应用。",
+      "tags": [
+        "gpu",
+        "react",
+        "native-app",
+        "rust",
+        "nodejs"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T14:53:57.100Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "devenv",
+      "fullName": "cachix/devenv",
+      "url": "https://github.com/cachix/devenv",
+      "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7569,
+      "forks": 557,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "cachix",
+        "avatar": "https://avatars.githubusercontent.com/u/126339?s=40&amp;v=4",
+        "url": "https://github.com/cachix"
+      },
+      "summary": "基于Nix的快速声明式开发者环境工具，支持可复现、可组合的环境配置，用Rust编写，帮助团队统一开发环境。",
+      "tags": [
+        "nix",
+        "dev-environment",
+        "rust",
+        "declarative",
+        "reproducible"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T14:53:57.455Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "funes",
+      "fullName": "huggingface/funes",
+      "url": "https://github.com/huggingface/funes",
+      "description": "Durable, searchable memory of your past agent sessions.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 242,
+      "forks": 14,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "huggingface",
+        "avatar": "https://avatars.githubusercontent.com/u/1910518?s=40&amp;v=4",
+        "url": "https://github.com/huggingface"
+      },
+      "summary": "面向AI代理的持久化会话记忆库，用Rust实现，可搜索过往代理会话，帮助代理跨会话保留上下文与知识。",
+      "tags": [
+        "memory",
+        "agent",
+        "rust",
+        "search",
+        "huggingface"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-07T14:53:57.301Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 92701,
+      "forks": 12299,
+      "starsToday": 122,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用WiFi信号实现实时空间感知、生命体征监测和存在检测的Rust项目，无需摄像头即可获取空间智能，隐私友好。",
+      "tags": [
+        "wifi-sensing",
+        "spatial-intelligence",
+        "rust",
+        "privacy",
+        "vital-signs"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-07T14:53:57.967Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "koharu",
+      "fullName": "koharu-rs/koharu",
+      "url": "https://github.com/koharu-rs/koharu",
+      "description": "AI-powered manga translator, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5510,
+      "forks": 377,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "koharu-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/35420264?s=40&amp;v=4",
+        "url": "https://github.com/koharu-rs"
+      },
+      "summary": "用Rust编写的AI驱动漫画翻译工具，支持自动识别并翻译漫画中的文字，性能高效且易于使用。",
+      "tags": [
+        "rust",
+        "manga",
+        "translation",
+        "ai",
+        "ocr"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-07T14:53:58.199Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gleam",
+      "fullName": "gleam-lang/gleam",
+      "url": "https://github.com/gleam-lang/gleam",
+      "description": "⭐️ A friendly language for building type-safe, scalable systems!",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 21883,
+      "forks": 1012,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "gleam-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/6134406?s=40&amp;v=4",
+        "url": "https://github.com/gleam-lang"
+      },
+      "summary": "Gleam 是一门友好、类型安全的函数式编程语言，编译为 Erlang 和 JavaScript，用于构建可扩展的并发系统，语法简洁且生态活跃。",
+      "tags": [
+        "gleam",
+        "functional",
+        "type-safe",
+        "erlang",
+        "language"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-09-07T14:53:58.859Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vtracer",
+      "fullName": "visioncortex/vtracer",
+      "url": "https://github.com/visioncortex/vtracer",
+      "description": "Raster to Vector Graphics Converter",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6897,
+      "forks": 471,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "visioncortex",
+        "avatar": "https://avatars.githubusercontent.com/u/1782664?s=40&amp;v=4",
+        "url": "https://github.com/visioncortex"
+      },
+      "summary": "基于Rust的高性能位图转矢量图工具，支持SVG/PDF/PNG输出，可将扫描图、徽标等光栅图像自动转换为清晰可缩放的矢量图形。",
+      "tags": [
+        "raster-vector",
+        "image-processing",
+        "svg",
+        "rust",
+        "converter"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-07T14:53:58.802Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentic-api",
+      "fullName": "vllm-project/agentic-api",
+      "url": "https://github.com/vllm-project/agentic-api",
+      "description": "Stateful API logic for agentic applications using vLLM",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 205,
+      "forks": 57,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/4163062?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "基于vLLM构建的有状态Agent应用API层，用Rust实现，为智能体应用提供状态管理与API逻辑支撑。",
+      "tags": [
+        "vllm",
+        "agent",
+        "rust",
+        "api",
+        "stateful"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-07T14:53:59.085Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Seelen-UI",
+      "fullName": "eythaann/Seelen-UI",
+      "url": "https://github.com/eythaann/Seelen-UI",
+      "description": "The Fully Customizable Desktop Environment for Windows 10/11.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17732,
+      "forks": 590,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "eythaann",
+        "avatar": "https://avatars.githubusercontent.com/u/76607907?s=40&amp;v=4",
+        "url": "https://github.com/eythaann"
+      },
+      "summary": "基于Rust构建的Windows 10/11高度可定制桌面环境，支持主题、小部件和布局深度自定义，打造个性化桌面体验。",
+      "tags": [
+        "desktop",
+        "windows",
+        "customization",
+        "rust",
+        "ui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-07T03:34:23.143Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "cockpit-tools",
       "fullName": "jlcodes99/cockpit-tools",
@@ -90,34 +566,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "sofka",
-      "fullName": "nklmilojevic/sofka",
-      "url": "https://github.com/nklmilojevic/sofka",
-      "description": "A Kubernetes TUI, reimagined in Rust - built on kube-rs and ratatui, async-first from the ground up.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 583,
-      "forks": 28,
-      "starsToday": 139,
-      "topics": [],
-      "author": {
-        "name": "nklmilojevic",
-        "avatar": "https://avatars.githubusercontent.com/u/9573356?s=40&amp;v=4",
-        "url": "https://github.com/nklmilojevic"
-      },
-      "summary": "用Rust重写的Kubernetes终端UI工具，基于kube-rs和ratatui构建，从底层采用异步架构，提供流畅的K8s集群管理体验。",
-      "tags": [
-        "kubernetes",
-        "tui",
-        "rust",
-        "cli",
-        "async"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-07T03:34:21.900Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "cocoindex",
       "fullName": "cocoindex-io/cocoindex",
       "url": "https://github.com/cocoindex-io/cocoindex",
@@ -143,34 +591,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-07T03:34:23.007Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Seelen-UI",
-      "fullName": "eythaann/Seelen-UI",
-      "url": "https://github.com/eythaann/Seelen-UI",
-      "description": "The Fully Customizable Desktop Environment for Windows 10/11.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 17725,
-      "forks": 590,
-      "starsToday": 15,
-      "topics": [],
-      "author": {
-        "name": "eythaann",
-        "avatar": "https://avatars.githubusercontent.com/u/76607907?s=40&amp;v=4",
-        "url": "https://github.com/eythaann"
-      },
-      "summary": "基于Rust构建的Windows 10/11高度可定制桌面环境，支持主题、小部件和布局深度自定义，打造个性化桌面体验。",
-      "tags": [
-        "desktop",
-        "windows",
-        "customization",
-        "rust",
-        "ui"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-07T03:34:23.143Z",
       "deepwikiAvailable": false
     },
     {
@@ -227,34 +647,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-07T03:34:23.626Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Konnect",
-      "fullName": "mixelpixx/Konnect",
-      "url": "https://github.com/mixelpixx/Konnect",
-      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 477,
-      "forks": 74,
-      "starsToday": 31,
-      "topics": [],
-      "author": {
-        "name": "mixelpixx",
-        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
-        "url": "https://github.com/mixelpixx"
-      },
-      "summary": "AI辅助PCB设计插件，为KiCAD提供217个原理图、布局、布线、设计审查与制造工具，以单一Rust二进制暴露给Claude等LLM使用。",
-      "tags": [
-        "pcb-design",
-        "kicad",
-        "ai-tools",
-        "rust",
-        "llm"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-07T03:34:24.843Z",
       "deepwikiAvailable": false
     },
     {
@@ -368,34 +760,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-07T03:34:25.825Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Pumpkin",
-      "fullName": "Pumpkin-MC/Pumpkin",
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11109,
-      "forks": 783,
-      "starsToday": 17,
-      "topics": [],
-      "author": {
-        "name": "Pumpkin-MC",
-        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
-        "url": "https://github.com/Pumpkin-MC"
-      },
-      "summary": "用 Rust 编写的高性能 Minecraft 服务器软件，让每个人都能快速高效地托管服务器，性能卓越且易于部署。",
-      "tags": [
-        "minecraft",
-        "rust",
-        "server",
-        "gaming",
-        "high-performance"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-07T03:34:26.007Z",
       "deepwikiAvailable": false
     },
     {
