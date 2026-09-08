@@ -2,9 +2,457 @@
   "date": "2026-09-08",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-08T03:38:29.462Z",
-  "enrichedAt": "2026-09-08T03:39:27.031Z",
+  "fetchedAt": "2026-09-08T13:23:05.830Z",
+  "enrichedAt": "2026-09-08T13:23:49.771Z",
   "repos": [
+    {
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1189,
+      "forks": 136,
+      "starsToday": 46,
+      "topics": [],
+      "author": {
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
+      },
+      "summary": "用Rust构建的开源CAD应用，支持2D/3D绘图、DWG/DXF格式及GPU加速渲染，性能优异且跨平台。",
+      "tags": [
+        "rust",
+        "cad",
+        "dwg",
+        "dxf",
+        "gpu",
+        "rendering"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-08T03:39:22.947Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 122452,
+      "forks": 18811,
+      "starsToday": 311,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 推出的轻量级终端编程代理，基于 Rust 构建，可直接在命令行中运行，帮助开发者高效完成编码任务。",
+      "tags": [
+        "openai",
+        "coding-agent",
+        "cli",
+        "rust",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-08T13:23:47.050Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tgrep",
+      "fullName": "microsoft/tgrep",
+      "url": "https://github.com/microsoft/tgrep",
+      "description": "Trigram-indexed grep with a client/server architecture for fast regex search in large codebases locally",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1671,
+      "forks": 64,
+      "starsToday": 1353,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/23369389?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的基于三元组索引的grep工具，采用客户端/服务器架构，在大型代码库中实现本地快速正则搜索，性能远超传统grep。",
+      "tags": [
+        "grep",
+        "search",
+        "rust",
+        "regex",
+        "indexing"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-08T13:23:47.185Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Konnect",
+      "fullName": "mixelpixx/Konnect",
+      "url": "https://github.com/mixelpixx/Konnect",
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 535,
+      "forks": 83,
+      "starsToday": 53,
+      "topics": [],
+      "author": {
+        "name": "mixelpixx",
+        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
+        "url": "https://github.com/mixelpixx"
+      },
+      "summary": "AI辅助PCB设计工具，为KiCAD 10提供原生插件，单个Rust二进制暴露217个原理图、布局、布线等工具给Claude或任意LLM调用。",
+      "tags": [
+        "pcb-design",
+        "kicad",
+        "rust",
+        "ai-agent",
+        "hardware"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-08T03:39:22.991Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "funes",
+      "fullName": "huggingface/funes",
+      "url": "https://github.com/huggingface/funes",
+      "description": "Durable, searchable memory of your past agent sessions.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 304,
+      "forks": 23,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "huggingface",
+        "avatar": "https://avatars.githubusercontent.com/u/1910518?s=40&amp;v=4",
+        "url": "https://github.com/huggingface"
+      },
+      "summary": "Rust 实现的持久化、可搜索的 AI 代理会话记忆库，让过往代理交互可被检索和复用，提升代理工作流的连续性与上下文能力。",
+      "tags": [
+        "memory",
+        "agents",
+        "rust",
+        "search",
+        "persistence"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-08T03:39:24.447Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nautilus_trader",
+      "fullName": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 28643,
+      "forks": 3732,
+      "starsToday": 130,
+      "topics": [],
+      "author": {
+        "name": "nautechsystems",
+        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
+        "url": "https://github.com/nautechsystems"
+      },
+      "summary": "基于Rust的高性能生产级交易引擎，采用确定性事件驱动架构，支持多资产类别、回测与实盘，性能卓越。",
+      "tags": [
+        "trading",
+        "rust",
+        "quant",
+        "backtesting",
+        "algorithmic"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-08T03:39:21.332Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11155,
+      "forks": 792,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用Rust编写的开源Minecraft服务器软件，主打高性能与低资源占用，让每个人都能轻松搭建快速高效的Minecraft服务器。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "game-server",
+        "high-performance",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-08T03:39:22.416Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentic-api",
+      "fullName": "vllm-project/agentic-api",
+      "url": "https://github.com/vllm-project/agentic-api",
+      "description": "Stateful API logic for agentic applications using vLLM",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 227,
+      "forks": 62,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/4163062?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "基于vLLM构建的有状态Agent应用API层，用Rust实现，为智能体应用提供状态管理与接口逻辑支持。",
+      "tags": [
+        "vllm",
+        "agent",
+        "rust",
+        "api",
+        "llm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T03:39:26.535Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 92791,
+      "forks": 12314,
+      "starsToday": 126,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用WiFi信号实现实时空间感知、生命体征监测和存在检测的Rust框架，无需任何摄像头画面，将普通WiFi转化为空间智能。",
+      "tags": [
+        "wifi-sensing",
+        "rust",
+        "spatial-intelligence",
+        "vital-signs",
+        "presence-detection"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-08T03:39:24.997Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustlings",
+      "fullName": "rust-lang/rustlings",
+      "url": "https://github.com/rust-lang/rustlings",
+      "description": "🦀 Small exercises to get you used to reading and writing Rust code!",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 64089,
+      "forks": 11257,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/76752051?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "通过小型交互式练习帮助初学者掌握 Rust 阅读与编写的小项目，提供渐进式题目与即时反馈，是学习 Rust 的经典入门工具。",
+      "tags": [
+        "rust",
+        "learning",
+        "exercises",
+        "education"
+      ],
+      "category": "Education",
+      "enrichedAt": "2026-09-08T13:23:46.848Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31848,
+      "forks": 1425,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "Rust 编写的高性能 S3 兼容对象存储系统，4KB 小对象性能比 MinIO 快 2.3 倍，支持与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "object-storage",
+        "s3",
+        "rust",
+        "high-performance",
+        "storage"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T13:23:46.850Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zoxide",
+      "fullName": "ajeetdsouza/zoxide",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "description": "A smarter cd command. Supports all major shells.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 39259,
+      "forks": 893,
+      "starsToday": 54,
+      "topics": [],
+      "author": {
+        "name": "ajeetdsouza",
+        "avatar": "https://avatars.githubusercontent.com/u/1777663?s=40&amp;v=4",
+        "url": "https://github.com/ajeetdsouza"
+      },
+      "summary": "zoxide 是一个更智能的 cd 命令，通过记忆常用目录实现快速跳转，支持所有主流 shell，用 Rust 编写，性能出色。",
+      "tags": [
+        "rust",
+        "cli",
+        "shell",
+        "navigation",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-08T13:23:48.143Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ChatGPT",
+      "fullName": "lencx/ChatGPT",
+      "url": "https://github.com/lencx/ChatGPT",
+      "description": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 54493,
+      "forks": 6139,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "lencx",
+        "avatar": "https://avatars.githubusercontent.com/u/16164244?s=40&amp;v=4",
+        "url": "https://github.com/lencx"
+      },
+      "summary": "ChatGPT 桌面客户端，基于 Rust 开发，支持 Mac、Windows 和 Linux 三平台，提供原生应用体验与便捷的 AI 对话入口。",
+      "tags": [
+        "chatgpt",
+        "desktop",
+        "rust",
+        "cross-platform",
+        "ai"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-08T13:23:48.516Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "remux",
+      "fullName": "lostb1t/remux",
+      "url": "https://github.com/lostb1t/remux",
+      "description": "self-hosted media server with a Jellyfin-compatible API",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 470,
+      "forks": 54,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "lostb1t",
+        "avatar": "https://avatars.githubusercontent.com/u/168401?s=40&amp;v=4",
+        "url": "https://github.com/lostb1t"
+      },
+      "summary": "用Rust编写的自托管媒体服务器，提供与Jellyfin兼容的API，可无缝替代现有Jellyfin客户端生态，主打轻量高性能。",
+      "tags": [
+        "media-server",
+        "rust",
+        "jellyfin",
+        "self-hosted",
+        "streaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-08T13:23:48.521Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "quickwit",
+      "fullName": "quickwit-oss/quickwit",
+      "url": "https://github.com/quickwit-oss/quickwit",
+      "description": "Cloud-native OSS search engine for observability",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11581,
+      "forks": 592,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "quickwit-oss",
+        "avatar": "https://avatars.githubusercontent.com/u/3011588?s=40&amp;v=4",
+        "url": "https://github.com/quickwit-oss"
+      },
+      "summary": "云原生开源搜索引擎，专为可观测性数据设计，基于Rust构建，支持日志、追踪和事件的高效检索与分析。",
+      "tags": [
+        "search-engine",
+        "observability",
+        "rust",
+        "cloud-native",
+        "logging"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T13:23:48.699Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mxc",
+      "fullName": "microsoft/mxc",
+      "url": "https://github.com/microsoft/mxc",
+      "description": "Policy-driven, layered isolation and containment",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1301,
+      "forks": 70,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/in/1693627?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的策略驱动分层隔离与容器化项目，基于Rust实现，提供细粒度的安全隔离与进程管控能力。",
+      "tags": [
+        "rust",
+        "security",
+        "isolation",
+        "containment",
+        "microsoft"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-08T13:23:49.771Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "jcode",
       "fullName": "1jehuang/jcode",
@@ -62,34 +510,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nautilus_trader",
-      "fullName": "nautechsystems/nautilus_trader",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 28620,
-      "forks": 3730,
-      "starsToday": 130,
-      "topics": [],
-      "author": {
-        "name": "nautechsystems",
-        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
-        "url": "https://github.com/nautechsystems"
-      },
-      "summary": "基于Rust的高性能生产级交易引擎，采用确定性事件驱动架构，支持多资产类别、回测与实盘，性能卓越。",
-      "tags": [
-        "trading",
-        "rust",
-        "quant",
-        "backtesting",
-        "algorithmic"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-08T03:39:21.332Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "arnis",
       "fullName": "louis-e/arnis",
       "url": "https://github.com/louis-e/arnis",
@@ -115,91 +535,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-08T03:39:21.294Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Pumpkin",
-      "fullName": "Pumpkin-MC/Pumpkin",
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11148,
-      "forks": 790,
-      "starsToday": 34,
-      "topics": [],
-      "author": {
-        "name": "Pumpkin-MC",
-        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
-        "url": "https://github.com/Pumpkin-MC"
-      },
-      "summary": "用Rust编写的开源Minecraft服务器软件，主打高性能与低资源占用，让每个人都能轻松搭建快速高效的Minecraft服务器。",
-      "tags": [
-        "minecraft",
-        "rust",
-        "game-server",
-        "high-performance",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-08T03:39:22.416Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenCADStudio",
-      "fullName": "HakanSeven12/OpenCADStudio",
-      "url": "https://github.com/HakanSeven12/OpenCADStudio",
-      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1172,
-      "forks": 134,
-      "starsToday": 46,
-      "topics": [],
-      "author": {
-        "name": "HakanSeven12",
-        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
-        "url": "https://github.com/HakanSeven12"
-      },
-      "summary": "用Rust构建的开源CAD应用，支持2D/3D绘图、DWG/DXF格式及GPU加速渲染，性能优异且跨平台。",
-      "tags": [
-        "rust",
-        "cad",
-        "dwg",
-        "dxf",
-        "gpu",
-        "rendering"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-08T03:39:22.947Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Konnect",
-      "fullName": "mixelpixx/Konnect",
-      "url": "https://github.com/mixelpixx/Konnect",
-      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 523,
-      "forks": 80,
-      "starsToday": 53,
-      "topics": [],
-      "author": {
-        "name": "mixelpixx",
-        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
-        "url": "https://github.com/mixelpixx"
-      },
-      "summary": "AI辅助PCB设计工具，为KiCAD 10提供原生插件，单个Rust二进制暴露217个原理图、布局、布线等工具给Claude或任意LLM调用。",
-      "tags": [
-        "pcb-design",
-        "kicad",
-        "rust",
-        "ai-agent",
-        "hardware"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-08T03:39:22.991Z",
       "deepwikiAvailable": false
     },
     {
@@ -287,62 +622,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "funes",
-      "fullName": "huggingface/funes",
-      "url": "https://github.com/huggingface/funes",
-      "description": "Durable, searchable memory of your past agent sessions.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 277,
-      "forks": 20,
-      "starsToday": 48,
-      "topics": [],
-      "author": {
-        "name": "huggingface",
-        "avatar": "https://avatars.githubusercontent.com/u/1910518?s=40&amp;v=4",
-        "url": "https://github.com/huggingface"
-      },
-      "summary": "Rust 实现的持久化、可搜索的 AI 代理会话记忆库，让过往代理交互可被检索和复用，提升代理工作流的连续性与上下文能力。",
-      "tags": [
-        "memory",
-        "agents",
-        "rust",
-        "search",
-        "persistence"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-08T03:39:24.447Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "RuView",
-      "fullName": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 92752,
-      "forks": 12304,
-      "starsToday": 126,
-      "topics": [],
-      "author": {
-        "name": "ruvnet",
-        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
-        "url": "https://github.com/ruvnet"
-      },
-      "summary": "用WiFi信号实现实时空间感知、生命体征监测和存在检测的Rust框架，无需任何摄像头画面，将普通WiFi转化为空间智能。",
-      "tags": [
-        "wifi-sensing",
-        "rust",
-        "spatial-intelligence",
-        "vital-signs",
-        "presence-detection"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-08T03:39:24.997Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "koharu",
       "fullName": "koharu-rs/koharu",
       "url": "https://github.com/koharu-rs/koharu",
@@ -425,34 +704,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-08T03:39:26.469Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agentic-api",
-      "fullName": "vllm-project/agentic-api",
-      "url": "https://github.com/vllm-project/agentic-api",
-      "description": "Stateful API logic for agentic applications using vLLM",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 219,
-      "forks": 59,
-      "starsToday": 25,
-      "topics": [],
-      "author": {
-        "name": "vllm-project",
-        "avatar": "https://avatars.githubusercontent.com/u/4163062?s=40&amp;v=4",
-        "url": "https://github.com/vllm-project"
-      },
-      "summary": "基于vLLM构建的有状态Agent应用API层，用Rust实现，为智能体应用提供状态管理与接口逻辑支持。",
-      "tags": [
-        "vllm",
-        "agent",
-        "rust",
-        "api",
-        "llm"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-08T03:39:26.535Z",
       "deepwikiAvailable": false
     },
     {

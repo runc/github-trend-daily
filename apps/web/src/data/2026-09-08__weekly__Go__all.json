@@ -2,35 +2,36 @@
   "date": "2026-09-08",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-09-08T03:38:29.462Z",
-  "enrichedAt": "2026-09-08T03:40:08.043Z",
+  "fetchedAt": "2026-09-08T13:23:05.830Z",
+  "enrichedAt": "2026-09-08T13:24:11.159Z",
   "repos": [
     {
-      "name": "tailcat",
-      "fullName": "tailscale/tailcat",
-      "url": "https://github.com/tailscale/tailcat",
-      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6732,
-      "forks": 263,
-      "starsToday": 2091,
+      "stars": 21819,
+      "forks": 3152,
+      "starsToday": 653,
       "topics": [],
       "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
       },
-      "summary": "类似netcat但走Tailscale数据平面的网络工具，无需Tailscale控制平面即可在两台设备间直接传输数据，轻量高效。",
+      "summary": "腾讯开源LLM知识平台，将原始文档转化为可查询的RAG、自主推理智能体及自维护Wiki，支持知识库全流程管理。",
       "tags": [
-        "netcat",
-        "tailscale",
-        "networking",
-        "go",
-        "p2p"
+        "rag",
+        "llm",
+        "knowledge-base",
+        "agent",
+        "wiki",
+        "tencent"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-08T03:39:59.824Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-08T03:40:03.259Z",
       "deepwikiAvailable": false
     },
     {
@@ -41,7 +42,7 @@
       "language": "Go",
       "languageColor": "#00ADD8",
       "stars": 11012,
-      "forks": 918,
+      "forks": 919,
       "starsToday": 570,
       "topics": [],
       "author": {
@@ -68,8 +69,8 @@
       "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 43868,
-      "forks": 4257,
+      "stars": 43869,
+      "forks": 4256,
       "starsToday": 277,
       "topics": [],
       "author": {
@@ -90,14 +91,378 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47604,
+      "forks": 11380,
+      "starsToday": 670,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，支持将多种LLM转换为OpenAI、Claude或Gemini兼容格式，提供聚合分发与集中管理能力，适用于个人和企业级模型管理。",
+      "tags": [
+        "llm",
+        "gateway",
+        "api",
+        "openai",
+        "model-hub"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T13:24:09.467Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 180457,
+      "forks": 17764,
+      "starsToday": 687,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大模型的命令行工具，支持 Kimi、GLM、DeepSeek、Qwen、Gemma 等主流模型，一键下载并运行开源 LLM。",
+      "tags": [
+        "llm",
+        "go",
+        "local",
+        "inference",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-08T13:24:09.344Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 104270,
+      "forks": 6053,
+      "starsToday": 2275,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "Claude Code技能，通过让AI用原始人式简短语言交流，大幅削减65%的token消耗，提升对话效率与成本效益。",
+      "tags": [
+        "claude",
+        "token-saving",
+        "skill",
+        "efficiency",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-08T13:24:09.537Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "certificates",
+      "fullName": "smallstep/certificates",
+      "url": "https://github.com/smallstep/certificates",
+      "description": "🛡️ A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8845,
+      "forks": 590,
+      "starsToday": 46,
+      "topics": [],
+      "author": {
+        "name": "smallstep",
+        "avatar": "https://avatars.githubusercontent.com/u/416157?s=40&amp;v=4",
+        "url": "https://github.com/smallstep"
+      },
+      "summary": "私有证书颁发机构(CA)与ACME服务器，支持X.509和SSH证书的自动化管理，实现TLS全场景覆盖及SSH单点登录。",
+      "tags": [
+        "tls",
+        "acme",
+        "certificate",
+        "ssh",
+        "security",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T03:40:04.159Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "katana",
+      "fullName": "projectdiscovery/katana",
+      "url": "https://github.com/projectdiscovery/katana",
+      "description": "A next-generation crawling and spidering framework.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17406,
+      "forks": 1175,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "projectdiscovery",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/projectdiscovery"
+      },
+      "summary": "下一代爬虫与蜘蛛框架，专为安全研究和漏洞扫描设计，高性能、可扩展的Go语言Web爬取工具。",
+      "tags": [
+        "crawler",
+        "security",
+        "go",
+        "spider",
+        "recon"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-08T03:40:07.501Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6418,
+      "forks": 672,
+      "starsToday": 166,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向AI编码代理的持久记忆系统，Go编写，支持SQLite+FTS5全文检索，提供MCP服务器、HTTP API、CLI和TUI，跨代理通用。",
+      "tags": [
+        "ai-agent",
+        "memory",
+        "sqlite",
+        "mcp",
+        "golang"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-08T13:24:09.238Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "grpc-gateway",
+      "fullName": "grpc-ecosystem/grpc-gateway",
+      "url": "https://github.com/grpc-ecosystem/grpc-gateway",
+      "description": "gRPC to JSON proxy generator following the gRPC HTTP spec",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19996,
+      "forks": 2408,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "grpc-ecosystem",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/grpc-ecosystem"
+      },
+      "summary": "gRPC-Gateway 是 Go 生态中广泛使用的工具，根据 gRPC HTTP 规范自动将 gRPC 服务生成 JSON 反向代理，让 REST 客户端也能调用 gRPC 接口，简化 API 暴露与集成。",
+      "tags": [
+        "grpc",
+        "proxy",
+        "codegen",
+        "api",
+        "rest"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-08T13:24:11.037Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36247,
+      "forks": 3181,
+      "starsToday": 344,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于WireGuard的零配置VPN工具，提供安全加密的私有网络连接，支持2FA认证，跨平台易用，是构建虚拟局域网和远程访问的领先方案。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T13:24:11.159Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailcat",
+      "fullName": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6779,
+      "forks": 265,
+      "starsToday": 2091,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "类似netcat但走Tailscale数据平面的网络工具，无需Tailscale控制平面即可在两台设备间直接传输数据，轻量高效。",
+      "tags": [
+        "netcat",
+        "tailscale",
+        "networking",
+        "go",
+        "p2p"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-08T03:39:59.824Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5662,
+      "forks": 924,
+      "starsToday": 191,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "可编程的混合模型路由器，用于异构LLM推理场景，支持按语义智能路由请求到不同模型，提升推理效率与成本控制。",
+      "tags": [
+        "llm-router",
+        "mixture-of-models",
+        "inference",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-08T03:40:01.474Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 48977,
+      "forks": 4432,
+      "starsToday": 195,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "LocalAI 是开源 AI 引擎，可在任意硬件上运行 LLM、视觉、语音、图像和视频模型，无需 GPU，兼容 OpenAI API，支持本地部署。",
+      "tags": [
+        "ai",
+        "llm",
+        "self-hosted",
+        "openai-compatible",
+        "inference"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-08T03:40:07.276Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15551,
+      "forks": 1695,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
+      },
+      "summary": "开源自托管邮件服务器，集邮件服务、新闻通讯和邮件营销于一体，开发者友好且免月费，基于Go构建。",
+      "tags": [
+        "mailserver",
+        "self-hosted",
+        "newsletter",
+        "email-marketing",
+        "opensource"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T13:24:11.052Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28988,
+      "forks": 1661,
+      "starsToday": 211,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于 WireGuard 的安全组网工具，支持 SSO、MFA 和细粒度访问控制，轻松将设备连接成私有覆盖网络。",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "networking",
+        "security",
+        "zero-trust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T03:40:06.178Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "minikube",
       "fullName": "kubernetes/minikube",
       "url": "https://github.com/kubernetes/minikube",
       "description": "Run Kubernetes locally",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 32105,
-      "forks": 5317,
+      "stars": 32107,
+      "forks": 5318,
       "starsToday": 35,
       "topics": [],
       "author": {
@@ -118,30 +483,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "semantic-router",
-      "fullName": "vllm-project/semantic-router",
-      "url": "https://github.com/vllm-project/semantic-router",
-      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "name": "nebula",
+      "fullName": "slackhq/nebula",
+      "url": "https://github.com/slackhq/nebula",
+      "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5653,
-      "forks": 921,
-      "starsToday": 191,
+      "stars": 18311,
+      "forks": 1182,
+      "starsToday": 647,
       "topics": [],
       "author": {
-        "name": "vllm-project",
-        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
-        "url": "https://github.com/vllm-project"
+        "name": "slackhq",
+        "avatar": "https://avatars.githubusercontent.com/u/957319?s=40&amp;v=4",
+        "url": "https://github.com/slackhq"
       },
-      "summary": "可编程的混合模型路由器，用于异构LLM推理场景，支持按语义智能路由请求到不同模型，提升推理效率与成本控制。",
+      "summary": "Nebula是Slack开源的P2P覆盖网络工具，主打性能、简单与安全，基于证书加密实现可大规模扩展的虚拟组网。",
       "tags": [
-        "llm-router",
-        "mixture-of-models",
-        "inference",
+        "overlay-network",
+        "vpn",
+        "p2p",
+        "networking",
         "go"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-09-08T03:40:01.474Z",
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T03:40:02.996Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34524,
+      "forks": 2991,
+      "starsToday": 132,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是一个 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可处理数十亿文件，具备 O(1) 磁盘访问和轻松水平扩展能力。",
+      "tags": [
+        "distributed-storage",
+        "object-storage",
+        "s3",
+        "filesystem",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-08T03:40:05.864Z",
       "deepwikiAvailable": false
     },
     {
@@ -257,92 +651,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nebula",
-      "fullName": "slackhq/nebula",
-      "url": "https://github.com/slackhq/nebula",
-      "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 18308,
-      "forks": 1181,
-      "starsToday": 647,
-      "topics": [],
-      "author": {
-        "name": "slackhq",
-        "avatar": "https://avatars.githubusercontent.com/u/957319?s=40&amp;v=4",
-        "url": "https://github.com/slackhq"
-      },
-      "summary": "Nebula是Slack开源的P2P覆盖网络工具，主打性能、简单与安全，基于证书加密实现可大规模扩展的虚拟组网。",
-      "tags": [
-        "overlay-network",
-        "vpn",
-        "p2p",
-        "networking",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-08T03:40:02.996Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 21733,
-      "forks": 3146,
-      "starsToday": 653,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源LLM知识平台，将原始文档转化为可查询的RAG、自主推理智能体及自维护Wiki，支持知识库全流程管理。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "agent",
-        "wiki",
-        "tencent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-08T03:40:03.259Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "certificates",
-      "fullName": "smallstep/certificates",
-      "url": "https://github.com/smallstep/certificates",
-      "description": "🛡️ A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8843,
-      "forks": 590,
-      "starsToday": 46,
-      "topics": [],
-      "author": {
-        "name": "smallstep",
-        "avatar": "https://avatars.githubusercontent.com/u/416157?s=40&amp;v=4",
-        "url": "https://github.com/smallstep"
-      },
-      "summary": "私有证书颁发机构(CA)与ACME服务器，支持X.509和SSH证书的自动化管理，实现TLS全场景覆盖及SSH单点登录。",
-      "tags": [
-        "tls",
-        "acme",
-        "certificate",
-        "ssh",
-        "security",
-        "golang"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-08T03:40:04.159Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "glance",
       "fullName": "glanceapp/glance",
       "url": "https://github.com/glanceapp/glance",
@@ -455,62 +763,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "seaweedfs",
-      "fullName": "seaweedfs/seaweedfs",
-      "url": "https://github.com/seaweedfs/seaweedfs",
-      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 34517,
-      "forks": 2992,
-      "starsToday": 132,
-      "topics": [],
-      "author": {
-        "name": "seaweedfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
-        "url": "https://github.com/seaweedfs"
-      },
-      "summary": "SeaweedFS 是一个 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可处理数十亿文件，具备 O(1) 磁盘访问和轻松水平扩展能力。",
-      "tags": [
-        "distributed-storage",
-        "object-storage",
-        "s3",
-        "filesystem",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-08T03:40:05.864Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "netbird",
-      "fullName": "netbirdio/netbird",
-      "url": "https://github.com/netbirdio/netbird",
-      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 28984,
-      "forks": 1659,
-      "starsToday": 211,
-      "topics": [],
-      "author": {
-        "name": "netbirdio",
-        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
-        "url": "https://github.com/netbirdio"
-      },
-      "summary": "基于 WireGuard 的安全组网工具，支持 SSO、MFA 和细粒度访问控制，轻松将设备连接成私有覆盖网络。",
-      "tags": [
-        "wireguard",
-        "vpn",
-        "networking",
-        "security",
-        "zero-trust"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-08T03:40:06.178Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "certimate",
       "fullName": "certimate-go/certimate",
       "url": "https://github.com/certimate-go/certimate",
@@ -563,62 +815,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-08T03:40:07.529Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "LocalAI",
-      "fullName": "mudler/LocalAI",
-      "url": "https://github.com/mudler/LocalAI",
-      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 48968,
-      "forks": 4433,
-      "starsToday": 195,
-      "topics": [],
-      "author": {
-        "name": "mudler",
-        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
-        "url": "https://github.com/mudler"
-      },
-      "summary": "LocalAI 是开源 AI 引擎，可在任意硬件上运行 LLM、视觉、语音、图像和视频模型，无需 GPU，兼容 OpenAI API，支持本地部署。",
-      "tags": [
-        "ai",
-        "llm",
-        "self-hosted",
-        "openai-compatible",
-        "inference"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-08T03:40:07.276Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "katana",
-      "fullName": "projectdiscovery/katana",
-      "url": "https://github.com/projectdiscovery/katana",
-      "description": "A next-generation crawling and spidering framework.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 17406,
-      "forks": 1175,
-      "starsToday": 47,
-      "topics": [],
-      "author": {
-        "name": "projectdiscovery",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/projectdiscovery"
-      },
-      "summary": "下一代爬虫与蜘蛛框架，专为安全研究和漏洞扫描设计，高性能、可扩展的Go语言Web爬取工具。",
-      "tags": [
-        "crawler",
-        "security",
-        "go",
-        "spider",
-        "recon"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-09-08T03:40:07.501Z",
       "deepwikiAvailable": false
     },
     {
