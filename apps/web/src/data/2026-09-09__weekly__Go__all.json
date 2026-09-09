@@ -2,8 +2,8 @@
   "date": "2026-09-09",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-09-09T03:43:38.243Z",
-  "enrichedAt": "2026-09-09T03:45:12.308Z",
+  "fetchedAt": "2026-09-09T13:32:13.137Z",
+  "enrichedAt": "2026-09-09T13:33:14.025Z",
   "repos": [
     {
       "name": "WeKnora",
@@ -12,8 +12,8 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 21877,
-      "forks": 3160,
+      "stars": 21932,
+      "forks": 3170,
       "starsToday": 740,
       "topics": [],
       "author": {
@@ -35,31 +35,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ipatool",
-      "fullName": "majd/ipatool",
-      "url": "https://github.com/majd/ipatool",
-      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 11024,
-      "forks": 920,
-      "starsToday": 310,
+      "stars": 180505,
+      "forks": 17779,
+      "starsToday": 677,
       "topics": [],
       "author": {
-        "name": "majd",
-        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
-        "url": "https://github.com/majd"
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
       },
-      "summary": "用Go编写的命令行工具，可从App Store搜索并下载iOS、iPadOS、tvOS和visionOS的IPA应用包，方便开发者获取应用安装文件。",
+      "summary": "本地运行大模型的一站式工具，支持Kimi、DeepSeek、Qwen、Gemma等主流模型，开箱即用，社区活跃。",
       "tags": [
-        "cli",
-        "ios",
-        "appstore",
-        "golang",
-        "downloader"
+        "llm",
+        "go",
+        "local",
+        "inference",
+        "models"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-09T03:45:05.000Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-09-09T03:45:06.639Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 104476,
+      "forks": 6059,
+      "starsToday": 2261,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "Claude Code技能，通过让AI用原始人式简短语言交流，减少约65%的token消耗，提升效率并降低成本。",
+      "tags": [
+        "claude-code",
+        "token-saving",
+        "prompt",
+        "efficiency",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-09T03:45:06.437Z",
       "deepwikiAvailable": false
     },
     {
@@ -69,8 +97,8 @@
       "description": "Send and receive SMS messages using your Android phone programmatically via a simple HTTP API",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4989,
-      "forks": 890,
+      "stars": 5019,
+      "forks": 891,
       "starsToday": 259,
       "topics": [],
       "author": {
@@ -88,6 +116,399 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-09T03:45:04.959Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5693,
+      "forks": 927,
+      "starsToday": 194,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "可编程的混合模型路由器，用于异构LLM推理，支持按语义智能路由请求到不同模型，提升推理效率与成本控制。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "mixture-of-models"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-09T03:45:09.248Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47701,
+      "forks": 11403,
+      "starsToday": 652,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，支持将多种LLM转换为OpenAI、Claude或Gemini兼容格式，提供模型聚合与分发能力，适用于个人和企业模型集中管理。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "openai-compatible",
+        "model-hub",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-09T03:45:06.497Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6477,
+      "forks": 732,
+      "starsToday": 336,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "Gentle-AI 为 Claude Code、Cursor、Codex 等 AI 编码代理提供统一配置，支持持久记忆、规格驱动开发、技能与 MCP 服务器、角色设定及有界审查，开源且无代理锁定。",
+      "tags": [
+        "ai-agents",
+        "config",
+        "developer-tools",
+        "mcp",
+        "open-source"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-09T13:33:12.423Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bifrost",
+      "fullName": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7918,
+      "forks": 1185,
+      "starsToday": 170,
+      "topics": [],
+      "author": {
+        "name": "maximhq",
+        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
+        "url": "https://github.com/maximhq"
+      },
+      "summary": "企业级AI网关，比LiteLLM快50倍，支持自适应负载均衡、集群模式、护栏及1000+模型，5k RPS下开销低于100微秒。",
+      "tags": [
+        "ai-gateway",
+        "load-balancer",
+        "go",
+        "llm",
+        "enterprise"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-09T13:33:12.017Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cilium",
+      "fullName": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25101,
+      "forks": 4033,
+      "starsToday": 63,
+      "topics": [],
+      "author": {
+        "name": "cilium",
+        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
+        "url": "https://github.com/cilium"
+      },
+      "summary": "基于 eBPF 的云原生网络、安全与可观测性平台，为 Kubernetes 提供高性能网络策略、服务网格和透明加密能力。",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "networking",
+        "security",
+        "observability",
+        "cncf"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-09T13:33:12.220Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49004,
+      "forks": 4433,
+      "starsToday": 202,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "开源AI推理引擎，可在任意硬件上本地运行LLM、视觉、语音、图像与视频模型，无需GPU，兼容OpenAI API，支持自托管部署。",
+      "tags": [
+        "ai",
+        "llm",
+        "self-hosted",
+        "inference",
+        "openai-api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-09T03:45:09.943Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29042,
+      "forks": 1666,
+      "starsToday": 203,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于WireGuard的安全覆盖网络工具，支持SSO、MFA和细粒度访问控制，轻松将设备接入私有网络。",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "networking",
+        "security",
+        "sso",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-09T03:45:10.901Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nebula",
+      "fullName": "slackhq/nebula",
+      "url": "https://github.com/slackhq/nebula",
+      "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18321,
+      "forks": 1182,
+      "starsToday": 387,
+      "topics": [],
+      "author": {
+        "name": "slackhq",
+        "avatar": "https://avatars.githubusercontent.com/u/957319?s=40&amp;v=4",
+        "url": "https://github.com/slackhq"
+      },
+      "summary": "Nebula 是 Slack 开源的去中心化覆盖网络工具，主打高性能、简单与安全，基于证书认证实现点对点加密组网，适合跨地域大规模节点互联。",
+      "tags": [
+        "overlay-network",
+        "vpn",
+        "p2p",
+        "go",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-09T03:45:11.634Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41487,
+      "forks": 5867,
+      "starsToday": 155,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Xray-core 是领先的网络代理平台，基于 Go 构建，支持多种协议和传输方式，可穿透各类网络限制，是 v2ray-core 的继任者，功能强大且高度可定制。",
+      "tags": [
+        "proxy",
+        "network",
+        "v2ray",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-09T13:33:12.207Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "filebrowser",
+      "fullName": "gtsteffaniak/filebrowser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8208,
+      "forks": 430,
+      "starsToday": 227,
+      "topics": [],
+      "author": {
+        "name": "gtsteffaniak",
+        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
+        "url": "https://github.com/gtsteffaniak"
+      },
+      "summary": "基于Go的轻量级Web文件浏览器，提供简洁界面管理服务器文件，支持上传下载、权限控制与多用户，部署简单性能出色。",
+      "tags": [
+        "file-manager",
+        "web-ui",
+        "golang",
+        "self-hosted"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-09T13:33:13.496Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46111,
+      "forks": 11425,
+      "starsToday": 412,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于Xray的轻量级多功能面板，支持Vmess、Vless、Trojan、Shadowsocks、Wireguard等多种协议，提供Web管理界面、多用户管理和流量统计，部署简单易用。",
+      "tags": [
+        "proxy",
+        "panel",
+        "xray",
+        "vpn",
+        "web-ui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-09T13:33:13.828Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25231,
+      "forks": 1004,
+      "starsToday": 259,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据、Docker 统计和告警功能，界面简洁，资源占用低，适合个人和小团队快速部署。",
+      "tags": [
+        "monitoring",
+        "server",
+        "docker",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-09T13:33:13.736Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22604,
+      "forks": 2986,
+      "starsToday": 378,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go的全自主AI智能体渗透测试系统，可自动执行复杂安全测试任务，支持多智能体协作与自动化漏洞发现。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "automation",
+        "go"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-09T13:33:14.025Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11027,
+      "forks": 921,
+      "starsToday": 310,
+      "topics": [],
+      "author": {
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
+      },
+      "summary": "用Go编写的命令行工具，可从App Store搜索并下载iOS、iPadOS、tvOS和visionOS的IPA应用包，方便开发者获取应用安装文件。",
+      "tags": [
+        "cli",
+        "ios",
+        "appstore",
+        "golang",
+        "downloader"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-09T03:45:05.000Z",
       "deepwikiAvailable": false
     },
     {
@@ -116,90 +537,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-09T03:45:05.021Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "new-api",
-      "fullName": "QuantumNous/new-api",
-      "url": "https://github.com/QuantumNous/new-api",
-      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 47641,
-      "forks": 11392,
-      "starsToday": 652,
-      "topics": [],
-      "author": {
-        "name": "QuantumNous",
-        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
-        "url": "https://github.com/QuantumNous"
-      },
-      "summary": "统一AI模型网关，支持将多种LLM转换为OpenAI、Claude或Gemini兼容格式，提供模型聚合与分发能力，适用于个人和企业模型集中管理。",
-      "tags": [
-        "ai-gateway",
-        "llm",
-        "openai-compatible",
-        "model-hub",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-09T03:45:06.497Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 180491,
-      "forks": 17776,
-      "starsToday": 677,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地运行大模型的一站式工具，支持Kimi、DeepSeek、Qwen、Gemma等主流模型，开箱即用，社区活跃。",
-      "tags": [
-        "llm",
-        "go",
-        "local",
-        "inference",
-        "models"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-09T03:45:06.639Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 104378,
-      "forks": 6055,
-      "starsToday": 2261,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "Claude Code技能，通过让AI用原始人式简短语言交流，减少约65%的token消耗，提升效率并降低成本。",
-      "tags": [
-        "claude-code",
-        "token-saving",
-        "prompt",
-        "efficiency",
-        "ai"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-09T03:45:06.437Z",
       "deepwikiAvailable": false
     },
     {
@@ -372,62 +709,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "semantic-router",
-      "fullName": "vllm-project/semantic-router",
-      "url": "https://github.com/vllm-project/semantic-router",
-      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5678,
-      "forks": 925,
-      "starsToday": 194,
-      "topics": [],
-      "author": {
-        "name": "vllm-project",
-        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
-        "url": "https://github.com/vllm-project"
-      },
-      "summary": "可编程的混合模型路由器，用于异构LLM推理，支持按语义智能路由请求到不同模型，提升推理效率与成本控制。",
-      "tags": [
-        "llm",
-        "router",
-        "inference",
-        "go",
-        "mixture-of-models"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-09T03:45:09.248Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "LocalAI",
-      "fullName": "mudler/LocalAI",
-      "url": "https://github.com/mudler/LocalAI",
-      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 48991,
-      "forks": 4434,
-      "starsToday": 202,
-      "topics": [],
-      "author": {
-        "name": "mudler",
-        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
-        "url": "https://github.com/mudler"
-      },
-      "summary": "开源AI推理引擎，可在任意硬件上本地运行LLM、视觉、语音、图像与视频模型，无需GPU，兼容OpenAI API，支持自托管部署。",
-      "tags": [
-        "ai",
-        "llm",
-        "self-hosted",
-        "inference",
-        "openai-api"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-09T03:45:09.943Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "BillionMail",
       "fullName": "Billionmail/BillionMail",
       "url": "https://github.com/Billionmail/BillionMail",
@@ -457,35 +738,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "netbird",
-      "fullName": "netbirdio/netbird",
-      "url": "https://github.com/netbirdio/netbird",
-      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 29024,
-      "forks": 1664,
-      "starsToday": 203,
-      "topics": [],
-      "author": {
-        "name": "netbirdio",
-        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
-        "url": "https://github.com/netbirdio"
-      },
-      "summary": "基于WireGuard的安全覆盖网络工具，支持SSO、MFA和细粒度访问控制，轻松将设备接入私有网络。",
-      "tags": [
-        "wireguard",
-        "vpn",
-        "networking",
-        "security",
-        "sso",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-09T03:45:10.901Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "minikube",
       "fullName": "kubernetes/minikube",
       "url": "https://github.com/kubernetes/minikube",
@@ -511,34 +763,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-09T03:45:10.702Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "nebula",
-      "fullName": "slackhq/nebula",
-      "url": "https://github.com/slackhq/nebula",
-      "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 18316,
-      "forks": 1182,
-      "starsToday": 387,
-      "topics": [],
-      "author": {
-        "name": "slackhq",
-        "avatar": "https://avatars.githubusercontent.com/u/957319?s=40&amp;v=4",
-        "url": "https://github.com/slackhq"
-      },
-      "summary": "Nebula 是 Slack 开源的去中心化覆盖网络工具，主打高性能、简单与安全，基于证书认证实现点对点加密组网，适合跨地域大规模节点互联。",
-      "tags": [
-        "overlay-network",
-        "vpn",
-        "p2p",
-        "go",
-        "networking"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-09T03:45:11.634Z",
       "deepwikiAvailable": false
     },
     {
