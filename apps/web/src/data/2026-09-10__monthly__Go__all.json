@@ -2,36 +2,35 @@
   "date": "2026-09-10",
   "since": "monthly",
   "language": "Go",
-  "fetchedAt": "2026-09-10T03:41:38.023Z",
-  "enrichedAt": "2026-09-10T03:43:19.111Z",
+  "fetchedAt": "2026-09-10T13:23:05.488Z",
+  "enrichedAt": "2026-09-10T13:24:13.842Z",
   "repos": [
     {
-      "name": "App-Store-Connect-CLI",
-      "fullName": "rorkai/App-Store-Connect-CLI",
-      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
-      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 7157,
-      "forks": 594,
-      "starsToday": 1514,
+      "stars": 3673,
+      "forks": 177,
+      "starsToday": 1830,
       "topics": [],
       "author": {
-        "name": "rorkai",
-        "avatar": "https://avatars.githubusercontent.com/u/30552772?s=40&amp;v=4",
-        "url": "https://github.com/rorkai"
+        "name": "asciimoo",
+        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
+        "url": "https://github.com/asciimoo"
       },
-      "summary": "用 Go 编写的 App Store Connect 命令行工具，可脚本化自动化 TestFlight、构建、提审、签名、分析与截图等流程。",
+      "summary": "用 Go 编写的自托管搜索引擎，可索引本地浏览历史与文件，提供私有的全文检索能力，无需依赖外部服务。",
       "tags": [
-        "cli",
-        "appstore",
-        "ios",
-        "automation",
+        "search",
+        "self-hosted",
         "go",
-        "devops"
+        "privacy",
+        "indexing"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-10T03:43:14.082Z",
+      "category": "App",
+      "enrichedAt": "2026-09-10T03:43:16.426Z",
       "deepwikiAvailable": false
     },
     {
@@ -41,7 +40,7 @@
       "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 11031,
+      "stars": 11039,
       "forks": 921,
       "starsToday": 1265,
       "topics": [],
@@ -69,7 +68,7 @@
       "description": "A self-hosted dashboard that puts all your feeds in one place",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 36965,
+      "stars": 36972,
       "forks": 1451,
       "starsToday": 797,
       "topics": [],
@@ -91,98 +90,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gitleaks",
-      "fullName": "gitleaks/gitleaks",
-      "url": "https://github.com/gitleaks/gitleaks",
-      "description": "Find secrets with Gitleaks 🔑",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 29191,
-      "forks": 2229,
-      "starsToday": 675,
-      "topics": [],
-      "author": {
-        "name": "gitleaks",
-        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
-        "url": "https://github.com/gitleaks"
-      },
-      "summary": "Gitleaks 是用 Go 编写的密钥扫描工具，可在代码仓库、文件和提交历史中检测密码、API Key 等敏感信息，支持 CI 集成与自定义规则。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "go",
-        "ci"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-10T03:43:14.453Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "beszel",
-      "fullName": "henrygd/beszel",
-      "url": "https://github.com/henrygd/beszel",
-      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 25251,
-      "forks": 1006,
-      "starsToday": 1171,
-      "topics": [],
-      "author": {
-        "name": "henrygd",
-        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
-        "url": "https://github.com/henrygd"
-      },
-      "summary": "轻量级服务器监控工具，支持历史数据、Docker 容器统计与告警，Go 编写，部署简单资源占用低。",
-      "tags": [
-        "monitoring",
-        "server",
-        "docker",
-        "go",
-        "self-hosted",
-        "alerts"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-10T03:43:14.981Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "filebrowser",
-      "fullName": "gtsteffaniak/filebrowser",
-      "url": "https://github.com/gtsteffaniak/filebrowser",
-      "description": "📂 Web File Browser",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8222,
-      "forks": 430,
-      "starsToday": 536,
-      "topics": [],
-      "author": {
-        "name": "gtsteffaniak",
-        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
-        "url": "https://github.com/gtsteffaniak"
-      },
-      "summary": "基于 Go 的网页文件浏览器，可在浏览器中管理、上传、分享和预览服务器文件，轻量易部署，适合自建私有网盘。",
-      "tags": [
-        "filebrowser",
-        "go",
-        "web",
-        "self-hosted",
-        "file-management"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-09-10T03:43:15.357Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "authelia",
       "fullName": "authelia/authelia",
       "url": "https://github.com/authelia/authelia",
       "description": "The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 28871,
+      "stars": 28886,
       "forks": 1481,
       "starsToday": 365,
       "topics": [],
@@ -205,13 +119,98 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "filebrowser",
+      "fullName": "gtsteffaniak/filebrowser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8230,
+      "forks": 430,
+      "starsToday": 536,
+      "topics": [],
+      "author": {
+        "name": "gtsteffaniak",
+        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
+        "url": "https://github.com/gtsteffaniak"
+      },
+      "summary": "基于 Go 的网页文件浏览器，可在浏览器中管理、上传、分享和预览服务器文件，轻量易部署，适合自建私有网盘。",
+      "tags": [
+        "filebrowser",
+        "go",
+        "web",
+        "self-hosted",
+        "file-management"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-09-10T03:43:15.357Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25267,
+      "forks": 1006,
+      "starsToday": 1171,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据、Docker 容器统计与告警，Go 编写，部署简单资源占用低。",
+      "tags": [
+        "monitoring",
+        "server",
+        "docker",
+        "go",
+        "self-hosted",
+        "alerts"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-10T03:43:14.981Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29206,
+      "forks": 2230,
+      "starsToday": 675,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Gitleaks 是用 Go 编写的密钥扫描工具，可在代码仓库、文件和提交历史中检测密码、API Key 等敏感信息，支持 CI 集成与自定义规则。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "ci"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-10T03:43:14.453Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "substrate",
       "fullName": "agent-substrate/substrate",
       "url": "https://github.com/agent-substrate/substrate",
       "description": "Agent Substrate: the core system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 1813,
+      "stars": 1819,
       "forks": 308,
       "starsToday": 640,
       "topics": [],
@@ -233,172 +232,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "1Panel",
-      "fullName": "1Panel-dev/1Panel",
-      "url": "https://github.com/1Panel-dev/1Panel",
-      "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
+      "name": "vikunja",
+      "fullName": "go-vikunja/vikunja",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "description": "The task manager you actually own.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 36859,
-      "forks": 3342,
-      "starsToday": 467,
+      "stars": 5343,
+      "forks": 677,
+      "starsToday": 343,
       "topics": [],
       "author": {
-        "name": "1Panel-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/31820853?s=40&amp;v=4",
-        "url": "https://github.com/1Panel-dev"
+        "name": "go-vikunja",
+        "avatar": "https://avatars.githubusercontent.com/u/13721712?s=40&amp;v=4",
+        "url": "https://github.com/go-vikunja"
       },
-      "summary": "开源 Linux 服务器运维管理面板，集成网站、数据库、容器与 AI 模型管理，界面现代、部署轻量。",
+      "summary": "用 Go 编写的开源自托管任务管理工具，支持看板、列表、日历与团队协作，数据完全由自己掌控。",
       "tags": [
-        "linux",
-        "panel",
-        "devops",
-        "docker",
-        "ai",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-10T03:43:15.904Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hister",
-      "fullName": "asciimoo/hister",
-      "url": "https://github.com/asciimoo/hister",
-      "description": "Your own search engine",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3661,
-      "forks": 175,
-      "starsToday": 1830,
-      "topics": [],
-      "author": {
-        "name": "asciimoo",
-        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
-        "url": "https://github.com/asciimoo"
-      },
-      "summary": "用 Go 编写的自托管搜索引擎，可索引本地浏览历史与文件，提供私有的全文检索能力，无需依赖外部服务。",
-      "tags": [
-        "search",
+        "task-management",
         "self-hosted",
         "go",
-        "privacy",
-        "indexing"
+        "kanban",
+        "productivity"
       ],
       "category": "App",
-      "enrichedAt": "2026-09-10T03:43:16.426Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Cybersecurity-Projects",
-      "fullName": "CarterPerez-dev/Cybersecurity-Projects",
-      "url": "https://github.com/CarterPerez-dev/Cybersecurity-Projects",
-      "description": "Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Gamified Cybersecurity learning 👇",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6825,
-      "forks": 1007,
-      "starsToday": 1903,
-      "topics": [],
-      "author": {
-        "name": "CarterPerez-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/188120068?s=40&amp;v=4",
-        "url": "https://github.com/CarterPerez-dev"
-      },
-      "summary": "涵盖70个从入门到进阶的网络安全实战项目，以Go为主，可学习、参考或直接复用，游戏化学习路径。",
-      "tags": [
-        "cybersecurity",
-        "go",
-        "learning",
-        "projects",
-        "education"
-      ],
-      "category": "Education",
-      "enrichedAt": "2026-09-10T03:43:16.270Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 180541,
-      "forks": 17782,
-      "starsToday": 3005,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等主流开源模型，提供 API 与 CLI。",
-      "tags": [
-        "llm",
-        "local-inference",
-        "go",
-        "cli",
-        "ai"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:16.348Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "caddy",
-      "fullName": "caddyserver/caddy",
-      "url": "https://github.com/caddyserver/caddy",
-      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 75599,
-      "forks": 4946,
-      "starsToday": 957,
-      "topics": [],
-      "author": {
-        "name": "caddyserver",
-        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
-        "url": "https://github.com/caddyserver"
-      },
-      "summary": "Go 编写的多平台 HTTP/1-2-3 Web 服务器，支持自动 HTTPS 证书签发与续期，配置简单、性能高且易扩展。",
-      "tags": [
-        "web-server",
-        "go",
-        "https",
-        "http3",
-        "reverse-proxy"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-10T03:43:16.869Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "act",
-      "fullName": "nektos/act",
-      "url": "https://github.com/nektos/act",
-      "description": "Run your GitHub Actions locally 🚀",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 71867,
-      "forks": 2022,
-      "starsToday": 510,
-      "topics": [],
-      "author": {
-        "name": "nektos",
-        "avatar": "https://avatars.githubusercontent.com/in/10562?s=40&amp;v=4",
-        "url": "https://github.com/nektos"
-      },
-      "summary": "用 Go 编写的工具，可在本地直接运行 GitHub Actions 工作流，无需推送到远程即可快速调试 CI 流程。",
-      "tags": [
-        "github-actions",
-        "ci",
-        "go",
-        "cli",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-10T03:43:17.465Z",
+      "enrichedAt": "2026-09-10T03:43:17.295Z",
       "deepwikiAvailable": false
     },
     {
@@ -408,7 +266,7 @@
       "description": "A fast, cross-platform build tool inspired by Make, designed for modern workflows.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 16118,
+      "stars": 16120,
       "forks": 906,
       "starsToday": 195,
       "topics": [],
@@ -430,31 +288,60 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "vikunja",
-      "fullName": "go-vikunja/vikunja",
-      "url": "https://github.com/go-vikunja/vikunja",
-      "description": "The task manager you actually own.",
+      "name": "1Panel",
+      "fullName": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5340,
-      "forks": 676,
-      "starsToday": 343,
+      "stars": 36867,
+      "forks": 3343,
+      "starsToday": 467,
       "topics": [],
       "author": {
-        "name": "go-vikunja",
-        "avatar": "https://avatars.githubusercontent.com/u/13721712?s=40&amp;v=4",
-        "url": "https://github.com/go-vikunja"
+        "name": "1Panel-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/31820853?s=40&amp;v=4",
+        "url": "https://github.com/1Panel-dev"
       },
-      "summary": "用 Go 编写的开源自托管任务管理工具，支持看板、列表、日历与团队协作，数据完全由自己掌控。",
+      "summary": "开源 Linux 服务器运维管理面板，集成网站、数据库、容器与 AI 模型管理，界面现代、部署轻量。",
       "tags": [
-        "task-management",
-        "self-hosted",
-        "go",
-        "kanban",
-        "productivity"
+        "linux",
+        "panel",
+        "devops",
+        "docker",
+        "ai",
+        "go"
       ],
-      "category": "App",
-      "enrichedAt": "2026-09-10T03:43:17.295Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-09-10T03:43:15.904Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Cybersecurity-Projects",
+      "fullName": "CarterPerez-dev/Cybersecurity-Projects",
+      "url": "https://github.com/CarterPerez-dev/Cybersecurity-Projects",
+      "description": "Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Gamified Cybersecurity learning 👇",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6838,
+      "forks": 1008,
+      "starsToday": 1903,
+      "topics": [],
+      "author": {
+        "name": "CarterPerez-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/188120068?s=40&amp;v=4",
+        "url": "https://github.com/CarterPerez-dev"
+      },
+      "summary": "涵盖70个从入门到进阶的网络安全实战项目，以Go为主，可学习、参考或直接复用，游戏化学习路径。",
+      "tags": [
+        "cybersecurity",
+        "go",
+        "learning",
+        "projects",
+        "education"
+      ],
+      "category": "Education",
+      "enrichedAt": "2026-09-10T03:43:16.270Z",
       "deepwikiAvailable": false
     },
     {
@@ -464,7 +351,7 @@
       "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 19784,
+      "stars": 19789,
       "forks": 2442,
       "starsToday": 780,
       "topics": [],
@@ -483,6 +370,290 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-10T03:43:17.872Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caddy",
+      "fullName": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 75609,
+      "forks": 4950,
+      "starsToday": 957,
+      "topics": [],
+      "author": {
+        "name": "caddyserver",
+        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
+        "url": "https://github.com/caddyserver"
+      },
+      "summary": "Go 编写的多平台 HTTP/1-2-3 Web 服务器，支持自动 HTTPS 证书签发与续期，配置简单、性能高且易扩展。",
+      "tags": [
+        "web-server",
+        "go",
+        "https",
+        "http3",
+        "reverse-proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-10T03:43:16.869Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 180561,
+      "forks": 17788,
+      "starsToday": 3005,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等主流开源模型，提供 API 与 CLI。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:16.348Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "act",
+      "fullName": "nektos/act",
+      "url": "https://github.com/nektos/act",
+      "description": "Run your GitHub Actions locally 🚀",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 71872,
+      "forks": 2023,
+      "starsToday": 510,
+      "topics": [],
+      "author": {
+        "name": "nektos",
+        "avatar": "https://avatars.githubusercontent.com/in/10562?s=40&amp;v=4",
+        "url": "https://github.com/nektos"
+      },
+      "summary": "用 Go 编写的工具，可在本地直接运行 GitHub Actions 工作流，无需推送到远程即可快速调试 CI 流程。",
+      "tags": [
+        "github-actions",
+        "ci",
+        "go",
+        "cli",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-10T03:43:17.465Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41127,
+      "forks": 8565,
+      "starsToday": 4892,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式开源API中转服务，将Claude、OpenAI、Gemini、Grok等订阅统一接入，支持拼车共享分摊成本，原生工具无缝使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-10T03:43:18.284Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenList",
+      "fullName": "OpenListTeam/OpenList",
+      "url": "https://github.com/OpenListTeam/OpenList",
+      "description": "A new AList Fork to Anti Trust Crisis",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24565,
+      "forks": 2277,
+      "starsToday": 610,
+      "topics": [],
+      "author": {
+        "name": "OpenListTeam",
+        "avatar": "https://avatars.githubusercontent.com/u/36558727?s=40&amp;v=4",
+        "url": "https://github.com/OpenListTeam"
+      },
+      "summary": "AList 的分支项目，用 Go 重写的多存储文件列表与挂载程序，聚合网盘与本地存储并统一对外提供 WebDAV 等访问接口。",
+      "tags": [
+        "go",
+        "file-list",
+        "webdav",
+        "storage",
+        "self-hosted"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-10T13:24:12.907Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kopia",
+      "fullName": "kopia/kopia",
+      "url": "https://github.com/kopia/kopia",
+      "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14080,
+      "forks": 724,
+      "starsToday": 278,
+      "topics": [],
+      "author": {
+        "name": "kopia",
+        "avatar": "https://avatars.githubusercontent.com/u/249880?s=40&amp;v=4",
+        "url": "https://github.com/kopia"
+      },
+      "summary": "跨平台备份工具，支持 Windows、macOS 和 Linux，提供快速增量备份、客户端端到端加密、压缩与数据去重，含 CLI 和 GUI。",
+      "tags": [
+        "backup",
+        "go",
+        "encryption",
+        "deduplication",
+        "cli",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-10T13:24:13.842Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34568,
+      "forks": 2997,
+      "starsToday": 637,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "Go 编写的分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可轻松管理数十亿文件并实现 O(1) 磁盘访问与水平扩展。",
+      "tags": [
+        "storage",
+        "distributed",
+        "s3",
+        "golang",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-10T13:24:13.063Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "higress",
+      "fullName": "higress-group/higress",
+      "url": "https://github.com/higress-group/higress",
+      "description": "🤖 AI Gateway | AI Native API Gateway",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9345,
+      "forks": 1290,
+      "starsToday": 303,
+      "topics": [],
+      "author": {
+        "name": "higress-group",
+        "avatar": "https://avatars.githubusercontent.com/u/6763318?s=40&amp;v=4",
+        "url": "https://github.com/higress-group"
+      },
+      "summary": "基于Envoy与Istio的云原生AI网关，兼容Nginx Ingress，为AI服务提供流量路由、限流与插件扩展能力。",
+      "tags": [
+        "gateway",
+        "ai",
+        "envoy",
+        "istio",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-10T03:43:19.111Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-router",
+      "fullName": "theagentrouter/agent-router",
+      "url": "https://github.com/theagentrouter/agent-router",
+      "description": "Manages Unified Access to Generative AI Services built on Envoy Gateway",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2028,
+      "forks": 369,
+      "starsToday": 119,
+      "topics": [],
+      "author": {
+        "name": "theagentrouter",
+        "avatar": "https://avatars.githubusercontent.com/u/13513977?s=40&amp;v=4",
+        "url": "https://github.com/theagentrouter"
+      },
+      "summary": "基于 Envoy Gateway 构建的生成式 AI 服务统一接入网关，集中管理多家大模型 API 的调用、路由与鉴权。",
+      "tags": [
+        "ai",
+        "gateway",
+        "envoy",
+        "go",
+        "llm",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-10T13:24:12.791Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "App-Store-Connect-CLI",
+      "fullName": "rorkai/App-Store-Connect-CLI",
+      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7157,
+      "forks": 594,
+      "starsToday": 1514,
+      "topics": [],
+      "author": {
+        "name": "rorkai",
+        "avatar": "https://avatars.githubusercontent.com/u/30552772?s=40&amp;v=4",
+        "url": "https://github.com/rorkai"
+      },
+      "summary": "用 Go 编写的 App Store Connect 命令行工具，可脚本化自动化 TestFlight、构建、提审、签名、分析与截图等流程。",
+      "tags": [
+        "cli",
+        "appstore",
+        "ios",
+        "automation",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-10T03:43:14.082Z",
       "deepwikiAvailable": false
     },
     {
@@ -542,34 +713,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "sub2api",
-      "fullName": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 41049,
-      "forks": 8543,
-      "starsToday": 4892,
-      "topics": [],
-      "author": {
-        "name": "Wei-Shaw",
-        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
-        "url": "https://github.com/Wei-Shaw"
-      },
-      "summary": "一站式开源API中转服务，将Claude、OpenAI、Gemini、Grok等订阅统一接入，支持拼车共享分摊成本，原生工具无缝使用。",
-      "tags": [
-        "api-gateway",
-        "proxy",
-        "llm",
-        "go",
-        "self-hosted"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-10T03:43:18.284Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ragflow",
       "fullName": "infiniflow/ragflow",
       "url": "https://github.com/infiniflow/ragflow",
@@ -595,35 +738,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-10T03:43:18.938Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "higress",
-      "fullName": "higress-group/higress",
-      "url": "https://github.com/higress-group/higress",
-      "description": "🤖 AI Gateway | AI Native API Gateway",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 9339,
-      "forks": 1289,
-      "starsToday": 303,
-      "topics": [],
-      "author": {
-        "name": "higress-group",
-        "avatar": "https://avatars.githubusercontent.com/u/6763318?s=40&amp;v=4",
-        "url": "https://github.com/higress-group"
-      },
-      "summary": "基于Envoy与Istio的云原生AI网关，兼容Nginx Ingress，为AI服务提供流量路由、限流与插件扩展能力。",
-      "tags": [
-        "gateway",
-        "ai",
-        "envoy",
-        "istio",
-        "go",
-        "kubernetes"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-10T03:43:19.111Z",
       "deepwikiAvailable": false
     }
   ]

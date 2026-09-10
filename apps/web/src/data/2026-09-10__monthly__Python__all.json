@@ -2,8 +2,8 @@
   "date": "2026-09-10",
   "since": "monthly",
   "language": "Python",
-  "fetchedAt": "2026-09-10T03:41:38.023Z",
-  "enrichedAt": "2026-09-10T03:43:13.147Z",
+  "fetchedAt": "2026-09-10T13:23:05.488Z",
+  "enrichedAt": "2026-09-10T13:24:11.594Z",
   "repos": [
     {
       "name": "claude-plugins-community",
@@ -12,7 +12,7 @@
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 3700,
+      "stars": 3725,
       "forks": 281,
       "starsToday": 3395,
       "topics": [],
@@ -40,8 +40,8 @@
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 36338,
-      "forks": 2777,
+      "stars": 36447,
+      "forks": 2790,
       "starsToday": 8284,
       "topics": [],
       "author": {
@@ -62,14 +62,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "Switchyard",
+      "fullName": "NVIDIA-NeMo/Switchyard",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2812,
+      "forks": 257,
+      "starsToday": 2617,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA-NeMo",
+        "avatar": "https://avatars.githubusercontent.com/u/197974741?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA-NeMo"
+      },
+      "summary": "LLM 流量路由网关，在保持 OpenAI 与 Anthropic 原生 API 兼容的前提下，将请求分发到不同模型和供应商，便于模型选型、基准测试与成本性能优化。",
+      "tags": [
+        "llm",
+        "router",
+        "gateway",
+        "openai",
+        "anthropic"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-10T13:24:11.323Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "semantica",
       "fullName": "semantica-agi/semantica",
       "url": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 12536,
-      "forks": 1403,
+      "stars": 12577,
+      "forks": 1408,
       "starsToday": 9711,
       "topics": [],
       "author": {
@@ -91,14 +119,99 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "MTPLX",
+      "fullName": "youssofal/MTPLX",
+      "url": "https://github.com/youssofal/MTPLX",
+      "description": "3x faster speeds on MLX | Qwen 3.8 27B | Native MTP Speculative Decoding On Apple Silicon With No External Drafter.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2192,
+      "forks": 163,
+      "starsToday": 1055,
+      "topics": [],
+      "author": {
+        "name": "youssofal",
+        "avatar": "https://avatars.githubusercontent.com/u/66418316?s=40&amp;v=4",
+        "url": "https://github.com/youssofal"
+      },
+      "summary": "在 Apple Silicon 上为 MLX 实现原生 MTP 投机解码，无需外部草稿模型即可让 Qwen 3.8 27B 推理提速约 3 倍。",
+      "tags": [
+        "mlx",
+        "apple-silicon",
+        "speculative-decoding",
+        "llm-inference",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T13:24:11.412Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 22089,
+      "forks": 2717,
+      "starsToday": 12027,
+      "topics": [],
+      "author": {
+        "name": "debpalash",
+        "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&amp;v=4",
+        "url": "https://github.com/debpalash"
+      },
+      "summary": "开源本地化语音平台，可替代ElevenLabs，支持声音克隆、设计、配音、听写、转录与有声书制作，覆盖646种语言。",
+      "tags": [
+        "voice",
+        "tts",
+        "speech",
+        "local",
+        "python",
+        "audio"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:09.335Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "public-apis",
+      "fullName": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 478398,
+      "forks": 52802,
+      "starsToday": 23852,
+      "topics": [],
+      "author": {
+        "name": "public-apis",
+        "avatar": "https://avatars.githubusercontent.com/u/50463866?s=40&amp;v=4",
+        "url": "https://github.com/public-apis"
+      },
+      "summary": "汇集各类免费公开 API 的精选清单，按分类整理并标注认证方式与 HTTPS 支持，方便开发者快速查找可用接口。",
+      "tags": [
+        "api",
+        "awesome-list",
+        "free",
+        "resources",
+        "python"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-10T03:43:09.253Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "needle",
       "fullName": "cactus-compute/needle",
       "url": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 10699,
-      "forks": 682,
+      "stars": 10737,
+      "forks": 684,
       "starsToday": 7313,
       "topics": [],
       "author": {
@@ -119,32 +232,453 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "name": "i-have-adhd",
+      "fullName": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 21892,
-      "forks": 2696,
-      "starsToday": 12027,
+      "stars": 36783,
+      "forks": 2133,
+      "starsToday": 17608,
       "topics": [],
       "author": {
-        "name": "debpalash",
-        "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&amp;v=4",
-        "url": "https://github.com/debpalash"
+        "name": "ayghri",
+        "avatar": "https://avatars.githubusercontent.com/u/32200675?s=40&amp;v=4",
+        "url": "https://github.com/ayghri"
       },
-      "summary": "开源本地化语音平台，可替代ElevenLabs，支持声音克隆、设计、配音、听写、转录与有声书制作，覆盖646种语言。",
+      "summary": "一个让编码 AI 代理直接给出答案、不再把结论埋在长篇废话里的技能，输出风格对注意力缺陷用户友好，先给结果再谈细节。",
       "tags": [
-        "voice",
-        "tts",
-        "speech",
-        "local",
-        "python",
-        "audio"
+        "ai-agent",
+        "prompt",
+        "productivity",
+        "developer-tools",
+        "llm"
       ],
       "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:09.335Z",
+      "enrichedAt": "2026-09-10T13:24:11.266Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 122131,
+      "forks": 18857,
+      "starsToday": 20372,
+      "topics": [],
+      "author": {
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
+      },
+      "summary": "基于 AI 大模型与自动化工作流，输入主题或关键词即可一键生成高清短视频，自动完成文案、素材、配音与字幕合成。",
+      "tags": [
+        "video",
+        "ai",
+        "automation",
+        "python",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:10.147Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "heretic",
+      "fullName": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 31080,
+      "forks": 3471,
+      "starsToday": 3915,
+      "topics": [],
+      "author": {
+        "name": "p-e-w",
+        "avatar": "https://avatars.githubusercontent.com/u/2702526?s=40&amp;v=4",
+        "url": "https://github.com/p-e-w"
+      },
+      "summary": "自动移除语言模型审查与拒答行为的工具，基于方向消融等技术，无需人工干预即可解除模型限制。",
+      "tags": [
+        "llm",
+        "uncensoring",
+        "python",
+        "abliteration",
+        "safety"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:11.171Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omlx",
+      "fullName": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 21582,
+      "forks": 1846,
+      "starsToday": 3096,
+      "topics": [],
+      "author": {
+        "name": "jundot",
+        "avatar": "https://avatars.githubusercontent.com/u/64250138?s=40&amp;v=4",
+        "url": "https://github.com/jundot"
+      },
+      "summary": "面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与 SSD 缓存，可通过 macOS 菜单栏管理。",
+      "tags": [
+        "llm",
+        "inference",
+        "apple-silicon",
+        "macos",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:10.134Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "manim",
+      "fullName": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 93691,
+      "forks": 7690,
+      "starsToday": 4372,
+      "topics": [],
+      "author": {
+        "name": "3b1b",
+        "avatar": "https://avatars.githubusercontent.com/u/11601040?s=40&amp;v=4",
+        "url": "https://github.com/3b1b"
+      },
+      "summary": "3Blue1Brown 出品的数学讲解视频动画引擎，用 Python 代码精确生成可编程的数学动画，适合制作教学与科普视频。",
+      "tags": [
+        "animation",
+        "math",
+        "python",
+        "visualization",
+        "video"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-10T03:43:10.136Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "unsloth",
+      "fullName": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 75979,
+      "forks": 6921,
+      "starsToday": 6434,
+      "topics": [],
+      "author": {
+        "name": "unslothai",
+        "avatar": "https://avatars.githubusercontent.com/u/23090290?s=40&amp;v=4",
+        "url": "https://github.com/unslothai"
+      },
+      "summary": "本地运行与训练大模型和扩散模型的 UI 工具，支持 GGUF、MLX 及 Qwen、DeepSeek、Gemma、FLUX 等主流模型，显著降低微调门槛。",
+      "tags": [
+        "llm",
+        "fine-tuning",
+        "local",
+        "gguf",
+        "diffusion",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:10.372Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "holehe",
+      "fullName": "megadose/holehe",
+      "url": "https://github.com/megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 14864,
+      "forks": 1887,
+      "starsToday": 2905,
+      "topics": [],
+      "author": {
+        "name": "megadose",
+        "avatar": "https://avatars.githubusercontent.com/u/51822495?s=40&amp;v=4",
+        "url": "https://github.com/megadose"
+      },
+      "summary": "通过邮箱在Twitter、Instagram等上百个网站检测账号是否注册，利用忘记密码功能获取信息，无需登录即可完成开源情报查询。",
+      "tags": [
+        "osint",
+        "email",
+        "python",
+        "recon",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-10T03:43:09.074Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "humanizer",
+      "fullName": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 46270,
+      "forks": 3791,
+      "starsToday": 11613,
+      "topics": [],
+      "author": {
+        "name": "blader",
+        "avatar": "https://avatars.githubusercontent.com/u/1672?s=40&amp;v=4",
+        "url": "https://github.com/blader"
+      },
+      "summary": "一个去除文本中AI生成痕迹的Agent技能，让机器写作读起来更像真人手笔，适用于润色与内容发布。",
+      "tags": [
+        "ai",
+        "writing",
+        "agent",
+        "text",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:11.274Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "timesfm",
+      "fullName": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 32169,
+      "forks": 3076,
+      "starsToday": 4942,
+      "topics": [],
+      "author": {
+        "name": "google-research",
+        "avatar": "https://avatars.githubusercontent.com/u/8039264?s=40&amp;v=4",
+        "url": "https://github.com/google-research"
+      },
+      "summary": "Google Research 开源的预训练时间序列基础模型，可直接用于零样本与微调的时间序列预测任务。",
+      "tags": [
+        "time-series",
+        "forecasting",
+        "foundation-model",
+        "machine-learning",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:12.977Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "scientific-agent-skills",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 44234,
+      "forks": 4017,
+      "starsToday": 11256,
+      "topics": [],
+      "author": {
+        "name": "K-Dense-AI",
+        "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&amp;v=4",
+        "url": "https://github.com/K-Dense-AI"
+      },
+      "summary": "面向科学研究的 AI Agent 技能库，提供 165 个即用技能与 100+ 科学数据库，覆盖生物、化学、医学与药物研发，兼容主流编码助手。",
+      "tags": [
+        "ai-agent",
+        "science",
+        "skills",
+        "bioinformatics",
+        "drug-discovery"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:12.123Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AI-Infra-Guard",
+      "fullName": "Tencent/AI-Infra-Guard",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6220,
+      "forks": 581,
+      "starsToday": 1783,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/18695984?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的全栈AI红队平台，通过Agent、Skills、MCP、AI基础设施扫描与LLM越狱评测，为AI生态提供安全检测能力。",
+      "tags": [
+        "ai-security",
+        "red-teaming",
+        "mcp",
+        "llm",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:11.299Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DeepSeek-v4-Flash-DSpark-2x-DGX-Spark",
+      "fullName": "MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark",
+      "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark",
+      "description": "DeepSeek-v4-Flash 0731 recipe for 2x DGX Sparks",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1337,
+      "forks": 181,
+      "starsToday": 828,
+      "topics": [],
+      "author": {
+        "name": "MiaAI-Lab",
+        "avatar": "https://avatars.githubusercontent.com/u/83042094?s=40&amp;v=4",
+        "url": "https://github.com/MiaAI-Lab"
+      },
+      "summary": "面向双 DGX Spark 集群的 DeepSeek-v4-Flash 0731 部署与推理配方，提供可复现的配置脚本，帮助用户快速搭建高性能本地大模型推理环境。",
+      "tags": [
+        "deepseek",
+        "llm",
+        "inference",
+        "dgx-spark",
+        "deployment"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:11.191Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "screenshot-to-code",
+      "fullName": "abi/screenshot-to-code",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 78462,
+      "forks": 9561,
+      "starsToday": 4649,
+      "topics": [],
+      "author": {
+        "name": "abi",
+        "avatar": "https://avatars.githubusercontent.com/u/23818?s=40&amp;v=4",
+        "url": "https://github.com/abi"
+      },
+      "summary": "将截图自动转换为 HTML、Tailwind、React 或 Vue 等干净前端代码，借助 AI 大幅加速界面原型开发。",
+      "tags": [
+        "ai",
+        "screenshot",
+        "codegen",
+        "frontend",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:12.135Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "minimind",
+      "fullName": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 60471,
+      "forks": 7833,
+      "starsToday": 5970,
+      "topics": [],
+      "author": {
+        "name": "jingyaogong",
+        "avatar": "https://avatars.githubusercontent.com/u/62287848?s=40&amp;v=4",
+        "url": "https://github.com/jingyaogong"
+      },
+      "summary": "从零训练64M参数小语言模型的极简教程项目，2小时即可完成全流程，适合低成本学习大模型原理与实战。",
+      "tags": [
+        "llm",
+        "training",
+        "python",
+        "tutorial",
+        "from-scratch"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:12.525Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenBiliClaw",
+      "fullName": "whiteguo233/OpenBiliClaw",
+      "url": "https://github.com/whiteguo233/OpenBiliClaw",
+      "description": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin）",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 3272,
+      "forks": 164,
+      "starsToday": 1617,
+      "topics": [],
+      "author": {
+        "name": "whiteguo233",
+        "avatar": "https://avatars.githubusercontent.com/u/3350171?s=40&amp;v=4",
+        "url": "https://github.com/whiteguo233"
+      },
+      "summary": "本地私有、开源的跨平台AI内容发现Agent，先理解用户偏好，再主动从B站、小红书、抖音、YouTube、X、知乎、Reddit、微博及开放Web搜寻内容，支持DeepSeek插件。",
+      "tags": [
+        "ai-agent",
+        "content-discovery",
+        "local-first",
+        "python",
+        "cross-platform",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T13:24:11.593Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "miles",
+      "fullName": "radixark/miles",
+      "url": "https://github.com/radixark/miles",
+      "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2766,
+      "forks": 469,
+      "starsToday": 773,
+      "topics": [],
+      "author": {
+        "name": "radixark",
+        "avatar": "https://avatars.githubusercontent.com/u/5236035?s=40&amp;v=4",
+        "url": "https://github.com/radixark"
+      },
+      "summary": "面向企业的强化学习后训练框架，支持LLM与VLM，由slime分叉并协同演进，便于大规模模型对齐与调优。",
+      "tags": [
+        "rl",
+        "llm",
+        "vlm",
+        "post-training",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-10T03:43:12.332Z",
       "deepwikiAvailable": false
     },
     {
@@ -173,427 +707,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-10T03:43:08.812Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "public-apis",
-      "fullName": "public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 478195,
-      "forks": 52780,
-      "starsToday": 23852,
-      "topics": [],
-      "author": {
-        "name": "public-apis",
-        "avatar": "https://avatars.githubusercontent.com/u/50463866?s=40&amp;v=4",
-        "url": "https://github.com/public-apis"
-      },
-      "summary": "汇集各类免费公开 API 的精选清单，按分类整理并标注认证方式与 HTTPS 支持，方便开发者快速查找可用接口。",
-      "tags": [
-        "api",
-        "awesome-list",
-        "free",
-        "resources",
-        "python"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-09-10T03:43:09.253Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "holehe",
-      "fullName": "megadose/holehe",
-      "url": "https://github.com/megadose/holehe",
-      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 14843,
-      "forks": 1883,
-      "starsToday": 2905,
-      "topics": [],
-      "author": {
-        "name": "megadose",
-        "avatar": "https://avatars.githubusercontent.com/u/51822495?s=40&amp;v=4",
-        "url": "https://github.com/megadose"
-      },
-      "summary": "通过邮箱在Twitter、Instagram等上百个网站检测账号是否注册，利用忘记密码功能获取信息，无需登录即可完成开源情报查询。",
-      "tags": [
-        "osint",
-        "email",
-        "python",
-        "recon",
-        "security"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-10T03:43:09.074Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "manim",
-      "fullName": "3b1b/manim",
-      "url": "https://github.com/3b1b/manim",
-      "description": "Animation engine for explanatory math videos",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 93656,
-      "forks": 7688,
-      "starsToday": 4372,
-      "topics": [],
-      "author": {
-        "name": "3b1b",
-        "avatar": "https://avatars.githubusercontent.com/u/11601040?s=40&amp;v=4",
-        "url": "https://github.com/3b1b"
-      },
-      "summary": "3Blue1Brown 出品的数学讲解视频动画引擎，用 Python 代码精确生成可编程的数学动画，适合制作教学与科普视频。",
-      "tags": [
-        "animation",
-        "math",
-        "python",
-        "visualization",
-        "video"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-10T03:43:10.136Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "MoneyPrinterTurbo",
-      "fullName": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 122025,
-      "forks": 18831,
-      "starsToday": 20372,
-      "topics": [],
-      "author": {
-        "name": "harry0703",
-        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
-        "url": "https://github.com/harry0703"
-      },
-      "summary": "基于 AI 大模型与自动化工作流，输入主题或关键词即可一键生成高清短视频，自动完成文案、素材、配音与字幕合成。",
-      "tags": [
-        "video",
-        "ai",
-        "automation",
-        "python",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:10.147Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omlx",
-      "fullName": "jundot/omlx",
-      "url": "https://github.com/jundot/omlx",
-      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 21566,
-      "forks": 1842,
-      "starsToday": 3096,
-      "topics": [],
-      "author": {
-        "name": "jundot",
-        "avatar": "https://avatars.githubusercontent.com/u/64250138?s=40&amp;v=4",
-        "url": "https://github.com/jundot"
-      },
-      "summary": "面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与 SSD 缓存，可通过 macOS 菜单栏管理。",
-      "tags": [
-        "llm",
-        "inference",
-        "apple-silicon",
-        "macos",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:10.134Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "unsloth",
-      "fullName": "unslothai/unsloth",
-      "url": "https://github.com/unslothai/unsloth",
-      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 75960,
-      "forks": 6914,
-      "starsToday": 6434,
-      "topics": [],
-      "author": {
-        "name": "unslothai",
-        "avatar": "https://avatars.githubusercontent.com/u/23090290?s=40&amp;v=4",
-        "url": "https://github.com/unslothai"
-      },
-      "summary": "本地运行与训练大模型和扩散模型的 UI 工具，支持 GGUF、MLX 及 Qwen、DeepSeek、Gemma、FLUX 等主流模型，显著降低微调门槛。",
-      "tags": [
-        "llm",
-        "fine-tuning",
-        "local",
-        "gguf",
-        "diffusion",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:10.372Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "DeepSeek-v4-Flash-DSpark-2x-DGX-Spark",
-      "fullName": "MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark",
-      "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark",
-      "description": "DeepSeek-v4-Flash 0731 recipe for 2x DGX Sparks",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 1332,
-      "forks": 182,
-      "starsToday": 828,
-      "topics": [],
-      "author": {
-        "name": "MiaAI-Lab",
-        "avatar": "https://avatars.githubusercontent.com/u/83042094?s=40&amp;v=4",
-        "url": "https://github.com/MiaAI-Lab"
-      },
-      "summary": "面向双 DGX Spark 集群的 DeepSeek-v4-Flash 0731 部署与推理配方，提供可复现的配置脚本，帮助用户快速搭建高性能本地大模型推理环境。",
-      "tags": [
-        "deepseek",
-        "llm",
-        "inference",
-        "dgx-spark",
-        "deployment"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:11.191Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "heretic",
-      "fullName": "p-e-w/heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "description": "Fully automatic censorship removal for language models",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 31056,
-      "forks": 3466,
-      "starsToday": 3915,
-      "topics": [],
-      "author": {
-        "name": "p-e-w",
-        "avatar": "https://avatars.githubusercontent.com/u/2702526?s=40&amp;v=4",
-        "url": "https://github.com/p-e-w"
-      },
-      "summary": "自动移除语言模型审查与拒答行为的工具，基于方向消融等技术，无需人工干预即可解除模型限制。",
-      "tags": [
-        "llm",
-        "uncensoring",
-        "python",
-        "abliteration",
-        "safety"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:11.171Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "humanizer",
-      "fullName": "blader/humanizer",
-      "url": "https://github.com/blader/humanizer",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 46051,
-      "forks": 3773,
-      "starsToday": 11613,
-      "topics": [],
-      "author": {
-        "name": "blader",
-        "avatar": "https://avatars.githubusercontent.com/u/1672?s=40&amp;v=4",
-        "url": "https://github.com/blader"
-      },
-      "summary": "一个去除文本中AI生成痕迹的Agent技能，让机器写作读起来更像真人手笔，适用于润色与内容发布。",
-      "tags": [
-        "ai",
-        "writing",
-        "agent",
-        "text",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:11.274Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "AI-Infra-Guard",
-      "fullName": "Tencent/AI-Infra-Guard",
-      "url": "https://github.com/Tencent/AI-Infra-Guard",
-      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 6215,
-      "forks": 580,
-      "starsToday": 1783,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/18695984?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的全栈AI红队平台，通过Agent、Skills、MCP、AI基础设施扫描与LLM越狱评测，为AI生态提供安全检测能力。",
-      "tags": [
-        "ai-security",
-        "red-teaming",
-        "mcp",
-        "llm",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:11.299Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "scientific-agent-skills",
-      "fullName": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 44138,
-      "forks": 4006,
-      "starsToday": 11256,
-      "topics": [],
-      "author": {
-        "name": "K-Dense-AI",
-        "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&amp;v=4",
-        "url": "https://github.com/K-Dense-AI"
-      },
-      "summary": "面向科学研究的 AI Agent 技能库，提供 165 个即用技能与 100+ 科学数据库，覆盖生物、化学、医学与药物研发，兼容主流编码助手。",
-      "tags": [
-        "ai-agent",
-        "science",
-        "skills",
-        "bioinformatics",
-        "drug-discovery"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:12.123Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "screenshot-to-code",
-      "fullName": "abi/screenshot-to-code",
-      "url": "https://github.com/abi/screenshot-to-code",
-      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 78420,
-      "forks": 9545,
-      "starsToday": 4649,
-      "topics": [],
-      "author": {
-        "name": "abi",
-        "avatar": "https://avatars.githubusercontent.com/u/23818?s=40&amp;v=4",
-        "url": "https://github.com/abi"
-      },
-      "summary": "将截图自动转换为 HTML、Tailwind、React 或 Vue 等干净前端代码，借助 AI 大幅加速界面原型开发。",
-      "tags": [
-        "ai",
-        "screenshot",
-        "codegen",
-        "frontend",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:12.135Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "miles",
-      "fullName": "radixark/miles",
-      "url": "https://github.com/radixark/miles",
-      "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 2728,
-      "forks": 465,
-      "starsToday": 773,
-      "topics": [],
-      "author": {
-        "name": "radixark",
-        "avatar": "https://avatars.githubusercontent.com/u/5236035?s=40&amp;v=4",
-        "url": "https://github.com/radixark"
-      },
-      "summary": "面向企业的强化学习后训练框架，支持LLM与VLM，由slime分叉并协同演进，便于大规模模型对齐与调优。",
-      "tags": [
-        "rl",
-        "llm",
-        "vlm",
-        "post-training",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:12.332Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "minimind",
-      "fullName": "jingyaogong/minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 60345,
-      "forks": 7817,
-      "starsToday": 5970,
-      "topics": [],
-      "author": {
-        "name": "jingyaogong",
-        "avatar": "https://avatars.githubusercontent.com/u/62287848?s=40&amp;v=4",
-        "url": "https://github.com/jingyaogong"
-      },
-      "summary": "从零训练64M参数小语言模型的极简教程项目，2小时即可完成全流程，适合低成本学习大模型原理与实战。",
-      "tags": [
-        "llm",
-        "training",
-        "python",
-        "tutorial",
-        "from-scratch"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:12.525Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "timesfm",
-      "fullName": "google-research/timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 32142,
-      "forks": 3069,
-      "starsToday": 4942,
-      "topics": [],
-      "author": {
-        "name": "google-research",
-        "avatar": "https://avatars.githubusercontent.com/u/8039264?s=40&amp;v=4",
-        "url": "https://github.com/google-research"
-      },
-      "summary": "Google Research 开源的预训练时间序列基础模型，可直接用于零样本与微调的时间序列预测任务。",
-      "tags": [
-        "time-series",
-        "forecasting",
-        "foundation-model",
-        "machine-learning",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-10T03:43:12.977Z",
       "deepwikiAvailable": false
     },
     {
