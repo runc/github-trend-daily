@@ -2,8 +2,8 @@
   "date": "2026-09-11",
   "since": "weekly",
   "language": "Python",
-  "fetchedAt": "2026-09-11T03:39:33.577Z",
-  "enrichedAt": "2026-09-11T03:40:50.411Z",
+  "fetchedAt": "2026-09-11T13:21:45.735Z",
+  "enrichedAt": "2026-09-11T13:22:37.839Z",
   "repos": [
     {
       "name": "i-have-adhd",
@@ -12,8 +12,8 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 38742,
-      "forks": 2220,
+      "stars": 40172,
+      "forks": 2291,
       "starsToday": 10215,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 46551,
-      "forks": 3807,
+      "stars": 46761,
+      "forks": 3820,
       "starsToday": 5224,
       "topics": [],
       "author": {
@@ -68,7 +68,7 @@
       "description": "Skills Catalog for Codex",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 26869,
+      "stars": 26895,
       "forks": 1801,
       "starsToday": 1490,
       "topics": [],
@@ -90,14 +90,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 182585,
+      "forks": 13421,
+      "starsToday": 4579,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4017093?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的 Python 工具，将 PDF、Office 文档、图片、音频等各类文件统一转换为 Markdown，便于喂给 LLM 与文本处理流程。",
+      "tags": [
+        "markdown",
+        "python",
+        "document-conversion",
+        "llm",
+        "office"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-11T03:40:45.157Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "hermes-agent",
       "fullName": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 244261,
-      "forks": 50541,
+      "stars": 244438,
+      "forks": 50605,
       "starsToday": 3769,
       "topics": [],
       "author": {
@@ -118,31 +146,482 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "markitdown",
-      "fullName": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
+      "name": "academic-research-skills",
+      "fullName": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 182477,
-      "forks": 13412,
-      "starsToday": 4579,
+      "stars": 47625,
+      "forks": 3720,
+      "starsToday": 1629,
       "topics": [],
       "author": {
-        "name": "microsoft",
-        "avatar": "https://avatars.githubusercontent.com/u/4017093?s=40&amp;v=4",
-        "url": "https://github.com/microsoft"
+        "name": "Imbad0202",
+        "avatar": "https://avatars.githubusercontent.com/u/132531341?s=40&amp;v=4",
+        "url": "https://github.com/Imbad0202"
       },
-      "summary": "微软开源的 Python 工具，将 PDF、Office 文档、图片、音频等各类文件统一转换为 Markdown，便于喂给 LLM 与文本处理流程。",
+      "summary": "面向 Claude Code 的学术研究技能包，覆盖选题调研、写作、评审、修改到定稿的完整科研流程，帮助研究者用 AI 高效产出论文。",
       "tags": [
-        "markdown",
+        "academic",
+        "claude-code",
+        "research",
+        "writing",
+        "ai-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:45.398Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "no-ai-slop",
+      "fullName": "petergyang/no-ai-slop",
+      "url": "https://github.com/petergyang/no-ai-slop",
+      "description": "Removes 20+ patterns of AI slop from any piece of writing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 8362,
+      "forks": 640,
+      "starsToday": 1131,
+      "topics": [],
+      "author": {
+        "name": "petergyang",
+        "avatar": "https://avatars.githubusercontent.com/u/2383268?s=40&amp;v=4",
+        "url": "https://github.com/petergyang"
+      },
+      "summary": "Python 工具，可识别并清除写作中 20 多种 AI 味套路表达，让文字更自然可信。",
+      "tags": [
+        "writing",
         "python",
-        "document-conversion",
-        "llm",
-        "office"
+        "text-processing",
+        "ai-detection",
+        "editing"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-11T03:40:45.157Z",
+      "enrichedAt": "2026-09-11T03:40:45.274Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "browser-use",
+      "fullName": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "Agents that use the browser.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 114177,
+      "forks": 12550,
+      "starsToday": 1972,
+      "topics": [],
+      "author": {
+        "name": "browser-use",
+        "avatar": "https://avatars.githubusercontent.com/u/67061560?s=40&amp;v=4",
+        "url": "https://github.com/browser-use"
+      },
+      "summary": "让AI智能体直接操控浏览器完成网页操作与数据抓取的Python库，把网页交互变成智能体可调用的能力。",
+      "tags": [
+        "ai-agent",
+        "browser-automation",
+        "python",
+        "llm",
+        "web-scraping"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:46.444Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 54216,
+      "forks": 9453,
+      "starsToday": 1942,
+      "topics": [],
+      "author": {
+        "name": "rohitg00",
+        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
+        "url": "https://github.com/rohitg00"
+      },
+      "summary": "从零开始学习并动手构建 AI 工程项目的教程仓库，涵盖原理讲解与实战代码，帮助开发者掌握并落地 AI 应用。",
+      "tags": [
+        "ai",
+        "tutorial",
+        "python",
+        "llm",
+        "education"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:49.504Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AutoHedge",
+      "fullName": "The-Swarm-Corporation/AutoHedge",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6001,
+      "forks": 869,
+      "starsToday": 1666,
+      "topics": [],
+      "author": {
+        "name": "The-Swarm-Corporation",
+        "avatar": "https://avatars.githubusercontent.com/u/98760976?s=40&amp;v=4",
+        "url": "https://github.com/The-Swarm-Corporation"
+      },
+      "summary": "基于群体智能与AI智能体的自主对冲基金框架，自动化市场分析、风险管理和交易执行，几分钟即可搭建。",
+      "tags": [
+        "ai-agents",
+        "trading",
+        "finance",
+        "swarm",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:46.692Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 22438,
+      "forks": 2765,
+      "starsToday": 6316,
+      "topics": [],
+      "author": {
+        "name": "debpalash",
+        "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&amp;v=4",
+        "url": "https://github.com/debpalash"
+      },
+      "summary": "完全本地运行的开源语音工作室，替代 ElevenLabs，支持声音克隆、语音设计、视频配音、听写、转录与有声书制作，覆盖 646 种语言。",
+      "tags": [
+        "voice-cloning",
+        "tts",
+        "speech",
+        "local-first",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:47.298Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "exploitarium",
+      "fullName": "bikini/exploitarium",
+      "url": "https://github.com/bikini/exploitarium",
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 5088,
+      "forks": 1309,
+      "starsToday": 731,
+      "topics": [],
+      "author": {
+        "name": "bikini",
+        "avatar": "https://avatars.githubusercontent.com/u/63224111?s=40&amp;v=4",
+        "url": "https://github.com/bikini"
+      },
+      "summary": "汇集公开漏洞利用PoC与研究文章的归档仓库，含未上报的漏洞细节，供安全研究者学习参考。",
+      "tags": [
+        "security",
+        "exploit",
+        "poc",
+        "vulnerability",
+        "python"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-11T13:22:36.442Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "minimind",
+      "fullName": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 60663,
+      "forks": 7872,
+      "starsToday": 2373,
+      "topics": [],
+      "author": {
+        "name": "jingyaogong",
+        "avatar": "https://avatars.githubusercontent.com/u/62287848?s=40&amp;v=4",
+        "url": "https://github.com/jingyaogong"
+      },
+      "summary": "从零训练64M参数小语言模型的极简教程项目，2小时即可完成全流程，适合入门学习大模型原理与实现。",
+      "tags": [
+        "llm",
+        "training",
+        "python",
+        "tutorial",
+        "from-scratch"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:48.224Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Hands-On-AI-Engineering",
+      "fullName": "Sumanth077/Hands-On-AI-Engineering",
+      "url": "https://github.com/Sumanth077/Hands-On-AI-Engineering",
+      "description": "A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 3401,
+      "forks": 860,
+      "starsToday": 315,
+      "topics": [],
+      "author": {
+        "name": "Sumanth077",
+        "avatar": "https://avatars.githubusercontent.com/u/90475662?s=40&amp;v=4",
+        "url": "https://github.com/Sumanth077"
+      },
+      "summary": "精选实战型 AI 工程项目合集，涵盖 OCR、RAG、AI 智能体等用例，附 Python 代码，适合动手学习 AI 工程落地。",
+      "tags": [
+        "ai",
+        "rag",
+        "ocr",
+        "agents",
+        "python",
+        "tutorial"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:48.589Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 16942,
+      "forks": 1442,
+      "starsToday": 1045,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "面向 AI Agent 技能的安全扫描器，可在安装前检测 Claude Code、Codex 与 MCP 技能中的漏洞、恶意模式、提示注入、数据外泄和供应链风险。",
+      "tags": [
+        "security",
+        "ai-agent",
+        "mcp",
+        "scanner",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-11T03:40:49.063Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "blender-mcp",
+      "fullName": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "Community plugin to control Blender 3D with any LLM of your choice",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 28189,
+      "forks": 2602,
+      "starsToday": 1381,
+      "topics": [],
+      "author": {
+        "name": "ahujasid",
+        "avatar": "https://avatars.githubusercontent.com/u/11807284?s=40&amp;v=4",
+        "url": "https://github.com/ahujasid"
+      },
+      "summary": "通过 MCP 协议让任意 LLM 直接控制 Blender 建模的社区插件，实现 AI 驱动的 3D 场景创建与编辑。",
+      "tags": [
+        "blender",
+        "mcp",
+        "llm",
+        "3d",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:49.580Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "timesfm",
+      "fullName": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 32215,
+      "forks": 3085,
+      "starsToday": 1622,
+      "topics": [],
+      "author": {
+        "name": "google-research",
+        "avatar": "https://avatars.githubusercontent.com/u/8039264?s=40&amp;v=4",
+        "url": "https://github.com/google-research"
+      },
+      "summary": "Google Research 开源的预训练时间序列基础模型，支持零样本预测，可直接用于各类时序预测任务。",
+      "tags": [
+        "time-series",
+        "forecasting",
+        "foundation-model",
+        "python",
+        "machine-learning"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T03:40:47.951Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Sequoia-X",
+      "fullName": "sngyai/Sequoia-X",
+      "url": "https://github.com/sngyai/Sequoia-X",
+      "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 7123,
+      "forks": 1444,
+      "starsToday": 615,
+      "topics": [],
+      "author": {
+        "name": "sngyai",
+        "avatar": "https://avatars.githubusercontent.com/u/1306534?s=40&amp;v=4",
+        "url": "https://github.com/sngyai"
+      },
+      "summary": "A股自动选股系统，内置多种技术形态扫描策略，收盘后自动运行并将选股结果推送到飞书，帮助投资者省去手动复盘筛选。",
+      "tags": [
+        "stock",
+        "quant",
+        "python",
+        "automation",
+        "a-share"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-11T03:40:47.847Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-webui",
+      "fullName": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 151620,
+      "forks": 22178,
+      "starsToday": 808,
+      "topics": [],
+      "author": {
+        "name": "open-webui",
+        "avatar": "https://avatars.githubusercontent.com/u/25473318?s=40&amp;v=4",
+        "url": "https://github.com/open-webui"
+      },
+      "summary": "开源自托管的 AI 对话界面，支持 Ollama、OpenAI 等多种模型接口，提供类 ChatGPT 的易用体验。",
+      "tags": [
+        "ai",
+        "llm",
+        "self-hosted",
+        "ollama",
+        "chat-ui"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T13:22:36.460Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "text-to-cad",
+      "fullName": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "A library of agent skills for CAD, CAE and CAM",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 15350,
+      "forks": 1584,
+      "starsToday": 1068,
+      "topics": [],
+      "author": {
+        "name": "earthtojake",
+        "avatar": "https://avatars.githubusercontent.com/u/10742417?s=40&amp;v=4",
+        "url": "https://github.com/earthtojake"
+      },
+      "summary": "面向 CAD、CAE 与 CAM 的 AI 智能体技能库，让代理自动完成建模、仿真与加工任务。",
+      "tags": [
+        "cad",
+        "cae",
+        "cam",
+        "agent",
+        "python",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T13:22:36.807Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OmniVoice",
+      "fullName": "k2-fsa/OmniVoice",
+      "url": "https://github.com/k2-fsa/OmniVoice",
+      "description": "High-Quality Voice Cloning TTS for 600+ Languages",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 12061,
+      "forks": 1871,
+      "starsToday": 2329,
+      "topics": [],
+      "author": {
+        "name": "k2-fsa",
+        "avatar": "https://avatars.githubusercontent.com/u/52005835?s=40&amp;v=4",
+        "url": "https://github.com/k2-fsa"
+      },
+      "summary": "支持600多种语言的高质量语音克隆与文本转语音工具包，可复刻音色生成自然语音。",
+      "tags": [
+        "tts",
+        "voice-cloning",
+        "speech",
+        "python",
+        "multilingual"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T13:22:36.885Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "production-agentic-rag-course",
+      "fullName": "jamwithai/production-agentic-rag-course",
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "description": "",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 8877,
+      "forks": 1962,
+      "starsToday": 307,
+      "topics": [],
+      "author": {
+        "name": "jamwithai",
+        "avatar": "https://avatars.githubusercontent.com/u/62331655?s=40&amp;v=4",
+        "url": "https://github.com/jamwithai"
+      },
+      "summary": "面向生产环境的智能体 RAG 实战课程，用 Python 讲解检索增强生成系统的完整构建流程，适合进阶学习。",
+      "tags": [
+        "rag",
+        "llm",
+        "agents",
+        "python",
+        "course",
+        "tutorial"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-11T13:22:37.839Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,62 +653,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "academic-research-skills",
-      "fullName": "Imbad0202/academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 47552,
-      "forks": 3714,
-      "starsToday": 1629,
-      "topics": [],
-      "author": {
-        "name": "Imbad0202",
-        "avatar": "https://avatars.githubusercontent.com/u/132531341?s=40&amp;v=4",
-        "url": "https://github.com/Imbad0202"
-      },
-      "summary": "面向 Claude Code 的学术研究技能包，覆盖选题调研、写作、评审、修改到定稿的完整科研流程，帮助研究者用 AI 高效产出论文。",
-      "tags": [
-        "academic",
-        "claude-code",
-        "research",
-        "writing",
-        "ai-agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:45.398Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "no-ai-slop",
-      "fullName": "petergyang/no-ai-slop",
-      "url": "https://github.com/petergyang/no-ai-slop",
-      "description": "Removes 20+ patterns of AI slop from any piece of writing.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 8239,
-      "forks": 625,
-      "starsToday": 1131,
-      "topics": [],
-      "author": {
-        "name": "petergyang",
-        "avatar": "https://avatars.githubusercontent.com/u/2383268?s=40&amp;v=4",
-        "url": "https://github.com/petergyang"
-      },
-      "summary": "Python 工具，可识别并清除写作中 20 多种 AI 味套路表达，让文字更自然可信。",
-      "tags": [
-        "writing",
-        "python",
-        "text-processing",
-        "ai-detection",
-        "editing"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-11T03:40:45.274Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "sglang",
       "fullName": "sgl-project/sglang",
       "url": "https://github.com/sgl-project/sglang",
@@ -255,34 +678,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-11T03:40:46.075Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "browser-use",
-      "fullName": "browser-use/browser-use",
-      "url": "https://github.com/browser-use/browser-use",
-      "description": "Agents that use the browser.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 114109,
-      "forks": 12540,
-      "starsToday": 1972,
-      "topics": [],
-      "author": {
-        "name": "browser-use",
-        "avatar": "https://avatars.githubusercontent.com/u/67061560?s=40&amp;v=4",
-        "url": "https://github.com/browser-use"
-      },
-      "summary": "让AI智能体直接操控浏览器完成网页操作与数据抓取的Python库，把网页交互变成智能体可调用的能力。",
-      "tags": [
-        "ai-agent",
-        "browser-automation",
-        "python",
-        "llm",
-        "web-scraping"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:46.444Z",
       "deepwikiAvailable": false
     },
     {
@@ -314,203 +709,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "AutoHedge",
-      "fullName": "The-Swarm-Corporation/AutoHedge",
-      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
-      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 5995,
-      "forks": 867,
-      "starsToday": 1666,
-      "topics": [],
-      "author": {
-        "name": "The-Swarm-Corporation",
-        "avatar": "https://avatars.githubusercontent.com/u/98760976?s=40&amp;v=4",
-        "url": "https://github.com/The-Swarm-Corporation"
-      },
-      "summary": "基于群体智能与AI智能体的自主对冲基金框架，自动化市场分析、风险管理和交易执行，几分钟即可搭建。",
-      "tags": [
-        "ai-agents",
-        "trading",
-        "finance",
-        "swarm",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:46.692Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 22297,
-      "forks": 2744,
-      "starsToday": 6316,
-      "topics": [],
-      "author": {
-        "name": "debpalash",
-        "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&amp;v=4",
-        "url": "https://github.com/debpalash"
-      },
-      "summary": "完全本地运行的开源语音工作室，替代 ElevenLabs，支持声音克隆、语音设计、视频配音、听写、转录与有声书制作，覆盖 646 种语言。",
-      "tags": [
-        "voice-cloning",
-        "tts",
-        "speech",
-        "local-first",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:47.298Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Sequoia-X",
-      "fullName": "sngyai/Sequoia-X",
-      "url": "https://github.com/sngyai/Sequoia-X",
-      "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 7088,
-      "forks": 1435,
-      "starsToday": 615,
-      "topics": [],
-      "author": {
-        "name": "sngyai",
-        "avatar": "https://avatars.githubusercontent.com/u/1306534?s=40&amp;v=4",
-        "url": "https://github.com/sngyai"
-      },
-      "summary": "A股自动选股系统，内置多种技术形态扫描策略，收盘后自动运行并将选股结果推送到飞书，帮助投资者省去手动复盘筛选。",
-      "tags": [
-        "stock",
-        "quant",
-        "python",
-        "automation",
-        "a-share"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-11T03:40:47.847Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "timesfm",
-      "fullName": "google-research/timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 32202,
-      "forks": 3081,
-      "starsToday": 1622,
-      "topics": [],
-      "author": {
-        "name": "google-research",
-        "avatar": "https://avatars.githubusercontent.com/u/8039264?s=40&amp;v=4",
-        "url": "https://github.com/google-research"
-      },
-      "summary": "Google Research 开源的预训练时间序列基础模型，支持零样本预测，可直接用于各类时序预测任务。",
-      "tags": [
-        "time-series",
-        "forecasting",
-        "foundation-model",
-        "python",
-        "machine-learning"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:47.951Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "minimind",
-      "fullName": "jingyaogong/minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 60576,
-      "forks": 7849,
-      "starsToday": 2373,
-      "topics": [],
-      "author": {
-        "name": "jingyaogong",
-        "avatar": "https://avatars.githubusercontent.com/u/62287848?s=40&amp;v=4",
-        "url": "https://github.com/jingyaogong"
-      },
-      "summary": "从零训练64M参数小语言模型的极简教程项目，2小时即可完成全流程，适合入门学习大模型原理与实现。",
-      "tags": [
-        "llm",
-        "training",
-        "python",
-        "tutorial",
-        "from-scratch"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:48.224Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Hands-On-AI-Engineering",
-      "fullName": "Sumanth077/Hands-On-AI-Engineering",
-      "url": "https://github.com/Sumanth077/Hands-On-AI-Engineering",
-      "description": "A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 3391,
-      "forks": 860,
-      "starsToday": 315,
-      "topics": [],
-      "author": {
-        "name": "Sumanth077",
-        "avatar": "https://avatars.githubusercontent.com/u/90475662?s=40&amp;v=4",
-        "url": "https://github.com/Sumanth077"
-      },
-      "summary": "精选实战型 AI 工程项目合集，涵盖 OCR、RAG、AI 智能体等用例，附 Python 代码，适合动手学习 AI 工程落地。",
-      "tags": [
-        "ai",
-        "rag",
-        "ocr",
-        "agents",
-        "python",
-        "tutorial"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:48.589Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "SkillSpector",
-      "fullName": "NVIDIA/SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 16908,
-      "forks": 1438,
-      "starsToday": 1045,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "面向 AI Agent 技能的安全扫描器，可在安装前检测 Claude Code、Codex 与 MCP 技能中的漏洞、恶意模式、提示注入、数据外泄和供应链风险。",
-      "tags": [
-        "security",
-        "ai-agent",
-        "mcp",
-        "scanner",
-        "python"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-11T03:40:49.063Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "patent-disclosure-skill",
       "fullName": "handsomestWei/patent-disclosure-skill",
       "url": "https://github.com/handsomestWei/patent-disclosure-skill",
@@ -536,62 +734,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-11T03:40:49.306Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 54160,
-      "forks": 9434,
-      "starsToday": 1942,
-      "topics": [],
-      "author": {
-        "name": "rohitg00",
-        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
-        "url": "https://github.com/rohitg00"
-      },
-      "summary": "从零开始学习并动手构建 AI 工程项目的教程仓库，涵盖原理讲解与实战代码，帮助开发者掌握并落地 AI 应用。",
-      "tags": [
-        "ai",
-        "tutorial",
-        "python",
-        "llm",
-        "education"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:49.504Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "blender-mcp",
-      "fullName": "ahujasid/blender-mcp",
-      "url": "https://github.com/ahujasid/blender-mcp",
-      "description": "Community plugin to control Blender 3D with any LLM of your choice",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 28122,
-      "forks": 2599,
-      "starsToday": 1381,
-      "topics": [],
-      "author": {
-        "name": "ahujasid",
-        "avatar": "https://avatars.githubusercontent.com/u/11807284?s=40&amp;v=4",
-        "url": "https://github.com/ahujasid"
-      },
-      "summary": "通过 MCP 协议让任意 LLM 直接控制 Blender 建模的社区插件，实现 AI 驱动的 3D 场景创建与编辑。",
-      "tags": [
-        "blender",
-        "mcp",
-        "llm",
-        "3d",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-11T03:40:49.580Z",
       "deepwikiAvailable": false
     },
     {
