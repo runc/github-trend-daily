@@ -2,8 +2,8 @@
   "date": "2026-09-12",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-12T03:43:32.618Z",
-  "enrichedAt": "2026-09-12T03:44:15.263Z",
+  "fetchedAt": "2026-09-12T12:43:10.298Z",
+  "enrichedAt": "2026-09-12T12:43:42.489Z",
   "repos": [
     {
       "name": "OpenFlux",
@@ -12,9 +12,9 @@
       "description": "Network stack research tool. TCP tunnel with pluggable transports.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 1178,
-      "forks": 89,
-      "starsToday": 198,
+      "stars": 1294,
+      "forks": 98,
+      "starsToday": 355,
       "topics": [],
       "author": {
         "name": "p1neappleXpress",
@@ -34,15 +34,298 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23105,
+      "forks": 3039,
+      "starsToday": 193,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI智能体系统，可自动执行复杂渗透测试任务，从侦察到漏洞利用全流程自动化，降低安全测试门槛。",
+      "tags": [
+        "ai-agents",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-12T03:44:11.885Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27820,
+      "forks": 2576,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "Go 编写的密钥泄露扫描工具，可在代码库、文件系统和 CI 中查找并验证泄露的凭证，降低误报。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "golang",
+        "credentials"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T03:44:10.479Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12178,
+      "forks": 1109,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "腾讯云开源的 AI Agent 沙箱，基于 Go 实现，提供毫秒级启动、高并发、安全隔离的轻量级运行环境，用于安全执行 AI 生成的代码与工具调用。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "go",
+        "security",
+        "isolation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-12T12:43:39.513Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dagu",
+      "fullName": "dagucloud/dagu",
+      "url": "https://github.com/dagucloud/dagu",
+      "description": "Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3953,
+      "forks": 332,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "dagucloud",
+        "avatar": "https://avatars.githubusercontent.com/u/1475839?s=40&amp;v=4",
+        "url": "https://github.com/dagucloud"
+      },
+      "summary": "自托管工作流编排器，用声明式 YAML 编排脚本、SSH 命令和容器，单二进制无需数据库，资源占用低，可替代 Airflow 与 Cron。",
+      "tags": [
+        "workflow",
+        "orchestration",
+        "go",
+        "yaml",
+        "self-hosted",
+        "scheduler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T03:44:11.712Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gawkbot",
+      "fullName": "najmuzzaman-mohammad/gawkbot",
+      "url": "https://github.com/najmuzzaman-mohammad/gawkbot",
+      "description": "open source grok bot. gawk bots automate your menial work via AI models and build you microapps to manage the outcome, so that you have a false sense of control.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1371,
+      "forks": 118,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "najmuzzaman-mohammad",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/najmuzzaman-mohammad"
+      },
+      "summary": "开源 Grok 机器人，用 AI 模型自动处理琐碎工作，并生成微应用管理结果，让用户获得掌控感。",
+      "tags": [
+        "ai",
+        "bot",
+        "automation",
+        "grok",
+        "go",
+        "microapps"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-12T12:43:39.545Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46237,
+      "forks": 11351,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于 Go 的 Xray 多协议多用户代理面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供 Web 界面管理流量与用户。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "golang",
+        "vpn"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-12T03:44:14.150Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kserve",
+      "fullName": "kserve/kserve",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5880,
+      "forks": 1665,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "kserve",
+        "avatar": "https://avatars.githubusercontent.com/u/7662095?s=40&amp;v=4",
+        "url": "https://github.com/kserve"
+      },
+      "summary": "基于 Kubernetes 的标准 AI 推理平台，支持生成式与预测式模型的多框架分布式部署，实现弹性伸缩与统一服务接口。",
+      "tags": [
+        "kubernetes",
+        "inference",
+        "ai",
+        "go",
+        "mlops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-12T03:44:09.019Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35512,
+      "forks": 2391,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "esengine",
+        "avatar": "https://avatars.githubusercontent.com/u/32437197?s=40&amp;v=4",
+        "url": "https://github.com/esengine"
+      },
+      "summary": "基于 DeepSeek 的终端 AI 编程智能体，围绕前缀缓存稳定性设计，可长期常驻运行，降低重复推理成本。",
+      "tags": [
+        "ai-agent",
+        "coding-agent",
+        "deepseek",
+        "terminal",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-12T03:44:10.475Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "milvus",
+      "fullName": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46067,
+      "forks": 4247,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "milvus-io",
+        "avatar": "https://avatars.githubusercontent.com/u/84113973?s=40&amp;v=4",
+        "url": "https://github.com/milvus-io"
+      },
+      "summary": "Milvus 是高性能云原生向量数据库，专为可扩展的向量近似最近邻检索设计，支撑大规模 AI 相似性搜索场景。",
+      "tags": [
+        "vector-database",
+        "ann-search",
+        "go",
+        "cloud-native",
+        "ai"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-12T12:43:39.565Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22440,
+      "forks": 1669,
+      "starsToday": 115,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T12:43:39.391Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "WeKnora",
       "fullName": "Tencent/WeKnora",
       "url": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 22395,
-      "forks": 3219,
-      "starsToday": 226,
+      "stars": 22536,
+      "forks": 3235,
+      "starsToday": 287,
       "topics": [],
       "author": {
         "name": "Tencent",
@@ -63,31 +346,172 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "kserve",
-      "fullName": "kserve/kserve",
-      "url": "https://github.com/kserve/kserve",
-      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5879,
-      "forks": 1664,
-      "starsToday": 4,
+      "stars": 23478,
+      "forks": 1696,
+      "starsToday": 25,
       "topics": [],
       "author": {
-        "name": "kserve",
-        "avatar": "https://avatars.githubusercontent.com/u/7662095?s=40&amp;v=4",
-        "url": "https://github.com/kserve"
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
       },
-      "summary": "基于 Kubernetes 的标准 AI 推理平台，支持生成式与预测式模型的多框架分布式部署，实现弹性伸缩与统一服务接口。",
+      "summary": "自托管的个人音乐流媒体服务器，扫描本地曲库并提供网页与移动端播放，兼容 Subsonic API，可替代商业音乐服务。",
       "tags": [
-        "kubernetes",
-        "inference",
-        "ai",
+        "music",
+        "streaming",
+        "self-hosted",
         "go",
-        "mlops"
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T12:43:40.724Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opencode",
+      "fullName": "opencode-ai/opencode",
+      "url": "https://github.com/opencode-ai/opencode",
+      "description": "A powerful AI coding agent. Built for the terminal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13730,
+      "forks": 1813,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "opencode-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/14311743?s=40&amp;v=4",
+        "url": "https://github.com/opencode-ai"
+      },
+      "summary": "基于终端的 AI 编程智能体，用 Go 编写，可在命令行中直接读写代码、执行任务，提升开发效率。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "terminal",
+        "go",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-12T12:43:40.757Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex2api",
+      "fullName": "james-6-23/codex2api",
+      "url": "https://github.com/james-6-23/codex2api",
+      "description": "Codex2API 是一个基于 Go + Gin + React/Vite 的 Codex 反向代理与管理后台项目",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2089,
+      "forks": 364,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "james-6-23",
+        "avatar": "https://avatars.githubusercontent.com/u/117309869?s=40&amp;v=4",
+        "url": "https://github.com/james-6-23"
+      },
+      "summary": "基于 Go+Gin 与 React/Vite 的 Codex 反向代理及管理后台，将 Codex 能力转为标准 API 并统一管理。",
+      "tags": [
+        "go",
+        "gin",
+        "reverse-proxy",
+        "codex",
+        "api",
+        "admin"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T12:43:40.838Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 82932,
+      "forks": 2868,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "summary": "Go 编写的命令行模糊查找器，可交互式过滤文件、历史、进程等任意列表，支持管道与 Vim/Neovim 集成，是终端效率利器。",
+      "tags": [
+        "cli",
+        "fuzzy-finder",
+        "go",
+        "terminal",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-12T12:43:40.750Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "minio",
+      "fullName": "minio/minio",
+      "url": "https://github.com/minio/minio",
+      "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 61365,
+      "forks": 7870,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "minio",
+        "avatar": "https://avatars.githubusercontent.com/u/622699?s=40&amp;v=4",
+        "url": "https://github.com/minio"
+      },
+      "summary": "MinIO 是高性能、兼容 S3 API 的开源对象存储，用 Go 编写，可自建私有云存储与数据湖底座。",
+      "tags": [
+        "object-storage",
+        "s3",
+        "golang",
+        "self-hosted",
+        "storage"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-09-12T03:44:09.019Z",
+      "enrichedAt": "2026-09-12T12:43:42.489Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "obot",
+      "fullName": "obot-platform/obot",
+      "url": "https://github.com/obot-platform/obot",
+      "description": "Complete AI Governance Platform from Obot AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1004,
+      "forks": 211,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "obot-platform",
+        "avatar": "https://avatars.githubusercontent.com/u/3682717?s=40&amp;v=4",
+        "url": "https://github.com/obot-platform"
+      },
+      "summary": "Obot AI 出品的完整 AI 治理平台，用 Go 编写，集中管理 AI 模型、代理与访问权限，帮助企业合规可控地落地 AI 应用。",
+      "tags": [
+        "ai",
+        "governance",
+        "go",
+        "platform",
+        "security"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-12T12:43:42.090Z",
       "deepwikiAvailable": false
     },
     {
@@ -116,34 +540,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-12T03:44:09.095Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trufflehog",
-      "fullName": "trufflesecurity/trufflehog",
-      "url": "https://github.com/trufflesecurity/trufflehog",
-      "description": "Find, verify, and analyze leaked credentials",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 27807,
-      "forks": 2576,
-      "starsToday": 38,
-      "topics": [],
-      "author": {
-        "name": "trufflesecurity",
-        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
-        "url": "https://github.com/trufflesecurity"
-      },
-      "summary": "Go 编写的密钥泄露扫描工具，可在代码库、文件系统和 CI 中查找并验证泄露的凭证，降低误报。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "golang",
-        "credentials"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-12T03:44:10.479Z",
       "deepwikiAvailable": false
     },
     {
@@ -204,35 +600,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "DeepSeek-Reasonix",
-      "fullName": "esengine/DeepSeek-Reasonix",
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 35506,
-      "forks": 2388,
-      "starsToday": 50,
-      "topics": [],
-      "author": {
-        "name": "esengine",
-        "avatar": "https://avatars.githubusercontent.com/u/32437197?s=40&amp;v=4",
-        "url": "https://github.com/esengine"
-      },
-      "summary": "基于 DeepSeek 的终端 AI 编程智能体，围绕前缀缓存稳定性设计，可长期常驻运行，降低重复推理成本。",
-      "tags": [
-        "ai-agent",
-        "coding-agent",
-        "deepseek",
-        "terminal",
-        "go",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-12T03:44:10.475Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "authelia",
       "fullName": "authelia/authelia",
       "url": "https://github.com/authelia/authelia",
@@ -262,34 +629,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "pentagi",
-      "fullName": "vxcontrol/pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23002,
-      "forks": 3033,
-      "starsToday": 250,
-      "topics": [],
-      "author": {
-        "name": "vxcontrol",
-        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
-        "url": "https://github.com/vxcontrol"
-      },
-      "summary": "基于Go构建的全自主AI智能体系统，可自动执行复杂渗透测试任务，从侦察到漏洞利用全流程自动化，降低安全测试门槛。",
-      "tags": [
-        "ai-agents",
-        "pentest",
-        "security",
-        "golang",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-12T03:44:11.885Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "helm",
       "fullName": "helm/helm",
       "url": "https://github.com/helm/helm",
@@ -315,35 +654,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-12T03:44:11.790Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dagu",
-      "fullName": "dagucloud/dagu",
-      "url": "https://github.com/dagucloud/dagu",
-      "description": "Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3938,
-      "forks": 329,
-      "starsToday": 35,
-      "topics": [],
-      "author": {
-        "name": "dagucloud",
-        "avatar": "https://avatars.githubusercontent.com/u/1475839?s=40&amp;v=4",
-        "url": "https://github.com/dagucloud"
-      },
-      "summary": "自托管工作流编排器，用声明式 YAML 编排脚本、SSH 命令和容器，单二进制无需数据库，资源占用低，可替代 Airflow 与 Cron。",
-      "tags": [
-        "workflow",
-        "orchestration",
-        "go",
-        "yaml",
-        "self-hosted",
-        "scheduler"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-12T03:44:11.712Z",
       "deepwikiAvailable": false
     },
     {
@@ -514,34 +824,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-12T03:44:14.306Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "3x-ui",
-      "fullName": "MHSanaei/3x-ui",
-      "url": "https://github.com/MHSanaei/3x-ui",
-      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 46223,
-      "forks": 11307,
-      "starsToday": 66,
-      "topics": [],
-      "author": {
-        "name": "MHSanaei",
-        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
-        "url": "https://github.com/MHSanaei"
-      },
-      "summary": "基于 Go 的 Xray 多协议多用户代理面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供 Web 界面管理流量与用户。",
-      "tags": [
-        "proxy",
-        "xray",
-        "panel",
-        "golang",
-        "vpn"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-12T03:44:14.150Z",
       "deepwikiAvailable": false
     },
     {

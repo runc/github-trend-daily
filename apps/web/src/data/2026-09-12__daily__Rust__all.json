@@ -2,35 +2,92 @@
   "date": "2026-09-12",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-12T03:43:32.618Z",
-  "enrichedAt": "2026-09-12T03:44:22.327Z",
+  "fetchedAt": "2026-09-12T12:43:10.298Z",
+  "enrichedAt": "2026-09-12T12:43:45.643Z",
   "repos": [
     {
-      "name": "OpenResearch",
-      "fullName": "alphaXiv/OpenResearch",
-      "url": "https://github.com/alphaXiv/OpenResearch",
-      "description": "Run parallel research agents with any model",
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1337,
-      "forks": 95,
-      "starsToday": 120,
+      "stars": 7028,
+      "forks": 249,
+      "starsToday": 44,
       "topics": [],
       "author": {
-        "name": "alphaXiv",
-        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
-        "url": "https://github.com/alphaXiv"
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
       },
-      "summary": "基于 Rust 的并行研究智能体框架，可接入任意大模型，让多个智能体同时开展调研任务，提升研究效率。",
+      "summary": "Worktrunk 是用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI 智能体工作流设计，让多分支任务切换与隔离更简单高效。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agents",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-12T03:44:22.327Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omniget",
+      "fullName": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10643,
+      "forks": 931,
+      "starsToday": 797,
+      "topics": [],
+      "author": {
+        "name": "tonhowtf",
+        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
+        "url": "https://github.com/tonhowtf"
+      },
+      "summary": "免费开源的跨平台桌面下载器，支持1800多个网站，可下载Udemy、Hotmart课程、YouTube视频、音乐和电子书，内置课程播放器、阅读器与音乐库，基于yt-dlp，文件保存在本地。",
+      "tags": [
+        "downloader",
+        "yt-dlp",
+        "desktop",
+        "rust",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T12:43:44.283Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microsandbox",
+      "fullName": "superradcompany/microsandbox",
+      "url": "https://github.com/superradcompany/microsandbox",
+      "description": "🧱 Easy fast local-first microVM runtime and library",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8223,
+      "forks": 433,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "superradcompany",
+        "avatar": "https://avatars.githubusercontent.com/u/20358651?s=40&amp;v=4",
+        "url": "https://github.com/superradcompany"
+      },
+      "summary": "基于 Rust 的本地优先 microVM 运行时与库，快速轻量地隔离执行不可信代码，适合安全沙箱场景。",
       "tags": [
         "rust",
-        "agents",
-        "research",
-        "llm",
-        "parallel"
+        "microvm",
+        "sandbox",
+        "runtime",
+        "virtualization"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-09-12T03:44:16.601Z",
+      "category": "Infra",
+      "enrichedAt": "2026-09-12T03:44:21.260Z",
       "deepwikiAvailable": false
     },
     {
@@ -40,8 +97,8 @@
       "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1578,
-      "forks": 160,
+      "stars": 1633,
+      "forks": 163,
       "starsToday": 102,
       "topics": [],
       "author": {
@@ -63,14 +120,99 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenResearch",
+      "fullName": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Run parallel research agents with any model",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1523,
+      "forks": 107,
+      "starsToday": 465,
+      "topics": [],
+      "author": {
+        "name": "alphaXiv",
+        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
+        "url": "https://github.com/alphaXiv"
+      },
+      "summary": "基于 Rust 的并行研究智能体框架，可接入任意大模型，让多个智能体同时开展调研任务，提升研究效率。",
+      "tags": [
+        "rust",
+        "agents",
+        "research",
+        "llm",
+        "parallel"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-12T03:44:16.601Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "workmux",
+      "fullName": "raine/workmux",
+      "url": "https://github.com/raine/workmux",
+      "description": "git worktrees + tmux windows for zero-friction parallel dev",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2491,
+      "forks": 316,
+      "starsToday": 90,
+      "topics": [],
+      "author": {
+        "name": "raine",
+        "avatar": "https://avatars.githubusercontent.com/u/11027?s=40&amp;v=4",
+        "url": "https://github.com/raine"
+      },
+      "summary": "用 Rust 编写的开发工具，将 git worktree 与 tmux 窗口结合，让多个分支并行开发互不干扰，切换零摩擦。",
+      "tags": [
+        "git",
+        "tmux",
+        "worktree",
+        "rust",
+        "cli",
+        "workflow"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T12:43:44.191Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "turbovec",
+      "fullName": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16965,
+      "forks": 1456,
+      "starsToday": 91,
+      "topics": [],
+      "author": {
+        "name": "RyanCodrai",
+        "avatar": "https://avatars.githubusercontent.com/u/10856497?s=40&amp;v=4",
+        "url": "https://github.com/RyanCodrai"
+      },
+      "summary": "基于 TurboQuant 的向量索引库，用 Rust 编写并提供 Python 绑定，为相似度检索提供高性能量化与索引能力。",
+      "tags": [
+        "vector-search",
+        "rust",
+        "python",
+        "quantization",
+        "index"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-12T03:44:17.967Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "dbx",
       "fullName": "t8y2/dbx",
       "url": "https://github.com/t8y2/dbx",
       "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 19182,
-      "forks": 1859,
+      "stars": 19233,
+      "forks": 1864,
       "starsToday": 259,
       "topics": [],
       "author": {
@@ -92,13 +234,239 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "llmfit",
+      "fullName": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36176,
+      "forks": 2288,
+      "starsToday": 449,
+      "topics": [],
+      "author": {
+        "name": "AlexsJones",
+        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
+        "url": "https://github.com/AlexsJones"
+      },
+      "summary": "用一条命令检测本机硬件能跑哪些大模型，覆盖数百个模型与厂商，帮用户快速筛选可运行的本地模型。",
+      "tags": [
+        "llm",
+        "rust",
+        "cli",
+        "hardware",
+        "local-models"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-12T03:44:18.021Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AndroidMic",
+      "fullName": "teamclouday/AndroidMic",
+      "url": "https://github.com/teamclouday/AndroidMic",
+      "description": "Use your Android phone as a microphone for your PC",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1621,
+      "forks": 104,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "teamclouday",
+        "avatar": "https://avatars.githubusercontent.com/u/78230769?s=40&amp;v=4",
+        "url": "https://github.com/teamclouday"
+      },
+      "summary": "把安卓手机当作电脑麦克风使用的工具，通过USB或WiFi传输音频，为PC提供高质量无线麦克风方案。",
+      "tags": [
+        "android",
+        "microphone",
+        "rust",
+        "audio",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T12:43:43.781Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dioxus",
+      "fullName": "DioxusLabs/dioxus",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 39047,
+      "forks": 1881,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "DioxusLabs",
+        "avatar": "https://avatars.githubusercontent.com/u/10237910?s=40&amp;v=4",
+        "url": "https://github.com/DioxusLabs"
+      },
+      "summary": "Rust 全栈应用框架，用一套代码构建 Web、桌面和移动端界面，类 React 的声明式开发体验。",
+      "tags": [
+        "rust",
+        "framework",
+        "cross-platform",
+        "web",
+        "ui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T12:43:43.528Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openhuman",
+      "fullName": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "OpenHuman is an open source agent harness with local-first memory, agent orchestration, and workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 39689,
+      "forks": 3914,
+      "starsToday": 44,
+      "topics": [],
+      "author": {
+        "name": "tinyhumansai",
+        "avatar": "https://avatars.githubusercontent.com/u/31011319?s=40&amp;v=4",
+        "url": "https://github.com/tinyhumansai"
+      },
+      "summary": "OpenHuman 是开源智能体框架，用 Rust 编写，提供本地优先记忆、智能体编排与工作流能力。",
+      "tags": [
+        "agent",
+        "rust",
+        "llm",
+        "workflow",
+        "memory",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-12T12:43:44.587Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pyrefly",
+      "fullName": "facebook/pyrefly",
+      "url": "https://github.com/facebook/pyrefly",
+      "description": "A fast type checker and language server for Python",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6955,
+      "forks": 514,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "facebook",
+        "avatar": "https://avatars.githubusercontent.com/u/966970?s=40&amp;v=4",
+        "url": "https://github.com/facebook"
+      },
+      "summary": "Facebook 用 Rust 编写的 Python 快速类型检查器与语言服务器，提供高性能静态类型分析与 IDE 支持。",
+      "tags": [
+        "python",
+        "type-checker",
+        "lsp",
+        "rust",
+        "static-analysis"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T12:43:44.882Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cuda-oxide",
+      "fullName": "NVlabs/cuda-oxide",
+      "url": "https://github.com/NVlabs/cuda-oxide",
+      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3286,
+      "forks": 262,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "NVlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
+        "url": "https://github.com/NVlabs"
+      },
+      "summary": "将标准 Rust 代码直接编译为 CUDA PTX 的编译器，可用惯用 Rust 编写 SIMT GPU 内核，无需 DSL 或外部语言绑定。",
+      "tags": [
+        "rust",
+        "cuda",
+        "gpu",
+        "compiler",
+        "ptx"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T03:44:18.395Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "check-if-email-exists",
+      "fullName": "reacherhq/check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9656,
+      "forks": 703,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "reacherhq",
+        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
+        "url": "https://github.com/reacherhq"
+      },
+      "summary": "用 Rust 编写的邮箱地址真实性检测工具，无需发信即可通过 SMTP 校验邮箱是否存在，并提供 HTTP 后端服务。",
+      "tags": [
+        "rust",
+        "email",
+        "smtp",
+        "validation",
+        "http-api"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T12:43:45.590Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32013,
+      "forks": 1440,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "Rust 编写的高性能 S3 兼容对象存储系统，4KB 小对象吞吐比 MinIO 快 2.3 倍，支持与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "rust",
+        "object-storage",
+        "s3",
+        "storage",
+        "minio",
+        "performance"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-12T12:43:45.517Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "cli",
       "fullName": "googleworkspace/cli",
       "url": "https://github.com/googleworkspace/cli",
       "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30947,
+      "stars": 30951,
       "forks": 1828,
       "starsToday": 66,
       "topics": [],
@@ -117,6 +485,34 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-09-12T03:44:16.468Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wasmtime",
+      "fullName": "bytecodealliance/wasmtime",
+      "url": "https://github.com/bytecodealliance/wasmtime",
+      "description": "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18623,
+      "forks": 1823,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "bytecodealliance",
+        "avatar": "https://avatars.githubusercontent.com/u/64996?s=40&amp;v=4",
+        "url": "https://github.com/bytecodealliance"
+      },
+      "summary": "基于 Rust 的轻量级 WebAssembly 运行时，速度快、安全且符合标准，支持 JIT/AOT 编译，可嵌入各类应用。",
+      "tags": [
+        "wasm",
+        "runtime",
+        "rust",
+        "jit",
+        "sandbox"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-12T12:43:45.643Z",
       "deepwikiAvailable": false
     },
     {
@@ -145,90 +541,6 @@
       ],
       "category": "Data",
       "enrichedAt": "2026-09-12T03:44:17.723Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "llmfit",
-      "fullName": "AlexsJones/llmfit",
-      "url": "https://github.com/AlexsJones/llmfit",
-      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 36103,
-      "forks": 2283,
-      "starsToday": 449,
-      "topics": [],
-      "author": {
-        "name": "AlexsJones",
-        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
-        "url": "https://github.com/AlexsJones"
-      },
-      "summary": "用一条命令检测本机硬件能跑哪些大模型，覆盖数百个模型与厂商，帮用户快速筛选可运行的本地模型。",
-      "tags": [
-        "llm",
-        "rust",
-        "cli",
-        "hardware",
-        "local-models"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-12T03:44:18.021Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "turbovec",
-      "fullName": "RyanCodrai/turbovec",
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 16943,
-      "forks": 1454,
-      "starsToday": 91,
-      "topics": [],
-      "author": {
-        "name": "RyanCodrai",
-        "avatar": "https://avatars.githubusercontent.com/u/10856497?s=40&amp;v=4",
-        "url": "https://github.com/RyanCodrai"
-      },
-      "summary": "基于 TurboQuant 的向量索引库，用 Rust 编写并提供 Python 绑定，为相似度检索提供高性能量化与索引能力。",
-      "tags": [
-        "vector-search",
-        "rust",
-        "python",
-        "quantization",
-        "index"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-12T03:44:17.967Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cuda-oxide",
-      "fullName": "NVlabs/cuda-oxide",
-      "url": "https://github.com/NVlabs/cuda-oxide",
-      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3276,
-      "forks": 262,
-      "starsToday": 24,
-      "topics": [],
-      "author": {
-        "name": "NVlabs",
-        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
-        "url": "https://github.com/NVlabs"
-      },
-      "summary": "将标准 Rust 代码直接编译为 CUDA PTX 的编译器，可用惯用 Rust 编写 SIMT GPU 内核，无需 DSL 或外部语言绑定。",
-      "tags": [
-        "rust",
-        "cuda",
-        "gpu",
-        "compiler",
-        "ptx"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-12T03:44:18.395Z",
       "deepwikiAvailable": false
     },
     {
@@ -431,34 +743,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "microsandbox",
-      "fullName": "superradcompany/microsandbox",
-      "url": "https://github.com/superradcompany/microsandbox",
-      "description": "🧱 Easy fast local-first microVM runtime and library",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8204,
-      "forks": 433,
-      "starsToday": 27,
-      "topics": [],
-      "author": {
-        "name": "superradcompany",
-        "avatar": "https://avatars.githubusercontent.com/u/20358651?s=40&amp;v=4",
-        "url": "https://github.com/superradcompany"
-      },
-      "summary": "基于 Rust 的本地优先 microVM 运行时与库，快速轻量地隔离执行不可信代码，适合安全沙箱场景。",
-      "tags": [
-        "rust",
-        "microvm",
-        "sandbox",
-        "runtime",
-        "virtualization"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-12T03:44:21.260Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ai-toolbox",
       "fullName": "coulsontl/ai-toolbox",
       "url": "https://github.com/coulsontl/ai-toolbox",
@@ -484,35 +768,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-12T03:44:21.482Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "worktrunk",
-      "fullName": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6987,
-      "forks": 248,
-      "starsToday": 44,
-      "topics": [],
-      "author": {
-        "name": "max-sixty",
-        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
-        "url": "https://github.com/max-sixty"
-      },
-      "summary": "Worktrunk 是用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI 智能体工作流设计，让多分支任务切换与隔离更简单高效。",
-      "tags": [
-        "git",
-        "worktree",
-        "cli",
-        "rust",
-        "ai-agents",
-        "devtool"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-12T03:44:22.327Z",
       "deepwikiAvailable": false
     },
     {

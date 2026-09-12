@@ -2,8 +2,8 @@
   "date": "2026-09-12",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-09-12T03:43:32.618Z",
-  "enrichedAt": "2026-09-12T03:45:06.838Z",
+  "fetchedAt": "2026-09-12T12:43:10.298Z",
+  "enrichedAt": "2026-09-12T12:43:59.153Z",
   "repos": [
     {
       "name": "rtk",
@@ -12,8 +12,8 @@
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 80012,
-      "forks": 5065,
+      "stars": 80047,
+      "forks": 5070,
       "starsToday": 1535,
       "topics": [],
       "author": {
@@ -35,14 +35,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7028,
+      "forks": 249,
+      "starsToday": 159,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "Worktrunk 是用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI 代理工作流设计，让多个代理各自在独立工作树中互不干扰地开发。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agents"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-12T12:43:59.153Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "OpenCADStudio",
       "fullName": "HakanSeven12/OpenCADStudio",
       "url": "https://github.com/HakanSeven12/OpenCADStudio",
       "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1578,
-      "forks": 160,
+      "stars": 1633,
+      "forks": 163,
       "starsToday": 492,
       "topics": [],
       "author": {
@@ -64,13 +92,155 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "omniget",
+      "fullName": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10643,
+      "forks": 931,
+      "starsToday": 459,
+      "topics": [],
+      "author": {
+        "name": "tonhowtf",
+        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
+        "url": "https://github.com/tonhowtf"
+      },
+      "summary": "开源桌面下载工具，支持1800多个网站，可下载Udemy、Hotmart课程、YouTube视频、音乐和电子书，内置课程播放器、PDF/EPUB阅读器和音乐库，无需命令行，文件保存在本地。",
+      "tags": [
+        "downloader",
+        "yt-dlp",
+        "desktop-app",
+        "rust",
+        "media"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T03:45:03.802Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llmfit",
+      "fullName": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36176,
+      "forks": 2288,
+      "starsToday": 1191,
+      "topics": [],
+      "author": {
+        "name": "AlexsJones",
+        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
+        "url": "https://github.com/AlexsJones"
+      },
+      "summary": "Rust 编写的命令行工具，一条命令即可从数百个模型与供应商中筛选出能在你当前硬件上运行的 LLM，省去手动比对显存与参数的麻烦。",
+      "tags": [
+        "llm",
+        "rust",
+        "cli",
+        "hardware",
+        "local-inference"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-12T03:45:02.771Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clash-verge-rev",
+      "fullName": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 143974,
+      "forks": 10362,
+      "starsToday": 1694,
+      "topics": [],
+      "author": {
+        "name": "clash-verge-rev",
+        "avatar": "https://avatars.githubusercontent.com/u/27361820?s=40&amp;v=4",
+        "url": "https://github.com/clash-verge-rev"
+      },
+      "summary": "基于 Tauri 的现代跨平台代理客户端，为 Windows、macOS 和 Linux 提供图形化 Clash 使用体验。",
+      "tags": [
+        "clash",
+        "proxy",
+        "tauri",
+        "rust",
+        "gui",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T12:43:59.153Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Konnect",
+      "fullName": "mixelpixx/Konnect",
+      "url": "https://github.com/mixelpixx/Konnect",
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 628,
+      "forks": 85,
+      "starsToday": 231,
+      "topics": [],
+      "author": {
+        "name": "mixelpixx",
+        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
+        "url": "https://github.com/mixelpixx"
+      },
+      "summary": "面向 KiCAD 10 的 AI 辅助 PCB 设计插件，单个 Rust 二进制向 Claude 等大模型暴露 217 个原理图、布局、布线、评审与制造工具。",
+      "tags": [
+        "pcb",
+        "kicad",
+        "rust",
+        "llm",
+        "eda",
+        "mcp"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T03:45:02.322Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cockpit-tools",
+      "fullName": "jlcodes99/cockpit-tools",
+      "url": "https://github.com/jlcodes99/cockpit-tools",
+      "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17537,
+      "forks": 1556,
+      "starsToday": 493,
+      "topics": [],
+      "author": {
+        "name": "jlcodes99",
+        "avatar": "https://avatars.githubusercontent.com/u/224477852?s=40&amp;v=4",
+        "url": "https://github.com/jlcodes99"
+      },
+      "summary": "通用 AI IDE 账号管理工具，支持 Cursor、Copilot、Codex 等多家平台的多账号切换、配额监控与自动唤醒。",
+      "tags": [
+        "ai-ide",
+        "account-manager",
+        "rust",
+        "quota-monitor",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T03:45:01.751Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Seelen-UI",
       "fullName": "eythaann/Seelen-UI",
       "url": "https://github.com/eythaann/Seelen-UI",
       "description": "The Fully Customizable Desktop Environment for Windows 10/11.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 17785,
+      "stars": 17788,
       "forks": 596,
       "starsToday": 120,
       "topics": [],
@@ -89,6 +259,288 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-12T03:45:00.908Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ChatGPT",
+      "fullName": "lencx/ChatGPT",
+      "url": "https://github.com/lencx/ChatGPT",
+      "description": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 54514,
+      "forks": 6141,
+      "starsToday": 66,
+      "topics": [],
+      "author": {
+        "name": "lencx",
+        "avatar": "https://avatars.githubusercontent.com/u/16164244?s=40&amp;v=4",
+        "url": "https://github.com/lencx"
+      },
+      "summary": "基于 Rust 与 Tauri 构建的 ChatGPT 桌面客户端，支持 Mac、Windows 和 Linux，让用户在本地便捷使用 AI 对话。",
+      "tags": [
+        "chatgpt",
+        "desktop",
+        "tauri",
+        "rust",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T03:45:02.369Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11210,
+      "forks": 798,
+      "starsToday": 147,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用 Rust 编写的高性能 Minecraft 服务端，目标是让任何人都能轻松搭建快速高效的服务器，兼容原版协议。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "server",
+        "game-server",
+        "performance"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T03:45:06.263Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15298,
+      "forks": 625,
+      "starsToday": 338,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的离线开源语法检查工具，注重隐私，速度快，无需联网即可实时校对英文写作。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "writing"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T03:45:04.004Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 19233,
+      "forks": 1864,
+      "starsToday": 1188,
+      "topics": [],
+      "author": {
+        "name": "t8y2",
+        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
+        "url": "https://github.com/t8y2"
+      },
+      "summary": "仅20MB的轻量级跨平台数据库客户端，支持90多种数据库，内置AI助手、MCP Server与CLI，提供桌面端和Docker部署。",
+      "tags": [
+        "database",
+        "rust",
+        "cross-platform",
+        "ai",
+        "mcp",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T12:43:58.654Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31252,
+      "forks": 3358,
+      "starsToday": 277,
+      "topics": [],
+      "author": {
+        "name": "lbjlaq",
+        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
+        "url": "https://github.com/lbjlaq"
+      },
+      "summary": "基于 Tauri v2 与 React 的 Antigravity 账号管理工具，支持一键无缝切换多个账号，解决多账号登录切换繁琐问题。",
+      "tags": [
+        "tauri",
+        "rust",
+        "react",
+        "account-manager",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T03:45:04.453Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vtracer",
+      "fullName": "visioncortex/vtracer",
+      "url": "https://github.com/visioncortex/vtracer",
+      "description": "Raster to Vector Graphics Converter",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6987,
+      "forks": 481,
+      "starsToday": 148,
+      "topics": [],
+      "author": {
+        "name": "visioncortex",
+        "avatar": "https://avatars.githubusercontent.com/u/1782664?s=40&amp;v=4",
+        "url": "https://github.com/visioncortex"
+      },
+      "summary": "用 Rust 编写的位图转矢量图工具，可将 PNG/JPG 等光栅图高质量转换为 SVG 路径，支持多色分层与命令行批量处理。",
+      "tags": [
+        "rust",
+        "svg",
+        "vectorization",
+        "image",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T03:45:06.838Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30951,
+      "forks": 1828,
+      "starsToday": 214,
+      "topics": [],
+      "author": {
+        "name": "googleworkspace",
+        "avatar": "https://avatars.githubusercontent.com/u/109114539?s=40&amp;v=4",
+        "url": "https://github.com/googleworkspace"
+      },
+      "summary": "Google Workspace 官方命令行工具，用一条命令操作 Drive、Gmail、日历、表格、文档、Chat 和管理后台，基于 Discovery Service 动态生成，并内置 AI 智能体技能。",
+      "tags": [
+        "cli",
+        "google-workspace",
+        "rust",
+        "ai-agent",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-12T03:45:05.925Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "devenv",
+      "fullName": "cachix/devenv",
+      "url": "https://github.com/cachix/devenv",
+      "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7637,
+      "forks": 564,
+      "starsToday": 151,
+      "topics": [],
+      "author": {
+        "name": "cachix",
+        "avatar": "https://avatars.githubusercontent.com/u/126339?s=40&amp;v=4",
+        "url": "https://github.com/cachix"
+      },
+      "summary": "基于 Nix 的声明式开发环境工具，用配置文件快速构建可复现、可组合的开发者环境，跨机器一致。",
+      "tags": [
+        "nix",
+        "dev-environment",
+        "reproducible",
+        "rust",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T03:45:05.802Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Cap",
+      "fullName": "CapSoftware/Cap",
+      "url": "https://github.com/CapSoftware/Cap",
+      "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22133,
+      "forks": 1900,
+      "starsToday": 448,
+      "topics": [],
+      "author": {
+        "name": "CapSoftware",
+        "avatar": "https://avatars.githubusercontent.com/u/33632126?s=40&amp;v=4",
+        "url": "https://github.com/CapSoftware"
+      },
+      "summary": "开源版 Loom 替代品，用 Rust 打造，可录制并生成美观易分享的屏幕录像，支持跨平台。",
+      "tags": [
+        "screen-recording",
+        "rust",
+        "loom-alternative",
+        "video",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-12T03:45:04.888Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 132472,
+      "forks": 9133,
+      "starsToday": 1454,
+      "topics": [],
+      "author": {
+        "name": "farion1231",
+        "avatar": "https://avatars.githubusercontent.com/u/44939412?s=40&amp;v=4",
+        "url": "https://github.com/farion1231"
+      },
+      "summary": "跨平台桌面工具，一站式管理 Claude Code、Codex、OpenCode 等多个 AI 编程代理的配置与切换。",
+      "tags": [
+        "ai",
+        "desktop",
+        "rust",
+        "claude-code",
+        "codex",
+        "config"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-12T12:43:59.030Z",
       "deepwikiAvailable": false
     },
     {
@@ -117,119 +569,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-09-12T03:45:01.313Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cockpit-tools",
-      "fullName": "jlcodes99/cockpit-tools",
-      "url": "https://github.com/jlcodes99/cockpit-tools",
-      "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 17510,
-      "forks": 1554,
-      "starsToday": 493,
-      "topics": [],
-      "author": {
-        "name": "jlcodes99",
-        "avatar": "https://avatars.githubusercontent.com/u/224477852?s=40&amp;v=4",
-        "url": "https://github.com/jlcodes99"
-      },
-      "summary": "通用 AI IDE 账号管理工具，支持 Cursor、Copilot、Codex 等多家平台的多账号切换、配额监控与自动唤醒。",
-      "tags": [
-        "ai-ide",
-        "account-manager",
-        "rust",
-        "quota-monitor",
-        "automation"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-12T03:45:01.751Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Konnect",
-      "fullName": "mixelpixx/Konnect",
-      "url": "https://github.com/mixelpixx/Konnect",
-      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 624,
-      "forks": 85,
-      "starsToday": 231,
-      "topics": [],
-      "author": {
-        "name": "mixelpixx",
-        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
-        "url": "https://github.com/mixelpixx"
-      },
-      "summary": "面向 KiCAD 10 的 AI 辅助 PCB 设计插件，单个 Rust 二进制向 Claude 等大模型暴露 217 个原理图、布局、布线、评审与制造工具。",
-      "tags": [
-        "pcb",
-        "kicad",
-        "rust",
-        "llm",
-        "eda",
-        "mcp"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-12T03:45:02.322Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "llmfit",
-      "fullName": "AlexsJones/llmfit",
-      "url": "https://github.com/AlexsJones/llmfit",
-      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 36103,
-      "forks": 2283,
-      "starsToday": 1191,
-      "topics": [],
-      "author": {
-        "name": "AlexsJones",
-        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
-        "url": "https://github.com/AlexsJones"
-      },
-      "summary": "Rust 编写的命令行工具，一条命令即可从数百个模型与供应商中筛选出能在你当前硬件上运行的 LLM，省去手动比对显存与参数的麻烦。",
-      "tags": [
-        "llm",
-        "rust",
-        "cli",
-        "hardware",
-        "local-inference"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-12T03:45:02.771Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ChatGPT",
-      "fullName": "lencx/ChatGPT",
-      "url": "https://github.com/lencx/ChatGPT",
-      "description": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 54512,
-      "forks": 6142,
-      "starsToday": 66,
-      "topics": [],
-      "author": {
-        "name": "lencx",
-        "avatar": "https://avatars.githubusercontent.com/u/16164244?s=40&amp;v=4",
-        "url": "https://github.com/lencx"
-      },
-      "summary": "基于 Rust 与 Tauri 构建的 ChatGPT 桌面客户端，支持 Mac、Windows 和 Linux，让用户在本地便捷使用 AI 对话。",
-      "tags": [
-        "chatgpt",
-        "desktop",
-        "tauri",
-        "rust",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-12T03:45:02.369Z",
       "deepwikiAvailable": false
     },
     {
@@ -289,118 +628,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "omniget",
-      "fullName": "tonhowtf/omniget",
-      "url": "https://github.com/tonhowtf/omniget",
-      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 10292,
-      "forks": 887,
-      "starsToday": 459,
-      "topics": [],
-      "author": {
-        "name": "tonhowtf",
-        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
-        "url": "https://github.com/tonhowtf"
-      },
-      "summary": "开源桌面下载工具，支持1800多个网站，可下载Udemy、Hotmart课程、YouTube视频、音乐和电子书，内置课程播放器、PDF/EPUB阅读器和音乐库，无需命令行，文件保存在本地。",
-      "tags": [
-        "downloader",
-        "yt-dlp",
-        "desktop-app",
-        "rust",
-        "media"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-12T03:45:03.802Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "harper",
-      "fullName": "Automattic/harper",
-      "url": "https://github.com/Automattic/harper",
-      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 15291,
-      "forks": 625,
-      "starsToday": 338,
-      "topics": [],
-      "author": {
-        "name": "Automattic",
-        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
-        "url": "https://github.com/Automattic"
-      },
-      "summary": "基于 Rust 的离线开源语法检查工具，注重隐私，速度快，无需联网即可实时校对英文写作。",
-      "tags": [
-        "rust",
-        "grammar",
-        "privacy",
-        "offline",
-        "writing"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-12T03:45:04.004Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Antigravity-Manager",
-      "fullName": "lbjlaq/Antigravity-Manager",
-      "url": "https://github.com/lbjlaq/Antigravity-Manager",
-      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31242,
-      "forks": 3356,
-      "starsToday": 277,
-      "topics": [],
-      "author": {
-        "name": "lbjlaq",
-        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
-        "url": "https://github.com/lbjlaq"
-      },
-      "summary": "基于 Tauri v2 与 React 的 Antigravity 账号管理工具，支持一键无缝切换多个账号，解决多账号登录切换繁琐问题。",
-      "tags": [
-        "tauri",
-        "rust",
-        "react",
-        "account-manager",
-        "desktop"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-12T03:45:04.453Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Cap",
-      "fullName": "CapSoftware/Cap",
-      "url": "https://github.com/CapSoftware/Cap",
-      "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 22120,
-      "forks": 1899,
-      "starsToday": 448,
-      "topics": [],
-      "author": {
-        "name": "CapSoftware",
-        "avatar": "https://avatars.githubusercontent.com/u/33632126?s=40&amp;v=4",
-        "url": "https://github.com/CapSoftware"
-      },
-      "summary": "开源版 Loom 替代品，用 Rust 打造，可录制并生成美观易分享的屏幕录像，支持跨平台。",
-      "tags": [
-        "screen-recording",
-        "rust",
-        "loom-alternative",
-        "video",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-12T03:45:04.888Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ccxt",
       "fullName": "ccxt/ccxt",
       "url": "https://github.com/ccxt/ccxt",
@@ -429,90 +656,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "devenv",
-      "fullName": "cachix/devenv",
-      "url": "https://github.com/cachix/devenv",
-      "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7637,
-      "forks": 564,
-      "starsToday": 151,
-      "topics": [],
-      "author": {
-        "name": "cachix",
-        "avatar": "https://avatars.githubusercontent.com/u/126339?s=40&amp;v=4",
-        "url": "https://github.com/cachix"
-      },
-      "summary": "基于 Nix 的声明式开发环境工具，用配置文件快速构建可复现、可组合的开发者环境，跨机器一致。",
-      "tags": [
-        "nix",
-        "dev-environment",
-        "reproducible",
-        "rust",
-        "cli"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-12T03:45:05.802Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "googleworkspace/cli",
-      "url": "https://github.com/googleworkspace/cli",
-      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 30947,
-      "forks": 1828,
-      "starsToday": 214,
-      "topics": [],
-      "author": {
-        "name": "googleworkspace",
-        "avatar": "https://avatars.githubusercontent.com/u/109114539?s=40&amp;v=4",
-        "url": "https://github.com/googleworkspace"
-      },
-      "summary": "Google Workspace 官方命令行工具，用一条命令操作 Drive、Gmail、日历、表格、文档、Chat 和管理后台，基于 Discovery Service 动态生成，并内置 AI 智能体技能。",
-      "tags": [
-        "cli",
-        "google-workspace",
-        "rust",
-        "ai-agent",
-        "productivity"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-12T03:45:05.925Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Pumpkin",
-      "fullName": "Pumpkin-MC/Pumpkin",
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11203,
-      "forks": 798,
-      "starsToday": 147,
-      "topics": [],
-      "author": {
-        "name": "Pumpkin-MC",
-        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
-        "url": "https://github.com/Pumpkin-MC"
-      },
-      "summary": "用 Rust 编写的高性能 Minecraft 服务端，目标是让任何人都能轻松搭建快速高效的服务器，兼容原版协议。",
-      "tags": [
-        "minecraft",
-        "rust",
-        "server",
-        "game-server",
-        "performance"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-12T03:45:06.263Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "WindInput",
       "fullName": "huanfeng/WindInput",
       "url": "https://github.com/huanfeng/WindInput",
@@ -538,34 +681,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-12T03:45:06.777Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "vtracer",
-      "fullName": "visioncortex/vtracer",
-      "url": "https://github.com/visioncortex/vtracer",
-      "description": "Raster to Vector Graphics Converter",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6985,
-      "forks": 480,
-      "starsToday": 148,
-      "topics": [],
-      "author": {
-        "name": "visioncortex",
-        "avatar": "https://avatars.githubusercontent.com/u/1782664?s=40&amp;v=4",
-        "url": "https://github.com/visioncortex"
-      },
-      "summary": "用 Rust 编写的位图转矢量图工具，可将 PNG/JPG 等光栅图高质量转换为 SVG 路径，支持多色分层与命令行批量处理。",
-      "tags": [
-        "rust",
-        "svg",
-        "vectorization",
-        "image",
-        "cli"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-12T03:45:06.838Z",
       "deepwikiAvailable": false
     }
   ]
