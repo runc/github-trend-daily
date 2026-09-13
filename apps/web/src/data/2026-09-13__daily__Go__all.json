@@ -2,37 +2,9 @@
   "date": "2026-09-13",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-13T03:51:21.548Z",
-  "enrichedAt": "2026-09-13T03:51:57.884Z",
+  "fetchedAt": "2026-09-13T13:42:31.642Z",
+  "enrichedAt": "2026-09-13T13:43:05.285Z",
   "repos": [
-    {
-      "name": "OpenFlux",
-      "fullName": "p1neappleXpress/OpenFlux",
-      "url": "https://github.com/p1neappleXpress/OpenFlux",
-      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1415,
-      "forks": 104,
-      "starsToday": 355,
-      "topics": [],
-      "author": {
-        "name": "p1neappleXpress",
-        "avatar": "https://avatars.githubusercontent.com/u/146814998?s=40&amp;v=4",
-        "url": "https://github.com/p1neappleXpress"
-      },
-      "summary": "Go 编写的网络栈研究工具，提供可插拔传输层的 TCP 隧道，便于测试与实验自定义协议。",
-      "tags": [
-        "go",
-        "networking",
-        "tcp",
-        "tunnel",
-        "proxy"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-13T03:51:52.853Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "pentagi",
       "fullName": "vxcontrol/pentagi",
@@ -40,9 +12,9 @@
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 23510,
-      "forks": 3069,
-      "starsToday": 189,
+      "stars": 23712,
+      "forks": 3085,
+      "starsToday": 613,
       "topics": [],
       "author": {
         "name": "vxcontrol",
@@ -62,14 +34,467 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22927,
+      "forks": 1698,
+      "starsToday": 264,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，采用确定性流水线加LLM Agent混合架构，支持行级精准评论与多语言安全规则集，兼容OpenAI和Anthropic接口。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T03:51:55.725Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ligolo-ng",
+      "fullName": "nicocha30/ligolo-ng",
+      "url": "https://github.com/nicocha30/ligolo-ng",
+      "description": "An advanced, yet simple, tunneling/pivoting tool that uses a TUN interface.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4967,
+      "forks": 478,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "nicocha30",
+        "avatar": "https://avatars.githubusercontent.com/u/31402213?s=40&amp;v=4",
+        "url": "https://github.com/nicocha30"
+      },
+      "summary": "基于 TUN 接口的轻量级隧道与内网穿透工具，用 Go 编写，可快速搭建代理与横向移动通道。",
+      "tags": [
+        "tunnel",
+        "pivoting",
+        "networking",
+        "go",
+        "tun",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-13T13:43:02.559Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenFlux",
+      "fullName": "p1neappleXpress/OpenFlux",
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1483,
+      "forks": 113,
+      "starsToday": 194,
+      "topics": [],
+      "author": {
+        "name": "p1neappleXpress",
+        "avatar": "https://avatars.githubusercontent.com/u/146814998?s=40&amp;v=4",
+        "url": "https://github.com/p1neappleXpress"
+      },
+      "summary": "Go 编写的网络栈研究工具，提供可插拔传输层的 TCP 隧道，便于测试与实验自定义协议。",
+      "tags": [
+        "go",
+        "networking",
+        "tcp",
+        "tunnel",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-13T03:51:52.853Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpt-load",
+      "fullName": "tbphp/gpt-load",
+      "url": "https://github.com/tbphp/gpt-load",
+      "description": "Self-hosted AI gateway for multi-channel, multi-credential setups — API keys and subscription accounts, scheduling, failover, request logs and usage. 自托管 AI 网关：多渠道多凭据统一接入，含密钥与订阅账号、调度容错、日志与用量。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6715,
+      "forks": 723,
+      "starsToday": 80,
+      "topics": [],
+      "author": {
+        "name": "tbphp",
+        "avatar": "https://avatars.githubusercontent.com/u/17903218?s=40&amp;v=4",
+        "url": "https://github.com/tbphp"
+      },
+      "summary": "自托管 AI 网关，统一接入多渠道多凭据（API 密钥与订阅账号），提供负载调度、故障转移、请求日志与用量统计。",
+      "tags": [
+        "ai-gateway",
+        "go",
+        "self-hosted",
+        "load-balancing",
+        "failover"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-13T13:43:02.477Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22777,
+      "forks": 3263,
+      "starsToday": 307,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，用Go编写，可将原始文档转为可查询的RAG、自主推理智能体和自维护Wiki。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-13T03:51:56.254Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dagu",
+      "fullName": "dagucloud/dagu",
+      "url": "https://github.com/dagucloud/dagu",
+      "description": "Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3967,
+      "forks": 332,
+      "starsToday": 45,
+      "topics": [],
+      "author": {
+        "name": "dagucloud",
+        "avatar": "https://avatars.githubusercontent.com/u/1475839?s=40&amp;v=4",
+        "url": "https://github.com/dagucloud"
+      },
+      "summary": "自托管工作流编排器，用声明式YAML调度脚本、SSH命令与容器，单二进制无需数据库，资源占用低，可替代Airflow与Cron。",
+      "tags": [
+        "workflow",
+        "orchestration",
+        "go",
+        "yaml",
+        "self-hosted",
+        "scheduler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T03:51:54.065Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nomad",
+      "fullName": "hashicorp/nomad",
+      "url": "https://github.com/hashicorp/nomad",
+      "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16900,
+      "forks": 2139,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/1047914?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "HashiCorp 出品的易用高性能工作负载编排器，可混合部署微服务、批处理及容器与非容器应用，原生集成 Consul 和 Vault，易于运维与扩展。",
+      "tags": [
+        "orchestration",
+        "scheduler",
+        "go",
+        "hashicorp",
+        "devops",
+        "cluster"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-13T13:43:02.376Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "act",
+      "fullName": "nektos/act",
+      "url": "https://github.com/nektos/act",
+      "description": "Run your GitHub Actions locally 🚀",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 71956,
+      "forks": 2030,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "nektos",
+        "avatar": "https://avatars.githubusercontent.com/in/10562?s=40&amp;v=4",
+        "url": "https://github.com/nektos"
+      },
+      "summary": "在本地运行 GitHub Actions 工作流的 Go 工具，无需推送即可快速调试 CI 流程，节省等待时间。",
+      "tags": [
+        "github-actions",
+        "ci",
+        "go",
+        "cli",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T13:43:02.124Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "restic",
+      "fullName": "restic/restic",
+      "url": "https://github.com/restic/restic",
+      "description": "Fast, secure, efficient backup program",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36024,
+      "forks": 1872,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "restic",
+        "avatar": "https://avatars.githubusercontent.com/u/123276?s=40&amp;v=4",
+        "url": "https://github.com/restic"
+      },
+      "summary": "Go 编写的快速、安全、高效的备份程序，支持加密去重与多种存储后端，可增量备份并跨平台恢复数据。",
+      "tags": [
+        "backup",
+        "go",
+        "encryption",
+        "deduplication",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T13:43:03.566Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netdata",
+      "fullName": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 80499,
+      "forks": 6623,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "netdata",
+        "avatar": "https://avatars.githubusercontent.com/u/2662304?s=40&amp;v=4",
+        "url": "https://github.com/netdata"
+      },
+      "summary": "开源全栈可观测性平台，实时采集指标、日志与告警，支持AI辅助分析，轻量团队也能快速部署。",
+      "tags": [
+        "observability",
+        "monitoring",
+        "metrics",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-13T13:43:03.773Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "arcane",
+      "fullName": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7356,
+      "forks": 307,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "getarcaneapp",
+        "avatar": "https://avatars.githubusercontent.com/u/25576967?s=40&amp;v=4",
+        "url": "https://github.com/getarcaneapp"
+      },
+      "summary": "基于 Go 的现代化 Docker 管理平台，提供简洁易用的 Web 界面，让每个人都能轻松管理容器、镜像与编排。",
+      "tags": [
+        "docker",
+        "go",
+        "container",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T13:43:03.849Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "memos",
+      "fullName": "usememos/memos",
+      "url": "https://github.com/usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 62961,
+      "forks": 4746,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "usememos",
+        "avatar": "https://avatars.githubusercontent.com/u/24653555?s=40&amp;v=4",
+        "url": "https://github.com/usememos"
+      },
+      "summary": "开源自托管笔记工具，基于 Go 构建，原生支持 Markdown，轻量快速，数据完全自持，适合随手记录与碎片化笔记。",
+      "tags": [
+        "notes",
+        "self-hosted",
+        "markdown",
+        "go",
+        "note-taking"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-13T13:43:03.628Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35524,
+      "forks": 2392,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "esengine",
+        "avatar": "https://avatars.githubusercontent.com/u/32437197?s=40&amp;v=4",
+        "url": "https://github.com/esengine"
+      },
+      "summary": "基于 DeepSeek 的终端 AI 编程智能体，围绕前缀缓存稳定性设计，可长时间常驻运行。",
+      "tags": [
+        "ai-agent",
+        "coding-agent",
+        "terminal",
+        "deepseek",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-13T03:51:55.297Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23514,
+      "forks": 1695,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
+      },
+      "summary": "基于 Go 的自托管音乐流媒体服务器，扫描本地曲库并通过 Web 界面和 Subsonic 兼容 API 在任意设备上播放，轻量易部署。",
+      "tags": [
+        "music",
+        "streaming",
+        "self-hosted",
+        "go",
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-13T03:51:56.194Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "crush",
+      "fullName": "charmbracelet/crush",
+      "url": "https://github.com/charmbracelet/crush",
+      "description": "Glamourous agentic coding for all 💘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28048,
+      "forks": 2239,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "charmbracelet",
+        "avatar": "https://avatars.githubusercontent.com/u/14311743?s=40&amp;v=4",
+        "url": "https://github.com/charmbracelet"
+      },
+      "summary": "基于 Go 的终端 AI 编程助手，在命令行中提供华丽的智能体编码体验，支持多模型与工具调用。",
+      "tags": [
+        "ai",
+        "cli",
+        "go",
+        "agent",
+        "coding",
+        "terminal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-13T13:43:04.943Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubo",
+      "fullName": "ipfs/kubo",
+      "url": "https://github.com/ipfs/kubo",
+      "description": "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17132,
+      "forks": 3170,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "ipfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1243164?s=40&amp;v=4",
+        "url": "https://github.com/ipfs"
+      },
+      "summary": "用 Go 实现的 IPFS 节点，通过内容寻址存储与分发数据，提供守护进程、CLI、HTTP 网关和 RPC API，是去中心化文件网络的核心实现。",
+      "tags": [
+        "ipfs",
+        "go",
+        "p2p",
+        "content-addressing",
+        "gateway",
+        "daemon"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-13T13:43:05.057Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "trufflehog",
       "fullName": "trufflesecurity/trufflehog",
       "url": "https://github.com/trufflesecurity/trufflehog",
       "description": "Find, verify, and analyze leaked credentials",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 27847,
-      "forks": 2579,
+      "stars": 27855,
+      "forks": 2578,
       "starsToday": 38,
       "topics": [],
       "author": {
@@ -87,6 +512,63 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-13T03:51:53.149Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37940,
+      "forks": 4572,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，用 Go 编写，支持多种协议与灵活路由，可替代 Clash 等工具，适合自建代理与网络转发。",
+      "tags": [
+        "proxy",
+        "golang",
+        "networking",
+        "vpn",
+        "routing"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-13T13:43:05.035Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "authelia",
+      "fullName": "authelia/authelia",
+      "url": "https://github.com/authelia/authelia",
+      "description": "The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28942,
+      "forks": 1480,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "authelia",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/authelia"
+      },
+      "summary": "Authelia 是面向 Web 应用的开源单点登录与多因素认证门户，支持 OpenID 认证并已适配后量子密码学，为自托管服务提供统一身份验证与访问控制。",
+      "tags": [
+        "sso",
+        "authentication",
+        "2fa",
+        "openid",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-13T13:43:05.285Z",
       "deepwikiAvailable": false
     },
     {
@@ -115,35 +597,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-13T03:51:53.091Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dagu",
-      "fullName": "dagucloud/dagu",
-      "url": "https://github.com/dagucloud/dagu",
-      "description": "Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3965,
-      "forks": 332,
-      "starsToday": 45,
-      "topics": [],
-      "author": {
-        "name": "dagucloud",
-        "avatar": "https://avatars.githubusercontent.com/u/1475839?s=40&amp;v=4",
-        "url": "https://github.com/dagucloud"
-      },
-      "summary": "自托管工作流编排器，用声明式YAML调度脚本、SSH命令与容器，单二进制无需数据库，资源占用低，可替代Airflow与Cron。",
-      "tags": [
-        "workflow",
-        "orchestration",
-        "go",
-        "yaml",
-        "self-hosted",
-        "scheduler"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-13T03:51:54.065Z",
       "deepwikiAvailable": false
     },
     {
@@ -231,34 +684,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "DeepSeek-Reasonix",
-      "fullName": "esengine/DeepSeek-Reasonix",
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 35522,
-      "forks": 2390,
-      "starsToday": 34,
-      "topics": [],
-      "author": {
-        "name": "esengine",
-        "avatar": "https://avatars.githubusercontent.com/u/32437197?s=40&amp;v=4",
-        "url": "https://github.com/esengine"
-      },
-      "summary": "基于 DeepSeek 的终端 AI 编程智能体，围绕前缀缓存稳定性设计，可长时间常驻运行。",
-      "tags": [
-        "ai-agent",
-        "coding-agent",
-        "terminal",
-        "deepseek",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-13T03:51:55.297Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "milvus",
       "fullName": "milvus-io/milvus",
       "url": "https://github.com/milvus-io/milvus",
@@ -288,34 +713,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "open-code-review",
-      "fullName": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 22764,
-      "forks": 1690,
-      "starsToday": 264,
-      "topics": [],
-      "author": {
-        "name": "alibaba",
-        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
-        "url": "https://github.com/alibaba"
-      },
-      "summary": "阿里开源的大规模代码审查工具，采用确定性流水线加LLM Agent混合架构，支持行级精准评论与多语言安全规则集，兼容OpenAI和Anthropic接口。",
-      "tags": [
-        "code-review",
-        "llm",
-        "go",
-        "static-analysis",
-        "agent"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-13T03:51:55.725Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "dozzle",
       "fullName": "amir20/dozzle",
       "url": "https://github.com/amir20/dozzle",
@@ -341,62 +738,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-13T03:51:55.775Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 22694,
-      "forks": 3256,
-      "starsToday": 307,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的大模型知识平台，用Go编写，可将原始文档转为可查询的RAG、自主推理智能体和自维护Wiki。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "go",
-        "agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-13T03:51:56.254Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "navidrome",
-      "fullName": "navidrome/navidrome",
-      "url": "https://github.com/navidrome/navidrome",
-      "description": "🎧 Your Personal Streaming Service",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23497,
-      "forks": 1695,
-      "starsToday": 26,
-      "topics": [],
-      "author": {
-        "name": "navidrome",
-        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
-        "url": "https://github.com/navidrome"
-      },
-      "summary": "基于 Go 的自托管音乐流媒体服务器，扫描本地曲库并通过 Web 界面和 Subsonic 兼容 API 在任意设备上播放，轻量易部署。",
-      "tags": [
-        "music",
-        "streaming",
-        "self-hosted",
-        "go",
-        "subsonic"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-13T03:51:56.194Z",
       "deepwikiAvailable": false
     },
     {

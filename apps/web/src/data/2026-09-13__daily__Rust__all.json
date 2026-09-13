@@ -2,9 +2,149 @@
   "date": "2026-09-13",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-13T03:51:21.548Z",
-  "enrichedAt": "2026-09-13T03:52:03.704Z",
+  "fetchedAt": "2026-09-13T13:42:31.642Z",
+  "enrichedAt": "2026-09-13T13:43:08.507Z",
   "repos": [
+    {
+      "name": "OpenResearch",
+      "fullName": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Run parallel research agents with any model",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1818,
+      "forks": 131,
+      "starsToday": 452,
+      "topics": [],
+      "author": {
+        "name": "alphaXiv",
+        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
+        "url": "https://github.com/alphaXiv"
+      },
+      "summary": "用 Rust 编写的开源研究工具，可并行调度多个研究智能体并自由接入任意大模型，加速资料检索与调研流程。",
+      "tags": [
+        "ai",
+        "agents",
+        "research",
+        "rust",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-13T03:52:00.426Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omniget",
+      "fullName": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11189,
+      "forks": 987,
+      "starsToday": 839,
+      "topics": [],
+      "author": {
+        "name": "tonhowtf",
+        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
+        "url": "https://github.com/tonhowtf"
+      },
+      "summary": "免费开源跨平台桌面下载器，基于 yt-dlp 支持 1800+ 网站，可下载课程、视频、音乐和电子书，内置播放器与阅读器，无需终端，文件保存在本地。",
+      "tags": [
+        "downloader",
+        "yt-dlp",
+        "desktop",
+        "rust",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-13T03:51:59.085Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "stremio-core",
+      "fullName": "Stremio/stremio-core",
+      "url": "https://github.com/Stremio/stremio-core",
+      "description": "⚛️ The Stremio Core: types, addon system, UI models, core logic",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2375,
+      "forks": 247,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "Stremio",
+        "avatar": "https://avatars.githubusercontent.com/u/8925621?s=40&amp;v=4",
+        "url": "https://github.com/Stremio"
+      },
+      "summary": "Stremio 的核心库，用 Rust 实现类型定义、插件系统、UI 模型与核心逻辑，为各端播放器提供统一引擎。",
+      "tags": [
+        "rust",
+        "streaming",
+        "addon",
+        "core",
+        "media"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-13T13:43:06.725Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "turbovec",
+      "fullName": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17043,
+      "forks": 1460,
+      "starsToday": 84,
+      "topics": [],
+      "author": {
+        "name": "RyanCodrai",
+        "avatar": "https://avatars.githubusercontent.com/u/10856497?s=40&amp;v=4",
+        "url": "https://github.com/RyanCodrai"
+      },
+      "summary": "基于 TurboQuant 的向量索引库，用 Rust 编写并提供 Python 绑定，兼顾高性能与易用性，适合大规模向量检索场景。",
+      "tags": [
+        "vector-search",
+        "rust",
+        "python",
+        "index",
+        "quantization"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-13T03:52:00.060Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "git-ai",
+      "fullName": "git-ai-project/git-ai",
+      "url": "https://github.com/git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2675,
+      "forks": 291,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "git-ai-project",
+        "avatar": "https://avatars.githubusercontent.com/u/10859025?s=40&amp;v=4",
+        "url": "https://github.com/git-ai-project"
+      },
+      "summary": "基于 Rust 的 Git 扩展，用于追踪仓库中由 AI 生成的代码，帮助开发者识别与审计 AI 贡献的代码来源。",
+      "tags": [
+        "git",
+        "ai",
+        "rust",
+        "code-tracking",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T13:43:06.779Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "worktrunk",
       "fullName": "max-sixty/worktrunk",
@@ -12,9 +152,9 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7281,
-      "forks": 257,
-      "starsToday": 54,
+      "stars": 7433,
+      "forks": 263,
+      "starsToday": 402,
       "topics": [],
       "author": {
         "name": "max-sixty",
@@ -34,31 +174,342 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "omniget",
-      "fullName": "tonhowtf/omniget",
-      "url": "https://github.com/tonhowtf/omniget",
-      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "name": "workmux",
+      "fullName": "raine/workmux",
+      "url": "https://github.com/raine/workmux",
+      "description": "git worktrees + tmux windows for zero-friction parallel dev",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 10966,
-      "forks": 972,
-      "starsToday": 839,
+      "stars": 2540,
+      "forks": 319,
+      "starsToday": 87,
       "topics": [],
       "author": {
-        "name": "tonhowtf",
-        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
-        "url": "https://github.com/tonhowtf"
+        "name": "raine",
+        "avatar": "https://avatars.githubusercontent.com/u/11027?s=40&amp;v=4",
+        "url": "https://github.com/raine"
       },
-      "summary": "免费开源跨平台桌面下载器，基于 yt-dlp 支持 1800+ 网站，可下载课程、视频、音乐和电子书，内置播放器与阅读器，无需终端，文件保存在本地。",
+      "summary": "用 Rust 编写的命令行工具，把 git worktree 与 tmux 窗口绑定，让多个分支的并行开发切换零摩擦，无需反复 stash 或克隆仓库。",
       "tags": [
-        "downloader",
-        "yt-dlp",
-        "desktop",
+        "git",
+        "tmux",
+        "cli",
         "rust",
-        "open-source"
+        "worktree",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T03:52:00.011Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "check-if-email-exists",
+      "fullName": "reacherhq/check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9774,
+      "forks": 707,
+      "starsToday": 98,
+      "topics": [],
+      "author": {
+        "name": "reacherhq",
+        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
+        "url": "https://github.com/reacherhq"
+      },
+      "summary": "用 Rust 编写的邮箱地址有效性检测工具，无需发送邮件即可通过 SMTP 校验邮箱是否存在，并提供 HTTP 后端服务。",
+      "tags": [
+        "rust",
+        "email",
+        "smtp",
+        "validation",
+        "http-api"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T03:52:02.651Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3396,
+      "forks": 552,
+      "starsToday": 256,
+      "topics": [],
+      "author": {
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
+      },
+      "summary": "基于 Rust 的 WiFi 安全审计工具，可扫描周边网络、抓取握手包并测试密码强度，界面简洁易用。",
+      "tags": [
+        "wifi",
+        "security",
+        "rust",
+        "audit",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-13T13:43:06.472Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openhuman",
+      "fullName": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "OpenHuman is an open source agent harness with local-first memory, agent orchestration, and workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 39727,
+      "forks": 3918,
+      "starsToday": 45,
+      "topics": [],
+      "author": {
+        "name": "tinyhumansai",
+        "avatar": "https://avatars.githubusercontent.com/u/31011319?s=40&amp;v=4",
+        "url": "https://github.com/tinyhumansai"
+      },
+      "summary": "开源智能体运行框架，提供本地优先记忆、多智能体编排与工作流能力，用 Rust 构建，适合自托管 AI 代理应用。",
+      "tags": [
+        "agent",
+        "rust",
+        "llm",
+        "orchestration",
+        "local-first",
+        "workflow"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-13T03:52:01.866Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "czsc",
+      "fullName": "waditu/czsc",
+      "url": "https://github.com/waditu/czsc",
+      "description": "缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6176,
+      "forks": 1737,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "waditu",
+        "avatar": "https://avatars.githubusercontent.com/u/24988472?s=40&amp;v=4",
+        "url": "https://github.com/waditu"
+      },
+      "summary": "基于缠中说禅理论的量化技术分析工具，用 Rust 实现缠论笔段中枢计算，支持股票期货等行情数据的量化交易研究。",
+      "tags": [
+        "quant",
+        "rust",
+        "trading",
+        "technical-analysis",
+        "stock"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-13T13:43:06.960Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wgpu",
+      "fullName": "gfx-rs/wgpu",
+      "url": "https://github.com/gfx-rs/wgpu",
+      "description": "A cross-platform, safe, pure-Rust graphics API.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17999,
+      "forks": 1445,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "gfx-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/107301?s=40&amp;v=4",
+        "url": "https://github.com/gfx-rs"
+      },
+      "summary": "纯 Rust 实现的跨平台安全图形 API，统一封装 Vulkan、Metal、DX12 与 WebGPU，让同一套代码在桌面、移动端和浏览器上运行。",
+      "tags": [
+        "rust",
+        "graphics",
+        "webgpu",
+        "gpu",
+        "cross-platform"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-13T13:43:07.597Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1777,
+      "forks": 170,
+      "starsToday": 99,
+      "topics": [],
+      "author": {
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
+      },
+      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 文件读写与 GPU 加速渲染，性能出色且跨平台。",
+      "tags": [
+        "cad",
+        "rust",
+        "dwg",
+        "dxf",
+        "gpu",
+        "3d"
       ],
       "category": "App",
-      "enrichedAt": "2026-09-13T03:51:59.085Z",
+      "enrichedAt": "2026-09-13T03:51:59.207Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust-analyzer",
+      "fullName": "rust-lang/rust-analyzer",
+      "url": "https://github.com/rust-lang/rust-analyzer",
+      "description": "A Rust compiler front-end for IDEs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16839,
+      "forks": 2219,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/in/1847?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 语言服务器与编译器前端，为 IDE 提供补全、跳转、诊断等智能代码分析能力。",
+      "tags": [
+        "rust",
+        "lsp",
+        "ide",
+        "compiler",
+        "tooling"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T13:43:08.144Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dioxus",
+      "fullName": "DioxusLabs/dioxus",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 39084,
+      "forks": 1884,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "DioxusLabs",
+        "avatar": "https://avatars.githubusercontent.com/u/10237910?s=40&amp;v=4",
+        "url": "https://github.com/DioxusLabs"
+      },
+      "summary": "Rust 全栈应用框架，一套代码构建 Web、桌面与移动端应用，兼顾性能与开发体验。",
+      "tags": [
+        "rust",
+        "framework",
+        "cross-platform",
+        "fullstack",
+        "ui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-13T03:52:01.721Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zeroclaw",
+      "fullName": "zeroclaw-labs/zeroclaw",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw",
+      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32786,
+      "forks": 4938,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "zeroclaw-labs",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/zeroclaw-labs"
+      },
+      "summary": "基于 Rust 的轻量高速全自主 AI 个人助理基础设施，跨系统跨平台部署，组件可自由替换。",
+      "tags": [
+        "ai",
+        "assistant",
+        "rust",
+        "self-hosted",
+        "cross-platform"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-13T13:43:07.720Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ratatui",
+      "fullName": "ratatui/ratatui",
+      "url": "https://github.com/ratatui/ratatui",
+      "description": "A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22570,
+      "forks": 780,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "ratatui",
+        "avatar": "https://avatars.githubusercontent.com/u/381361?s=40&amp;v=4",
+        "url": "https://github.com/ratatui"
+      },
+      "summary": "Rust 终端用户界面（TUI）库，提供丰富组件与即时渲染，助你快速构建交互式命令行应用。",
+      "tags": [
+        "rust",
+        "tui",
+        "terminal",
+        "ui",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-13T13:43:08.266Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31478,
+      "forks": 2864,
+      "starsToday": 62,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "完全离线的开源语音转文字应用，免费可扩展，基于 Rust 构建，无需联网即可本地完成语音识别。",
+      "tags": [
+        "speech-to-text",
+        "rust",
+        "offline",
+        "open-source",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-13T13:43:08.507Z",
       "deepwikiAvailable": false
     },
     {
@@ -87,120 +538,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-13T03:51:59.088Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenCADStudio",
-      "fullName": "HakanSeven12/OpenCADStudio",
-      "url": "https://github.com/HakanSeven12/OpenCADStudio",
-      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1724,
-      "forks": 165,
-      "starsToday": 99,
-      "topics": [],
-      "author": {
-        "name": "HakanSeven12",
-        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
-        "url": "https://github.com/HakanSeven12"
-      },
-      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 文件读写与 GPU 加速渲染，性能出色且跨平台。",
-      "tags": [
-        "cad",
-        "rust",
-        "dwg",
-        "dxf",
-        "gpu",
-        "3d"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-13T03:51:59.207Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenResearch",
-      "fullName": "alphaXiv/OpenResearch",
-      "url": "https://github.com/alphaXiv/OpenResearch",
-      "description": "Run parallel research agents with any model",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1692,
-      "forks": 126,
-      "starsToday": 452,
-      "topics": [],
-      "author": {
-        "name": "alphaXiv",
-        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
-        "url": "https://github.com/alphaXiv"
-      },
-      "summary": "用 Rust 编写的开源研究工具，可并行调度多个研究智能体并自由接入任意大模型，加速资料检索与调研流程。",
-      "tags": [
-        "ai",
-        "agents",
-        "research",
-        "rust",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-13T03:52:00.426Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "workmux",
-      "fullName": "raine/workmux",
-      "url": "https://github.com/raine/workmux",
-      "description": "git worktrees + tmux windows for zero-friction parallel dev",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2524,
-      "forks": 318,
-      "starsToday": 87,
-      "topics": [],
-      "author": {
-        "name": "raine",
-        "avatar": "https://avatars.githubusercontent.com/u/11027?s=40&amp;v=4",
-        "url": "https://github.com/raine"
-      },
-      "summary": "用 Rust 编写的命令行工具，把 git worktree 与 tmux 窗口绑定，让多个分支的并行开发切换零摩擦，无需反复 stash 或克隆仓库。",
-      "tags": [
-        "git",
-        "tmux",
-        "cli",
-        "rust",
-        "worktree",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-13T03:52:00.011Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "turbovec",
-      "fullName": "RyanCodrai/turbovec",
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 17012,
-      "forks": 1457,
-      "starsToday": 84,
-      "topics": [],
-      "author": {
-        "name": "RyanCodrai",
-        "avatar": "https://avatars.githubusercontent.com/u/10856497?s=40&amp;v=4",
-        "url": "https://github.com/RyanCodrai"
-      },
-      "summary": "基于 TurboQuant 的向量索引库，用 Rust 编写并提供 Python 绑定，兼顾高性能与易用性，适合大规模向量检索场景。",
-      "tags": [
-        "vector-search",
-        "rust",
-        "python",
-        "index",
-        "quantization"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-13T03:52:00.060Z",
       "deepwikiAvailable": false
     },
     {
@@ -289,63 +626,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "dioxus",
-      "fullName": "DioxusLabs/dioxus",
-      "url": "https://github.com/DioxusLabs/dioxus",
-      "description": "Fullstack app framework for web, desktop, and mobile.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 39069,
-      "forks": 1885,
-      "starsToday": 33,
-      "topics": [],
-      "author": {
-        "name": "DioxusLabs",
-        "avatar": "https://avatars.githubusercontent.com/u/10237910?s=40&amp;v=4",
-        "url": "https://github.com/DioxusLabs"
-      },
-      "summary": "Rust 全栈应用框架，一套代码构建 Web、桌面与移动端应用，兼顾性能与开发体验。",
-      "tags": [
-        "rust",
-        "framework",
-        "cross-platform",
-        "fullstack",
-        "ui"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-13T03:52:01.721Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openhuman",
-      "fullName": "tinyhumansai/openhuman",
-      "url": "https://github.com/tinyhumansai/openhuman",
-      "description": "OpenHuman is an open source agent harness with local-first memory, agent orchestration, and workflows",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 39720,
-      "forks": 3919,
-      "starsToday": 45,
-      "topics": [],
-      "author": {
-        "name": "tinyhumansai",
-        "avatar": "https://avatars.githubusercontent.com/u/31011319?s=40&amp;v=4",
-        "url": "https://github.com/tinyhumansai"
-      },
-      "summary": "开源智能体运行框架，提供本地优先记忆、多智能体编排与工作流能力，用 Rust 构建，适合自托管 AI 代理应用。",
-      "tags": [
-        "agent",
-        "rust",
-        "llm",
-        "orchestration",
-        "local-first",
-        "workflow"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-13T03:52:01.866Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "pyrefly",
       "fullName": "facebook/pyrefly",
       "url": "https://github.com/facebook/pyrefly",
@@ -399,34 +679,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-13T03:52:02.166Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "check-if-email-exists",
-      "fullName": "reacherhq/check-if-email-exists",
-      "url": "https://github.com/reacherhq/check-if-email-exists",
-      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 9745,
-      "forks": 706,
-      "starsToday": 98,
-      "topics": [],
-      "author": {
-        "name": "reacherhq",
-        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
-        "url": "https://github.com/reacherhq"
-      },
-      "summary": "用 Rust 编写的邮箱地址有效性检测工具，无需发送邮件即可通过 SMTP 校验邮箱是否存在，并提供 HTTP 后端服务。",
-      "tags": [
-        "rust",
-        "email",
-        "smtp",
-        "validation",
-        "http-api"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-13T03:52:02.651Z",
       "deepwikiAvailable": false
     },
     {
