@@ -2,19 +2,75 @@
   "date": "2026-09-14",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-14T03:58:16.457Z",
-  "enrichedAt": "2026-09-14T03:59:01.221Z",
+  "fetchedAt": "2026-09-14T15:45:09.939Z",
+  "enrichedAt": "2026-09-14T15:45:50.813Z",
   "repos": [
+    {
+      "name": "vaultwarden",
+      "fullName": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 67448,
+      "forks": 3206,
+      "starsToday": 110,
+      "topics": [],
+      "author": {
+        "name": "dani-garcia",
+        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
+        "url": "https://github.com/dani-garcia"
+      },
+      "summary": "用 Rust 编写的非官方 Bitwarden 兼容服务器，轻量低资源占用，可自托管密码管理器后端，支持完整客户端同步。",
+      "tags": [
+        "rust",
+        "bitwarden",
+        "self-hosted",
+        "password-manager",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-14T15:45:48.625Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 93703,
+      "forks": 12422,
+      "starsToday": 370,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面，隐私友好。",
+      "tags": [
+        "wifi",
+        "rust",
+        "sensing",
+        "privacy",
+        "iot"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-14T15:45:48.291Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "OpenResearch",
       "fullName": "alphaXiv/OpenResearch",
       "url": "https://github.com/alphaXiv/OpenResearch",
-      "description": "Run parallel research agents with any model",
+      "description": "Turn your coding agents into research agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2164,
-      "forks": 145,
-      "starsToday": 289,
+      "stars": 2400,
+      "forks": 155,
+      "starsToday": 566,
       "topics": [],
       "author": {
         "name": "alphaXiv",
@@ -34,15 +90,215 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "turbovec",
+      "fullName": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17127,
+      "forks": 1470,
+      "starsToday": 82,
+      "topics": [],
+      "author": {
+        "name": "RyanCodrai",
+        "avatar": "https://avatars.githubusercontent.com/u/10856497?s=40&amp;v=4",
+        "url": "https://github.com/RyanCodrai"
+      },
+      "summary": "基于 TurboQuant 的向量索引库，用 Rust 编写并提供 Python 绑定，兼顾高性能检索与易用性，适合大规模向量相似度搜索场景。",
+      "tags": [
+        "vector-search",
+        "rust",
+        "python",
+        "quantization",
+        "index",
+        "similarity-search"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-14T03:58:55.968Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zeroclaw",
+      "fullName": "zeroclaw-labs/zeroclaw",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw",
+      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32804,
+      "forks": 4942,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "zeroclaw-labs",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/zeroclaw-labs"
+      },
+      "summary": "基于 Rust 的轻量自主 AI 个人助理基础设施，跨平台部署，模块可自由替换。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "assistant",
+        "cross-platform",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-14T03:59:00.051Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "workmux",
+      "fullName": "raine/workmux",
+      "url": "https://github.com/raine/workmux",
+      "description": "git worktrees + tmux windows for zero-friction parallel dev",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2576,
+      "forks": 320,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "raine",
+        "avatar": "https://avatars.githubusercontent.com/u/11027?s=40&amp;v=4",
+        "url": "https://github.com/raine"
+      },
+      "summary": "用 Rust 编写的开发工具，把 git worktree 与 tmux 窗口绑定，让多个分支任务并行开发无需反复切换，降低并行开发摩擦。",
+      "tags": [
+        "git",
+        "tmux",
+        "worktree",
+        "rust",
+        "cli",
+        "workflow"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-14T03:58:57.078Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Aether",
+      "fullName": "CluvexStudio/Aether",
+      "url": "https://github.com/CluvexStudio/Aether",
+      "description": "A Rust userspace WARP core for censored networks, built around MASQUE over HTTP/3 and HTTP/2.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1864,
+      "forks": 137,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "CluvexStudio",
+        "avatar": "https://avatars.githubusercontent.com/u/125141320?s=40&amp;v=4",
+        "url": "https://github.com/CluvexStudio"
+      },
+      "summary": "基于 Rust 的用户态 WARP 核心，通过 MASQUE over HTTP/3 与 HTTP/2 在受限网络中建立隧道，绕过审查。",
+      "tags": [
+        "rust",
+        "warp",
+        "masque",
+        "http3",
+        "proxy",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-14T15:45:48.446Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1887,
+      "forks": 183,
+      "starsToday": 128,
+      "topics": [],
+      "author": {
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
+      },
+      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 文件读写与 GPU 加速渲染，性能出色且跨平台。",
+      "tags": [
+        "cad",
+        "rust",
+        "dwg",
+        "dxf",
+        "gpu",
+        "3d"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T03:58:59.333Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7621,
+      "forks": 272,
+      "starsToday": 366,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "Worktrunk 是用 Rust 编写的 Git worktree 管理 CLI，专为并行 AI 智能体工作流设计，简化多分支并行开发。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agent"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-14T03:58:57.224Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wgpu",
+      "fullName": "gfx-rs/wgpu",
+      "url": "https://github.com/gfx-rs/wgpu",
+      "description": "A cross-platform, safe, pure-Rust graphics API.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18030,
+      "forks": 1447,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "gfx-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/107301?s=40&amp;v=4",
+        "url": "https://github.com/gfx-rs"
+      },
+      "summary": "纯 Rust 编写的跨平台安全图形 API，统一封装 Vulkan、Metal、D3D12 与 WebGPU，让同一套代码在桌面、移动端和浏览器运行。",
+      "tags": [
+        "rust",
+        "graphics",
+        "webgpu",
+        "gpu",
+        "cross-platform"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-14T03:58:58.856Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "omniget",
       "fullName": "tonhowtf/omniget",
       "url": "https://github.com/tonhowtf/omniget",
       "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 11849,
-      "forks": 1034,
-      "starsToday": 507,
+      "stars": 12231,
+      "forks": 1053,
+      "starsToday": 1018,
       "topics": [],
       "author": {
         "name": "tonhowtf",
@@ -59,6 +315,343 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-14T03:58:55.956Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3458,
+      "forks": 565,
+      "starsToday": 275,
+      "topics": [],
+      "author": {
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
+      },
+      "summary": "基于 Rust 的 WiFi 安全审计工具，图形界面下扫描网络、抓取握手包并测试密码强度，用于无线安全评估。",
+      "tags": [
+        "wifi",
+        "security",
+        "rust",
+        "audit",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-14T03:58:57.984Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "atlas",
+      "fullName": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4394,
+      "forks": 273,
+      "starsToday": 1077,
+      "topics": [],
+      "author": {
+        "name": "pacifio",
+        "avatar": "https://avatars.githubusercontent.com/u/32670628?s=40&amp;v=4",
+        "url": "https://github.com/pacifio"
+      },
+      "summary": "面向 AI 编码代理的版本控制工具，可同时运行多个编码代理，统一追踪并查询它们的代码改动。",
+      "tags": [
+        "ai-agents",
+        "version-control",
+        "rust",
+        "developer-tools",
+        "git"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-14T15:45:48.691Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust-clippy",
+      "fullName": "rust-lang/rust-clippy",
+      "url": "https://github.com/rust-lang/rust-clippy",
+      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13504,
+      "forks": 2155,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 官方静态检查工具，提供大量 lint 规则，捕捉常见错误与不良写法，帮助改进代码质量。",
+      "tags": [
+        "rust",
+        "linter",
+        "static-analysis",
+        "code-quality",
+        "tooling"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-14T15:45:49.336Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 118825,
+      "forks": 15574,
+      "starsToday": 353,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 编程语言官方仓库，提供内存安全与高性能兼备的系统级开发工具链，含编译器、标准库与 Cargo 包管理器。",
+      "tags": [
+        "rust",
+        "programming-language",
+        "compiler",
+        "systems",
+        "toolchain"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-14T15:45:49.886Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "czsc",
+      "fullName": "waditu/czsc",
+      "url": "https://github.com/waditu/czsc",
+      "description": "缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6206,
+      "forks": 1738,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "waditu",
+        "avatar": "https://avatars.githubusercontent.com/u/24988472?s=40&amp;v=4",
+        "url": "https://github.com/waditu"
+      },
+      "summary": "基于缠中说禅缠论的技术分析工具，用Rust实现，支持股票、期货等量化交易场景的行情分析与信号计算。",
+      "tags": [
+        "quant",
+        "rust",
+        "stock",
+        "trading",
+        "technical-analysis"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-14T03:58:58.601Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "arnis",
+      "fullName": "louis-e/arnis",
+      "url": "https://github.com/louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17866,
+      "forks": 1501,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "louis-e",
+        "avatar": "https://avatars.githubusercontent.com/u/44675238?s=40&amp;v=4",
+        "url": "https://github.com/louis-e"
+      },
+      "summary": "用真实世界地理数据在 Minecraft 中高精度生成任意地点的三维建筑与地形，基于 Rust 实现，支持一键还原现实城市街景。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "map",
+        "generator",
+        "osm",
+        "3d"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T15:45:49.583Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "check-if-email-exists",
+      "fullName": "reacherhq/check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9832,
+      "forks": 707,
+      "starsToday": 102,
+      "topics": [],
+      "author": {
+        "name": "reacherhq",
+        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
+        "url": "https://github.com/reacherhq"
+      },
+      "summary": "用 Rust 编写的邮箱地址真实性检测工具，无需发信即可通过 SMTP 校验邮箱是否存在，并附带 HTTP 后端服务。",
+      "tags": [
+        "rust",
+        "email",
+        "smtp",
+        "validation",
+        "http-api"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-14T03:58:57.193Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llmfit",
+      "fullName": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36519,
+      "forks": 2308,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "AlexsJones",
+        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
+        "url": "https://github.com/AlexsJones"
+      },
+      "summary": "Rust 编写的命令行工具，扫描数百个模型与厂商，一条命令即可判断哪些大模型能在你的硬件上运行。",
+      "tags": [
+        "llm",
+        "rust",
+        "cli",
+        "hardware",
+        "local-models"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-14T15:45:49.625Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "brush",
+      "fullName": "ArthurBrussee/brush",
+      "url": "https://github.com/ArthurBrussee/brush",
+      "description": "3D Reconstruction for all",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5060,
+      "forks": 319,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "ArthurBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/7014262?s=40&amp;v=4",
+        "url": "https://github.com/ArthurBrussee"
+      },
+      "summary": "基于 Rust 的通用 3D 重建工具，可从照片快速生成三维场景，跨平台易用，降低三维重建门槛。",
+      "tags": [
+        "3d",
+        "reconstruction",
+        "rust",
+        "gaussian-splatting",
+        "graphics"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-14T15:45:50.390Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32124,
+      "forks": 1440,
+      "starsToday": 70,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "Rust 编写的开源 S3 兼容高性能对象存储系统，4KB 小对象吞吐比 MinIO 快 2.3 倍，支持与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "rust",
+        "object-storage",
+        "s3",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-14T15:45:50.516Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sqlx",
+      "fullName": "transact-rs/sqlx",
+      "url": "https://github.com/transact-rs/sqlx",
+      "description": "🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17471,
+      "forks": 1693,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "transact-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/753919?s=40&amp;v=4",
+        "url": "https://github.com/transact-rs"
+      },
+      "summary": "Rust 异步 SQL 工具库，无需 DSL 即可在编译期校验 SQL 查询，支持 PostgreSQL、MySQL 和 SQLite。",
+      "tags": [
+        "rust",
+        "sql",
+        "async",
+        "database",
+        "postgresql"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-14T15:45:50.483Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruffle",
+      "fullName": "ruffle-rs/ruffle",
+      "url": "https://github.com/ruffle-rs/ruffle",
+      "description": "A Flash Player emulator written in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18519,
+      "forks": 1094,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "ruffle-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/108736?s=40&amp;v=4",
+        "url": "https://github.com/ruffle-rs"
+      },
+      "summary": "用 Rust 编写的 Flash Player 模拟器，可在现代浏览器和桌面端直接运行 SWF 内容，让经典 Flash 动画与游戏重获新生。",
+      "tags": [
+        "rust",
+        "flash",
+        "emulator",
+        "wasm",
+        "web"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T15:45:50.813Z",
       "deepwikiAvailable": false
     },
     {
@@ -90,35 +683,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "turbovec",
-      "fullName": "RyanCodrai/turbovec",
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 17095,
-      "forks": 1467,
-      "starsToday": 82,
-      "topics": [],
-      "author": {
-        "name": "RyanCodrai",
-        "avatar": "https://avatars.githubusercontent.com/u/10856497?s=40&amp;v=4",
-        "url": "https://github.com/RyanCodrai"
-      },
-      "summary": "基于 TurboQuant 的向量索引库，用 Rust 编写并提供 Python 绑定，兼顾高性能检索与易用性，适合大规模向量相似度搜索场景。",
-      "tags": [
-        "vector-search",
-        "rust",
-        "python",
-        "quantization",
-        "index",
-        "similarity-search"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-14T03:58:55.968Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "git-ai",
       "fullName": "git-ai-project/git-ai",
       "url": "https://github.com/git-ai-project/git-ai",
@@ -144,119 +708,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-14T03:58:56.780Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "worktrunk",
-      "fullName": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7543,
-      "forks": 270,
-      "starsToday": 366,
-      "topics": [],
-      "author": {
-        "name": "max-sixty",
-        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
-        "url": "https://github.com/max-sixty"
-      },
-      "summary": "Worktrunk 是用 Rust 编写的 Git worktree 管理 CLI，专为并行 AI 智能体工作流设计，简化多分支并行开发。",
-      "tags": [
-        "git",
-        "worktree",
-        "cli",
-        "rust",
-        "ai-agent"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-14T03:58:57.224Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "workmux",
-      "fullName": "raine/workmux",
-      "url": "https://github.com/raine/workmux",
-      "description": "git worktrees + tmux windows for zero-friction parallel dev",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2556,
-      "forks": 319,
-      "starsToday": 39,
-      "topics": [],
-      "author": {
-        "name": "raine",
-        "avatar": "https://avatars.githubusercontent.com/u/11027?s=40&amp;v=4",
-        "url": "https://github.com/raine"
-      },
-      "summary": "用 Rust 编写的开发工具，把 git worktree 与 tmux 窗口绑定，让多个分支任务并行开发无需反复切换，降低并行开发摩擦。",
-      "tags": [
-        "git",
-        "tmux",
-        "worktree",
-        "rust",
-        "cli",
-        "workflow"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-14T03:58:57.078Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "check-if-email-exists",
-      "fullName": "reacherhq/check-if-email-exists",
-      "url": "https://github.com/reacherhq/check-if-email-exists",
-      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 9803,
-      "forks": 707,
-      "starsToday": 102,
-      "topics": [],
-      "author": {
-        "name": "reacherhq",
-        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
-        "url": "https://github.com/reacherhq"
-      },
-      "summary": "用 Rust 编写的邮箱地址真实性检测工具，无需发信即可通过 SMTP 校验邮箱是否存在，并附带 HTTP 后端服务。",
-      "tags": [
-        "rust",
-        "email",
-        "smtp",
-        "validation",
-        "http-api"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-14T03:58:57.193Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "airgorah",
-      "fullName": "martin-olivier/airgorah",
-      "url": "https://github.com/martin-olivier/airgorah",
-      "description": "A WiFi security auditing software",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3437,
-      "forks": 559,
-      "starsToday": 275,
-      "topics": [],
-      "author": {
-        "name": "martin-olivier",
-        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
-        "url": "https://github.com/martin-olivier"
-      },
-      "summary": "基于 Rust 的 WiFi 安全审计工具，图形界面下扫描网络、抓取握手包并测试密码强度，用于无线安全评估。",
-      "tags": [
-        "wifi",
-        "security",
-        "rust",
-        "audit",
-        "pentest"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-09-14T03:58:57.984Z",
       "deepwikiAvailable": false
     },
     {
@@ -286,91 +737,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-14T03:58:58.580Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "czsc",
-      "fullName": "waditu/czsc",
-      "url": "https://github.com/waditu/czsc",
-      "description": "缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6193,
-      "forks": 1738,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "waditu",
-        "avatar": "https://avatars.githubusercontent.com/u/24988472?s=40&amp;v=4",
-        "url": "https://github.com/waditu"
-      },
-      "summary": "基于缠中说禅缠论的技术分析工具，用Rust实现，支持股票、期货等量化交易场景的行情分析与信号计算。",
-      "tags": [
-        "quant",
-        "rust",
-        "stock",
-        "trading",
-        "technical-analysis"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-09-14T03:58:58.601Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "wgpu",
-      "fullName": "gfx-rs/wgpu",
-      "url": "https://github.com/gfx-rs/wgpu",
-      "description": "A cross-platform, safe, pure-Rust graphics API.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 18016,
-      "forks": 1446,
-      "starsToday": 12,
-      "topics": [],
-      "author": {
-        "name": "gfx-rs",
-        "avatar": "https://avatars.githubusercontent.com/u/107301?s=40&amp;v=4",
-        "url": "https://github.com/gfx-rs"
-      },
-      "summary": "纯 Rust 编写的跨平台安全图形 API，统一封装 Vulkan、Metal、D3D12 与 WebGPU，让同一套代码在桌面、移动端和浏览器运行。",
-      "tags": [
-        "rust",
-        "graphics",
-        "webgpu",
-        "gpu",
-        "cross-platform"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-14T03:58:58.856Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenCADStudio",
-      "fullName": "HakanSeven12/OpenCADStudio",
-      "url": "https://github.com/HakanSeven12/OpenCADStudio",
-      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1825,
-      "forks": 177,
-      "starsToday": 128,
-      "topics": [],
-      "author": {
-        "name": "HakanSeven12",
-        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
-        "url": "https://github.com/HakanSeven12"
-      },
-      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 文件读写与 GPU 加速渲染，性能出色且跨平台。",
-      "tags": [
-        "cad",
-        "rust",
-        "dwg",
-        "dxf",
-        "gpu",
-        "3d"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-14T03:58:59.333Z",
       "deepwikiAvailable": false
     },
     {
@@ -427,34 +793,6 @@
       ],
       "category": "Framework",
       "enrichedAt": "2026-09-14T03:58:59.639Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zeroclaw",
-      "fullName": "zeroclaw-labs/zeroclaw",
-      "url": "https://github.com/zeroclaw-labs/zeroclaw",
-      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 32794,
-      "forks": 4941,
-      "starsToday": 16,
-      "topics": [],
-      "author": {
-        "name": "zeroclaw-labs",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/zeroclaw-labs"
-      },
-      "summary": "基于 Rust 的轻量自主 AI 个人助理基础设施，跨平台部署，模块可自由替换。",
-      "tags": [
-        "rust",
-        "ai-agent",
-        "assistant",
-        "cross-platform",
-        "self-hosted"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-14T03:59:00.051Z",
       "deepwikiAvailable": false
     },
     {

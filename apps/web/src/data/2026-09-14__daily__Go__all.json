@@ -2,37 +2,9 @@
   "date": "2026-09-14",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-14T03:58:16.457Z",
-  "enrichedAt": "2026-09-14T03:58:54.652Z",
+  "fetchedAt": "2026-09-14T15:45:09.939Z",
+  "enrichedAt": "2026-09-14T15:45:47.323Z",
   "repos": [
-    {
-      "name": "pentagi",
-      "fullName": "vxcontrol/pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 24075,
-      "forks": 3104,
-      "starsToday": 590,
-      "topics": [],
-      "author": {
-        "name": "vxcontrol",
-        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
-        "url": "https://github.com/vxcontrol"
-      },
-      "summary": "全自主 AI 智能体系统，可自动完成复杂渗透测试任务，用 Go 编写，适合安全团队自动化漏洞探测与评估。",
-      "tags": [
-        "security",
-        "pentest",
-        "ai-agents",
-        "golang",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-14T03:58:49.281Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "open-code-review",
       "fullName": "alibaba/open-code-review",
@@ -40,9 +12,9 @@
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 23706,
-      "forks": 1756,
-      "starsToday": 443,
+      "stars": 24945,
+      "forks": 1824,
+      "starsToday": 1796,
       "topics": [],
       "author": {
         "name": "alibaba",
@@ -62,14 +34,354 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24384,
+      "forks": 3122,
+      "starsToday": 659,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "全自主 AI 智能体系统，可自动完成复杂渗透测试任务，用 Go 编写，适合安全团队自动化漏洞探测与评估。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-14T03:58:49.281Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "checkcle",
+      "fullName": "operacle/checkcle",
+      "url": "https://github.com/operacle/checkcle",
+      "description": "CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3188,
+      "forks": 277,
+      "starsToday": 96,
+      "topics": [],
+      "author": {
+        "name": "operacle",
+        "avatar": "https://avatars.githubusercontent.com/u/186325651?s=40&amp;v=4",
+        "url": "https://github.com/operacle"
+      },
+      "summary": "CheckCle 是自托管开源全栈监控平台，用 Go 编写，提供实时可用性监测、分布式探针、故障追踪与告警，可部署在任意环境。",
+      "tags": [
+        "monitoring",
+        "self-hosted",
+        "uptime",
+        "golang",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-14T15:45:44.740Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpt-load",
+      "fullName": "tbphp/gpt-load",
+      "url": "https://github.com/tbphp/gpt-load",
+      "description": "Self-hosted AI gateway for multi-channel, multi-credential setups — API keys and subscription accounts, scheduling, failover, request logs and usage. 自托管 AI 网关：多渠道多凭据统一接入，含密钥与订阅账号、调度容错、日志与用量。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6739,
+      "forks": 726,
+      "starsToday": 52,
+      "topics": [],
+      "author": {
+        "name": "tbphp",
+        "avatar": "https://avatars.githubusercontent.com/u/17903218?s=40&amp;v=4",
+        "url": "https://github.com/tbphp"
+      },
+      "summary": "自托管 AI 网关，统一接入多渠道多凭据（API 密钥与订阅账号），提供调度、故障转移、请求日志与用量统计。",
+      "tags": [
+        "ai-gateway",
+        "go",
+        "self-hosted",
+        "load-balancing",
+        "failover",
+        "llm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-14T03:58:50.061Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "witr",
+      "fullName": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22299,
+      "forks": 775,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "pranshuparmar",
+        "avatar": "https://avatars.githubusercontent.com/u/4262592?s=40&amp;v=4",
+        "url": "https://github.com/pranshuparmar"
+      },
+      "summary": "用 Go 编写的 CLI 与 TUI 工具，可将任意进程、端口、容器或文件反向追溯到其启动来源，快速定位\"这东西为什么在运行\"。",
+      "tags": [
+        "go",
+        "cli",
+        "tui",
+        "process",
+        "debugging",
+        "observability"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-14T15:45:44.645Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-whatsapp-web-multidevice",
+      "fullName": "aldinokemal/go-whatsapp-web-multidevice",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4765,
+      "forks": 1136,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "aldinokemal",
+        "avatar": "https://avatars.githubusercontent.com/u/14232125?s=40&amp;v=4",
+        "url": "https://github.com/aldinokemal"
+      },
+      "summary": "基于 Golang 的 WhatsApp REST API，支持多账号、Webhook、MCP 与 Chatwoot，内存占用低，便于集成与自建服务。",
+      "tags": [
+        "whatsapp",
+        "golang",
+        "rest-api",
+        "webhook",
+        "mcp"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-14T15:45:44.675Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23236,
+      "forks": 850,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
+      },
+      "summary": "基于 Go 的现代化终端文件管理器，界面精美、操作快捷，支持多面板与键盘驱动的高效文件浏览管理。",
+      "tags": [
+        "tui",
+        "file-manager",
+        "go",
+        "terminal",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-14T15:45:44.579Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 127701,
+      "forks": 44063,
+      "starsToday": 318,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排平台，提供容器调度、自动扩缩容、服务发现与自愈能力，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "cloud-native",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-14T15:45:45.534Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "memos",
+      "fullName": "usememos/memos",
+      "url": "https://github.com/usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 63038,
+      "forks": 4754,
+      "starsToday": 80,
+      "topics": [],
+      "author": {
+        "name": "usememos",
+        "avatar": "https://avatars.githubusercontent.com/u/24653555?s=40&amp;v=4",
+        "url": "https://github.com/usememos"
+      },
+      "summary": "开源可自托管的轻量笔记工具，原生支持 Markdown，主打快速记录，数据完全归自己所有。",
+      "tags": [
+        "notes",
+        "self-hosted",
+        "markdown",
+        "go",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T03:58:52.718Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37988,
+      "forks": 4579,
+      "starsToday": 44,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，用 Go 编写，支持多种协议与传输方式，可自建代理服务并灵活组合入站出站规则。",
+      "tags": [
+        "proxy",
+        "golang",
+        "networking",
+        "vpn",
+        "sing-box"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-14T03:58:54.113Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gotohp",
+      "fullName": "xob0t/gotohp",
+      "url": "https://github.com/xob0t/gotohp",
+      "description": "Unofficial Google Photos Desktop GUI Client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 576,
+      "forks": 47,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "xob0t",
+        "avatar": "https://avatars.githubusercontent.com/u/32616886?s=40&amp;v=4",
+        "url": "https://github.com/xob0t"
+      },
+      "summary": "基于 Go 开发的非官方 Google Photos 桌面客户端，提供图形界面浏览、上传与管理云端照片，免浏览器操作。",
+      "tags": [
+        "go",
+        "google-photos",
+        "desktop",
+        "gui",
+        "photos"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T15:45:45.944Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "goreleaser",
+      "fullName": "goreleaser/goreleaser",
+      "url": "https://github.com/goreleaser/goreleaser",
+      "description": "Release engineering, simplified",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16047,
+      "forks": 1108,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "goreleaser",
+        "avatar": "https://avatars.githubusercontent.com/u/245435?s=40&amp;v=4",
+        "url": "https://github.com/goreleaser"
+      },
+      "summary": "Go 编写的发布自动化工具，一条命令完成跨平台编译、打包、签名与发布，简化整个发布流程。",
+      "tags": [
+        "go",
+        "release",
+        "ci",
+        "build",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-14T15:45:45.969Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "JavBoss",
+      "fullName": "Solr159/JavBoss",
+      "url": "https://github.com/Solr159/JavBoss",
+      "description": "开箱即用的本地 JAV/视频 刮削、管理、播放软件，支持命令行一键安装和 Docker 部署。只需简单添加目录，即可打造你的私人 JAV/视频 媒体库，带给你顶级的浏览体验，懒人必备。| Your local JAV/video manager.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 631,
+      "forks": 61,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "Solr159",
+        "avatar": "https://avatars.githubusercontent.com/u/215253515?s=40&amp;v=4",
+        "url": "https://github.com/Solr159"
+      },
+      "summary": "基于 Go 的本地 JAV/视频刮削、管理与播放工具，支持命令行一键安装和 Docker 部署，添加目录即可搭建私人媒体库，浏览体验流畅，适合懒人使用。",
+      "tags": [
+        "go",
+        "media",
+        "self-hosted",
+        "docker",
+        "scraper",
+        "video"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T15:45:45.900Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ligolo-ng",
       "fullName": "nicocha30/ligolo-ng",
       "url": "https://github.com/nicocha30/ligolo-ng",
       "description": "An advanced, yet simple, tunneling/pivoting tool that uses a TUN interface.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4978,
-      "forks": 479,
+      "stars": 4981,
+      "forks": 480,
       "starsToday": 21,
       "topics": [],
       "author": {
@@ -87,6 +399,146 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-14T03:58:49.017Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "flux2",
+      "fullName": "fluxcd/flux2",
+      "url": "https://github.com/fluxcd/flux2",
+      "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8401,
+      "forks": 782,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "fluxcd",
+        "avatar": "https://avatars.githubusercontent.com/u/3797675?s=40&amp;v=4",
+        "url": "https://github.com/fluxcd"
+      },
+      "summary": "基于 GitOps Toolkit 的 Kubernetes 持续交付工具，通过声明式 Git 仓库同步实现集群应用自动部署与状态收敛。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "continuous-delivery",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-14T15:45:46.759Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23548,
+      "forks": 1699,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
+      },
+      "summary": "基于Go的自托管音乐流媒体服务器，扫描本地曲库并提供网页与移动端播放，兼容Subsonic API。",
+      "tags": [
+        "music",
+        "streaming",
+        "self-hosted",
+        "go",
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T03:58:52.807Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7233,
+      "forks": 1507,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
+      },
+      "summary": "开源太阳能充电控制器，用Go编写，自动将光伏余电充入电动车，支持多种逆变器、充电桩和车辆协议。",
+      "tags": [
+        "solar",
+        "ev-charging",
+        "go",
+        "home-automation",
+        "energy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T15:45:47.222Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cliamp",
+      "fullName": "bjarneo/cliamp",
+      "url": "https://github.com/bjarneo/cliamp",
+      "description": "cliamp - Terminal music player inspired by winamp",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4171,
+      "forks": 278,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "bjarneo",
+        "avatar": "https://avatars.githubusercontent.com/u/1419214?s=40&amp;v=4",
+        "url": "https://github.com/bjarneo"
+      },
+      "summary": "用 Go 编写的终端音乐播放器，灵感来自 Winamp，在命令行中即可播放和管理本地音乐，轻量且适合终端爱好者。",
+      "tags": [
+        "music",
+        "terminal",
+        "tui",
+        "go",
+        "cli"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-14T15:45:47.063Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46346,
+      "forks": 11516,
+      "starsToday": 67,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于 Xray 的多协议多用户代理面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供 Web 界面管理流量与用户。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "golang",
+        "networking"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-14T15:45:47.323Z",
       "deepwikiAvailable": false
     },
     {
@@ -115,35 +567,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-14T03:58:49.153Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gpt-load",
-      "fullName": "tbphp/gpt-load",
-      "url": "https://github.com/tbphp/gpt-load",
-      "description": "Self-hosted AI gateway for multi-channel, multi-credential setups — API keys and subscription accounts, scheduling, failover, request logs and usage. 自托管 AI 网关：多渠道多凭据统一接入，含密钥与订阅账号、调度容错、日志与用量。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6732,
-      "forks": 727,
-      "starsToday": 52,
-      "topics": [],
-      "author": {
-        "name": "tbphp",
-        "avatar": "https://avatars.githubusercontent.com/u/17903218?s=40&amp;v=4",
-        "url": "https://github.com/tbphp"
-      },
-      "summary": "自托管 AI 网关，统一接入多渠道多凭据（API 密钥与订阅账号），提供调度、故障转移、请求日志与用量统计。",
-      "tags": [
-        "ai-gateway",
-        "go",
-        "self-hosted",
-        "load-balancing",
-        "failover",
-        "llm"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-14T03:58:50.061Z",
       "deepwikiAvailable": false
     },
     {
@@ -346,34 +769,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "memos",
-      "fullName": "usememos/memos",
-      "url": "https://github.com/usememos/memos",
-      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 63001,
-      "forks": 4752,
-      "starsToday": 35,
-      "topics": [],
-      "author": {
-        "name": "usememos",
-        "avatar": "https://avatars.githubusercontent.com/u/24653555?s=40&amp;v=4",
-        "url": "https://github.com/usememos"
-      },
-      "summary": "开源可自托管的轻量笔记工具，原生支持 Markdown，主打快速记录，数据完全归自己所有。",
-      "tags": [
-        "notes",
-        "self-hosted",
-        "markdown",
-        "go",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-14T03:58:52.718Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "DeepSeek-Reasonix",
       "fullName": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
@@ -400,34 +795,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-14T03:58:52.537Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "navidrome",
-      "fullName": "navidrome/navidrome",
-      "url": "https://github.com/navidrome/navidrome",
-      "description": "🎧 Your Personal Streaming Service",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23533,
-      "forks": 1696,
-      "starsToday": 39,
-      "topics": [],
-      "author": {
-        "name": "navidrome",
-        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
-        "url": "https://github.com/navidrome"
-      },
-      "summary": "基于Go的自托管音乐流媒体服务器，扫描本地曲库并提供网页与移动端播放，兼容Subsonic API。",
-      "tags": [
-        "music",
-        "streaming",
-        "self-hosted",
-        "go",
-        "subsonic"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-14T03:58:52.807Z",
       "deepwikiAvailable": false
     },
     {
@@ -513,34 +880,6 @@
       ],
       "category": "Security",
       "enrichedAt": "2026-09-14T03:58:54.157Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sing-box",
-      "fullName": "SagerNet/sing-box",
-      "url": "https://github.com/SagerNet/sing-box",
-      "description": "The universal proxy platform",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 37961,
-      "forks": 4574,
-      "starsToday": 44,
-      "topics": [],
-      "author": {
-        "name": "SagerNet",
-        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
-        "url": "https://github.com/SagerNet"
-      },
-      "summary": "通用代理平台，用 Go 编写，支持多种协议与传输方式，可自建代理服务并灵活组合入站出站规则。",
-      "tags": [
-        "proxy",
-        "golang",
-        "networking",
-        "vpn",
-        "sing-box"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-14T03:58:54.113Z",
       "deepwikiAvailable": false
     },
     {
