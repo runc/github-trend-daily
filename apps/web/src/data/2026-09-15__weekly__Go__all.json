@@ -1,0 +1,461 @@
+{
+  "date": "2026-09-15",
+  "since": "weekly",
+  "language": "Go",
+  "fetchedAt": "2026-09-15T03:57:41.661Z",
+  "enrichedAt": "2026-09-15T03:59:08.239Z",
+  "repos": [
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23345,
+      "forks": 3312,
+      "starsToday": 1460,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转为可查询的RAG、自主推理智能体和自维护Wiki，用Go编写，适合企业级知识库构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent",
+        "wiki"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:59:03.538Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26145,
+      "forks": 1887,
+      "starsToday": 2709,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:59:03.841Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24429,
+      "forks": 3133,
+      "starsToday": 1929,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go的自主AI智能体系统，可自动执行复杂渗透测试任务，覆盖侦察、漏洞利用等流程。",
+      "tags": [
+        "ai-agents",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:59:04.081Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6597,
+      "forks": 682,
+      "starsToday": 211,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向 AI 编程代理的持久化记忆系统，Go 单二进制，基于 SQLite+FTS5，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
+      "tags": [
+        "ai",
+        "memory",
+        "mcp",
+        "sqlite",
+        "golang",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:59:03.644Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bifrost",
+      "fullName": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8075,
+      "forks": 1215,
+      "starsToday": 211,
+      "topics": [],
+      "author": {
+        "name": "maximhq",
+        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
+        "url": "https://github.com/maximhq"
+      },
+      "summary": "企业级 AI 网关，比 LiteLLM 快 50 倍，支持 1000+ 模型、自适应负载均衡、集群模式与护栏，5k RPS 下开销低于 100 微秒。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "go",
+        "load-balancer",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:04.809Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "App-Store-Connect-CLI",
+      "fullName": "rorkai/App-Store-Connect-CLI",
+      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7244,
+      "forks": 609,
+      "starsToday": 300,
+      "topics": [],
+      "author": {
+        "name": "rorkai",
+        "avatar": "https://avatars.githubusercontent.com/u/30552772?s=40&amp;v=4",
+        "url": "https://github.com/rorkai"
+      },
+      "summary": "用 Go 编写的 App Store Connect 命令行工具，可脚本化调用官方 API，自动化 TestFlight、构建、提审、签名、分析与订阅等发布流程。",
+      "tags": [
+        "cli",
+        "go",
+        "appstore",
+        "testflight",
+        "automation",
+        "ios"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-15T03:59:04.833Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "filebrowser",
+      "fullName": "gtsteffaniak/filebrowser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8294,
+      "forks": 437,
+      "starsToday": 156,
+      "topics": [],
+      "author": {
+        "name": "gtsteffaniak",
+        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
+        "url": "https://github.com/gtsteffaniak"
+      },
+      "summary": "基于 Go 的网页文件浏览器，可在浏览器中管理、上传、分享和预览服务器上的文件，轻量易部署。",
+      "tags": [
+        "filebrowser",
+        "go",
+        "web",
+        "self-hosted",
+        "file-management"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T03:59:05.148Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6803,
+      "forks": 750,
+      "starsToday": 442,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "Gentle-AI 用 Go 编写，为 Claude Code、Cursor、Codex 等主流 AI 编码代理统一配置持久记忆、规范驱动开发、技能与 MCP 服务，开源且不锁定单一代理。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "go",
+        "mcp",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:59:05.461Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dozzle",
+      "fullName": "amir20/dozzle",
+      "url": "https://github.com/amir20/dozzle",
+      "description": "Realtime log viewer for containers. Supports Docker, Swarm and K8s.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14389,
+      "forks": 616,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "amir20",
+        "avatar": "https://avatars.githubusercontent.com/u/260667?s=40&amp;v=4",
+        "url": "https://github.com/amir20"
+      },
+      "summary": "面向容器的实时日志查看器，支持 Docker、Swarm 和 Kubernetes，轻量部署即可在浏览器中查看与检索日志。",
+      "tags": [
+        "logs",
+        "docker",
+        "kubernetes",
+        "observability",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:59:06.145Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hetty",
+      "fullName": "dstotijn/hetty",
+      "url": "https://github.com/dstotijn/hetty",
+      "description": "An HTTP toolkit for security research.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12477,
+      "forks": 816,
+      "starsToday": 163,
+      "topics": [],
+      "author": {
+        "name": "dstotijn",
+        "avatar": "https://avatars.githubusercontent.com/u/983924?s=40&amp;v=4",
+        "url": "https://github.com/dstotijn"
+      },
+      "summary": "用 Go 编写的 HTTP 安全研究工具箱，集代理拦截、请求重放与流量分析于一体，方便渗透测试与漏洞挖掘。",
+      "tags": [
+        "security",
+        "http",
+        "proxy",
+        "golang",
+        "pentest"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:59:05.847Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 180981,
+      "forks": 17873,
+      "starsToday": 655,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等开源模型，提供简洁 API 与命令行交互。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:59:06.584Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "authelia",
+      "fullName": "authelia/authelia",
+      "url": "https://github.com/authelia/authelia",
+      "description": "The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28965,
+      "forks": 1482,
+      "starsToday": 152,
+      "topics": [],
+      "author": {
+        "name": "authelia",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/authelia"
+      },
+      "summary": "Authelia 是面向 Web 应用的开源单点登录与多因素认证门户，支持 OpenID 认证并已适配后量子密码，为自托管服务提供统一身份验证与访问控制。",
+      "tags": [
+        "sso",
+        "authentication",
+        "2fa",
+        "openid",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:06.476Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41590,
+      "forks": 5881,
+      "starsToday": 156,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Xray-core 是 Go 编写的开源网络代理平台，兼容 v2ray 生态，支持多种协议与灵活路由，用于构建高性能代理与穿透服务。",
+      "tags": [
+        "proxy",
+        "networking",
+        "golang",
+        "v2ray",
+        "xray"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:07.101Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 82985,
+      "forks": 2876,
+      "starsToday": 158,
+      "topics": [],
+      "author": {
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "summary": "Go 编写的命令行模糊查找器，可交互式过滤文件、历史记录等任意列表，支持管道集成与丰富快捷键，是终端效率利器。",
+      "tags": [
+        "cli",
+        "fuzzy-finder",
+        "go",
+        "terminal",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-15T03:59:07.529Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-collector-contrib",
+      "fullName": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4930,
+      "forks": 3905,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Collector 官方贡献仓库，汇集大量社区维护的接收器、处理器与导出器组件，用于采集、转换并转发各类遥测数据。",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "go",
+        "telemetry",
+        "collector"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:07.827Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "octo-server",
+      "fullName": "Mininglamp-OSS/octo-server",
+      "url": "https://github.com/Mininglamp-OSS/octo-server",
+      "description": "🐙 The Go backend powering OCTO — an open workplace built for humans × AI agents. REST & WebSocket APIs, Lobster (AI agent) orchestration, and WuKongIM real-time messaging control plane.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 985,
+      "forks": 162,
+      "starsToday": 110,
+      "topics": [],
+      "author": {
+        "name": "Mininglamp-OSS",
+        "avatar": "https://avatars.githubusercontent.com/u/7678334?s=40&amp;v=4",
+        "url": "https://github.com/Mininglamp-OSS"
+      },
+      "summary": "OCTO 开放办公平台的 Go 后端，提供 REST 与 WebSocket API、AI 智能体编排及实时消息控制面。",
+      "tags": [
+        "go",
+        "backend",
+        "ai-agent",
+        "websocket",
+        "messaging"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:08.239Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
