@@ -2,9 +2,93 @@
   "date": "2026-09-15",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-15T03:57:41.661Z",
-  "enrichedAt": "2026-09-15T03:58:33.880Z",
+  "fetchedAt": "2026-09-15T14:13:07.546Z",
+  "enrichedAt": "2026-09-15T14:13:46.675Z",
   "repos": [
+    {
+      "name": "OpenResearch",
+      "fullName": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2980,
+      "forks": 206,
+      "starsToday": 593,
+      "topics": [],
+      "author": {
+        "name": "alphaXiv",
+        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
+        "url": "https://github.com/alphaXiv"
+      },
+      "summary": "将编码智能体改造为科研智能体的开源工具，用 Rust 编写，帮助自动化文献检索与研究工作流。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "research",
+        "automation",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:58:26.932Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "atlas",
+      "fullName": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4491,
+      "forks": 275,
+      "starsToday": 102,
+      "topics": [],
+      "author": {
+        "name": "pacifio",
+        "avatar": "https://avatars.githubusercontent.com/u/32670628?s=40&amp;v=4",
+        "url": "https://github.com/pacifio"
+      },
+      "summary": "面向 AI 编码代理的版本控制系统，可同时运行多个编码代理，集中追踪并查询它们的代码改动。",
+      "tags": [
+        "ai-agents",
+        "version-control",
+        "rust",
+        "developer-tools",
+        "git"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:58:30.484Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omniget",
+      "fullName": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12539,
+      "forks": 1084,
+      "starsToday": 318,
+      "topics": [],
+      "author": {
+        "name": "tonhowtf",
+        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
+        "url": "https://github.com/tonhowtf"
+      },
+      "summary": "基于 yt-dlp 的开源桌面下载器，支持 1800+ 网站的视频、课程、音乐与电子书下载，内置播放器和阅读器，无需命令行。",
+      "tags": [
+        "downloader",
+        "yt-dlp",
+        "desktop",
+        "rust",
+        "video"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T03:58:29.526Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "vaultwarden",
       "fullName": "dani-garcia/vaultwarden",
@@ -12,9 +96,9 @@
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 67577,
-      "forks": 3213,
-      "starsToday": 115,
+      "stars": 67639,
+      "forks": 3214,
+      "starsToday": 222,
       "topics": [],
       "author": {
         "name": "dani-garcia",
@@ -34,15 +118,71 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32244,
+      "forks": 1445,
+      "starsToday": 121,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "Rust 编写的开源 S3 兼容高性能对象存储系统，小对象性能比 MinIO 快 2.3 倍，支持与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "rust",
+        "object-storage",
+        "s3",
+        "minio",
+        "storage"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:58:33.600Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 80475,
+      "forks": 5109,
+      "starsToday": 187,
+      "topics": [],
+      "author": {
+        "name": "rtk-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
+        "url": "https://github.com/rtk-ai"
+      },
+      "summary": "Rust 编写的 CLI 代理，拦截常见开发命令输出并压缩，可减少 60-90% 的 LLM token 消耗，单二进制零依赖。",
+      "tags": [
+        "rust",
+        "cli",
+        "llm",
+        "token",
+        "proxy"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T14:13:44.007Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "RuView",
       "fullName": "ruvnet/RuView",
       "url": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 93923,
-      "forks": 12437,
-      "starsToday": 383,
+      "stars": 94078,
+      "forks": 12451,
+      "starsToday": 440,
       "topics": [],
       "author": {
         "name": "ruvnet",
@@ -62,31 +202,284 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "OpenResearch",
-      "fullName": "alphaXiv/OpenResearch",
-      "url": "https://github.com/alphaXiv/OpenResearch",
-      "description": "Turn your coding agents into research agents",
+      "name": "oxc",
+      "fullName": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "description": "⚓ A collection of high-performance JavaScript tools.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2666,
-      "forks": 177,
-      "starsToday": 568,
+      "stars": 22747,
+      "forks": 1298,
+      "starsToday": 14,
       "topics": [],
       "author": {
-        "name": "alphaXiv",
-        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
-        "url": "https://github.com/alphaXiv"
+        "name": "oxc-project",
+        "avatar": "https://avatars.githubusercontent.com/u/1430279?s=40&amp;v=4",
+        "url": "https://github.com/oxc-project"
       },
-      "summary": "将编码智能体改造为科研智能体的开源工具，用 Rust 编写，帮助自动化文献检索与研究工作流。",
+      "summary": "用 Rust 编写的高性能 JavaScript 工具集，涵盖解析器、Linter、压缩器等，主打极速与高兼容性，可替代传统 JS 工具链。",
       "tags": [
+        "javascript",
         "rust",
-        "ai-agent",
-        "research",
-        "automation",
-        "llm"
+        "linter",
+        "parser",
+        "toolchain"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T14:13:44.094Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 123605,
+      "forks": 19035,
+      "starsToday": 153,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建服务器，可替代 TeamViewer，用 Rust 编写，跨平台且注重安全与低延迟。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T14:13:43.919Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7742,
+      "forks": 273,
+      "starsToday": 127,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "Worktrunk 是用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI 智能体工作流设计，让多个代理在独立工作树中同时开发互不干扰。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "ai-agents",
+        "rust"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-15T03:58:29.311Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openfang",
+      "fullName": "RightNow-AI/openfang",
+      "url": "https://github.com/RightNow-AI/openfang",
+      "description": "Open-source Agent Operating System",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18183,
+      "forks": 2292,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "RightNow-AI",
+        "avatar": "https://avatars.githubusercontent.com/u/103749727?s=40&amp;v=4",
+        "url": "https://github.com/RightNow-AI"
+      },
+      "summary": "开源智能体操作系统，用 Rust 构建，为 AI Agent 提供统一运行时与系统级能力。",
+      "tags": [
+        "ai",
+        "agent",
+        "rust",
+        "os",
+        "runtime"
       ],
       "category": "AI",
-      "enrichedAt": "2026-09-15T03:58:26.932Z",
+      "enrichedAt": "2026-09-15T14:13:44.177Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "firecracker",
+      "fullName": "firecracker-microvm/firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "description": "Secure and fast microVMs for serverless computing.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36750,
+      "forks": 2623,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "firecracker-microvm",
+        "avatar": "https://avatars.githubusercontent.com/u/115481277?s=40&amp;v=4",
+        "url": "https://github.com/firecracker-microvm"
+      },
+      "summary": "基于 KVM 的轻量级 microVM 虚拟机监控器，用 Rust 编写，启动快、开销低，为无服务器与容器工作负载提供安全隔离。",
+      "tags": [
+        "virtualization",
+        "rust",
+        "kvm",
+        "microvm",
+        "serverless"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:45.054Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "git-ai",
+      "fullName": "git-ai-project/git-ai",
+      "url": "https://github.com/git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2731,
+      "forks": 294,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "git-ai-project",
+        "avatar": "https://avatars.githubusercontent.com/u/10859025?s=40&amp;v=4",
+        "url": "https://github.com/git-ai-project"
+      },
+      "summary": "基于 Rust 的 Git 扩展，用于追踪仓库中 AI 生成的代码，帮助开发者识别与审计 AI 贡献的代码来源。",
+      "tags": [
+        "git",
+        "ai",
+        "rust",
+        "code-tracking",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T14:13:45.303Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "biome",
+      "fullName": "biomejs/biome",
+      "url": "https://github.com/biomejs/biome",
+      "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 25790,
+      "forks": 1233,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "biomejs",
+        "avatar": "https://avatars.githubusercontent.com/u/602478?s=40&amp;v=4",
+        "url": "https://github.com/biomejs"
+      },
+      "summary": "面向 Web 项目的 Rust 工具链，集成格式化与代码检查，支持 CLI 和 LSP，可替代 ESLint 与 Prettier，速度极快。",
+      "tags": [
+        "rust",
+        "linter",
+        "formatter",
+        "toolchain",
+        "web",
+        "lsp"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T14:13:45.165Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31633,
+      "forks": 2874,
+      "starsToday": 84,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "完全离线运行的开源语音转文字应用，免费且可扩展，基于 Rust 开发。",
+      "tags": [
+        "speech-to-text",
+        "rust",
+        "offline",
+        "open-source",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T14:13:45.309Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 124348,
+      "forks": 19212,
+      "starsToday": 304,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 开源的终端编码智能体，用 Rust 编写，可在命令行中直接读写代码、执行任务，轻量高效。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "cli",
+        "rust",
+        "terminal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T14:13:46.468Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wealthfolio",
+      "fullName": "wealthfolio/wealthfolio",
+      "url": "https://github.com/wealthfolio/wealthfolio",
+      "description": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8934,
+      "forks": 704,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "wealthfolio",
+        "avatar": "https://avatars.githubusercontent.com/u/8382496?s=40&amp;v=4",
+        "url": "https://github.com/wealthfolio"
+      },
+      "summary": "本地优先的私人理财追踪工具，管理投资、净资产、支出并提供模拟功能，数据完全自持、注重隐私。",
+      "tags": [
+        "finance",
+        "privacy",
+        "local-first",
+        "rust",
+        "investing"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T14:13:46.675Z",
       "deepwikiAvailable": false
     },
     {
@@ -232,34 +625,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "worktrunk",
-      "fullName": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7700,
-      "forks": 273,
-      "starsToday": 182,
-      "topics": [],
-      "author": {
-        "name": "max-sixty",
-        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
-        "url": "https://github.com/max-sixty"
-      },
-      "summary": "Worktrunk 是用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI 智能体工作流设计，让多个代理在独立工作树中同时开发互不干扰。",
-      "tags": [
-        "git",
-        "worktree",
-        "cli",
-        "ai-agents",
-        "rust"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-15T03:58:29.311Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "wgpu",
       "fullName": "gfx-rs/wgpu",
       "url": "https://github.com/gfx-rs/wgpu",
@@ -288,34 +653,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "omniget",
-      "fullName": "tonhowtf/omniget",
-      "url": "https://github.com/tonhowtf/omniget",
-      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 12319,
-      "forks": 1065,
-      "starsToday": 1018,
-      "topics": [],
-      "author": {
-        "name": "tonhowtf",
-        "avatar": "https://avatars.githubusercontent.com/u/58658417?s=40&amp;v=4",
-        "url": "https://github.com/tonhowtf"
-      },
-      "summary": "基于 yt-dlp 的开源桌面下载器，支持 1800+ 网站的视频、课程、音乐与电子书下载，内置播放器和阅读器，无需命令行。",
-      "tags": [
-        "downloader",
-        "yt-dlp",
-        "desktop",
-        "rust",
-        "video"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-15T03:58:29.526Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "airgorah",
       "fullName": "martin-olivier/airgorah",
       "url": "https://github.com/martin-olivier/airgorah",
@@ -341,34 +678,6 @@
       ],
       "category": "Security",
       "enrichedAt": "2026-09-15T03:58:30.658Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "atlas",
-      "fullName": "pacifio/atlas",
-      "url": "https://github.com/pacifio/atlas",
-      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 4428,
-      "forks": 274,
-      "starsToday": 1091,
-      "topics": [],
-      "author": {
-        "name": "pacifio",
-        "avatar": "https://avatars.githubusercontent.com/u/32670628?s=40&amp;v=4",
-        "url": "https://github.com/pacifio"
-      },
-      "summary": "面向 AI 编码代理的版本控制系统，可同时运行多个编码代理，集中追踪并查询它们的代码改动。",
-      "tags": [
-        "ai-agents",
-        "version-control",
-        "rust",
-        "developer-tools",
-        "git"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-15T03:58:30.484Z",
       "deepwikiAvailable": false
     },
     {
@@ -565,34 +874,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-15T03:58:32.975Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 32176,
-      "forks": 1443,
-      "starsToday": 79,
-      "topics": [],
-      "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
-      },
-      "summary": "Rust 编写的开源 S3 兼容高性能对象存储系统，小对象性能比 MinIO 快 2.3 倍，支持与 MinIO、Ceph 等平台迁移共存。",
-      "tags": [
-        "rust",
-        "object-storage",
-        "s3",
-        "minio",
-        "storage"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-15T03:58:33.600Z",
       "deepwikiAvailable": false
     },
     {

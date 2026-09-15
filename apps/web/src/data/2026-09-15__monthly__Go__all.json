@@ -2,38 +2,9 @@
   "date": "2026-09-15",
   "since": "monthly",
   "language": "Go",
-  "fetchedAt": "2026-09-15T03:57:41.661Z",
-  "enrichedAt": "2026-09-15T03:59:48.824Z",
+  "fetchedAt": "2026-09-15T14:13:07.546Z",
+  "enrichedAt": "2026-09-15T14:14:08.146Z",
   "repos": [
-    {
-      "name": "App-Store-Connect-CLI",
-      "fullName": "rorkai/App-Store-Connect-CLI",
-      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
-      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7244,
-      "forks": 609,
-      "starsToday": 1429,
-      "topics": [],
-      "author": {
-        "name": "rorkai",
-        "avatar": "https://avatars.githubusercontent.com/u/30552772?s=40&amp;v=4",
-        "url": "https://github.com/rorkai"
-      },
-      "summary": "用 Go 编写的 App Store Connect 命令行工具，可脚本化自动化 TestFlight、构建、提审、签名、分析与订阅等发布流程。",
-      "tags": [
-        "cli",
-        "go",
-        "appstore",
-        "ios",
-        "automation",
-        "devops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-15T03:59:42.370Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "ipatool",
       "fullName": "majd/ipatool",
@@ -41,7 +12,7 @@
       "description": "Command-line tool that allows you to search for iOS, iPadOS, tvOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 11231,
+      "stars": 11247,
       "forks": 938,
       "starsToday": 1398,
       "topics": [],
@@ -63,14 +34,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "App-Store-Connect-CLI",
+      "fullName": "rorkai/App-Store-Connect-CLI",
+      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7254,
+      "forks": 610,
+      "starsToday": 1429,
+      "topics": [],
+      "author": {
+        "name": "rorkai",
+        "avatar": "https://avatars.githubusercontent.com/u/30552772?s=40&amp;v=4",
+        "url": "https://github.com/rorkai"
+      },
+      "summary": "用 Go 编写的 App Store Connect 命令行工具，可脚本化自动化 TestFlight、构建、提审、签名、分析与订阅等发布流程。",
+      "tags": [
+        "cli",
+        "go",
+        "appstore",
+        "ios",
+        "automation",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:59:42.370Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "glance",
       "fullName": "glanceapp/glance",
       "url": "https://github.com/glanceapp/glance",
       "description": "A self-hosted dashboard that puts all your feeds in one place",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 37046,
-      "forks": 1454,
+      "stars": 37056,
+      "forks": 1455,
       "starsToday": 759,
       "topics": [],
       "author": {
@@ -91,31 +91,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "beszel",
-      "fullName": "henrygd/beszel",
-      "url": "https://github.com/henrygd/beszel",
-      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 25391,
-      "forks": 1017,
-      "starsToday": 1184,
+      "stars": 23749,
+      "forks": 3348,
+      "starsToday": 3309,
       "topics": [],
       "author": {
-        "name": "henrygd",
-        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
-        "url": "https://github.com/henrygd"
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
       },
-      "summary": "轻量级服务器监控工具，支持历史数据、Docker 容器统计与告警，Go 编写，部署简单资源占用低。",
+      "summary": "腾讯开源的大模型知识平台，把原始文档转成可查询的RAG、自主推理智能体和自维护Wiki，基于Go构建。",
       "tags": [
-        "monitoring",
-        "server",
-        "docker",
+        "rag",
+        "llm",
+        "knowledge-base",
         "go",
-        "self-hosted"
+        "agent"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-15T03:59:42.522Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:59:44.101Z",
       "deepwikiAvailable": false
     },
     {
@@ -125,7 +125,7 @@
       "description": "The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 28965,
+      "stars": 28972,
       "forks": 1482,
       "starsToday": 449,
       "topics": [],
@@ -148,14 +148,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "vikunja",
+      "fullName": "go-vikunja/vikunja",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "description": "The task manager you actually own.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5403,
+      "forks": 689,
+      "starsToday": 358,
+      "topics": [],
+      "author": {
+        "name": "go-vikunja",
+        "avatar": "https://avatars.githubusercontent.com/u/13721712?s=40&amp;v=4",
+        "url": "https://github.com/go-vikunja"
+      },
+      "summary": "开源自托管任务管理工具，支持多平台客户端与团队协作，数据完全由自己掌控。",
+      "tags": [
+        "task-manager",
+        "self-hosted",
+        "go",
+        "productivity",
+        "todo"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T03:59:45.007Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "filebrowser",
       "fullName": "gtsteffaniak/filebrowser",
       "url": "https://github.com/gtsteffaniak/filebrowser",
       "description": "📂 Web File Browser",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8294,
-      "forks": 437,
+      "stars": 8300,
+      "forks": 438,
       "starsToday": 547,
       "topics": [],
       "author": {
@@ -173,6 +201,428 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-09-15T03:59:44.010Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "task",
+      "fullName": "go-task/task",
+      "url": "https://github.com/go-task/task",
+      "description": "A fast, cross-platform build tool inspired by Make, designed for modern workflows.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16144,
+      "forks": 908,
+      "starsToday": 197,
+      "topics": [],
+      "author": {
+        "name": "go-task",
+        "avatar": "https://avatars.githubusercontent.com/u/7011819?s=40&amp;v=4",
+        "url": "https://github.com/go-task"
+      },
+      "summary": "受 Make 启发的快速跨平台构建工具，用 YAML 定义任务，面向现代开发流程，替代 Makefile 更易读易维护。",
+      "tags": [
+        "build-tool",
+        "go",
+        "cli",
+        "task-runner",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:59:45.190Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7240,
+      "forks": 1505,
+      "starsToday": 171,
+      "topics": [],
+      "author": {
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
+      },
+      "summary": "开源太阳能充电控制器，用 Go 编写，可自动调度光伏余电为电动车充电，支持众多逆变器、充电桩和车辆品牌，实现家庭能源智能管理。",
+      "tags": [
+        "solar",
+        "ev-charging",
+        "energy",
+        "go",
+        "home-automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T14:14:08.145Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3766,
+      "forks": 180,
+      "starsToday": 1887,
+      "topics": [],
+      "author": {
+        "name": "asciimoo",
+        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
+        "url": "https://github.com/asciimoo"
+      },
+      "summary": "用 Go 编写的自托管搜索引擎，可索引本地浏览历史与文件，提供私有的全文检索服务。",
+      "tags": [
+        "search",
+        "go",
+        "self-hosted",
+        "indexing",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T03:59:45.369Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1867,
+      "forks": 320,
+      "starsToday": 643,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 是用 Go 编写的 AI 智能体核心运行系统，为构建和编排自主智能体提供底层基础设施。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "infrastructure",
+        "orchestration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:59:44.936Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kopia",
+      "fullName": "kopia/kopia",
+      "url": "https://github.com/kopia/kopia",
+      "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14119,
+      "forks": 727,
+      "starsToday": 274,
+      "topics": [],
+      "author": {
+        "name": "kopia",
+        "avatar": "https://avatars.githubusercontent.com/u/249880?s=40&amp;v=4",
+        "url": "https://github.com/kopia"
+      },
+      "summary": "跨平台备份工具，支持增量备份、端到端加密、压缩与数据去重，含命令行与图形界面。",
+      "tags": [
+        "backup",
+        "go",
+        "encryption",
+        "deduplication",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:59:46.194Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "talos",
+      "fullName": "siderolabs/talos",
+      "url": "https://github.com/siderolabs/talos",
+      "description": "Talos Linux is a modern Linux distribution built for Kubernetes.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11165,
+      "forks": 893,
+      "starsToday": 240,
+      "topics": [],
+      "author": {
+        "name": "siderolabs",
+        "avatar": "https://avatars.githubusercontent.com/u/55211?s=40&amp;v=4",
+        "url": "https://github.com/siderolabs"
+      },
+      "summary": "专为 Kubernetes 打造的现代 Linux 发行版，API 驱动、不可变、无 SSH 与 shell，简化集群部署与运维。",
+      "tags": [
+        "kubernetes",
+        "linux",
+        "distro",
+        "golang",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:46.082Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "1Panel",
+      "fullName": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36899,
+      "forks": 3348,
+      "starsToday": 446,
+      "topics": [],
+      "author": {
+        "name": "1Panel-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/31820853?s=40&amp;v=4",
+        "url": "https://github.com/1Panel-dev"
+      },
+      "summary": "开源现代化 Linux 服务器运维管理面板，支持网站、数据库、容器等可视化管理，并集成轻量 AI 管理能力。",
+      "tags": [
+        "linux",
+        "server",
+        "panel",
+        "devops",
+        "go",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:59:46.169Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34693,
+      "forks": 3003,
+      "starsToday": 628,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，提供 S3 对象存储、文件系统与 Iceberg 表支持，可承载数十亿文件并实现 O(1) 磁盘访问与轻松横向扩展。",
+      "tags": [
+        "storage",
+        "distributed",
+        "s3",
+        "golang",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:47.733Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "router",
+      "fullName": "weave-os/router",
+      "url": "https://github.com/weave-os/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4344,
+      "forks": 117,
+      "starsToday": 3412,
+      "topics": [],
+      "author": {
+        "name": "weave-os",
+        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
+        "url": "https://github.com/weave-os"
+      },
+      "summary": "面向智能体系统的模型路由器，50毫秒内将每个提示词分发到最合适的模型，仅需更换接口即可降低40-70%成本。",
+      "tags": [
+        "llm",
+        "router",
+        "go",
+        "agent",
+        "cost-optimization"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:59:47.448Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41585,
+      "forks": 8694,
+      "starsToday": 4719,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具无缝使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:46.434Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "milvus",
+      "fullName": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46119,
+      "forks": 4252,
+      "starsToday": 528,
+      "topics": [],
+      "author": {
+        "name": "milvus-io",
+        "avatar": "https://avatars.githubusercontent.com/u/84113973?s=40&amp;v=4",
+        "url": "https://github.com/milvus-io"
+      },
+      "summary": "Milvus 是云原生高性能向量数据库，专为大规模向量近似最近邻检索设计，支撑 AI 与相似性搜索应用。",
+      "tags": [
+        "vector-database",
+        "ann-search",
+        "golang",
+        "cloud-native",
+        "ai"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-15T14:14:07.867Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5824,
+      "forks": 943,
+      "starsToday": 649,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "基于语义的可编程混合模型路由器，按请求内容智能调度异构LLM推理，提升吞吐并降低成本。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "moa"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T03:59:47.436Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25400,
+      "forks": 1017,
+      "starsToday": 1184,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据、Docker 容器统计与告警，Go 编写，部署简单资源占用低。",
+      "tags": [
+        "monitoring",
+        "server",
+        "docker",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:42.522Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24476,
+      "forks": 3135,
+      "starsToday": 2751,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI智能体系统，可自动完成复杂渗透测试任务，降低安全测试门槛。",
+      "tags": [
+        "ai-agents",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T14:14:07.907Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudflared",
+      "fullName": "cloudflare/cloudflared",
+      "url": "https://github.com/cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15621,
+      "forks": 1440,
+      "starsToday": 413,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare Tunnel 官方客户端，无需开放入站端口即可把本地服务安全暴露到公网，支持反向代理与零信任访问。",
+      "tags": [
+        "cloudflare",
+        "tunnel",
+        "networking",
+        "go",
+        "proxy",
+        "zero-trust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T03:59:47.738Z",
       "deepwikiAvailable": false
     },
     {
@@ -201,372 +651,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-15T03:59:43.599Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23345,
-      "forks": 3312,
-      "starsToday": 3309,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的大模型知识平台，把原始文档转成可查询的RAG、自主推理智能体和自维护Wiki，基于Go构建。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "go",
-        "agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-15T03:59:44.101Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1862,
-      "forks": 320,
-      "starsToday": 643,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "Agent Substrate 是用 Go 编写的 AI 智能体核心运行系统，为构建和编排自主智能体提供底层基础设施。",
-      "tags": [
-        "ai",
-        "agents",
-        "go",
-        "infrastructure",
-        "orchestration"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-15T03:59:44.936Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "task",
-      "fullName": "go-task/task",
-      "url": "https://github.com/go-task/task",
-      "description": "A fast, cross-platform build tool inspired by Make, designed for modern workflows.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 16141,
-      "forks": 908,
-      "starsToday": 197,
-      "topics": [],
-      "author": {
-        "name": "go-task",
-        "avatar": "https://avatars.githubusercontent.com/u/7011819?s=40&amp;v=4",
-        "url": "https://github.com/go-task"
-      },
-      "summary": "受 Make 启发的快速跨平台构建工具，用 YAML 定义任务，面向现代开发流程，替代 Makefile 更易读易维护。",
-      "tags": [
-        "build-tool",
-        "go",
-        "cli",
-        "task-runner",
-        "cross-platform"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-15T03:59:45.190Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "vikunja",
-      "fullName": "go-vikunja/vikunja",
-      "url": "https://github.com/go-vikunja/vikunja",
-      "description": "The task manager you actually own.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5396,
-      "forks": 689,
-      "starsToday": 358,
-      "topics": [],
-      "author": {
-        "name": "go-vikunja",
-        "avatar": "https://avatars.githubusercontent.com/u/13721712?s=40&amp;v=4",
-        "url": "https://github.com/go-vikunja"
-      },
-      "summary": "开源自托管任务管理工具，支持多平台客户端与团队协作，数据完全由自己掌控。",
-      "tags": [
-        "task-manager",
-        "self-hosted",
-        "go",
-        "productivity",
-        "todo"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-15T03:59:45.007Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hister",
-      "fullName": "asciimoo/hister",
-      "url": "https://github.com/asciimoo/hister",
-      "description": "Your own search engine",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3757,
-      "forks": 180,
-      "starsToday": 1887,
-      "topics": [],
-      "author": {
-        "name": "asciimoo",
-        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
-        "url": "https://github.com/asciimoo"
-      },
-      "summary": "用 Go 编写的自托管搜索引擎，可索引本地浏览历史与文件，提供私有的全文检索服务。",
-      "tags": [
-        "search",
-        "go",
-        "self-hosted",
-        "indexing",
-        "privacy"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-15T03:59:45.369Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kopia",
-      "fullName": "kopia/kopia",
-      "url": "https://github.com/kopia/kopia",
-      "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 14117,
-      "forks": 727,
-      "starsToday": 274,
-      "topics": [],
-      "author": {
-        "name": "kopia",
-        "avatar": "https://avatars.githubusercontent.com/u/249880?s=40&amp;v=4",
-        "url": "https://github.com/kopia"
-      },
-      "summary": "跨平台备份工具，支持增量备份、端到端加密、压缩与数据去重，含命令行与图形界面。",
-      "tags": [
-        "backup",
-        "go",
-        "encryption",
-        "deduplication",
-        "cli"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-15T03:59:46.194Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "talos",
-      "fullName": "siderolabs/talos",
-      "url": "https://github.com/siderolabs/talos",
-      "description": "Talos Linux is a modern Linux distribution built for Kubernetes.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 11163,
-      "forks": 893,
-      "starsToday": 240,
-      "topics": [],
-      "author": {
-        "name": "siderolabs",
-        "avatar": "https://avatars.githubusercontent.com/u/55211?s=40&amp;v=4",
-        "url": "https://github.com/siderolabs"
-      },
-      "summary": "专为 Kubernetes 打造的现代 Linux 发行版，API 驱动、不可变、无 SSH 与 shell，简化集群部署与运维。",
-      "tags": [
-        "kubernetes",
-        "linux",
-        "distro",
-        "golang",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-15T03:59:46.082Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "1Panel",
-      "fullName": "1Panel-dev/1Panel",
-      "url": "https://github.com/1Panel-dev/1Panel",
-      "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 36894,
-      "forks": 3348,
-      "starsToday": 446,
-      "topics": [],
-      "author": {
-        "name": "1Panel-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/31820853?s=40&amp;v=4",
-        "url": "https://github.com/1Panel-dev"
-      },
-      "summary": "开源现代化 Linux 服务器运维管理面板，支持网站、数据库、容器等可视化管理，并集成轻量 AI 管理能力。",
-      "tags": [
-        "linux",
-        "server",
-        "panel",
-        "devops",
-        "go",
-        "self-hosted"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-15T03:59:46.169Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sub2api",
-      "fullName": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 41537,
-      "forks": 8671,
-      "starsToday": 4719,
-      "topics": [],
-      "author": {
-        "name": "Wei-Shaw",
-        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
-        "url": "https://github.com/Wei-Shaw"
-      },
-      "summary": "一站式开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具无缝使用。",
-      "tags": [
-        "api-gateway",
-        "proxy",
-        "llm",
-        "go",
-        "self-hosted"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-15T03:59:46.434Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "router",
-      "fullName": "weave-os/router",
-      "url": "https://github.com/weave-os/router",
-      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4337,
-      "forks": 116,
-      "starsToday": 3412,
-      "topics": [],
-      "author": {
-        "name": "weave-os",
-        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
-        "url": "https://github.com/weave-os"
-      },
-      "summary": "面向智能体系统的模型路由器，50毫秒内将每个提示词分发到最合适的模型，仅需更换接口即可降低40-70%成本。",
-      "tags": [
-        "llm",
-        "router",
-        "go",
-        "agent",
-        "cost-optimization"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-15T03:59:47.448Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "semantic-router",
-      "fullName": "vllm-project/semantic-router",
-      "url": "https://github.com/vllm-project/semantic-router",
-      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5808,
-      "forks": 943,
-      "starsToday": 649,
-      "topics": [],
-      "author": {
-        "name": "vllm-project",
-        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
-        "url": "https://github.com/vllm-project"
-      },
-      "summary": "基于语义的可编程混合模型路由器，按请求内容智能调度异构LLM推理，提升吞吐并降低成本。",
-      "tags": [
-        "llm",
-        "router",
-        "inference",
-        "go",
-        "moa"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-15T03:59:47.436Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cloudflared",
-      "fullName": "cloudflare/cloudflared",
-      "url": "https://github.com/cloudflare/cloudflared",
-      "description": "Cloudflare Tunnel client",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 15619,
-      "forks": 1438,
-      "starsToday": 413,
-      "topics": [],
-      "author": {
-        "name": "cloudflare",
-        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
-        "url": "https://github.com/cloudflare"
-      },
-      "summary": "Cloudflare Tunnel 官方客户端，无需开放入站端口即可把本地服务安全暴露到公网，支持反向代理与零信任访问。",
-      "tags": [
-        "cloudflare",
-        "tunnel",
-        "networking",
-        "go",
-        "proxy",
-        "zero-trust"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-15T03:59:47.738Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "seaweedfs",
-      "fullName": "seaweedfs/seaweedfs",
-      "url": "https://github.com/seaweedfs/seaweedfs",
-      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 34655,
-      "forks": 3002,
-      "starsToday": 628,
-      "topics": [],
-      "author": {
-        "name": "seaweedfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
-        "url": "https://github.com/seaweedfs"
-      },
-      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，提供 S3 对象存储、文件系统与 Iceberg 表支持，可承载数十亿文件并实现 O(1) 磁盘访问与轻松横向扩展。",
-      "tags": [
-        "storage",
-        "distributed",
-        "s3",
-        "golang",
-        "filesystem"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-15T03:59:47.733Z",
       "deepwikiAvailable": false
     },
     {

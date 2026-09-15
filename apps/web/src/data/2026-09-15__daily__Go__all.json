@@ -2,8 +2,8 @@
   "date": "2026-09-15",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-15T03:57:41.661Z",
-  "enrichedAt": "2026-09-15T03:58:25.432Z",
+  "fetchedAt": "2026-09-15T14:13:07.546Z",
+  "enrichedAt": "2026-09-15T14:13:42.928Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,9 +12,9 @@
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 26145,
-      "forks": 1887,
-      "starsToday": 1571,
+      "stars": 27476,
+      "forks": 1966,
+      "starsToday": 2751,
       "topics": [],
       "author": {
         "name": "alibaba",
@@ -34,15 +34,71 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12501,
+      "forks": 1122,
+      "starsToday": 295,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "腾讯云开源的 AI Agent 沙箱，用 Go 编写，支持毫秒级启动、高并发与安全隔离，为智能体提供轻量代码执行环境。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "go",
+        "security",
+        "isolation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:38.564Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "arcane",
+      "fullName": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7395,
+      "forks": 309,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "getarcaneapp",
+        "avatar": "https://avatars.githubusercontent.com/u/25576967?s=40&amp;v=4",
+        "url": "https://github.com/getarcaneapp"
+      },
+      "summary": "面向所有人的现代化 Docker 管理平台，用 Go 编写，提供简洁易用的容器、镜像与编排可视化管理界面。",
+      "tags": [
+        "docker",
+        "go",
+        "devops",
+        "container",
+        "selfhosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T14:13:38.303Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "pentagi",
       "fullName": "vxcontrol/pentagi",
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24429,
-      "forks": 3133,
-      "starsToday": 661,
+      "stars": 24476,
+      "forks": 3135,
+      "starsToday": 117,
       "topics": [],
       "author": {
         "name": "vxcontrol",
@@ -59,6 +115,485 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-15T03:58:20.238Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "minio",
+      "fullName": "minio/minio",
+      "url": "https://github.com/minio/minio",
+      "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 61367,
+      "forks": 7921,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "minio",
+        "avatar": "https://avatars.githubusercontent.com/u/622699?s=40&amp;v=4",
+        "url": "https://github.com/minio"
+      },
+      "summary": "MinIO 是高性能、兼容 S3 API 的开源对象存储，用 Go 编写，适合自建私有云存储与海量数据场景。",
+      "tags": [
+        "object-storage",
+        "s3",
+        "go",
+        "self-hosted",
+        "storage"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:38.365Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34693,
+      "forks": 3003,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可轻松承载数十亿文件并实现 O(1) 磁盘访问与横向扩展。",
+      "tags": [
+        "storage",
+        "distributed",
+        "s3",
+        "golang",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:38.405Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23749,
+      "forks": 3348,
+      "starsToday": 574,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体与自维护Wiki，基于Go构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T14:13:39.452Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23575,
+      "forks": 1704,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
+      },
+      "summary": "自托管的个人音乐流媒体服务器，兼容Subsonic API，可扫描本地音乐库并跨设备播放，支持多用户与多种客户端。",
+      "tags": [
+        "music",
+        "streaming",
+        "self-hosted",
+        "go",
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T03:58:24.065Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harbor",
+      "fullName": "goharbor/harbor",
+      "url": "https://github.com/goharbor/harbor",
+      "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29370,
+      "forks": 5342,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "goharbor",
+        "avatar": "https://avatars.githubusercontent.com/u/5835782?s=40&amp;v=4",
+        "url": "https://github.com/goharbor"
+      },
+      "summary": "开源云原生镜像仓库，支持镜像存储、签名与漏洞扫描，提供企业级权限和复制能力。",
+      "tags": [
+        "registry",
+        "docker",
+        "kubernetes",
+        "security",
+        "go",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:39.474Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mcp-toolbox",
+      "fullName": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16408,
+      "forks": 1720,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "googleapis",
+        "avatar": "https://avatars.githubusercontent.com/u/45984206?s=40&amp;v=4",
+        "url": "https://github.com/googleapis"
+      },
+      "summary": "面向数据库的开源 MCP 服务器，让 AI 代理安全便捷地连接并查询多种数据库。",
+      "tags": [
+        "mcp",
+        "database",
+        "go",
+        "ai",
+        "server"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T14:13:39.391Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gin",
+      "fullName": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 89223,
+      "forks": 8693,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "gin-gonic",
+        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
+        "url": "https://github.com/gin-gonic"
+      },
+      "summary": "Gin 是 Go 语言高性能 HTTP Web 框架，API 类似 Martini 但快约 40 倍，适合构建 REST API、Web 应用与微服务。",
+      "tags": [
+        "go",
+        "web-framework",
+        "http",
+        "rest-api",
+        "microservices"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-09-15T14:13:39.976Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "runtime",
+      "fullName": "e2b-dev/runtime",
+      "url": "https://github.com/e2b-dev/runtime",
+      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1426,
+      "forks": 417,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "e2b-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/49156497?s=40&amp;v=4",
+        "url": "https://github.com/e2b-dev"
+      },
+      "summary": "E2B 沙箱运行时，为云端、企业版和本地环境提供安全隔离的代码执行环境，支撑 AI 智能体运行不可信代码。",
+      "tags": [
+        "sandbox",
+        "runtime",
+        "go",
+        "ai-agents",
+        "code-execution"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:40.712Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "frp",
+      "fullName": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 109447,
+      "forks": 15215,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "fatedier",
+        "avatar": "https://avatars.githubusercontent.com/u/7346661?s=40&amp;v=4",
+        "url": "https://github.com/fatedier"
+      },
+      "summary": "高性能反向代理工具，可将 NAT 或防火墙后的本地服务安全暴露到公网，配置简单、跨平台，广泛用于内网穿透与端口转发。",
+      "tags": [
+        "proxy",
+        "tunnel",
+        "golang",
+        "nat",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:40.614Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows you to search for iOS, iPadOS, tvOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11247,
+      "forks": 938,
+      "starsToday": 122,
+      "topics": [],
+      "author": {
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
+      },
+      "summary": "命令行工具，可在 App Store 搜索 iOS、iPadOS、tvOS、visionOS 和 macOS 应用，并下载 .ipa 或 .pkg 安装包。",
+      "tags": [
+        "cli",
+        "appstore",
+        "ios",
+        "go",
+        "downloader"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-15T14:13:40.630Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5842,
+      "forks": 924,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可按关键词批量提取商家名称、地址、电话、网站、评分、经纬度、邮箱与评论等信息，支持导出结构化数据。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "go",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-15T14:13:40.972Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kserve",
+      "fullName": "kserve/kserve",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5916,
+      "forks": 1673,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "kserve",
+        "avatar": "https://avatars.githubusercontent.com/u/7662095?s=40&amp;v=4",
+        "url": "https://github.com/kserve"
+      },
+      "summary": "KServe 是 Kubernetes 上的标准化模型推理平台，支持生成式与预测式 AI 的多框架分布式部署，提供自动扩缩容与统一推理接口。",
+      "tags": [
+        "kubernetes",
+        "inference",
+        "mlops",
+        "serving",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:41.776Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "octo-server",
+      "fullName": "Mininglamp-OSS/octo-server",
+      "url": "https://github.com/Mininglamp-OSS/octo-server",
+      "description": "🐙 The Go backend powering OCTO — an open workplace built for humans × AI agents. REST & WebSocket APIs, Lobster (AI agent) orchestration, and WuKongIM real-time messaging control plane.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1017,
+      "forks": 164,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "Mininglamp-OSS",
+        "avatar": "https://avatars.githubusercontent.com/u/7678334?s=40&amp;v=4",
+        "url": "https://github.com/Mininglamp-OSS"
+      },
+      "summary": "OCTO 开放协作平台的 Go 后端，提供 REST 与 WebSocket API、AI 智能体编排及实时消息控制面，支持人机协同办公。",
+      "tags": [
+        "go",
+        "backend",
+        "ai-agent",
+        "websocket",
+        "realtime",
+        "collaboration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:41.847Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "homebox",
+      "fullName": "sysadminsmedia/homebox",
+      "url": "https://github.com/sysadminsmedia/homebox",
+      "description": "A continuation of HomeBox the inventory and organization system built for the Home User",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7281,
+      "forks": 555,
+      "starsToday": 76,
+      "topics": [],
+      "author": {
+        "name": "sysadminsmedia",
+        "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&amp;v=4",
+        "url": "https://github.com/sysadminsmedia"
+      },
+      "summary": "面向家庭用户的库存与物品管理系统的社区延续版，用 Go 编写，可自托管，帮助记录、分类和查找家中物品。",
+      "tags": [
+        "inventory",
+        "self-hosted",
+        "go",
+        "home",
+        "organization"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-15T14:13:41.989Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nomad",
+      "fullName": "hashicorp/nomad",
+      "url": "https://github.com/hashicorp/nomad",
+      "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16950,
+      "forks": 2143,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/1047914?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "Nomad 是 HashiCorp 出品的轻量易用的工作负载编排器，可统一调度微服务、批处理及容器与非容器应用，原生集成 Consul 和 Vault，易运维易扩展。",
+      "tags": [
+        "orchestration",
+        "scheduler",
+        "golang",
+        "hashicorp",
+        "devops",
+        "cluster"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-15T14:13:42.216Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-whatsapp-web-multidevice",
+      "fullName": "aldinokemal/go-whatsapp-web-multidevice",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4787,
+      "forks": 1138,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "aldinokemal",
+        "avatar": "https://avatars.githubusercontent.com/u/14232125?s=40&amp;v=4",
+        "url": "https://github.com/aldinokemal"
+      },
+      "summary": "基于 Go 的 WhatsApp REST API，支持多账号、Webhook、MCP 与 Chatwoot 集成，内存占用低，可自建消息网关。",
+      "tags": [
+        "whatsapp",
+        "golang",
+        "rest-api",
+        "webhooks",
+        "mcp"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-15T03:58:21.602Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 181037,
+      "forks": 17886,
+      "starsToday": 152,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的开源工具，简化模型下载与推理部署。",
+      "tags": [
+        "llm",
+        "inference",
+        "local",
+        "go",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-15T14:13:42.928Z",
       "deepwikiAvailable": false
     },
     {
@@ -146,34 +681,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-15T03:58:21.269Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "go-whatsapp-web-multidevice",
-      "fullName": "aldinokemal/go-whatsapp-web-multidevice",
-      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
-      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4776,
-      "forks": 1137,
-      "starsToday": 17,
-      "topics": [],
-      "author": {
-        "name": "aldinokemal",
-        "avatar": "https://avatars.githubusercontent.com/u/14232125?s=40&amp;v=4",
-        "url": "https://github.com/aldinokemal"
-      },
-      "summary": "基于 Go 的 WhatsApp REST API，支持多账号、Webhook、MCP 与 Chatwoot 集成，内存占用低，可自建消息网关。",
-      "tags": [
-        "whatsapp",
-        "golang",
-        "rest-api",
-        "webhooks",
-        "mcp"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-15T03:58:21.602Z",
       "deepwikiAvailable": false
     },
     {
@@ -427,34 +934,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-15T03:58:23.737Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "navidrome",
-      "fullName": "navidrome/navidrome",
-      "url": "https://github.com/navidrome/navidrome",
-      "description": "🎧 Your Personal Streaming Service",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23561,
-      "forks": 1704,
-      "starsToday": 34,
-      "topics": [],
-      "author": {
-        "name": "navidrome",
-        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
-        "url": "https://github.com/navidrome"
-      },
-      "summary": "自托管的个人音乐流媒体服务器，兼容Subsonic API，可扫描本地音乐库并跨设备播放，支持多用户与多种客户端。",
-      "tags": [
-        "music",
-        "streaming",
-        "self-hosted",
-        "go",
-        "subsonic"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-15T03:58:24.065Z",
       "deepwikiAvailable": false
     },
     {
