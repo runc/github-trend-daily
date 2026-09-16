@@ -2,8 +2,8 @@
   "date": "2026-09-16",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-16T03:55:49.825Z",
-  "enrichedAt": "2026-09-16T03:56:29.406Z",
+  "fetchedAt": "2026-09-16T14:05:11.248Z",
+  "enrichedAt": "2026-09-16T14:05:49.381Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,9 +12,9 @@
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 29032,
-      "forks": 2067,
-      "starsToday": 2756,
+      "stars": 30652,
+      "forks": 2184,
+      "starsToday": 3215,
       "topics": [],
       "author": {
         "name": "alibaba",
@@ -34,13 +34,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24927,
+      "forks": 3449,
+      "starsToday": 696,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体和自维护Wiki，用Go构建，适合企业级知识库落地。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent",
+        "wiki"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-16T03:56:25.531Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "CubeSandbox",
       "fullName": "TencentCloud/CubeSandbox",
       "url": "https://github.com/TencentCloud/CubeSandbox",
       "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 12515,
+      "stars": 12547,
       "forks": 1123,
       "starsToday": 259,
       "topics": [],
@@ -59,6 +88,544 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-16T03:56:24.307Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "runtime",
+      "fullName": "e2b-dev/runtime",
+      "url": "https://github.com/e2b-dev/runtime",
+      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1548,
+      "forks": 427,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "e2b-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/49156497?s=40&amp;v=4",
+        "url": "https://github.com/e2b-dev"
+      },
+      "summary": "E2B 沙箱运行时，为云端、企业版和本地机器提供统一的隔离代码执行环境，支撑 AI Agent 安全运行不可信代码。",
+      "tags": [
+        "sandbox",
+        "runtime",
+        "go",
+        "ai-agents",
+        "code-execution",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T03:56:26.533Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "versitygw",
+      "fullName": "versity/versitygw",
+      "url": "https://github.com/versity/versitygw",
+      "description": "A simple to deploy but feature rich S3 object storage server for your filesystem",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2874,
+      "forks": 302,
+      "starsToday": 66,
+      "topics": [],
+      "author": {
+        "name": "versity",
+        "avatar": "https://avatars.githubusercontent.com/u/2184287?s=40&amp;v=4",
+        "url": "https://github.com/versity"
+      },
+      "summary": "基于文件系统的 S3 对象存储网关，部署简单且功能丰富，让本地磁盘直接提供 S3 兼容接口。",
+      "tags": [
+        "s3",
+        "object-storage",
+        "gateway",
+        "go",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:45.018Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 181119,
+      "forks": 17906,
+      "starsToday": 140,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的一键工具，提供简洁命令行与 API，让开源模型开箱即用。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-16T03:56:29.406Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailcat",
+      "fullName": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7322,
+      "forks": 299,
+      "starsToday": 144,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "类似 netcat 的工具，但通过 Tailscale 数据平面直连，无需其控制平面，实现点对点加密传输。",
+      "tags": [
+        "networking",
+        "tailscale",
+        "netcat",
+        "go",
+        "p2p"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-16T14:05:45.292Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cockroach",
+      "fullName": "cockroachdb/cockroach",
+      "url": "https://github.com/cockroachdb/cockroach",
+      "description": "CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32467,
+      "forks": 4111,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "cockroachdb",
+        "avatar": "https://avatars.githubusercontent.com/u/5076964?s=40&amp;v=4",
+        "url": "https://github.com/cockroachdb"
+      },
+      "summary": "CockroachDB 是云原生分布式 SQL 数据库，具备高可用、弹性扩展与数据地理分布控制能力，兼容 PostgreSQL 协议。",
+      "tags": [
+        "database",
+        "sql",
+        "distributed",
+        "go",
+        "cloud-native"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-16T14:05:45.388Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nuclei",
+      "fullName": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 31240,
+      "forks": 3871,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "projectdiscovery",
+        "avatar": "https://avatars.githubusercontent.com/u/13421144?s=40&amp;v=4",
+        "url": "https://github.com/projectdiscovery"
+      },
+      "summary": "基于 YAML 模板的快速可定制漏洞扫描器，依托社区模板库检测应用、API、网络、DNS 与云配置中的漏洞。",
+      "tags": [
+        "security",
+        "vulnerability-scanner",
+        "go",
+        "yaml",
+        "cli",
+        "pentest"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-16T14:05:45.311Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nats-server",
+      "fullName": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20714,
+      "forks": 1957,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "nats-io",
+        "avatar": "https://avatars.githubusercontent.com/u/90097?s=40&amp;v=4",
+        "url": "https://github.com/nats-io"
+      },
+      "summary": "NATS.io 的高性能消息服务器，为云与边缘场景提供轻量、低延迟的发布订阅与流式通信能力。",
+      "tags": [
+        "nats",
+        "messaging",
+        "pubsub",
+        "go",
+        "server",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:46.147Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 105907,
+      "forks": 6127,
+      "starsToday": 233,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用原始人式极简表达为编码智能体省 token 的技能与代理，可削减约 65% 的 token 消耗，降低调用成本。",
+      "tags": [
+        "llm",
+        "agents",
+        "proxy",
+        "token",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-16T14:05:46.759Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "grpc-go",
+      "fullName": "grpc/grpc-go",
+      "url": "https://github.com/grpc/grpc-go",
+      "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23060,
+      "forks": 4765,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "grpc",
+        "avatar": "https://avatars.githubusercontent.com/u/10121772?s=40&amp;v=4",
+        "url": "https://github.com/grpc"
+      },
+      "summary": "gRPC 的 Go 语言官方实现，基于 HTTP/2 的高性能远程过程调用框架，支持多语言互通与流式通信。",
+      "tags": [
+        "grpc",
+        "go",
+        "rpc",
+        "http2",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-16T14:05:46.733Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "temporal",
+      "fullName": "temporalio/temporal",
+      "url": "https://github.com/temporalio/temporal",
+      "description": "Temporal service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23089,
+      "forks": 1901,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "temporalio",
+        "avatar": "https://avatars.githubusercontent.com/u/8762893?s=40&amp;v=4",
+        "url": "https://github.com/temporalio"
+      },
+      "summary": "Temporal 是一个开源的工作流编排引擎，用 Go 编写，为微服务提供持久化、可容错的工作流执行，保证长时间运行的业务流程可靠完成。",
+      "tags": [
+        "workflow",
+        "go",
+        "orchestration",
+        "distributed",
+        "durable-execution"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:46.619Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 127759,
+      "forks": 44288,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和运维管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "golang",
+        "cloud-native",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:47.539Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-sandbox",
+      "fullName": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3909,
+      "forks": 512,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/4876867?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubernetes 上管理隔离、有状态单例工作负载的沙箱方案，适合 AI 智能体运行时与强化学习等场景。",
+      "tags": [
+        "kubernetes",
+        "sandbox",
+        "ai-agents",
+        "go",
+        "workloads"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:47.763Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coder",
+      "fullName": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14550,
+      "forks": 1475,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "coder",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/coder"
+      },
+      "summary": "基于 Go 的自托管云开发环境平台，为开发者与 AI 代理提供安全隔离的远程工作区，支持模板化配置与统一管理。",
+      "tags": [
+        "dev-environment",
+        "go",
+        "self-hosted",
+        "remote-development",
+        "terraform"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:47.765Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mcp-toolbox",
+      "fullName": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16436,
+      "forks": 1721,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "googleapis",
+        "avatar": "https://avatars.githubusercontent.com/u/45984206?s=40&amp;v=4",
+        "url": "https://github.com/googleapis"
+      },
+      "summary": "面向数据库的开源 MCP 服务器，让 AI 代理通过标准协议安全查询和操作多种数据库，简化工具接入。",
+      "tags": [
+        "mcp",
+        "database",
+        "go",
+        "ai-agent",
+        "server"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-16T03:56:26.315Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vault",
+      "fullName": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36253,
+      "forks": 4758,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "HashiCorp Vault 是密钥管理与加密即服务平台，提供动态凭证、加密服务和特权访问管理，保障分布式系统敏感数据安全。",
+      "tags": [
+        "secrets",
+        "security",
+        "encryption",
+        "go",
+        "iam"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:48.306Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudnative-pg",
+      "fullName": "cloudnative-pg/cloudnative-pg",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg",
+      "description": "The most popular Kubernetes Operator for PostgreSQL.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9305,
+      "forks": 763,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "cloudnative-pg",
+        "avatar": "https://avatars.githubusercontent.com/u/104862?s=40&amp;v=4",
+        "url": "https://github.com/cloudnative-pg"
+      },
+      "summary": "最流行的 PostgreSQL Kubernetes Operator，用 Go 编写，可在 K8s 上自动部署、管理、扩缩和故障转移 PostgreSQL 集群。",
+      "tags": [
+        "kubernetes",
+        "postgresql",
+        "operator",
+        "database",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:48.665Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cilium",
+      "fullName": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25157,
+      "forks": 4063,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "cilium",
+        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
+        "url": "https://github.com/cilium"
+      },
+      "summary": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，提供高性能容器网络、负载均衡和细粒度策略控制。",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "networking",
+        "security",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:49.185Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caddy",
+      "fullName": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 75777,
+      "forks": 4963,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "caddyserver",
+        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
+        "url": "https://github.com/caddyserver"
+      },
+      "summary": "用 Go 编写的快速可扩展多平台 Web 服务器，支持 HTTP/1-2-3 并自动配置 HTTPS 证书，配置简单，适合替代 Nginx 做反向代理与静态托管。",
+      "tags": [
+        "web-server",
+        "go",
+        "https",
+        "http3",
+        "reverse-proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:49.315Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29279,
+      "forks": 1680,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于 WireGuard 的开源零信任组网平台，将设备接入安全覆盖网络，支持 SSO、MFA 与细粒度访问控制。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "zero-trust",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-16T14:05:49.380Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,35 +741,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 24441,
-      "forks": 3405,
-      "starsToday": 696,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体和自维护Wiki，用Go构建，适合企业级知识库落地。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "go",
-        "agent",
-        "wiki"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-16T03:56:25.531Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "navidrome",
       "fullName": "navidrome/navidrome",
       "url": "https://github.com/navidrome/navidrome",
@@ -260,34 +798,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "mcp-toolbox",
-      "fullName": "googleapis/mcp-toolbox",
-      "url": "https://github.com/googleapis/mcp-toolbox",
-      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 16418,
-      "forks": 1721,
-      "starsToday": 8,
-      "topics": [],
-      "author": {
-        "name": "googleapis",
-        "avatar": "https://avatars.githubusercontent.com/u/45984206?s=40&amp;v=4",
-        "url": "https://github.com/googleapis"
-      },
-      "summary": "面向数据库的开源 MCP 服务器，让 AI 代理通过标准协议安全查询和操作多种数据库，简化工具接入。",
-      "tags": [
-        "mcp",
-        "database",
-        "go",
-        "ai-agent",
-        "server"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-16T03:56:26.315Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "gin",
       "fullName": "gin-gonic/gin",
       "url": "https://github.com/gin-gonic/gin",
@@ -313,35 +823,6 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-09-16T03:56:26.670Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "runtime",
-      "fullName": "e2b-dev/runtime",
-      "url": "https://github.com/e2b-dev/runtime",
-      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1512,
-      "forks": 422,
-      "starsToday": 33,
-      "topics": [],
-      "author": {
-        "name": "e2b-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/49156497?s=40&amp;v=4",
-        "url": "https://github.com/e2b-dev"
-      },
-      "summary": "E2B 沙箱运行时，为云端、企业版和本地机器提供统一的隔离代码执行环境，支撑 AI Agent 安全运行不可信代码。",
-      "tags": [
-        "sandbox",
-        "runtime",
-        "go",
-        "ai-agents",
-        "code-execution",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-16T03:56:26.533Z",
       "deepwikiAvailable": false
     },
     {
@@ -569,34 +1050,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-16T03:56:28.712Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 181089,
-      "forks": 17894,
-      "starsToday": 140,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的一键工具，提供简洁命令行与 API，让开源模型开箱即用。",
-      "tags": [
-        "llm",
-        "local-inference",
-        "go",
-        "cli",
-        "api"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-16T03:56:29.406Z",
       "deepwikiAvailable": false
     }
   ]
