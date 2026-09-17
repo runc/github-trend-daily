@@ -2,8 +2,8 @@
   "date": "2026-09-17",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-17T04:00:51.788Z",
-  "enrichedAt": "2026-09-17T04:01:36.564Z",
+  "fetchedAt": "2026-09-17T14:10:33.224Z",
+  "enrichedAt": "2026-09-17T14:11:07.271Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,9 +12,9 @@
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 32402,
-      "forks": 2296,
-      "starsToday": 3231,
+      "stars": 33862,
+      "forks": 2413,
+      "starsToday": 3290,
       "topics": [],
       "author": {
         "name": "alibaba",
@@ -40,9 +40,9 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 25531,
-      "forks": 3497,
-      "starsToday": 1197,
+      "stars": 26049,
+      "forks": 3539,
+      "starsToday": 1123,
       "topics": [],
       "author": {
         "name": "Tencent",
@@ -59,6 +59,543 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-17T04:01:30.421Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cilium",
+      "fullName": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25285,
+      "forks": 4067,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "cilium",
+        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
+        "url": "https://github.com/cilium"
+      },
+      "summary": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，提供高性能 CNI、网络策略与流量监控，替代传统 iptables 方案。",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "networking",
+        "security",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T04:01:35.918Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coder",
+      "fullName": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14750,
+      "forks": 1481,
+      "starsToday": 83,
+      "topics": [],
+      "author": {
+        "name": "coder",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/coder"
+      },
+      "summary": "基于 Go 的开发者与 AI 代理远程开发环境平台，在自有云或本地基础设施上按需创建安全隔离的工作空间。",
+      "tags": [
+        "dev-environment",
+        "remote-development",
+        "go",
+        "self-hosted",
+        "terraform",
+        "ai-agents"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T04:01:34.602Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 106232,
+      "forks": 6148,
+      "starsToday": 229,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用\"原始人语\"压缩提示词的编码代理技能与代理服务，可削减约65%的token消耗，降低大模型调用成本。",
+      "tags": [
+        "llm",
+        "proxy",
+        "token",
+        "go",
+        "coding-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-17T04:01:33.101Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50277,
+      "forks": 6504,
+      "starsToday": 213,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的协作平台，让人类与 AI 智能体在同一团队中协同工作，用 Go 编写，支持私有化部署。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-17T14:11:04.484Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "runtime",
+      "fullName": "e2b-dev/runtime",
+      "url": "https://github.com/e2b-dev/runtime",
+      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1664,
+      "forks": 430,
+      "starsToday": 109,
+      "topics": [],
+      "author": {
+        "name": "e2b-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/49156497?s=40&amp;v=4",
+        "url": "https://github.com/e2b-dev"
+      },
+      "summary": "E2B 沙箱运行时的开源实现，用 Go 编写，为云端、企业版和本地环境提供统一的代码执行沙箱底座。",
+      "tags": [
+        "sandbox",
+        "runtime",
+        "go",
+        "cloud",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T04:01:30.828Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailcat",
+      "fullName": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7492,
+      "forks": 305,
+      "starsToday": 149,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "类 netcat 工具，走 Tailscale 数据平面而非控制平面，用 WireGuard 密钥直接建立点对点连接，无需登录或协调服务器。",
+      "tags": [
+        "netcat",
+        "tailscale",
+        "wireguard",
+        "networking",
+        "go",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-17T04:01:31.946Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 83073,
+      "forks": 2933,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "summary": "Go 编写的命令行模糊查找器，可交互式过滤文件、历史命令等任意列表，是终端工作流的高效增强工具。",
+      "tags": [
+        "cli",
+        "fuzzy-finder",
+        "go",
+        "terminal",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-17T14:11:04.445Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17268,
+      "forks": 1388,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "larksuite",
+        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
+        "url": "https://github.com/larksuite"
+      },
+      "summary": "飞书官方 CLI 工具，覆盖消息、文档、多维表格、日历、邮件等核心业务域，提供 200+ 命令与 20+ AI Agent 技能，面向人类和智能体。",
+      "tags": [
+        "cli",
+        "lark",
+        "feishu",
+        "ai-agent",
+        "go",
+        "automation"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-17T14:11:04.785Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111109,
+      "forks": 14116,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "JavaScript 的超集语言，为 JS 添加静态类型，编译输出干净的 JavaScript，提升大型项目可维护性与开发体验。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "language",
+        "compiler",
+        "static-typing"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-09-17T14:11:04.568Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "arcane",
+      "fullName": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7441,
+      "forks": 311,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "getarcaneapp",
+        "avatar": "https://avatars.githubusercontent.com/u/25576967?s=40&amp;v=4",
+        "url": "https://github.com/getarcaneapp"
+      },
+      "summary": "面向所有人的现代 Docker 管理平台，用 Go 编写，提供简洁直观的界面来管理容器、镜像与编排，降低运维门槛。",
+      "tags": [
+        "docker",
+        "go",
+        "devops",
+        "container",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-17T14:11:05.537Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27262,
+      "forks": 1847,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 是为编码智能体提供持久记忆的 Go 工具，让 AI 助手跨会话记住项目上下文与决策，减少重复解释。",
+      "tags": [
+        "ai",
+        "memory",
+        "agent",
+        "go",
+        "devtool"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-17T14:11:05.488Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7275,
+      "forks": 1510,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
+      },
+      "summary": "开源电动车太阳能充电控制器，用Go编写，可接入光伏、逆变器与车辆，自动调节充电功率以最大化自用绿电。",
+      "tags": [
+        "solar",
+        "ev-charging",
+        "go",
+        "energy",
+        "home-automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-17T14:11:05.878Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 138878,
+      "forks": 19654,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方仓库，提供编译器、标准库与工具链源码，主打高并发、简洁语法和快速编译，广泛用于云原生与后端服务开发。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "standard-library",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-17T14:11:05.933Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34803,
+      "forks": 3001,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统与 Iceberg 表，可承载数十亿文件，O(1) 磁盘访问并轻松横向扩展。",
+      "tags": [
+        "storage",
+        "distributed",
+        "s3",
+        "golang",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T14:11:06.629Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "temporal",
+      "fullName": "temporalio/temporal",
+      "url": "https://github.com/temporalio/temporal",
+      "description": "Temporal service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23235,
+      "forks": 1905,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "temporalio",
+        "avatar": "https://avatars.githubusercontent.com/u/8762893?s=40&amp;v=4",
+        "url": "https://github.com/temporalio"
+      },
+      "summary": "Temporal 是一个开源的工作流编排引擎，用 Go 编写，提供持久化执行能力，让开发者用普通代码编写可靠的长时运行分布式工作流，自动处理重试、状态恢复与故障容错。",
+      "tags": [
+        "workflow",
+        "orchestration",
+        "go",
+        "distributed",
+        "durable-execution"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T04:01:33.890Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nats-server",
+      "fullName": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20833,
+      "forks": 1959,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "nats-io",
+        "avatar": "https://avatars.githubusercontent.com/u/90097?s=40&amp;v=4",
+        "url": "https://github.com/nats-io"
+      },
+      "summary": "NATS 消息系统的高性能服务端，为云与边缘场景提供轻量、低延迟的发布订阅与流式通信能力。",
+      "tags": [
+        "nats",
+        "messaging",
+        "go",
+        "pubsub",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T04:01:32.862Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-collector-contrib",
+      "fullName": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4956,
+      "forks": 3919,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Collector 的社区贡献仓库，汇集大量接收器、处理器、导出器与扩展组件，用于统一采集、处理和转发遥测数据。",
+      "tags": [
+        "observability",
+        "opentelemetry",
+        "telemetry",
+        "go",
+        "collector"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T14:11:06.703Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6955,
+      "forks": 758,
+      "starsToday": 65,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "统一配置 Claude Code、Cursor、Codex 等 AI 编码代理的开源工具，提供持久记忆、规范驱动开发、技能与 MCP 服务，避免厂商锁定。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "go",
+        "mcp",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-17T14:11:06.907Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform",
+      "fullName": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49685,
+      "forks": 10621,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/35067?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "HashiCorp 开源的基础设施即代码工具，用声明式配置文件安全、可预测地创建和变更云基础设施，支持团队协作与版本管理。",
+      "tags": [
+        "terraform",
+        "iac",
+        "devops",
+        "infrastructure",
+        "go",
+        "cloud"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T14:11:07.271Z",
       "deepwikiAvailable": false
     },
     {
@@ -87,34 +624,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-17T04:01:30.621Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "runtime",
-      "fullName": "e2b-dev/runtime",
-      "url": "https://github.com/e2b-dev/runtime",
-      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1623,
-      "forks": 430,
-      "starsToday": 109,
-      "topics": [],
-      "author": {
-        "name": "e2b-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/49156497?s=40&amp;v=4",
-        "url": "https://github.com/e2b-dev"
-      },
-      "summary": "E2B 沙箱运行时的开源实现，用 Go 编写，为云端、企业版和本地环境提供统一的代码执行沙箱底座。",
-      "tags": [
-        "sandbox",
-        "runtime",
-        "go",
-        "cloud",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-17T04:01:30.828Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,35 +683,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "tailcat",
-      "fullName": "tailscale/tailcat",
-      "url": "https://github.com/tailscale/tailcat",
-      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7437,
-      "forks": 304,
-      "starsToday": 149,
-      "topics": [],
-      "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
-      },
-      "summary": "类 netcat 工具，走 Tailscale 数据平面而非控制平面，用 WireGuard 密钥直接建立点对点连接，无需登录或协调服务器。",
-      "tags": [
-        "netcat",
-        "tailscale",
-        "wireguard",
-        "networking",
-        "go",
-        "cli"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-17T04:01:31.946Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "cockroach",
       "fullName": "cockroachdb/cockroach",
       "url": "https://github.com/cockroachdb/cockroach",
@@ -259,62 +739,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nats-server",
-      "fullName": "nats-io/nats-server",
-      "url": "https://github.com/nats-io/nats-server",
-      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 20782,
-      "forks": 1958,
-      "starsToday": 10,
-      "topics": [],
-      "author": {
-        "name": "nats-io",
-        "avatar": "https://avatars.githubusercontent.com/u/90097?s=40&amp;v=4",
-        "url": "https://github.com/nats-io"
-      },
-      "summary": "NATS 消息系统的高性能服务端，为云与边缘场景提供轻量、低延迟的发布订阅与流式通信能力。",
-      "tags": [
-        "nats",
-        "messaging",
-        "go",
-        "pubsub",
-        "server"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-17T04:01:32.862Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 106088,
-      "forks": 6143,
-      "starsToday": 229,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "用\"原始人语\"压缩提示词的编码代理技能与代理服务，可削减约65%的token消耗，降低大模型调用成本。",
-      "tags": [
-        "llm",
-        "proxy",
-        "token",
-        "go",
-        "coding-agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-17T04:01:33.101Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "grpc-go",
       "fullName": "grpc/grpc-go",
       "url": "https://github.com/grpc/grpc-go",
@@ -340,34 +764,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-09-17T04:01:33.251Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "temporal",
-      "fullName": "temporalio/temporal",
-      "url": "https://github.com/temporalio/temporal",
-      "description": "Temporal service",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23160,
-      "forks": 1904,
-      "starsToday": 26,
-      "topics": [],
-      "author": {
-        "name": "temporalio",
-        "avatar": "https://avatars.githubusercontent.com/u/8762893?s=40&amp;v=4",
-        "url": "https://github.com/temporalio"
-      },
-      "summary": "Temporal 是一个开源的工作流编排引擎，用 Go 编写，提供持久化执行能力，让开发者用普通代码编写可靠的长时运行分布式工作流，自动处理重试、状态恢复与故障容错。",
-      "tags": [
-        "workflow",
-        "orchestration",
-        "go",
-        "distributed",
-        "durable-execution"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-17T04:01:33.890Z",
       "deepwikiAvailable": false
     },
     {
@@ -424,35 +820,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-17T04:01:34.120Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "coder",
-      "fullName": "coder/coder",
-      "url": "https://github.com/coder/coder",
-      "description": "Secure environments for developers and their agents",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 14624,
-      "forks": 1478,
-      "starsToday": 83,
-      "topics": [],
-      "author": {
-        "name": "coder",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/coder"
-      },
-      "summary": "基于 Go 的开发者与 AI 代理远程开发环境平台，在自有云或本地基础设施上按需创建安全隔离的工作空间。",
-      "tags": [
-        "dev-environment",
-        "remote-development",
-        "go",
-        "self-hosted",
-        "terraform",
-        "ai-agents"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-17T04:01:34.602Z",
       "deepwikiAvailable": false
     },
     {
@@ -538,35 +905,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-17T04:01:35.253Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cilium",
-      "fullName": "cilium/cilium",
-      "url": "https://github.com/cilium/cilium",
-      "description": "eBPF-based Networking, Security, and Observability",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 25220,
-      "forks": 4065,
-      "starsToday": 20,
-      "topics": [],
-      "author": {
-        "name": "cilium",
-        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
-        "url": "https://github.com/cilium"
-      },
-      "summary": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，提供高性能 CNI、网络策略与流量监控，替代传统 iptables 方案。",
-      "tags": [
-        "ebpf",
-        "kubernetes",
-        "networking",
-        "security",
-        "observability",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-17T04:01:35.918Z",
       "deepwikiAvailable": false
     },
     {

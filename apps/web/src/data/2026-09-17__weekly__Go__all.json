@@ -2,8 +2,8 @@
   "date": "2026-09-17",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-09-17T04:00:51.788Z",
-  "enrichedAt": "2026-09-17T04:02:10.930Z",
+  "fetchedAt": "2026-09-17T14:10:33.224Z",
+  "enrichedAt": "2026-09-17T14:11:22.427Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,8 +12,8 @@
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 32401,
-      "forks": 2296,
+      "stars": 33862,
+      "forks": 2413,
       "starsToday": 8594,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 25531,
-      "forks": 3497,
+      "stars": 26049,
+      "forks": 3539,
       "starsToday": 3034,
       "topics": [],
       "author": {
@@ -62,14 +62,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenFlux",
+      "fullName": "p1neappleXpress/OpenFlux",
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1679,
+      "forks": 129,
+      "starsToday": 964,
+      "topics": [],
+      "author": {
+        "name": "p1neappleXpress",
+        "avatar": "https://avatars.githubusercontent.com/u/146814998?s=40&amp;v=4",
+        "url": "https://github.com/p1neappleXpress"
+      },
+      "summary": "基于 Go 的网络栈研究工具，提供支持可插拔传输层的 TCP 隧道，便于自定义协议与流量伪装实验。",
+      "tags": [
+        "networking",
+        "tcp",
+        "tunnel",
+        "go",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T14:11:22.367Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "pentagi",
       "fullName": "vxcontrol/pentagi",
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24607,
-      "forks": 3158,
+      "stars": 24661,
+      "forks": 3168,
       "starsToday": 1999,
       "topics": [],
       "author": {
@@ -90,42 +118,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "CubeSandbox",
-      "fullName": "TencentCloud/CubeSandbox",
-      "url": "https://github.com/TencentCloud/CubeSandbox",
-      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 12617,
-      "forks": 1125,
-      "starsToday": 678,
-      "topics": [],
-      "author": {
-        "name": "TencentCloud",
-        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
-        "url": "https://github.com/TencentCloud"
-      },
-      "summary": "腾讯云开源的 AI Agent 沙箱，基于 Go 实现，支持毫秒级启动、高并发与安全隔离，轻量运行代码执行环境。",
-      "tags": [
-        "sandbox",
-        "ai-agent",
-        "go",
-        "security",
-        "cloud"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-17T04:02:05.922Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "kubernetes",
       "fullName": "kubernetes/kubernetes",
       "url": "https://github.com/kubernetes/kubernetes",
       "description": "Production-Grade Container Scheduling and Management",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 127824,
-      "forks": 44353,
+      "stars": 127871,
+      "forks": 44366,
       "starsToday": 940,
       "topics": [],
       "author": {
@@ -146,59 +146,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "argo-cd",
-      "fullName": "argoproj/argo-cd",
-      "url": "https://github.com/argoproj/argo-cd",
-      "description": "Declarative Continuous Deployment for Kubernetes",
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24172,
-      "forks": 7852,
-      "starsToday": 63,
+      "stars": 83073,
+      "forks": 2933,
+      "starsToday": 157,
       "topics": [],
       "author": {
-        "name": "argoproj",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/argoproj"
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
       },
-      "summary": "基于GitOps的Kubernetes声明式持续部署工具，以Git仓库为唯一事实源自动同步集群状态，支持多集群管理与可视化回滚。",
+      "summary": "Go 编写的命令行模糊查找器，可交互式过滤文件、历史与任意列表，广泛集成于各类 shell 与编辑器工作流。",
       "tags": [
-        "kubernetes",
-        "gitops",
-        "cd",
-        "devops",
-        "go"
+        "fuzzy-finder",
+        "cli",
+        "go",
+        "shell",
+        "productivity"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-17T04:02:07.123Z",
+      "category": "CLI",
+      "enrichedAt": "2026-09-17T04:02:09.615Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "go",
-      "fullName": "golang/go",
-      "url": "https://github.com/golang/go",
-      "description": "The Go programming language",
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 138858,
-      "forks": 19640,
-      "starsToday": 914,
+      "stars": 12656,
+      "forks": 1126,
+      "starsToday": 678,
       "topics": [],
       "author": {
-        "name": "golang",
-        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
-        "url": "https://github.com/golang"
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
       },
-      "summary": "Go 语言官方仓库，提供编译器、运行时与标准库源码，以简洁语法、高并发和快速编译著称，广泛用于云原生与后端服务开发。",
+      "summary": "腾讯云开源的 AI Agent 沙箱，基于 Go 实现，支持毫秒级启动、高并发与安全隔离，轻量运行代码执行环境。",
       "tags": [
+        "sandbox",
+        "ai-agent",
         "go",
-        "programming-language",
-        "compiler",
-        "runtime",
-        "standard-library"
+        "security",
+        "cloud"
       ],
-      "category": "Library",
-      "enrichedAt": "2026-09-17T04:02:06.809Z",
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T04:02:05.922Z",
       "deepwikiAvailable": false
     },
     {
@@ -208,8 +208,8 @@
       "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5946,
-      "forks": 1677,
+      "stars": 5949,
+      "forks": 1680,
       "starsToday": 79,
       "topics": [],
       "author": {
@@ -230,14 +230,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 138878,
+      "forks": 19654,
+      "starsToday": 914,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方仓库，提供编译器、运行时与标准库源码，以简洁语法、高并发和快速编译著称，广泛用于云原生与后端服务开发。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "runtime",
+        "standard-library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-17T04:02:06.809Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "gentle-ai",
       "fullName": "Gentleman-Programming/gentle-ai",
       "url": "https://github.com/Gentleman-Programming/gentle-ai",
       "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6917,
-      "forks": 757,
+      "stars": 6955,
+      "forks": 758,
       "starsToday": 411,
       "topics": [],
       "author": {
@@ -259,13 +287,98 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23631,
+      "forks": 1707,
+      "starsToday": 206,
+      "topics": [],
+      "author": {
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
+      },
+      "summary": "自托管的个人音乐流媒体服务器，兼容Subsonic API，可扫描本地音乐库并通过网页或各类客户端随时播放。",
+      "tags": [
+        "music",
+        "streaming",
+        "self-hosted",
+        "go",
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-17T04:02:09.607Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24178,
+      "forks": 7852,
+      "starsToday": 63,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于GitOps的Kubernetes声明式持续部署工具，以Git仓库为唯一事实源自动同步集群状态，支持多集群管理与可视化回滚。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "devops",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T04:02:07.123Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6670,
+      "forks": 689,
+      "starsToday": 193,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向 AI 编码代理的持久化记忆系统，Go 单二进制，基于 SQLite+FTS5，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
+      "tags": [
+        "ai",
+        "memory",
+        "mcp",
+        "sqlite",
+        "golang",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-17T04:02:08.229Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "agent-sandbox",
       "fullName": "kubernetes-sigs/agent-sandbox",
       "url": "https://github.com/kubernetes-sigs/agent-sandbox",
       "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3973,
+      "stars": 4002,
       "forks": 516,
       "starsToday": 129,
       "topics": [],
@@ -284,6 +397,146 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-17T04:02:08.017Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 181244,
+      "forks": 17918,
+      "starsToday": 803,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等主流开源模型，提供简洁 API，便于离线部署与开发集成。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-17T14:11:22.427Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-collector-contrib",
+      "fullName": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4956,
+      "forks": 3919,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Collector 官方贡献仓库，汇集大量社区维护的接收器、处理器与导出器组件，用于灵活构建可观测性数据采集与转发管道。",
+      "tags": [
+        "observability",
+        "opentelemetry",
+        "telemetry",
+        "go",
+        "collector"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T14:11:22.316Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "runtime",
+      "fullName": "e2b-dev/runtime",
+      "url": "https://github.com/e2b-dev/runtime",
+      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1664,
+      "forks": 430,
+      "starsToday": 176,
+      "topics": [],
+      "author": {
+        "name": "e2b-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/49156497?s=40&amp;v=4",
+        "url": "https://github.com/e2b-dev"
+      },
+      "summary": "E2B 沙箱运行时，用 Go 编写，为云端、企业版和本地提供隔离的代码执行环境，支撑 AI 智能体安全运行不可信代码。",
+      "tags": [
+        "sandbox",
+        "go",
+        "runtime",
+        "ai-agents",
+        "code-execution"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-17T04:02:10.930Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 106233,
+      "forks": 6148,
+      "starsToday": 1692,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用穴居人式极简表达压缩提示词与上下文的代理工具，为编码智能体节省约65%的token消耗。",
+      "tags": [
+        "llm",
+        "token-optimization",
+        "proxy",
+        "coding-agent",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-17T14:11:22.375Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "memos",
+      "fullName": "usememos/memos",
+      "url": "https://github.com/usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 63124,
+      "forks": 4766,
+      "starsToday": 279,
+      "topics": [],
+      "author": {
+        "name": "usememos",
+        "avatar": "https://avatars.githubusercontent.com/u/24653555?s=40&amp;v=4",
+        "url": "https://github.com/usememos"
+      },
+      "summary": "开源自托管笔记工具，支持 Markdown 快速记录，轻量且数据完全自主可控。",
+      "tags": [
+        "notes",
+        "self-hosted",
+        "markdown",
+        "go",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-17T04:02:10.453Z",
       "deepwikiAvailable": false
     },
     {
@@ -312,35 +565,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-17T04:02:08.197Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "engram",
-      "fullName": "Gentleman-Programming/engram",
-      "url": "https://github.com/Gentleman-Programming/engram",
-      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6661,
-      "forks": 688,
-      "starsToday": 193,
-      "topics": [],
-      "author": {
-        "name": "Gentleman-Programming",
-        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
-        "url": "https://github.com/Gentleman-Programming"
-      },
-      "summary": "面向 AI 编码代理的持久化记忆系统，Go 单二进制，基于 SQLite+FTS5，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
-      "tags": [
-        "ai",
-        "memory",
-        "mcp",
-        "sqlite",
-        "golang",
-        "cli"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-17T04:02:08.229Z",
       "deepwikiAvailable": false
     },
     {
@@ -402,62 +626,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "navidrome",
-      "fullName": "navidrome/navidrome",
-      "url": "https://github.com/navidrome/navidrome",
-      "description": "🎧 Your Personal Streaming Service",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23620,
-      "forks": 1706,
-      "starsToday": 206,
-      "topics": [],
-      "author": {
-        "name": "navidrome",
-        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
-        "url": "https://github.com/navidrome"
-      },
-      "summary": "自托管的个人音乐流媒体服务器，兼容Subsonic API，可扫描本地音乐库并通过网页或各类客户端随时播放。",
-      "tags": [
-        "music",
-        "streaming",
-        "self-hosted",
-        "go",
-        "subsonic"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-17T04:02:09.607Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "fzf",
-      "fullName": "junegunn/fzf",
-      "url": "https://github.com/junegunn/fzf",
-      "description": "🌸 A command-line fuzzy finder",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 83033,
-      "forks": 2909,
-      "starsToday": 157,
-      "topics": [],
-      "author": {
-        "name": "junegunn",
-        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
-        "url": "https://github.com/junegunn"
-      },
-      "summary": "Go 编写的命令行模糊查找器，可交互式过滤文件、历史与任意列表，广泛集成于各类 shell 与编辑器工作流。",
-      "tags": [
-        "fuzzy-finder",
-        "cli",
-        "go",
-        "shell",
-        "productivity"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-17T04:02:09.615Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Xray-core",
       "fullName": "XTLS/Xray-core",
       "url": "https://github.com/XTLS/Xray-core",
@@ -483,62 +651,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-17T04:02:10.334Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "memos",
-      "fullName": "usememos/memos",
-      "url": "https://github.com/usememos/memos",
-      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 63119,
-      "forks": 4764,
-      "starsToday": 279,
-      "topics": [],
-      "author": {
-        "name": "usememos",
-        "avatar": "https://avatars.githubusercontent.com/u/24653555?s=40&amp;v=4",
-        "url": "https://github.com/usememos"
-      },
-      "summary": "开源自托管笔记工具，支持 Markdown 快速记录，轻量且数据完全自主可控。",
-      "tags": [
-        "notes",
-        "self-hosted",
-        "markdown",
-        "go",
-        "privacy"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-17T04:02:10.453Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "runtime",
-      "fullName": "e2b-dev/runtime",
-      "url": "https://github.com/e2b-dev/runtime",
-      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1623,
-      "forks": 430,
-      "starsToday": 176,
-      "topics": [],
-      "author": {
-        "name": "e2b-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/49156497?s=40&amp;v=4",
-        "url": "https://github.com/e2b-dev"
-      },
-      "summary": "E2B 沙箱运行时，用 Go 编写，为云端、企业版和本地提供隔离的代码执行环境，支撑 AI 智能体安全运行不可信代码。",
-      "tags": [
-        "sandbox",
-        "go",
-        "runtime",
-        "ai-agents",
-        "code-execution"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-17T04:02:10.930Z",
       "deepwikiAvailable": false
     }
   ]
