@@ -1,0 +1,575 @@
+{
+  "date": "2026-09-18",
+  "since": "weekly",
+  "language": "TypeScript",
+  "fetchedAt": "2026-09-18T03:47:51.151Z",
+  "enrichedAt": "2026-09-18T03:49:04.404Z",
+  "repos": [
+    {
+      "name": "context-mode",
+      "fullName": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 23417,
+      "forks": 1685,
+      "starsToday": 1482,
+      "topics": [],
+      "author": {
+        "name": "mksglu",
+        "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&amp;v=4",
+        "url": "https://github.com/mksglu"
+      },
+      "summary": "面向 AI 编码代理的上下文窗口优化工具，沙箱化工具输出可减少 98% 占用，持久化会话记忆，并通过 MCP 与钩子在 17 个平台上统一路由。",
+      "tags": [
+        "ai-agent",
+        "context-window",
+        "mcp",
+        "typescript",
+        "memory",
+        "devtool"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:48:59.796Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-code",
+      "fullName": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 145928,
+      "forks": 23648,
+      "starsToday": 1294,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Claude Code 是运行在终端里的智能编码代理工具，能理解代码库，用自然语言执行日常任务、解释复杂代码并处理 Git 工作流，显著提升开发效率。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "cli",
+        "developer-tools",
+        "terminal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:48:59.614Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LibreChat",
+      "fullName": "danny-avila/LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 44251,
+      "forks": 9096,
+      "starsToday": 1421,
+      "topics": [],
+      "author": {
+        "name": "danny-avila",
+        "avatar": "https://avatars.githubusercontent.com/u/110412045?s=40&amp;v=4",
+        "url": "https://github.com/danny-avila"
+      },
+      "summary": "开源可自托管的增强版 ChatGPT 替代方案，支持多模型切换、Agents、MCP、代码解释器与多用户安全认证。",
+      "tags": [
+        "chatgpt",
+        "llm",
+        "self-hosted",
+        "typescript",
+        "ai-agents",
+        "openai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:48:59.647Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 71242,
+      "forks": 4662,
+      "starsToday": 5305,
+      "topics": [],
+      "author": {
+        "name": "stablyai",
+        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
+        "url": "https://github.com/stablyai"
+      },
+      "summary": "Orca 是面向并行 AI 编码代理集群的 ADE，可用自有订阅运行任意编码代理，支持桌面、移动与远程运行时。",
+      "tags": [
+        "ai-agent",
+        "coding-agent",
+        "ade",
+        "typescript",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:48:59.856Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "PI-Desktop",
+      "fullName": "vastsa/PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4176,
+      "forks": 347,
+      "starsToday": 1939,
+      "topics": [],
+      "author": {
+        "name": "vastsa",
+        "avatar": "https://avatars.githubusercontent.com/u/48862574?s=40&amp;v=4",
+        "url": "https://github.com/vastsa"
+      },
+      "summary": "本地优先的 AI 编程智能体桌面应用，Electron 前端配 Rust 内核与 Agent Harness，支持用户自装插件。",
+      "tags": [
+        "ai-agent",
+        "desktop",
+        "electron",
+        "rust",
+        "coding-assistant",
+        "plugins"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:49:00.705Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vscode",
+      "fullName": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 192643,
+      "forks": 42570,
+      "starsToday": 1442,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/900690?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源跨平台代码编辑器，插件生态庞大，支持调试、Git 与智能补全，是主流开发工具。",
+      "tags": [
+        "editor",
+        "ide",
+        "typescript",
+        "microsoft",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:49:00.704Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 51099,
+      "forks": 4656,
+      "starsToday": 2400,
+      "topics": [],
+      "author": {
+        "name": "heygen-com",
+        "avatar": "https://avatars.githubusercontent.com/u/229591595?s=40&amp;v=4",
+        "url": "https://github.com/heygen-com"
+      },
+      "summary": "用 HTML 编写并渲染视频的框架，专为 AI Agent 设计，让智能体直接生成视频内容。",
+      "tags": [
+        "video",
+        "html",
+        "agents",
+        "typescript",
+        "rendering"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:49:00.878Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "supabase",
+      "fullName": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 109929,
+      "forks": 14174,
+      "starsToday": 1016,
+      "topics": [],
+      "author": {
+        "name": "supabase",
+        "avatar": "https://avatars.githubusercontent.com/u/19742402?s=40&amp;v=4",
+        "url": "https://github.com/supabase"
+      },
+      "summary": "基于 Postgres 的开源开发平台，提供专用数据库、认证、存储与实时订阅，快速搭建 Web、移动端和 AI 应用后端。",
+      "tags": [
+        "postgres",
+        "backend",
+        "baas",
+        "database",
+        "typescript",
+        "open-source"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T03:49:00.954Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 31898,
+      "forks": 2724,
+      "starsToday": 821,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/32676955?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "Vercel Labs 推出的开放 agent 技能工具，通过 npx skills 一键安装和管理可复用的 AI 智能体技能包。",
+      "tags": [
+        "ai",
+        "agents",
+        "cli",
+        "typescript",
+        "skills"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:49:01.792Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CloddsBot",
+      "fullName": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2761,
+      "forks": 336,
+      "starsToday": 1222,
+      "topics": [],
+      "author": {
+        "name": "alsk1992",
+        "avatar": "https://avatars.githubusercontent.com/u/193760801?s=40&amp;v=4",
+        "url": "https://github.com/alsk1992"
+      },
+      "summary": "开源AI自主交易代理，覆盖Polymarket、Kalshi、币安等1000多个市场，自动扫描套利机会、即时下单并管理风险，支持机器间支付，可自托管，基于Claude构建。",
+      "tags": [
+        "ai-agent",
+        "trading",
+        "typescript",
+        "self-hosted",
+        "crypto",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:49:02.158Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ever-gauzy",
+      "fullName": "ever-co/ever-gauzy",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 7595,
+      "forks": 1127,
+      "starsToday": 3332,
+      "topics": [],
+      "author": {
+        "name": "ever-co",
+        "avatar": "https://avatars.githubusercontent.com/u/41804588?s=40&amp;v=4",
+        "url": "https://github.com/ever-co"
+      },
+      "summary": "开源企业经营管理平台，集成 ERP、CRM、HRM、ATS 与项目管理，基于 TypeScript 构建，适合中小企业一站式替代商业套件。",
+      "tags": [
+        "erp",
+        "crm",
+        "hrm",
+        "typescript",
+        "opensource"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-18T03:49:01.916Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DeskcommCRM",
+      "fullName": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 3085,
+      "forks": 762,
+      "starsToday": 2179,
+      "topics": [],
+      "author": {
+        "name": "melgarafael",
+        "avatar": "https://avatars.githubusercontent.com/u/119944436?s=40&amp;v=4",
+        "url": "https://github.com/melgarafael"
+      },
+      "summary": "开源AI销售操作系统：自托管CRM，内置AI智能体与WhatsApp集成，支持多租户和MCP，是Kommo、Intercom的开放替代方案。",
+      "tags": [
+        "crm",
+        "ai-agents",
+        "whatsapp",
+        "self-hosted",
+        "typescript",
+        "mcp"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-18T03:49:02.315Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "flowsint",
+      "fullName": "reconurge/flowsint",
+      "url": "https://github.com/reconurge/flowsint",
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 8776,
+      "forks": 1069,
+      "starsToday": 1145,
+      "topics": [],
+      "author": {
+        "name": "reconurge",
+        "avatar": "https://avatars.githubusercontent.com/u/64375473?s=40&amp;v=4",
+        "url": "https://github.com/reconurge"
+      },
+      "summary": "面向网络安全分析师的开源图谱调查平台，可视化构建可扩展的调查流程，整合多源数据做关联分析。",
+      "tags": [
+        "security",
+        "graph",
+        "investigation",
+        "osint",
+        "typescript"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:49:02.918Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iloader",
+      "fullName": "nab138/iloader",
+      "url": "https://github.com/nab138/iloader",
+      "description": "User friendly sideloader",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 3408,
+      "forks": 235,
+      "starsToday": 698,
+      "topics": [],
+      "author": {
+        "name": "nab138",
+        "avatar": "https://avatars.githubusercontent.com/u/56705177?s=40&amp;v=4",
+        "url": "https://github.com/nab138"
+      },
+      "summary": "面向普通用户的侧载工具，用 TypeScript 编写，简化应用安装到设备或越狱环境的流程，降低操作门槛。",
+      "tags": [
+        "sideload",
+        "typescript",
+        "ios",
+        "installer",
+        "tool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:49:03.074Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llm_wiki",
+      "fullName": "nashsu/llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 19693,
+      "forks": 2224,
+      "starsToday": 1718,
+      "topics": [],
+      "author": {
+        "name": "nashsu",
+        "avatar": "https://avatars.githubusercontent.com/u/2127280?s=40&amp;v=4",
+        "url": "https://github.com/nashsu"
+      },
+      "summary": "跨平台桌面应用，用LLM把文档自动整理成互链的持久化知识库，替代传统RAG的每次重新检索。",
+      "tags": [
+        "llm",
+        "knowledge-base",
+        "rag",
+        "desktop",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:49:03.299Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AI-Engineering-Coach",
+      "fullName": "microsoft/AI-Engineering-Coach",
+      "url": "https://github.com/microsoft/AI-Engineering-Coach",
+      "description": "better agentic engineering",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4228,
+      "forks": 581,
+      "starsToday": 565,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的智能体工程教练工具，帮助开发者评估并提升 AI Agent 开发实践与工程能力。",
+      "tags": [
+        "ai",
+        "agent",
+        "typescript",
+        "developer-tools",
+        "microsoft"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:49:03.324Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "langwatch",
+      "fullName": "langwatch/langwatch",
+      "url": "https://github.com/langwatch/langwatch",
+      "description": "The platform for LLM evaluations and AI agent testing",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4812,
+      "forks": 393,
+      "starsToday": 1287,
+      "topics": [],
+      "author": {
+        "name": "langwatch",
+        "avatar": "https://avatars.githubusercontent.com/u/792201?s=40&amp;v=4",
+        "url": "https://github.com/langwatch"
+      },
+      "summary": "开源 LLM 评估与 AI Agent 测试平台，支持数据集、评测指标与实验追踪，帮助团队持续监控和优化大模型应用质量。",
+      "tags": [
+        "llm",
+        "evaluation",
+        "ai-agents",
+        "testing",
+        "observability"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:49:04.100Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BrowserSkill",
+      "fullName": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4392,
+      "forks": 307,
+      "starsToday": 2157,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/87162611?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "让 AI 智能体直接操控你已登录的真实浏览器，不打断当前工作，通过 CLI 加扩展实现跨任意支持 shell 的智能体浏览器自动化。",
+      "tags": [
+        "browser",
+        "automation",
+        "ai-agent",
+        "cli",
+        "typescript"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:49:04.078Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "teamai-cli",
+      "fullName": "Tencent/teamai-cli",
+      "url": "https://github.com/Tencent/teamai-cli",
+      "description": "Make Every Team AI Native",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4731,
+      "forks": 335,
+      "starsToday": 1021,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/279665174?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的团队级 AI 命令行工具，用 TypeScript 编写，帮助团队快速接入并统一管理 AI 能力，实现 AI 原生协作。",
+      "tags": [
+        "ai",
+        "cli",
+        "typescript",
+        "team",
+        "tooling"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-18T03:49:04.404Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "voicebox",
+      "fullName": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 54916,
+      "forks": 6832,
+      "starsToday": 2058,
+      "topics": [],
+      "author": {
+        "name": "jamiepine",
+        "avatar": "https://avatars.githubusercontent.com/u/32987599?s=40&amp;v=4",
+        "url": "https://github.com/jamiepine"
+      },
+      "summary": "开源 AI 语音工作室，支持声音克隆、语音听写与语音生成，一站式完成语音创作。",
+      "tags": [
+        "ai",
+        "voice",
+        "tts",
+        "speech",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:49:04.338Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
