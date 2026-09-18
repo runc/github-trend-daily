@@ -2,8 +2,8 @@
   "date": "2026-09-18",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-09-18T03:47:51.151Z",
-  "enrichedAt": "2026-09-18T03:49:29.496Z",
+  "fetchedAt": "2026-09-18T13:29:14.211Z",
+  "enrichedAt": "2026-09-18T13:30:09.575Z",
   "repos": [
     {
       "name": "worktrunk",
@@ -12,7 +12,7 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7948,
+      "stars": 7981,
       "forks": 272,
       "starsToday": 1060,
       "topics": [],
@@ -40,8 +40,8 @@
       "description": "Turn your coding agents into research agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5043,
-      "forks": 308,
+      "stars": 5227,
+      "forks": 317,
       "starsToday": 4029,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 13587,
-      "forks": 1163,
+      "stars": 13661,
+      "forks": 1172,
       "starsToday": 4033,
       "topics": [],
       "author": {
@@ -97,8 +97,8 @@
       "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2037,
-      "forks": 204,
+      "stars": 2048,
+      "forks": 206,
       "starsToday": 607,
       "topics": [],
       "author": {
@@ -126,8 +126,8 @@
       "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 4759,
-      "forks": 292,
+      "stars": 4751,
+      "forks": 293,
       "starsToday": 1550,
       "topics": [],
       "author": {
@@ -148,14 +148,294 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32968,
+      "forks": 1475,
+      "starsToday": 1049,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "RustFS 是用 Rust 编写的高性能开源对象存储系统，兼容 S3 协议，支持与 MinIO、Ceph 等平台迁移共存，可替代传统存储方案。",
+      "tags": [
+        "rust",
+        "object-storage",
+        "s3",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T03:49:25.121Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anki",
+      "fullName": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31082,
+      "forks": 3234,
+      "starsToday": 688,
+      "topics": [],
+      "author": {
+        "name": "ankitects",
+        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
+        "url": "https://github.com/ankitects"
+      },
+      "summary": "Anki 是基于间隔重复算法的智能记忆卡片软件，帮助用户高效记忆外语单词与知识点，支持多平台同步与插件扩展。",
+      "tags": [
+        "flashcards",
+        "spaced-repetition",
+        "learning",
+        "rust",
+        "education"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-18T03:49:26.359Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cuda-oxide",
+      "fullName": "NVlabs/cuda-oxide",
+      "url": "https://github.com/NVlabs/cuda-oxide",
+      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3488,
+      "forks": 271,
+      "starsToday": 227,
+      "topics": [],
+      "author": {
+        "name": "NVlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
+        "url": "https://github.com/NVlabs"
+      },
+      "summary": "将标准 Rust 代码直接编译为 CUDA PTX 的编译器，可用惯用 Rust 编写 SIMT GPU 内核，无需 DSL 或外部语言绑定。",
+      "tags": [
+        "rust",
+        "cuda",
+        "gpu",
+        "compiler",
+        "ptx"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:30:09.575Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 80898,
+      "forks": 5131,
+      "starsToday": 1149,
+      "topics": [],
+      "author": {
+        "name": "rtk-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
+        "url": "https://github.com/rtk-ai"
+      },
+      "summary": "Rust 编写的 CLI 代理，可将常见开发命令的 LLM token 消耗降低 60-90%，单一二进制、零依赖，开箱即用。",
+      "tags": [
+        "cli",
+        "rust",
+        "llm",
+        "token-optimization",
+        "proxy"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:49:25.286Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "webcodex",
+      "fullName": "yyjeqhc/webcodex",
+      "url": "https://github.com/yyjeqhc/webcodex",
+      "description": "Give cloud AI agents a real development environment on your own machines.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1224,
+      "forks": 156,
+      "starsToday": 452,
+      "topics": [],
+      "author": {
+        "name": "yyjeqhc",
+        "avatar": "https://avatars.githubusercontent.com/u/51790758?s=40&amp;v=4",
+        "url": "https://github.com/yyjeqhc"
+      },
+      "summary": "用 Rust 编写的工具，让云端 AI 代理接入你本机的真实开发环境，实现代码读写与命令执行。",
+      "tags": [
+        "ai-agent",
+        "rust",
+        "dev-environment",
+        "self-hosted",
+        "remote"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:49:26.307Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 123925,
+      "forks": 19136,
+      "starsToday": 988,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建服务器，可替代 TeamViewer，用 Rust 编写，跨平台且性能出色。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-18T03:49:26.309Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31486,
+      "forks": 3388,
+      "starsToday": 295,
+      "topics": [],
+      "author": {
+        "name": "lbjlaq",
+        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
+        "url": "https://github.com/lbjlaq"
+      },
+      "summary": "基于 Tauri v2 + React（Rust）的 Antigravity 账号管理与切换工具，支持一键无缝切换多账号，解决频繁登录切换的痛点。",
+      "tags": [
+        "tauri",
+        "rust",
+        "react",
+        "account-manager",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-18T03:49:27.651Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clash-verge-rev",
+      "fullName": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 145262,
+      "forks": 10455,
+      "starsToday": 1567,
+      "topics": [],
+      "author": {
+        "name": "clash-verge-rev",
+        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
+        "url": "https://github.com/clash-verge-rev"
+      },
+      "summary": "基于 Tauri 的现代化跨平台代理客户端，为 Windows、macOS 和 Linux 提供图形化 Clash 使用体验。",
+      "tags": [
+        "proxy",
+        "clash",
+        "tauri",
+        "rust",
+        "gui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-18T03:49:27.106Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 94369,
+      "forks": 12491,
+      "starsToday": 1627,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面，基于Rust构建。",
+      "tags": [
+        "wifi",
+        "rust",
+        "sensing",
+        "presence-detection",
+        "health"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:49:27.825Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "check-if-email-exists",
+      "fullName": "reacherhq/check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9880,
+      "forks": 712,
+      "starsToday": 345,
+      "topics": [],
+      "author": {
+        "name": "reacherhq",
+        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
+        "url": "https://github.com/reacherhq"
+      },
+      "summary": "用 Rust 编写的邮箱地址有效性检测工具，无需发送邮件即可通过 SMTP 校验邮箱是否存在，并提供 HTTP 后端服务。",
+      "tags": [
+        "rust",
+        "email",
+        "smtp",
+        "validation",
+        "http-api"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T03:49:29.086Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "workmux",
       "fullName": "raine/workmux",
       "url": "https://github.com/raine/workmux",
       "description": "git worktrees + tmux windows for zero-friction parallel dev",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2634,
-      "forks": 327,
+      "stars": 2639,
+      "forks": 328,
       "starsToday": 240,
       "topics": [],
       "author": {
@@ -177,59 +457,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "name": "arcbox",
+      "fullName": "arcboxlabs/arcbox",
+      "url": "https://github.com/arcboxlabs/arcbox",
+      "description": "Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 32807,
-      "forks": 1471,
-      "starsToday": 1049,
+      "stars": 5196,
+      "forks": 183,
+      "starsToday": 2436,
       "topics": [],
       "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
+        "name": "arcboxlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/37977109?s=40&amp;v=4",
+        "url": "https://github.com/arcboxlabs"
       },
-      "summary": "RustFS 是用 Rust 编写的高性能开源对象存储系统，兼容 S3 协议，支持与 MinIO、Ceph 等平台迁移共存，可替代传统存储方案。",
+      "summary": "用纯 Rust 实现的本地优先沙箱运行时，为 AI 代理提供独立内核、文件系统与网络，启动低于 100ms，兼容 OCI。",
       "tags": [
         "rust",
-        "object-storage",
-        "s3",
-        "storage",
-        "minio"
+        "sandbox",
+        "ai-agents",
+        "oci",
+        "virtualization"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-09-18T03:49:25.121Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rtk",
-      "fullName": "rtk-ai/rtk",
-      "url": "https://github.com/rtk-ai/rtk",
-      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 80854,
-      "forks": 5124,
-      "starsToday": 1149,
-      "topics": [],
-      "author": {
-        "name": "rtk-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
-        "url": "https://github.com/rtk-ai"
-      },
-      "summary": "Rust 编写的 CLI 代理，可将常见开发命令的 LLM token 消耗降低 60-90%，单一二进制、零依赖，开箱即用。",
-      "tags": [
-        "cli",
-        "rust",
-        "llm",
-        "token-optimization",
-        "proxy"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-18T03:49:25.286Z",
+      "enrichedAt": "2026-09-18T03:49:29.178Z",
       "deepwikiAvailable": false
     },
     {
@@ -239,8 +491,8 @@
       "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2034,
-      "forks": 217,
+      "stars": 2051,
+      "forks": 220,
       "starsToday": 220,
       "topics": [],
       "author": {
@@ -259,118 +511,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-18T03:49:26.065Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 123888,
-      "forks": 19128,
-      "starsToday": 988,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面应用，支持自建服务器，可替代 TeamViewer，用 Rust 编写，跨平台且性能出色。",
-      "tags": [
-        "remote-desktop",
-        "rust",
-        "self-hosted",
-        "teamviewer-alternative",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-18T03:49:26.309Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "anki",
-      "fullName": "ankitects/anki",
-      "url": "https://github.com/ankitects/anki",
-      "description": "Anki is a smart spaced repetition flashcard program",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31009,
-      "forks": 3229,
-      "starsToday": 688,
-      "topics": [],
-      "author": {
-        "name": "ankitects",
-        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
-        "url": "https://github.com/ankitects"
-      },
-      "summary": "Anki 是基于间隔重复算法的智能记忆卡片软件，帮助用户高效记忆外语单词与知识点，支持多平台同步与插件扩展。",
-      "tags": [
-        "flashcards",
-        "spaced-repetition",
-        "learning",
-        "rust",
-        "education"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-18T03:49:26.359Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "webcodex",
-      "fullName": "yyjeqhc/webcodex",
-      "url": "https://github.com/yyjeqhc/webcodex",
-      "description": "Give cloud AI agents a real development environment on your own machines.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1104,
-      "forks": 144,
-      "starsToday": 452,
-      "topics": [],
-      "author": {
-        "name": "yyjeqhc",
-        "avatar": "https://avatars.githubusercontent.com/u/51790758?s=40&amp;v=4",
-        "url": "https://github.com/yyjeqhc"
-      },
-      "summary": "用 Rust 编写的工具，让云端 AI 代理接入你本机的真实开发环境，实现代码读写与命令执行。",
-      "tags": [
-        "ai-agent",
-        "rust",
-        "dev-environment",
-        "self-hosted",
-        "remote"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-18T03:49:26.307Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "clash-verge-rev",
-      "fullName": "clash-verge-rev/clash-verge-rev",
-      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 145151,
-      "forks": 10446,
-      "starsToday": 1567,
-      "topics": [],
-      "author": {
-        "name": "clash-verge-rev",
-        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
-        "url": "https://github.com/clash-verge-rev"
-      },
-      "summary": "基于 Tauri 的现代化跨平台代理客户端，为 Windows、macOS 和 Linux 提供图形化 Clash 使用体验。",
-      "tags": [
-        "proxy",
-        "clash",
-        "tauri",
-        "rust",
-        "gui"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-18T03:49:27.106Z",
       "deepwikiAvailable": false
     },
     {
@@ -399,62 +539,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-09-18T03:49:27.894Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "RuView",
-      "fullName": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 94330,
-      "forks": 12486,
-      "starsToday": 1627,
-      "topics": [],
-      "author": {
-        "name": "ruvnet",
-        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
-        "url": "https://github.com/ruvnet"
-      },
-      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面，基于Rust构建。",
-      "tags": [
-        "wifi",
-        "rust",
-        "sensing",
-        "presence-detection",
-        "health"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-18T03:49:27.825Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Antigravity-Manager",
-      "fullName": "lbjlaq/Antigravity-Manager",
-      "url": "https://github.com/lbjlaq/Antigravity-Manager",
-      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31461,
-      "forks": 3386,
-      "starsToday": 295,
-      "topics": [],
-      "author": {
-        "name": "lbjlaq",
-        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
-        "url": "https://github.com/lbjlaq"
-      },
-      "summary": "基于 Tauri v2 + React（Rust）的 Antigravity 账号管理与切换工具，支持一键无缝切换多账号，解决频繁登录切换的痛点。",
-      "tags": [
-        "tauri",
-        "rust",
-        "react",
-        "account-manager",
-        "desktop"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-18T03:49:27.651Z",
       "deepwikiAvailable": false
     },
     {
@@ -511,62 +595,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-18T03:49:28.681Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "check-if-email-exists",
-      "fullName": "reacherhq/check-if-email-exists",
-      "url": "https://github.com/reacherhq/check-if-email-exists",
-      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 9880,
-      "forks": 712,
-      "starsToday": 345,
-      "topics": [],
-      "author": {
-        "name": "reacherhq",
-        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
-        "url": "https://github.com/reacherhq"
-      },
-      "summary": "用 Rust 编写的邮箱地址有效性检测工具，无需发送邮件即可通过 SMTP 校验邮箱是否存在，并提供 HTTP 后端服务。",
-      "tags": [
-        "rust",
-        "email",
-        "smtp",
-        "validation",
-        "http-api"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-18T03:49:29.086Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "arcbox",
-      "fullName": "arcboxlabs/arcbox",
-      "url": "https://github.com/arcboxlabs/arcbox",
-      "description": "Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5048,
-      "forks": 173,
-      "starsToday": 2436,
-      "topics": [],
-      "author": {
-        "name": "arcboxlabs",
-        "avatar": "https://avatars.githubusercontent.com/u/37977109?s=40&amp;v=4",
-        "url": "https://github.com/arcboxlabs"
-      },
-      "summary": "用纯 Rust 实现的本地优先沙箱运行时，为 AI 代理提供独立内核、文件系统与网络，启动低于 100ms，兼容 OCI。",
-      "tags": [
-        "rust",
-        "sandbox",
-        "ai-agents",
-        "oci",
-        "virtualization"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-18T03:49:29.178Z",
       "deepwikiAvailable": false
     },
     {

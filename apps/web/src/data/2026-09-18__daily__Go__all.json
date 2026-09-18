@@ -2,19 +2,19 @@
   "date": "2026-09-18",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-18T03:47:51.151Z",
-  "enrichedAt": "2026-09-18T03:48:34.827Z",
+  "fetchedAt": "2026-09-18T13:29:14.211Z",
+  "enrichedAt": "2026-09-18T13:29:52.898Z",
   "repos": [
     {
       "name": "open-code-review",
       "fullName": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 35204,
-      "forks": 2493,
-      "starsToday": 3286,
+      "stars": 36213,
+      "forks": 2574,
+      "starsToday": 2724,
       "topics": [],
       "author": {
         "name": "alibaba",
@@ -34,15 +34,71 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "coder",
+      "fullName": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15068,
+      "forks": 1496,
+      "starsToday": 478,
+      "topics": [],
+      "author": {
+        "name": "coder",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/coder"
+      },
+      "summary": "基于 Go 的自托管开发环境平台，用 Terraform 模板为开发者与 AI 代理提供安全隔离的远程工作空间，支持多集群与权限管控。",
+      "tags": [
+        "devops",
+        "remote-development",
+        "terraform",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T03:48:29.018Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4719,
+      "forks": 199,
+      "starsToday": 842,
+      "topics": [],
+      "author": {
+        "name": "asciimoo",
+        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
+        "url": "https://github.com/asciimoo"
+      },
+      "summary": "用 Go 编写的自托管搜索引擎，可索引本地网页与文件，提供私有化全文检索，无需依赖外部服务。",
+      "tags": [
+        "search-engine",
+        "go",
+        "self-hosted",
+        "indexing",
+        "privacy"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:49.471Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "WeKnora",
       "fullName": "Tencent/WeKnora",
       "url": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 26443,
-      "forks": 3570,
-      "starsToday": 1125,
+      "stars": 26799,
+      "forks": 3606,
+      "starsToday": 946,
       "topics": [],
       "author": {
         "name": "Tencent",
@@ -69,9 +125,9 @@
       "description": "eBPF-based Networking, Security, and Observability",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 25293,
-      "forks": 4074,
-      "starsToday": 111,
+      "stars": 25337,
+      "forks": 4081,
+      "starsToday": 190,
       "topics": [],
       "author": {
         "name": "cilium",
@@ -92,31 +148,32 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "coder",
-      "fullName": "coder/coder",
-      "url": "https://github.com/coder/coder",
-      "description": "Secure environments for developers and their agents",
+      "name": "Memoh",
+      "fullName": "felinics/Memoh",
+      "url": "https://github.com/felinics/Memoh",
+      "description": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory. You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 14908,
-      "forks": 1487,
-      "starsToday": 145,
+      "stars": 2496,
+      "forks": 237,
+      "starsToday": 35,
       "topics": [],
       "author": {
-        "name": "coder",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/coder"
+        "name": "felinics",
+        "avatar": "https://avatars.githubusercontent.com/u/78635021?s=40&amp;v=4",
+        "url": "https://github.com/felinics"
       },
-      "summary": "基于 Go 的自托管开发环境平台，用 Terraform 模板为开发者与 AI 代理提供安全隔离的远程工作空间，支持多集群与权限管控。",
+      "summary": "开源多智能体平台，为每个智能体提供独立电脑、桌面、网络与长期记忆，支持自带密钥或托管 Claude Code、Codex 等编码智能体。",
       "tags": [
-        "devops",
-        "remote-development",
-        "terraform",
+        "multi-agent",
         "go",
-        "self-hosted"
+        "ai",
+        "self-hosted",
+        "memory",
+        "coding-agent"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-18T03:48:29.018Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-18T13:29:49.283Z",
       "deepwikiAvailable": false
     },
     {
@@ -126,8 +183,8 @@
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 106325,
-      "forks": 6157,
+      "stars": 106485,
+      "forks": 6165,
       "starsToday": 359,
       "topics": [],
       "author": {
@@ -148,14 +205,98 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "router",
+      "fullName": "weave-os/router",
+      "url": "https://github.com/weave-os/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4443,
+      "forks": 121,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "weave-os",
+        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
+        "url": "https://github.com/weave-os"
+      },
+      "summary": "面向智能体系统的模型路由器，50毫秒内把每个提示词分发到最合适的模型，仅改端点即可降低40-70%成本。",
+      "tags": [
+        "llm",
+        "router",
+        "go",
+        "agents",
+        "cost-optimization"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T13:29:49.336Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 83103,
+      "forks": 3072,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "summary": "Go 编写的命令行模糊查找器，可快速筛选文件、历史记录等任意列表，支持交互式搜索与管道集成，是终端效率利器。",
+      "tags": [
+        "cli",
+        "fuzzy-finder",
+        "go",
+        "terminal",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-18T03:48:30.823Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111099,
+      "forks": 14235,
+      "starsToday": 55,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "JavaScript 的超集语言，为 JS 添加静态类型，编译输出干净的 JavaScript，提升大型项目可维护性与开发体验。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "language",
+        "compiler",
+        "static-typing"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-09-18T03:48:31.507Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "multica",
       "fullName": "multica-ai/multica",
       "url": "https://github.com/multica-ai/multica",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 50345,
-      "forks": 6510,
+      "stars": 50389,
+      "forks": 6526,
       "starsToday": 205,
       "topics": [],
       "author": {
@@ -173,6 +314,317 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-18T03:48:29.841Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kueue",
+      "fullName": "kubernetes-sigs/kueue",
+      "url": "https://github.com/kubernetes-sigs/kueue",
+      "description": "Kubernetes-native Job Queueing",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2984,
+      "forks": 802,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/13921122?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubernetes 原生作业队列系统，为批处理与 AI 训练负载提供配额、优先级和抢占调度，提升集群资源利用率。",
+      "tags": [
+        "kubernetes",
+        "job-queue",
+        "scheduler",
+        "go",
+        "batch"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T13:29:49.168Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skill-up",
+      "fullName": "alibaba/skill-up",
+      "url": "https://github.com/alibaba/skill-up",
+      "description": "An evaluation and evolution tool for Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 966,
+      "forks": 75,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/4339349?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里巴巴开源的 Agent Skills 评估与进化工具，用 Go 编写，可自动评测并迭代优化智能体技能。",
+      "tags": [
+        "agent",
+        "skills",
+        "evaluation",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T13:29:50.250Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fleet",
+      "fullName": "fleetdm/fleet",
+      "url": "https://github.com/fleetdm/fleet",
+      "description": "Open device management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6879,
+      "forks": 1024,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "fleetdm",
+        "avatar": "https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4",
+        "url": "https://github.com/fleetdm"
+      },
+      "summary": "开源设备管理平台，统一管理 macOS、Windows、Linux 与 ChromeOS 等终端，支持漏洞检测、合规策略与 osquery 实时查询。",
+      "tags": [
+        "device-management",
+        "mdm",
+        "osquery",
+        "security",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T13:29:50.662Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52396,
+      "forks": 7911,
+      "starsToday": 141,
+      "topics": [],
+      "author": {
+        "name": "router-for-me",
+        "avatar": "https://avatars.githubusercontent.com/u/4966831?s=40&amp;v=4",
+        "url": "https://github.com/router-for-me"
+      },
+      "summary": "将 Antigravity、Codex、Claude Code 等 CLI 包装成 OpenAI/Gemini/Claude 兼容 API 服务，通过统一接口免费调用 Gemini、GPT、Grok、Claude 等模型。",
+      "tags": [
+        "api",
+        "proxy",
+        "llm",
+        "gateway",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T13:29:50.504Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "yq",
+      "fullName": "mikefarah/yq",
+      "url": "https://github.com/mikefarah/yq",
+      "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15972,
+      "forks": 1025,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "mikefarah",
+        "avatar": "https://avatars.githubusercontent.com/u/1151925?s=40&amp;v=4",
+        "url": "https://github.com/mikefarah"
+      },
+      "summary": "yq 是一个可移植的命令行 YAML、JSON、XML、CSV、TOML 等格式处理器，用类似 jq 的语法查询和修改配置文件，跨平台单文件即可使用。",
+      "tags": [
+        "yaml",
+        "cli",
+        "json",
+        "go",
+        "config"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-18T13:29:50.628Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "no-mistakes",
+      "fullName": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8542,
+      "forks": 883,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "kunchenguid",
+        "avatar": "https://avatars.githubusercontent.com/u/3233006?s=40&amp;v=4",
+        "url": "https://github.com/kunchenguid"
+      },
+      "summary": "用 Go 编写的 Git 推送防护工具，在 push 前自动拦截错误提交，避免误推代码到远端仓库。",
+      "tags": [
+        "git",
+        "go",
+        "cli",
+        "devtool",
+        "workflow"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:51.346Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5144,
+      "forks": 544,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的智能体工作流工具，用 Go 编写，让 AI Agent 以声明式方式驱动仓库自动化任务。",
+      "tags": [
+        "github",
+        "agent",
+        "workflow",
+        "automation",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:51.399Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harbor",
+      "fullName": "goharbor/harbor",
+      "url": "https://github.com/goharbor/harbor",
+      "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29402,
+      "forks": 5347,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "goharbor",
+        "avatar": "https://avatars.githubusercontent.com/u/5835782?s=40&amp;v=4",
+        "url": "https://github.com/goharbor"
+      },
+      "summary": "开源云原生镜像仓库，支持镜像存储、签名与漏洞扫描，提供企业级权限和复制能力。",
+      "tags": [
+        "registry",
+        "container",
+        "kubernetes",
+        "security",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T13:29:51.660Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41953,
+      "forks": 8844,
+      "starsToday": 118,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具无缝使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted",
+        "subscription"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T13:29:51.817Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-music-dl",
+      "fullName": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4375,
+      "forks": 416,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "guohuiyuan",
+        "avatar": "https://avatars.githubusercontent.com/u/54976075?s=40&amp;v=4",
+        "url": "https://github.com/guohuiyuan"
+      },
+      "summary": "基于 Go 的全网音乐搜索下载工具，支持 CLI 与 Web 双模式，内置网易云、QQ、酷狗、B站等 10+ 平台，多源并发搜索并解析无损音质。",
+      "tags": [
+        "go",
+        "music",
+        "downloader",
+        "cli",
+        "web",
+        "search"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-18T13:29:52.284Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "alertmanager",
+      "fullName": "prometheus/alertmanager",
+      "url": "https://github.com/prometheus/alertmanager",
+      "description": "Prometheus Alertmanager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8614,
+      "forks": 2468,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 生态的告警处理组件，负责告警去重、分组、静默与路由分发，支持邮件、Slack 等多种通知渠道。",
+      "tags": [
+        "prometheus",
+        "alerting",
+        "monitoring",
+        "go",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T13:29:52.898Z",
       "deepwikiAvailable": false
     },
     {
@@ -232,34 +684,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "fzf",
-      "fullName": "junegunn/fzf",
-      "url": "https://github.com/junegunn/fzf",
-      "description": "🌸 A command-line fuzzy finder",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 83089,
-      "forks": 3023,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "junegunn",
-        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
-        "url": "https://github.com/junegunn"
-      },
-      "summary": "Go 编写的命令行模糊查找器，可快速筛选文件、历史记录等任意列表，支持交互式搜索与管道集成，是终端效率利器。",
-      "tags": [
-        "cli",
-        "fuzzy-finder",
-        "go",
-        "terminal",
-        "productivity"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-18T03:48:30.823Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "cli",
       "fullName": "larksuite/cli",
       "url": "https://github.com/larksuite/cli",
@@ -286,34 +710,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-09-18T03:48:31.461Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "TypeScript",
-      "fullName": "microsoft/TypeScript",
-      "url": "https://github.com/microsoft/TypeScript",
-      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 111096,
-      "forks": 14201,
-      "starsToday": 55,
-      "topics": [],
-      "author": {
-        "name": "microsoft",
-        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
-        "url": "https://github.com/microsoft"
-      },
-      "summary": "JavaScript 的超集语言，为 JS 添加静态类型，编译输出干净的 JavaScript，提升大型项目可维护性与开发体验。",
-      "tags": [
-        "typescript",
-        "javascript",
-        "language",
-        "compiler",
-        "static-typing"
-      ],
-      "category": "Language",
-      "enrichedAt": "2026-09-18T03:48:31.507Z",
       "deepwikiAvailable": false
     },
     {

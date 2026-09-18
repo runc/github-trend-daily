@@ -2,63 +2,147 @@
   "date": "2026-09-18",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-18T03:47:51.151Z",
-  "enrichedAt": "2026-09-18T03:48:50.172Z",
+  "fetchedAt": "2026-09-18T13:29:14.211Z",
+  "enrichedAt": "2026-09-18T13:29:56.693Z",
   "repos": [
     {
-      "name": "OpenResearch",
-      "fullName": "alphaXiv/OpenResearch",
-      "url": "https://github.com/alphaXiv/OpenResearch",
-      "description": "Turn your coding agents into research agents",
+      "name": "anki",
+      "fullName": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5043,
-      "forks": 308,
-      "starsToday": 939,
+      "stars": 31082,
+      "forks": 3234,
+      "starsToday": 430,
       "topics": [],
       "author": {
-        "name": "alphaXiv",
-        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
-        "url": "https://github.com/alphaXiv"
+        "name": "ankitects",
+        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
+        "url": "https://github.com/ankitects"
       },
-      "summary": "用 Rust 打造的开放研究平台，把编码智能体改造成研究智能体，自动检索文献、复现实验并产出可验证的研究结果。",
+      "summary": "Anki 是基于间隔重复算法的智能记忆卡片软件，用 Rust 重写核心，帮助高效记忆与长期复习。",
       "tags": [
-        "ai",
-        "agents",
-        "research",
+        "flashcards",
+        "spaced-repetition",
+        "learning",
         "rust",
-        "automation"
+        "education"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-09-18T03:48:42.299Z",
+      "category": "App",
+      "enrichedAt": "2026-09-18T03:48:43.189Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "buzz",
-      "fullName": "block/buzz",
-      "url": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 33544,
-      "forks": 4394,
-      "starsToday": 414,
+      "stars": 32968,
+      "forks": 1475,
+      "starsToday": 559,
       "topics": [],
       "author": {
-        "name": "block",
-        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
-        "url": "https://github.com/block"
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
       },
-      "summary": "Rust 编写的群体协作通信平台，用于团队实时共享信息与协同决策，构建集体智能式沟通。",
+      "summary": "RustFS 是用 Rust 编写的开源 S3 兼容高性能对象存储系统，可与 MinIO、Ceph 等平台迁移共存。",
       "tags": [
         "rust",
-        "communication",
-        "collaboration",
-        "platform",
-        "hive-mind"
+        "object-storage",
+        "s3",
+        "storage",
+        "minio"
       ],
-      "category": "App",
-      "enrichedAt": "2026-09-18T03:48:42.514Z",
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T03:48:44.290Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8684,
+      "forks": 1261,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 开源的自主 AI 智能体安全运行时，用 Rust 编写，为智能体提供隔离、私密的执行环境与权限管控。",
+      "tags": [
+        "ai-agents",
+        "rust",
+        "runtime",
+        "sandbox",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T03:48:44.206Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-browser",
+      "fullName": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 42817,
+      "forks": 2871,
+      "starsToday": 117,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "面向 AI 智能体的浏览器自动化命令行工具，用 Rust 编写，让模型可直接操控网页完成抓取与交互任务。",
+      "tags": [
+        "browser",
+        "automation",
+        "ai-agent",
+        "cli",
+        "rust"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-18T03:48:49.088Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cuda-oxide",
+      "fullName": "NVlabs/cuda-oxide",
+      "url": "https://github.com/NVlabs/cuda-oxide",
+      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3488,
+      "forks": 271,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "NVlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
+        "url": "https://github.com/NVlabs"
+      },
+      "summary": "Rust 到 CUDA 的编译器，可直接把惯用 Rust 代码编译为 PTX，无需 DSL 或外部语言绑定即可编写 SIMT GPU 内核。",
+      "tags": [
+        "rust",
+        "cuda",
+        "gpu",
+        "compiler",
+        "ptx"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:54.056Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,8 +152,8 @@
       "description": "Give cloud AI agents a real development environment on your own machines.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1104,
-      "forks": 144,
+      "stars": 1224,
+      "forks": 156,
       "starsToday": 140,
       "topics": [],
       "author": {
@@ -90,31 +174,398 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "anki",
-      "fullName": "ankitects/anki",
-      "url": "https://github.com/ankitects/anki",
-      "description": "Anki is a smart spaced repetition flashcard program",
+      "name": "iii",
+      "fullName": "iii-hq/iii",
+      "url": "https://github.com/iii-hq/iii",
+      "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 31009,
-      "forks": 3229,
-      "starsToday": 430,
+      "stars": 18771,
+      "forks": 1262,
+      "starsToday": 29,
       "topics": [],
       "author": {
-        "name": "ankitects",
-        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
-        "url": "https://github.com/ankitects"
+        "name": "iii-hq",
+        "avatar": "https://avatars.githubusercontent.com/u/5348335?s=40&amp;v=4",
+        "url": "https://github.com/iii-hq"
       },
-      "summary": "Anki 是基于间隔重复算法的智能记忆卡片软件，用 Rust 重写核心，帮助高效记忆与长期复习。",
+      "summary": "基于 Rust 的实时服务编排与可观测平台，支持轻松组合、扩展并实时监控所有服务。",
       "tags": [
-        "flashcards",
-        "spaced-repetition",
-        "learning",
         "rust",
-        "education"
+        "observability",
+        "orchestration",
+        "realtime",
+        "backend"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-18T13:29:54.115Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "quiche",
+      "fullName": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11841,
+      "forks": 1094,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare 出品的 Rust 实现的 QUIC 传输协议与 HTTP/3 库，性能高、可嵌入，适合构建低延迟网络服务。",
+      "tags": [
+        "quic",
+        "http3",
+        "rust",
+        "networking",
+        "protocol"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-18T13:29:54.347Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Codex-X",
+      "fullName": "yynxxxxx/Codex-X",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3291,
+      "forks": 437,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "yynxxxxx",
+        "avatar": "https://avatars.githubusercontent.com/u/139136586?s=40&amp;v=4",
+        "url": "https://github.com/yynxxxxx"
+      },
+      "summary": "OpenAI Codex 桌面端与 CLI 的可视化管理工具，支持 Provider/API 切换、会话同步、提示词注入及 Skills/MCP 与 TOML 配置管理，跨平台。",
+      "tags": [
+        "codex",
+        "rust",
+        "cli",
+        "mcp",
+        "config",
+        "desktop"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:54.309Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "makepad",
+      "fullName": "makepad/makepad",
+      "url": "https://github.com/makepad/makepad",
+      "description": "Makepad is a creative software development platform for Rust that compiles to wasm/webGL, osx/metal, windows/dx11 linux/opengl",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6954,
+      "forks": 383,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "makepad",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/makepad"
+      },
+      "summary": "Makepad 是 Rust 编写的创意软件开发平台，可编译到 Web、macOS、Windows 和 Linux，用一套代码跨平台构建高性能图形界面与交互应用。",
+      "tags": [
+        "rust",
+        "gui",
+        "wasm",
+        "cross-platform",
+        "graphics"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:55.320Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lancedb",
+      "fullName": "lancedb/lancedb",
+      "url": "https://github.com/lancedb/lancedb",
+      "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11458,
+      "forks": 1057,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "lancedb",
+        "avatar": "https://avatars.githubusercontent.com/u/5488879?s=40&amp;v=4",
+        "url": "https://github.com/lancedb"
+      },
+      "summary": "面向多模态 AI 的开源嵌入式向量检索库，用 Rust 编写，无需管理服务即可实现高效相似度搜索与数据管理。",
+      "tags": [
+        "vector-database",
+        "embeddings",
+        "rust",
+        "retrieval",
+        "multimodal",
+        "oss"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-18T13:29:55.452Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ripgrep",
+      "fullName": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 68402,
+      "forks": 2992,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "BurntSushi",
+        "avatar": "https://avatars.githubusercontent.com/u/456674?s=40&amp;v=4",
+        "url": "https://github.com/BurntSushi"
+      },
+      "summary": "ripgrep 是用 Rust 编写的高速递归正则搜索工具，默认遵循 gitignore 规则，比 grep 更快更智能，是开发者命令行搜索的首选。",
+      "tags": [
+        "grep",
+        "search",
+        "rust",
+        "cli",
+        "regex"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-18T03:48:48.512Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tty7",
+      "fullName": "l0ng-ai/tty7",
+      "url": "https://github.com/l0ng-ai/tty7",
+      "description": "A terminal workbench in pure Rust: shells, persistent sessions, SSH, coding agents. GPU-rendered on Zed's gpui, VT core from Alacritty.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 998,
+      "forks": 74,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "l0ng-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/24760907?s=40&amp;v=4",
+        "url": "https://github.com/l0ng-ai"
+      },
+      "summary": "纯 Rust 打造的终端工作台，集成 shell、持久会话、SSH 与编码智能体，基于 Zed 的 gpui 做 GPU 渲染，VT 内核取自 Alacritty。",
+      "tags": [
+        "terminal",
+        "rust",
+        "ssh",
+        "gpu",
+        "gpui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:55.491Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpuix",
+      "fullName": "remorses/gpuix",
+      "url": "https://github.com/remorses/gpuix",
+      "description": "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1984,
+      "forks": 60,
+      "starsToday": 58,
+      "topics": [],
+      "author": {
+        "name": "remorses",
+        "avatar": "https://avatars.githubusercontent.com/u/31321188?s=40&amp;v=4",
+        "url": "https://github.com/remorses"
+      },
+      "summary": "基于 Zed 的 GPUI 为 Node.js 和 React 提供绑定，用 React 构建内存高效的原生应用，无需 Electron。",
+      "tags": [
+        "rust",
+        "react",
+        "nodejs",
+        "gpui",
+        "native",
+        "gui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:55.394Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenResearch",
+      "fullName": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5227,
+      "forks": 317,
+      "starsToday": 638,
+      "topics": [],
+      "author": {
+        "name": "alphaXiv",
+        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
+        "url": "https://github.com/alphaXiv"
+      },
+      "summary": "用 Rust 打造的开放研究平台，把编码智能体改造成研究智能体，自动检索文献、复现实验并产出可验证的研究结果。",
+      "tags": [
+        "ai",
+        "agents",
+        "research",
+        "rust",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-18T03:48:42.299Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lore",
+      "fullName": "EpicGames/lore",
+      "url": "https://github.com/EpicGames/lore",
+      "description": "Lore is a next-generation, open source version control system",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8649,
+      "forks": 433,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "EpicGames",
+        "avatar": "https://avatars.githubusercontent.com/u/3316562?s=40&amp;v=4",
+        "url": "https://github.com/EpicGames"
+      },
+      "summary": "Epic Games 开源的下一代版本控制系统，用 Rust 编写，面向大规模代码与二进制资产的高效协作管理。",
+      "tags": [
+        "version-control",
+        "rust",
+        "git-alternative",
+        "epicgames",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-18T13:29:56.516Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bevy",
+      "fullName": "bevyengine/bevy",
+      "url": "https://github.com/bevyengine/bevy",
+      "description": "A refreshingly simple data-driven game engine built in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 48263,
+      "forks": 4845,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "bevyengine",
+        "avatar": "https://avatars.githubusercontent.com/u/2694663?s=40&amp;v=4",
+        "url": "https://github.com/bevyengine"
+      },
+      "summary": "基于 Rust 的数据驱动游戏引擎，采用 ECS 架构，简洁高效，适合快速开发 2D/3D 游戏。",
+      "tags": [
+        "rust",
+        "game-engine",
+        "ecs",
+        "gamedev",
+        "3d"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-18T03:48:47.287Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31486,
+      "forks": 3388,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "lbjlaq",
+        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
+        "url": "https://github.com/lbjlaq"
+      },
+      "summary": "基于 Tauri v2 + React（Rust）的 Antigravity 账号管理与切换工具，支持一键无缝切换多个账号，免去重复登录的麻烦。",
+      "tags": [
+        "tauri",
+        "rust",
+        "react",
+        "account-manager",
+        "desktop"
       ],
       "category": "App",
-      "enrichedAt": "2026-09-18T03:48:43.189Z",
+      "enrichedAt": "2026-09-18T13:29:56.693Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OhMyKeymint",
+      "fullName": "qwq233/OhMyKeymint",
+      "url": "https://github.com/qwq233/OhMyKeymint",
+      "description": "",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 357,
+      "forks": 51,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "qwq233",
+        "avatar": "https://avatars.githubusercontent.com/u/20317838?s=40&amp;v=4",
+        "url": "https://github.com/qwq233"
+      },
+      "summary": "基于 Rust 的 Keymint 实现，为 Android 设备提供密钥认证与硬件密钥库支持，便于自定义系统集成。",
+      "tags": [
+        "rust",
+        "android",
+        "keymint",
+        "keystore",
+        "security"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-18T13:29:56.492Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33584,
+      "forks": 4400,
+      "starsToday": 414,
+      "topics": [],
+      "author": {
+        "name": "block",
+        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
+        "url": "https://github.com/block"
+      },
+      "summary": "Rust 编写的群体协作通信平台，用于团队实时共享信息与协同决策，构建集体智能式沟通。",
+      "tags": [
+        "rust",
+        "communication",
+        "collaboration",
+        "platform",
+        "hive-mind"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-18T03:48:42.514Z",
       "deepwikiAvailable": false
     },
     {
@@ -143,62 +594,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-18T03:48:44.198Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8680,
-      "forks": 1261,
-      "starsToday": 48,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 开源的自主 AI 智能体安全运行时，用 Rust 编写，为智能体提供隔离、私密的执行环境与权限管控。",
-      "tags": [
-        "ai-agents",
-        "rust",
-        "runtime",
-        "sandbox",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-18T03:48:44.206Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 32807,
-      "forks": 1471,
-      "starsToday": 559,
-      "topics": [],
-      "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
-      },
-      "summary": "RustFS 是用 Rust 编写的开源 S3 兼容高性能对象存储系统，可与 MinIO、Ceph 等平台迁移共存。",
-      "tags": [
-        "rust",
-        "object-storage",
-        "s3",
-        "storage",
-        "minio"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-18T03:48:44.290Z",
       "deepwikiAvailable": false
     },
     {
@@ -343,34 +738,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "bevy",
-      "fullName": "bevyengine/bevy",
-      "url": "https://github.com/bevyengine/bevy",
-      "description": "A refreshingly simple data-driven game engine built in Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 48252,
-      "forks": 4843,
-      "starsToday": 41,
-      "topics": [],
-      "author": {
-        "name": "bevyengine",
-        "avatar": "https://avatars.githubusercontent.com/u/2694663?s=40&amp;v=4",
-        "url": "https://github.com/bevyengine"
-      },
-      "summary": "基于 Rust 的数据驱动游戏引擎，采用 ECS 架构，简洁高效，适合快速开发 2D/3D 游戏。",
-      "tags": [
-        "rust",
-        "game-engine",
-        "ecs",
-        "gamedev",
-        "3d"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-18T03:48:47.287Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "celld",
       "fullName": "denoland/celld",
       "url": "https://github.com/denoland/celld",
@@ -455,34 +822,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ripgrep",
-      "fullName": "BurntSushi/ripgrep",
-      "url": "https://github.com/BurntSushi/ripgrep",
-      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 68383,
-      "forks": 2951,
-      "starsToday": 61,
-      "topics": [],
-      "author": {
-        "name": "BurntSushi",
-        "avatar": "https://avatars.githubusercontent.com/u/456674?s=40&amp;v=4",
-        "url": "https://github.com/BurntSushi"
-      },
-      "summary": "ripgrep 是用 Rust 编写的高速递归正则搜索工具，默认遵循 gitignore 规则，比 grep 更快更智能，是开发者命令行搜索的首选。",
-      "tags": [
-        "grep",
-        "search",
-        "rust",
-        "cli",
-        "regex"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-18T03:48:48.512Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Cap",
       "fullName": "CapSoftware/Cap",
       "url": "https://github.com/CapSoftware/Cap",
@@ -536,34 +875,6 @@
       ],
       "category": "Data",
       "enrichedAt": "2026-09-18T03:48:49.054Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-browser",
-      "fullName": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 42785,
-      "forks": 2873,
-      "starsToday": 117,
-      "topics": [],
-      "author": {
-        "name": "vercel-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
-        "url": "https://github.com/vercel-labs"
-      },
-      "summary": "面向 AI 智能体的浏览器自动化命令行工具，用 Rust 编写，让模型可直接操控网页完成抓取与交互任务。",
-      "tags": [
-        "browser",
-        "automation",
-        "ai-agent",
-        "cli",
-        "rust"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-18T03:48:49.088Z",
       "deepwikiAvailable": false
     },
     {
