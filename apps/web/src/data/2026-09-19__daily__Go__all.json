@@ -2,37 +2,9 @@
   "date": "2026-09-19",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-19T03:44:33.640Z",
-  "enrichedAt": "2026-09-19T03:45:18.516Z",
+  "fetchedAt": "2026-09-19T12:57:48.826Z",
+  "enrichedAt": "2026-09-19T12:58:21.662Z",
   "repos": [
-    {
-      "name": "open-code-review",
-      "fullName": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 36792,
-      "forks": 2620,
-      "starsToday": 2704,
-      "topics": [],
-      "author": {
-        "name": "alibaba",
-        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
-        "url": "https://github.com/alibaba"
-      },
-      "summary": "阿里开源的大规模代码审查工具，确定性流水线加LLM Agent混合架构，支持行级评论与多语言规则集，兼容OpenAI和Anthropic。",
-      "tags": [
-        "code-review",
-        "llm",
-        "go",
-        "static-analysis",
-        "ai-agent"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-19T03:45:12.708Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "coder",
       "fullName": "coder/coder",
@@ -40,9 +12,9 @@
       "description": "Secure environments for developers and their agents",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 15333,
-      "forks": 1504,
-      "starsToday": 478,
+      "stars": 15453,
+      "forks": 1509,
+      "starsToday": 406,
       "topics": [],
       "author": {
         "name": "coder",
@@ -68,9 +40,9 @@
       "description": "Your own search engine",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4989,
-      "forks": 207,
-      "starsToday": 889,
+      "stars": 5101,
+      "forks": 212,
+      "starsToday": 430,
       "topics": [],
       "author": {
         "name": "asciimoo",
@@ -90,14 +62,126 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42027,
+      "forks": 8939,
+      "starsToday": 137,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式开源API中转服务，将Claude、OpenAI、Gemini、Grok等订阅统一接入，支持拼车共享分摊成本，原生工具可无缝使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-19T03:45:17.776Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37200,
+      "forks": 2657,
+      "starsToday": 1067,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线加LLM Agent混合架构，支持行级评论与多语言规则集，兼容OpenAI和Anthropic。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "ai-agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T03:45:12.708Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 106688,
+      "forks": 6180,
+      "starsToday": 376,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用穴居人式简短表达压缩提示词的编码代理技能与代理服务，可减少约65%的token消耗，降低调用成本。",
+      "tags": [
+        "llm",
+        "proxy",
+        "token",
+        "coding-agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-19T03:45:14.086Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1971,
+      "forks": 332,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 是用 Go 编写的 AI 智能体核心运行系统，为构建和编排自主智能体提供底层基础设施。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "infrastructure",
+        "orchestration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-19T12:58:18.914Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "WeKnora",
       "fullName": "Tencent/WeKnora",
       "url": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 27055,
-      "forks": 3639,
+      "stars": 27237,
+      "forks": 3670,
       "starsToday": 858,
       "topics": [],
       "author": {
@@ -119,13 +203,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "Fabric",
+      "fullName": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 44000,
+      "forks": 4267,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "danielmiessler",
+        "avatar": "https://avatars.githubusercontent.com/u/50654?s=40&amp;v=4",
+        "url": "https://github.com/danielmiessler"
+      },
+      "summary": "开源AI增强框架，用众包提示词模式解决具体问题，可随处调用，模块化易扩展。",
+      "tags": [
+        "ai",
+        "prompts",
+        "go",
+        "cli",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-19T12:58:18.685Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "cilium",
       "fullName": "cilium/cilium",
       "url": "https://github.com/cilium/cilium",
       "description": "eBPF-based Networking, Security, and Observability",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 25349,
+      "stars": 25353,
       "forks": 4082,
       "starsToday": 153,
       "topics": [],
@@ -145,6 +257,346 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-19T03:45:13.703Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38192,
+      "forks": 5823,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令即可编排启动整套服务，是本地开发与测试的标准工具。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T12:58:19.216Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "karmada",
+      "fullName": "karmada-io/karmada",
+      "url": "https://github.com/karmada-io/karmada",
+      "description": "Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5667,
+      "forks": 1201,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "karmada-io",
+        "avatar": "https://avatars.githubusercontent.com/u/76678816?s=40&amp;v=4",
+        "url": "https://github.com/karmada-io"
+      },
+      "summary": "开源的多云多集群 Kubernetes 编排平台，通过统一控制面跨集群调度与分发应用，实现多云容灾和弹性伸缩。",
+      "tags": [
+        "kubernetes",
+        "multicloud",
+        "multi-cluster",
+        "orchestration",
+        "go",
+        "cncf"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-19T12:58:19.030Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "router",
+      "fullName": "weave-os/router",
+      "url": "https://github.com/weave-os/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4492,
+      "forks": 125,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "weave-os",
+        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
+        "url": "https://github.com/weave-os"
+      },
+      "summary": "面向智能体系统的模型路由器，50毫秒内将每个提示词分发到最合适的模型，仅改端点即可降低40-70%成本。",
+      "tags": [
+        "llm",
+        "router",
+        "go",
+        "ai-agents",
+        "cost-optimization"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-19T03:45:14.071Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudflared",
+      "fullName": "cloudflare/cloudflared",
+      "url": "https://github.com/cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15752,
+      "forks": 1446,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare Tunnel 官方客户端，无需开放入站端口即可把本地服务安全暴露到公网，支持反向隧道与零信任访问。",
+      "tags": [
+        "cloudflare",
+        "tunnel",
+        "networking",
+        "go",
+        "proxy",
+        "zero-trust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-19T12:58:19.952Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 83128,
+      "forks": 3156,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "summary": "Go 编写的命令行模糊查找器，可交互式快速筛选文件、历史记录等任意列表，广泛集成于各类编辑器与 shell 工作流。",
+      "tags": [
+        "cli",
+        "fuzzy-finder",
+        "go",
+        "terminal",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-19T03:45:14.943Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29379,
+      "forks": 1686,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于 WireGuard 的开源零信任组网平台，支持 SSO、MFA 与细粒度访问控制，快速把设备接入安全覆盖网络。",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "zero-trust",
+        "networking",
+        "go",
+        "sso"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-19T12:58:20.152Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tunnel-client",
+      "fullName": "openai/tunnel-client",
+      "url": "https://github.com/openai/tunnel-client",
+      "description": "Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 422,
+      "forks": 85,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/201815723?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 官方隧道客户端，将本地或内网 MCP 服务器安全接入 ChatGPT、Codex 等，无需暴露公网。",
+      "tags": [
+        "mcp",
+        "tunnel",
+        "openai",
+        "go",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T12:58:20.327Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "syft",
+      "fullName": "anchore/syft",
+      "url": "https://github.com/anchore/syft",
+      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9581,
+      "forks": 962,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "anchore",
+        "avatar": "https://avatars.githubusercontent.com/u/590471?s=40&amp;v=4",
+        "url": "https://github.com/anchore"
+      },
+      "summary": "从容器镜像和文件系统生成软件物料清单(SBOM)的Go命令行工具与库，支持多种格式输出，助力供应链安全与漏洞排查。",
+      "tags": [
+        "sbom",
+        "security",
+        "go",
+        "cli",
+        "containers"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T12:58:20.581Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50457,
+      "forks": 6539,
+      "starsToday": 138,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与AI智能体在同一团队中协同工作，统一调度与任务流转。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-19T03:45:15.244Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "axonhub",
+      "fullName": "looplj/axonhub",
+      "url": "https://github.com/looplj/axonhub",
+      "description": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5258,
+      "forks": 702,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "looplj",
+        "avatar": "https://avatars.githubusercontent.com/u/231043908?s=40&amp;v=4",
+        "url": "https://github.com/looplj"
+      },
+      "summary": "开源 AI 网关，用任意 SDK 统一调用 100+ 大模型，内置故障转移、负载均衡、成本控制与端到端链路追踪。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "go",
+        "load-balancing",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-19T12:58:20.998Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bubbletea",
+      "fullName": "charmbracelet/bubbletea",
+      "url": "https://github.com/charmbracelet/bubbletea",
+      "description": "A powerful little TUI framework 🏗",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45023,
+      "forks": 1613,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "charmbracelet",
+        "avatar": "https://avatars.githubusercontent.com/u/3187948?s=40&amp;v=4",
+        "url": "https://github.com/charmbracelet"
+      },
+      "summary": "Go 编写的终端 UI 框架，基于 Elm 架构，用简单模型驱动交互式 TUI 应用开发。",
+      "tags": [
+        "go",
+        "tui",
+        "cli",
+        "framework",
+        "terminal"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-19T12:58:21.168Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gcx",
+      "fullName": "grafana/gcx",
+      "url": "https://github.com/grafana/gcx",
+      "description": "A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 699,
+      "forks": 50,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "Grafana 官方 CLI 工具，用命令行管理 Grafana 与 Grafana Cloud 资源，针对 AI Agent 自动化调用做了优化。",
+      "tags": [
+        "grafana",
+        "cli",
+        "go",
+        "observability",
+        "agent",
+        "devops"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-19T12:58:21.662Z",
       "deepwikiAvailable": false
     },
     {
@@ -176,90 +628,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 106621,
-      "forks": 6178,
-      "starsToday": 376,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "用穴居人式简短表达压缩提示词的编码代理技能与代理服务，可减少约65%的token消耗，降低调用成本。",
-      "tags": [
-        "llm",
-        "proxy",
-        "token",
-        "coding-agent",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-19T03:45:14.086Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "router",
-      "fullName": "weave-os/router",
-      "url": "https://github.com/weave-os/router",
-      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4473,
-      "forks": 123,
-      "starsToday": 26,
-      "topics": [],
-      "author": {
-        "name": "weave-os",
-        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
-        "url": "https://github.com/weave-os"
-      },
-      "summary": "面向智能体系统的模型路由器，50毫秒内将每个提示词分发到最合适的模型，仅改端点即可降低40-70%成本。",
-      "tags": [
-        "llm",
-        "router",
-        "go",
-        "ai-agents",
-        "cost-optimization"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-19T03:45:14.071Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "fzf",
-      "fullName": "junegunn/fzf",
-      "url": "https://github.com/junegunn/fzf",
-      "description": "🌸 A command-line fuzzy finder",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 83120,
-      "forks": 3135,
-      "starsToday": 57,
-      "topics": [],
-      "author": {
-        "name": "junegunn",
-        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
-        "url": "https://github.com/junegunn"
-      },
-      "summary": "Go 编写的命令行模糊查找器，可交互式快速筛选文件、历史记录等任意列表，广泛集成于各类编辑器与 shell 工作流。",
-      "tags": [
-        "cli",
-        "fuzzy-finder",
-        "go",
-        "terminal",
-        "productivity"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-19T03:45:14.943Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "TypeScript",
       "fullName": "microsoft/TypeScript",
       "url": "https://github.com/microsoft/TypeScript",
@@ -285,34 +653,6 @@
       ],
       "category": "Language",
       "enrichedAt": "2026-09-19T03:45:15.182Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "multica",
-      "fullName": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 50429,
-      "forks": 6537,
-      "starsToday": 138,
-      "topics": [],
-      "author": {
-        "name": "multica-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
-        "url": "https://github.com/multica-ai"
-      },
-      "summary": "开源可自托管的人机协作平台，让人类与AI智能体在同一团队中协同工作，统一调度与任务流转。",
-      "tags": [
-        "ai-agents",
-        "collaboration",
-        "self-hosted",
-        "go",
-        "open-source"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-19T03:45:15.244Z",
       "deepwikiAvailable": false
     },
     {
@@ -538,34 +878,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-19T03:45:17.453Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sub2api",
-      "fullName": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 41999,
-      "forks": 8921,
-      "starsToday": 137,
-      "topics": [],
-      "author": {
-        "name": "Wei-Shaw",
-        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
-        "url": "https://github.com/Wei-Shaw"
-      },
-      "summary": "一站式开源API中转服务，将Claude、OpenAI、Gemini、Grok等订阅统一接入，支持拼车共享分摊成本，原生工具可无缝使用。",
-      "tags": [
-        "api-gateway",
-        "proxy",
-        "llm",
-        "go",
-        "self-hosted"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-19T03:45:17.776Z",
       "deepwikiAvailable": false
     },
     {

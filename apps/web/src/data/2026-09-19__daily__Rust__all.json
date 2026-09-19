@@ -2,9 +2,543 @@
   "date": "2026-09-19",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-19T03:44:33.640Z",
-  "enrichedAt": "2026-09-19T03:45:25.288Z",
+  "fetchedAt": "2026-09-19T12:57:48.826Z",
+  "enrichedAt": "2026-09-19T12:58:25.496Z",
   "repos": [
+    {
+      "name": "quiche",
+      "fullName": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11873,
+      "forks": 1099,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare 出品的 Rust 实现的 QUIC 传输协议与 HTTP/3 库，性能高、生产可用，适合构建低延迟网络服务。",
+      "tags": [
+        "quic",
+        "http3",
+        "rust",
+        "networking",
+        "protocol"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-19T03:45:21.174Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Codex-X",
+      "fullName": "yynxxxxx/Codex-X",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3319,
+      "forks": 440,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "yynxxxxx",
+        "avatar": "https://avatars.githubusercontent.com/u/139136586?s=40&amp;v=4",
+        "url": "https://github.com/yynxxxxx"
+      },
+      "summary": "OpenAI Codex 桌面端与 CLI 的可视化管理工具，支持 Provider/API 切换、会话同步、提示词注入及 Skills/MCP 与 TOML 配置管理，跨平台运行。",
+      "tags": [
+        "codex",
+        "rust",
+        "cli",
+        "mcp",
+        "config",
+        "desktop"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T03:45:22.057Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33305,
+      "forks": 1490,
+      "starsToday": 377,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "RustFS 是 Rust 编写的高性能开源对象存储系统，兼容 S3 协议，可与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "rust",
+        "object-storage",
+        "s3",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-19T03:45:19.684Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mold",
+      "fullName": "rui314/mold",
+      "url": "https://github.com/rui314/mold",
+      "description": "mold 🦠: A Modern Linker in Rust 🦀",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17144,
+      "forks": 558,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "rui314",
+        "avatar": "https://avatars.githubusercontent.com/u/47400?s=40&amp;v=4",
+        "url": "https://github.com/rui314"
+      },
+      "summary": "用 Rust 编写的高性能现代链接器，兼容 GNU ld 与 LLVM lld，大幅缩短大型 C/C++ 项目的链接时间。",
+      "tags": [
+        "linker",
+        "rust",
+        "build-tools",
+        "performance",
+        "cpp"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T12:58:22.676Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "webcodex",
+      "fullName": "yyjeqhc/webcodex",
+      "url": "https://github.com/yyjeqhc/webcodex",
+      "description": "Give cloud AI agents a real development environment on your own machines.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1384,
+      "forks": 171,
+      "starsToday": 202,
+      "topics": [],
+      "author": {
+        "name": "yyjeqhc",
+        "avatar": "https://avatars.githubusercontent.com/u/51790758?s=40&amp;v=4",
+        "url": "https://github.com/yyjeqhc"
+      },
+      "summary": "用 Rust 打造的自托管开发环境，让云端 AI 智能体直接在你自己的机器上运行和编码。",
+      "tags": [
+        "ai-agent",
+        "rust",
+        "self-hosted",
+        "dev-environment",
+        "cloud"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T03:45:21.104Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15641,
+      "forks": 647,
+      "starsToday": 97,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的离线开源语法检查器，注重隐私与速度，可本地实时校对英文写作。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "writing"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T12:58:22.833Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpuix",
+      "fullName": "remorses/gpuix",
+      "url": "https://github.com/remorses/gpuix",
+      "description": "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2008,
+      "forks": 63,
+      "starsToday": 45,
+      "topics": [],
+      "author": {
+        "name": "remorses",
+        "avatar": "https://avatars.githubusercontent.com/u/31321188?s=40&amp;v=4",
+        "url": "https://github.com/remorses"
+      },
+      "summary": "基于 Zed 的 GPUI 为 Node.js 和 React 提供绑定，用 React 构建内存高效的原生桌面应用，替代 Electron。",
+      "tags": [
+        "react",
+        "gpui",
+        "rust",
+        "nodejs",
+        "desktop",
+        "native"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T03:45:23.439Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lore",
+      "fullName": "EpicGames/lore",
+      "url": "https://github.com/EpicGames/lore",
+      "description": "Lore is a next-generation, open source version control system",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8670,
+      "forks": 434,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "EpicGames",
+        "avatar": "https://avatars.githubusercontent.com/u/3316562?s=40&amp;v=4",
+        "url": "https://github.com/EpicGames"
+      },
+      "summary": "Epic Games 开源的下一代版本控制系统，用 Rust 编写，面向大规模二进制资产与游戏开发场景，提供可扩展的高性能代码与资源管理。",
+      "tags": [
+        "version-control",
+        "rust",
+        "gamedev",
+        "git",
+        "opensource"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T03:45:23.838Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mistral.rs",
+      "fullName": "EricLBuehler/mistral.rs",
+      "url": "https://github.com/EricLBuehler/mistral.rs",
+      "description": "Fast, flexible LLM inference",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7703,
+      "forks": 708,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "EricLBuehler",
+        "avatar": "https://avatars.githubusercontent.com/u/65165915?s=40&amp;v=4",
+        "url": "https://github.com/EricLBuehler"
+      },
+      "summary": "基于 Rust 的高性能大语言模型推理引擎，支持多模态与量化，提供灵活易用的部署方案。",
+      "tags": [
+        "llm",
+        "inference",
+        "rust",
+        "quantization",
+        "multimodal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-19T12:58:22.948Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tokio",
+      "fullName": "tokio-rs/tokio",
+      "url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33176,
+      "forks": 3531,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "Rust 异步运行时，提供 I/O、网络、任务调度与定时器，用于构建可靠的高并发异步应用。",
+      "tags": [
+        "rust",
+        "async",
+        "runtime",
+        "networking",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-19T12:58:22.699Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "polars",
+      "fullName": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 39782,
+      "forks": 3116,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "pola-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/3023000?s=40&amp;v=4",
+        "url": "https://github.com/pola-rs"
+      },
+      "summary": "用 Rust 编写的高性能 DataFrame 查询引擎，支持惰性求值与多线程并行，速度远超传统数据分析库，并提供 Python 等语言绑定。",
+      "tags": [
+        "rust",
+        "dataframe",
+        "query-engine",
+        "analytics",
+        "python"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-19T12:58:24.147Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iii",
+      "fullName": "iii-hq/iii",
+      "url": "https://github.com/iii-hq/iii",
+      "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18791,
+      "forks": 1265,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "iii-hq",
+        "avatar": "https://avatars.githubusercontent.com/u/5348335?s=40&amp;v=4",
+        "url": "https://github.com/iii-hq"
+      },
+      "summary": "基于 Rust 的实时服务编排与可观测平台，可轻松组合、扩展并实时观测所有服务。",
+      "tags": [
+        "rust",
+        "observability",
+        "service-orchestration",
+        "realtime",
+        "backend"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-19T03:45:21.083Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OhMyKeymint",
+      "fullName": "qwq233/OhMyKeymint",
+      "url": "https://github.com/qwq233/OhMyKeymint",
+      "description": "",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 365,
+      "forks": 52,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "qwq233",
+        "avatar": "https://avatars.githubusercontent.com/u/20317838?s=40&amp;v=4",
+        "url": "https://github.com/qwq233"
+      },
+      "summary": "基于 Rust 的 KeyMint 实现项目，为 Android 设备提供密钥管理与硬件级密钥认证能力，可替代厂商闭源方案。",
+      "tags": [
+        "rust",
+        "android",
+        "keymint",
+        "security",
+        "keystore"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-19T03:45:24.884Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "awesome-rust",
+      "fullName": "rust-unofficial/awesome-rust",
+      "url": "https://github.com/rust-unofficial/awesome-rust",
+      "description": "A curated list of Rust code and resources.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 59434,
+      "forks": 3625,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "rust-unofficial",
+        "avatar": "https://avatars.githubusercontent.com/u/38532?s=40&amp;v=4",
+        "url": "https://github.com/rust-unofficial"
+      },
+      "summary": "精选 Rust 代码库与学习资源合集，涵盖框架、工具与库，是 Rust 开发者查找生态项目的权威索引。",
+      "tags": [
+        "rust",
+        "awesome-list",
+        "resources",
+        "curated",
+        "learning"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-19T12:58:23.911Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zed",
+      "fullName": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 90552,
+      "forks": 10690,
+      "starsToday": 79,
+      "topics": [],
+      "author": {
+        "name": "zed-industries",
+        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
+        "url": "https://github.com/zed-industries"
+      },
+      "summary": "Zed 是 Atom 与 Tree-sitter 作者打造的高性能多人协作代码编辑器，用 Rust 编写，主打极速响应与实时协同编辑。",
+      "tags": [
+        "editor",
+        "rust",
+        "collaboration",
+        "ide",
+        "performance"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T12:58:24.183Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "warpgate",
+      "fullName": "warp-tech/warpgate",
+      "url": "https://github.com/warp-tech/warpgate",
+      "description": "Fully transparent SSH, HTTPS, Kubernetes, database and RDP/VNC bastion/PAM that doesn't need additional client-side software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7931,
+      "forks": 379,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "warp-tech",
+        "avatar": "https://avatars.githubusercontent.com/u/161476?s=40&amp;v=4",
+        "url": "https://github.com/warp-tech"
+      },
+      "summary": "基于 Rust 的透明跳板机与特权访问管理（PAM）工具，支持 SSH、HTTPS、Kubernetes、数据库及 RDP/VNC，无需在客户端安装额外软件即可接入并审计。",
+      "tags": [
+        "bastion",
+        "pam",
+        "ssh",
+        "rust",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-19T12:58:24.405Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-desktop",
+      "fullName": "lahfir/agent-desktop",
+      "url": "https://github.com/lahfir/agent-desktop",
+      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1278,
+      "forks": 86,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "lahfir",
+        "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&amp;v=4",
+        "url": "https://github.com/lahfir"
+      },
+      "summary": "基于 Rust 的桌面智能体操作层，通过系统无障碍树读取任意应用真实 UI 结构并执行操作，引用稳定、动作可安全重试，无需依赖像素猜测。",
+      "tags": [
+        "rust",
+        "agent",
+        "desktop",
+        "accessibility",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-19T12:58:25.094Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "typst",
+      "fullName": "typst/typst",
+      "url": "https://github.com/typst/typst",
+      "description": "A markup-based typesetting system that is powerful and easy to learn.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 56117,
+      "forks": 1717,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "typst",
+        "avatar": "https://avatars.githubusercontent.com/u/17899797?s=40&amp;v=4",
+        "url": "https://github.com/typst"
+      },
+      "summary": "基于标记语言的排版系统，语法简洁易学，编译快速，可替代 LaTeX 用于论文、文档与书籍排版。",
+      "tags": [
+        "typesetting",
+        "markup",
+        "rust",
+        "latex-alternative",
+        "document"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-19T12:58:25.495Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ripgrep",
+      "fullName": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 68430,
+      "forks": 3109,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "BurntSushi",
+        "avatar": "https://avatars.githubusercontent.com/u/456674?s=40&amp;v=4",
+        "url": "https://github.com/BurntSushi"
+      },
+      "summary": "ripgrep 是用 Rust 编写的高速递归正则搜索工具，自动遵循 gitignore 规则，速度快、跨平台，是 grep 的现代替代品。",
+      "tags": [
+        "rust",
+        "grep",
+        "search",
+        "cli",
+        "regex"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-19T03:45:22.140Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "anki",
       "fullName": "ankitects/anki",
@@ -31,34 +565,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-19T03:45:19.967Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 33209,
-      "forks": 1484,
-      "starsToday": 267,
-      "topics": [],
-      "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
-      },
-      "summary": "RustFS 是 Rust 编写的高性能开源对象存储系统，兼容 S3 协议，可与 MinIO、Ceph 等平台迁移共存。",
-      "tags": [
-        "rust",
-        "object-storage",
-        "s3",
-        "storage",
-        "minio"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-19T03:45:19.684Z",
       "deepwikiAvailable": false
     },
     {
@@ -146,119 +652,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "webcodex",
-      "fullName": "yyjeqhc/webcodex",
-      "url": "https://github.com/yyjeqhc/webcodex",
-      "description": "Give cloud AI agents a real development environment on your own machines.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1338,
-      "forks": 167,
-      "starsToday": 202,
-      "topics": [],
-      "author": {
-        "name": "yyjeqhc",
-        "avatar": "https://avatars.githubusercontent.com/u/51790758?s=40&amp;v=4",
-        "url": "https://github.com/yyjeqhc"
-      },
-      "summary": "用 Rust 打造的自托管开发环境，让云端 AI 智能体直接在你自己的机器上运行和编码。",
-      "tags": [
-        "ai-agent",
-        "rust",
-        "self-hosted",
-        "dev-environment",
-        "cloud"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-19T03:45:21.104Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "iii",
-      "fullName": "iii-hq/iii",
-      "url": "https://github.com/iii-hq/iii",
-      "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 18789,
-      "forks": 1264,
-      "starsToday": 28,
-      "topics": [],
-      "author": {
-        "name": "iii-hq",
-        "avatar": "https://avatars.githubusercontent.com/u/5348335?s=40&amp;v=4",
-        "url": "https://github.com/iii-hq"
-      },
-      "summary": "基于 Rust 的实时服务编排与可观测平台，可轻松组合、扩展并实时观测所有服务。",
-      "tags": [
-        "rust",
-        "observability",
-        "service-orchestration",
-        "realtime",
-        "backend"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-19T03:45:21.083Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "quiche",
-      "fullName": "cloudflare/quiche",
-      "url": "https://github.com/cloudflare/quiche",
-      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11848,
-      "forks": 1096,
-      "starsToday": 5,
-      "topics": [],
-      "author": {
-        "name": "cloudflare",
-        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
-        "url": "https://github.com/cloudflare"
-      },
-      "summary": "Cloudflare 出品的 Rust 实现的 QUIC 传输协议与 HTTP/3 库，性能高、生产可用，适合构建低延迟网络服务。",
-      "tags": [
-        "quic",
-        "http3",
-        "rust",
-        "networking",
-        "protocol"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-19T03:45:21.174Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Codex-X",
-      "fullName": "yynxxxxx/Codex-X",
-      "url": "https://github.com/yynxxxxx/Codex-X",
-      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3300,
-      "forks": 438,
-      "starsToday": 64,
-      "topics": [],
-      "author": {
-        "name": "yynxxxxx",
-        "avatar": "https://avatars.githubusercontent.com/u/139136586?s=40&amp;v=4",
-        "url": "https://github.com/yynxxxxx"
-      },
-      "summary": "OpenAI Codex 桌面端与 CLI 的可视化管理工具，支持 Provider/API 切换、会话同步、提示词注入及 Skills/MCP 与 TOML 配置管理，跨平台运行。",
-      "tags": [
-        "codex",
-        "rust",
-        "cli",
-        "mcp",
-        "config",
-        "desktop"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-19T03:45:22.057Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "makepad",
       "fullName": "makepad/makepad",
       "url": "https://github.com/makepad/makepad",
@@ -316,34 +709,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ripgrep",
-      "fullName": "BurntSushi/ripgrep",
-      "url": "https://github.com/BurntSushi/ripgrep",
-      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 68420,
-      "forks": 3086,
-      "starsToday": 51,
-      "topics": [],
-      "author": {
-        "name": "BurntSushi",
-        "avatar": "https://avatars.githubusercontent.com/u/456674?s=40&amp;v=4",
-        "url": "https://github.com/BurntSushi"
-      },
-      "summary": "ripgrep 是用 Rust 编写的高速递归正则搜索工具，自动遵循 gitignore 规则，速度快、跨平台，是 grep 的现代替代品。",
-      "tags": [
-        "rust",
-        "grep",
-        "search",
-        "cli",
-        "regex"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-19T03:45:22.140Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "tty7",
       "fullName": "l0ng-ai/tty7",
       "url": "https://github.com/l0ng-ai/tty7",
@@ -372,35 +737,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gpuix",
-      "fullName": "remorses/gpuix",
-      "url": "https://github.com/remorses/gpuix",
-      "description": "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1999,
-      "forks": 61,
-      "starsToday": 45,
-      "topics": [],
-      "author": {
-        "name": "remorses",
-        "avatar": "https://avatars.githubusercontent.com/u/31321188?s=40&amp;v=4",
-        "url": "https://github.com/remorses"
-      },
-      "summary": "基于 Zed 的 GPUI 为 Node.js 和 React 提供绑定，用 React 构建内存高效的原生桌面应用，替代 Electron。",
-      "tags": [
-        "react",
-        "gpui",
-        "rust",
-        "nodejs",
-        "desktop",
-        "native"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-19T03:45:23.439Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "OpenResearch",
       "fullName": "alphaXiv/OpenResearch",
       "url": "https://github.com/alphaXiv/OpenResearch",
@@ -426,34 +762,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-19T03:45:23.169Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "lore",
-      "fullName": "EpicGames/lore",
-      "url": "https://github.com/EpicGames/lore",
-      "description": "Lore is a next-generation, open source version control system",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8662,
-      "forks": 433,
-      "starsToday": 19,
-      "topics": [],
-      "author": {
-        "name": "EpicGames",
-        "avatar": "https://avatars.githubusercontent.com/u/3316562?s=40&amp;v=4",
-        "url": "https://github.com/EpicGames"
-      },
-      "summary": "Epic Games 开源的下一代版本控制系统，用 Rust 编写，面向大规模二进制资产与游戏开发场景，提供可扩展的高性能代码与资源管理。",
-      "tags": [
-        "version-control",
-        "rust",
-        "gamedev",
-        "git",
-        "opensource"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-19T03:45:23.838Z",
       "deepwikiAvailable": false
     },
     {
@@ -510,34 +818,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-19T03:45:24.230Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OhMyKeymint",
-      "fullName": "qwq233/OhMyKeymint",
-      "url": "https://github.com/qwq233/OhMyKeymint",
-      "description": "",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 361,
-      "forks": 51,
-      "starsToday": 6,
-      "topics": [],
-      "author": {
-        "name": "qwq233",
-        "avatar": "https://avatars.githubusercontent.com/u/20317838?s=40&amp;v=4",
-        "url": "https://github.com/qwq233"
-      },
-      "summary": "基于 Rust 的 KeyMint 实现项目，为 Android 设备提供密钥管理与硬件级密钥认证能力，可替代厂商闭源方案。",
-      "tags": [
-        "rust",
-        "android",
-        "keymint",
-        "security",
-        "keystore"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-19T03:45:24.884Z",
       "deepwikiAvailable": false
     },
     {
