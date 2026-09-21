@@ -2,8 +2,8 @@
   "date": "2026-09-21",
   "since": "weekly",
   "language": "Python",
-  "fetchedAt": "2026-09-21T03:58:18.506Z",
-  "enrichedAt": "2026-09-21T03:59:21.988Z",
+  "fetchedAt": "2026-09-21T15:44:21.836Z",
+  "enrichedAt": "2026-09-21T15:45:05.305Z",
   "repos": [
     {
       "name": "knowledge-work-plugins",
@@ -12,8 +12,8 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 25295,
-      "forks": 3007,
+      "stars": 25331,
+      "forks": 3012,
       "starsToday": 1298,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "🏡 Open source home automation that puts local control and privacy first.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 90905,
-      "forks": 38714,
+      "stars": 90945,
+      "forks": 38720,
       "starsToday": 480,
       "topics": [],
       "author": {
@@ -62,14 +62,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 84240,
+      "forks": 7397,
+      "starsToday": 3690,
+      "topics": [],
+      "author": {
+        "name": "Panniantong",
+        "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&amp;v=4",
+        "url": "https://github.com/Panniantong"
+      },
+      "summary": "为 AI Agent 提供全网信息获取能力的命令行工具，可读取搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，无需 API 费用。",
+      "tags": [
+        "ai-agent",
+        "cli",
+        "scraping",
+        "search",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-21T03:59:17.720Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "humanizer",
       "fullName": "blader/humanizer",
       "url": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 50699,
-      "forks": 4077,
+      "stars": 50953,
+      "forks": 4088,
       "starsToday": 3045,
       "topics": [],
       "author": {
@@ -90,31 +118,369 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "name": "Claude-Red",
+      "fullName": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 83923,
-      "forks": 7360,
-      "starsToday": 3690,
+      "stars": 6632,
+      "forks": 871,
+      "starsToday": 2649,
       "topics": [],
       "author": {
-        "name": "Panniantong",
-        "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&amp;v=4",
-        "url": "https://github.com/Panniantong"
+        "name": "SnailSploit",
+        "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&amp;v=4",
+        "url": "https://github.com/SnailSploit"
       },
-      "summary": "为 AI Agent 提供全网信息获取能力的命令行工具，可读取搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，无需 API 费用。",
+      "summary": "面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 为 SQLi、shellcode、EDR 规避等攻击面注入专家级方法论。",
       "tags": [
-        "ai-agent",
-        "cli",
-        "scraping",
-        "search",
+        "security",
+        "offensive-security",
+        "claude",
+        "prompt",
+        "skills"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-21T03:59:19.769Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "YuE",
+      "fullName": "multimodal-art-projection/YuE",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 9977,
+      "forks": 1126,
+      "starsToday": 2427,
+      "topics": [],
+      "author": {
+        "name": "multimodal-art-projection",
+        "avatar": "https://avatars.githubusercontent.com/u/30723625?s=40&amp;v=4",
+        "url": "https://github.com/multimodal-art-projection"
+      },
+      "summary": "YuE2 是开源音乐生成模型，支持符号化编曲规划、零样本翻唱与智能体式音乐编辑，可端到端生成完整歌曲。",
+      "tags": [
+        "music",
+        "audio",
+        "generation",
+        "llm",
         "python"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-21T03:59:17.720Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-21T03:59:20.016Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-source-games",
+      "fullName": "bobeff/open-source-games",
+      "url": "https://github.com/bobeff/open-source-games",
+      "description": "A list of open source games.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 15276,
+      "forks": 1269,
+      "starsToday": 1266,
+      "topics": [],
+      "author": {
+        "name": "bobeff",
+        "avatar": "https://avatars.githubusercontent.com/u/675506?s=40&amp;v=4",
+        "url": "https://github.com/bobeff"
+      },
+      "summary": "汇总各类开源游戏的项目清单，按类型分类并附源码链接，方便玩家与开发者查找可自由修改的游戏。",
+      "tags": [
+        "games",
+        "awesome-list",
+        "open-source",
+        "resources",
+        "python"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-21T03:59:20.203Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-agent-book",
+      "fullName": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 49657,
+      "forks": 5562,
+      "starsToday": 2798,
+      "topics": [],
+      "author": {
+        "name": "bojieli",
+        "avatar": "https://avatars.githubusercontent.com/u/1421793?s=40&amp;v=4",
+        "url": "https://github.com/bojieli"
+      },
+      "summary": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库，含全书正文、编译版 PDF 与按章配套代码，系统讲解 AI Agent 设计原理与工程落地。",
+      "tags": [
+        "ai-agent",
+        "book",
+        "llm",
+        "python",
+        "tutorial"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-21T03:59:20.879Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "financial-services",
+      "fullName": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 35678,
+      "forks": 5264,
+      "starsToday": 795,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/5457787?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Anthropic 开源的金融服务示例项目，用 Python 演示如何将 Claude 接入金融场景，提供可复用的行业 AI 落地参考。",
+      "tags": [
+        "ai",
+        "finance",
+        "python",
+        "llm",
+        "anthropic"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-21T15:45:05.262Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oh-my-hermes",
+      "fullName": "rlaope/oh-my-hermes",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2842,
+      "forks": 212,
+      "starsToday": 1110,
+      "topics": [],
+      "author": {
+        "name": "rlaope",
+        "avatar": "https://avatars.githubusercontent.com/u/105429536?s=40&amp;v=4",
+        "url": "https://github.com/rlaope"
+      },
+      "summary": "为 Hermes Agent 打造的一体化插件，集成长期记忆系统与模型优化工作流，提升编码智能体的持续上下文能力。",
+      "tags": [
+        "agent",
+        "memory",
+        "plugin",
+        "llm",
+        "workflow",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-21T03:59:20.853Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 33804,
+      "forks": 3984,
+      "starsToday": 7754,
+      "topics": [],
+      "author": {
+        "name": "debpalash",
+        "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&amp;v=4",
+        "url": "https://github.com/debpalash"
+      },
+      "summary": "完全本地运行的开源语音工作台，支持声音克隆、语音设计、视频配音、听写、转录与有声书制作，覆盖646种语言，可替代ElevenLabs。",
+      "tags": [
+        "voice",
+        "tts",
+        "speech",
+        "local",
+        "python",
+        "audio"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-21T03:59:19.816Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 74212,
+      "forks": 11409,
+      "starsToday": 1803,
+      "topics": [],
+      "author": {
+        "name": "666ghj",
+        "avatar": "https://avatars.githubusercontent.com/u/110395318?s=40&amp;v=4",
+        "url": "https://github.com/666ghj"
+      },
+      "summary": "简洁通用的群体智能引擎，用多智能体模拟群体行为来预测各类事件走向，Python实现，易集成。",
+      "tags": [
+        "swarm-intelligence",
+        "prediction",
+        "multi-agent",
+        "python",
+        "simulation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-21T03:59:21.151Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "supervision",
+      "fullName": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 50977,
+      "forks": 4850,
+      "starsToday": 1055,
+      "topics": [],
+      "author": {
+        "name": "roboflow",
+        "avatar": "https://avatars.githubusercontent.com/u/26109316?s=40&amp;v=4",
+        "url": "https://github.com/roboflow"
+      },
+      "summary": "可复用的计算机视觉工具库，提供检测、跟踪、标注与数据集处理等模块，兼容主流模型，简化视觉应用开发。",
+      "tags": [
+        "computer-vision",
+        "python",
+        "object-detection",
+        "annotation",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-21T03:59:21.588Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "autoclip",
+      "fullName": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 8079,
+      "forks": 1561,
+      "starsToday": 654,
+      "topics": [],
+      "author": {
+        "name": "zhouxiaoka",
+        "avatar": "https://avatars.githubusercontent.com/u/78066887?s=40&amp;v=4",
+        "url": "https://github.com/zhouxiaoka"
+      },
+      "summary": "基于AI的智能视频剪辑工具，自动提取高光片段并生成二创视频，适合短视频创作者批量处理素材。",
+      "tags": [
+        "video",
+        "ai",
+        "python",
+        "editing",
+        "highlight"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-21T15:45:05.305Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pytorch",
+      "fullName": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 103149,
+      "forks": 30003,
+      "starsToday": 205,
+      "topics": [],
+      "author": {
+        "name": "pytorch",
+        "avatar": "https://avatars.githubusercontent.com/u/97764156?s=40&amp;v=4",
+        "url": "https://github.com/pytorch"
+      },
+      "summary": "PyTorch 是主流深度学习框架，提供张量计算与动态神经网络，支持强大 GPU 加速，广泛用于研究与生产。",
+      "tags": [
+        "pytorch",
+        "deep-learning",
+        "tensor",
+        "gpu",
+        "neural-network"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-21T03:59:21.964Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 17964,
+      "forks": 1547,
+      "starsToday": 846,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 出品的 AI Agent 技能安全扫描器，可在安装前检测 Claude Code、Codex、MCP 技能中的漏洞、恶意模式、提示注入、数据外泄与供应链风险。",
+      "tags": [
+        "security",
+        "ai-agent",
+        "mcp",
+        "scanner",
+        "python"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-21T03:59:21.988Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "awesome-ai-apps",
+      "fullName": "Arindam200/awesome-ai-apps",
+      "url": "https://github.com/Arindam200/awesome-ai-apps",
+      "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 15845,
+      "forks": 1823,
+      "starsToday": 1133,
+      "topics": [],
+      "author": {
+        "name": "Arindam200",
+        "avatar": "https://avatars.githubusercontent.com/u/109217591?s=40&amp;v=4",
+        "url": "https://github.com/Arindam200"
+      },
+      "summary": "汇集 RAG、智能体与工作流等 AI 实战项目的合集，为开发者提供可直接参考的示例代码与落地思路。",
+      "tags": [
+        "awesome-list",
+        "rag",
+        "agents",
+        "llm",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-21T15:45:05.048Z",
       "deepwikiAvailable": false
     },
     {
@@ -227,288 +593,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-21T03:59:18.637Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Claude-Red",
-      "fullName": "SnailSploit/Claude-Red",
-      "url": "https://github.com/SnailSploit/Claude-Red",
-      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 6530,
-      "forks": 854,
-      "starsToday": 2649,
-      "topics": [],
-      "author": {
-        "name": "SnailSploit",
-        "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&amp;v=4",
-        "url": "https://github.com/SnailSploit"
-      },
-      "summary": "面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 为 SQLi、shellcode、EDR 规避等攻击面注入专家级方法论。",
-      "tags": [
-        "security",
-        "offensive-security",
-        "claude",
-        "prompt",
-        "skills"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-21T03:59:19.769Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "YuE",
-      "fullName": "multimodal-art-projection/YuE",
-      "url": "https://github.com/multimodal-art-projection/YuE",
-      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 9936,
-      "forks": 1113,
-      "starsToday": 2427,
-      "topics": [],
-      "author": {
-        "name": "multimodal-art-projection",
-        "avatar": "https://avatars.githubusercontent.com/u/30723625?s=40&amp;v=4",
-        "url": "https://github.com/multimodal-art-projection"
-      },
-      "summary": "YuE2 是开源音乐生成模型，支持符号化编曲规划、零样本翻唱与智能体式音乐编辑，可端到端生成完整歌曲。",
-      "tags": [
-        "music",
-        "audio",
-        "generation",
-        "llm",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-21T03:59:20.016Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 33610,
-      "forks": 3969,
-      "starsToday": 7754,
-      "topics": [],
-      "author": {
-        "name": "debpalash",
-        "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&amp;v=4",
-        "url": "https://github.com/debpalash"
-      },
-      "summary": "完全本地运行的开源语音工作台，支持声音克隆、语音设计、视频配音、听写、转录与有声书制作，覆盖646种语言，可替代ElevenLabs。",
-      "tags": [
-        "voice",
-        "tts",
-        "speech",
-        "local",
-        "python",
-        "audio"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-21T03:59:19.816Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "open-source-games",
-      "fullName": "bobeff/open-source-games",
-      "url": "https://github.com/bobeff/open-source-games",
-      "description": "A list of open source games.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 15247,
-      "forks": 1267,
-      "starsToday": 1266,
-      "topics": [],
-      "author": {
-        "name": "bobeff",
-        "avatar": "https://avatars.githubusercontent.com/u/675506?s=40&amp;v=4",
-        "url": "https://github.com/bobeff"
-      },
-      "summary": "汇总各类开源游戏的项目清单，按类型分类并附源码链接，方便玩家与开发者查找可自由修改的游戏。",
-      "tags": [
-        "games",
-        "awesome-list",
-        "open-source",
-        "resources",
-        "python"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-21T03:59:20.203Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "oh-my-hermes",
-      "fullName": "rlaope/oh-my-hermes",
-      "url": "https://github.com/rlaope/oh-my-hermes",
-      "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 2828,
-      "forks": 209,
-      "starsToday": 1110,
-      "topics": [],
-      "author": {
-        "name": "rlaope",
-        "avatar": "https://avatars.githubusercontent.com/u/105429536?s=40&amp;v=4",
-        "url": "https://github.com/rlaope"
-      },
-      "summary": "为 Hermes Agent 打造的一体化插件，集成长期记忆系统与模型优化工作流，提升编码智能体的持续上下文能力。",
-      "tags": [
-        "agent",
-        "memory",
-        "plugin",
-        "llm",
-        "workflow",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-21T03:59:20.853Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "MiroFish",
-      "fullName": "666ghj/MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 74164,
-      "forks": 11408,
-      "starsToday": 1803,
-      "topics": [],
-      "author": {
-        "name": "666ghj",
-        "avatar": "https://avatars.githubusercontent.com/u/110395318?s=40&amp;v=4",
-        "url": "https://github.com/666ghj"
-      },
-      "summary": "简洁通用的群体智能引擎，用多智能体模拟群体行为来预测各类事件走向，Python实现，易集成。",
-      "tags": [
-        "swarm-intelligence",
-        "prediction",
-        "multi-agent",
-        "python",
-        "simulation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-21T03:59:21.151Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-agent-book",
-      "fullName": "bojieli/ai-agent-book",
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 49241,
-      "forks": 5525,
-      "starsToday": 2798,
-      "topics": [],
-      "author": {
-        "name": "bojieli",
-        "avatar": "https://avatars.githubusercontent.com/u/1421793?s=40&amp;v=4",
-        "url": "https://github.com/bojieli"
-      },
-      "summary": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库，含全书正文、编译版 PDF 与按章配套代码，系统讲解 AI Agent 设计原理与工程落地。",
-      "tags": [
-        "ai-agent",
-        "book",
-        "llm",
-        "python",
-        "tutorial"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-21T03:59:20.879Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "supervision",
-      "fullName": "roboflow/supervision",
-      "url": "https://github.com/roboflow/supervision",
-      "description": "We write your reusable computer vision tools. 💜",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 50959,
-      "forks": 4848,
-      "starsToday": 1055,
-      "topics": [],
-      "author": {
-        "name": "roboflow",
-        "avatar": "https://avatars.githubusercontent.com/u/26109316?s=40&amp;v=4",
-        "url": "https://github.com/roboflow"
-      },
-      "summary": "可复用的计算机视觉工具库，提供检测、跟踪、标注与数据集处理等模块，兼容主流模型，简化视觉应用开发。",
-      "tags": [
-        "computer-vision",
-        "python",
-        "object-detection",
-        "annotation",
-        "library"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-21T03:59:21.588Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pytorch",
-      "fullName": "pytorch/pytorch",
-      "url": "https://github.com/pytorch/pytorch",
-      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 103136,
-      "forks": 30001,
-      "starsToday": 205,
-      "topics": [],
-      "author": {
-        "name": "pytorch",
-        "avatar": "https://avatars.githubusercontent.com/u/97764156?s=40&amp;v=4",
-        "url": "https://github.com/pytorch"
-      },
-      "summary": "PyTorch 是主流深度学习框架，提供张量计算与动态神经网络，支持强大 GPU 加速，广泛用于研究与生产。",
-      "tags": [
-        "pytorch",
-        "deep-learning",
-        "tensor",
-        "gpu",
-        "neural-network"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-21T03:59:21.964Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "SkillSpector",
-      "fullName": "NVIDIA/SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 17934,
-      "forks": 1544,
-      "starsToday": 846,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 出品的 AI Agent 技能安全扫描器，可在安装前检测 Claude Code、Codex、MCP 技能中的漏洞、恶意模式、提示注入、数据外泄与供应链风险。",
-      "tags": [
-        "security",
-        "ai-agent",
-        "mcp",
-        "scanner",
-        "python"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-09-21T03:59:21.988Z",
       "deepwikiAvailable": false
     }
   ]
