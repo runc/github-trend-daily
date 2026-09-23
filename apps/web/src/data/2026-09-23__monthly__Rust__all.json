@@ -2,37 +2,9 @@
   "date": "2026-09-23",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-09-23T03:53:03.941Z",
-  "enrichedAt": "2026-09-23T03:54:53.417Z",
+  "fetchedAt": "2026-09-23T14:07:31.146Z",
+  "enrichedAt": "2026-09-23T14:08:36.189Z",
   "repos": [
-    {
-      "name": "OpenLogi",
-      "fullName": "AprilNEA/OpenLogi",
-      "url": "https://github.com/AprilNEA/OpenLogi",
-      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 21971,
-      "forks": 718,
-      "starsToday": 8375,
-      "topics": [],
-      "author": {
-        "name": "AprilNEA",
-        "avatar": "https://avatars.githubusercontent.com/u/37977109?s=40&amp;v=4",
-        "url": "https://github.com/AprilNEA"
-      },
-      "summary": "用 Rust 编写的本地优先罗技鼠标配置工具，通过 HID++ 重映射按键、DPI 与 SmartShift，无需账号与遥测，替代 Logitech Options+。",
-      "tags": [
-        "rust",
-        "hid",
-        "logitech",
-        "mouse",
-        "desktop"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-23T03:54:47.722Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "worktrunk",
       "fullName": "max-sixty/worktrunk",
@@ -40,8 +12,8 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8347,
-      "forks": 293,
+      "stars": 8363,
+      "forks": 294,
       "starsToday": 1901,
       "topics": [],
       "author": {
@@ -62,14 +34,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenLogi",
+      "fullName": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22006,
+      "forks": 721,
+      "starsToday": 8375,
+      "topics": [],
+      "author": {
+        "name": "AprilNEA",
+        "avatar": "https://avatars.githubusercontent.com/u/37977109?s=40&amp;v=4",
+        "url": "https://github.com/AprilNEA"
+      },
+      "summary": "用 Rust 编写的本地优先罗技鼠标配置工具，通过 HID++ 重映射按键、DPI 与 SmartShift，无需账号与遥测，替代 Logitech Options+。",
+      "tags": [
+        "rust",
+        "hid",
+        "logitech",
+        "mouse",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T03:54:47.722Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iggy",
+      "fullName": "apache/iggy",
+      "url": "https://github.com/apache/iggy",
+      "description": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4933,
+      "forks": 446,
+      "starsToday": 415,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/5490304?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Iggy 是用 Rust 编写的高效消息流平台，以极低延迟和资源占用实现持久化流式传输，可作为 Kafka 等消息队列的轻量替代。",
+      "tags": [
+        "rust",
+        "message-queue",
+        "streaming",
+        "apache",
+        "performance"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-23T14:08:36.189Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "gpui-kit",
       "fullName": "longbridge/gpui-kit",
       "url": "https://github.com/longbridge/gpui-kit",
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14651,
-      "forks": 911,
+      "stars": 14676,
+      "forks": 913,
       "starsToday": 1354,
       "topics": [],
       "author": {
@@ -90,69 +118,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "quiche",
-      "fullName": "cloudflare/quiche",
-      "url": "https://github.com/cloudflare/quiche",
-      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 12503,
-      "forks": 1142,
-      "starsToday": 721,
-      "topics": [],
-      "author": {
-        "name": "cloudflare",
-        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
-        "url": "https://github.com/cloudflare"
-      },
-      "summary": "Cloudflare 出品的 Rust 版 QUIC 传输协议与 HTTP/3 实现，性能高、可嵌入，广泛用于生产环境。",
-      "tags": [
-        "quic",
-        "http3",
-        "rust",
-        "networking",
-        "protocol"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-23T03:54:47.767Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "llmfit",
-      "fullName": "AlexsJones/llmfit",
-      "url": "https://github.com/AlexsJones/llmfit",
-      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 37043,
-      "forks": 2360,
-      "starsToday": 3618,
-      "topics": [],
-      "author": {
-        "name": "AlexsJones",
-        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
-        "url": "https://github.com/AlexsJones"
-      },
-      "summary": "Rust 编写的命令行工具，一条命令即可从数百个模型与厂商中筛选出能在本机硬件上运行的 LLM，省去手动比对显存与参数的麻烦。",
-      "tags": [
-        "llm",
-        "rust",
-        "cli",
-        "hardware",
-        "local-inference"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-23T03:54:48.909Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "anki",
       "fullName": "ankitects/anki",
       "url": "https://github.com/ankitects/anki",
       "description": "Anki is a smart spaced repetition flashcard program",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 31437,
+      "stars": 31458,
       "forks": 3255,
       "starsToday": 1721,
       "topics": [],
@@ -180,8 +152,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8122,
-      "forks": 549,
+      "stars": 8160,
+      "forks": 553,
       "starsToday": 4049,
       "topics": [],
       "author": {
@@ -203,31 +175,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "firecracker",
-      "fullName": "firecracker-microvm/firecracker",
-      "url": "https://github.com/firecracker-microvm/firecracker",
-      "description": "Secure and fast microVMs for serverless computing.",
+      "name": "llmfit",
+      "fullName": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 36880,
-      "forks": 2643,
-      "starsToday": 744,
+      "stars": 37063,
+      "forks": 2361,
+      "starsToday": 3618,
       "topics": [],
       "author": {
-        "name": "firecracker-microvm",
-        "avatar": "https://avatars.githubusercontent.com/u/115481277?s=40&amp;v=4",
-        "url": "https://github.com/firecracker-microvm"
+        "name": "AlexsJones",
+        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
+        "url": "https://github.com/AlexsJones"
       },
-      "summary": "基于 KVM 的轻量级 microVM 虚拟机监视器，用 Rust 编写，启动快、内存开销小，为无服务器与容器工作负载提供安全隔离。",
+      "summary": "Rust 编写的命令行工具，一条命令即可从数百个模型与厂商中筛选出能在本机硬件上运行的 LLM，省去手动比对显存与参数的麻烦。",
       "tags": [
-        "virtualization",
-        "microvm",
+        "llm",
         "rust",
-        "kvm",
-        "serverless"
+        "cli",
+        "hardware",
+        "local-inference"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-23T03:54:49.167Z",
+      "category": "CLI",
+      "enrichedAt": "2026-09-23T03:54:48.909Z",
       "deepwikiAvailable": false
     },
     {
@@ -237,7 +209,7 @@
       "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 22641,
+      "stars": 22657,
       "forks": 1952,
       "starsToday": 1652,
       "topics": [],
@@ -259,14 +231,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "firecracker",
+      "fullName": "firecracker-microvm/firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "description": "Secure and fast microVMs for serverless computing.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36895,
+      "forks": 2643,
+      "starsToday": 744,
+      "topics": [],
+      "author": {
+        "name": "firecracker-microvm",
+        "avatar": "https://avatars.githubusercontent.com/u/115481277?s=40&amp;v=4",
+        "url": "https://github.com/firecracker-microvm"
+      },
+      "summary": "基于 KVM 的轻量级 microVM 虚拟机监视器，用 Rust 编写，启动快、内存开销小，为无服务器与容器工作负载提供安全隔离。",
+      "tags": [
+        "virtualization",
+        "microvm",
+        "rust",
+        "kvm",
+        "serverless"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-23T03:54:49.167Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "egui",
       "fullName": "emilk/egui",
       "url": "https://github.com/emilk/egui",
       "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30671,
-      "forks": 2146,
+      "stars": 30679,
+      "forks": 2148,
       "starsToday": 590,
       "topics": [],
       "author": {
@@ -287,13 +287,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "cuda-oxide",
+      "fullName": "NVlabs/cuda-oxide",
+      "url": "https://github.com/NVlabs/cuda-oxide",
+      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3574,
+      "forks": 281,
+      "starsToday": 490,
+      "topics": [],
+      "author": {
+        "name": "NVlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
+        "url": "https://github.com/NVlabs"
+      },
+      "summary": "Rust 到 CUDA 的编译器，可直接把惯用 Rust 代码编译成 PTX 编写 GPU 内核，无需 DSL 或外部语言绑定。",
+      "tags": [
+        "rust",
+        "cuda",
+        "gpu",
+        "compiler",
+        "ptx"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T03:54:51.198Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "skills-manager",
       "fullName": "xingkongliang/skills-manager",
       "url": "https://github.com/xingkongliang/skills-manager",
       "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 4912,
+      "stars": 4916,
       "forks": 423,
       "starsToday": 992,
       "topics": [],
@@ -322,7 +350,7 @@
       "description": "A smarter cd command. Supports all major shells.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 39656,
+      "stars": 39659,
       "forks": 908,
       "starsToday": 954,
       "topics": [],
@@ -344,31 +372,116 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "cuda-oxide",
-      "fullName": "NVlabs/cuda-oxide",
-      "url": "https://github.com/NVlabs/cuda-oxide",
-      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3568,
-      "forks": 281,
-      "starsToday": 490,
+      "stars": 2232,
+      "forks": 225,
+      "starsToday": 1343,
       "topics": [],
       "author": {
-        "name": "NVlabs",
-        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
-        "url": "https://github.com/NVlabs"
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
       },
-      "summary": "Rust 到 CUDA 的编译器，可直接把惯用 Rust 代码编译成 PTX 编写 GPU 内核，无需 DSL 或外部语言绑定。",
+      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 格式与 GPU 加速渲染，可替代商业 CAD 工具。",
+      "tags": [
+        "cad",
+        "rust",
+        "dwg",
+        "dxf",
+        "gpu",
+        "3d"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T03:54:51.560Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33708,
+      "forks": 1508,
+      "starsToday": 2677,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "RustFS 是用 Rust 编写的高性能开源对象存储系统，兼容 S3 协议，可与 MinIO、Ceph 等平台迁移共存。",
       "tags": [
         "rust",
-        "cuda",
-        "gpu",
-        "compiler",
-        "ptx"
+        "object-storage",
+        "s3",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-23T03:54:52.453Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "magika",
+      "fullName": "google/magika",
+      "url": "https://github.com/google/magika",
+      "description": "Fast and accurate AI powered file content types detection",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18647,
+      "forks": 1170,
+      "starsToday": 717,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/1136172?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "基于AI的快速文件内容类型检测工具，用Rust实现，可精准识别文件真实格式，适合安全与数据处理场景。",
+      "tags": [
+        "file-detection",
+        "rust",
+        "ai",
+        "security",
+        "cli"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-23T03:54:51.198Z",
+      "enrichedAt": "2026-09-23T03:54:52.366Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "quiche",
+      "fullName": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12519,
+      "forks": 1144,
+      "starsToday": 721,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare 出品的 Rust 版 QUIC 传输协议与 HTTP/3 实现，性能高、可嵌入，广泛用于生产环境。",
+      "tags": [
+        "quic",
+        "http3",
+        "rust",
+        "networking",
+        "protocol"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-23T03:54:47.767Z",
       "deepwikiAvailable": false
     },
     {
@@ -378,8 +491,8 @@
       "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 44611,
-      "forks": 3049,
+      "stars": 44618,
+      "forks": 3050,
       "starsToday": 621,
       "topics": [],
       "author": {
@@ -401,32 +514,115 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "OpenCADStudio",
-      "fullName": "HakanSeven12/OpenCADStudio",
-      "url": "https://github.com/HakanSeven12/OpenCADStudio",
-      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2220,
-      "forks": 223,
-      "starsToday": 1343,
+      "stars": 31680,
+      "forks": 3410,
+      "starsToday": 1289,
       "topics": [],
       "author": {
-        "name": "HakanSeven12",
-        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
-        "url": "https://github.com/HakanSeven12"
+        "name": "lbjlaq",
+        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
+        "url": "https://github.com/lbjlaq"
       },
-      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 格式与 GPU 加速渲染，可替代商业 CAD 工具。",
+      "summary": "基于 Tauri v2 + React（Rust）的 Antigravity 账号管理与切换工具，支持一键无缝切换多个账号，解决多账号管理繁琐问题。",
       "tags": [
-        "cad",
+        "tauri",
         "rust",
-        "dwg",
-        "dxf",
-        "gpu",
-        "3d"
+        "react",
+        "account-manager",
+        "desktop"
       ],
       "category": "App",
-      "enrichedAt": "2026-09-23T03:54:51.560Z",
+      "enrichedAt": "2026-09-23T03:54:52.264Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coreutils",
+      "fullName": "uutils/coreutils",
+      "url": "https://github.com/uutils/coreutils",
+      "description": "Cross-platform Rust rewrite of the GNU coreutils",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24157,
+      "forks": 2051,
+      "starsToday": 375,
+      "topics": [],
+      "author": {
+        "name": "uutils",
+        "avatar": "https://avatars.githubusercontent.com/u/733326?s=40&amp;v=4",
+        "url": "https://github.com/uutils"
+      },
+      "summary": "用 Rust 重写 GNU coreutils 的跨平台实现，提供 ls、cp、cat 等常用命令行工具，性能与安全性更佳，可在 Linux、macOS、Windows 上运行。",
+      "tags": [
+        "rust",
+        "coreutils",
+        "cli",
+        "cross-platform",
+        "unix"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-23T03:54:52.639Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Graphite",
+      "fullName": "GraphiteEditor/Graphite",
+      "url": "https://github.com/GraphiteEditor/Graphite",
+      "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 27337,
+      "forks": 1263,
+      "starsToday": 473,
+      "topics": [],
+      "author": {
+        "name": "GraphiteEditor",
+        "avatar": "https://avatars.githubusercontent.com/u/4388688?s=40&amp;v=4",
+        "url": "https://github.com/GraphiteEditor"
+      },
+      "summary": "基于节点式程序化图形引擎的开源2D创作套件，集平面设计、数字绘画与实时动态图形于一体，Rust编写。",
+      "tags": [
+        "graphics",
+        "rust",
+        "node-based",
+        "design",
+        "motion-graphics"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T03:54:53.417Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pnpm",
+      "fullName": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36619,
+      "forks": 1752,
+      "starsToday": 483,
+      "topics": [],
+      "author": {
+        "name": "pnpm",
+        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
+        "url": "https://github.com/pnpm"
+      },
+      "summary": "快速且节省磁盘空间的 JavaScript 包管理器，通过硬链接与内容寻址存储共享依赖，安装更快、占用更小，支持 monorepo 工作区。",
+      "tags": [
+        "package-manager",
+        "nodejs",
+        "monorepo",
+        "cli",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T14:08:36.000Z",
       "deepwikiAvailable": false
     },
     {
@@ -459,118 +655,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "magika",
-      "fullName": "google/magika",
-      "url": "https://github.com/google/magika",
-      "description": "Fast and accurate AI powered file content types detection",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 18644,
-      "forks": 1170,
-      "starsToday": 717,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/1136172?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "基于AI的快速文件内容类型检测工具，用Rust实现，可精准识别文件真实格式，适合安全与数据处理场景。",
-      "tags": [
-        "file-detection",
-        "rust",
-        "ai",
-        "security",
-        "cli"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-23T03:54:52.366Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 33673,
-      "forks": 1509,
-      "starsToday": 2677,
-      "topics": [],
-      "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
-      },
-      "summary": "RustFS 是用 Rust 编写的高性能开源对象存储系统，兼容 S3 协议，可与 MinIO、Ceph 等平台迁移共存。",
-      "tags": [
-        "rust",
-        "object-storage",
-        "s3",
-        "storage",
-        "minio"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-23T03:54:52.453Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Antigravity-Manager",
-      "fullName": "lbjlaq/Antigravity-Manager",
-      "url": "https://github.com/lbjlaq/Antigravity-Manager",
-      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31667,
-      "forks": 3409,
-      "starsToday": 1289,
-      "topics": [],
-      "author": {
-        "name": "lbjlaq",
-        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
-        "url": "https://github.com/lbjlaq"
-      },
-      "summary": "基于 Tauri v2 + React（Rust）的 Antigravity 账号管理与切换工具，支持一键无缝切换多个账号，解决多账号管理繁琐问题。",
-      "tags": [
-        "tauri",
-        "rust",
-        "react",
-        "account-manager",
-        "desktop"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-23T03:54:52.264Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "coreutils",
-      "fullName": "uutils/coreutils",
-      "url": "https://github.com/uutils/coreutils",
-      "description": "Cross-platform Rust rewrite of the GNU coreutils",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 24153,
-      "forks": 2049,
-      "starsToday": 375,
-      "topics": [],
-      "author": {
-        "name": "uutils",
-        "avatar": "https://avatars.githubusercontent.com/u/733326?s=40&amp;v=4",
-        "url": "https://github.com/uutils"
-      },
-      "summary": "用 Rust 重写 GNU coreutils 的跨平台实现，提供 ls、cp、cat 等常用命令行工具，性能与安全性更佳，可在 Linux、macOS、Windows 上运行。",
-      "tags": [
-        "rust",
-        "coreutils",
-        "cli",
-        "cross-platform",
-        "unix"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-23T03:54:52.639Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "gleam",
       "fullName": "gleam-lang/gleam",
       "url": "https://github.com/gleam-lang/gleam",
@@ -596,34 +680,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-23T03:54:53.166Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Graphite",
-      "fullName": "GraphiteEditor/Graphite",
-      "url": "https://github.com/GraphiteEditor/Graphite",
-      "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 27332,
-      "forks": 1263,
-      "starsToday": 473,
-      "topics": [],
-      "author": {
-        "name": "GraphiteEditor",
-        "avatar": "https://avatars.githubusercontent.com/u/4388688?s=40&amp;v=4",
-        "url": "https://github.com/GraphiteEditor"
-      },
-      "summary": "基于节点式程序化图形引擎的开源2D创作套件，集平面设计、数字绘画与实时动态图形于一体，Rust编写。",
-      "tags": [
-        "graphics",
-        "rust",
-        "node-based",
-        "design",
-        "motion-graphics"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-23T03:54:53.417Z",
       "deepwikiAvailable": false
     }
   ]

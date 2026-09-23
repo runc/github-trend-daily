@@ -2,9 +2,37 @@
   "date": "2026-09-23",
   "since": "weekly",
   "language": "Python",
-  "fetchedAt": "2026-09-23T03:53:03.941Z",
-  "enrichedAt": "2026-09-23T03:54:05.934Z",
+  "fetchedAt": "2026-09-23T14:07:31.146Z",
+  "enrichedAt": "2026-09-23T14:08:23.957Z",
   "repos": [
+    {
+      "name": "financial-services",
+      "fullName": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 36744,
+      "forks": 5362,
+      "starsToday": 1238,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/5457787?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Anthropic 开源的金融服务示例项目，用 Python 演示如何将 Claude 应用于金融场景，提供可参考的行业落地实现。",
+      "tags": [
+        "finance",
+        "llm",
+        "claude",
+        "python",
+        "examples"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-23T03:54:02.384Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "knowledge-work-plugins",
       "fullName": "anthropics/knowledge-work-plugins",
@@ -12,8 +40,8 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 25448,
-      "forks": 3019,
+      "stars": 25474,
+      "forks": 3021,
       "starsToday": 1403,
       "topics": [],
       "author": {
@@ -40,8 +68,8 @@
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 4667,
-      "forks": 539,
+      "stars": 4717,
+      "forks": 552,
       "starsToday": 2148,
       "topics": [],
       "author": {
@@ -62,31 +90,341 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "financial-services",
-      "fullName": "anthropics/financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "description": "",
+      "name": "claude-code-templates",
+      "fullName": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 36462,
-      "forks": 5329,
-      "starsToday": 1238,
+      "stars": 31347,
+      "forks": 3558,
+      "starsToday": 577,
       "topics": [],
       "author": {
-        "name": "anthropics",
-        "avatar": "https://avatars.githubusercontent.com/u/5457787?s=40&amp;v=4",
-        "url": "https://github.com/anthropics"
+        "name": "davila7",
+        "avatar": "https://avatars.githubusercontent.com/u/6216945?s=40&amp;v=4",
+        "url": "https://github.com/davila7"
       },
-      "summary": "Anthropic 开源的金融服务示例项目，用 Python 演示如何将 Claude 应用于金融场景，提供可参考的行业落地实现。",
+      "summary": "用于配置和监控 Claude Code 的 CLI 工具，提供模板化配置与运行状态监控，简化 AI 编码助手的搭建与使用。",
       "tags": [
-        "finance",
-        "llm",
-        "claude",
-        "python",
-        "examples"
+        "claude-code",
+        "cli",
+        "ai",
+        "templates",
+        "monitoring"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-23T14:08:22.593Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pytorch",
+      "fullName": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 103196,
+      "forks": 30048,
+      "starsToday": 194,
+      "topics": [],
+      "author": {
+        "name": "pytorch",
+        "avatar": "https://avatars.githubusercontent.com/u/97764156?s=40&amp;v=4",
+        "url": "https://github.com/pytorch"
+      },
+      "summary": "PyTorch 是主流深度学习框架，提供张量与动态计算图，支持强 GPU 加速，广泛用于模型训练与研究。",
+      "tags": [
+        "pytorch",
+        "deep-learning",
+        "gpu",
+        "tensors",
+        "python"
       ],
       "category": "AI",
-      "enrichedAt": "2026-09-23T03:54:02.384Z",
+      "enrichedAt": "2026-09-23T14:08:22.885Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "treg",
+      "fullName": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2523,
+      "forks": 233,
+      "starsToday": 1023,
+      "topics": [],
+      "author": {
+        "name": "superdesigndev",
+        "avatar": "https://avatars.githubusercontent.com/u/22532527?s=40&amp;v=4",
+        "url": "https://github.com/superdesigndev"
+      },
+      "summary": "面向 AI 智能体的工具聚合与调用平台，类似工具领域的 OpenRouter，统一接入并路由各类 agent 工具，简化集成与切换。",
+      "tags": [
+        "ai",
+        "agents",
+        "tools",
+        "router",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-23T14:08:22.708Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "autoclip",
+      "fullName": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 8795,
+      "forks": 1617,
+      "starsToday": 1369,
+      "topics": [],
+      "author": {
+        "name": "zhouxiaoka",
+        "avatar": "https://avatars.githubusercontent.com/u/78066887?s=40&amp;v=4",
+        "url": "https://github.com/zhouxiaoka"
+      },
+      "summary": "AI驱动的视频自动剪辑工具，智能提取高光片段并生成二创视频，支持批量处理与自动发布。",
+      "tags": [
+        "video",
+        "ai",
+        "clipping",
+        "highlight",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-23T03:54:04.307Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fugleramme",
+      "fullName": "arnegiacomo/fugleramme",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "description": "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 3289,
+      "forks": 91,
+      "starsToday": 1290,
+      "topics": [],
+      "author": {
+        "name": "arnegiacomo",
+        "avatar": "https://avatars.githubusercontent.com/u/45269747?s=40&amp;v=4",
+        "url": "https://github.com/arnegiacomo"
+      },
+      "summary": "基于树莓派的电子墨水鸟鸣相框：用本地AI通过音频实时识别鸟类，并展示19世纪手工剪裁风格的鸟类插画。",
+      "tags": [
+        "raspberry-pi",
+        "eink",
+        "bird-detection",
+        "audio",
+        "local-ai"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T14:08:22.951Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mvt",
+      "fullName": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 14354,
+      "forks": 1374,
+      "starsToday": 1240,
+      "topics": [],
+      "author": {
+        "name": "mvt-project",
+        "avatar": "https://avatars.githubusercontent.com/u/1032671?s=40&amp;v=4",
+        "url": "https://github.com/mvt-project"
+      },
+      "summary": "移动设备取证工具包，通过分析iOS和Android备份与系统痕迹，检测设备是否被间谍软件或攻击者入侵。",
+      "tags": [
+        "forensics",
+        "security",
+        "mobile",
+        "ios",
+        "android",
+        "python"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-23T14:08:23.957Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "train-llm-from-scratch",
+      "fullName": "FareedKhan-dev/train-llm-from-scratch",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 10869,
+      "forks": 1526,
+      "starsToday": 1260,
+      "topics": [],
+      "author": {
+        "name": "FareedKhan-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/63067900?s=40&amp;v=4",
+        "url": "https://github.com/FareedKhan-dev"
+      },
+      "summary": "从零训练大语言模型的完整教程项目，涵盖数据下载、预处理、模型训练到文本生成的端到端流程，适合想深入理解LLM原理的开发者。",
+      "tags": [
+        "llm",
+        "training",
+        "tutorial",
+        "python",
+        "from-scratch"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-23T14:08:23.860Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 85019,
+      "forks": 7465,
+      "starsToday": 2985,
+      "topics": [],
+      "author": {
+        "name": "Panniantong",
+        "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&amp;v=4",
+        "url": "https://github.com/Panniantong"
+      },
+      "summary": "为 AI Agent 提供全网信息获取能力的 CLI 工具，可读取搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，无需 API 费用。",
+      "tags": [
+        "ai-agent",
+        "cli",
+        "scraper",
+        "search",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-23T03:54:03.267Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "YuE",
+      "fullName": "multimodal-art-projection/YuE",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 10153,
+      "forks": 1155,
+      "starsToday": 1290,
+      "topics": [],
+      "author": {
+        "name": "multimodal-art-projection",
+        "avatar": "https://avatars.githubusercontent.com/u/30723625?s=40&amp;v=4",
+        "url": "https://github.com/multimodal-art-projection"
+      },
+      "summary": "YuE2 是开源音乐生成模型，支持符号化规划、零样本翻唱与智能体式音乐编辑，可端到端生成完整歌曲。",
+      "tags": [
+        "music-generation",
+        "audio",
+        "llm",
+        "python",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-23T03:54:03.687Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-source-games",
+      "fullName": "bobeff/open-source-games",
+      "url": "https://github.com/bobeff/open-source-games",
+      "description": "A list of open source games.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 15354,
+      "forks": 1274,
+      "starsToday": 987,
+      "topics": [],
+      "author": {
+        "name": "bobeff",
+        "avatar": "https://avatars.githubusercontent.com/u/675506?s=40&amp;v=4",
+        "url": "https://github.com/bobeff"
+      },
+      "summary": "收录开源游戏的项目清单，按类型整理并附源码与平台信息，方便玩家和开发者快速发现可自由修改的游戏。",
+      "tags": [
+        "games",
+        "awesome-list",
+        "open-source",
+        "gamedev",
+        "python"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T03:54:04.057Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Claude-Red",
+      "fullName": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6813,
+      "forks": 889,
+      "starsToday": 1592,
+      "topics": [],
+      "author": {
+        "name": "SnailSploit",
+        "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&amp;v=4",
+        "url": "https://github.com/SnailSploit"
+      },
+      "summary": "面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 为 SQLi、shellcode、EDR 绕过、漏洞利用开发等攻击面注入专家级方法论。",
+      "tags": [
+        "security",
+        "offensive-security",
+        "claude",
+        "ai-agent",
+        "prompt",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-23T03:54:03.661Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 18151,
+      "forks": 1573,
+      "starsToday": 790,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 出品的 AI Agent 技能安全扫描器，安装前检测 Claude Code、Codex、MCP 技能中的漏洞、提示注入、数据外泄与供应链风险。",
+      "tags": [
+        "security",
+        "ai-agent",
+        "scanner",
+        "mcp",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T03:54:05.625Z",
       "deepwikiAvailable": false
     },
     {
@@ -115,147 +453,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-23T03:54:02.528Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Agent-Reach",
-      "fullName": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 84875,
-      "forks": 7454,
-      "starsToday": 2985,
-      "topics": [],
-      "author": {
-        "name": "Panniantong",
-        "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&amp;v=4",
-        "url": "https://github.com/Panniantong"
-      },
-      "summary": "为 AI Agent 提供全网信息获取能力的 CLI 工具，可读取搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，无需 API 费用。",
-      "tags": [
-        "ai-agent",
-        "cli",
-        "scraper",
-        "search",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-23T03:54:03.267Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "YuE",
-      "fullName": "multimodal-art-projection/YuE",
-      "url": "https://github.com/multimodal-art-projection/YuE",
-      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 10085,
-      "forks": 1149,
-      "starsToday": 1290,
-      "topics": [],
-      "author": {
-        "name": "multimodal-art-projection",
-        "avatar": "https://avatars.githubusercontent.com/u/30723625?s=40&amp;v=4",
-        "url": "https://github.com/multimodal-art-projection"
-      },
-      "summary": "YuE2 是开源音乐生成模型，支持符号化规划、零样本翻唱与智能体式音乐编辑，可端到端生成完整歌曲。",
-      "tags": [
-        "music-generation",
-        "audio",
-        "llm",
-        "python",
-        "agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-23T03:54:03.687Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Claude-Red",
-      "fullName": "SnailSploit/Claude-Red",
-      "url": "https://github.com/SnailSploit/Claude-Red",
-      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 6778,
-      "forks": 886,
-      "starsToday": 1592,
-      "topics": [],
-      "author": {
-        "name": "SnailSploit",
-        "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&amp;v=4",
-        "url": "https://github.com/SnailSploit"
-      },
-      "summary": "面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 为 SQLi、shellcode、EDR 绕过、漏洞利用开发等攻击面注入专家级方法论。",
-      "tags": [
-        "security",
-        "offensive-security",
-        "claude",
-        "ai-agent",
-        "prompt",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-23T03:54:03.661Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "open-source-games",
-      "fullName": "bobeff/open-source-games",
-      "url": "https://github.com/bobeff/open-source-games",
-      "description": "A list of open source games.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 15334,
-      "forks": 1273,
-      "starsToday": 987,
-      "topics": [],
-      "author": {
-        "name": "bobeff",
-        "avatar": "https://avatars.githubusercontent.com/u/675506?s=40&amp;v=4",
-        "url": "https://github.com/bobeff"
-      },
-      "summary": "收录开源游戏的项目清单，按类型整理并附源码与平台信息，方便玩家和开发者快速发现可自由修改的游戏。",
-      "tags": [
-        "games",
-        "awesome-list",
-        "open-source",
-        "gamedev",
-        "python"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-23T03:54:04.057Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "autoclip",
-      "fullName": "zhouxiaoka/autoclip",
-      "url": "https://github.com/zhouxiaoka/autoclip",
-      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 8738,
-      "forks": 1612,
-      "starsToday": 1369,
-      "topics": [],
-      "author": {
-        "name": "zhouxiaoka",
-        "avatar": "https://avatars.githubusercontent.com/u/78066887?s=40&amp;v=4",
-        "url": "https://github.com/zhouxiaoka"
-      },
-      "summary": "AI驱动的视频自动剪辑工具，智能提取高光片段并生成二创视频，支持批量处理与自动发布。",
-      "tags": [
-        "video",
-        "ai",
-        "clipping",
-        "highlight",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-23T03:54:04.307Z",
       "deepwikiAvailable": false
     },
     {
@@ -340,34 +537,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-23T03:54:04.953Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "SkillSpector",
-      "fullName": "NVIDIA/SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 18119,
-      "forks": 1569,
-      "starsToday": 790,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 出品的 AI Agent 技能安全扫描器，安装前检测 Claude Code、Codex、MCP 技能中的漏洞、提示注入、数据外泄与供应链风险。",
-      "tags": [
-        "security",
-        "ai-agent",
-        "scanner",
-        "mcp",
-        "python"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-23T03:54:05.625Z",
       "deepwikiAvailable": false
     },
     {

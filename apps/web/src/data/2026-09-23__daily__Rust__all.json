@@ -2,35 +2,35 @@
   "date": "2026-09-23",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-09-23T03:53:03.941Z",
-  "enrichedAt": "2026-09-23T03:53:45.858Z",
+  "fetchedAt": "2026-09-23T14:07:31.146Z",
+  "enrichedAt": "2026-09-23T14:08:13.409Z",
   "repos": [
     {
-      "name": "clash-verge-rev",
-      "fullName": "clash-verge-rev/clash-verge-rev",
-      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "name": "quiche",
+      "fullName": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 146556,
-      "forks": 10527,
-      "starsToday": 300,
+      "stars": 12519,
+      "forks": 1144,
+      "starsToday": 250,
       "topics": [],
       "author": {
-        "name": "clash-verge-rev",
-        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
-        "url": "https://github.com/clash-verge-rev"
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
       },
-      "summary": "基于 Tauri 的现代跨平台代理客户端，支持 Windows、macOS 与 Linux，提供简洁易用的图形界面与定制化代理体验。",
+      "summary": "Cloudflare 出品的 Rust 版 QUIC 传输协议与 HTTP/3 实现，性能高、生产可用，是构建现代网络服务的核心库。",
       "tags": [
-        "proxy",
-        "tauri",
+        "quic",
+        "http3",
         "rust",
-        "cross-platform",
-        "gui"
+        "networking",
+        "protocol"
       ],
-      "category": "App",
-      "enrichedAt": "2026-09-23T03:53:41.994Z",
+      "category": "Library",
+      "enrichedAt": "2026-09-23T03:53:42.751Z",
       "deepwikiAvailable": false
     },
     {
@@ -40,8 +40,8 @@
       "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3872,
-      "forks": 471,
+      "stars": 3899,
+      "forks": 474,
       "starsToday": 220,
       "topics": [],
       "author": {
@@ -69,8 +69,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8122,
-      "forks": 549,
+      "stars": 8160,
+      "forks": 553,
       "starsToday": 520,
       "topics": [],
       "author": {
@@ -88,6 +88,570 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-23T03:53:42.115Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hydradb",
+      "fullName": "hydra-db/hydradb",
+      "url": "https://github.com/hydra-db/hydradb",
+      "description": "HydraDB - fast graph database on object storage",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4274,
+      "forks": 1233,
+      "starsToday": 761,
+      "topics": [],
+      "author": {
+        "name": "hydra-db",
+        "avatar": "https://avatars.githubusercontent.com/u/248433309?s=40&amp;v=4",
+        "url": "https://github.com/hydra-db"
+      },
+      "summary": "基于对象存储构建的快速图数据库，用 Rust 编写，兼顾低成本存储与图查询性能。",
+      "tags": [
+        "database",
+        "graph",
+        "rust",
+        "object-storage",
+        "storage"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-23T03:53:43.016Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rift",
+      "fullName": "acsandmann/rift",
+      "url": "https://github.com/acsandmann/rift",
+      "description": "a tiling window manager for macos",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2442,
+      "forks": 97,
+      "starsToday": 71,
+      "topics": [],
+      "author": {
+        "name": "acsandmann",
+        "avatar": "https://avatars.githubusercontent.com/u/157552025?s=40&amp;v=4",
+        "url": "https://github.com/acsandmann"
+      },
+      "summary": "用 Rust 编写的 macOS 平铺窗口管理器，自动排列窗口布局，提升多窗口操作效率。",
+      "tags": [
+        "macos",
+        "window-manager",
+        "tiling",
+        "rust",
+        "productivity"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T14:08:09.633Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nasiko",
+      "fullName": "Nasiko-Labs/nasiko",
+      "url": "https://github.com/Nasiko-Labs/nasiko",
+      "description": "Developer Control Plane for your AI Agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7696,
+      "forks": 1648,
+      "starsToday": 766,
+      "topics": [],
+      "author": {
+        "name": "Nasiko-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/137779928?s=40&amp;v=4",
+        "url": "https://github.com/Nasiko-Labs"
+      },
+      "summary": "面向 AI Agent 的开发者控制平面，用 Rust 编写，统一管理、编排与观测智能体运行。",
+      "tags": [
+        "ai-agents",
+        "rust",
+        "control-plane",
+        "orchestration",
+        "devtool"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-23T03:53:43.353Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-desktop",
+      "fullName": "lahfir/agent-desktop",
+      "url": "https://github.com/lahfir/agent-desktop",
+      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1570,
+      "forks": 106,
+      "starsToday": 73,
+      "topics": [],
+      "author": {
+        "name": "lahfir",
+        "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&amp;v=4",
+        "url": "https://github.com/lahfir"
+      },
+      "summary": "基于 Rust 的桌面自动化工具，通过操作系统无障碍树读取任意应用真实 UI 结构并操作，元素引用稳定、动作可安全重试，替代像素猜测。",
+      "tags": [
+        "rust",
+        "desktop",
+        "automation",
+        "accessibility",
+        "agent",
+        "computer-use"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T03:53:44.378Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "check-if-email-exists",
+      "fullName": "reacherhq/check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9963,
+      "forks": 720,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "reacherhq",
+        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
+        "url": "https://github.com/reacherhq"
+      },
+      "summary": "用 Rust 编写的邮箱地址真实性检测工具，无需发送邮件即可通过 SMTP 校验邮箱是否存在，并附带 HTTP 后端服务。",
+      "tags": [
+        "rust",
+        "email",
+        "smtp",
+        "validation",
+        "http-api"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T14:08:09.925Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpui-kit",
+      "fullName": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 14676,
+      "forks": 913,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "longbridge",
+        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
+        "url": "https://github.com/longbridge"
+      },
+      "summary": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库，提供丰富组件，帮助开发者快速构建高性能原生桌面应用。",
+      "tags": [
+        "rust",
+        "gui",
+        "gpui",
+        "desktop",
+        "ui-components"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-23T14:08:10.050Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-browser",
+      "fullName": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 43107,
+      "forks": 2895,
+      "starsToday": 70,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "面向 AI 智能体的浏览器自动化 CLI，用 Rust 编写，让 Agent 直接操控网页完成浏览、抓取与交互任务。",
+      "tags": [
+        "browser",
+        "automation",
+        "ai-agent",
+        "cli",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T14:08:09.855Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microsandbox",
+      "fullName": "superradcompany/microsandbox",
+      "url": "https://github.com/superradcompany/microsandbox",
+      "description": "🧱 fast branchable microVM for any workload",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8394,
+      "forks": 449,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "superradcompany",
+        "avatar": "https://avatars.githubusercontent.com/u/20358651?s=40&amp;v=4",
+        "url": "https://github.com/superradcompany"
+      },
+      "summary": "基于 Rust 的快速可分支 microVM 沙箱，为任意工作负载提供轻量隔离与秒级快照分支能力。",
+      "tags": [
+        "microvm",
+        "sandbox",
+        "rust",
+        "virtualization",
+        "isolation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-23T14:08:10.777Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rhwp",
+      "fullName": "edwardkim/rhwp",
+      "url": "https://github.com/edwardkim/rhwp",
+      "description": "아래한글 hwp viewer and editor by rust and wasm",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3846,
+      "forks": 725,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "edwardkim",
+        "avatar": "https://avatars.githubusercontent.com/u/3311384?s=40&amp;v=4",
+        "url": "https://github.com/edwardkim"
+      },
+      "summary": "用 Rust 与 WebAssembly 实现的韩文 HWP 文档查看与编辑工具，可在浏览器中直接打开和修改 아래한글 文件。",
+      "tags": [
+        "rust",
+        "wasm",
+        "hwp",
+        "document",
+        "viewer",
+        "editor"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T14:08:11.198Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clash-verge-rev",
+      "fullName": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 146765,
+      "forks": 10542,
+      "starsToday": 300,
+      "topics": [],
+      "author": {
+        "name": "clash-verge-rev",
+        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
+        "url": "https://github.com/clash-verge-rev"
+      },
+      "summary": "基于 Tauri 的现代跨平台代理客户端，支持 Windows、macOS 与 Linux，提供简洁易用的图形界面与定制化代理体验。",
+      "tags": [
+        "proxy",
+        "tauri",
+        "rust",
+        "cross-platform",
+        "gui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T03:53:41.994Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentgateway",
+      "fullName": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5002,
+      "forks": 873,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "agentgateway",
+        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
+        "url": "https://github.com/agentgateway"
+      },
+      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理网关，用 Rust 编写，统一管理智能体流量与工具调用。",
+      "tags": [
+        "ai",
+        "mcp",
+        "proxy",
+        "gateway",
+        "rust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-23T03:53:44.815Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MovieBox-Tui",
+      "fullName": "mesamirh/MovieBox-Tui",
+      "url": "https://github.com/mesamirh/MovieBox-Tui",
+      "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2220,
+      "forks": 252,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "mesamirh",
+        "avatar": "https://avatars.githubusercontent.com/u/73069638?s=40&amp;v=4",
+        "url": "https://github.com/mesamirh"
+      },
+      "summary": "基于 Rust 的终端影视工具，可在命令行中搜索、下载并调用本地播放器播放电影、剧集和直播电视。",
+      "tags": [
+        "rust",
+        "tui",
+        "cli",
+        "streaming",
+        "media"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-23T14:08:11.126Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "komodo",
+      "fullName": "moghtech/komodo",
+      "url": "https://github.com/moghtech/komodo",
+      "description": "🦎 a tool to build and deploy software on many servers 🦎",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12457,
+      "forks": 421,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "moghtech",
+        "avatar": "https://avatars.githubusercontent.com/u/49575486?s=40&amp;v=4",
+        "url": "https://github.com/moghtech"
+      },
+      "summary": "基于 Rust 的多服务器软件构建与部署工具，统一管理跨主机的构建、部署与监控流程。",
+      "tags": [
+        "deployment",
+        "rust",
+        "devops",
+        "self-hosted",
+        "infrastructure"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T14:08:11.035Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 20538,
+      "forks": 1992,
+      "starsToday": 90,
+      "topics": [],
+      "author": {
+        "name": "t8y2",
+        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
+        "url": "https://github.com/t8y2"
+      },
+      "summary": "25MB 轻量跨平台数据库客户端，支持 90+ 数据库，内置 AI 助手、MCP Server、CLI 与 Docker 部署。",
+      "tags": [
+        "database",
+        "rust",
+        "cross-platform",
+        "ai",
+        "mcp",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T14:08:11.889Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Aether",
+      "fullName": "CluvexStudio/Aether",
+      "url": "https://github.com/CluvexStudio/Aether",
+      "description": "A Rust userspace WARP core for censored networks, built around MASQUE over HTTP/3 and HTTP/2.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1974,
+      "forks": 153,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "CluvexStudio",
+        "avatar": "https://avatars.githubusercontent.com/u/125141320?s=40&amp;v=4",
+        "url": "https://github.com/CluvexStudio"
+      },
+      "summary": "基于 Rust 的用户态 WARP 核心，通过 MASQUE over HTTP/3 与 HTTP/2 隧道穿透网络审查，为受限网络提供代理连接。",
+      "tags": [
+        "rust",
+        "warp",
+        "masque",
+        "http3",
+        "proxy",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-23T14:08:12.300Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tokenizers",
+      "fullName": "huggingface/tokenizers",
+      "url": "https://github.com/huggingface/tokenizers",
+      "description": "💥 Fast State-of-the-Art Tokenizers optimized for Research and Production",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11102,
+      "forks": 1206,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "huggingface",
+        "avatar": "https://avatars.githubusercontent.com/u/1217986?s=40&amp;v=4",
+        "url": "https://github.com/huggingface"
+      },
+      "summary": "Hugging Face 出品的高性能分词器库，用 Rust 实现并提供 Python 绑定，兼顾研究实验与生产部署，支持 BPE、WordPiece 等主流算法。",
+      "tags": [
+        "nlp",
+        "tokenizer",
+        "rust",
+        "python",
+        "machine-learning"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-23T03:53:44.455Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "turso",
+      "fullName": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24359,
+      "forks": 1360,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "tursodatabase",
+        "avatar": "https://avatars.githubusercontent.com/u/81939?s=40&amp;v=4",
+        "url": "https://github.com/tursodatabase"
+      },
+      "summary": "用 Rust 重写的 SQLite 兼容嵌入式数据库，实验性支持 Postgres 协议，主打高性能与可扩展，被称为数据库界的 LLVM。",
+      "tags": [
+        "database",
+        "rust",
+        "sqlite",
+        "sql",
+        "embedded"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-23T14:08:12.446Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pake",
+      "fullName": "tw93/Pake",
+      "url": "https://github.com/tw93/Pake",
+      "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 61665,
+      "forks": 12704,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "tw93",
+        "avatar": "https://avatars.githubusercontent.com/u/8736212?s=40&amp;v=4",
+        "url": "https://github.com/tw93"
+      },
+      "summary": "用一条命令把任意网页打包成轻量桌面应用，基于 Rust 与 Tauri，体积小、跨平台，适合将常用网站变成独立客户端。",
+      "tags": [
+        "rust",
+        "tauri",
+        "desktop",
+        "webview",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T14:08:12.257Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruff",
+      "fullName": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 49738,
+      "forks": 2432,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的高速 Python 代码检查与格式化工具，可替代 Flake8、Black 等，速度极快且支持自动修复。",
+      "tags": [
+        "python",
+        "linter",
+        "formatter",
+        "rust",
+        "static-analysis"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-23T14:08:12.874Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llmfit",
+      "fullName": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37063,
+      "forks": 2361,
+      "starsToday": 95,
+      "topics": [],
+      "author": {
+        "name": "AlexsJones",
+        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
+        "url": "https://github.com/AlexsJones"
+      },
+      "summary": "Rust 编写的命令行工具，从数百个模型与提供商中一键筛选出能在本机硬件上运行的 LLM，省去手动比对显存与参数的麻烦。",
+      "tags": [
+        "llm",
+        "rust",
+        "cli",
+        "hardware",
+        "local-inference"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-23T14:08:13.409Z",
       "deepwikiAvailable": false
     },
     {
@@ -148,90 +712,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "quiche",
-      "fullName": "cloudflare/quiche",
-      "url": "https://github.com/cloudflare/quiche",
-      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 12503,
-      "forks": 1142,
-      "starsToday": 250,
-      "topics": [],
-      "author": {
-        "name": "cloudflare",
-        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
-        "url": "https://github.com/cloudflare"
-      },
-      "summary": "Cloudflare 出品的 Rust 版 QUIC 传输协议与 HTTP/3 实现，性能高、生产可用，是构建现代网络服务的核心库。",
-      "tags": [
-        "quic",
-        "http3",
-        "rust",
-        "networking",
-        "protocol"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-23T03:53:42.751Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hydradb",
-      "fullName": "hydra-db/hydradb",
-      "url": "https://github.com/hydra-db/hydradb",
-      "description": "HydraDB - fast graph database on object storage",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 4205,
-      "forks": 1218,
-      "starsToday": 761,
-      "topics": [],
-      "author": {
-        "name": "hydra-db",
-        "avatar": "https://avatars.githubusercontent.com/u/248433309?s=40&amp;v=4",
-        "url": "https://github.com/hydra-db"
-      },
-      "summary": "基于对象存储构建的快速图数据库，用 Rust 编写，兼顾低成本存储与图查询性能。",
-      "tags": [
-        "database",
-        "graph",
-        "rust",
-        "object-storage",
-        "storage"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-09-23T03:53:43.016Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "nasiko",
-      "fullName": "Nasiko-Labs/nasiko",
-      "url": "https://github.com/Nasiko-Labs/nasiko",
-      "description": "Developer Control Plane for your AI Agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7630,
-      "forks": 1637,
-      "starsToday": 766,
-      "topics": [],
-      "author": {
-        "name": "Nasiko-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/137779928?s=40&amp;v=4",
-        "url": "https://github.com/Nasiko-Labs"
-      },
-      "summary": "面向 AI Agent 的开发者控制平面，用 Rust 编写，统一管理、编排与观测智能体运行。",
-      "tags": [
-        "ai-agents",
-        "rust",
-        "control-plane",
-        "orchestration",
-        "devtool"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-23T03:53:43.353Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "fff",
       "fullName": "dmtrKovalenko/fff",
       "url": "https://github.com/dmtrKovalenko/fff",
@@ -285,91 +765,6 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-09-23T03:53:43.987Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-desktop",
-      "fullName": "lahfir/agent-desktop",
-      "url": "https://github.com/lahfir/agent-desktop",
-      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1528,
-      "forks": 102,
-      "starsToday": 73,
-      "topics": [],
-      "author": {
-        "name": "lahfir",
-        "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&amp;v=4",
-        "url": "https://github.com/lahfir"
-      },
-      "summary": "基于 Rust 的桌面自动化工具，通过操作系统无障碍树读取任意应用真实 UI 结构并操作，元素引用稳定、动作可安全重试，替代像素猜测。",
-      "tags": [
-        "rust",
-        "desktop",
-        "automation",
-        "accessibility",
-        "agent",
-        "computer-use"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-23T03:53:44.378Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "tokenizers",
-      "fullName": "huggingface/tokenizers",
-      "url": "https://github.com/huggingface/tokenizers",
-      "description": "💥 Fast State-of-the-Art Tokenizers optimized for Research and Production",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11092,
-      "forks": 1206,
-      "starsToday": 24,
-      "topics": [],
-      "author": {
-        "name": "huggingface",
-        "avatar": "https://avatars.githubusercontent.com/u/1217986?s=40&amp;v=4",
-        "url": "https://github.com/huggingface"
-      },
-      "summary": "Hugging Face 出品的高性能分词器库，用 Rust 实现并提供 Python 绑定，兼顾研究实验与生产部署，支持 BPE、WordPiece 等主流算法。",
-      "tags": [
-        "nlp",
-        "tokenizer",
-        "rust",
-        "python",
-        "machine-learning"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-23T03:53:44.455Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agentgateway",
-      "fullName": "agentgateway/agentgateway",
-      "url": "https://github.com/agentgateway/agentgateway",
-      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 4990,
-      "forks": 871,
-      "starsToday": 19,
-      "topics": [],
-      "author": {
-        "name": "agentgateway",
-        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
-        "url": "https://github.com/agentgateway"
-      },
-      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理网关，用 Rust 编写，统一管理智能体流量与工具调用。",
-      "tags": [
-        "ai",
-        "mcp",
-        "proxy",
-        "gateway",
-        "rust"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-23T03:53:44.815Z",
       "deepwikiAvailable": false
     },
     {
