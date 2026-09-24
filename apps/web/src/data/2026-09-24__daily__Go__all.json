@@ -2,8 +2,8 @@
   "date": "2026-09-24",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-24T03:45:40.708Z",
-  "enrichedAt": "2026-09-24T03:46:19.623Z",
+  "fetchedAt": "2026-09-24T14:05:39.028Z",
+  "enrichedAt": "2026-09-24T14:06:15.863Z",
   "repos": [
     {
       "name": "ax",
@@ -12,9 +12,9 @@
       "description": "Google's open agentic orchestration runtime",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 9261,
-      "forks": 443,
-      "starsToday": 1543,
+      "stars": 9810,
+      "forks": 484,
+      "starsToday": 1376,
       "topics": [],
       "author": {
         "name": "google",
@@ -40,9 +40,9 @@
       "description": "Agent Substrate: the core system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3550,
-      "forks": 418,
-      "starsToday": 558,
+      "stars": 3694,
+      "forks": 427,
+      "starsToday": 439,
       "topics": [],
       "author": {
         "name": "agent-substrate",
@@ -59,6 +59,487 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-24T03:46:14.758Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bifrost",
+      "fullName": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8318,
+      "forks": 1278,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "maximhq",
+        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
+        "url": "https://github.com/maximhq"
+      },
+      "summary": "企业级 AI 网关，比 LiteLLM 快 50 倍，支持 1000+ 模型、自适应负载均衡、集群模式与护栏，5k RPS 下开销低于 100 微秒。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "go",
+        "load-balancer",
+        "enterprise"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-24T03:46:19.481Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cliamp",
+      "fullName": "bjarneo/cliamp",
+      "url": "https://github.com/bjarneo/cliamp",
+      "description": "cliamp - Terminal music player inspired by winamp",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4325,
+      "forks": 291,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "bjarneo",
+        "avatar": "https://avatars.githubusercontent.com/u/1419214?s=40&amp;v=4",
+        "url": "https://github.com/bjarneo"
+      },
+      "summary": "用 Go 编写的终端音乐播放器，灵感来自 Winamp，在命令行里即可播放和管理本地音乐，轻量且复古。",
+      "tags": [
+        "music",
+        "terminal",
+        "tui",
+        "go",
+        "cli"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-24T03:46:17.263Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "router",
+      "fullName": "weave-os/router",
+      "url": "https://github.com/weave-os/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5070,
+      "forks": 138,
+      "starsToday": 185,
+      "topics": [],
+      "author": {
+        "name": "weave-os",
+        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
+        "url": "https://github.com/weave-os"
+      },
+      "summary": "面向智能体系统的模型路由器，50毫秒内将每个提示词分发到最合适的模型，仅需更换接口即可降低40-70%成本。",
+      "tags": [
+        "llm",
+        "router",
+        "go",
+        "agents",
+        "cost-optimization"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T03:46:14.795Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "flexprice",
+      "fullName": "flexprice/flexprice",
+      "url": "https://github.com/flexprice/flexprice",
+      "description": "Usage-based pricing and billing for developers 🔓 Cloud or self-hosted ⚙️ No-code UI 💰 Realtime usage metering 🎟 Credits & top-ups 🔑 Control feature access",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6934,
+      "forks": 997,
+      "starsToday": 617,
+      "topics": [],
+      "author": {
+        "name": "flexprice",
+        "avatar": "https://avatars.githubusercontent.com/u/57660189?s=40&amp;v=4",
+        "url": "https://github.com/flexprice"
+      },
+      "summary": "面向开发者的用量计费平台，支持实时用量计量、积分充值、功能权限控制，可云端或自托管部署，无需写代码即可配置定价。",
+      "tags": [
+        "billing",
+        "pricing",
+        "metering",
+        "go",
+        "self-hosted",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-24T03:46:16.393Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-stock",
+      "fullName": "ArvinLovegood/go-stock",
+      "url": "https://github.com/ArvinLovegood/go-stock",
+      "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7689,
+      "forks": 1346,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "ArvinLovegood",
+        "avatar": "https://avatars.githubusercontent.com/u/7401917?s=40&amp;v=4",
+        "url": "https://github.com/ArvinLovegood"
+      },
+      "summary": "AI赋能的股票分析与选股工具，支持A股、港股、美股行情获取、AI资讯与资金财务分析、涨跌报警推送，数据全部本地保存，可接入DeepSeek、OpenAI、Ollama等多种模型。",
+      "tags": [
+        "stock",
+        "ai",
+        "golang",
+        "finance",
+        "llm",
+        "trading"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:13.776Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6060,
+      "forks": 965,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论数、经纬度及邮箱等信息，支持导出结构化数据。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "golang",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-24T14:06:13.537Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "arcane",
+      "fullName": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7578,
+      "forks": 318,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "getarcaneapp",
+        "avatar": "https://avatars.githubusercontent.com/u/25576967?s=40&amp;v=4",
+        "url": "https://github.com/getarcaneapp"
+      },
+      "summary": "现代化 Docker 管理平台，用 Go 编写，提供简洁易用的 Web 界面来管理容器、镜像与编排，降低运维门槛。",
+      "tags": [
+        "docker",
+        "golang",
+        "devops",
+        "containers",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-24T14:06:13.805Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "autobrr",
+      "fullName": "autobrr/autobrr",
+      "url": "https://github.com/autobrr/autobrr",
+      "description": "Modern, easy to use download automation for torrents and usenet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3083,
+      "forks": 219,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "autobrr",
+        "avatar": "https://avatars.githubusercontent.com/u/43699394?s=40&amp;v=4",
+        "url": "https://github.com/autobrr"
+      },
+      "summary": "面向 torrent 与 usenet 的现代化下载自动化工具，用 Go 编写，支持过滤规则与多客户端联动，简化追剧与资源获取流程。",
+      "tags": [
+        "torrent",
+        "usenet",
+        "automation",
+        "go",
+        "selfhosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-24T14:06:13.683Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openfga",
+      "fullName": "openfga/openfga",
+      "url": "https://github.com/openfga/openfga",
+      "description": "A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5849,
+      "forks": 504,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "openfga",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/openfga"
+      },
+      "summary": "受 Google Zanzibar 启发的高性能、灵活授权与权限引擎，为开发者提供细粒度访问控制（ReBAC），支持关系型权限建模与大规模鉴权。",
+      "tags": [
+        "authorization",
+        "permissions",
+        "zanzibar",
+        "go",
+        "access-control"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-24T14:06:14.479Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Davin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 53107,
+      "forks": 8016,
+      "starsToday": 179,
+      "topics": [],
+      "author": {
+        "name": "router-for-me",
+        "avatar": "https://avatars.githubusercontent.com/u/4966831?s=40&amp;v=4",
+        "url": "https://github.com/router-for-me"
+      },
+      "summary": "将 Antigravity、Codex、Claude Code 等客户端封装为兼容 OpenAI/Gemini/Claude 的 API 服务，用 Go 编写，可免费调用各家大模型。",
+      "tags": [
+        "api",
+        "proxy",
+        "llm",
+        "openai",
+        "golang"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T03:46:17.234Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nuclei",
+      "fullName": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 31486,
+      "forks": 3890,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "projectdiscovery",
+        "avatar": "https://avatars.githubusercontent.com/u/13421144?s=40&amp;v=4",
+        "url": "https://github.com/projectdiscovery"
+      },
+      "summary": "基于 YAML 模板的快速可定制漏洞扫描器，覆盖应用、API、网络、DNS 与云配置，依托社区模板库快速检测最新漏洞。",
+      "tags": [
+        "security",
+        "vulnerability-scanner",
+        "go",
+        "yaml",
+        "dast"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-24T03:46:19.224Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "probo",
+      "fullName": "getprobo/probo",
+      "url": "https://github.com/getprobo/probo",
+      "description": "Open source solutions for SOC2, GDPR, and ISO27001",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1381,
+      "forks": 216,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "getprobo",
+        "avatar": "https://avatars.githubusercontent.com/u/4477761?s=40&amp;v=4",
+        "url": "https://github.com/getprobo"
+      },
+      "summary": "开源合规管理平台，用 Go 编写，帮助企业自动化满足 SOC2、GDPR 和 ISO27001 等安全与隐私合规要求。",
+      "tags": [
+        "compliance",
+        "soc2",
+        "gdpr",
+        "iso27001",
+        "go",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-24T14:06:14.833Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mcp-grafana",
+      "fullName": "grafana/mcp-grafana",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "description": "MCP server for Grafana",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3492,
+      "forks": 454,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/5464991?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "Grafana 官方 MCP 服务器，让 AI 助手通过 MCP 协议查询仪表盘、数据源与告警，实现可观测性数据的自然语言访问。",
+      "tags": [
+        "grafana",
+        "mcp",
+        "observability",
+        "go",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-24T03:46:17.429Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "radar",
+      "fullName": "skyhook-io/radar",
+      "url": "https://github.com/skyhook-io/radar",
+      "description": "The missing open-source Kubernetes UI with a built-in MCP server for AI agents. See what's broken, why, and what changed. Issues, Topology, event timeline, Helm, GitOps, live service traffic, and cluster audits - all in one Go binary.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3462,
+      "forks": 222,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "skyhook-io",
+        "avatar": "https://avatars.githubusercontent.com/u/81293832?s=40&amp;v=4",
+        "url": "https://github.com/skyhook-io"
+      },
+      "summary": "开源Kubernetes可视化UI，单Go二进制内置MCP服务器供AI代理使用，提供问题诊断、拓扑、事件时间线、Helm、GitOps与集群审计。",
+      "tags": [
+        "kubernetes",
+        "go",
+        "mcp",
+        "devops",
+        "observability",
+        "ui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-24T14:06:15.038Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "v2ray-core",
+      "fullName": "v2fly/v2ray-core",
+      "url": "https://github.com/v2fly/v2ray-core",
+      "description": "A platform for building proxies to bypass network restrictions.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34620,
+      "forks": 5069,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "v2fly",
+        "avatar": "https://avatars.githubusercontent.com/u/26574873?s=40&amp;v=4",
+        "url": "https://github.com/v2fly"
+      },
+      "summary": "基于 Go 的代理平台，用于构建绕过网络限制的代理服务，支持多种传输协议与灵活路由配置。",
+      "tags": [
+        "proxy",
+        "go",
+        "networking",
+        "v2ray",
+        "privacy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-24T14:06:14.827Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vikunja",
+      "fullName": "go-vikunja/vikunja",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "description": "The task manager you actually own.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5499,
+      "forks": 710,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "go-vikunja",
+        "avatar": "https://avatars.githubusercontent.com/u/13721712?s=40&amp;v=4",
+        "url": "https://github.com/go-vikunja"
+      },
+      "summary": "用 Go 编写的开源自托管任务管理工具，支持看板、列表、日历与团队协作，数据完全由自己掌控。",
+      "tags": [
+        "task-management",
+        "self-hosted",
+        "go",
+        "kanban",
+        "productivity"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-24T14:06:15.623Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "etcd",
+      "fullName": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52309,
+      "forks": 10514,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "etcd-io",
+        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
+        "url": "https://github.com/etcd-io"
+      },
+      "summary": "etcd 是 Go 编写的分布式可靠键值存储，为分布式系统保存最关键的数据，提供强一致性与高可用，是 Kubernetes 等系统的核心依赖。",
+      "tags": [
+        "etcd",
+        "key-value",
+        "distributed",
+        "golang",
+        "consensus",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-24T14:06:15.863Z",
       "deepwikiAvailable": false
     },
     {
@@ -87,34 +568,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-24T03:46:14.828Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "router",
-      "fullName": "weave-os/router",
-      "url": "https://github.com/weave-os/router",
-      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5007,
-      "forks": 138,
-      "starsToday": 185,
-      "topics": [],
-      "author": {
-        "name": "weave-os",
-        "avatar": "https://avatars.githubusercontent.com/u/56594084?s=40&amp;v=4",
-        "url": "https://github.com/weave-os"
-      },
-      "summary": "面向智能体系统的模型路由器，50毫秒内将每个提示词分发到最合适的模型，仅需更换接口即可降低40-70%成本。",
-      "tags": [
-        "llm",
-        "router",
-        "go",
-        "agents",
-        "cost-optimization"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-24T03:46:14.795Z",
       "deepwikiAvailable": false
     },
     {
@@ -203,35 +656,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "flexprice",
-      "fullName": "flexprice/flexprice",
-      "url": "https://github.com/flexprice/flexprice",
-      "description": "Usage-based pricing and billing for developers 🔓 Cloud or self-hosted ⚙️ No-code UI 💰 Realtime usage metering 🎟 Credits & top-ups 🔑 Control feature access",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6932,
-      "forks": 995,
-      "starsToday": 617,
-      "topics": [],
-      "author": {
-        "name": "flexprice",
-        "avatar": "https://avatars.githubusercontent.com/u/57660189?s=40&amp;v=4",
-        "url": "https://github.com/flexprice"
-      },
-      "summary": "面向开发者的用量计费平台，支持实时用量计量、积分充值、功能权限控制，可云端或自托管部署，无需写代码即可配置定价。",
-      "tags": [
-        "billing",
-        "pricing",
-        "metering",
-        "go",
-        "self-hosted",
-        "developer-tools"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-24T03:46:16.393Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "grok2api",
       "fullName": "chenyme/grok2api",
       "url": "https://github.com/chenyme/grok2api",
@@ -257,90 +681,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-24T03:46:17.062Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "CLIProxyAPI",
-      "fullName": "router-for-me/CLIProxyAPI",
-      "url": "https://github.com/router-for-me/CLIProxyAPI",
-      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Davin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 53050,
-      "forks": 8013,
-      "starsToday": 179,
-      "topics": [],
-      "author": {
-        "name": "router-for-me",
-        "avatar": "https://avatars.githubusercontent.com/u/4966831?s=40&amp;v=4",
-        "url": "https://github.com/router-for-me"
-      },
-      "summary": "将 Antigravity、Codex、Claude Code 等客户端封装为兼容 OpenAI/Gemini/Claude 的 API 服务，用 Go 编写，可免费调用各家大模型。",
-      "tags": [
-        "api",
-        "proxy",
-        "llm",
-        "openai",
-        "golang"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-24T03:46:17.234Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cliamp",
-      "fullName": "bjarneo/cliamp",
-      "url": "https://github.com/bjarneo/cliamp",
-      "description": "cliamp - Terminal music player inspired by winamp",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4313,
-      "forks": 290,
-      "starsToday": 23,
-      "topics": [],
-      "author": {
-        "name": "bjarneo",
-        "avatar": "https://avatars.githubusercontent.com/u/1419214?s=40&amp;v=4",
-        "url": "https://github.com/bjarneo"
-      },
-      "summary": "用 Go 编写的终端音乐播放器，灵感来自 Winamp，在命令行里即可播放和管理本地音乐，轻量且复古。",
-      "tags": [
-        "music",
-        "terminal",
-        "tui",
-        "go",
-        "cli"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-24T03:46:17.263Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "mcp-grafana",
-      "fullName": "grafana/mcp-grafana",
-      "url": "https://github.com/grafana/mcp-grafana",
-      "description": "MCP server for Grafana",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3488,
-      "forks": 453,
-      "starsToday": 2,
-      "topics": [],
-      "author": {
-        "name": "grafana",
-        "avatar": "https://avatars.githubusercontent.com/u/5464991?s=40&amp;v=4",
-        "url": "https://github.com/grafana"
-      },
-      "summary": "Grafana 官方 MCP 服务器，让 AI 助手通过 MCP 协议查询仪表盘、数据源与告警，实现可观测性数据的自然语言访问。",
-      "tags": [
-        "grafana",
-        "mcp",
-        "observability",
-        "go",
-        "ai"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-24T03:46:17.429Z",
       "deepwikiAvailable": false
     },
     {
@@ -457,34 +797,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nuclei",
-      "fullName": "projectdiscovery/nuclei",
-      "url": "https://github.com/projectdiscovery/nuclei",
-      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 31471,
-      "forks": 3888,
-      "starsToday": 33,
-      "topics": [],
-      "author": {
-        "name": "projectdiscovery",
-        "avatar": "https://avatars.githubusercontent.com/u/13421144?s=40&amp;v=4",
-        "url": "https://github.com/projectdiscovery"
-      },
-      "summary": "基于 YAML 模板的快速可定制漏洞扫描器，覆盖应用、API、网络、DNS 与云配置，依托社区模板库快速检测最新漏洞。",
-      "tags": [
-        "security",
-        "vulnerability-scanner",
-        "go",
-        "yaml",
-        "dast"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-09-24T03:46:19.224Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "skill-up",
       "fullName": "alibaba/skill-up",
       "url": "https://github.com/alibaba/skill-up",
@@ -510,34 +822,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-24T03:46:19.361Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "bifrost",
-      "fullName": "maximhq/bifrost",
-      "url": "https://github.com/maximhq/bifrost",
-      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8295,
-      "forks": 1275,
-      "starsToday": 48,
-      "topics": [],
-      "author": {
-        "name": "maximhq",
-        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
-        "url": "https://github.com/maximhq"
-      },
-      "summary": "企业级 AI 网关，比 LiteLLM 快 50 倍，支持 1000+ 模型、自适应负载均衡、集群模式与护栏，5k RPS 下开销低于 100 微秒。",
-      "tags": [
-        "ai-gateway",
-        "llm",
-        "go",
-        "load-balancer",
-        "enterprise"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-24T03:46:19.481Z",
       "deepwikiAvailable": false
     },
     {

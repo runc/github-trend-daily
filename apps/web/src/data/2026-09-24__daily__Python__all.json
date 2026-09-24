@@ -2,9 +2,94 @@
   "date": "2026-09-24",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-09-24T03:45:40.708Z",
-  "enrichedAt": "2026-09-24T03:46:13.681Z",
+  "fetchedAt": "2026-09-24T14:05:39.028Z",
+  "enrichedAt": "2026-09-24T14:06:12.562Z",
   "repos": [
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 56032,
+      "forks": 9883,
+      "starsToday": 310,
+      "topics": [],
+      "author": {
+        "name": "rohitg00",
+        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
+        "url": "https://github.com/rohitg00"
+      },
+      "summary": "从零开始学习并动手实现 AI 工程的项目，涵盖原理讲解与实战构建，帮助开发者把 AI 应用真正落地交付。",
+      "tags": [
+        "ai",
+        "tutorial",
+        "python",
+        "llm",
+        "education"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:09.158Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hindsight",
+      "fullName": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 27058,
+      "forks": 2551,
+      "starsToday": 1607,
+      "topics": [],
+      "author": {
+        "name": "vectorize-io",
+        "avatar": "https://avatars.githubusercontent.com/u/23314389?s=40&amp;v=4",
+        "url": "https://github.com/vectorize-io"
+      },
+      "summary": "Hindsight 是面向 AI Agent 的持久记忆框架，让智能体从交互中学习并长期记住经验，提升上下文连续性与决策质量。",
+      "tags": [
+        "ai",
+        "agent",
+        "memory",
+        "python",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:09.219Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Model-Optimizer",
+      "fullName": "NVIDIA/Model-Optimizer",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 3915,
+      "forks": 622,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/28916987?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 出品的统一模型优化库，集成量化、蒸馏、剪枝、NAS、投机解码等技术，压缩深度学习模型以加速 TensorRT-LLM、vLLM 等框架的推理部署。",
+      "tags": [
+        "quantization",
+        "model-compression",
+        "inference",
+        "nvidia",
+        "llm",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:09.118Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "financial-services",
       "fullName": "anthropics/financial-services",
@@ -12,9 +97,9 @@
       "description": "",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 37025,
-      "forks": 5385,
-      "starsToday": 664,
+      "stars": 37225,
+      "forks": 5408,
+      "starsToday": 510,
       "topics": [],
       "author": {
         "name": "anthropics",
@@ -34,71 +119,15 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "claude-code-templates",
-      "fullName": "davila7/claude-code-templates",
-      "url": "https://github.com/davila7/claude-code-templates",
-      "description": "CLI tool for configuring and monitoring Claude Code",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 31553,
-      "forks": 3583,
-      "starsToday": 389,
-      "topics": [],
-      "author": {
-        "name": "davila7",
-        "avatar": "https://avatars.githubusercontent.com/u/6216945?s=40&amp;v=4",
-        "url": "https://github.com/davila7"
-      },
-      "summary": "用于配置和监控 Claude Code 的 CLI 工具，提供模板化配置与运行状态监控，简化 AI 编码助手的使用与调优。",
-      "tags": [
-        "cli",
-        "claude",
-        "ai",
-        "config",
-        "monitoring"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-24T03:46:10.908Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "harness-sdk",
-      "fullName": "strands-agents/harness-sdk",
-      "url": "https://github.com/strands-agents/harness-sdk",
-      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 7916,
-      "forks": 1208,
-      "starsToday": 115,
-      "topics": [],
-      "author": {
-        "name": "strands-agents",
-        "avatar": "https://avatars.githubusercontent.com/u/3211021?s=40&amp;v=4",
-        "url": "https://github.com/strands-agents"
-      },
-      "summary": "开源 AI Agent 开发 SDK，支持 Python 与 TypeScript，可端到端构建并控制智能体，兼容任意模型与云平台，面向生产环境。",
-      "tags": [
-        "ai-agents",
-        "sdk",
-        "python",
-        "typescript",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-24T03:46:11.227Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "CLI-Anything",
       "fullName": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 50002,
-      "forks": 4603,
-      "starsToday": 57,
+      "stars": 50173,
+      "forks": 4610,
+      "starsToday": 415,
       "topics": [],
       "author": {
         "name": "HKUDS",
@@ -118,15 +147,72 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "mvt",
+      "fullName": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 14620,
+      "forks": 1390,
+      "starsToday": 275,
+      "topics": [],
+      "author": {
+        "name": "mvt-project",
+        "avatar": "https://avatars.githubusercontent.com/u/1032671?s=40&amp;v=4",
+        "url": "https://github.com/mvt-project"
+      },
+      "summary": "MVT 移动设备取证工具包，用于检测 iOS/Android 手机是否被入侵或植入间谍软件，支持检查备份与系统痕迹。",
+      "tags": [
+        "forensics",
+        "security",
+        "mobile",
+        "ios",
+        "android",
+        "python"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-24T03:46:11.850Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harness-sdk",
+      "fullName": "strands-agents/harness-sdk",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 8103,
+      "forks": 1221,
+      "starsToday": 463,
+      "topics": [],
+      "author": {
+        "name": "strands-agents",
+        "avatar": "https://avatars.githubusercontent.com/u/3211021?s=40&amp;v=4",
+        "url": "https://github.com/strands-agents"
+      },
+      "summary": "开源 AI Agent 开发 SDK，支持 Python 与 TypeScript，可端到端构建并控制智能体，兼容任意模型与云平台，面向生产环境。",
+      "tags": [
+        "ai-agents",
+        "sdk",
+        "python",
+        "typescript",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T03:46:11.227Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "treg",
       "fullName": "superdesigndev/treg",
       "url": "https://github.com/superdesigndev/treg",
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 2782,
-      "forks": 243,
-      "starsToday": 506,
+      "stars": 2982,
+      "forks": 253,
+      "starsToday": 470,
       "topics": [],
       "author": {
         "name": "superdesigndev",
@@ -146,32 +232,342 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "mvt",
-      "fullName": "mvt-project/mvt",
-      "url": "https://github.com/mvt-project/mvt",
-      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "name": "MoneyPrinterTurbo",
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 14509,
-      "forks": 1382,
-      "starsToday": 543,
+      "stars": 125459,
+      "forks": 19511,
+      "starsToday": 184,
       "topics": [],
       "author": {
-        "name": "mvt-project",
-        "avatar": "https://avatars.githubusercontent.com/u/1032671?s=40&amp;v=4",
-        "url": "https://github.com/mvt-project"
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
       },
-      "summary": "MVT 移动设备取证工具包，用于检测 iOS/Android 手机是否被入侵或植入间谍软件，支持检查备份与系统痕迹。",
+      "summary": "输入主题或关键词即可用 AI 大模型与自动化工作流一键生成高清短视频，含文案、素材、配音与字幕。",
       "tags": [
-        "forensics",
+        "ai",
+        "video",
+        "automation",
+        "python",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:09.040Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Humanizer-zh",
+      "fullName": "op7418/Humanizer-zh",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 18354,
+      "forks": 1197,
+      "starsToday": 290,
+      "topics": [],
+      "author": {
+        "name": "op7418",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/op7418"
+      },
+      "summary": "Humanizer 汉化版 Claude Code 技能，用于消除文本中的 AI 生成痕迹，让中文内容更自然像人写的。",
+      "tags": [
+        "ai-detection",
+        "claude",
+        "chinese",
+        "text",
+        "skill"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:10.325Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "PanWatch",
+      "fullName": "TNT-Likely/PanWatch",
+      "url": "https://github.com/TNT-Likely/PanWatch",
+      "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1752,
+      "forks": 321,
+      "starsToday": 386,
+      "topics": [],
+      "author": {
+        "name": "TNT-Likely",
+        "avatar": "https://avatars.githubusercontent.com/u/9278923?s=40&amp;v=4",
+        "url": "https://github.com/TNT-Likely"
+      },
+      "summary": "自托管 AI 盯盘助手，集成多 Agent 投资决策，支持 A股/港股/美股实时监控、持仓管理与全渠道推送。",
+      "tags": [
+        "ai",
+        "stock",
+        "trading",
+        "self-hosted",
+        "python",
+        "monitoring"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T03:46:12.736Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hackingtool",
+      "fullName": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 79681,
+      "forks": 9034,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "Z4nzu",
+        "avatar": "https://avatars.githubusercontent.com/u/25708027?s=40&amp;v=4",
+        "url": "https://github.com/Z4nzu"
+      },
+      "summary": "一体化渗透测试工具箱，集成信息收集、漏洞利用、无线攻击等多类黑客工具，Python 编写，适合安全学习与测试。",
+      "tags": [
         "security",
-        "mobile",
-        "ios",
-        "android",
+        "hacking",
+        "pentest",
+        "python",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-24T14:06:10.247Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-code-templates",
+      "fullName": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 31690,
+      "forks": 3598,
+      "starsToday": 382,
+      "topics": [],
+      "author": {
+        "name": "davila7",
+        "avatar": "https://avatars.githubusercontent.com/u/6216945?s=40&amp;v=4",
+        "url": "https://github.com/davila7"
+      },
+      "summary": "用于配置和监控 Claude Code 的 CLI 工具，提供模板化配置与运行状态监控，简化 AI 编码助手的使用与调优。",
+      "tags": [
+        "cli",
+        "claude",
+        "ai",
+        "config",
+        "monitoring"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-24T03:46:10.908Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Summer2027-Internships",
+      "fullName": "SimplifyJobs/Summer2027-Internships",
+      "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+      "description": "Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 47643,
+      "forks": 3256,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "SimplifyJobs",
+        "avatar": "https://avatars.githubusercontent.com/u/143137531?s=40&amp;v=4",
+        "url": "https://github.com/SimplifyJobs"
+      },
+      "summary": "汇总2027年夏季软件工程、数据科学、AI、量化、产品与硬件实习岗位，由Simplify与Pitt CSC每日更新，方便学生集中查找投递。",
+      "tags": [
+        "internships",
+        "jobs",
+        "career",
+        "python",
+        "community"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-24T14:06:10.188Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agenticSeek",
+      "fullName": "Fosowl/agenticSeek",
+      "url": "https://github.com/Fosowl/agenticSeek",
+      "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 27300,
+      "forks": 3061,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "Fosowl",
+        "avatar": "https://avatars.githubusercontent.com/u/49105846?s=40&amp;v=4",
+        "url": "https://github.com/Fosowl"
+      },
+      "summary": "完全本地运行的自主AI代理，无需API密钥，可思考、浏览网页并编写代码，仅消耗电费。",
+      "tags": [
+        "ai-agent",
+        "local",
+        "llm",
+        "autonomous",
         "python"
       ],
-      "category": "Security",
-      "enrichedAt": "2026-09-24T03:46:11.850Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:10.521Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "laya",
+      "fullName": "aayushch/laya",
+      "url": "https://github.com/aayushch/laya",
+      "description": "Laya is an open-source, local-first AI notification command center that aggregates Slack, Gmail, GitHub, Jira, Notion, Outlook, Calendar (and more) notifications using local LLMs via Ollama and LM Studio. Supports cloud models via BYOK.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 258,
+      "forks": 37,
+      "starsToday": 79,
+      "topics": [],
+      "author": {
+        "name": "aayushch",
+        "avatar": "https://avatars.githubusercontent.com/u/15410299?s=40&amp;v=4",
+        "url": "https://github.com/aayushch"
+      },
+      "summary": "本地优先的 AI 通知聚合中心，把 Slack、Gmail、GitHub、Jira 等多平台消息汇总，用 Ollama/LM Studio 本地大模型统一处理，也支持自带密钥调用云端模型。",
+      "tags": [
+        "notifications",
+        "local-first",
+        "llm",
+        "ollama",
+        "productivity",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:11.412Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-skills",
+      "fullName": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 26393,
+      "forks": 3714,
+      "starsToday": 96,
+      "topics": [],
+      "author": {
+        "name": "alirezarezvani",
+        "avatar": "https://avatars.githubusercontent.com/u/5697919?s=40&amp;v=4",
+        "url": "https://github.com/alirezarezvani"
+      },
+      "summary": "面向 Claude Code、Codex、Cursor 等十余款编码代理的 380+ 技能与插件合集，覆盖工程、营销、产品、合规、财务等场景，开箱即用。",
+      "tags": [
+        "claude",
+        "agents",
+        "skills",
+        "plugins",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:11.350Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "needle",
+      "fullName": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 12486,
+      "forks": 830,
+      "starsToday": 161,
+      "topics": [],
+      "author": {
+        "name": "cactus-compute",
+        "avatar": "https://avatars.githubusercontent.com/u/26547576?s=40&amp;v=4",
+        "url": "https://github.com/cactus-compute"
+      },
+      "summary": "面向微型设备的自动化基础模型，2-bit量化仅8-29MB，可在手机、可穿戴、智能家居、机器人和单片机上实现工具调用、结构化抽取与嵌入。",
+      "tags": [
+        "llm",
+        "edge-ai",
+        "quantization",
+        "on-device",
+        "embeddings",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:11.271Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "experiential",
+      "fullName": "experientiallabs/experiential",
+      "url": "https://github.com/experientiallabs/experiential",
+      "description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6682,
+      "forks": 205,
+      "starsToday": 774,
+      "topics": [],
+      "author": {
+        "name": "experientiallabs",
+        "avatar": "https://avatars.githubusercontent.com/u/44129612?s=40&amp;v=4",
+        "url": "https://github.com/experientiallabs"
+      },
+      "summary": "开源零改造 LLM 网关，支持 BYOK、自托管及千余模型市场，依据流量学习以降低成本、推荐更优模型并训练专属模型。",
+      "tags": [
+        "llm",
+        "gateway",
+        "ai",
+        "self-hosted",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:11.586Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 177914,
+      "forks": 21076,
+      "starsToday": 158,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/122662504?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Anthropic 官方开源的 Agent Skills 仓库，提供可复用的技能模块与示例，帮助开发者扩展 AI 智能体的能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "llm",
+        "anthropic",
+        "skills"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-24T14:06:12.562Z",
       "deepwikiAvailable": false
     },
     {
@@ -200,35 +596,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-24T03:46:12.426Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "PanWatch",
-      "fullName": "TNT-Likely/PanWatch",
-      "url": "https://github.com/TNT-Likely/PanWatch",
-      "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 1594,
-      "forks": 302,
-      "starsToday": 95,
-      "topics": [],
-      "author": {
-        "name": "TNT-Likely",
-        "avatar": "https://avatars.githubusercontent.com/u/9278923?s=40&amp;v=4",
-        "url": "https://github.com/TNT-Likely"
-      },
-      "summary": "自托管 AI 盯盘助手，集成多 Agent 投资决策，支持 A股/港股/美股实时监控、持仓管理与全渠道推送。",
-      "tags": [
-        "ai",
-        "stock",
-        "trading",
-        "self-hosted",
-        "python",
-        "monitoring"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-24T03:46:12.736Z",
       "deepwikiAvailable": false
     },
     {
