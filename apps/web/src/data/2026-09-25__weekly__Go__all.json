@@ -2,8 +2,8 @@
   "date": "2026-09-25",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-09-25T04:01:03.269Z",
-  "enrichedAt": "2026-09-25T04:02:19.628Z",
+  "fetchedAt": "2026-09-25T14:28:30.698Z",
+  "enrichedAt": "2026-09-25T14:29:21.300Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,8 +12,8 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 40879,
-      "forks": 2938,
+      "stars": 41149,
+      "forks": 2957,
       "starsToday": 6920,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 29775,
-      "forks": 4004,
+      "stars": 29941,
+      "forks": 4023,
       "starsToday": 3749,
       "topics": [],
       "author": {
@@ -62,32 +62,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "cilium",
-      "fullName": "cilium/cilium",
-      "url": "https://github.com/cilium/cilium",
-      "description": "eBPF-based Networking, Security, and Observability",
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 25538,
-      "forks": 4105,
-      "starsToday": 362,
+      "stars": 3768,
+      "forks": 439,
+      "starsToday": 1806,
       "topics": [],
       "author": {
-        "name": "cilium",
-        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
-        "url": "https://github.com/cilium"
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
       },
-      "summary": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，提供高性能 CNI、网络策略与流量监控，替代传统 iptables 方案。",
+      "summary": "Agent Substrate 是用 Go 编写的智能体核心系统，为构建和运行 AI Agent 提供统一底层基础设施。",
       "tags": [
-        "ebpf",
-        "kubernetes",
-        "networking",
-        "security",
-        "observability",
-        "go"
+        "ai",
+        "agents",
+        "go",
+        "infrastructure",
+        "framework"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-25T04:02:13.400Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-25T04:02:14.363Z",
       "deepwikiAvailable": false
     },
     {
@@ -97,8 +96,8 @@
       "description": "Secure environments for developers and their agents",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 16681,
-      "forks": 1588,
+      "stars": 16688,
+      "forks": 1589,
       "starsToday": 2062,
       "topics": [],
       "author": {
@@ -120,42 +119,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3734,
-      "forks": 432,
-      "starsToday": 1806,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "Agent Substrate 是用 Go 编写的智能体核心系统，为构建和运行 AI Agent 提供统一底层基础设施。",
-      "tags": [
-        "ai",
-        "agents",
-        "go",
-        "infrastructure",
-        "framework"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-25T04:02:14.363Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "hister",
       "fullName": "asciimoo/hister",
       "url": "https://github.com/asciimoo/hister",
       "description": "Your own search engine",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5661,
-      "forks": 243,
+      "stars": 5675,
+      "forks": 244,
       "starsToday": 1889,
       "topics": [],
       "author": {
@@ -176,42 +147,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "go-music-dl",
-      "fullName": "guohuiyuan/go-music-dl",
-      "url": "https://github.com/guohuiyuan/go-music-dl",
-      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4749,
-      "forks": 458,
-      "starsToday": 396,
-      "topics": [],
-      "author": {
-        "name": "guohuiyuan",
-        "avatar": "https://avatars.githubusercontent.com/u/54976075?s=40&amp;v=4",
-        "url": "https://github.com/guohuiyuan"
-      },
-      "summary": "基于 Go 的全网音乐搜索下载工具，支持 CLI 与 Web 双模式，聚合网易云、QQ、酷狗、B站等 10+ 平台，多源并发搜索并解析无损音质。",
-      "tags": [
-        "go",
-        "music",
-        "downloader",
-        "cli",
-        "web"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-25T04:02:14.401Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "kubernetes",
       "fullName": "kubernetes/kubernetes",
       "url": "https://github.com/kubernetes/kubernetes",
       "description": "Production-Grade Container Scheduling and Management",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 127968,
-      "forks": 45052,
+      "stars": 127980,
+      "forks": 45136,
       "starsToday": 196,
       "topics": [],
       "author": {
@@ -238,8 +181,8 @@
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 76062,
-      "forks": 4996,
+      "stars": 76073,
+      "forks": 4998,
       "starsToday": 261,
       "topics": [],
       "author": {
@@ -266,8 +209,8 @@
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 51310,
-      "forks": 6651,
+      "stars": 51340,
+      "forks": 6656,
       "starsToday": 1081,
       "topics": [],
       "author": {
@@ -294,8 +237,8 @@
       "description": "The Go programming language",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 138989,
-      "forks": 20322,
+      "stars": 138996,
+      "forks": 20409,
       "starsToday": 194,
       "topics": [],
       "author": {
@@ -316,14 +259,71 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38223,
+      "forks": 5841,
+      "starsToday": 79,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令即可编排启动整套服务，是本地开发与测试的标准工具。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:18.166Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cilium",
+      "fullName": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25550,
+      "forks": 4105,
+      "starsToday": 362,
+      "topics": [],
+      "author": {
+        "name": "cilium",
+        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
+        "url": "https://github.com/cilium"
+      },
+      "summary": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，提供高性能 CNI、网络策略与流量监控，替代传统 iptables 方案。",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "networking",
+        "security",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T04:02:13.400Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "tunnel-client",
       "fullName": "openai/tunnel-client",
       "url": "https://github.com/openai/tunnel-client",
       "description": "Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 486,
-      "forks": 94,
+      "stars": 488,
+      "forks": 95,
       "starsToday": 83,
       "topics": [],
       "author": {
@@ -344,42 +344,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gentle-ai",
-      "fullName": "Gentleman-Programming/gentle-ai",
-      "url": "https://github.com/Gentleman-Programming/gentle-ai",
-      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7263,
-      "forks": 792,
-      "starsToday": 306,
-      "topics": [],
-      "author": {
-        "name": "Gentleman-Programming",
-        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
-        "url": "https://github.com/Gentleman-Programming"
-      },
-      "summary": "为 Claude Code、Cursor、Codex 等 AI 编码代理统一配置持久记忆、技能、MCP 服务器与人格，开源无锁定。",
-      "tags": [
-        "ai",
-        "coding-agent",
-        "mcp",
-        "go",
-        "config",
-        "memory"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-25T04:02:16.979Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "trivy",
       "fullName": "aquasecurity/trivy",
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38068,
+      "stars": 38070,
       "forks": 711,
       "starsToday": 116,
       "topics": [],
@@ -402,31 +373,89 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "compose",
-      "fullName": "docker/compose",
-      "url": "https://github.com/docker/compose",
-      "description": "Define and run multi-container applications with Docker",
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38218,
-      "forks": 5839,
-      "starsToday": 79,
+      "stars": 7275,
+      "forks": 794,
+      "starsToday": 306,
       "topics": [],
       "author": {
-        "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
-        "url": "https://github.com/docker"
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
       },
-      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令即可编排启动整套服务，是本地开发与测试的标准工具。",
+      "summary": "为 Claude Code、Cursor、Codex 等 AI 编码代理统一配置持久记忆、技能、MCP 服务器与人格，开源无锁定。",
       "tags": [
-        "docker",
-        "containers",
-        "orchestration",
+        "ai",
+        "coding-agent",
+        "mcp",
         "go",
-        "devops"
+        "config",
+        "memory"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-09-25T04:02:18.166Z",
+      "enrichedAt": "2026-09-25T04:02:16.979Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-sdk",
+      "fullName": "modelcontextprotocol/go-sdk",
+      "url": "https://github.com/modelcontextprotocol/go-sdk",
+      "description": "The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5148,
+      "forks": 551,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "modelcontextprotocol",
+        "avatar": "https://avatars.githubusercontent.com/u/57144380?s=40&amp;v=4",
+        "url": "https://github.com/modelcontextprotocol"
+      },
+      "summary": "Model Context Protocol 官方 Go SDK，由官方与 Google 协作维护，用于快速构建 MCP 服务端与客户端，接入 AI 工具生态。",
+      "tags": [
+        "mcp",
+        "go",
+        "sdk",
+        "ai",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T14:29:21.191Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 66221,
+      "forks": 10860,
+      "starsToday": 127,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 是开源监控系统与时间序列数据库，通过拉取指标、PromQL 查询和告警规则实现云原生可观测性，是监控领域的事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "promql",
+        "observability",
+        "database",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T04:02:19.126Z",
       "deepwikiAvailable": false
     },
     {
@@ -436,8 +465,8 @@
       "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8335,
-      "forks": 1286,
+      "stars": 8358,
+      "forks": 1290,
       "starsToday": 189,
       "topics": [],
       "author": {
@@ -455,6 +484,62 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-25T04:02:18.177Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25746,
+      "forks": 1043,
+      "starsToday": 276,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据、Docker 容器统计与告警，Go 编写，部署简单资源占用低。",
+      "tags": [
+        "monitoring",
+        "go",
+        "docker",
+        "self-hosted",
+        "alerts"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T14:29:21.300Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-music-dl",
+      "fullName": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4756,
+      "forks": 458,
+      "starsToday": 396,
+      "topics": [],
+      "author": {
+        "name": "guohuiyuan",
+        "avatar": "https://avatars.githubusercontent.com/u/54976075?s=40&amp;v=4",
+        "url": "https://github.com/guohuiyuan"
+      },
+      "summary": "基于 Go 的全网音乐搜索下载工具，支持 CLI 与 Web 双模式，聚合网易云、QQ、酷狗、B站等 10+ 平台，多源并发搜索并解析无损音质。",
+      "tags": [
+        "go",
+        "music",
+        "downloader",
+        "cli",
+        "web"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-25T04:02:14.401Z",
       "deepwikiAvailable": false
     },
     {
@@ -539,35 +624,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-09-25T04:02:19.627Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "prometheus",
-      "fullName": "prometheus/prometheus",
-      "url": "https://github.com/prometheus/prometheus",
-      "description": "The Prometheus monitoring system and time series database.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 66213,
-      "forks": 10855,
-      "starsToday": 127,
-      "topics": [],
-      "author": {
-        "name": "prometheus",
-        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
-        "url": "https://github.com/prometheus"
-      },
-      "summary": "Prometheus 是开源监控系统与时间序列数据库，通过拉取指标、PromQL 查询和告警规则实现云原生可观测性，是监控领域的事实标准。",
-      "tags": [
-        "monitoring",
-        "metrics",
-        "promql",
-        "observability",
-        "database",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-25T04:02:19.126Z",
       "deepwikiAvailable": false
     }
   ]

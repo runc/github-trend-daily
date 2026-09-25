@@ -2,8 +2,8 @@
   "date": "2026-09-25",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-25T04:01:03.269Z",
-  "enrichedAt": "2026-09-25T04:01:42.924Z",
+  "fetchedAt": "2026-09-25T14:28:30.698Z",
+  "enrichedAt": "2026-09-25T14:29:07.466Z",
   "repos": [
     {
       "name": "ax",
@@ -12,9 +12,9 @@
       "description": "Google's open agentic orchestration runtime",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 10606,
-      "forks": 514,
-      "starsToday": 1373,
+      "stars": 11157,
+      "forks": 538,
+      "starsToday": 1386,
       "topics": [],
       "author": {
         "name": "google",
@@ -31,6 +31,571 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-25T04:01:37.991Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openbao",
+      "fullName": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7554,
+      "forks": 581,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "openbao",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/openbao"
+      },
+      "summary": "OpenBao 是开源密钥管理平台，用于集中管理、存储和分发密钥、证书等敏感数据，是 Vault 的开源分支。",
+      "tags": [
+        "secrets",
+        "security",
+        "vault",
+        "go",
+        "encryption"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T14:29:02.803Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "deja-vu",
+      "fullName": "vshulcz/deja-vu",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "description": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1005,
+      "forks": 100,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "vshulcz",
+        "avatar": "https://avatars.githubusercontent.com/u/99616188?s=40&amp;v=4",
+        "url": "https://github.com/vshulcz"
+      },
+      "summary": "为多种编码代理共享本地记忆的 Go 工具，从磁盘已有会话历史中挖掘经验，无需 LLM 或向量嵌入，一个代理的修复可在其他代理中复用。",
+      "tags": [
+        "go",
+        "ai-agents",
+        "memory",
+        "cli",
+        "local-first"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T14:29:03.274Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 127980,
+      "forks": 45136,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和服务管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "golang",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T14:29:02.892Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pentest-Swarm-AI",
+      "fullName": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2611,
+      "forks": 479,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "Armur-Ai",
+        "avatar": "https://avatars.githubusercontent.com/u/26513717?s=40&amp;v=4",
+        "url": "https://github.com/Armur-Ai"
+      },
+      "summary": "基于 Go 的自主渗透测试框架，用 AI 智能体集群编排侦察、分类、利用与报告，支持漏洞赏金、持续监控和 CTF 模式。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T14:29:03.157Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "datadog-agent",
+      "fullName": "DataDog/datadog-agent",
+      "url": "https://github.com/DataDog/datadog-agent",
+      "description": "Main repository for Datadog Agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3750,
+      "forks": 1497,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "DataDog",
+        "avatar": "https://avatars.githubusercontent.com/u/2822037?s=40&amp;v=4",
+        "url": "https://github.com/DataDog"
+      },
+      "summary": "Datadog 官方监控 Agent 主仓库，用 Go 编写，采集指标、日志与链路追踪并上报至 Datadog 平台。",
+      "tags": [
+        "monitoring",
+        "observability",
+        "go",
+        "agent",
+        "metrics",
+        "datadog"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T14:29:04.212Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-beacon",
+      "fullName": "Asymptote-Labs/agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "description": "The cross-harness self-improving memory layer for AI agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1539,
+      "forks": 125,
+      "starsToday": 269,
+      "topics": [],
+      "author": {
+        "name": "Asymptote-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/13512741?s=40&amp;v=4",
+        "url": "https://github.com/Asymptote-Labs"
+      },
+      "summary": "面向 AI 智能体的跨框架自进化记忆层，用 Go 编写，让不同 Agent 框架共享并持续优化记忆。",
+      "tags": [
+        "ai",
+        "agents",
+        "memory",
+        "golang",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T04:01:38.372Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111195,
+      "forks": 14832,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的 TypeScript 语言，为 JavaScript 添加静态类型，编译输出干净的 JS，提升大型项目可维护性。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "compiler",
+        "language",
+        "static-typing"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-09-25T14:29:04.043Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34972,
+      "forks": 3007,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，可承载数十亿文件，O(1) 磁盘访问并轻松横向扩展。",
+      "tags": [
+        "storage",
+        "distributed",
+        "s3",
+        "golang",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T14:29:04.687Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kargo",
+      "fullName": "akuity/kargo",
+      "url": "https://github.com/akuity/kargo",
+      "description": "Application lifecycle orchestration",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3679,
+      "forks": 439,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "akuity",
+        "avatar": "https://avatars.githubusercontent.com/u/1821014?s=40&amp;v=4",
+        "url": "https://github.com/akuity"
+      },
+      "summary": "基于 Kubernetes 与 GitOps 的应用生命周期编排平台，用声明式流水线自动完成构建、部署与渐进式发布。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T14:29:04.842Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "portmaster",
+      "fullName": "safing/portmaster",
+      "url": "https://github.com/safing/portmaster",
+      "description": "🏔 Love Freedom - ❌ Block Mass Surveillance",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13811,
+      "forks": 580,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "safing",
+        "avatar": "https://avatars.githubusercontent.com/u/18184155?s=40&amp;v=4",
+        "url": "https://github.com/safing"
+      },
+      "summary": "开源跨平台防火墙与网络监控工具，按应用控制联网、拦截追踪与大规模监控，保护隐私自由。",
+      "tags": [
+        "firewall",
+        "privacy",
+        "security",
+        "golang",
+        "network"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-25T14:29:05.101Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38295,
+      "forks": 4650,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "通用代理平台，用 Go 编写，支持多种协议与多平台部署，可作为代理客户端或服务端灵活组网。",
+      "tags": [
+        "proxy",
+        "golang",
+        "networking",
+        "vpn",
+        "cross-platform"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T14:29:05.456Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microservices-demo",
+      "fullName": "GoogleCloudPlatform/microservices-demo",
+      "url": "https://github.com/GoogleCloudPlatform/microservices-demo",
+      "description": "Sample cloud-first application with 10 microservices showcasing Kubernetes, Istio, and gRPC.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20993,
+      "forks": 10500,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "GoogleCloudPlatform",
+        "avatar": "https://avatars.githubusercontent.com/u/25180681?s=40&amp;v=4",
+        "url": "https://github.com/GoogleCloudPlatform"
+      },
+      "summary": "谷歌云官方微服务示例应用，含10个用Go等语言编写的服务，演示Kubernetes、Istio与gRPC的部署与调用，适合学习云原生架构。",
+      "tags": [
+        "microservices",
+        "kubernetes",
+        "istio",
+        "grpc",
+        "go",
+        "demo"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-25T14:29:05.829Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7275,
+      "forks": 794,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "统一配置 Claude Code、Cursor、Codex 等主流 AI 编码代理的开源工具，提供持久记忆、精选技能、MCP 服务器与角色设定，避免代理锁定。",
+      "tags": [
+        "ai-agents",
+        "coding-assistant",
+        "mcp",
+        "go",
+        "config",
+        "memory"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T14:29:05.917Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 138996,
+      "forks": 20409,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 官方编程语言仓库，包含编译器、运行时与标准库源码，以简洁语法和高效并发著称，广泛用于云原生与后端服务开发。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "runtime",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-25T14:29:06.370Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-stock",
+      "fullName": "ArvinLovegood/go-stock",
+      "url": "https://github.com/ArvinLovegood/go-stock",
+      "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7705,
+      "forks": 1346,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "ArvinLovegood",
+        "avatar": "https://avatars.githubusercontent.com/u/7401917?s=40&amp;v=4",
+        "url": "https://github.com/ArvinLovegood"
+      },
+      "summary": "基于Go的AI股票分析选股工具，支持A股港股美股行情获取、AI资讯与资金财务分析、涨跌报警，数据本地保存，兼容多家大模型平台。",
+      "tags": [
+        "stock",
+        "ai",
+        "golang",
+        "finance",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T04:01:39.529Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6828,
+      "forks": 702,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向AI编码代理的持久化记忆系统，Go单文件二进制，基于SQLite+FTS5，提供MCP服务、HTTP API、CLI与TUI，跨代理通用。",
+      "tags": [
+        "ai",
+        "memory",
+        "mcp",
+        "sqlite",
+        "go",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T14:29:06.517Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "traefik",
+      "fullName": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 64964,
+      "forks": 6204,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "traefik",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/traefik"
+      },
+      "summary": "云原生应用代理与反向代理，自动发现服务并动态配置路由、负载均衡和 TLS，是 Kubernetes 等环境的入口网关。",
+      "tags": [
+        "proxy",
+        "gateway",
+        "kubernetes",
+        "go",
+        "cloud-native",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T14:29:07.036Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6105,
+      "forks": 967,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网址、评分、经纬度、邮箱等信息的结构化数据。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "golang",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-25T04:01:40.542Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "yq",
+      "fullName": "mikefarah/yq",
+      "url": "https://github.com/mikefarah/yq",
+      "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16010,
+      "forks": 1600,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "mikefarah",
+        "avatar": "https://avatars.githubusercontent.com/u/1151925?s=40&amp;v=4",
+        "url": "https://github.com/mikefarah"
+      },
+      "summary": "便携式命令行 YAML/JSON/XML/CSV/TOML 等格式处理器，用类似 jq 的语法查询与修改配置文件，跨平台单二进制。",
+      "tags": [
+        "yaml",
+        "cli",
+        "json",
+        "go",
+        "config"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-25T14:29:07.160Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 181686,
+      "forks": 18002,
+      "starsToday": 119,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等开源模型，提供简洁 API 与 CLI。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T14:29:07.466Z",
       "deepwikiAvailable": false
     },
     {
@@ -59,34 +624,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-25T04:01:38.062Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-beacon",
-      "fullName": "Asymptote-Labs/agent-beacon",
-      "url": "https://github.com/Asymptote-Labs/agent-beacon",
-      "description": "The cross-harness self-improving memory layer for AI agents.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1517,
-      "forks": 122,
-      "starsToday": 269,
-      "topics": [],
-      "author": {
-        "name": "Asymptote-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/13512741?s=40&amp;v=4",
-        "url": "https://github.com/Asymptote-Labs"
-      },
-      "summary": "面向 AI 智能体的跨框架自进化记忆层，用 Go 编写，让不同 Agent 框架共享并持续优化记忆。",
-      "tags": [
-        "ai",
-        "agents",
-        "memory",
-        "golang",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-25T04:01:38.372Z",
       "deepwikiAvailable": false
     },
     {
@@ -199,62 +736,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-09-25T04:01:39.332Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "go-stock",
-      "fullName": "ArvinLovegood/go-stock",
-      "url": "https://github.com/ArvinLovegood/go-stock",
-      "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7700,
-      "forks": 1346,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "ArvinLovegood",
-        "avatar": "https://avatars.githubusercontent.com/u/7401917?s=40&amp;v=4",
-        "url": "https://github.com/ArvinLovegood"
-      },
-      "summary": "基于Go的AI股票分析选股工具，支持A股港股美股行情获取、AI资讯与资金财务分析、涨跌报警，数据本地保存，兼容多家大模型平台。",
-      "tags": [
-        "stock",
-        "ai",
-        "golang",
-        "finance",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-25T04:01:39.529Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "google-maps-scraper",
-      "fullName": "gosom/google-maps-scraper",
-      "url": "https://github.com/gosom/google-maps-scraper",
-      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6087,
-      "forks": 968,
-      "starsToday": 35,
-      "topics": [],
-      "author": {
-        "name": "gosom",
-        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
-        "url": "https://github.com/gosom"
-      },
-      "summary": "Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网址、评分、经纬度、邮箱等信息的结构化数据。",
-      "tags": [
-        "scraper",
-        "google-maps",
-        "golang",
-        "data-extraction",
-        "cli"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-09-25T04:01:40.542Z",
       "deepwikiAvailable": false
     },
     {

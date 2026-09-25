@@ -2,8 +2,8 @@
   "date": "2026-09-25",
   "since": "monthly",
   "language": "Java",
-  "fetchedAt": "2026-09-25T04:01:03.269Z",
-  "enrichedAt": "2026-09-25T04:03:10.605Z",
+  "fetchedAt": "2026-09-25T14:28:30.698Z",
+  "enrichedAt": "2026-09-25T14:29:33.794Z",
   "repos": [
     {
       "name": "ghidra",
@@ -12,8 +12,8 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 79594,
-      "forks": 8855,
+      "stars": 79636,
+      "forks": 8860,
       "starsToday": 7014,
       "topics": [],
       "author": {
@@ -31,6 +31,34 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-25T04:03:04.900Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "quarkus",
+      "fullName": "quarkusio/quarkus",
+      "url": "https://github.com/quarkusio/quarkus",
+      "description": "Quarkus: Supersonic Subatomic Java.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 15906,
+      "forks": 3314,
+      "starsToday": 95,
+      "topics": [],
+      "author": {
+        "name": "quarkusio",
+        "avatar": "https://avatars.githubusercontent.com/u/1279749?s=40&amp;v=4",
+        "url": "https://github.com/quarkusio"
+      },
+      "summary": "Quarkus 是面向 GraalVM 与 HotSpot 的 Kubernetes 原生 Java 框架，启动快、内存占用低，适合云原生微服务与无服务器场景。",
+      "tags": [
+        "java",
+        "kubernetes",
+        "cloud-native",
+        "graalvm",
+        "framework"
+      ],
+      "category": "Framework",
+      "enrichedAt": "2026-09-25T04:03:05.005Z",
       "deepwikiAvailable": false
     },
     {
@@ -62,91 +90,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "quarkus",
-      "fullName": "quarkusio/quarkus",
-      "url": "https://github.com/quarkusio/quarkus",
-      "description": "Quarkus: Supersonic Subatomic Java.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 15905,
-      "forks": 3314,
-      "starsToday": 95,
-      "topics": [],
-      "author": {
-        "name": "quarkusio",
-        "avatar": "https://avatars.githubusercontent.com/u/1279749?s=40&amp;v=4",
-        "url": "https://github.com/quarkusio"
-      },
-      "summary": "Quarkus 是面向 GraalVM 与 HotSpot 的 Kubernetes 原生 Java 框架，启动快、内存占用低，适合云原生微服务与无服务器场景。",
-      "tags": [
-        "java",
-        "kubernetes",
-        "cloud-native",
-        "graalvm",
-        "framework"
-      ],
-      "category": "Framework",
-      "enrichedAt": "2026-09-25T04:03:05.005Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "aeron",
-      "fullName": "aeron-io/aeron",
-      "url": "https://github.com/aeron-io/aeron",
-      "description": "Efficient reliable UDP unicast, UDP multicast, and IPC message transport",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 8897,
-      "forks": 1103,
-      "starsToday": 89,
-      "topics": [],
-      "author": {
-        "name": "aeron-io",
-        "avatar": "https://avatars.githubusercontent.com/u/760524?s=40&amp;v=4",
-        "url": "https://github.com/aeron-io"
-      },
-      "summary": "高性能 Java 消息传输库，基于 UDP 单播、组播与 IPC 实现低延迟可靠通信，适用于金融交易等场景。",
-      "tags": [
-        "java",
-        "networking",
-        "udp",
-        "low-latency",
-        "messaging",
-        "ipc"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-25T04:03:05.236Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "termux-app",
-      "fullName": "termux/termux-app",
-      "url": "https://github.com/termux/termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 61366,
-      "forks": 7629,
-      "starsToday": 1780,
-      "topics": [],
-      "author": {
-        "name": "termux",
-        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
-        "url": "https://github.com/termux"
-      },
-      "summary": "Android 上的终端模拟器应用，内置 Linux 环境，可通过包管理器安装扩展各类命令行工具。",
-      "tags": [
-        "android",
-        "terminal",
-        "linux",
-        "emulator",
-        "cli"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-25T04:03:05.948Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "bazel",
       "fullName": "bazelbuild/bazel",
       "url": "https://github.com/bazelbuild/bazel",
@@ -175,14 +118,71 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 61408,
+      "forks": 7641,
+      "starsToday": 1780,
+      "topics": [],
+      "author": {
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
+        "url": "https://github.com/termux"
+      },
+      "summary": "Android 上的终端模拟器应用，内置 Linux 环境，可通过包管理器安装扩展各类命令行工具。",
+      "tags": [
+        "android",
+        "terminal",
+        "linux",
+        "emulator",
+        "cli"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-25T04:03:05.948Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "aeron",
+      "fullName": "aeron-io/aeron",
+      "url": "https://github.com/aeron-io/aeron",
+      "description": "Efficient reliable UDP unicast, UDP multicast, and IPC message transport",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 8896,
+      "forks": 1102,
+      "starsToday": 89,
+      "topics": [],
+      "author": {
+        "name": "aeron-io",
+        "avatar": "https://avatars.githubusercontent.com/u/760524?s=40&amp;v=4",
+        "url": "https://github.com/aeron-io"
+      },
+      "summary": "高性能 Java 消息传输库，基于 UDP 单播、组播与 IPC 实现低延迟可靠通信，适用于金融交易等场景。",
+      "tags": [
+        "java",
+        "networking",
+        "udp",
+        "low-latency",
+        "messaging",
+        "ipc"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-25T04:03:05.236Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "keycloak",
       "fullName": "keycloak/keycloak",
       "url": "https://github.com/keycloak/keycloak",
       "description": "Open Source Identity and Access Management For Modern Applications and Services",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 36982,
-      "forks": 8968,
+      "stars": 36987,
+      "forks": 8970,
       "starsToday": 646,
       "topics": [],
       "author": {
@@ -210,7 +210,7 @@
       "description": "A fork of NagramX with additional features.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 867,
+      "stars": 869,
       "forks": 57,
       "starsToday": 275,
       "topics": [],
@@ -260,6 +260,372 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "thingsboard",
+      "fullName": "thingsboard/thingsboard",
+      "url": "https://github.com/thingsboard/thingsboard",
+      "description": "Open-source IoT Platform - Device management, data collection, processing and visualization.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 22478,
+      "forks": 6472,
+      "starsToday": 206,
+      "topics": [],
+      "author": {
+        "name": "thingsboard",
+        "avatar": "https://avatars.githubusercontent.com/u/8308069?s=40&amp;v=4",
+        "url": "https://github.com/thingsboard"
+      },
+      "summary": "开源物联网平台，提供设备管理、数据采集、处理与可视化能力，支持规则引擎和多种协议接入，可私有化部署。",
+      "tags": [
+        "iot",
+        "java",
+        "platform",
+        "device-management",
+        "visualization"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T04:03:09.832Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Geyser",
+      "fullName": "GeyserMC/Geyser",
+      "url": "https://github.com/GeyserMC/Geyser",
+      "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 5824,
+      "forks": 886,
+      "starsToday": 71,
+      "topics": [],
+      "author": {
+        "name": "GeyserMC",
+        "avatar": "https://avatars.githubusercontent.com/u/20743703?s=40&amp;v=4",
+        "url": "https://github.com/GeyserMC"
+      },
+      "summary": "Geyser 是一个代理桥接工具，让基岩版 Minecraft 客户端能连接 Java 版服务器，实现跨版本联机，无需额外客户端模组。",
+      "tags": [
+        "minecraft",
+        "proxy",
+        "bridge",
+        "java",
+        "crossplay"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T04:03:09.536Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "doris",
+      "fullName": "apache/doris",
+      "url": "https://github.com/apache/doris",
+      "description": "Apache Doris is a real-time analytics and hybrid search database for AI agents.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 15998,
+      "forks": 3961,
+      "starsToday": 202,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/2899462?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Doris 是高性能实时分析数据库，支持海量数据秒级查询与混合检索，为 AI 智能体提供统一分析引擎。",
+      "tags": [
+        "database",
+        "olap",
+        "analytics",
+        "java",
+        "sql",
+        "ai"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-25T04:03:09.466Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seatunnel",
+      "fullName": "apache/seatunnel",
+      "url": "https://github.com/apache/seatunnel",
+      "description": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9679,
+      "forks": 2422,
+      "starsToday": 111,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/2291859?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache SeaTunnel 是高性能分布式海量数据集成工具，支持多模态数据源与目标间同步，适合大规模数据管道场景。",
+      "tags": [
+        "data-integration",
+        "etl",
+        "java",
+        "distributed",
+        "apache"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-25T04:03:09.212Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Apktool",
+      "fullName": "iBotPeaches/Apktool",
+      "url": "https://github.com/iBotPeaches/Apktool",
+      "description": "A tool for reverse engineering Android apk files",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 25662,
+      "forks": 4013,
+      "starsToday": 326,
+      "topics": [],
+      "author": {
+        "name": "iBotPeaches",
+        "avatar": "https://avatars.githubusercontent.com/u/611784?s=40&amp;v=4",
+        "url": "https://github.com/iBotPeaches"
+      },
+      "summary": "Apktool 是反编译 Android APK 的经典工具，可解码资源与 smali 代码并支持重新打包，广泛用于逆向分析与汉化修改。",
+      "tags": [
+        "android",
+        "reverse-engineering",
+        "apk",
+        "decompiler",
+        "java"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:03:07.776Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "awesome-low-level-design",
+      "fullName": "ashishps1/awesome-low-level-design",
+      "url": "https://github.com/ashishps1/awesome-low-level-design",
+      "description": "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 27042,
+      "forks": 6545,
+      "starsToday": 729,
+      "topics": [],
+      "author": {
+        "name": "ashishps1",
+        "avatar": "https://avatars.githubusercontent.com/u/8646889?s=40&amp;v=4",
+        "url": "https://github.com/ashishps1"
+      },
+      "summary": "免费的低级设计（LLD）学习与面试准备资源合集，涵盖面向对象设计、设计模式与Java实战案例。",
+      "tags": [
+        "lld",
+        "interview",
+        "design-patterns",
+        "java",
+        "learning"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-25T04:03:10.605Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "GhidraMCP",
+      "fullName": "LaurieWired/GhidraMCP",
+      "url": "https://github.com/LaurieWired/GhidraMCP",
+      "description": "MCP Server for Ghidra",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 10185,
+      "forks": 1050,
+      "starsToday": 344,
+      "topics": [],
+      "author": {
+        "name": "LaurieWired",
+        "avatar": "https://avatars.githubusercontent.com/u/123765654?s=40&amp;v=4",
+        "url": "https://github.com/LaurieWired"
+      },
+      "summary": "为 Ghidra 逆向工程工具提供 MCP 服务器，让 AI 助手直接调用反编译与符号分析能力，实现自动化二进制分析。",
+      "tags": [
+        "mcp",
+        "ghidra",
+        "reverse-engineering",
+        "java",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T14:29:33.794Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "traccar",
+      "fullName": "traccar/traccar",
+      "url": "https://github.com/traccar/traccar",
+      "description": "Open source GPS tracking platform - self-hosted or managed, 200+ device protocols",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 7802,
+      "forks": 3406,
+      "starsToday": 155,
+      "topics": [],
+      "author": {
+        "name": "traccar",
+        "avatar": "https://avatars.githubusercontent.com/u/1161863?s=40&amp;v=4",
+        "url": "https://github.com/traccar"
+      },
+      "summary": "开源GPS追踪平台，支持200多种设备协议，可自托管或托管部署，用于车辆与资产定位监控。",
+      "tags": [
+        "gps",
+        "tracking",
+        "java",
+        "self-hosted",
+        "iot"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-25T04:03:07.045Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "termux-api",
+      "fullName": "termux/termux-api",
+      "url": "https://github.com/termux/termux-api",
+      "description": "Termux add-on app which exposes device functionality as API to command line programs.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4366,
+      "forks": 930,
+      "starsToday": 162,
+      "topics": [],
+      "author": {
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/277251?s=40&amp;v=4",
+        "url": "https://github.com/termux"
+      },
+      "summary": "Termux 插件应用，将设备功能以 API 形式暴露给命令行程序，让终端脚本可直接调用摄像头、短信、通知等安卓能力。",
+      "tags": [
+        "termux",
+        "android",
+        "cli",
+        "api",
+        "java"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T14:29:33.527Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dependency-track",
+      "fullName": "DependencyTrack/dependency-track",
+      "url": "https://github.com/DependencyTrack/dependency-track",
+      "description": "Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4237,
+      "forks": 817,
+      "starsToday": 105,
+      "topics": [],
+      "author": {
+        "name": "DependencyTrack",
+        "avatar": "https://avatars.githubusercontent.com/u/5693141?s=40&amp;v=4",
+        "url": "https://github.com/DependencyTrack"
+      },
+      "summary": "开源软件供应链组件分析平台，通过SBOM识别依赖漏洞与许可证风险，帮助组织降低供应链安全风险。",
+      "tags": [
+        "security",
+        "sbom",
+        "supply-chain",
+        "java",
+        "vulnerability"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T14:29:33.493Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Wukong-AICRM",
+      "fullName": "WuKongOpenSource/Wukong-AICRM",
+      "url": "https://github.com/WuKongOpenSource/Wukong-AICRM",
+      "description": "开源 AI CRM，Salesforce 开源替代 + ChatGPT 式 AI 助手：客户管理、知识库查询、任务执行，全程对话完成。Open-source AI CRM and Salesforce alternative powered by conversational AI.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1896,
+      "forks": 296,
+      "starsToday": 773,
+      "topics": [],
+      "author": {
+        "name": "WuKongOpenSource",
+        "avatar": "https://avatars.githubusercontent.com/u/28340341?s=40&amp;v=4",
+        "url": "https://github.com/WuKongOpenSource"
+      },
+      "summary": "开源 AI CRM，作为 Salesforce 替代方案，通过对话式 AI 完成客户管理、知识库查询与任务执行。",
+      "tags": [
+        "crm",
+        "ai",
+        "java",
+        "salesforce-alternative",
+        "chatbot",
+        "enterprise"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T14:29:33.624Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "GmsCore",
+      "fullName": "microg/GmsCore",
+      "url": "https://github.com/microg/GmsCore",
+      "description": "Free implementation of Play Services",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 14686,
+      "forks": 3205,
+      "starsToday": 400,
+      "topics": [],
+      "author": {
+        "name": "microg",
+        "avatar": "https://avatars.githubusercontent.com/u/994036?s=40&amp;v=4",
+        "url": "https://github.com/microg"
+      },
+      "summary": "Play 服务的自由开源替代实现，让无谷歌服务的 Android 设备也能运行依赖 GMS 的应用。",
+      "tags": [
+        "android",
+        "gms",
+        "play-services",
+        "java",
+        "privacy"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-25T04:03:08.197Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nacos",
+      "fullName": "alibaba/nacos",
+      "url": "https://github.com/alibaba/nacos",
+      "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 33419,
+      "forks": 13293,
+      "starsToday": 159,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/37170243?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的服务发现、配置管理与服务治理平台，助力构建云原生与AI应用，易用且生产级。",
+      "tags": [
+        "java",
+        "service-discovery",
+        "configuration",
+        "cloud-native",
+        "microservices"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T04:03:08.786Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "piko",
       "fullName": "crimera/piko",
       "url": "https://github.com/crimera/piko",
@@ -286,90 +652,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-25T04:03:07.019Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "traccar",
-      "fullName": "traccar/traccar",
-      "url": "https://github.com/traccar/traccar",
-      "description": "Open source GPS tracking platform - self-hosted or managed, 200+ device protocols",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 7799,
-      "forks": 3407,
-      "starsToday": 155,
-      "topics": [],
-      "author": {
-        "name": "traccar",
-        "avatar": "https://avatars.githubusercontent.com/u/1161863?s=40&amp;v=4",
-        "url": "https://github.com/traccar"
-      },
-      "summary": "开源GPS追踪平台，支持200多种设备协议，可自托管或托管部署，用于车辆与资产定位监控。",
-      "tags": [
-        "gps",
-        "tracking",
-        "java",
-        "self-hosted",
-        "iot"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-25T04:03:07.045Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Apktool",
-      "fullName": "iBotPeaches/Apktool",
-      "url": "https://github.com/iBotPeaches/Apktool",
-      "description": "A tool for reverse engineering Android apk files",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 25661,
-      "forks": 4013,
-      "starsToday": 326,
-      "topics": [],
-      "author": {
-        "name": "iBotPeaches",
-        "avatar": "https://avatars.githubusercontent.com/u/611784?s=40&amp;v=4",
-        "url": "https://github.com/iBotPeaches"
-      },
-      "summary": "Apktool 是反编译 Android APK 的经典工具，可解码资源与 smali 代码并支持重新打包，广泛用于逆向分析与汉化修改。",
-      "tags": [
-        "android",
-        "reverse-engineering",
-        "apk",
-        "decompiler",
-        "java"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-25T04:03:07.776Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "GmsCore",
-      "fullName": "microg/GmsCore",
-      "url": "https://github.com/microg/GmsCore",
-      "description": "Free implementation of Play Services",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 14682,
-      "forks": 3204,
-      "starsToday": 400,
-      "topics": [],
-      "author": {
-        "name": "microg",
-        "avatar": "https://avatars.githubusercontent.com/u/994036?s=40&amp;v=4",
-        "url": "https://github.com/microg"
-      },
-      "summary": "Play 服务的自由开源替代实现，让无谷歌服务的 Android 设备也能运行依赖 GMS 的应用。",
-      "tags": [
-        "android",
-        "gms",
-        "play-services",
-        "java",
-        "privacy"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-25T04:03:08.197Z",
       "deepwikiAvailable": false
     },
     {
@@ -429,147 +711,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nacos",
-      "fullName": "alibaba/nacos",
-      "url": "https://github.com/alibaba/nacos",
-      "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 33420,
-      "forks": 13293,
-      "starsToday": 159,
-      "topics": [],
-      "author": {
-        "name": "alibaba",
-        "avatar": "https://avatars.githubusercontent.com/u/37170243?s=40&amp;v=4",
-        "url": "https://github.com/alibaba"
-      },
-      "summary": "阿里开源的服务发现、配置管理与服务治理平台，助力构建云原生与AI应用，易用且生产级。",
-      "tags": [
-        "java",
-        "service-discovery",
-        "configuration",
-        "cloud-native",
-        "microservices"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-25T04:03:08.786Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "seatunnel",
-      "fullName": "apache/seatunnel",
-      "url": "https://github.com/apache/seatunnel",
-      "description": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 9678,
-      "forks": 2422,
-      "starsToday": 111,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/2291859?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache SeaTunnel 是高性能分布式海量数据集成工具，支持多模态数据源与目标间同步，适合大规模数据管道场景。",
-      "tags": [
-        "data-integration",
-        "etl",
-        "java",
-        "distributed",
-        "apache"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-09-25T04:03:09.212Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "doris",
-      "fullName": "apache/doris",
-      "url": "https://github.com/apache/doris",
-      "description": "Apache Doris is a real-time analytics and hybrid search database for AI agents.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 15997,
-      "forks": 3960,
-      "starsToday": 202,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/2899462?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache Doris 是高性能实时分析数据库，支持海量数据秒级查询与混合检索，为 AI 智能体提供统一分析引擎。",
-      "tags": [
-        "database",
-        "olap",
-        "analytics",
-        "java",
-        "sql",
-        "ai"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-09-25T04:03:09.466Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Geyser",
-      "fullName": "GeyserMC/Geyser",
-      "url": "https://github.com/GeyserMC/Geyser",
-      "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 5822,
-      "forks": 886,
-      "starsToday": 71,
-      "topics": [],
-      "author": {
-        "name": "GeyserMC",
-        "avatar": "https://avatars.githubusercontent.com/u/20743703?s=40&amp;v=4",
-        "url": "https://github.com/GeyserMC"
-      },
-      "summary": "Geyser 是一个代理桥接工具，让基岩版 Minecraft 客户端能连接 Java 版服务器，实现跨版本联机，无需额外客户端模组。",
-      "tags": [
-        "minecraft",
-        "proxy",
-        "bridge",
-        "java",
-        "crossplay"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-25T04:03:09.536Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "thingsboard",
-      "fullName": "thingsboard/thingsboard",
-      "url": "https://github.com/thingsboard/thingsboard",
-      "description": "Open-source IoT Platform - Device management, data collection, processing and visualization.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 22479,
-      "forks": 6472,
-      "starsToday": 206,
-      "topics": [],
-      "author": {
-        "name": "thingsboard",
-        "avatar": "https://avatars.githubusercontent.com/u/8308069?s=40&amp;v=4",
-        "url": "https://github.com/thingsboard"
-      },
-      "summary": "开源物联网平台，提供设备管理、数据采集、处理与可视化能力，支持规则引擎和多种协议接入，可私有化部署。",
-      "tags": [
-        "iot",
-        "java",
-        "platform",
-        "device-management",
-        "visualization"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-25T04:03:09.832Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "AntennaPod",
       "fullName": "AntennaPod/AntennaPod",
       "url": "https://github.com/AntennaPod/AntennaPod",
@@ -595,34 +736,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-25T04:03:10.312Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "awesome-low-level-design",
-      "fullName": "ashishps1/awesome-low-level-design",
-      "url": "https://github.com/ashishps1/awesome-low-level-design",
-      "description": "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 27027,
-      "forks": 6543,
-      "starsToday": 729,
-      "topics": [],
-      "author": {
-        "name": "ashishps1",
-        "avatar": "https://avatars.githubusercontent.com/u/8646889?s=40&amp;v=4",
-        "url": "https://github.com/ashishps1"
-      },
-      "summary": "免费的低级设计（LLD）学习与面试准备资源合集，涵盖面向对象设计、设计模式与Java实战案例。",
-      "tags": [
-        "lld",
-        "interview",
-        "design-patterns",
-        "java",
-        "learning"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-25T04:03:10.605Z",
       "deepwikiAvailable": false
     }
   ]
