@@ -1,0 +1,600 @@
+{
+  "date": "2026-09-25",
+  "since": "weekly",
+  "language": "Rust",
+  "fetchedAt": "2026-09-25T04:01:03.269Z",
+  "enrichedAt": "2026-09-25T04:02:26.405Z",
+  "repos": [
+    {
+      "name": "quiche",
+      "fullName": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12579,
+      "forks": 1148,
+      "starsToday": 741,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare 出品的 Rust 实现 QUIC 传输协议与 HTTP/3，含 TLS 集成，性能高、可用于生产环境。",
+      "tags": [
+        "quic",
+        "http3",
+        "rust",
+        "networking",
+        "protocol"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-25T04:02:20.972Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8360,
+      "forks": 567,
+      "starsToday": 1243,
+      "topics": [],
+      "author": {
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
+      },
+      "summary": "为编码智能体 CLI 提供长期记忆与跨厂商交接的 Rust 方案，让不同 agent 之间共享上下文与历史。",
+      "tags": [
+        "memory",
+        "agents",
+        "rust",
+        "cli",
+        "context"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T04:02:20.696Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "webcodex",
+      "fullName": "yyjeqhc/webcodex",
+      "url": "https://github.com/yyjeqhc/webcodex",
+      "description": "Give cloud AI agents a real development environment on your own machines.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1834,
+      "forks": 233,
+      "starsToday": 775,
+      "topics": [],
+      "author": {
+        "name": "yyjeqhc",
+        "avatar": "https://avatars.githubusercontent.com/u/51790758?s=40&amp;v=4",
+        "url": "https://github.com/yyjeqhc"
+      },
+      "summary": "用 Rust 编写的工具，把云端 AI 智能体接入你自己机器上的真实开发环境，让 AI 直接在本地执行开发任务。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "dev-environment",
+        "self-hosted",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:21.054Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33843,
+      "forks": 1516,
+      "starsToday": 1093,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "Rust 编写的开源 S3 兼容高性能对象存储系统，可与 MinIO、Ceph 等平台迁移共存，替代传统存储方案。",
+      "tags": [
+        "rust",
+        "object-storage",
+        "s3",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-25T04:02:20.922Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anki",
+      "fullName": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31517,
+      "forks": 3265,
+      "starsToday": 590,
+      "topics": [],
+      "author": {
+        "name": "ankitects",
+        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
+        "url": "https://github.com/ankitects"
+      },
+      "summary": "Anki 是基于间隔重复算法的智能记忆卡片程序，帮助用户高效记忆外语单词与知识，支持多平台同步与插件扩展。",
+      "tags": [
+        "flashcards",
+        "spaced-repetition",
+        "learning",
+        "rust",
+        "education"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-25T04:02:21.820Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8395,
+      "forks": 296,
+      "starsToday": 501,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "基于 Rust 的 Git worktree 管理 CLI，为并行 AI 智能体工作流简化多工作区创建与切换，提升多任务开发效率。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agents"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-25T04:02:21.901Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hydradb",
+      "fullName": "hydra-db/hydradb",
+      "url": "https://github.com/hydra-db/hydradb",
+      "description": "HydraDB - fast graph database on object storage",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5935,
+      "forks": 2089,
+      "starsToday": 2513,
+      "topics": [],
+      "author": {
+        "name": "hydra-db",
+        "avatar": "https://avatars.githubusercontent.com/u/248433309?s=40&amp;v=4",
+        "url": "https://github.com/hydra-db"
+      },
+      "summary": "HydraDB 是基于对象存储构建的高性能图数据库，用 Rust 编写，兼顾低成本存储与快速图查询。",
+      "tags": [
+        "database",
+        "graph",
+        "rust",
+        "object-storage",
+        "storage"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-25T04:02:21.953Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15900,
+      "forks": 679,
+      "starsToday": 449,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的离线开源语法检查器，注重隐私与速度，可本地运行无需联网。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "opensource"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:22.283Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "makepad",
+      "fullName": "makepad/makepad",
+      "url": "https://github.com/makepad/makepad",
+      "description": "Makepad is a creative software development platform for Rust that compiles to wasm/webGL, osx/metal, windows/dx11 linux/opengl",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7078,
+      "forks": 388,
+      "starsToday": 178,
+      "topics": [],
+      "author": {
+        "name": "makepad",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/makepad"
+      },
+      "summary": "基于 Rust 的创意软件开发平台，可编译到 Web、macOS、Windows 和 Linux，用统一代码实现跨平台 GPU 渲染界面。",
+      "tags": [
+        "rust",
+        "gui",
+        "cross-platform",
+        "webgl",
+        "rendering"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:22.981Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cuda-oxide",
+      "fullName": "NVlabs/cuda-oxide",
+      "url": "https://github.com/NVlabs/cuda-oxide",
+      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3583,
+      "forks": 284,
+      "starsToday": 149,
+      "topics": [],
+      "author": {
+        "name": "NVlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
+        "url": "https://github.com/NVlabs"
+      },
+      "summary": "Rust 到 CUDA 的编译器，可将标准 Rust 代码直接编译为 PTX，用安全且地道的 Rust 编写 SIMT GPU 内核，无需 DSL 或外部语言绑定。",
+      "tags": [
+        "rust",
+        "cuda",
+        "gpu",
+        "compiler",
+        "ptx"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:23.013Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31727,
+      "forks": 3416,
+      "starsToday": 337,
+      "topics": [],
+      "author": {
+        "name": "lbjlaq",
+        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
+        "url": "https://github.com/lbjlaq"
+      },
+      "summary": "基于 Tauri v2 + React（Rust）的 Antigravity 账号管理与切换工具，支持一键无缝切换多个账号，免去手动登录的繁琐。",
+      "tags": [
+        "tauri",
+        "rust",
+        "react",
+        "account-manager",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-25T04:02:22.960Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 136549,
+      "forks": 9316,
+      "starsToday": 3168,
+      "topics": [],
+      "author": {
+        "name": "farion1231",
+        "avatar": "https://avatars.githubusercontent.com/u/44939412?s=40&amp;v=4",
+        "url": "https://github.com/farion1231"
+      },
+      "summary": "跨平台桌面工具，为 Claude Code、Codex 等多家 AI 编程助手提供统一配置与切换管理，一站式整合多代理环境。",
+      "tags": [
+        "ai",
+        "cli",
+        "desktop",
+        "rust",
+        "config",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:23.521Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119135,
+      "forks": 16595,
+      "starsToday": 291,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 编程语言官方仓库，提供内存安全、高性能的系统级开发工具链与标准库，兼顾可靠性与效率。",
+      "tags": [
+        "rust",
+        "programming-language",
+        "compiler",
+        "systems",
+        "memory-safety"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-25T04:02:24.125Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MovieBox-Tui",
+      "fullName": "mesamirh/MovieBox-Tui",
+      "url": "https://github.com/mesamirh/MovieBox-Tui",
+      "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2248,
+      "forks": 259,
+      "starsToday": 225,
+      "topics": [],
+      "author": {
+        "name": "mesamirh",
+        "avatar": "https://avatars.githubusercontent.com/u/73069638?s=40&amp;v=4",
+        "url": "https://github.com/mesamirh"
+      },
+      "summary": "基于 Rust 的终端影视工具，可搜索、下载并用本地播放器播放电影、剧集和直播电视。",
+      "tags": [
+        "rust",
+        "tui",
+        "cli",
+        "streaming",
+        "media",
+        "movies"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-25T04:02:24.337Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mold",
+      "fullName": "rui314/mold",
+      "url": "https://github.com/rui314/mold",
+      "description": "mold 🦠: A Modern Linker in Rust 🦀",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17248,
+      "forks": 565,
+      "starsToday": 218,
+      "topics": [],
+      "author": {
+        "name": "rui314",
+        "avatar": "https://avatars.githubusercontent.com/u/47400?s=40&amp;v=4",
+        "url": "https://github.com/rui314"
+      },
+      "summary": "用 Rust 编写的高性能现代链接器，兼容 GNU ld 与 LLVM lld，大幅缩短大型 C/C++ 项目的链接时间。",
+      "tags": [
+        "linker",
+        "rust",
+        "build-tools",
+        "compiler",
+        "performance"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:24.239Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clash-verge-rev",
+      "fullName": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 147164,
+      "forks": 10574,
+      "starsToday": 2121,
+      "topics": [],
+      "author": {
+        "name": "clash-verge-rev",
+        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
+        "url": "https://github.com/clash-verge-rev"
+      },
+      "summary": "基于 Tauri 的现代化跨平台代理客户端，为 Windows、macOS 和 Linux 提供图形化 Clash 使用体验，界面美观、配置管理便捷。",
+      "tags": [
+        "clash",
+        "proxy",
+        "tauri",
+        "rust",
+        "gui",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-25T04:02:24.810Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coreutils",
+      "fullName": "uutils/coreutils",
+      "url": "https://github.com/uutils/coreutils",
+      "description": "Cross-platform Rust rewrite of the GNU coreutils",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24176,
+      "forks": 2055,
+      "starsToday": 82,
+      "topics": [],
+      "author": {
+        "name": "uutils",
+        "avatar": "https://avatars.githubusercontent.com/u/733326?s=40&amp;v=4",
+        "url": "https://github.com/uutils"
+      },
+      "summary": "用 Rust 重写 GNU coreutils 的跨平台实现，提供 ls、cp、cat 等常用命令行工具，性能与安全性更佳，可在 Linux、macOS、Windows 上运行。",
+      "tags": [
+        "rust",
+        "coreutils",
+        "cli",
+        "cross-platform",
+        "unix"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-25T04:02:25.225Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tauri",
+      "fullName": "tauri-apps/tauri",
+      "url": "https://github.com/tauri-apps/tauri",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 111383,
+      "forks": 4025,
+      "starsToday": 288,
+      "topics": [],
+      "author": {
+        "name": "tauri-apps",
+        "avatar": "https://avatars.githubusercontent.com/u/20051258?s=40&amp;v=4",
+        "url": "https://github.com/tauri-apps"
+      },
+      "summary": "用 Rust 构建体积更小、更快、更安全的桌面与移动应用，前端可用任意 Web 技术栈，兼顾原生性能与跨平台能力。",
+      "tags": [
+        "rust",
+        "desktop",
+        "cross-platform",
+        "webview",
+        "framework"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:25.431Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lore",
+      "fullName": "EpicGames/lore",
+      "url": "https://github.com/EpicGames/lore",
+      "description": "Lore is a next-generation, open source version control system",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8808,
+      "forks": 438,
+      "starsToday": 178,
+      "topics": [],
+      "author": {
+        "name": "EpicGames",
+        "avatar": "https://avatars.githubusercontent.com/u/3316562?s=40&amp;v=4",
+        "url": "https://github.com/EpicGames"
+      },
+      "summary": "Epic Games 开源的下一代版本控制系统，用 Rust 编写，面向大规模二进制资产与超大仓库场景，为游戏和内容创作团队提供高效协作方案。",
+      "tags": [
+        "version-control",
+        "rust",
+        "git",
+        "game-dev",
+        "open-source"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-25T04:02:25.491Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenResearch",
+      "fullName": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5695,
+      "forks": 357,
+      "starsToday": 1009,
+      "topics": [],
+      "author": {
+        "name": "alphaXiv",
+        "avatar": "https://avatars.githubusercontent.com/u/79390398?s=40&amp;v=4",
+        "url": "https://github.com/alphaXiv"
+      },
+      "summary": "将编码智能体扩展为科研智能体的开源工具，用 Rust 编写，帮助开发者自动化文献检索、实验与分析等研究流程。",
+      "tags": [
+        "ai",
+        "agents",
+        "research",
+        "rust",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T04:02:26.132Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mistral.rs",
+      "fullName": "EricLBuehler/mistral.rs",
+      "url": "https://github.com/EricLBuehler/mistral.rs",
+      "description": "Fast, flexible LLM inference",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7718,
+      "forks": 716,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "EricLBuehler",
+        "avatar": "https://avatars.githubusercontent.com/u/65165915?s=40&amp;v=4",
+        "url": "https://github.com/EricLBuehler"
+      },
+      "summary": "基于 Rust 的高性能大语言模型推理引擎，支持多种模型与量化格式，提供灵活易用的部署方案。",
+      "tags": [
+        "llm",
+        "inference",
+        "rust",
+        "quantization",
+        "gpu"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-25T04:02:26.405Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
