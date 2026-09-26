@@ -2,9 +2,630 @@
   "date": "2026-09-26",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-26T04:06:15.212Z",
-  "enrichedAt": "2026-09-26T04:06:59.695Z",
+  "fetchedAt": "2026-09-26T13:39:38.217Z",
+  "enrichedAt": "2026-09-26T13:40:14.157Z",
   "repos": [
+    {
+      "name": "openbao",
+      "fullName": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7895,
+      "forks": 588,
+      "starsToday": 360,
+      "topics": [],
+      "author": {
+        "name": "openbao",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/openbao"
+      },
+      "summary": "OpenBao 是开源密钥管理方案，用于集中管理、存储和分发机密、证书与密钥，可作为 Vault 的开源替代。",
+      "tags": [
+        "secrets",
+        "security",
+        "vault",
+        "go",
+        "encryption"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T04:06:53.745Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139024,
+      "forks": 20527,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方仓库，提供编译器、标准库与工具链源码，以简洁语法、高并发和快速编译著称，广泛用于云原生与后端服务开发。",
+      "tags": [
+        "go",
+        "golang",
+        "programming-language",
+        "compiler",
+        "standard-library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-26T04:06:58.177Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6861,
+      "forks": 706,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向 AI 编程代理的持久化记忆系统，Go 单二进制，基于 SQLite+FTS5，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
+      "tags": [
+        "ai",
+        "memory",
+        "mcp",
+        "sqlite",
+        "go",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T04:06:58.376Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 66243,
+      "forks": 10860,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 是开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可视化，是云原生监控的事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "tsdb",
+        "promql",
+        "observability",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T13:40:10.289Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenFlux",
+      "fullName": "p1neappleXpress/OpenFlux",
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1861,
+      "forks": 158,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "p1neappleXpress",
+        "avatar": "https://avatars.githubusercontent.com/u/146814998?s=40&amp;v=4",
+        "url": "https://github.com/p1neappleXpress"
+      },
+      "summary": "Go 编写的网络栈研究工具，提供支持可插拔传输层的 TCP 隧道，便于实验与定制网络协议。",
+      "tags": [
+        "go",
+        "networking",
+        "tcp",
+        "tunnel",
+        "transport"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T13:40:10.434Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "docker-agent",
+      "fullName": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3355,
+      "forks": 466,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker 工程团队开源的 AI Agent 构建与运行时，用 Go 编写，帮助开发者快速定义、编排并运行智能体工作流。",
+      "tags": [
+        "ai",
+        "agent",
+        "docker",
+        "golang",
+        "runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T13:40:10.532Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34985,
+      "forks": 3010,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统与 Iceberg 表，可承载数十亿文件，O(1) 磁盘访问并轻松横向扩展。",
+      "tags": [
+        "storage",
+        "distributed",
+        "s3",
+        "golang",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T04:06:55.505Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128012,
+      "forks": 45279,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和集群管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "cloud-native",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T04:06:53.791Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "res-downloader",
+      "fullName": "putyy/res-downloader",
+      "url": "https://github.com/putyy/res-downloader",
+      "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20174,
+      "forks": 2504,
+      "starsToday": 152,
+      "topics": [],
+      "author": {
+        "name": "putyy",
+        "avatar": "https://avatars.githubusercontent.com/u/31536789?s=40&amp;v=4",
+        "url": "https://github.com/putyy"
+      },
+      "summary": "基于 Go 的网络资源下载工具，支持视频号、抖音、快手、小红书、直播流、m3u8 及主流音乐平台资源抓取下载。",
+      "tags": [
+        "downloader",
+        "go",
+        "video",
+        "m3u8",
+        "scraper"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-26T13:40:10.326Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23805,
+      "forks": 1726,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
+      },
+      "summary": "自托管的个人音乐流媒体服务，Go 编写，支持扫描本地曲库并通过网页或 Subsonic API 在任意设备播放。",
+      "tags": [
+        "music",
+        "streaming",
+        "self-hosted",
+        "go",
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-26T13:40:11.455Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "containerd",
+      "fullName": "containerd/containerd",
+      "url": "https://github.com/containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21336,
+      "forks": 4129,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "containerd",
+        "avatar": "https://avatars.githubusercontent.com/u/169601?s=40&amp;v=4",
+        "url": "https://github.com/containerd"
+      },
+      "summary": "开源可靠的容器运行时，为 Kubernetes 等平台提供镜像管理与容器生命周期管理，是 Docker 等系统的底层核心组件。",
+      "tags": [
+        "containers",
+        "runtime",
+        "go",
+        "kubernetes",
+        "oci"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T13:40:11.602Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mcp-grafana",
+      "fullName": "grafana/mcp-grafana",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "description": "MCP server for Grafana",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3498,
+      "forks": 457,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/5464991?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "Grafana 官方 MCP 服务器，让 AI 助手直接查询仪表盘、数据源与告警，实现可观测性数据的自然语言访问。",
+      "tags": [
+        "grafana",
+        "mcp",
+        "observability",
+        "go",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-26T13:40:11.597Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "k6",
+      "fullName": "grafana/k6",
+      "url": "https://github.com/grafana/k6",
+      "description": "A modern load testing tool, using Go and JavaScript",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 31616,
+      "forks": 1644,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/621232?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "基于 Go 与 JavaScript 的现代负载测试工具，用脚本编写压测场景，高效生成高并发流量并输出性能指标。",
+      "tags": [
+        "load-testing",
+        "go",
+        "javascript",
+        "performance",
+        "testing"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-26T13:40:11.856Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111213,
+      "forks": 14974,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的 JavaScript 超集语言，为 JS 添加静态类型，编译输出干净的原生 JavaScript，提升大型项目可维护性。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "language",
+        "compiler",
+        "static-typing"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-26T04:06:55.074Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "datadog-agent",
+      "fullName": "DataDog/datadog-agent",
+      "url": "https://github.com/DataDog/datadog-agent",
+      "description": "Main repository for Datadog Agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3752,
+      "forks": 1497,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "DataDog",
+        "avatar": "https://avatars.githubusercontent.com/u/2822037?s=40&amp;v=4",
+        "url": "https://github.com/DataDog"
+      },
+      "summary": "Datadog Agent 官方主仓库，用 Go 编写，采集主机指标、日志与链路追踪并上报 Datadog 平台，支持多环境部署与插件扩展。",
+      "tags": [
+        "monitoring",
+        "observability",
+        "go",
+        "agent",
+        "metrics"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T04:06:55.215Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46982,
+      "forks": 11853,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于 Xray 的多协议多用户代理面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供 Web 界面管理流量与账号。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "golang",
+        "vpn"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-26T13:40:12.798Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "deja-vu",
+      "fullName": "vshulcz/deja-vu",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "description": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1033,
+      "forks": 102,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "vshulcz",
+        "avatar": "https://avatars.githubusercontent.com/u/99616188?s=40&amp;v=4",
+        "url": "https://github.com/vshulcz"
+      },
+      "summary": "让 Claude Code、Codex、Cursor 等 30 多个编码代理共享同一份记忆，直接读取磁盘上的历史会话，一个代理里找到的修复可在其他代理中复用，无需 LLM 与向量嵌入，仅一个本地 Go 二进制。",
+      "tags": [
+        "memory",
+        "coding-agent",
+        "go",
+        "cli",
+        "local-first"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-26T04:06:54.001Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24245,
+      "forks": 7886,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实来源，自动同步并管理集群应用状态。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "devops",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T13:40:12.746Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27439,
+      "forks": 1858,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 是为编码智能体提供持久记忆的 Go 工具，让 AI 编程助手跨会话记住项目上下文与决策，减少重复解释。",
+      "tags": [
+        "ai",
+        "memory",
+        "coding-agent",
+        "go",
+        "developer-tools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T13:40:12.804Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7307,
+      "forks": 799,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "为 Claude Code、Cursor、Codex 等主流 AI 编码代理统一配置持久记忆、技能、MCP 服务与角色，开源且不锁定单一代理。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "mcp",
+        "go",
+        "config",
+        "memory"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-26T04:06:57.617Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "distribution",
+      "fullName": "distribution/distribution",
+      "url": "https://github.com/distribution/distribution",
+      "description": "The toolkit to pack, ship, store, and deliver container content",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10623,
+      "forks": 2792,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "distribution",
+        "avatar": "https://avatars.githubusercontent.com/u/120601?s=40&amp;v=4",
+        "url": "https://github.com/distribution"
+      },
+      "summary": "容器镜像打包、分发与存储的开源工具包，即 Docker Registry 的核心实现，支持 OCI 分发规范，用于搭建私有镜像仓库。",
+      "tags": [
+        "registry",
+        "containers",
+        "oci",
+        "go",
+        "docker"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T13:40:12.830Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lago",
+      "fullName": "getlago/lago",
+      "url": "https://github.com/getlago/lago",
+      "description": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10613,
+      "forks": 759,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "getlago",
+        "avatar": "https://avatars.githubusercontent.com/u/4368535?s=40&amp;v=4",
+        "url": "https://github.com/getlago"
+      },
+      "summary": "开源计量与用量计费 API，支持消费追踪、订阅管理、定价迭代、支付编排与收入分析，帮助 SaaS 落地按用量计费。",
+      "tags": [
+        "billing",
+        "metering",
+        "usage-based",
+        "go",
+        "api",
+        "saas"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-26T13:40:14.156Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "ax",
       "fullName": "google/ax",
@@ -34,91 +655,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "openbao",
-      "fullName": "openbao/openbao",
-      "url": "https://github.com/openbao/openbao",
-      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7770,
-      "forks": 587,
-      "starsToday": 49,
-      "topics": [],
-      "author": {
-        "name": "openbao",
-        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
-        "url": "https://github.com/openbao"
-      },
-      "summary": "OpenBao 是开源密钥管理方案，用于集中管理、存储和分发机密、证书与密钥，可作为 Vault 的开源替代。",
-      "tags": [
-        "secrets",
-        "security",
-        "vault",
-        "go",
-        "encryption"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-26T04:06:53.745Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "deja-vu",
-      "fullName": "vshulcz/deja-vu",
-      "url": "https://github.com/vshulcz/deja-vu",
-      "description": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1021,
-      "forks": 101,
-      "starsToday": 39,
-      "topics": [],
-      "author": {
-        "name": "vshulcz",
-        "avatar": "https://avatars.githubusercontent.com/u/99616188?s=40&amp;v=4",
-        "url": "https://github.com/vshulcz"
-      },
-      "summary": "让 Claude Code、Codex、Cursor 等 30 多个编码代理共享同一份记忆，直接读取磁盘上的历史会话，一个代理里找到的修复可在其他代理中复用，无需 LLM 与向量嵌入，仅一个本地 Go 二进制。",
-      "tags": [
-        "memory",
-        "coding-agent",
-        "go",
-        "cli",
-        "local-first"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-26T04:06:54.001Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kubernetes",
-      "fullName": "kubernetes/kubernetes",
-      "url": "https://github.com/kubernetes/kubernetes",
-      "description": "Production-Grade Container Scheduling and Management",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 127997,
-      "forks": 45221,
-      "starsToday": 39,
-      "topics": [],
-      "author": {
-        "name": "kubernetes",
-        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
-        "url": "https://github.com/kubernetes"
-      },
-      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和集群管理，是云原生基础设施的事实标准。",
-      "tags": [
-        "kubernetes",
-        "containers",
-        "orchestration",
-        "cloud-native",
-        "go",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-26T04:06:53.791Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Pentest-Swarm-AI",
       "fullName": "Armur-Ai/Pentest-Swarm-AI",
       "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
@@ -144,90 +680,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-26T04:06:54.725Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "datadog-agent",
-      "fullName": "DataDog/datadog-agent",
-      "url": "https://github.com/DataDog/datadog-agent",
-      "description": "Main repository for Datadog Agent",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3753,
-      "forks": 1497,
-      "starsToday": 9,
-      "topics": [],
-      "author": {
-        "name": "DataDog",
-        "avatar": "https://avatars.githubusercontent.com/u/2822037?s=40&amp;v=4",
-        "url": "https://github.com/DataDog"
-      },
-      "summary": "Datadog Agent 官方主仓库，用 Go 编写，采集主机指标、日志与链路追踪并上报 Datadog 平台，支持多环境部署与插件扩展。",
-      "tags": [
-        "monitoring",
-        "observability",
-        "go",
-        "agent",
-        "metrics"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-26T04:06:55.215Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "TypeScript",
-      "fullName": "microsoft/TypeScript",
-      "url": "https://github.com/microsoft/TypeScript",
-      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 111207,
-      "forks": 14919,
-      "starsToday": 26,
-      "topics": [],
-      "author": {
-        "name": "microsoft",
-        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
-        "url": "https://github.com/microsoft"
-      },
-      "summary": "微软开源的 JavaScript 超集语言，为 JS 添加静态类型，编译输出干净的原生 JavaScript，提升大型项目可维护性。",
-      "tags": [
-        "typescript",
-        "javascript",
-        "language",
-        "compiler",
-        "static-typing"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-26T04:06:55.074Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "seaweedfs",
-      "fullName": "seaweedfs/seaweedfs",
-      "url": "https://github.com/seaweedfs/seaweedfs",
-      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 34983,
-      "forks": 3010,
-      "starsToday": 29,
-      "topics": [],
-      "author": {
-        "name": "seaweedfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
-        "url": "https://github.com/seaweedfs"
-      },
-      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统与 Iceberg 表，可承载数十亿文件，O(1) 磁盘访问并轻松横向扩展。",
-      "tags": [
-        "storage",
-        "distributed",
-        "s3",
-        "golang",
-        "filesystem"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-26T04:06:55.505Z",
       "deepwikiAvailable": false
     },
     {
@@ -344,63 +796,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gentle-ai",
-      "fullName": "Gentleman-Programming/gentle-ai",
-      "url": "https://github.com/Gentleman-Programming/gentle-ai",
-      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7300,
-      "forks": 798,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "Gentleman-Programming",
-        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
-        "url": "https://github.com/Gentleman-Programming"
-      },
-      "summary": "为 Claude Code、Cursor、Codex 等主流 AI 编码代理统一配置持久记忆、技能、MCP 服务与角色，开源且不锁定单一代理。",
-      "tags": [
-        "ai",
-        "coding-agent",
-        "mcp",
-        "go",
-        "config",
-        "memory"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-26T04:06:57.617Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "go",
-      "fullName": "golang/go",
-      "url": "https://github.com/golang/go",
-      "description": "The Go programming language",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 139016,
-      "forks": 20481,
-      "starsToday": 36,
-      "topics": [],
-      "author": {
-        "name": "golang",
-        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
-        "url": "https://github.com/golang"
-      },
-      "summary": "Go 语言官方仓库，提供编译器、标准库与工具链源码，以简洁语法、高并发和快速编译著称，广泛用于云原生与后端服务开发。",
-      "tags": [
-        "go",
-        "golang",
-        "programming-language",
-        "compiler",
-        "standard-library"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-26T04:06:58.177Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "go-stock",
       "fullName": "ArvinLovegood/go-stock",
       "url": "https://github.com/ArvinLovegood/go-stock",
@@ -426,35 +821,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-26T04:06:57.991Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "engram",
-      "fullName": "Gentleman-Programming/engram",
-      "url": "https://github.com/Gentleman-Programming/engram",
-      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6847,
-      "forks": 705,
-      "starsToday": 29,
-      "topics": [],
-      "author": {
-        "name": "Gentleman-Programming",
-        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
-        "url": "https://github.com/Gentleman-Programming"
-      },
-      "summary": "面向 AI 编程代理的持久化记忆系统，Go 单二进制，基于 SQLite+FTS5，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
-      "tags": [
-        "ai",
-        "memory",
-        "mcp",
-        "sqlite",
-        "go",
-        "cli"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-26T04:06:58.376Z",
       "deepwikiAvailable": false
     },
     {

@@ -2,9 +2,123 @@
   "date": "2026-09-26",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-09-26T04:06:15.212Z",
-  "enrichedAt": "2026-09-26T04:06:52.118Z",
+  "fetchedAt": "2026-09-26T13:39:38.217Z",
+  "enrichedAt": "2026-09-26T13:40:09.209Z",
   "repos": [
+    {
+      "name": "hindsight",
+      "fullName": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 30828,
+      "forks": 3330,
+      "starsToday": 2152,
+      "topics": [],
+      "author": {
+        "name": "vectorize-io",
+        "avatar": "https://avatars.githubusercontent.com/u/23314389?s=40&amp;v=4",
+        "url": "https://github.com/vectorize-io"
+      },
+      "summary": "Hindsight 是面向 AI Agent 的长期记忆框架，让智能体从交互中持续学习并复用经验，提升多轮任务表现。",
+      "tags": [
+        "ai",
+        "agent",
+        "memory",
+        "python",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T04:06:46.677Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Model-Optimizer",
+      "fullName": "NVIDIA/Model-Optimizer",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 4611,
+      "forks": 658,
+      "starsToday": 354,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/28916987?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 开源模型优化库，集成量化、蒸馏、剪枝、NAS、投机解码等技术，压缩模型以加速 TensorRT-LLM、vLLM 等框架推理。",
+      "tags": [
+        "quantization",
+        "model-optimization",
+        "nvidia",
+        "inference",
+        "llm",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T04:06:48.548Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 57964,
+      "forks": 10061,
+      "starsToday": 828,
+      "topics": [],
+      "author": {
+        "name": "rohitg00",
+        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
+        "url": "https://github.com/rohitg00"
+      },
+      "summary": "从零开始学习并动手实现 AI 工程的项目，用 Python 带你从原理到落地，学完即可构建并交付自己的 AI 应用。",
+      "tags": [
+        "ai",
+        "python",
+        "tutorial",
+        "llm",
+        "education"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T04:06:47.671Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tick-stock-panel",
+      "fullName": "shy3130/tick-stock-panel",
+      "url": "https://github.com/shy3130/tick-stock-panel",
+      "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 5229,
+      "forks": 1268,
+      "starsToday": 191,
+      "topics": [],
+      "author": {
+        "name": "shy3130",
+        "avatar": "https://avatars.githubusercontent.com/u/6329373?s=40&amp;v=4",
+        "url": "https://github.com/shy3130"
+      },
+      "summary": "自托管零运维的A股量化工作台，集选股、监控、回测于一体，并借助LLM定制策略、分析个股与复盘。",
+      "tags": [
+        "quant",
+        "stock",
+        "llm",
+        "python",
+        "self-hosted",
+        "backtest"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-26T04:06:47.746Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "claude-plugins-official",
       "fullName": "anthropics/claude-plugins-official",
@@ -12,9 +126,9 @@
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 36964,
-      "forks": 4155,
-      "starsToday": 83,
+      "stars": 37038,
+      "forks": 4160,
+      "starsToday": 283,
       "topics": [],
       "author": {
         "name": "anthropics",
@@ -34,31 +148,344 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "hindsight",
-      "fullName": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
+      "name": "agents",
+      "fullName": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 29959,
-      "forks": 3177,
-      "starsToday": 1653,
+      "stars": 39993,
+      "forks": 4264,
+      "starsToday": 51,
       "topics": [],
       "author": {
-        "name": "vectorize-io",
-        "avatar": "https://avatars.githubusercontent.com/u/23314389?s=40&amp;v=4",
-        "url": "https://github.com/vectorize-io"
+        "name": "wshobson",
+        "avatar": "https://avatars.githubusercontent.com/u/553618?s=40&amp;v=4",
+        "url": "https://github.com/wshobson"
       },
-      "summary": "Hindsight 是面向 AI Agent 的长期记忆框架，让智能体从交互中持续学习并复用经验，提升多轮任务表现。",
+      "summary": "面向 Claude Code、Codex、Cursor 等多家 AI 编码工具的智能体插件市场，提供可复用的 agent 与技能集合，跨平台统一接入。",
+      "tags": [
+        "agents",
+        "ai",
+        "plugin",
+        "marketplace",
+        "claude-code",
+        "developer-tools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T13:40:07.409Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sherlock",
+      "fullName": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 92790,
+      "forks": 10948,
+      "starsToday": 104,
+      "topics": [],
+      "author": {
+        "name": "sherlock-project",
+        "avatar": "https://avatars.githubusercontent.com/u/27065646?s=40&amp;v=4",
+        "url": "https://github.com/sherlock-project"
+      },
+      "summary": "通过用户名在数百个社交网络中批量检索账号，快速定位同一用户在各平台的注册信息，常用于开源情报与安全调查。",
+      "tags": [
+        "osint",
+        "python",
+        "cli",
+        "username",
+        "social-media",
+        "security"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-26T13:40:07.196Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CLI-Anything",
+      "fullName": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 50587,
+      "forks": 4630,
+      "starsToday": 306,
+      "topics": [],
+      "author": {
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
+      },
+      "summary": "将任意软件封装为智能体可调用的 CLI 接口，让所有工具都能被 AI Agent 原生驱动，配套 CLI-Hub 统一分发。",
+      "tags": [
+        "cli",
+        "ai-agent",
+        "automation",
+        "python",
+        "tooling"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T04:06:49.192Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 126015,
+      "forks": 19641,
+      "starsToday": 418,
+      "topics": [],
+      "author": {
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
+      },
+      "summary": "输入主题或关键词，借助 AI 大模型与自动化工作流一键生成高清短视频，自动完成文案、素材、配音与字幕合成。",
       "tags": [
         "ai",
-        "agent",
-        "memory",
+        "video",
+        "automation",
         "python",
         "llm"
       ],
       "category": "AI",
-      "enrichedAt": "2026-09-26T04:06:46.677Z",
+      "enrichedAt": "2026-09-26T13:40:07.069Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 74812,
+      "forks": 11506,
+      "starsToday": 226,
+      "topics": [],
+      "author": {
+        "name": "666ghj",
+        "avatar": "https://avatars.githubusercontent.com/u/110395318?s=40&amp;v=4",
+        "url": "https://github.com/666ghj"
+      },
+      "summary": "简洁通用的群体智能引擎，用多智能体模拟群体行为，可对各类事件与趋势进行预测。",
+      "tags": [
+        "swarm-intelligence",
+        "prediction",
+        "multi-agent",
+        "python",
+        "simulation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T13:40:07.017Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "devops-exercises",
+      "fullName": "bregman-arie/devops-exercises",
+      "url": "https://github.com/bregman-arie/devops-exercises",
+      "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 84660,
+      "forks": 20342,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "bregman-arie",
+        "avatar": "https://avatars.githubusercontent.com/u/37985796?s=40&amp;v=4",
+        "url": "https://github.com/bregman-arie"
+      },
+      "summary": "涵盖Linux、Kubernetes、AWS、Terraform等DevOps全栈面试题库与练习题，助你系统准备运维与SRE岗位面试。",
+      "tags": [
+        "devops",
+        "interview",
+        "kubernetes",
+        "linux",
+        "sre",
+        "learning"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-26T13:40:08.292Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harness-sdk",
+      "fullName": "strands-agents/harness-sdk",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 8441,
+      "forks": 1258,
+      "starsToday": 251,
+      "topics": [],
+      "author": {
+        "name": "strands-agents",
+        "avatar": "https://avatars.githubusercontent.com/u/3211021?s=40&amp;v=4",
+        "url": "https://github.com/strands-agents"
+      },
+      "summary": "开源 AI 智能体编排 SDK，支持 Python 与 TypeScript，可端到端构建并控制生产级 Agent，兼容任意模型与云平台。",
+      "tags": [
+        "ai-agents",
+        "sdk",
+        "python",
+        "typescript",
+        "llm",
+        "orchestration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T04:06:51.628Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wifit3",
+      "fullName": "derv82/wifit3",
+      "url": "https://github.com/derv82/wifit3",
+      "description": "Wifite but USB-only & cross-platform.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1105,
+      "forks": 93,
+      "starsToday": 409,
+      "topics": [],
+      "author": {
+        "name": "derv82",
+        "avatar": "https://avatars.githubusercontent.com/u/993464?s=40&amp;v=4",
+        "url": "https://github.com/derv82"
+      },
+      "summary": "Wifite 的 USB 无线网卡专用跨平台重写版，用 Python 自动审计 Wi-Fi 网络安全性，支持多平台免配置运行。",
+      "tags": [
+        "wifi",
+        "security",
+        "pentest",
+        "python",
+        "cross-platform"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-26T04:06:47.162Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "strix",
+      "fullName": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 64933,
+      "forks": 7116,
+      "starsToday": 208,
+      "topics": [],
+      "author": {
+        "name": "usestrix",
+        "avatar": "https://avatars.githubusercontent.com/u/49919286?s=40&amp;v=4",
+        "url": "https://github.com/usestrix"
+      },
+      "summary": "开源 AI 渗透测试工具，自动发现并修复应用漏洞，降低安全测试门槛。",
+      "tags": [
+        "security",
+        "ai",
+        "pentest",
+        "python",
+        "vulnerability"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T13:40:07.942Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "posthog",
+      "fullName": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 39944,
+      "forks": 3423,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "PostHog",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/PostHog"
+      },
+      "summary": "开源产品分析平台，集成分析、会话回放、功能开关、实验、错误追踪与AI可观测性，帮助团队自主诊断问题并快速迭代。",
+      "tags": [
+        "analytics",
+        "product-analytics",
+        "session-replay",
+        "feature-flags",
+        "observability",
+        "python"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-26T13:40:08.556Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Soup",
+      "fullName": "MakazhanAlpamys/Soup",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 7244,
+      "forks": 1153,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "MakazhanAlpamys",
+        "avatar": "https://avatars.githubusercontent.com/u/188336071?s=40&amp;v=4",
+        "url": "https://github.com/MakazhanAlpamys"
+      },
+      "summary": "用单个 YAML 配置微调大语言模型，分层流式训练让 4GB 笔记本显卡也能跑 8B 模型。",
+      "tags": [
+        "llm",
+        "fine-tuning",
+        "python",
+        "yaml",
+        "training"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-26T13:40:08.412Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BMAD-METHOD",
+      "fullName": "bmad-code-org/BMAD-METHOD",
+      "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "description": "Breakthrough Method for Agile Ai Driven Development",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 53478,
+      "forks": 6020,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "bmad-code-org",
+        "avatar": "https://avatars.githubusercontent.com/u/20280?s=40&amp;v=4",
+        "url": "https://github.com/bmad-code-org"
+      },
+      "summary": "面向敏捷开发的AI驱动开发方法论框架，通过结构化智能体工作流帮助团队规划、实现与交付软件。",
+      "tags": [
+        "ai",
+        "agile",
+        "workflow",
+        "agents",
+        "methodology"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-26T13:40:09.209Z",
       "deepwikiAvailable": false
     },
     {
@@ -87,120 +514,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-26T04:06:47.021Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "wifit3",
-      "fullName": "derv82/wifit3",
-      "url": "https://github.com/derv82/wifit3",
-      "description": "Wifite but USB-only & cross-platform.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 979,
-      "forks": 89,
-      "starsToday": 183,
-      "topics": [],
-      "author": {
-        "name": "derv82",
-        "avatar": "https://avatars.githubusercontent.com/u/993464?s=40&amp;v=4",
-        "url": "https://github.com/derv82"
-      },
-      "summary": "Wifite 的 USB 无线网卡专用跨平台重写版，用 Python 自动审计 Wi-Fi 网络安全性，支持多平台免配置运行。",
-      "tags": [
-        "wifi",
-        "security",
-        "pentest",
-        "python",
-        "cross-platform"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-09-26T04:06:47.162Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 57637,
-      "forks": 10040,
-      "starsToday": 1177,
-      "topics": [],
-      "author": {
-        "name": "rohitg00",
-        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
-        "url": "https://github.com/rohitg00"
-      },
-      "summary": "从零开始学习并动手实现 AI 工程的项目，用 Python 带你从原理到落地，学完即可构建并交付自己的 AI 应用。",
-      "tags": [
-        "ai",
-        "python",
-        "tutorial",
-        "llm",
-        "education"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-26T04:06:47.671Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "tick-stock-panel",
-      "fullName": "shy3130/tick-stock-panel",
-      "url": "https://github.com/shy3130/tick-stock-panel",
-      "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 5168,
-      "forks": 1259,
-      "starsToday": 44,
-      "topics": [],
-      "author": {
-        "name": "shy3130",
-        "avatar": "https://avatars.githubusercontent.com/u/6329373?s=40&amp;v=4",
-        "url": "https://github.com/shy3130"
-      },
-      "summary": "自托管零运维的A股量化工作台，集选股、监控、回测于一体，并借助LLM定制策略、分析个股与复盘。",
-      "tags": [
-        "quant",
-        "stock",
-        "llm",
-        "python",
-        "self-hosted",
-        "backtest"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-09-26T04:06:47.746Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Model-Optimizer",
-      "fullName": "NVIDIA/Model-Optimizer",
-      "url": "https://github.com/NVIDIA/Model-Optimizer",
-      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 4509,
-      "forks": 653,
-      "starsToday": 359,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/28916987?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 开源模型优化库，集成量化、蒸馏、剪枝、NAS、投机解码等技术，压缩模型以加速 TensorRT-LLM、vLLM 等框架推理。",
-      "tags": [
-        "quantization",
-        "model-optimization",
-        "nvidia",
-        "inference",
-        "llm",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-26T04:06:48.548Z",
       "deepwikiAvailable": false
     },
     {
@@ -257,34 +570,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-09-26T04:06:48.999Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "CLI-Anything",
-      "fullName": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 50552,
-      "forks": 4628,
-      "starsToday": 306,
-      "topics": [],
-      "author": {
-        "name": "HKUDS",
-        "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&amp;v=4",
-        "url": "https://github.com/HKUDS"
-      },
-      "summary": "将任意软件封装为智能体可调用的 CLI 接口，让所有工具都能被 AI Agent 原生驱动，配套 CLI-Hub 统一分发。",
-      "tags": [
-        "cli",
-        "ai-agent",
-        "automation",
-        "python",
-        "tooling"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-26T04:06:49.192Z",
       "deepwikiAvailable": false
     },
     {
@@ -452,35 +737,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-26T04:06:50.812Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "harness-sdk",
-      "fullName": "strands-agents/harness-sdk",
-      "url": "https://github.com/strands-agents/harness-sdk",
-      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 8424,
-      "forks": 1256,
-      "starsToday": 251,
-      "topics": [],
-      "author": {
-        "name": "strands-agents",
-        "avatar": "https://avatars.githubusercontent.com/u/3211021?s=40&amp;v=4",
-        "url": "https://github.com/strands-agents"
-      },
-      "summary": "开源 AI 智能体编排 SDK，支持 Python 与 TypeScript，可端到端构建并控制生产级 Agent，兼容任意模型与云平台。",
-      "tags": [
-        "ai-agents",
-        "sdk",
-        "python",
-        "typescript",
-        "llm",
-        "orchestration"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-26T04:06:51.628Z",
       "deepwikiAvailable": false
     },
     {
