@@ -2,9 +2,65 @@
   "date": "2026-09-27",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-09-27T04:20:17.577Z",
-  "enrichedAt": "2026-09-27T04:20:59.915Z",
+  "fetchedAt": "2026-09-27T14:36:18.222Z",
+  "enrichedAt": "2026-09-27T14:36:52.184Z",
   "repos": [
+    {
+      "name": "git-bug",
+      "fullName": "git-bug/git-bug",
+      "url": "https://github.com/git-bug/git-bug",
+      "description": "Distributed, offline-first bug tracker integrated in git",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10596,
+      "forks": 330,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "git-bug",
+        "avatar": "https://avatars.githubusercontent.com/u/294669?s=40&amp;v=4",
+        "url": "https://github.com/git-bug"
+      },
+      "summary": "基于 git 的分布式离线优先缺陷跟踪器，把 issue 作为 git 对象存储，无需中心服务器即可协作与同步。",
+      "tags": [
+        "git",
+        "bug-tracker",
+        "go",
+        "offline-first",
+        "distributed"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T14:36:48.350Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dae",
+      "fullName": "daeuniverse/dae",
+      "url": "https://github.com/daeuniverse/dae",
+      "description": "eBPF-based Linux high-performance transparent proxy solution.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6240,
+      "forks": 409,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "daeuniverse",
+        "avatar": "https://avatars.githubusercontent.com/u/30586220?s=40&amp;v=4",
+        "url": "https://github.com/daeuniverse"
+      },
+      "summary": "基于 eBPF 的 Linux 高性能透明代理方案，内核层分流流量，无需 iptables 复杂规则，兼顾性能与易用性。",
+      "tags": [
+        "ebpf",
+        "proxy",
+        "linux",
+        "golang",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-27T14:36:48.540Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "openbao",
       "fullName": "openbao/openbao",
@@ -12,9 +68,9 @@
       "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8038,
-      "forks": 591,
-      "starsToday": 364,
+      "stars": 8123,
+      "forks": 595,
+      "starsToday": 232,
       "topics": [],
       "author": {
         "name": "openbao",
@@ -34,14 +90,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "res-downloader",
+      "fullName": "putyy/res-downloader",
+      "url": "https://github.com/putyy/res-downloader",
+      "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20253,
+      "forks": 2517,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "putyy",
+        "avatar": "https://avatars.githubusercontent.com/u/31536789?s=40&amp;v=4",
+        "url": "https://github.com/putyy"
+      },
+      "summary": "基于 Go 的网络资源下载工具，支持视频号、抖音、快手、小红书、直播流、m3u8 及主流音乐平台，一站式抓取保存常见网络资源。",
+      "tags": [
+        "downloader",
+        "go",
+        "video",
+        "m3u8",
+        "streaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-27T04:20:55.978Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "go",
       "fullName": "golang/go",
       "url": "https://github.com/golang/go",
       "description": "The Go programming language",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 139046,
-      "forks": 20623,
+      "stars": 139053,
+      "forks": 20669,
       "starsToday": 44,
       "topics": [],
       "author": {
@@ -59,6 +143,374 @@
       ],
       "category": "Language",
       "enrichedAt": "2026-09-27T04:20:54.210Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cockroach",
+      "fullName": "cockroachdb/cockroach",
+      "url": "https://github.com/cockroachdb/cockroach",
+      "description": "CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32517,
+      "forks": 4118,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "cockroachdb",
+        "avatar": "https://avatars.githubusercontent.com/u/5076964?s=40&amp;v=4",
+        "url": "https://github.com/cockroachdb"
+      },
+      "summary": "CockroachDB 是云原生分布式 SQL 数据库，具备高可用、弹性扩展与数据放置控制能力，兼容 PostgreSQL 协议。",
+      "tags": [
+        "database",
+        "sql",
+        "distributed",
+        "go",
+        "cloud-native"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-09-27T14:36:48.444Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dagu",
+      "fullName": "dagucloud/dagu",
+      "url": "https://github.com/dagucloud/dagu",
+      "description": "Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4158,
+      "forks": 351,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "dagucloud",
+        "avatar": "https://avatars.githubusercontent.com/u/1475839?s=40&amp;v=4",
+        "url": "https://github.com/dagucloud"
+      },
+      "summary": "自托管工作流编排器，用声明式 YAML 编排脚本、SSH 命令和容器，单二进制无需数据库，资源占用低，是 Airflow 和 Cron 的轻量替代。",
+      "tags": [
+        "workflow",
+        "orchestration",
+        "yaml",
+        "go",
+        "self-hosted",
+        "scheduler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T14:36:48.231Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28114,
+      "forks": 2601,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "用 Go 编写的密钥泄露扫描工具，可在代码、仓库和历史记录中查找、验证并分析泄露的凭据，支持数百种密钥类型，降低误报。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "credentials"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T14:36:49.395Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15655,
+      "forks": 1719,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
+      },
+      "summary": "开源自托管邮件服务器，集成邮件营销与Newsletter功能，无需月费，对开发者友好。",
+      "tags": [
+        "mailserver",
+        "self-hosted",
+        "email-marketing",
+        "newsletter",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-27T14:36:49.644Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111231,
+      "forks": 15105,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "TypeScript 是 JavaScript 的超集，为 JS 添加静态类型系统，编译后输出干净的 JavaScript，显著提升大型项目的可维护性与开发体验。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "language",
+        "compiler",
+        "static-typing"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-27T04:20:57.589Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-manager",
+      "fullName": "YoanWai/agent-manager",
+      "url": "https://github.com/YoanWai/agent-manager",
+      "description": "The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from one tmux TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 519,
+      "forks": 55,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "YoanWai",
+        "avatar": "https://avatars.githubusercontent.com/u/106609173?s=40&amp;v=4",
+        "url": "https://github.com/YoanWai"
+      },
+      "summary": "基于 tmux 的终端 TUI 工具，统一管理多个 AI 编码代理，提供实时状态、快捷提示、worktree 与 diff 审查，加速开发流程。",
+      "tags": [
+        "ai",
+        "tui",
+        "tmux",
+        "go",
+        "devtool",
+        "git-worktree"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T14:36:49.609Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128046,
+      "forks": 45414,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和集群管理能力，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "golang",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-27T04:20:55.611Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 83273,
+      "forks": 3862,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "junegunn",
+        "avatar": "https://avatars.githubusercontent.com/u/700826?s=40&amp;v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "summary": "Go 编写的命令行模糊查找器，可交互式过滤文件、历史记录等任意列表，支持管道与 Vim 集成，大幅提升终端操作效率。",
+      "tags": [
+        "cli",
+        "fuzzy-finder",
+        "go",
+        "terminal",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-27T14:36:49.633Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49289,
+      "forks": 4473,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "开源本地AI推理引擎，用Go编写，可在任意硬件上运行LLM、视觉、语音、图像和视频模型，无需GPU，兼容OpenAI API。",
+      "tags": [
+        "ai",
+        "llm",
+        "self-hosted",
+        "inference",
+        "go",
+        "openai-api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-27T14:36:50.692Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cobra",
+      "fullName": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 44664,
+      "forks": 4340,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "spf13",
+        "avatar": "https://avatars.githubusercontent.com/u/8093535?s=40&amp;v=4",
+        "url": "https://github.com/spf13"
+      },
+      "summary": "Go 语言命令行框架，用于构建现代 CLI 应用，支持子命令、标志解析与自动补全，被大量知名工具采用。",
+      "tags": [
+        "go",
+        "cli",
+        "command-line",
+        "framework",
+        "flags"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-27T14:36:50.773Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "obot",
+      "fullName": "obot-platform/obot",
+      "url": "https://github.com/obot-platform/obot",
+      "description": "Complete AI Governance Platform from Obot AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1071,
+      "forks": 224,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "obot-platform",
+        "avatar": "https://avatars.githubusercontent.com/u/3682717?s=40&amp;v=4",
+        "url": "https://github.com/obot-platform"
+      },
+      "summary": "Obot AI 推出的开源 AI 治理平台，用 Go 编写，集中管理 AI 代理、模型与权限，帮助企业合规可控地落地 AI 应用。",
+      "tags": [
+        "ai",
+        "governance",
+        "llm",
+        "platform",
+        "go",
+        "security"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-27T14:36:51.058Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fyne",
+      "fullName": "fyne-io/fyne",
+      "url": "https://github.com/fyne-io/fyne",
+      "description": "Cross platform GUI toolkit in Go inspired by Material Design",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28719,
+      "forks": 1554,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "fyne-io",
+        "avatar": "https://avatars.githubusercontent.com/u/294436?s=40&amp;v=4",
+        "url": "https://github.com/fyne-io"
+      },
+      "summary": "Go 语言跨平台 GUI 工具包，受 Material Design 启发，一套代码即可构建桌面与移动端原生界面。",
+      "tags": [
+        "go",
+        "gui",
+        "cross-platform",
+        "material-design",
+        "toolkit"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-27T14:36:50.682Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46424,
+      "forks": 9090,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub 官方命令行工具，用 Go 编写，可在终端完成仓库、Issue、PR、Actions 等操作，提升开发工作流效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "devtool",
+        "git"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-27T14:36:52.184Z",
       "deepwikiAvailable": false
     },
     {
@@ -204,62 +656,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "kubernetes",
-      "fullName": "kubernetes/kubernetes",
-      "url": "https://github.com/kubernetes/kubernetes",
-      "description": "Production-Grade Container Scheduling and Management",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 128035,
-      "forks": 45385,
-      "starsToday": 41,
-      "topics": [],
-      "author": {
-        "name": "kubernetes",
-        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
-        "url": "https://github.com/kubernetes"
-      },
-      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和集群管理能力，是云原生基础设施的事实标准。",
-      "tags": [
-        "kubernetes",
-        "containers",
-        "orchestration",
-        "golang",
-        "cloud-native"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-27T04:20:55.611Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "res-downloader",
-      "fullName": "putyy/res-downloader",
-      "url": "https://github.com/putyy/res-downloader",
-      "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 20230,
-      "forks": 2512,
-      "starsToday": 142,
-      "topics": [],
-      "author": {
-        "name": "putyy",
-        "avatar": "https://avatars.githubusercontent.com/u/31536789?s=40&amp;v=4",
-        "url": "https://github.com/putyy"
-      },
-      "summary": "基于 Go 的网络资源下载工具，支持视频号、抖音、快手、小红书、直播流、m3u8 及主流音乐平台，一站式抓取保存常见网络资源。",
-      "tags": [
-        "downloader",
-        "go",
-        "video",
-        "m3u8",
-        "streaming"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-27T04:20:55.978Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "navidrome",
       "fullName": "navidrome/navidrome",
       "url": "https://github.com/navidrome/navidrome",
@@ -369,34 +765,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-27T04:20:57.165Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "TypeScript",
-      "fullName": "microsoft/TypeScript",
-      "url": "https://github.com/microsoft/TypeScript",
-      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 111224,
-      "forks": 15073,
-      "starsToday": 26,
-      "topics": [],
-      "author": {
-        "name": "microsoft",
-        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
-        "url": "https://github.com/microsoft"
-      },
-      "summary": "TypeScript 是 JavaScript 的超集，为 JS 添加静态类型系统，编译后输出干净的 JavaScript，显著提升大型项目的可维护性与开发体验。",
-      "tags": [
-        "typescript",
-        "javascript",
-        "language",
-        "compiler",
-        "static-typing"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-27T04:20:57.589Z",
       "deepwikiAvailable": false
     },
     {
