@@ -1,0 +1,573 @@
+{
+  "date": "2026-09-27",
+  "since": "weekly",
+  "language": "Go",
+  "fetchedAt": "2026-09-27T04:20:17.577Z",
+  "enrichedAt": "2026-09-27T04:21:34.657Z",
+  "repos": [
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30376,
+      "forks": 4073,
+      "starsToday": 3015,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转为可查询的RAG、自主推理智能体和自维护Wiki，基于Go构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-27T04:21:29.481Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41654,
+      "forks": 2995,
+      "starsToday": 4310,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI和Anthropic。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T04:21:29.193Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3846,
+      "forks": 452,
+      "starsToday": 1866,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 是用 Go 编写的智能体核心系统，为构建和运行 AI Agent 提供统一底层运行时与基础设施。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "infra",
+        "runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-27T04:21:29.368Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coder",
+      "fullName": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16715,
+      "forks": 1590,
+      "starsToday": 1246,
+      "topics": [],
+      "author": {
+        "name": "coder",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/coder"
+      },
+      "summary": "基于 Go 的开源平台，为开发者和 AI 代理提供安全、可复现的远程开发环境，支持在自有云或本地基础设施上按需创建隔离工作区。",
+      "tags": [
+        "dev-environment",
+        "remote-development",
+        "go",
+        "self-hosted",
+        "terraform",
+        "ai-agents"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T04:21:29.703Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-music-dl",
+      "fullName": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4858,
+      "forks": 466,
+      "starsToday": 352,
+      "topics": [],
+      "author": {
+        "name": "guohuiyuan",
+        "avatar": "https://avatars.githubusercontent.com/u/54976075?s=40&amp;v=4",
+        "url": "https://github.com/guohuiyuan"
+      },
+      "summary": "基于 Go 的全网音乐搜索下载工具，支持 CLI 与 Web 双模式，聚合网易云、QQ、酷狗、B站等 10+ 平台，多源并发搜索并可解析无损音质。",
+      "tags": [
+        "go",
+        "music",
+        "downloader",
+        "cli",
+        "web"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-27T04:21:30.437Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128035,
+      "forks": 45385,
+      "starsToday": 234,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动部署、扩缩容和自愈能力，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "golang",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-27T04:21:30.414Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caddy",
+      "fullName": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 76098,
+      "forks": 5005,
+      "starsToday": 267,
+      "topics": [],
+      "author": {
+        "name": "caddyserver",
+        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
+        "url": "https://github.com/caddyserver"
+      },
+      "summary": "Go 编写的快速可扩展多平台 Web 服务器，支持 HTTP/1-2-3 并自动配置 HTTPS 证书，配置简单开箱即用。",
+      "tags": [
+        "web-server",
+        "go",
+        "https",
+        "http3",
+        "reverse-proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-27T04:21:30.486Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139046,
+      "forks": 20623,
+      "starsToday": 214,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 官方编程语言仓库，提供编译器、运行时与标准库，主打简洁语法、高并发与快速编译，广泛用于云原生和微服务后端开发。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "runtime",
+        "standard-library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-27T04:21:30.911Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 66256,
+      "forks": 10864,
+      "starsToday": 158,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 是开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可视化，是云原生监控的事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "database",
+        "observability",
+        "go",
+        "promql"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-27T04:21:31.783Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tunnel-client",
+      "fullName": "openai/tunnel-client",
+      "url": "https://github.com/openai/tunnel-client",
+      "description": "Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 499,
+      "forks": 97,
+      "starsToday": 75,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/201815723?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 官方 Go 客户端，通过安全隧道把本地或私有 MCP 服务器接入 ChatGPT、Codex 与 Responses API，无需暴露公网。",
+      "tags": [
+        "mcp",
+        "tunnel",
+        "openai",
+        "go",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T04:21:31.573Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7325,
+      "forks": 802,
+      "starsToday": 311,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "统一配置 Claude Code、Cursor、Codex 等 AI 编程代理的开源工具，提供持久记忆、技能库、MCP 服务器与角色设定，避免代理锁定。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "mcp",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T04:21:31.677Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38241,
+      "forks": 5845,
+      "starsToday": 78,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令编排启动、网络与依赖，是本地与开发环境容器编排的事实标准工具。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "cli",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T04:21:32.045Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "newsjack",
+      "fullName": "elvisun/newsjack",
+      "url": "https://github.com/elvisun/newsjack",
+      "description": "The open-source skills that turn your agent into a full PR team.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1431,
+      "forks": 133,
+      "starsToday": 322,
+      "topics": [],
+      "author": {
+        "name": "elvisun",
+        "avatar": "https://avatars.githubusercontent.com/u/6955348?s=40&amp;v=4",
+        "url": "https://github.com/elvisun"
+      },
+      "summary": "开源技能集，把AI智能体变成完整公关团队，自动完成新闻稿撰写与媒体分发。",
+      "tags": [
+        "ai-agent",
+        "pr",
+        "go",
+        "automation",
+        "skills"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-27T04:21:32.550Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "v2rayA",
+      "fullName": "v2rayA/v2rayA",
+      "url": "https://github.com/v2rayA/v2rayA",
+      "description": "A web client for its own Xray-based core with global transparent proxy on Linux, Windows and macOS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15619,
+      "forks": 1609,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "v2rayA",
+        "avatar": "https://avatars.githubusercontent.com/u/30586220?s=40&amp;v=4",
+        "url": "https://github.com/v2rayA"
+      },
+      "summary": "基于 Xray 内核的跨平台代理客户端，提供 Web 界面管理，支持 Linux、Windows、macOS 全局透明代理。",
+      "tags": [
+        "proxy",
+        "xray",
+        "v2ray",
+        "golang",
+        "web-ui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-27T04:21:32.819Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pentest-Swarm-AI",
+      "fullName": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2633,
+      "forks": 480,
+      "starsToday": 113,
+      "topics": [],
+      "author": {
+        "name": "Armur-Ai",
+        "avatar": "https://avatars.githubusercontent.com/u/26513717?s=40&amp;v=4",
+        "url": "https://github.com/Armur-Ai"
+      },
+      "summary": "基于 Go 的自主渗透测试框架，用 AI 智能体集群编排侦察、分类、利用与报告流程，支持漏洞赏金、持续监控和 CTF 模式。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-27T04:21:33.325Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bifrost",
+      "fullName": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8383,
+      "forks": 1293,
+      "starsToday": 216,
+      "topics": [],
+      "author": {
+        "name": "maximhq",
+        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
+        "url": "https://github.com/maximhq"
+      },
+      "summary": "企业级 AI 网关，比 LiteLLM 快 50 倍，支持 1000+ 模型、自适应负载均衡、集群模式与护栏，5k RPS 下开销低于 100 微秒。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "go",
+        "load-balancer",
+        "enterprise"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-27T04:21:33.175Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "excelize",
+      "fullName": "qax-os/excelize",
+      "url": "https://github.com/qax-os/excelize",
+      "description": "Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20941,
+      "forks": 1961,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "qax-os",
+        "avatar": "https://avatars.githubusercontent.com/u/2809468?s=40&amp;v=4",
+        "url": "https://github.com/qax-os"
+      },
+      "summary": "Go 语言读写 Excel 电子表格的库，支持 XLSX、XLSM、XLAM 等格式，无需依赖 Office 即可生成和解析表格，API 简洁高效。",
+      "tags": [
+        "go",
+        "excel",
+        "xlsx",
+        "spreadsheet",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-27T04:21:33.833Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "distribution",
+      "fullName": "distribution/distribution",
+      "url": "https://github.com/distribution/distribution",
+      "description": "The toolkit to pack, ship, store, and deliver container content",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10628,
+      "forks": 2792,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "distribution",
+        "avatar": "https://avatars.githubusercontent.com/u/120601?s=40&amp;v=4",
+        "url": "https://github.com/distribution"
+      },
+      "summary": "容器镜像仓库的开源实现（原 Docker Registry），提供打包、分发、存储与拉取容器内容的完整工具链，是自建镜像仓库的事实标准。",
+      "tags": [
+        "registry",
+        "containers",
+        "oci",
+        "go",
+        "storage"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-27T04:21:34.009Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38088,
+      "forks": 714,
+      "starsToday": 116,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是 Aqua 开源的 Go 安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥并生成 SBOM，集成简单、速度快。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T04:21:34.640Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "arcane",
+      "fullName": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7619,
+      "forks": 320,
+      "starsToday": 183,
+      "topics": [],
+      "author": {
+        "name": "getarcaneapp",
+        "avatar": "https://avatars.githubusercontent.com/u/25576967?s=40&amp;v=4",
+        "url": "https://github.com/getarcaneapp"
+      },
+      "summary": "基于 Go 的现代化 Docker 管理平台，提供简洁易用的 Web 界面，让所有人都能轻松管理容器、镜像与部署。",
+      "tags": [
+        "docker",
+        "go",
+        "self-hosted",
+        "devops",
+        "containers"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-27T04:21:34.657Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
