@@ -2,65 +2,9 @@
   "date": "2026-09-29",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-09-29T04:51:53.985Z",
-  "enrichedAt": "2026-09-29T04:53:36.306Z",
+  "fetchedAt": "2026-09-29T15:28:26.929Z",
+  "enrichedAt": "2026-09-29T15:29:31.672Z",
   "repos": [
-    {
-      "name": "magnitude",
-      "fullName": "magnitudedev/magnitude",
-      "url": "https://github.com/magnitudedev/magnitude",
-      "description": "Open source inference engine for the hardware you already own. Profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5421,
-      "forks": 384,
-      "starsToday": 3856,
-      "topics": [],
-      "author": {
-        "name": "magnitudedev",
-        "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&amp;v=4",
-        "url": "https://github.com/magnitudedev"
-      },
-      "summary": "开源本地大模型推理引擎，自动检测硬件配置并推荐、调优最适合的开源模型，支持苹果芯片、NVIDIA、AMD 及纯 CPU 运行。",
-      "tags": [
-        "llm",
-        "inference",
-        "rust",
-        "local-ai",
-        "hardware"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-29T04:53:31.183Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gpui-kit",
-      "fullName": "longbridge/gpui-kit",
-      "url": "https://github.com/longbridge/gpui-kit",
-      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 14967,
-      "forks": 936,
-      "starsToday": 1386,
-      "topics": [],
-      "author": {
-        "name": "longbridge",
-        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
-        "url": "https://github.com/longbridge"
-      },
-      "summary": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库，提供开箱即用的高质量控件，助你快速构建精美桌面应用。",
-      "tags": [
-        "rust",
-        "gui",
-        "gpui",
-        "desktop",
-        "ui-components"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-29T04:53:31.032Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "worktrunk",
       "fullName": "max-sixty/worktrunk",
@@ -68,7 +12,7 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8452,
+      "stars": 8465,
       "forks": 302,
       "starsToday": 1844,
       "topics": [],
@@ -90,31 +34,312 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ai-memory",
-      "fullName": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "name": "gpui-kit",
+      "fullName": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8591,
-      "forks": 581,
-      "starsToday": 3529,
+      "stars": 15036,
+      "forks": 941,
+      "starsToday": 1386,
       "topics": [],
       "author": {
-        "name": "akitaonrails",
-        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
-        "url": "https://github.com/akitaonrails"
+        "name": "longbridge",
+        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
+        "url": "https://github.com/longbridge"
       },
-      "summary": "为编码智能体 CLI 提供长期记忆与跨厂商交接的 Rust 工具，让不同 agent 之间共享上下文、延续任务。",
+      "summary": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库，提供开箱即用的高质量控件，助你快速构建精美桌面应用。",
       "tags": [
-        "ai",
-        "memory",
-        "agents",
         "rust",
-        "cli"
+        "gui",
+        "gpui",
+        "desktop",
+        "ui-components"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-29T04:53:31.032Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clash-verge-rev",
+      "fullName": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 148273,
+      "forks": 10636,
+      "starsToday": 7660,
+      "topics": [],
+      "author": {
+        "name": "clash-verge-rev",
+        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
+        "url": "https://github.com/clash-verge-rev"
+      },
+      "summary": "基于 Tauri 的现代化跨平台代理客户端，支持 Windows、macOS 和 Linux，提供简洁易用的图形界面与定制化代理体验。",
+      "tags": [
+        "proxy",
+        "tauri",
+        "rust",
+        "cross-platform",
+        "gui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-29T04:53:35.645Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "magnitude",
+      "fullName": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference engine for the hardware you already own. Profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5461,
+      "forks": 389,
+      "starsToday": 3856,
+      "topics": [],
+      "author": {
+        "name": "magnitudedev",
+        "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&amp;v=4",
+        "url": "https://github.com/magnitudedev"
+      },
+      "summary": "开源本地大模型推理引擎，自动检测硬件配置并推荐、调优最适合的开源模型，支持苹果芯片、NVIDIA、AMD 及纯 CPU 运行。",
+      "tags": [
+        "llm",
+        "inference",
+        "rust",
+        "local-ai",
+        "hardware"
       ],
       "category": "AI",
-      "enrichedAt": "2026-09-29T04:53:31.380Z",
+      "enrichedAt": "2026-09-29T04:53:31.183Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 124775,
+      "forks": 19325,
+      "starsToday": 3124,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建服务器，可替代 TeamViewer，用 Rust 编写，跨平台且注重安全与低延迟。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-29T15:29:30.774Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microduck",
+      "fullName": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8976,
+      "forks": 1145,
+      "starsToday": 7524,
+      "topics": [],
+      "author": {
+        "name": "pollen-robotics",
+        "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&amp;v=4",
+        "url": "https://github.com/pollen-robotics"
+      },
+      "summary": "基于 Rust 开发的开源微型双足鸭子机器人，提供完整固件与运动控制方案，便于爱好者复刻与二次开发。",
+      "tags": [
+        "robotics",
+        "rust",
+        "biped",
+        "firmware",
+        "open-source"
+      ],
+      "category": "Robotics",
+      "enrichedAt": "2026-09-29T15:29:31.131Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2343,
+      "forks": 242,
+      "starsToday": 1387,
+      "topics": [],
+      "author": {
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
+      },
+      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 文件读写与 GPU 加速渲染，可作为轻量级桌面制图工具替代方案。",
+      "tags": [
+        "cad",
+        "rust",
+        "dwg",
+        "dxf",
+        "gpu",
+        "rendering"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-29T04:53:33.085Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pnpm",
+      "fullName": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36698,
+      "forks": 1898,
+      "starsToday": 453,
+      "topics": [],
+      "author": {
+        "name": "pnpm",
+        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
+        "url": "https://github.com/pnpm"
+      },
+      "summary": "快速、节省磁盘空间的 JavaScript 包管理器，通过硬链接共享依赖，安装更快且严格管理依赖树。",
+      "tags": [
+        "package-manager",
+        "javascript",
+        "nodejs",
+        "monorepo",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-29T15:29:30.736Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anki",
+      "fullName": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31657,
+      "forks": 3284,
+      "starsToday": 1797,
+      "topics": [],
+      "author": {
+        "name": "ankitects",
+        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
+        "url": "https://github.com/ankitects"
+      },
+      "summary": "Anki 是智能间隔重复闪卡学习程序，用算法优化复习节奏，帮助高效记忆，支持多平台与海量卡片插件生态。",
+      "tags": [
+        "flashcards",
+        "spaced-repetition",
+        "learning",
+        "rust",
+        "education"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-29T04:53:32.102Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hyperswitch",
+      "fullName": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 45233,
+      "forks": 6397,
+      "starsToday": 1904,
+      "topics": [],
+      "author": {
+        "name": "juspay",
+        "avatar": "https://avatars.githubusercontent.com/in/411175?s=40&amp;v=4",
+        "url": "https://github.com/juspay"
+      },
+      "summary": "开源可组合支付平台，用 Rust 编写，支持多支付/分账/风控/令牌化服务商接入，通过智能路由提升授权率并降低成本，提供 SaaS 与自托管方案。",
+      "tags": [
+        "payments",
+        "rust",
+        "fintech",
+        "open-source",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-29T04:53:31.878Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31815,
+      "forks": 3428,
+      "starsToday": 1253,
+      "topics": [],
+      "author": {
+        "name": "lbjlaq",
+        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
+        "url": "https://github.com/lbjlaq"
+      },
+      "summary": "基于 Tauri v2 + React(Rust) 的 Antigravity 账号管理与切换工具，支持一键无缝切换多个账号。",
+      "tags": [
+        "tauri",
+        "rust",
+        "react",
+        "account-manager",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-29T04:53:34.074Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 34123,
+      "forks": 1533,
+      "starsToday": 2879,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "Rust 编写的高性能 S3 兼容对象存储系统，支持与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "rust",
+        "object-storage",
+        "s3",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-29T04:53:32.427Z",
       "deepwikiAvailable": false
     },
     {
@@ -124,8 +349,8 @@
       "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 22922,
-      "forks": 1983,
+      "stars": 22943,
+      "forks": 1986,
       "starsToday": 1687,
       "topics": [],
       "author": {
@@ -147,116 +372,257 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "hyperswitch",
-      "fullName": "juspay/hyperswitch",
-      "url": "https://github.com/juspay/hyperswitch",
-      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "name": "MovieBox-Tui",
+      "fullName": "mesamirh/MovieBox-Tui",
+      "url": "https://github.com/mesamirh/MovieBox-Tui",
+      "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 45189,
-      "forks": 6365,
-      "starsToday": 1904,
+      "stars": 2335,
+      "forks": 268,
+      "starsToday": 1023,
       "topics": [],
       "author": {
-        "name": "juspay",
-        "avatar": "https://avatars.githubusercontent.com/in/411175?s=40&amp;v=4",
-        "url": "https://github.com/juspay"
+        "name": "mesamirh",
+        "avatar": "https://avatars.githubusercontent.com/u/73069638?s=40&amp;v=4",
+        "url": "https://github.com/mesamirh"
       },
-      "summary": "开源可组合支付平台，用 Rust 编写，支持多支付/分账/风控/令牌化服务商接入，通过智能路由提升授权率并降低成本，提供 SaaS 与自托管方案。",
+      "summary": "基于 Rust 的终端影视工具，可在命令行中搜索、下载并调用本地播放器观看电影、剧集和直播电视。",
       "tags": [
-        "payments",
         "rust",
-        "fintech",
-        "open-source",
-        "self-hosted"
+        "tui",
+        "cli",
+        "streaming",
+        "media",
+        "terminal"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-29T04:53:31.878Z",
+      "category": "CLI",
+      "enrichedAt": "2026-09-29T04:53:35.135Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "anki",
-      "fullName": "ankitects/anki",
-      "url": "https://github.com/ankitects/anki",
-      "description": "Anki is a smart spaced repetition flashcard program",
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 31646,
-      "forks": 3282,
-      "starsToday": 1797,
+      "stars": 8624,
+      "forks": 585,
+      "starsToday": 3529,
       "topics": [],
       "author": {
-        "name": "ankitects",
-        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
-        "url": "https://github.com/ankitects"
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
       },
-      "summary": "Anki 是智能间隔重复闪卡学习程序，用算法优化复习节奏，帮助高效记忆，支持多平台与海量卡片插件生态。",
+      "summary": "为编码智能体 CLI 提供长期记忆与跨厂商交接的 Rust 工具，让不同 agent 之间共享上下文、延续任务。",
       "tags": [
-        "flashcards",
-        "spaced-repetition",
-        "learning",
+        "ai",
+        "memory",
+        "agents",
         "rust",
-        "education"
+        "cli"
       ],
-      "category": "App",
-      "enrichedAt": "2026-09-29T04:53:32.102Z",
+      "category": "AI",
+      "enrichedAt": "2026-09-29T04:53:31.380Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "name": "check-if-email-exists",
+      "fullName": "reacherhq/check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 34079,
-      "forks": 1530,
-      "starsToday": 2879,
+      "stars": 10048,
+      "forks": 727,
+      "starsToday": 610,
       "topics": [],
       "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
+        "name": "reacherhq",
+        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
+        "url": "https://github.com/reacherhq"
       },
-      "summary": "Rust 编写的高性能 S3 兼容对象存储系统，支持与 MinIO、Ceph 等平台迁移共存。",
+      "summary": "用 Rust 编写的邮箱地址真实性检测工具，无需发信即可通过 SMTP 等校验邮箱是否存在，并附带 HTTP 后端服务。",
       "tags": [
         "rust",
-        "object-storage",
-        "s3",
-        "storage",
-        "minio"
+        "email",
+        "smtp",
+        "validation",
+        "http-api"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-29T04:53:32.427Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-09-29T04:53:36.305Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "OpenCADStudio",
-      "fullName": "HakanSeven12/OpenCADStudio",
-      "url": "https://github.com/HakanSeven12/OpenCADStudio",
-      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "name": "gpuix",
+      "fullName": "remorses/gpuix",
+      "url": "https://github.com/remorses/gpuix",
+      "description": "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2327,
-      "forks": 240,
-      "starsToday": 1387,
+      "stars": 2468,
+      "forks": 69,
+      "starsToday": 1143,
       "topics": [],
       "author": {
-        "name": "HakanSeven12",
-        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
-        "url": "https://github.com/HakanSeven12"
+        "name": "remorses",
+        "avatar": "https://avatars.githubusercontent.com/u/31321188?s=40&amp;v=4",
+        "url": "https://github.com/remorses"
       },
-      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 文件读写与 GPU 加速渲染，可作为轻量级桌面制图工具替代方案。",
+      "summary": "基于 Zed 的 GPUI 提供 Node.js 与 React 绑定，用 React 构建内存高效的原生桌面应用，无需 Electron。",
       "tags": [
-        "cad",
         "rust",
-        "dwg",
-        "dxf",
+        "react",
+        "gpui",
+        "nodejs",
+        "desktop",
+        "native"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-29T04:53:36.149Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cuda-rust",
+      "fullName": "NVIDIA/cuda-rust",
+      "url": "https://github.com/NVIDIA/cuda-rust",
+      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3620,
+      "forks": 285,
+      "starsToday": 518,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "cuda-oxide 是 Rust 到 CUDA 的编译器，可将标准 Rust 代码直接编译为 PTX，用惯用 Rust 编写 SIMT GPU 内核，无需 DSL 或外部语言绑定。",
+      "tags": [
+        "rust",
+        "cuda",
         "gpu",
-        "rendering"
+        "compiler",
+        "ptx"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-29T04:53:33.376Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iggy",
+      "fullName": "apache/iggy",
+      "url": "https://github.com/apache/iggy",
+      "description": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4965,
+      "forks": 451,
+      "starsToday": 379,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/5490304?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Iggy 是用 Rust 编写的高效消息流平台，以极低延迟和超高吞吐实现持久化流式传输，可作为 Kafka 的轻量替代方案。",
+      "tags": [
+        "rust",
+        "messaging",
+        "streaming",
+        "kafka",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-29T15:29:30.991Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "magika",
+      "fullName": "google/magika",
+      "url": "https://github.com/google/magika",
+      "description": "Fast and accurate AI powered file content types detection",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18686,
+      "forks": 1172,
+      "starsToday": 736,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/1136172?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "基于AI的快速文件内容类型检测工具，用深度学习识别文件真实格式，比传统扩展名判断更准确，支持多语言绑定。",
+      "tags": [
+        "file-detection",
+        "ai",
+        "rust",
+        "machine-learning",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-29T04:53:33.632Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Seelen-UI",
+      "fullName": "eythaann/Seelen-UI",
+      "url": "https://github.com/eythaann/Seelen-UI",
+      "description": "The Fully Customizable Desktop Environment for Windows 10/11.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17904,
+      "forks": 613,
+      "starsToday": 335,
+      "topics": [],
+      "author": {
+        "name": "eythaann",
+        "avatar": "https://avatars.githubusercontent.com/u/76607907?s=40&amp;v=4",
+        "url": "https://github.com/eythaann"
+      },
+      "summary": "面向 Windows 10/11 的完全可定制桌面环境，用 Rust 打造，可替换任务栏、窗口管理与小组件，实现高度个性化的桌面体验。",
+      "tags": [
+        "windows",
+        "desktop",
+        "rust",
+        "customization",
+        "ui"
       ],
       "category": "App",
-      "enrichedAt": "2026-09-29T04:53:33.085Z",
+      "enrichedAt": "2026-09-29T15:29:31.672Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llmfit",
+      "fullName": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37321,
+      "forks": 2392,
+      "starsToday": 2957,
+      "topics": [],
+      "author": {
+        "name": "AlexsJones",
+        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
+        "url": "https://github.com/AlexsJones"
+      },
+      "summary": "Rust 编写的命令行工具，一条命令即可从数百个模型与供应商中筛选出能在你本机硬件上运行的 LLM，避免盲目下载。",
+      "tags": [
+        "llm",
+        "rust",
+        "cli",
+        "hardware",
+        "local-models"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-09-29T04:53:34.243Z",
       "deepwikiAvailable": false
     },
     {
@@ -286,118 +652,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-29T04:53:33.049Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cuda-rust",
-      "fullName": "NVIDIA/cuda-rust",
-      "url": "https://github.com/NVIDIA/cuda-rust",
-      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3613,
-      "forks": 284,
-      "starsToday": 518,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "cuda-oxide 是 Rust 到 CUDA 的编译器，可将标准 Rust 代码直接编译为 PTX，用惯用 Rust 编写 SIMT GPU 内核，无需 DSL 或外部语言绑定。",
-      "tags": [
-        "rust",
-        "cuda",
-        "gpu",
-        "compiler",
-        "ptx"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-29T04:53:33.376Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "magika",
-      "fullName": "google/magika",
-      "url": "https://github.com/google/magika",
-      "description": "Fast and accurate AI powered file content types detection",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 18683,
-      "forks": 1172,
-      "starsToday": 736,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/1136172?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "基于AI的快速文件内容类型检测工具，用深度学习识别文件真实格式，比传统扩展名判断更准确，支持多语言绑定。",
-      "tags": [
-        "file-detection",
-        "ai",
-        "rust",
-        "machine-learning",
-        "security"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-29T04:53:33.632Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "llmfit",
-      "fullName": "AlexsJones/llmfit",
-      "url": "https://github.com/AlexsJones/llmfit",
-      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 37280,
-      "forks": 2389,
-      "starsToday": 2957,
-      "topics": [],
-      "author": {
-        "name": "AlexsJones",
-        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
-        "url": "https://github.com/AlexsJones"
-      },
-      "summary": "Rust 编写的命令行工具，一条命令即可从数百个模型与供应商中筛选出能在你本机硬件上运行的 LLM，避免盲目下载。",
-      "tags": [
-        "llm",
-        "rust",
-        "cli",
-        "hardware",
-        "local-models"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-29T04:53:34.243Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Antigravity-Manager",
-      "fullName": "lbjlaq/Antigravity-Manager",
-      "url": "https://github.com/lbjlaq/Antigravity-Manager",
-      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31806,
-      "forks": 3425,
-      "starsToday": 1253,
-      "topics": [],
-      "author": {
-        "name": "lbjlaq",
-        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
-        "url": "https://github.com/lbjlaq"
-      },
-      "summary": "基于 Tauri v2 + React(Rust) 的 Antigravity 账号管理与切换工具，支持一键无缝切换多个账号。",
-      "tags": [
-        "tauri",
-        "rust",
-        "react",
-        "account-manager",
-        "desktop"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-29T04:53:34.074Z",
       "deepwikiAvailable": false
     },
     {
@@ -485,63 +739,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "MovieBox-Tui",
-      "fullName": "mesamirh/MovieBox-Tui",
-      "url": "https://github.com/mesamirh/MovieBox-Tui",
-      "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2323,
-      "forks": 268,
-      "starsToday": 1023,
-      "topics": [],
-      "author": {
-        "name": "mesamirh",
-        "avatar": "https://avatars.githubusercontent.com/u/73069638?s=40&amp;v=4",
-        "url": "https://github.com/mesamirh"
-      },
-      "summary": "基于 Rust 的终端影视工具，可在命令行中搜索、下载并调用本地播放器观看电影、剧集和直播电视。",
-      "tags": [
-        "rust",
-        "tui",
-        "cli",
-        "streaming",
-        "media",
-        "terminal"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-09-29T04:53:35.135Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "clash-verge-rev",
-      "fullName": "clash-verge-rev/clash-verge-rev",
-      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 148111,
-      "forks": 10624,
-      "starsToday": 7660,
-      "topics": [],
-      "author": {
-        "name": "clash-verge-rev",
-        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
-        "url": "https://github.com/clash-verge-rev"
-      },
-      "summary": "基于 Tauri 的现代化跨平台代理客户端，支持 Windows、macOS 和 Linux，提供简洁易用的图形界面与定制化代理体验。",
-      "tags": [
-        "proxy",
-        "tauri",
-        "rust",
-        "cross-platform",
-        "gui"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-29T04:53:35.645Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "egui",
       "fullName": "emilk/egui",
       "url": "https://github.com/emilk/egui",
@@ -567,63 +764,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-09-29T04:53:35.590Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "check-if-email-exists",
-      "fullName": "reacherhq/check-if-email-exists",
-      "url": "https://github.com/reacherhq/check-if-email-exists",
-      "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 10046,
-      "forks": 726,
-      "starsToday": 610,
-      "topics": [],
-      "author": {
-        "name": "reacherhq",
-        "avatar": "https://avatars.githubusercontent.com/in/2141?s=40&amp;v=4",
-        "url": "https://github.com/reacherhq"
-      },
-      "summary": "用 Rust 编写的邮箱地址真实性检测工具，无需发信即可通过 SMTP 等校验邮箱是否存在，并附带 HTTP 后端服务。",
-      "tags": [
-        "rust",
-        "email",
-        "smtp",
-        "validation",
-        "http-api"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-29T04:53:36.305Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gpuix",
-      "fullName": "remorses/gpuix",
-      "url": "https://github.com/remorses/gpuix",
-      "description": "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2454,
-      "forks": 68,
-      "starsToday": 1143,
-      "topics": [],
-      "author": {
-        "name": "remorses",
-        "avatar": "https://avatars.githubusercontent.com/u/31321188?s=40&amp;v=4",
-        "url": "https://github.com/remorses"
-      },
-      "summary": "基于 Zed 的 GPUI 提供 Node.js 与 React 绑定，用 React 构建内存高效的原生桌面应用，无需 Electron。",
-      "tags": [
-        "rust",
-        "react",
-        "gpui",
-        "nodejs",
-        "desktop",
-        "native"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-29T04:53:36.149Z",
       "deepwikiAvailable": false
     }
   ]
