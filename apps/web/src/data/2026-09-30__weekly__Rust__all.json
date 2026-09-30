@@ -2,9 +2,37 @@
   "date": "2026-09-30",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-09-30T04:38:02.323Z",
-  "enrichedAt": "2026-09-30T04:39:20.875Z",
+  "fetchedAt": "2026-09-30T15:43:30.071Z",
+  "enrichedAt": "2026-09-30T15:44:27.650Z",
   "repos": [
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11759,
+      "forks": 1495,
+      "starsToday": 1410,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 推出的自主 AI 智能体安全私有运行时，用 Rust 编写，为智能体提供隔离、可控的执行环境。",
+      "tags": [
+        "ai-agents",
+        "runtime",
+        "rust",
+        "sandbox",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:39:17.440Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "hydradb",
       "fullName": "hydra-db/hydradb",
@@ -12,8 +40,8 @@
       "description": "HydraDB - fast graph database on object storage",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 12873,
-      "forks": 5589,
+      "stars": 12998,
+      "forks": 5594,
       "starsToday": 8539,
       "topics": [],
       "author": {
@@ -34,14 +62,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "omnyssh",
+      "fullName": "timhartmann7/omnyssh",
+      "url": "https://github.com/timhartmann7/omnyssh",
+      "description": "Fast, open-source SSH client and server manager for macOS, Windows and Linux. Desktop GUI and terminal TUI with a live metrics dashboard, tabbed terminal, SFTP file manager, port forwarding, one-click SSH keys and snippets. Built in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1092,
+      "forks": 60,
+      "starsToday": 320,
+      "topics": [],
+      "author": {
+        "name": "timhartmann7",
+        "avatar": "https://avatars.githubusercontent.com/u/162906779?s=40&amp;v=4",
+        "url": "https://github.com/timhartmann7"
+      },
+      "summary": "基于 Rust 的跨平台开源 SSH 客户端与服务器管理器，提供桌面 GUI 与终端 TUI，集成实时监控面板、多标签终端、SFTP 文件管理、端口转发、一键密钥与代码片段。",
+      "tags": [
+        "ssh",
+        "rust",
+        "tui",
+        "sftp",
+        "cross-platform",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T04:39:16.236Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "buzz",
       "fullName": "block/buzz",
       "url": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 35311,
-      "forks": 4657,
+      "stars": 35333,
+      "forks": 4658,
       "starsToday": 1431,
       "topics": [],
       "author": {
@@ -59,6 +116,486 @@
       ],
       "category": "App",
       "enrichedAt": "2026-09-30T04:39:15.221Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nasiko",
+      "fullName": "Nasiko-Labs/nasiko",
+      "url": "https://github.com/Nasiko-Labs/nasiko",
+      "description": "The Open Runtime for AI Agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9211,
+      "forks": 1949,
+      "starsToday": 1572,
+      "topics": [],
+      "author": {
+        "name": "Nasiko-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/137779928?s=40&amp;v=4",
+        "url": "https://github.com/Nasiko-Labs"
+      },
+      "summary": "面向 AI Agent 的开发者控制平面，用 Rust 编写，统一管理、编排与观测智能体运行，让 Agent 开发部署更可控。",
+      "tags": [
+        "ai-agents",
+        "rust",
+        "control-plane",
+        "orchestration",
+        "devtool"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-30T04:39:16.679Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clash-verge-rev",
+      "fullName": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 148492,
+      "forks": 10663,
+      "starsToday": 1988,
+      "topics": [],
+      "author": {
+        "name": "clash-verge-rev",
+        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
+        "url": "https://github.com/clash-verge-rev"
+      },
+      "summary": "基于 Tauri 的现代化跨平台代理客户端，为 Windows、macOS 和 Linux 提供图形化界面与定制化代理体验。",
+      "tags": [
+        "proxy",
+        "tauri",
+        "rust",
+        "gui",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-30T04:39:17.507Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zeron",
+      "fullName": "zeronsh/zeron",
+      "url": "https://github.com/zeronsh/zeron",
+      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2502,
+      "forks": 239,
+      "starsToday": 633,
+      "topics": [],
+      "author": {
+        "name": "zeronsh",
+        "avatar": "https://avatars.githubusercontent.com/u/234226124?s=40&amp;v=4",
+        "url": "https://github.com/zeronsh"
+      },
+      "summary": "面向 Claude Code、Codex、Cursor、Devin 等编码代理的原生控制平面，用 Rust 统一调度与管理多个 AI 编程代理。",
+      "tags": [
+        "ai-agents",
+        "coding-agent",
+        "rust",
+        "control-plane",
+        "devtool"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-30T04:39:19.703Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119340,
+      "forks": 17244,
+      "starsToday": 344,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 编程语言官方仓库，提供内存安全与高性能并重的系统级开发工具链，含编译器、标准库与 Cargo 生态。",
+      "tags": [
+        "rust",
+        "compiler",
+        "systems-programming",
+        "language",
+        "toolchain"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T04:39:18.248Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hyperswitch",
+      "fullName": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 45265,
+      "forks": 6424,
+      "starsToday": 1593,
+      "topics": [],
+      "author": {
+        "name": "juspay",
+        "avatar": "https://avatars.githubusercontent.com/in/411175?s=40&amp;v=4",
+        "url": "https://github.com/juspay"
+      },
+      "summary": "开源可组合支付平台，用 Rust 编写，兼容 PCI，支持 SaaS 与自托管，可对接多家支付、代付、风控与令牌化服务商，通过智能路由提升授权率并降低支付成本。",
+      "tags": [
+        "payments",
+        "rust",
+        "fintech",
+        "self-hosted",
+        "routing"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:39:18.081Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22927,
+      "forks": 2133,
+      "starsToday": 2251,
+      "topics": [],
+      "author": {
+        "name": "t8y2",
+        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
+        "url": "https://github.com/t8y2"
+      },
+      "summary": "仅25MB的轻量级跨平台数据库客户端，支持MySQL、PostgreSQL、Redis、MongoDB等100多种数据库，内置AI助手与MCP，提供桌面端、CLI和Docker。",
+      "tags": [
+        "database",
+        "rust",
+        "cli",
+        "ai",
+        "mcp",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T15:44:26.153Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11741,
+      "forks": 849,
+      "starsToday": 399,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用 Rust 编写的高性能 Minecraft 服务端，让任何人都能轻松搭建快速高效的服务器，兼顾性能与易用性。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "server",
+        "game",
+        "performance"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-30T15:44:26.418Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pnpm",
+      "fullName": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36715,
+      "forks": 1899,
+      "starsToday": 112,
+      "topics": [],
+      "author": {
+        "name": "pnpm",
+        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
+        "url": "https://github.com/pnpm"
+      },
+      "summary": "pnpm 是快速且节省磁盘空间的包管理器，通过硬链接共享依赖存储，支持严格依赖隔离与 monorepo 工作区。",
+      "tags": [
+        "package-manager",
+        "nodejs",
+        "monorepo",
+        "cli",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T15:44:25.981Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-desktop",
+      "fullName": "lahfir/agent-desktop",
+      "url": "https://github.com/lahfir/agent-desktop",
+      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1730,
+      "forks": 121,
+      "starsToday": 256,
+      "topics": [],
+      "author": {
+        "name": "lahfir",
+        "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&amp;v=4",
+        "url": "https://github.com/lahfir"
+      },
+      "summary": "基于 Rust 的桌面智能体框架，通过系统无障碍树读取真实 UI 结构并操作任意应用，元素引用稳定、动作可安全重试，无需依赖像素猜测。",
+      "tags": [
+        "rust",
+        "agent",
+        "desktop",
+        "accessibility",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-30T04:39:18.482Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpui-kit",
+      "fullName": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15237,
+      "forks": 951,
+      "starsToday": 412,
+      "topics": [],
+      "author": {
+        "name": "longbridge",
+        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
+        "url": "https://github.com/longbridge"
+      },
+      "summary": "基于 GPUI 的 Rust 跨平台桌面 GUI 组件库，提供丰富可复用控件，帮助开发者快速构建高性能原生桌面应用。",
+      "tags": [
+        "rust",
+        "gui",
+        "gpui",
+        "desktop",
+        "components",
+        "cross-platform"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-30T04:39:18.574Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coop",
+      "fullName": "trailofbits/coop",
+      "url": "https://github.com/trailofbits/coop",
+      "description": "Isolated VM environment for running Claude Code and Codex",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 727,
+      "forks": 38,
+      "starsToday": 472,
+      "topics": [],
+      "author": {
+        "name": "trailofbits",
+        "avatar": "https://avatars.githubusercontent.com/u/90325907?s=40&amp;v=4",
+        "url": "https://github.com/trailofbits"
+      },
+      "summary": "基于Rust的隔离虚拟机环境，用于安全运行Claude Code和Codex等AI编码代理，防止其访问宿主机敏感数据。",
+      "tags": [
+        "sandbox",
+        "vm",
+        "ai-agent",
+        "rust",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:39:19.714Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "atlas",
+      "fullName": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8547,
+      "forks": 339,
+      "starsToday": 2593,
+      "topics": [],
+      "author": {
+        "name": "pacifio",
+        "avatar": "https://avatars.githubusercontent.com/u/32670628?s=40&amp;v=4",
+        "url": "https://github.com/pacifio"
+      },
+      "summary": "面向 AI 编码代理的版本控制工具，用 Rust 编写，可同时调度多个编码代理、追踪其改动并集中查询，解决多代理协作的变更管理难题。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "version-control",
+        "developer-tools",
+        "coding-agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T04:39:17.058Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "yt-dlp-gui",
+      "fullName": "imsyy/yt-dlp-gui",
+      "url": "https://github.com/imsyy/yt-dlp-gui",
+      "description": "A modern cross-platform GUI for yt-dlp. Download videos from YouTube, Bilibili, TikTok and 1000+ sites. Built with Tauri + Vue.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 439,
+      "forks": 57,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "imsyy",
+        "avatar": "https://avatars.githubusercontent.com/u/42232682?s=40&amp;v=4",
+        "url": "https://github.com/imsyy"
+      },
+      "summary": "基于 Tauri + Vue 的现代化跨平台 yt-dlp 图形界面，支持从 YouTube、Bilibili、TikTok 等 1000 多个站点下载视频。",
+      "tags": [
+        "yt-dlp",
+        "tauri",
+        "vue",
+        "downloader",
+        "cross-platform",
+        "gui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-30T04:39:19.587Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "liteparse",
+      "fullName": "run-llama/liteparse",
+      "url": "https://github.com/run-llama/liteparse",
+      "description": "A fast, helpful, and open-source document parser",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12737,
+      "forks": 868,
+      "starsToday": 366,
+      "topics": [],
+      "author": {
+        "name": "run-llama",
+        "avatar": "https://avatars.githubusercontent.com/u/22285038?s=40&amp;v=4",
+        "url": "https://github.com/run-llama"
+      },
+      "summary": "基于 Rust 的开源文档解析器，速度快、易用，可高效提取多种格式文档内容，适合构建 RAG 与数据处理流程。",
+      "tags": [
+        "rust",
+        "parser",
+        "document",
+        "rag",
+        "open-source"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-09-30T04:39:20.567Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "topcoat",
+      "fullName": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5788,
+      "forks": 193,
+      "starsToday": 720,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/8947616?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "Tokio 团队出品的 Rust Web 应用框架，开箱即用、内置常用组件，简化全栈 Web 开发。",
+      "tags": [
+        "rust",
+        "web",
+        "framework",
+        "tokio",
+        "backend"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-09-30T04:39:16.445Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "autoshorts",
+      "fullName": "JayWebtech/autoshorts",
+      "url": "https://github.com/JayWebtech/autoshorts",
+      "description": "AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1012,
+      "forks": 193,
+      "starsToday": 170,
+      "topics": [],
+      "author": {
+        "name": "JayWebtech",
+        "avatar": "https://avatars.githubusercontent.com/u/45628811?s=40&amp;v=4",
+        "url": "https://github.com/JayWebtech"
+      },
+      "summary": "本地优先的桌面应用，用AI从长视频或音频中自动识别并排序高传播潜力的爆点，生成9:16竖屏短视频候选片段。",
+      "tags": [
+        "video",
+        "ai",
+        "rust",
+        "desktop",
+        "shorts",
+        "local-first"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-09-30T15:44:26.524Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tauri",
+      "fullName": "tauri-apps/tauri",
+      "url": "https://github.com/tauri-apps/tauri",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 111502,
+      "forks": 4036,
+      "starsToday": 270,
+      "topics": [],
+      "author": {
+        "name": "tauri-apps",
+        "avatar": "https://avatars.githubusercontent.com/u/20051258?s=40&amp;v=4",
+        "url": "https://github.com/tauri-apps"
+      },
+      "summary": "用 Rust 构建体积更小、更快、更安全的桌面与移动应用，前端仍可用任意 Web 技术栈，兼顾原生性能与跨平台。",
+      "tags": [
+        "rust",
+        "desktop",
+        "cross-platform",
+        "webview",
+        "mobile"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T15:44:27.650Z",
       "deepwikiAvailable": false
     },
     {
@@ -118,288 +655,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nasiko",
-      "fullName": "Nasiko-Labs/nasiko",
-      "url": "https://github.com/Nasiko-Labs/nasiko",
-      "description": "Developer Control Plane for your AI Agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 9114,
-      "forks": 1949,
-      "starsToday": 1572,
-      "topics": [],
-      "author": {
-        "name": "Nasiko-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/137779928?s=40&amp;v=4",
-        "url": "https://github.com/Nasiko-Labs"
-      },
-      "summary": "面向 AI Agent 的开发者控制平面，用 Rust 编写，统一管理、编排与观测智能体运行，让 Agent 开发部署更可控。",
-      "tags": [
-        "ai-agents",
-        "rust",
-        "control-plane",
-        "orchestration",
-        "devtool"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-30T04:39:16.679Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omnyssh",
-      "fullName": "timhartmann7/omnyssh",
-      "url": "https://github.com/timhartmann7/omnyssh",
-      "description": "Fast, open-source SSH client and server manager for macOS, Windows and Linux. Desktop GUI and terminal TUI with a live metrics dashboard, tabbed terminal, SFTP file manager, port forwarding, one-click SSH keys and snippets. Built in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1081,
-      "forks": 58,
-      "starsToday": 320,
-      "topics": [],
-      "author": {
-        "name": "timhartmann7",
-        "avatar": "https://avatars.githubusercontent.com/u/162906779?s=40&amp;v=4",
-        "url": "https://github.com/timhartmann7"
-      },
-      "summary": "基于 Rust 的跨平台开源 SSH 客户端与服务器管理器，提供桌面 GUI 与终端 TUI，集成实时监控面板、多标签终端、SFTP 文件管理、端口转发、一键密钥与代码片段。",
-      "tags": [
-        "ssh",
-        "rust",
-        "tui",
-        "sftp",
-        "cross-platform",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-30T04:39:16.236Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "topcoat",
-      "fullName": "tokio-rs/topcoat",
-      "url": "https://github.com/tokio-rs/topcoat",
-      "description": "A batteries-included framework for building web apps",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5754,
-      "forks": 191,
-      "starsToday": 720,
-      "topics": [],
-      "author": {
-        "name": "tokio-rs",
-        "avatar": "https://avatars.githubusercontent.com/u/8947616?s=40&amp;v=4",
-        "url": "https://github.com/tokio-rs"
-      },
-      "summary": "Tokio 团队出品的 Rust Web 应用框架，开箱即用、内置常用组件，简化全栈 Web 开发。",
-      "tags": [
-        "rust",
-        "web",
-        "framework",
-        "tokio",
-        "backend"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-09-30T04:39:16.445Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "atlas",
-      "fullName": "pacifio/atlas",
-      "url": "https://github.com/pacifio/atlas",
-      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8431,
-      "forks": 339,
-      "starsToday": 2593,
-      "topics": [],
-      "author": {
-        "name": "pacifio",
-        "avatar": "https://avatars.githubusercontent.com/u/32670628?s=40&amp;v=4",
-        "url": "https://github.com/pacifio"
-      },
-      "summary": "面向 AI 编码代理的版本控制工具，用 Rust 编写，可同时调度多个编码代理、追踪其改动并集中查询，解决多代理协作的变更管理难题。",
-      "tags": [
-        "rust",
-        "ai-agents",
-        "version-control",
-        "developer-tools",
-        "coding-agent"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-30T04:39:17.058Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 10798,
-      "forks": 1432,
-      "starsToday": 1410,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 推出的自主 AI 智能体安全私有运行时，用 Rust 编写，为智能体提供隔离、可控的执行环境。",
-      "tags": [
-        "ai-agents",
-        "runtime",
-        "rust",
-        "sandbox",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-30T04:39:17.440Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "clash-verge-rev",
-      "fullName": "clash-verge-rev/clash-verge-rev",
-      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 148370,
-      "forks": 10646,
-      "starsToday": 1988,
-      "topics": [],
-      "author": {
-        "name": "clash-verge-rev",
-        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
-        "url": "https://github.com/clash-verge-rev"
-      },
-      "summary": "基于 Tauri 的现代化跨平台代理客户端，为 Windows、macOS 和 Linux 提供图形化界面与定制化代理体验。",
-      "tags": [
-        "proxy",
-        "tauri",
-        "rust",
-        "gui",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-30T04:39:17.507Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rust",
-      "fullName": "rust-lang/rust",
-      "url": "https://github.com/rust-lang/rust",
-      "description": "Empowering everyone to build reliable and efficient software.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 119320,
-      "forks": 17229,
-      "starsToday": 344,
-      "topics": [],
-      "author": {
-        "name": "rust-lang",
-        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
-        "url": "https://github.com/rust-lang"
-      },
-      "summary": "Rust 编程语言官方仓库，提供内存安全与高性能并重的系统级开发工具链，含编译器、标准库与 Cargo 生态。",
-      "tags": [
-        "rust",
-        "compiler",
-        "systems-programming",
-        "language",
-        "toolchain"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-09-30T04:39:18.248Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hyperswitch",
-      "fullName": "juspay/hyperswitch",
-      "url": "https://github.com/juspay/hyperswitch",
-      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 45262,
-      "forks": 6423,
-      "starsToday": 1593,
-      "topics": [],
-      "author": {
-        "name": "juspay",
-        "avatar": "https://avatars.githubusercontent.com/in/411175?s=40&amp;v=4",
-        "url": "https://github.com/juspay"
-      },
-      "summary": "开源可组合支付平台，用 Rust 编写，兼容 PCI，支持 SaaS 与自托管，可对接多家支付、代付、风控与令牌化服务商，通过智能路由提升授权率并降低支付成本。",
-      "tags": [
-        "payments",
-        "rust",
-        "fintech",
-        "self-hosted",
-        "routing"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-30T04:39:18.081Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-desktop",
-      "fullName": "lahfir/agent-desktop",
-      "url": "https://github.com/lahfir/agent-desktop",
-      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1726,
-      "forks": 120,
-      "starsToday": 256,
-      "topics": [],
-      "author": {
-        "name": "lahfir",
-        "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&amp;v=4",
-        "url": "https://github.com/lahfir"
-      },
-      "summary": "基于 Rust 的桌面智能体框架，通过系统无障碍树读取真实 UI 结构并操作任意应用，元素引用稳定、动作可安全重试，无需依赖像素猜测。",
-      "tags": [
-        "rust",
-        "agent",
-        "desktop",
-        "accessibility",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-30T04:39:18.482Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gpui-kit",
-      "fullName": "longbridge/gpui-kit",
-      "url": "https://github.com/longbridge/gpui-kit",
-      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 15135,
-      "forks": 944,
-      "starsToday": 412,
-      "topics": [],
-      "author": {
-        "name": "longbridge",
-        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
-        "url": "https://github.com/longbridge"
-      },
-      "summary": "基于 GPUI 的 Rust 跨平台桌面 GUI 组件库，提供丰富可复用控件，帮助开发者快速构建高性能原生桌面应用。",
-      "tags": [
-        "rust",
-        "gui",
-        "gpui",
-        "desktop",
-        "components",
-        "cross-platform"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-30T04:39:18.574Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Codex-X",
       "fullName": "yynxxxxx/Codex-X",
       "url": "https://github.com/yynxxxxx/Codex-X",
@@ -426,119 +681,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-09-30T04:39:19.490Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "yt-dlp-gui",
-      "fullName": "imsyy/yt-dlp-gui",
-      "url": "https://github.com/imsyy/yt-dlp-gui",
-      "description": "A modern cross-platform GUI for yt-dlp. Download videos from YouTube, Bilibili, TikTok and 1000+ sites. Built with Tauri + Vue.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 436,
-      "forks": 56,
-      "starsToday": 51,
-      "topics": [],
-      "author": {
-        "name": "imsyy",
-        "avatar": "https://avatars.githubusercontent.com/u/42232682?s=40&amp;v=4",
-        "url": "https://github.com/imsyy"
-      },
-      "summary": "基于 Tauri + Vue 的现代化跨平台 yt-dlp 图形界面，支持从 YouTube、Bilibili、TikTok 等 1000 多个站点下载视频。",
-      "tags": [
-        "yt-dlp",
-        "tauri",
-        "vue",
-        "downloader",
-        "cross-platform",
-        "gui"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-09-30T04:39:19.587Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "coop",
-      "fullName": "trailofbits/coop",
-      "url": "https://github.com/trailofbits/coop",
-      "description": "Isolated VM environment for running Claude Code and Codex",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 725,
-      "forks": 38,
-      "starsToday": 472,
-      "topics": [],
-      "author": {
-        "name": "trailofbits",
-        "avatar": "https://avatars.githubusercontent.com/u/90325907?s=40&amp;v=4",
-        "url": "https://github.com/trailofbits"
-      },
-      "summary": "基于Rust的隔离虚拟机环境，用于安全运行Claude Code和Codex等AI编码代理，防止其访问宿主机敏感数据。",
-      "tags": [
-        "sandbox",
-        "vm",
-        "ai-agent",
-        "rust",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-09-30T04:39:19.714Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zeron",
-      "fullName": "zeronsh/zeron",
-      "url": "https://github.com/zeronsh/zeron",
-      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2488,
-      "forks": 237,
-      "starsToday": 633,
-      "topics": [],
-      "author": {
-        "name": "zeronsh",
-        "avatar": "https://avatars.githubusercontent.com/u/234226124?s=40&amp;v=4",
-        "url": "https://github.com/zeronsh"
-      },
-      "summary": "面向 Claude Code、Codex、Cursor、Devin 等编码代理的原生控制平面，用 Rust 统一调度与管理多个 AI 编程代理。",
-      "tags": [
-        "ai-agents",
-        "coding-agent",
-        "rust",
-        "control-plane",
-        "devtool"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-09-30T04:39:19.703Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "liteparse",
-      "fullName": "run-llama/liteparse",
-      "url": "https://github.com/run-llama/liteparse",
-      "description": "A fast, helpful, and open-source document parser",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 12730,
-      "forks": 868,
-      "starsToday": 366,
-      "topics": [],
-      "author": {
-        "name": "run-llama",
-        "avatar": "https://avatars.githubusercontent.com/u/22285038?s=40&amp;v=4",
-        "url": "https://github.com/run-llama"
-      },
-      "summary": "基于 Rust 的开源文档解析器，速度快、易用，可高效提取多种格式文档内容，适合构建 RAG 与数据处理流程。",
-      "tags": [
-        "rust",
-        "parser",
-        "document",
-        "rag",
-        "open-source"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-09-30T04:39:20.567Z",
       "deepwikiAvailable": false
     },
     {
