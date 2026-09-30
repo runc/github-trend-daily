@@ -1,0 +1,543 @@
+{
+  "date": "2026-09-30",
+  "since": "daily",
+  "language": "Go",
+  "fetchedAt": "2026-09-30T04:38:02.323Z",
+  "enrichedAt": "2026-09-30T04:38:42.074Z",
+  "repos": [
+    {
+      "name": "hey",
+      "fullName": "rakyll/hey",
+      "url": "https://github.com/rakyll/hey",
+      "description": "HTTP load generator, ApacheBench (ab) replacement",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20526,
+      "forks": 1313,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "rakyll",
+        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
+        "url": "https://github.com/rakyll"
+      },
+      "summary": "Go 编写的 HTTP 压力测试工具，作为 ApacheBench 的替代品，支持并发请求与 QPS 统计，快速评估 Web 服务性能。",
+      "tags": [
+        "http",
+        "load-testing",
+        "benchmark",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T04:38:36.983Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tuios",
+      "fullName": "Gaurav-Gosain/tuios",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4340,
+      "forks": 186,
+      "starsToday": 147,
+      "topics": [],
+      "author": {
+        "name": "Gaurav-Gosain",
+        "avatar": "https://avatars.githubusercontent.com/u/55647468?s=40&amp;v=4",
+        "url": "https://github.com/Gaurav-Gosain"
+      },
+      "summary": "终端窗口管理器，支持平铺窗格、工作区和重启后存活的会话，并为各类编码智能体提供统一收件箱，方便掌握代理运行状态。",
+      "tags": [
+        "terminal",
+        "tui",
+        "window-manager",
+        "ai-agents",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T04:38:37.008Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 51704,
+      "forks": 6712,
+      "starsToday": 112,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与 AI 智能体像同一团队般协同工作，基于 Go 构建。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-30T04:38:36.929Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5981,
+      "forks": 990,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "面向异构LLM推理的可编程混合模型路由器，按语义自动将请求分发到最合适的模型，降低推理成本并提升效果。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "mixture-of-models"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-30T04:38:36.979Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ffuf",
+      "fullName": "ffuf/ffuf",
+      "url": "https://github.com/ffuf/ffuf",
+      "description": "Fast web fuzzer written in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16780,
+      "forks": 1611,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "ffuf",
+        "avatar": "https://avatars.githubusercontent.com/u/5235109?s=40&amp;v=4",
+        "url": "https://github.com/ffuf"
+      },
+      "summary": "用 Go 编写的高速 Web 模糊测试工具，可对 URL、参数、目录和虚拟主机进行爆破与内容发现，速度快、支持多字典和过滤匹配规则。",
+      "tags": [
+        "security",
+        "fuzzing",
+        "pentest",
+        "go",
+        "web"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-09-30T04:38:38.332Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 91520,
+      "forks": 10864,
+      "starsToday": 75,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "开源 RAG 引擎，融合检索增强生成与 Agent 能力，为 LLM 提供高质量上下文层，支持深度文档理解。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-30T04:38:38.057Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "temporal",
+      "fullName": "temporalio/temporal",
+      "url": "https://github.com/temporalio/temporal",
+      "description": "Temporal service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23377,
+      "forks": 1948,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "temporalio",
+        "avatar": "https://avatars.githubusercontent.com/u/8762893?s=40&amp;v=4",
+        "url": "https://github.com/temporalio"
+      },
+      "summary": "Temporal 是一个开源的工作流编排引擎，用 Go 编写，让开发者以代码定义持久化、可容错的长时运行工作流，保障分布式任务可靠执行。",
+      "tags": [
+        "workflow",
+        "go",
+        "distributed",
+        "orchestration",
+        "durable-execution"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:38:38.365Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kserve",
+      "fullName": "kserve/kserve",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6050,
+      "forks": 1708,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "kserve",
+        "avatar": "https://avatars.githubusercontent.com/u/7662095?s=40&amp;v=4",
+        "url": "https://github.com/kserve"
+      },
+      "summary": "KServe 是 Kubernetes 上的标准化模型推理平台，支持生成式与预测式 AI 的多框架分布式部署，提供自动扩缩容、无服务器推理与统一 API，简化生产级模型服务。",
+      "tags": [
+        "kubernetes",
+        "inference",
+        "mlops",
+        "model-serving",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:38:38.231Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28201,
+      "forks": 2611,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "Go 编写的密钥泄露扫描工具，可在代码、仓库和文件中查找并验证泄露的凭据，支持 800 多种检测器，有效降低误报。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "credentials"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T04:38:39.297Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15776,
+      "forks": 1732,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
+      },
+      "summary": "开源自托管邮件服务器，集成邮件营销与Newsletter功能，开发者友好且免月费。",
+      "tags": [
+        "mailserver",
+        "email-marketing",
+        "self-hosted",
+        "newsletter",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:38:39.278Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nats-server",
+      "fullName": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20811,
+      "forks": 1979,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "nats-io",
+        "avatar": "https://avatars.githubusercontent.com/u/90097?s=40&amp;v=4",
+        "url": "https://github.com/nats-io"
+      },
+      "summary": "NATS.io 的高性能消息服务器，面向云与边缘场景，提供轻量、低延迟的发布订阅与流式通信能力。",
+      "tags": [
+        "messaging",
+        "pubsub",
+        "go",
+        "server",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:38:39.429Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evolution-go",
+      "fullName": "evolution-foundation/evolution-go",
+      "url": "https://github.com/evolution-foundation/evolution-go",
+      "description": "Evolution API / Evolution Go is an open-source WhatsApp integration API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 908,
+      "forks": 480,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "evolution-foundation",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/evolution-foundation"
+      },
+      "summary": "基于 Go 的开源 WhatsApp 集成 API，提供消息收发与自动化接口，便于快速接入自有系统。",
+      "tags": [
+        "whatsapp",
+        "api",
+        "golang",
+        "messaging",
+        "integration"
+      ],
+      "category": "API",
+      "enrichedAt": "2026-09-30T04:38:39.518Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "livekit",
+      "fullName": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21194,
+      "forks": 2403,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "livekit",
+        "avatar": "https://avatars.githubusercontent.com/u/6278212?s=40&amp;v=4",
+        "url": "https://github.com/livekit"
+      },
+      "summary": "LiveKit 是用 Go 编写的端到端实时通信栈，基于 WebRTC 提供音视频与数据通道，用于连接人类用户与 AI 智能体，支持可扩展的自托管部署。",
+      "tags": [
+        "webrtc",
+        "realtime",
+        "video",
+        "audio",
+        "go",
+        "ai"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:38:40.534Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keploy",
+      "fullName": "keploy/keploy",
+      "url": "https://github.com/keploy/keploy",
+      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18509,
+      "forks": 2375,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "keploy",
+        "avatar": "https://avatars.githubusercontent.com/u/12831254?s=40&amp;v=4",
+        "url": "https://github.com/keploy"
+      },
+      "summary": "开源测试平台，用真实流量自动生成API、集成与E2E测试用例，并创建隔离的生产沙箱环境，无需手写mock。",
+      "tags": [
+        "testing",
+        "api",
+        "go",
+        "e2e",
+        "sandbox",
+        "mock"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-09-30T04:38:40.439Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-sandbox",
+      "fullName": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4092,
+      "forks": 538,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/4876867?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubernetes 生态的沙箱控制器，用于管理隔离、有状态、单实例工作负载，适合 AI Agent 运行时与强化学习场景。",
+      "tags": [
+        "kubernetes",
+        "sandbox",
+        "ai-agents",
+        "go",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:38:40.589Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35103,
+      "forks": 3018,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "分布式存储系统，支持S3对象存储、文件系统与Iceberg表，O(1)磁盘访问可轻松管理数十亿文件并水平扩展。",
+      "tags": [
+        "storage",
+        "distributed",
+        "s3",
+        "go",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:38:40.781Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27520,
+      "forks": 1869,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "Beads 是用 Go 编写的编码智能体记忆增强工具，为 AI 编程助手提供持久化记忆，让代理跨会话保留上下文与经验。",
+      "tags": [
+        "ai",
+        "memory",
+        "agent",
+        "go",
+        "coding-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-30T04:38:41.472Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BackPack",
+      "fullName": "AminMGMT/BackPack",
+      "url": "https://github.com/AminMGMT/BackPack",
+      "description": "High Performance reverse tunnel engine in Go, built for edge ⇄ origin server setups",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 412,
+      "forks": 96,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "AminMGMT",
+        "avatar": "https://avatars.githubusercontent.com/u/212332204?s=40&amp;v=4",
+        "url": "https://github.com/AminMGMT"
+      },
+      "summary": "用 Go 编写的高性能反向隧道引擎，专为边缘节点与源站服务器之间的连接场景设计，可穿透 NAT 建立稳定隧道。",
+      "tags": [
+        "go",
+        "tunnel",
+        "networking",
+        "reverse-proxy",
+        "edge"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-09-30T04:38:42.073Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Memoh",
+      "fullName": "felinics/Memoh",
+      "url": "https://github.com/felinics/Memoh",
+      "description": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory. You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2597,
+      "forks": 252,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "felinics",
+        "avatar": "https://avatars.githubusercontent.com/u/78635021?s=40&amp;v=4",
+        "url": "https://github.com/felinics"
+      },
+      "summary": "开源多智能体平台，每个智能体拥有独立电脑、桌面、网络与长期记忆，支持自带密钥或托管 Claude Code、Codex 等编码智能体。",
+      "tags": [
+        "multi-agent",
+        "ai-agents",
+        "golang",
+        "self-hosted",
+        "memory"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-09-30T04:38:41.886Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
