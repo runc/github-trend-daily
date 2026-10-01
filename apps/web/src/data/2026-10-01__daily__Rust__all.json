@@ -2,8 +2,8 @@
   "date": "2026-10-01",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-01T04:49:40.377Z",
-  "enrichedAt": "2026-10-01T04:50:33.546Z",
+  "fetchedAt": "2026-10-01T16:06:47.156Z",
+  "enrichedAt": "2026-10-01T16:07:27.731Z",
   "repos": [
     {
       "name": "OpenShell",
@@ -12,9 +12,9 @@
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 12991,
-      "forks": 1557,
-      "starsToday": 1281,
+      "stars": 13812,
+      "forks": 1610,
+      "starsToday": 2503,
       "topics": [],
       "author": {
         "name": "NVIDIA",
@@ -41,9 +41,9 @@
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 23349,
-      "forks": 2157,
-      "starsToday": 1138,
+      "stars": 23670,
+      "forks": 2176,
+      "starsToday": 870,
       "topics": [],
       "author": {
         "name": "t8y2",
@@ -64,15 +64,296 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 127516,
+      "forks": 19944,
+      "starsToday": 172,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 开源的轻量级终端编码智能体，用 Rust 编写，可在命令行中直接读写代码、执行任务，把 AI 编程能力带进终端工作流。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "cli",
+        "rust",
+        "openai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:25.574Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "magnitude",
+      "fullName": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6015,
+      "forks": 401,
+      "starsToday": 427,
+      "topics": [],
+      "author": {
+        "name": "magnitudedev",
+        "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&amp;v=4",
+        "url": "https://github.com/magnitudedev"
+      },
+      "summary": "开源智能体推理引擎，针对你的硬件自动编译调优内核，让开源模型比 llama.cpp 快至多 2 倍，支持 Apple Silicon、NVIDIA、AMD 及纯 CPU。",
+      "tags": [
+        "inference",
+        "llm",
+        "rust",
+        "agents",
+        "gpu",
+        "performance"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:25.445Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11815,
+      "forks": 854,
+      "starsToday": 79,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用 Rust 编写的高性能 Minecraft 服务端，主打快速高效、低资源占用，让任何人都能轻松自建服务器。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "game-server",
+        "server",
+        "performance"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-01T04:50:30.575Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prime-agent",
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 21447,
+      "forks": 2365,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "PrimeIntellect-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/46242684?s=40&amp;v=4",
+        "url": "https://github.com/PrimeIntellect-ai"
+      },
+      "summary": "基于 Rust 的自我改进 RLM 智能体，面向编码工作流与长时间自主任务，可自主迭代提升表现。",
+      "tags": [
+        "agent",
+        "rust",
+        "rlm",
+        "autonomous",
+        "coding"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:25.558Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helix",
+      "fullName": "helix-editor/helix",
+      "url": "https://github.com/helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 46411,
+      "forks": 3797,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "helix-editor",
+        "avatar": "https://avatars.githubusercontent.com/u/1372918?s=40&amp;v=4",
+        "url": "https://github.com/helix-editor"
+      },
+      "summary": "基于 Rust 的后现代模态文本编辑器，内置多选、LSP 与树形语法高亮，开箱即用，终端体验流畅。",
+      "tags": [
+        "editor",
+        "rust",
+        "terminal",
+        "modal",
+        "lsp"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-01T16:07:25.539Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openhuman",
+      "fullName": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 40388,
+      "forks": 3994,
+      "starsToday": 184,
+      "topics": [],
+      "author": {
+        "name": "tinyhumansai",
+        "avatar": "https://avatars.githubusercontent.com/u/31011319?s=40&amp;v=4",
+        "url": "https://github.com/tinyhumansai"
+      },
+      "summary": "OpenHuman 是用 Rust 编写的开源 AI Agent 运行框架，主打速度最快、成本最低、效率最高，适合构建和托管智能体。",
+      "tags": [
+        "ai",
+        "agent",
+        "rust",
+        "llm",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:26.573Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dynamo",
+      "fullName": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8201,
+      "forks": 1648,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "ai-dynamo",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/ai-dynamo"
+      },
+      "summary": "面向数据中心的分布式推理服务框架，用 Rust 编写，支持大规模模型推理的调度与扩展。",
+      "tags": [
+        "inference",
+        "rust",
+        "distributed",
+        "serving",
+        "llm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T04:50:30.632Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "autoshorts",
+      "fullName": "JayWebtech/autoshorts",
+      "url": "https://github.com/JayWebtech/autoshorts",
+      "description": "AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1046,
+      "forks": 202,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "JayWebtech",
+        "avatar": "https://avatars.githubusercontent.com/u/45628811?s=40&amp;v=4",
+        "url": "https://github.com/JayWebtech"
+      },
+      "summary": "本地优先的桌面应用，用AI从长视频或音频中自动识别并排序高传播潜力的片段，生成9:16竖屏短视频候选。",
+      "tags": [
+        "video",
+        "ai",
+        "rust",
+        "desktop",
+        "shorts"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-01T04:50:31.440Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpui-kit",
+      "fullName": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15444,
+      "forks": 957,
+      "starsToday": 224,
+      "topics": [],
+      "author": {
+        "name": "longbridge",
+        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
+        "url": "https://github.com/longbridge"
+      },
+      "summary": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库，提供丰富组件，帮助开发者快速构建高性能桌面应用界面。",
+      "tags": [
+        "rust",
+        "gui",
+        "gpui",
+        "desktop",
+        "ui-components"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-01T04:50:32.077Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zed",
+      "fullName": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 91160,
+      "forks": 10862,
+      "starsToday": 79,
+      "topics": [],
+      "author": {
+        "name": "zed-industries",
+        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
+        "url": "https://github.com/zed-industries"
+      },
+      "summary": "Zed 是 Atom 与 Tree-sitter 作者打造的高性能多人协作代码编辑器，用 Rust 编写，主打极速响应与实时协同编辑。",
+      "tags": [
+        "editor",
+        "rust",
+        "collaboration",
+        "ide",
+        "performance"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-01T16:07:26.577Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "RuView",
       "fullName": "ruvnet/RuView",
       "url": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 95751,
-      "forks": 12646,
-      "starsToday": 236,
+      "stars": 95821,
+      "forks": 12649,
+      "starsToday": 154,
       "topics": [],
       "author": {
         "name": "ruvnet",
@@ -89,6 +370,118 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-01T04:50:29.954Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "firecracker",
+      "fullName": "firecracker-microvm/firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "description": "Secure and fast microVMs for serverless computing.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37094,
+      "forks": 2656,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "firecracker-microvm",
+        "avatar": "https://avatars.githubusercontent.com/u/115481277?s=40&amp;v=4",
+        "url": "https://github.com/firecracker-microvm"
+      },
+      "summary": "基于 KVM 的轻量级 microVM 管理器，用 Rust 编写，启动快、开销低，为无服务器与容器工作负载提供安全隔离。",
+      "tags": [
+        "virtualization",
+        "microvm",
+        "rust",
+        "kvm",
+        "serverless"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T16:07:26.597Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "EasyTier",
+      "fullName": "EasyTier/EasyTier",
+      "url": "https://github.com/EasyTier/EasyTier",
+      "description": "A simple, decentralized mesh VPN with WireGuard support.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13895,
+      "forks": 1414,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "EasyTier",
+        "avatar": "https://avatars.githubusercontent.com/u/5665404?s=40&amp;v=4",
+        "url": "https://github.com/EasyTier"
+      },
+      "summary": "基于 Rust 的去中心化网状 VPN，支持 WireGuard，无需中心服务器即可组网，配置简单、跨平台，适合异地组网与内网穿透。",
+      "tags": [
+        "vpn",
+        "mesh",
+        "rust",
+        "wireguard",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T16:07:26.777Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 124934,
+      "forks": 19373,
+      "starsToday": 90,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建服务器，可作为 TeamViewer 的替代方案，用 Rust 编写，跨平台且注重性能与隐私。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-01T16:07:27.731Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8591,
+      "forks": 306,
+      "starsToday": 53,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI 代理工作流设计，简化多分支同时开发与切换。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agents"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-01T16:07:27.590Z",
       "deepwikiAvailable": false
     },
     {
@@ -117,62 +510,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-10-01T04:50:29.898Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Pumpkin",
-      "fullName": "Pumpkin-MC/Pumpkin",
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11787,
-      "forks": 851,
-      "starsToday": 145,
-      "topics": [],
-      "author": {
-        "name": "Pumpkin-MC",
-        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
-        "url": "https://github.com/Pumpkin-MC"
-      },
-      "summary": "用 Rust 编写的高性能 Minecraft 服务端，主打快速高效、低资源占用，让任何人都能轻松自建服务器。",
-      "tags": [
-        "minecraft",
-        "rust",
-        "game-server",
-        "server",
-        "performance"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-01T04:50:30.575Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dynamo",
-      "fullName": "ai-dynamo/dynamo",
-      "url": "https://github.com/ai-dynamo/dynamo",
-      "description": "A Datacenter Scale Distributed Inference Serving Framework",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8195,
-      "forks": 1644,
-      "starsToday": 9,
-      "topics": [],
-      "author": {
-        "name": "ai-dynamo",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/ai-dynamo"
-      },
-      "summary": "面向数据中心的分布式推理服务框架，用 Rust 编写，支持大规模模型推理的调度与扩展。",
-      "tags": [
-        "inference",
-        "rust",
-        "distributed",
-        "serving",
-        "llm"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-01T04:50:30.632Z",
       "deepwikiAvailable": false
     },
     {
@@ -233,34 +570,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "autoshorts",
-      "fullName": "JayWebtech/autoshorts",
-      "url": "https://github.com/JayWebtech/autoshorts",
-      "description": "AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1026,
-      "forks": 195,
-      "starsToday": 83,
-      "topics": [],
-      "author": {
-        "name": "JayWebtech",
-        "avatar": "https://avatars.githubusercontent.com/u/45628811?s=40&amp;v=4",
-        "url": "https://github.com/JayWebtech"
-      },
-      "summary": "本地优先的桌面应用，用AI从长视频或音频中自动识别并排序高传播潜力的片段，生成9:16竖屏短视频候选。",
-      "tags": [
-        "video",
-        "ai",
-        "rust",
-        "desktop",
-        "shorts"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-01T04:50:31.440Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "zeron",
       "fullName": "zeronsh/zeron",
       "url": "https://github.com/zeronsh/zeron",
@@ -286,34 +595,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-01T04:50:31.794Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gpui-kit",
-      "fullName": "longbridge/gpui-kit",
-      "url": "https://github.com/longbridge/gpui-kit",
-      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 15357,
-      "forks": 951,
-      "starsToday": 190,
-      "topics": [],
-      "author": {
-        "name": "longbridge",
-        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
-        "url": "https://github.com/longbridge"
-      },
-      "summary": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库，提供丰富组件，帮助开发者快速构建高性能桌面应用界面。",
-      "tags": [
-        "rust",
-        "gui",
-        "gpui",
-        "desktop",
-        "ui-components"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-01T04:50:32.077Z",
       "deepwikiAvailable": false
     },
     {

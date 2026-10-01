@@ -2,19 +2,19 @@
   "date": "2026-10-01",
   "since": "daily",
   "language": "TypeScript",
-  "fetchedAt": "2026-10-01T04:49:40.377Z",
-  "enrichedAt": "2026-10-01T04:50:10.924Z",
+  "fetchedAt": "2026-10-01T16:06:47.156Z",
+  "enrichedAt": "2026-10-01T16:07:13.120Z",
   "repos": [
     {
       "name": "openrig",
       "fullName": "mvschwarz/openrig",
       "url": "https://github.com/mvschwarz/openrig",
-      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 3124,
-      "forks": 217,
-      "starsToday": 624,
+      "stars": 3472,
+      "forks": 236,
+      "starsToday": 640,
       "topics": [],
       "author": {
         "name": "mvschwarz",
@@ -34,15 +34,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "plugins",
+      "fullName": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 9273,
+      "forks": 877,
+      "starsToday": 157,
+      "topics": [],
+      "author": {
+        "name": "cursor",
+        "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&amp;v=4",
+        "url": "https://github.com/cursor"
+      },
+      "summary": "Cursor 官方插件规范与官方插件集合，为 AI 编辑器提供可扩展的插件开发标准与示例实现。",
+      "tags": [
+        "cursor",
+        "plugins",
+        "typescript",
+        "ai-editor",
+        "specification"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-01T16:07:10.235Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "context-mode",
       "fullName": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 24541,
-      "forks": 1771,
-      "starsToday": 90,
+      "stars": 24704,
+      "forks": 1777,
+      "starsToday": 357,
       "topics": [],
       "author": {
         "name": "mksglu",
@@ -59,6 +87,373 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-01T04:50:06.835Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 55153,
+      "forks": 5005,
+      "starsToday": 624,
+      "topics": [],
+      "author": {
+        "name": "heygen-com",
+        "avatar": "https://avatars.githubusercontent.com/u/229591595?s=40&amp;v=4",
+        "url": "https://github.com/heygen-com"
+      },
+      "summary": "用 HTML 编写并渲染视频的开源框架，专为 AI 智能体设计，让代码直接生成视频内容。",
+      "tags": [
+        "video",
+        "html",
+        "typescript",
+        "agents",
+        "rendering"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T04:50:06.827Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pi",
+      "fullName": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 111017,
+      "forks": 14115,
+      "starsToday": 294,
+      "topics": [],
+      "author": {
+        "name": "earendil-works",
+        "avatar": "https://avatars.githubusercontent.com/u/514052?s=40&amp;v=4",
+        "url": "https://github.com/earendil-works"
+      },
+      "summary": "AI 智能体工具包，提供统一 LLM API、智能体循环、TUI 界面与编码智能体 CLI，方便快速构建和运行 AI 代理。",
+      "tags": [
+        "ai",
+        "agent",
+        "llm",
+        "cli",
+        "tui",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:10.673Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "yoinks",
+      "fullName": "pablostanley/yoinks",
+      "url": "https://github.com/pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2735,
+      "forks": 259,
+      "starsToday": 356,
+      "topics": [],
+      "author": {
+        "name": "pablostanley",
+        "avatar": "https://avatars.githubusercontent.com/u/7430988?s=40&amp;v=4",
+        "url": "https://github.com/pablostanley"
+      },
+      "summary": "终端视频下载工具，一条命令即可抓取任意视频，无需忍受广告和弹窗，基于 TypeScript 开发。",
+      "tags": [
+        "cli",
+        "video",
+        "downloader",
+        "typescript",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-01T16:07:10.731Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "servers",
+      "fullName": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "description": "Model Context Protocol Servers",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 90928,
+      "forks": 11741,
+      "starsToday": 216,
+      "topics": [],
+      "author": {
+        "name": "modelcontextprotocol",
+        "avatar": "https://avatars.githubusercontent.com/u/16480113?s=40&amp;v=4",
+        "url": "https://github.com/modelcontextprotocol"
+      },
+      "summary": "Model Context Protocol 官方服务器集合，提供标准化接口让大模型安全接入文件、数据库、API 等外部工具与数据源。",
+      "tags": [
+        "mcp",
+        "llm",
+        "typescript",
+        "ai-agents",
+        "protocol"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T04:50:08.181Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gstack",
+      "fullName": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 134664,
+      "forks": 20057,
+      "starsToday": 106,
+      "topics": [],
+      "author": {
+        "name": "garrytan",
+        "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&amp;v=4",
+        "url": "https://github.com/garrytan"
+      },
+      "summary": "Garry Tan 的 Claude Code 配置合集，23 个工具扮演 CEO、设计师、工程经理、发布经理、文档工程师与 QA，开箱即用。",
+      "tags": [
+        "claude-code",
+        "ai-agents",
+        "typescript",
+        "workflow",
+        "productivity"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:10.677Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "humanlayer/skills",
+      "url": "https://github.com/humanlayer/skills",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4772,
+      "forks": 153,
+      "starsToday": 103,
+      "topics": [],
+      "author": {
+        "name": "humanlayer",
+        "avatar": "https://avatars.githubusercontent.com/u/3730605?s=40&amp;v=4",
+        "url": "https://github.com/humanlayer"
+      },
+      "summary": "HumanLayer 出品的 AI 智能体技能库，用 TypeScript 封装可复用的技能模块，让 Agent 快速获得可靠的工具调用与任务执行能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "typescript",
+        "llm",
+        "tooling"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:11.636Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OmniRoute",
+      "fullName": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 71969,
+      "forks": 10275,
+      "starsToday": 332,
+      "topics": [],
+      "author": {
+        "name": "diegosouzapw",
+        "avatar": "https://avatars.githubusercontent.com/u/8016841?s=40&amp;v=4",
+        "url": "https://github.com/diegosouzapw"
+      },
+      "summary": "MIT 开源 AI 网关，单一端点接入 359 家服务商、1200+ 模型，支持配额感知自动降级与令牌压缩，兼容 Claude Code、Cursor 等主流编程工具。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "typescript",
+        "mcp",
+        "proxy",
+        "developer-tools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:11.775Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openship",
+      "fullName": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 14278,
+      "forks": 1273,
+      "starsToday": 147,
+      "topics": [],
+      "author": {
+        "name": "oblien",
+        "avatar": "https://avatars.githubusercontent.com/u/162022179?s=40&amp;v=4",
+        "url": "https://github.com/oblien"
+      },
+      "summary": "开源自托管部署平台，用 TypeScript 编写，可替代 Vercel 等托管服务，在自己的服务器上完成应用构建与发布。",
+      "tags": [
+        "self-hosted",
+        "deployment",
+        "paas",
+        "typescript",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T04:50:07.895Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 95087,
+      "forks": 8417,
+      "starsToday": 93,
+      "topics": [],
+      "author": {
+        "name": "thedotmack",
+        "avatar": "https://avatars.githubusercontent.com/u/683968?s=40&amp;v=4",
+        "url": "https://github.com/thedotmack"
+      },
+      "summary": "为各类 AI 编码代理提供跨会话持久记忆：捕获会话内容、AI 压缩并注入后续上下文，兼容 Claude Code、Codex、Gemini 等。",
+      "tags": [
+        "ai",
+        "memory",
+        "agents",
+        "context",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:11.933Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nyaterm",
+      "fullName": "nyakang/nyaterm",
+      "url": "https://github.com/nyakang/nyaterm",
+      "description": "A modern remote terminal workspace",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 1717,
+      "forks": 165,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "nyakang",
+        "avatar": "https://avatars.githubusercontent.com/u/61106285?s=40&amp;v=4",
+        "url": "https://github.com/nyakang"
+      },
+      "summary": "现代化的远程终端工作区，基于 TypeScript 构建，把远程终端会话整合进统一界面，方便管理多主机连接与日常运维操作。",
+      "tags": [
+        "terminal",
+        "remote",
+        "typescript",
+        "ssh",
+        "workspace"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-01T16:07:11.780Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ag-ui",
+      "fullName": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 16198,
+      "forks": 1474,
+      "starsToday": 68,
+      "topics": [],
+      "author": {
+        "name": "ag-ui-protocol",
+        "avatar": "https://avatars.githubusercontent.com/u/11162004?s=40&amp;v=4",
+        "url": "https://github.com/ag-ui-protocol"
+      },
+      "summary": "AG-UI 是连接 AI Agent 与前端应用的交互协议，用事件流标准化 Agent 状态、消息与工具调用，让各类框架的智能体快速接入 Web 界面。",
+      "tags": [
+        "agent",
+        "protocol",
+        "typescript",
+        "frontend",
+        "ai",
+        "sdk"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T16:07:12.908Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cordis",
+      "fullName": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 8940,
+      "forks": 559,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "cordiverse",
+        "avatar": "https://avatars.githubusercontent.com/u/33423008?s=40&amp;v=4",
+        "url": "https://github.com/cordiverse"
+      },
+      "summary": "基于 TypeScript 的时空可组合性元框架，用于构建可灵活编排与扩展的应用架构。",
+      "tags": [
+        "typescript",
+        "framework",
+        "composability",
+        "meta-framework",
+        "architecture"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-01T16:07:13.120Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vinext",
+      "fullName": "cloudflare/vinext",
+      "url": "https://github.com/cloudflare/vinext",
+      "description": "Vite plugin that reimplements the Next.js API surface — deploy anywhere",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 9053,
+      "forks": 427,
+      "starsToday": 66,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/10815538?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Vite 插件，重新实现 Next.js API，让 Next 风格应用可在任意平台构建部署，摆脱框架锁定。",
+      "tags": [
+        "vite",
+        "nextjs",
+        "typescript",
+        "plugin",
+        "deploy"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-01T04:50:10.653Z",
       "deepwikiAvailable": false
     },
     {
@@ -87,90 +482,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-01T04:50:06.788Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hyperframes",
-      "fullName": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 54835,
-      "forks": 4984,
-      "starsToday": 349,
-      "topics": [],
-      "author": {
-        "name": "heygen-com",
-        "avatar": "https://avatars.githubusercontent.com/u/229591595?s=40&amp;v=4",
-        "url": "https://github.com/heygen-com"
-      },
-      "summary": "用 HTML 编写并渲染视频的开源框架，专为 AI 智能体设计，让代码直接生成视频内容。",
-      "tags": [
-        "video",
-        "html",
-        "typescript",
-        "agents",
-        "rendering"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-01T04:50:06.827Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "servers",
-      "fullName": "modelcontextprotocol/servers",
-      "url": "https://github.com/modelcontextprotocol/servers",
-      "description": "Model Context Protocol Servers",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 90851,
-      "forks": 11729,
-      "starsToday": 50,
-      "topics": [],
-      "author": {
-        "name": "modelcontextprotocol",
-        "avatar": "https://avatars.githubusercontent.com/u/16480113?s=40&amp;v=4",
-        "url": "https://github.com/modelcontextprotocol"
-      },
-      "summary": "Model Context Protocol 官方服务器集合，提供标准化接口让大模型安全接入文件、数据库、API 等外部工具与数据源。",
-      "tags": [
-        "mcp",
-        "llm",
-        "typescript",
-        "ai-agents",
-        "protocol"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-01T04:50:08.181Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openship",
-      "fullName": "oblien/openship",
-      "url": "https://github.com/oblien/openship",
-      "description": "Self-hosted deployment platform",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 14232,
-      "forks": 1271,
-      "starsToday": 581,
-      "topics": [],
-      "author": {
-        "name": "oblien",
-        "avatar": "https://avatars.githubusercontent.com/u/162022179?s=40&amp;v=4",
-        "url": "https://github.com/oblien"
-      },
-      "summary": "开源自托管部署平台，用 TypeScript 编写，可替代 Vercel 等托管服务，在自己的服务器上完成应用构建与发布。",
-      "tags": [
-        "self-hosted",
-        "deployment",
-        "paas",
-        "typescript",
-        "devops"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-01T04:50:07.895Z",
       "deepwikiAvailable": false
     },
     {
@@ -368,34 +679,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-01T04:50:09.962Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "vinext",
-      "fullName": "cloudflare/vinext",
-      "url": "https://github.com/cloudflare/vinext",
-      "description": "Vite plugin that reimplements the Next.js API surface — deploy anywhere",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 9042,
-      "forks": 426,
-      "starsToday": 66,
-      "topics": [],
-      "author": {
-        "name": "cloudflare",
-        "avatar": "https://avatars.githubusercontent.com/u/10815538?s=40&amp;v=4",
-        "url": "https://github.com/cloudflare"
-      },
-      "summary": "Vite 插件，重新实现 Next.js API，让 Next 风格应用可在任意平台构建部署，摆脱框架锁定。",
-      "tags": [
-        "vite",
-        "nextjs",
-        "typescript",
-        "plugin",
-        "deploy"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-01T04:50:10.653Z",
       "deepwikiAvailable": false
     },
     {

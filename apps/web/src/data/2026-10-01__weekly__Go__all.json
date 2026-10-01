@@ -2,9 +2,93 @@
   "date": "2026-10-01",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-10-01T04:49:40.377Z",
-  "enrichedAt": "2026-10-01T04:50:58.873Z",
+  "fetchedAt": "2026-10-01T16:06:47.156Z",
+  "enrichedAt": "2026-10-01T16:07:37.137Z",
   "repos": [
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4068,
+      "forks": 487,
+      "starsToday": 594,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 是用 Go 编写的 AI 智能体核心运行系统，为构建和编排自主智能体提供底层基础设施。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "infra",
+        "orchestration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T04:50:54.279Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ax",
+      "fullName": "google/ax",
+      "url": "https://github.com/google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12765,
+      "forks": 625,
+      "starsToday": 3814,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google开源的智能体编排运行时，用Go编写，帮助开发者构建、协调和部署多智能体工作流。",
+      "tags": [
+        "agents",
+        "orchestration",
+        "go",
+        "google",
+        "runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T04:50:54.092Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openbao",
+      "fullName": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8262,
+      "forks": 603,
+      "starsToday": 785,
+      "topics": [],
+      "author": {
+        "name": "openbao",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/openbao"
+      },
+      "summary": "OpenBao 是开源密钥管理方案，用于集中管理、存储和分发密钥、证书等敏感数据，可自托管替代 Vault。",
+      "tags": [
+        "secrets",
+        "security",
+        "go",
+        "vault",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T04:50:56.466Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "WeKnora",
       "fullName": "Tencent/WeKnora",
@@ -12,8 +96,8 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 31539,
-      "forks": 4210,
+      "stars": 31626,
+      "forks": 4217,
       "starsToday": 2227,
       "topics": [],
       "author": {
@@ -35,70 +119,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ax",
-      "fullName": "google/ax",
-      "url": "https://github.com/google/ax",
-      "description": "Google's open agentic orchestration runtime",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 12693,
-      "forks": 622,
-      "starsToday": 3814,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "Google开源的智能体编排运行时，用Go编写，帮助开发者构建、协调和部署多智能体工作流。",
-      "tags": [
-        "agents",
-        "orchestration",
-        "go",
-        "google",
-        "runtime"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-01T04:50:54.092Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4033,
-      "forks": 485,
-      "starsToday": 594,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "Agent Substrate 是用 Go 编写的 AI 智能体核心运行系统，为构建和编排自主智能体提供底层基础设施。",
-      "tags": [
-        "ai",
-        "agents",
-        "go",
-        "infra",
-        "orchestration"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-01T04:50:54.279Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "kubernetes",
       "fullName": "kubernetes/kubernetes",
       "url": "https://github.com/kubernetes/kubernetes",
       "description": "Production-Grade Container Scheduling and Management",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 128147,
-      "forks": 45697,
+      "stars": 128158,
+      "forks": 45704,
       "starsToday": 253,
       "topics": [],
       "author": {
@@ -119,13 +147,126 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "cockroach",
+      "fullName": "cockroachdb/cockroach",
+      "url": "https://github.com/cockroachdb/cockroach",
+      "description": "CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32540,
+      "forks": 4125,
+      "starsToday": 58,
+      "topics": [],
+      "author": {
+        "name": "cockroachdb",
+        "avatar": "https://avatars.githubusercontent.com/u/5076964?s=40&amp;v=4",
+        "url": "https://github.com/cockroachdb"
+      },
+      "summary": "CockroachDB 是云原生分布式 SQL 数据库，具备高可用、弹性扩展与数据放置控制能力，兼容 PostgreSQL 协议。",
+      "tags": [
+        "database",
+        "sql",
+        "distributed",
+        "go",
+        "cloud-native"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-01T04:50:55.357Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6978,
+      "forks": 720,
+      "starsToday": 188,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向 AI 编码代理的持久化记忆系统，Go 单二进制，内置 SQLite+FTS5 全文检索，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
+      "tags": [
+        "ai",
+        "memory",
+        "go",
+        "mcp",
+        "sqlite",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T04:50:56.460Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netdata",
+      "fullName": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 80773,
+      "forks": 6647,
+      "starsToday": 148,
+      "topics": [],
+      "author": {
+        "name": "netdata",
+        "avatar": "https://avatars.githubusercontent.com/u/2662304?s=40&amp;v=4",
+        "url": "https://github.com/netdata"
+      },
+      "summary": "开源全栈可观测性平台，实时采集指标、日志与告警，内置AI异常检测，轻量团队也能快速部署。",
+      "tags": [
+        "observability",
+        "monitoring",
+        "metrics",
+        "aiops",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T04:50:58.092Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "urfave/cli",
+      "url": "https://github.com/urfave/cli",
+      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24273,
+      "forks": 1830,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "urfave",
+        "avatar": "https://avatars.githubusercontent.com/u/3200486?s=40&amp;v=4",
+        "url": "https://github.com/urfave"
+      },
+      "summary": "Go 语言命令行工具构建库，声明式 API 简洁高效，帮助开发者快速实现 CLI 应用与子命令。",
+      "tags": [
+        "go",
+        "cli",
+        "command-line",
+        "library",
+        "framework"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-01T04:50:56.754Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "agent-beacon",
       "fullName": "Asymptote-Labs/agent-beacon",
       "url": "https://github.com/Asymptote-Labs/agent-beacon",
       "description": "The cross-harness, self-improving memory layer for AI agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 1722,
+      "stars": 1728,
       "forks": 151,
       "starsToday": 468,
       "topics": [],
@@ -153,8 +294,8 @@
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 66332,
-      "forks": 10876,
+      "stars": 66341,
+      "forks": 10879,
       "starsToday": 158,
       "topics": [],
       "author": {
@@ -176,13 +317,154 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "dae",
+      "fullName": "daeuniverse/dae",
+      "url": "https://github.com/daeuniverse/dae",
+      "description": "eBPF-based Linux high-performance transparent proxy solution.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6273,
+      "forks": 411,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "daeuniverse",
+        "avatar": "https://avatars.githubusercontent.com/u/30586220?s=40&amp;v=4",
+        "url": "https://github.com/daeuniverse"
+      },
+      "summary": "基于 eBPF 的 Linux 高性能透明代理方案，内核态分流转发，低开销实现全局代理与流量控制。",
+      "tags": [
+        "ebpf",
+        "proxy",
+        "linux",
+        "golang",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T16:07:35.860Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "git-bug",
+      "fullName": "git-bug/git-bug",
+      "url": "https://github.com/git-bug/git-bug",
+      "description": "Distributed, offline-first bug tracker integrated in git",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10687,
+      "forks": 335,
+      "starsToday": 630,
+      "topics": [],
+      "author": {
+        "name": "git-bug",
+        "avatar": "https://avatars.githubusercontent.com/u/294669?s=40&amp;v=4",
+        "url": "https://github.com/git-bug"
+      },
+      "summary": "基于 git 的分布式离线优先缺陷跟踪器，把 issue 作为 git 对象存储，无需中心服务器即可协作与同步。",
+      "tags": [
+        "git",
+        "bug-tracker",
+        "distributed",
+        "offline-first",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-01T16:07:35.766Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "incus",
+      "fullName": "lxc/incus",
+      "url": "https://github.com/lxc/incus",
+      "description": "Powerful system container and virtual machine manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6306,
+      "forks": 495,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "lxc",
+        "avatar": "https://avatars.githubusercontent.com/u/2230599?s=40&amp;v=4",
+        "url": "https://github.com/lxc"
+      },
+      "summary": "Incus 是强大的系统容器与虚拟机管理器，用 Go 编写，统一管理容器和虚机，适合自建云与边缘部署。",
+      "tags": [
+        "containers",
+        "virtualization",
+        "go",
+        "lxc",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T16:07:35.756Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pentest-Swarm-AI",
+      "fullName": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2676,
+      "forks": 493,
+      "starsToday": 113,
+      "topics": [],
+      "author": {
+        "name": "Armur-Ai",
+        "avatar": "https://avatars.githubusercontent.com/u/26513717?s=40&amp;v=4",
+        "url": "https://github.com/Armur-Ai"
+      },
+      "summary": "基于 Go 的自主渗透测试框架，用 AI 智能体集群编排侦察、分类、利用与报告，支持漏洞赏金、持续监控和 CTF 模式。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-01T04:50:57.868Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7449,
+      "forks": 820,
+      "starsToday": 240,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "为 Claude Code、Cursor、Codex 等 AI 编码代理统一配置持久记忆、技能、MCP 与角色，开源无锁定。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "mcp",
+        "config",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-01T16:07:36.039Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "go",
       "fullName": "golang/go",
       "url": "https://github.com/golang/go",
       "description": "The Go programming language",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 139103,
+      "stars": 139112,
       "forks": 20963,
       "starsToday": 204,
       "topics": [],
@@ -204,60 +486,88 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "cockroach",
-      "fullName": "cockroachdb/cockroach",
-      "url": "https://github.com/cockroachdb/cockroach",
-      "description": "CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.",
+      "name": "res-downloader",
+      "fullName": "putyy/res-downloader",
+      "url": "https://github.com/putyy/res-downloader",
+      "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 32539,
-      "forks": 4124,
-      "starsToday": 58,
+      "stars": 20327,
+      "forks": 2523,
+      "starsToday": 331,
       "topics": [],
       "author": {
-        "name": "cockroachdb",
-        "avatar": "https://avatars.githubusercontent.com/u/5076964?s=40&amp;v=4",
-        "url": "https://github.com/cockroachdb"
+        "name": "putyy",
+        "avatar": "https://avatars.githubusercontent.com/u/31536789?s=40&amp;v=4",
+        "url": "https://github.com/putyy"
       },
-      "summary": "CockroachDB 是云原生分布式 SQL 数据库，具备高可用、弹性扩展与数据放置控制能力，兼容 PostgreSQL 协议。",
+      "summary": "基于Go的多平台网络资源下载工具，支持视频号、抖音、快手、小红书、直播流、m3u8及主流音乐平台内容抓取下载。",
       "tags": [
-        "database",
-        "sql",
-        "distributed",
+        "downloader",
         "go",
-        "cloud-native"
+        "video",
+        "m3u8",
+        "scraper"
       ],
-      "category": "Data",
-      "enrichedAt": "2026-10-01T04:50:55.357Z",
+      "category": "App",
+      "enrichedAt": "2026-10-01T16:07:36.814Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "engram",
-      "fullName": "Gentleman-Programming/engram",
-      "url": "https://github.com/Gentleman-Programming/engram",
-      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6968,
-      "forks": 718,
-      "starsToday": 188,
+      "stars": 15804,
+      "forks": 1734,
+      "starsToday": 174,
       "topics": [],
       "author": {
-        "name": "Gentleman-Programming",
-        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
-        "url": "https://github.com/Gentleman-Programming"
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
       },
-      "summary": "面向 AI 编码代理的持久化记忆系统，Go 单二进制，内置 SQLite+FTS5 全文检索，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
+      "summary": "开源自托管邮件服务器，集成邮件营销与NewsLetter功能，开发者友好且免月费。",
+      "tags": [
+        "email",
+        "mailserver",
+        "self-hosted",
+        "newsletter",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-01T16:07:36.926Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5319,
+      "forks": 570,
+      "starsToday": 152,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的智能体工作流工具，用 Go 编写，让 AI 代理在 CI/CD 中自动执行任务，简化仓库自动化编排。",
       "tags": [
         "ai",
-        "memory",
+        "workflow",
+        "github",
+        "automation",
         "go",
-        "mcp",
-        "sqlite",
-        "cli"
+        "ci"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-01T04:50:56.460Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-10-01T16:07:37.137Z",
       "deepwikiAvailable": false
     },
     {
@@ -286,90 +596,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-01T04:50:56.740Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openbao",
-      "fullName": "openbao/openbao",
-      "url": "https://github.com/openbao/openbao",
-      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8253,
-      "forks": 602,
-      "starsToday": 785,
-      "topics": [],
-      "author": {
-        "name": "openbao",
-        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
-        "url": "https://github.com/openbao"
-      },
-      "summary": "OpenBao 是开源密钥管理方案，用于集中管理、存储和分发密钥、证书等敏感数据，可自托管替代 Vault。",
-      "tags": [
-        "secrets",
-        "security",
-        "go",
-        "vault",
-        "self-hosted"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-01T04:50:56.466Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "urfave/cli",
-      "url": "https://github.com/urfave/cli",
-      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 24274,
-      "forks": 1830,
-      "starsToday": 32,
-      "topics": [],
-      "author": {
-        "name": "urfave",
-        "avatar": "https://avatars.githubusercontent.com/u/3200486?s=40&amp;v=4",
-        "url": "https://github.com/urfave"
-      },
-      "summary": "Go 语言命令行工具构建库，声明式 API 简洁高效，帮助开发者快速实现 CLI 应用与子命令。",
-      "tags": [
-        "go",
-        "cli",
-        "command-line",
-        "library",
-        "framework"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-01T04:50:56.754Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Pentest-Swarm-AI",
-      "fullName": "Armur-Ai/Pentest-Swarm-AI",
-      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
-      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2674,
-      "forks": 491,
-      "starsToday": 113,
-      "topics": [],
-      "author": {
-        "name": "Armur-Ai",
-        "avatar": "https://avatars.githubusercontent.com/u/26513717?s=40&amp;v=4",
-        "url": "https://github.com/Armur-Ai"
-      },
-      "summary": "基于 Go 的自主渗透测试框架，用 AI 智能体集群编排侦察、分类、利用与报告，支持漏洞赏金、持续监控和 CTF 模式。",
-      "tags": [
-        "security",
-        "pentest",
-        "ai-agents",
-        "golang",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-01T04:50:57.868Z",
       "deepwikiAvailable": false
     },
     {
@@ -427,34 +653,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-01T04:50:58.033Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "netdata",
-      "fullName": "netdata/netdata",
-      "url": "https://github.com/netdata/netdata",
-      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 80766,
-      "forks": 6644,
-      "starsToday": 148,
-      "topics": [],
-      "author": {
-        "name": "netdata",
-        "avatar": "https://avatars.githubusercontent.com/u/2662304?s=40&amp;v=4",
-        "url": "https://github.com/netdata"
-      },
-      "summary": "开源全栈可观测性平台，实时采集指标、日志与告警，内置AI异常检测，轻量团队也能快速部署。",
-      "tags": [
-        "observability",
-        "monitoring",
-        "metrics",
-        "aiops",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-01T04:50:58.092Z",
       "deepwikiAvailable": false
     },
     {
