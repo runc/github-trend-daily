@@ -2,9 +2,37 @@
   "date": "2026-10-02",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-10-02T04:40:49.547Z",
-  "enrichedAt": "2026-10-02T04:42:53.072Z",
+  "fetchedAt": "2026-10-02T15:30:01.155Z",
+  "enrichedAt": "2026-10-02T15:31:08.856Z",
   "repos": [
+    {
+      "name": "cua",
+      "fullName": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 27764,
+      "forks": 1952,
+      "starsToday": 5674,
+      "topics": [],
+      "author": {
+        "name": "trycua",
+        "avatar": "https://avatars.githubusercontent.com/u/195596869?s=40&amp;v=4",
+        "url": "https://github.com/trycua"
+      },
+      "summary": "开源计算机使用（Computer-Use）基础设施，提供跨系统驱动、设备集群与基准测试，用于训练、评估和生成数据。",
+      "tags": [
+        "computer-use",
+        "agents",
+        "rust",
+        "benchmark",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-02T15:31:08.856Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "worktrunk",
       "fullName": "max-sixty/worktrunk",
@@ -12,8 +40,8 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8624,
-      "forks": 308,
+      "stars": 8653,
+      "forks": 309,
       "starsToday": 1903,
       "topics": [],
       "author": {
@@ -40,8 +68,8 @@
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 15543,
-      "forks": 959,
+      "stars": 15628,
+      "forks": 969,
       "starsToday": 1786,
       "topics": [],
       "author": {
@@ -62,13 +90,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8747,
+      "forks": 606,
+      "starsToday": 3350,
+      "topics": [],
+      "author": {
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
+      },
+      "summary": "为编码智能体 CLI 提供长期记忆的方案，支持在不同厂商的 agent 之间交接上下文，用 Rust 编写。",
+      "tags": [
+        "ai",
+        "memory",
+        "agents",
+        "cli",
+        "rust"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-02T04:42:50.181Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "rustfs",
       "fullName": "rustfs/rustfs",
       "url": "https://github.com/rustfs/rustfs",
       "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 34281,
+      "stars": 34307,
       "forks": 1544,
       "starsToday": 2978,
       "topics": [],
@@ -90,14 +146,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 14292,
+      "forks": 1649,
+      "starsToday": 5449,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，用 Rust 编写，为智能体提供隔离执行环境与权限管控。",
+      "tags": [
+        "ai-agents",
+        "runtime",
+        "security",
+        "sandbox",
+        "rust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-02T04:42:49.850Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 124998,
+      "forks": 19387,
+      "starsToday": 3052,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建服务器，可替代 TeamViewer，用 Rust 编写，跨平台且注重安全与低延迟。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-02T04:42:48.494Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "clash-verge-rev",
       "fullName": "clash-verge-rev/clash-verge-rev",
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 148737,
-      "forks": 10679,
+      "stars": 148825,
+      "forks": 10678,
       "starsToday": 7544,
       "topics": [],
       "author": {
@@ -119,42 +231,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 124970,
-      "forks": 19376,
-      "starsToday": 3052,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面应用，支持自建服务器，可替代 TeamViewer，用 Rust 编写，跨平台且注重安全与低延迟。",
-      "tags": [
-        "remote-desktop",
-        "rust",
-        "self-hosted",
-        "teamviewer-alternative",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-02T04:42:48.494Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "magnitude",
       "fullName": "magnitudedev/magnitude",
       "url": "https://github.com/magnitudedev/magnitude",
       "description": "Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 6180,
-      "forks": 414,
+      "stars": 6254,
+      "forks": 423,
       "starsToday": 4512,
       "topics": [],
       "author": {
@@ -182,8 +266,8 @@
       "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2393,
-      "forks": 251,
+      "stars": 2400,
+      "forks": 252,
       "starsToday": 1397,
       "topics": [],
       "author": {
@@ -204,42 +288,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "atlas",
-      "fullName": "pacifio/atlas",
-      "url": "https://github.com/pacifio/atlas",
-      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8645,
-      "forks": 341,
-      "starsToday": 6491,
-      "topics": [],
-      "author": {
-        "name": "pacifio",
-        "avatar": "https://avatars.githubusercontent.com/u/32670628?s=40&amp;v=4",
-        "url": "https://github.com/pacifio"
-      },
-      "summary": "面向 AI 编码代理的版本控制系统，可并行运行多个编码代理，统一追踪其代码改动并集中查询，用 Rust 编写。",
-      "tags": [
-        "ai-agents",
-        "version-control",
-        "rust",
-        "developer-tools",
-        "git"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-02T04:42:48.574Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "anki",
       "fullName": "ankitects/anki",
       "url": "https://github.com/ankitects/anki",
       "description": "Anki is a smart spaced repetition flashcard program",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 31698,
-      "forks": 3293,
+      "stars": 31708,
+      "forks": 3294,
       "starsToday": 1758,
       "topics": [],
       "author": {
@@ -260,31 +316,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "MovieBox-Tui",
-      "fullName": "mesamirh/MovieBox-Tui",
-      "url": "https://github.com/mesamirh/MovieBox-Tui",
-      "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
+      "name": "atlas",
+      "fullName": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2378,
-      "forks": 272,
-      "starsToday": 1058,
+      "stars": 8739,
+      "forks": 342,
+      "starsToday": 6491,
       "topics": [],
       "author": {
-        "name": "mesamirh",
-        "avatar": "https://avatars.githubusercontent.com/u/73069638?s=40&amp;v=4",
-        "url": "https://github.com/mesamirh"
+        "name": "pacifio",
+        "avatar": "https://avatars.githubusercontent.com/u/32670628?s=40&amp;v=4",
+        "url": "https://github.com/pacifio"
       },
-      "summary": "基于 Rust 的终端影视工具，可在命令行中搜索、下载并调用本地播放器观看电影、剧集和直播电视。",
+      "summary": "面向 AI 编码代理的版本控制系统，可并行运行多个编码代理，统一追踪其代码改动并集中查询，用 Rust 编写。",
       "tags": [
+        "ai-agents",
+        "version-control",
         "rust",
-        "tui",
-        "cli",
-        "streaming",
-        "media-player"
+        "developer-tools",
+        "git"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-02T04:42:49.395Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-10-02T04:42:48.574Z",
       "deepwikiAvailable": false
     },
     {
@@ -294,7 +350,7 @@
       "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 31868,
+      "stars": 31873,
       "forks": 3438,
       "starsToday": 1248,
       "topics": [],
@@ -316,87 +372,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "name": "MovieBox-Tui",
+      "fullName": "mesamirh/MovieBox-Tui",
+      "url": "https://github.com/mesamirh/MovieBox-Tui",
+      "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14095,
-      "forks": 1633,
-      "starsToday": 5449,
+      "stars": 2389,
+      "forks": 273,
+      "starsToday": 1058,
       "topics": [],
       "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
+        "name": "mesamirh",
+        "avatar": "https://avatars.githubusercontent.com/u/73069638?s=40&amp;v=4",
+        "url": "https://github.com/mesamirh"
       },
-      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，用 Rust 编写，为智能体提供隔离执行环境与权限管控。",
+      "summary": "基于 Rust 的终端影视工具，可在命令行中搜索、下载并调用本地播放器观看电影、剧集和直播电视。",
       "tags": [
-        "ai-agents",
-        "runtime",
-        "security",
-        "sandbox",
-        "rust"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-02T04:42:49.850Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-memory",
-      "fullName": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8729,
-      "forks": 605,
-      "starsToday": 3350,
-      "topics": [],
-      "author": {
-        "name": "akitaonrails",
-        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
-        "url": "https://github.com/akitaonrails"
-      },
-      "summary": "为编码智能体 CLI 提供长期记忆的方案，支持在不同厂商的 agent 之间交接上下文，用 Rust 编写。",
-      "tags": [
-        "ai",
-        "memory",
-        "agents",
+        "rust",
+        "tui",
         "cli",
-        "rust"
+        "streaming",
+        "media-player"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-02T04:42:50.181Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pnpm",
-      "fullName": "pnpm/pnpm",
-      "url": "https://github.com/pnpm/pnpm",
-      "description": "Fast, disk space efficient package manager",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 36724,
-      "forks": 1900,
-      "starsToday": 429,
-      "topics": [],
-      "author": {
-        "name": "pnpm",
-        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
-        "url": "https://github.com/pnpm"
-      },
-      "summary": "快速且节省磁盘空间的 JavaScript 包管理器，通过硬链接共享依赖，安装更快、占用更小，支持 monorepo 工作区。",
-      "tags": [
-        "package-manager",
-        "javascript",
-        "nodejs",
-        "monorepo",
-        "rust"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-02T04:42:50.531Z",
+      "category": "CLI",
+      "enrichedAt": "2026-10-02T04:42:49.395Z",
       "deepwikiAvailable": false
     },
     {
@@ -406,8 +406,8 @@
       "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 45273,
-      "forks": 6424,
+      "stars": 45271,
+      "forks": 6421,
       "starsToday": 2025,
       "topics": [],
       "author": {
@@ -428,6 +428,62 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "zeron",
+      "fullName": "zeronsh/zeron",
+      "url": "https://github.com/zeronsh/zeron",
+      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2769,
+      "forks": 261,
+      "starsToday": 1393,
+      "topics": [],
+      "author": {
+        "name": "zeronsh",
+        "avatar": "https://avatars.githubusercontent.com/u/234226124?s=40&amp;v=4",
+        "url": "https://github.com/zeronsh"
+      },
+      "summary": "用 Rust 编写的原生控制平面，统一调度 Claude Code、Codex、Cursor、Devin 等编码智能体，让多 Agent 协作与任务编排更集中可控。",
+      "tags": [
+        "ai",
+        "agents",
+        "rust",
+        "orchestration",
+        "coding-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-02T04:42:52.431Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pnpm",
+      "fullName": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36727,
+      "forks": 1901,
+      "starsToday": 429,
+      "topics": [],
+      "author": {
+        "name": "pnpm",
+        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
+        "url": "https://github.com/pnpm"
+      },
+      "summary": "快速且节省磁盘空间的 JavaScript 包管理器，通过硬链接共享依赖，安装更快、占用更小，支持 monorepo 工作区。",
+      "tags": [
+        "package-manager",
+        "javascript",
+        "nodejs",
+        "monorepo",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-02T04:42:50.531Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Cap",
       "fullName": "CapSoftware/Cap",
       "url": "https://github.com/CapSoftware/Cap",
@@ -435,7 +491,7 @@
       "language": "Rust",
       "languageColor": "#dea584",
       "stars": 23004,
-      "forks": 1997,
+      "forks": 1998,
       "starsToday": 1657,
       "topics": [],
       "author": {
@@ -462,8 +518,8 @@
       "description": "Safety-first disk cleaner and space analyzer for macOS and Windows, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3551,
-      "forks": 262,
+      "stars": 3569,
+      "forks": 263,
       "starsToday": 1678,
       "topics": [],
       "author": {
@@ -566,34 +622,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-02T04:42:52.100Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zeron",
-      "fullName": "zeronsh/zeron",
-      "url": "https://github.com/zeronsh/zeron",
-      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2689,
-      "forks": 250,
-      "starsToday": 1393,
-      "topics": [],
-      "author": {
-        "name": "zeronsh",
-        "avatar": "https://avatars.githubusercontent.com/u/234226124?s=40&amp;v=4",
-        "url": "https://github.com/zeronsh"
-      },
-      "summary": "用 Rust 编写的原生控制平面，统一调度 Claude Code、Codex、Cursor、Devin 等编码智能体，让多 Agent 协作与任务编排更集中可控。",
-      "tags": [
-        "ai",
-        "agents",
-        "rust",
-        "orchestration",
-        "coding-agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-02T04:42:52.431Z",
       "deepwikiAvailable": false
     },
     {
