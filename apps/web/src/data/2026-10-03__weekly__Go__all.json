@@ -2,63 +2,91 @@
   "date": "2026-10-03",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-10-03T04:23:22.151Z",
-  "enrichedAt": "2026-10-03T04:24:37.550Z",
+  "fetchedAt": "2026-10-03T14:10:33.797Z",
+  "enrichedAt": "2026-10-03T14:11:27.369Z",
   "repos": [
     {
-      "name": "ax",
-      "fullName": "google/ax",
-      "url": "https://github.com/google/ax",
-      "description": "Google's open agentic orchestration runtime",
+      "name": "Cybersecurity-Projects",
+      "fullName": "CarterPerez-dev/Cybersecurity-Projects",
+      "url": "https://github.com/CarterPerez-dev/Cybersecurity-Projects",
+      "description": "Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Gamified Cybersecurity learning 👇",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 12928,
-      "forks": 640,
-      "starsToday": 1783,
+      "stars": 7710,
+      "forks": 1121,
+      "starsToday": 280,
       "topics": [],
       "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
-        "url": "https://github.com/google"
+        "name": "CarterPerez-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/188120068?s=40&amp;v=4",
+        "url": "https://github.com/CarterPerez-dev"
       },
-      "summary": "Google 开源的智能体编排运行时，用 Go 编写，提供构建与调度多智能体工作流的统一基础设施。",
+      "summary": "游戏化网络安全学习项目集，涵盖70个从入门到进阶的实战项目，可学习、参考或直接复用。",
       "tags": [
-        "agents",
-        "orchestration",
+        "cybersecurity",
+        "learning",
         "go",
-        "runtime",
-        "google"
+        "projects",
+        "education"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-03T04:24:32.163Z",
+      "category": "Education",
+      "enrichedAt": "2026-10-03T04:24:34.601Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "openbao",
-      "fullName": "openbao/openbao",
-      "url": "https://github.com/openbao/openbao",
-      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8286,
-      "forks": 607,
-      "starsToday": 713,
+      "stars": 28254,
+      "forks": 2619,
+      "starsToday": 207,
       "topics": [],
       "author": {
-        "name": "openbao",
-        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
-        "url": "https://github.com/openbao"
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
       },
-      "summary": "OpenBao 是开源密钥管理平台，用于集中管理、存储和分发密钥、证书等敏感数据，是 Vault 的开源分支。",
+      "summary": "TruffleHog 用 Go 编写的密钥泄露扫描工具，可查找、验证并分析代码与仓库中泄露的凭据，支持数百种密钥类型并降低误报。",
       "tags": [
-        "secrets",
         "security",
-        "vault",
+        "secrets",
+        "scanner",
         "go",
-        "encryption"
+        "credentials"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T04:24:35.973Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dae",
+      "fullName": "daeuniverse/dae",
+      "url": "https://github.com/daeuniverse/dae",
+      "description": "eBPF-based Linux high-performance transparent proxy solution.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6283,
+      "forks": 413,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "daeuniverse",
+        "avatar": "https://avatars.githubusercontent.com/u/30586220?s=40&amp;v=4",
+        "url": "https://github.com/daeuniverse"
+      },
+      "summary": "基于 eBPF 的 Linux 高性能透明代理方案，在内核层实现流量分流与转发，无需 TUN 设备即可获得低开销、高吞吐的全局代理能力。",
+      "tags": [
+        "ebpf",
+        "proxy",
+        "linux",
+        "golang",
+        "networking"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-10-03T04:24:32.216Z",
+      "enrichedAt": "2026-10-03T04:24:33.554Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,8 +96,8 @@
       "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 80780,
-      "forks": 6645,
+      "stars": 80789,
+      "forks": 6646,
       "starsToday": 155,
       "topics": [],
       "author": {
@@ -96,8 +124,8 @@
       "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 7005,
-      "forks": 722,
+      "stars": 7014,
+      "forks": 724,
       "starsToday": 174,
       "topics": [],
       "author": {
@@ -125,7 +153,7 @@
       "description": "CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 32539,
+      "stars": 32541,
       "forks": 4123,
       "starsToday": 48,
       "topics": [],
@@ -147,14 +175,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "anubis",
+      "fullName": "TecharoHQ/anubis",
+      "url": "https://github.com/TecharoHQ/anubis",
+      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23018,
+      "forks": 744,
+      "starsToday": 329,
+      "topics": [],
+      "author": {
+        "name": "TecharoHQ",
+        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
+        "url": "https://github.com/TecharoHQ"
+      },
+      "summary": "用工作量证明挑战甄别入站 HTTP 请求，拦截 AI 爬虫，保护网站资源不被大规模抓取。",
+      "tags": [
+        "anti-bot",
+        "crawler",
+        "proof-of-work",
+        "go",
+        "http"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:24:35.533Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "prometheus",
       "fullName": "prometheus/prometheus",
       "url": "https://github.com/prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 66344,
-      "forks": 10885,
+      "stars": 66350,
+      "forks": 10886,
       "starsToday": 154,
       "topics": [],
       "author": {
@@ -173,6 +229,429 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-03T04:24:33.205Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openbao",
+      "fullName": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8290,
+      "forks": 608,
+      "starsToday": 713,
+      "topics": [],
+      "author": {
+        "name": "openbao",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/openbao"
+      },
+      "summary": "OpenBao 是开源密钥管理平台，用于集中管理、存储和分发密钥、证书等敏感数据，是 Vault 的开源分支。",
+      "tags": [
+        "secrets",
+        "security",
+        "vault",
+        "go",
+        "encryption"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:24:32.216Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hey",
+      "fullName": "rakyll/hey",
+      "url": "https://github.com/rakyll/hey",
+      "description": "HTTP load generator, ApacheBench (ab) replacement",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20625,
+      "forks": 1317,
+      "starsToday": 349,
+      "topics": [],
+      "author": {
+        "name": "rakyll",
+        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
+        "url": "https://github.com/rakyll"
+      },
+      "summary": "用 Go 编写的 HTTP 压测工具，作为 ApacheBench 的替代品，支持并发请求与 QPS、延迟等详细统计报告。",
+      "tags": [
+        "http",
+        "benchmark",
+        "load-testing",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T14:11:26.001Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-music-dl",
+      "fullName": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5060,
+      "forks": 481,
+      "starsToday": 293,
+      "topics": [],
+      "author": {
+        "name": "guohuiyuan",
+        "avatar": "https://avatars.githubusercontent.com/u/54976075?s=40&amp;v=4",
+        "url": "https://github.com/guohuiyuan"
+      },
+      "summary": "基于 Go 的全网音乐搜索下载工具，支持 CLI 与 Web 双模式，聚合网易云、QQ、酷狗等 10+ 平台，多源并发搜索并解析无损音质。",
+      "tags": [
+        "go",
+        "music",
+        "downloader",
+        "cli",
+        "web",
+        "search"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-03T14:11:26.137Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nats-server",
+      "fullName": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20831,
+      "forks": 1983,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "nats-io",
+        "avatar": "https://avatars.githubusercontent.com/u/90097?s=40&amp;v=4",
+        "url": "https://github.com/nats-io"
+      },
+      "summary": "NATS.io 的高性能消息服务器，面向云与边缘场景，提供轻量、低延迟的发布订阅与请求响应通信。",
+      "tags": [
+        "nats",
+        "messaging",
+        "go",
+        "pubsub",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T14:11:26.083Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128175,
+      "forks": 45854,
+      "starsToday": 241,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和集群管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "cloud-native",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:24:34.102Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15823,
+      "forks": 1736,
+      "starsToday": 191,
+      "topics": [],
+      "author": {
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
+      },
+      "summary": "开源自托管邮件服务器，集成邮件营销与NewsLetter功能，替代付费邮件服务，开发者友好且无月费。",
+      "tags": [
+        "mailserver",
+        "email-marketing",
+        "self-hosted",
+        "go",
+        "newsletter"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:24:34.423Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139146,
+      "forks": 21111,
+      "starsToday": 201,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 官方编程语言源码仓库，包含编译器、运行时与标准库，以简洁语法、高并发和快速编译著称，广泛用于云原生与后端服务开发。",
+      "tags": [
+        "go",
+        "golang",
+        "programming-language",
+        "compiler",
+        "runtime"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-03T04:24:34.961Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5340,
+      "forks": 572,
+      "starsToday": 158,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的智能体工作流工具，用 Go 编写，让 AI Agent 以声明式方式编排和自动化仓库任务。",
+      "tags": [
+        "github",
+        "agent",
+        "workflow",
+        "automation",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T04:24:36.521Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "git-bug",
+      "fullName": "git-bug/git-bug",
+      "url": "https://github.com/git-bug/git-bug",
+      "description": "Distributed, offline-first bug tracker integrated in git",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10706,
+      "forks": 335,
+      "starsToday": 179,
+      "topics": [],
+      "author": {
+        "name": "git-bug",
+        "avatar": "https://avatars.githubusercontent.com/u/294669?s=40&amp;v=4",
+        "url": "https://github.com/git-bug"
+      },
+      "summary": "基于 git 的分布式离线优先缺陷跟踪工具，把 issue 作为 git 对象存储，无需中心服务器即可提交、评论和同步，支持桥接 GitHub 等平台。",
+      "tags": [
+        "git",
+        "bug-tracker",
+        "distributed",
+        "offline-first",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T14:11:26.025Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BackPack",
+      "fullName": "AminMGMT/BackPack",
+      "url": "https://github.com/AminMGMT/BackPack",
+      "description": "High Performance reverse tunnel engine in Go, built for edge ⇄ origin server setups",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 436,
+      "forks": 100,
+      "starsToday": 58,
+      "topics": [],
+      "author": {
+        "name": "AminMGMT",
+        "avatar": "https://avatars.githubusercontent.com/u/212332204?s=40&amp;v=4",
+        "url": "https://github.com/AminMGMT"
+      },
+      "summary": "Go 编写的高性能反向隧道引擎，专为边缘节点与源站之间的连接场景设计，可穿透内网暴露服务。",
+      "tags": [
+        "go",
+        "tunnel",
+        "networking",
+        "reverse-proxy",
+        "edge"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:24:35.485Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29631,
+      "forks": 2263,
+      "starsToday": 145,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Gitleaks 是用 Go 编写的密钥扫描工具，可在代码仓库和提交历史中检测密码、令牌等敏感信息，支持 CI 集成与自定义规则。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "ci"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T14:11:27.305Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27604,
+      "forks": 1877,
+      "starsToday": 190,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久记忆能力的 Go 工具，让 AI 编程助手跨会话记住项目上下文与决策。",
+      "tags": [
+        "ai",
+        "memory",
+        "coding-agent",
+        "go",
+        "developer-tools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:24:37.220Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ARTEX",
+      "fullName": "Autumn-27/ARTEX",
+      "url": "https://github.com/Autumn-27/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1451,
+      "forks": 261,
+      "starsToday": 204,
+      "topics": [],
+      "author": {
+        "name": "Autumn-27",
+        "avatar": "https://avatars.githubusercontent.com/u/53844290?s=40&amp;v=4",
+        "url": "https://github.com/Autumn-27"
+      },
+      "summary": "基于 Go 的 AI 自主渗透测试系统，让智能体自动完成侦察、漏洞利用与攻击链编排，百度\"agent+\"攻防挑战赛冠军项目。",
+      "tags": [
+        "ai-agent",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T14:11:27.369Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 41911,
+      "forks": 5943,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Xray-core 是 Go 编写的高性能网络代理平台，兼容 v2ray 协议，支持多种传输与伪装方式，广泛用于科学上网与网络穿透。",
+      "tags": [
+        "proxy",
+        "golang",
+        "v2ray",
+        "networking",
+        "vpn"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T14:11:27.302Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ax",
+      "fullName": "google/ax",
+      "url": "https://github.com/google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12928,
+      "forks": 640,
+      "starsToday": 1783,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google 开源的智能体编排运行时，用 Go 编写，提供构建与调度多智能体工作流的统一基础设施。",
+      "tags": [
+        "agents",
+        "orchestration",
+        "go",
+        "runtime",
+        "google"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:24:32.163Z",
       "deepwikiAvailable": false
     },
     {
@@ -204,147 +683,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "dae",
-      "fullName": "daeuniverse/dae",
-      "url": "https://github.com/daeuniverse/dae",
-      "description": "eBPF-based Linux high-performance transparent proxy solution.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6281,
-      "forks": 412,
-      "starsToday": 50,
-      "topics": [],
-      "author": {
-        "name": "daeuniverse",
-        "avatar": "https://avatars.githubusercontent.com/u/30586220?s=40&amp;v=4",
-        "url": "https://github.com/daeuniverse"
-      },
-      "summary": "基于 eBPF 的 Linux 高性能透明代理方案，在内核层实现流量分流与转发，无需 TUN 设备即可获得低开销、高吞吐的全局代理能力。",
-      "tags": [
-        "ebpf",
-        "proxy",
-        "linux",
-        "golang",
-        "networking"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-03T04:24:33.554Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kubernetes",
-      "fullName": "kubernetes/kubernetes",
-      "url": "https://github.com/kubernetes/kubernetes",
-      "description": "Production-Grade Container Scheduling and Management",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 128167,
-      "forks": 45853,
-      "starsToday": 241,
-      "topics": [],
-      "author": {
-        "name": "kubernetes",
-        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
-        "url": "https://github.com/kubernetes"
-      },
-      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和集群管理，是云原生基础设施的事实标准。",
-      "tags": [
-        "kubernetes",
-        "containers",
-        "orchestration",
-        "cloud-native",
-        "go",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-03T04:24:34.102Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "BillionMail",
-      "fullName": "Billionmail/BillionMail",
-      "url": "https://github.com/Billionmail/BillionMail",
-      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 15820,
-      "forks": 1735,
-      "starsToday": 191,
-      "topics": [],
-      "author": {
-        "name": "Billionmail",
-        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
-        "url": "https://github.com/Billionmail"
-      },
-      "summary": "开源自托管邮件服务器，集成邮件营销与NewsLetter功能，替代付费邮件服务，开发者友好且无月费。",
-      "tags": [
-        "mailserver",
-        "email-marketing",
-        "self-hosted",
-        "go",
-        "newsletter"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-03T04:24:34.423Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Cybersecurity-Projects",
-      "fullName": "CarterPerez-dev/Cybersecurity-Projects",
-      "url": "https://github.com/CarterPerez-dev/Cybersecurity-Projects",
-      "description": "Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Gamified Cybersecurity learning 👇",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7677,
-      "forks": 1116,
-      "starsToday": 280,
-      "topics": [],
-      "author": {
-        "name": "CarterPerez-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/188120068?s=40&amp;v=4",
-        "url": "https://github.com/CarterPerez-dev"
-      },
-      "summary": "游戏化网络安全学习项目集，涵盖70个从入门到进阶的实战项目，可学习、参考或直接复用。",
-      "tags": [
-        "cybersecurity",
-        "learning",
-        "go",
-        "projects",
-        "education"
-      ],
-      "category": "Education",
-      "enrichedAt": "2026-10-03T04:24:34.601Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "go",
-      "fullName": "golang/go",
-      "url": "https://github.com/golang/go",
-      "description": "The Go programming language",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 139132,
-      "forks": 21109,
-      "starsToday": 201,
-      "topics": [],
-      "author": {
-        "name": "golang",
-        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
-        "url": "https://github.com/golang"
-      },
-      "summary": "Go 官方编程语言源码仓库，包含编译器、运行时与标准库，以简洁语法、高并发和快速编译著称，广泛用于云原生与后端服务开发。",
-      "tags": [
-        "go",
-        "golang",
-        "programming-language",
-        "compiler",
-        "runtime"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-03T04:24:34.961Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "photoprism",
       "fullName": "photoprism/photoprism",
       "url": "https://github.com/photoprism/photoprism",
@@ -373,90 +711,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "anubis",
-      "fullName": "TecharoHQ/anubis",
-      "url": "https://github.com/TecharoHQ/anubis",
-      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23005,
-      "forks": 744,
-      "starsToday": 329,
-      "topics": [],
-      "author": {
-        "name": "TecharoHQ",
-        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
-        "url": "https://github.com/TecharoHQ"
-      },
-      "summary": "用工作量证明挑战甄别入站 HTTP 请求，拦截 AI 爬虫，保护网站资源不被大规模抓取。",
-      "tags": [
-        "anti-bot",
-        "crawler",
-        "proof-of-work",
-        "go",
-        "http"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-03T04:24:35.533Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "BackPack",
-      "fullName": "AminMGMT/BackPack",
-      "url": "https://github.com/AminMGMT/BackPack",
-      "description": "High Performance reverse tunnel engine in Go, built for edge ⇄ origin server setups",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 429,
-      "forks": 100,
-      "starsToday": 58,
-      "topics": [],
-      "author": {
-        "name": "AminMGMT",
-        "avatar": "https://avatars.githubusercontent.com/u/212332204?s=40&amp;v=4",
-        "url": "https://github.com/AminMGMT"
-      },
-      "summary": "Go 编写的高性能反向隧道引擎，专为边缘节点与源站之间的连接场景设计，可穿透内网暴露服务。",
-      "tags": [
-        "go",
-        "tunnel",
-        "networking",
-        "reverse-proxy",
-        "edge"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-03T04:24:35.485Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trufflehog",
-      "fullName": "trufflesecurity/trufflehog",
-      "url": "https://github.com/trufflesecurity/trufflehog",
-      "description": "Find, verify, and analyze leaked credentials",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 28248,
-      "forks": 2619,
-      "starsToday": 207,
-      "topics": [],
-      "author": {
-        "name": "trufflesecurity",
-        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
-        "url": "https://github.com/trufflesecurity"
-      },
-      "summary": "TruffleHog 用 Go 编写的密钥泄露扫描工具，可查找、验证并分析代码与仓库中泄露的凭据，支持数百种密钥类型并降低误报。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "go",
-        "credentials"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-03T04:24:35.973Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "google-maps-scraper",
       "fullName": "gosom/google-maps-scraper",
       "url": "https://github.com/gosom/google-maps-scraper",
@@ -482,34 +736,6 @@
       ],
       "category": "Data",
       "enrichedAt": "2026-10-03T04:24:36.062Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gh-aw",
-      "fullName": "github/gh-aw",
-      "url": "https://github.com/github/gh-aw",
-      "description": "GitHub Agentic Workflows",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5338,
-      "forks": 572,
-      "starsToday": 158,
-      "topics": [],
-      "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
-        "url": "https://github.com/github"
-      },
-      "summary": "GitHub 官方推出的智能体工作流工具，用 Go 编写，让 AI Agent 以声明式方式编排和自动化仓库任务。",
-      "tags": [
-        "github",
-        "agent",
-        "workflow",
-        "automation",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-03T04:24:36.521Z",
       "deepwikiAvailable": false
     },
     {
@@ -566,34 +792,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-03T04:24:37.550Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "beads",
-      "fullName": "gastownhall/beads",
-      "url": "https://github.com/gastownhall/beads",
-      "description": "Beads - A memory upgrade for your coding agent",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 27599,
-      "forks": 1876,
-      "starsToday": 190,
-      "topics": [],
-      "author": {
-        "name": "gastownhall",
-        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
-        "url": "https://github.com/gastownhall"
-      },
-      "summary": "为编码智能体提供持久记忆能力的 Go 工具，让 AI 编程助手跨会话记住项目上下文与决策。",
-      "tags": [
-        "ai",
-        "memory",
-        "coding-agent",
-        "go",
-        "developer-tools"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-03T04:24:37.220Z",
       "deepwikiAvailable": false
     }
   ]
