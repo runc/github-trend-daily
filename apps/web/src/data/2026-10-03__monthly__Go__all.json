@@ -1,0 +1,658 @@
+{
+  "date": "2026-10-03",
+  "since": "monthly",
+  "language": "Go",
+  "fetchedAt": "2026-10-03T04:23:22.151Z",
+  "enrichedAt": "2026-10-03T04:25:17.407Z",
+  "repos": [
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43383,
+      "forks": 3126,
+      "starsToday": 21821,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T04:25:10.270Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 31795,
+      "forks": 4245,
+      "starsToday": 10794,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，把原始文档转成可查询的RAG、自主推理智能体和自维护Wiki，用Go构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:25:10.217Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "coder",
+      "fullName": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16817,
+      "forks": 1605,
+      "starsToday": 2650,
+      "topics": [],
+      "author": {
+        "name": "coder",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/coder"
+      },
+      "summary": "基于 Go 的开发者与 AI 代理远程开发环境平台，可在自有云或本地基础设施上安全地配置云端开发环境，替代传统 VDI。",
+      "tags": [
+        "go",
+        "remote-development",
+        "dev-environment",
+        "terraform",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:25:10.289Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7505,
+      "forks": 823,
+      "starsToday": 1415,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "为 Claude Code、Cursor、Codex 等主流 AI 编码代理提供统一配置，支持持久记忆、技能库、MCP 服务器与角色设定，开源且不锁定单一代理。",
+      "tags": [
+        "ai-agent",
+        "coding-agent",
+        "mcp",
+        "config",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T04:25:10.211Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 182071,
+      "forks": 18086,
+      "starsToday": 2699,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等开源模型，提供简单 API 与 CLI。",
+      "tags": [
+        "llm",
+        "go",
+        "local-inference",
+        "cli",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:25:11.748Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4163,
+      "forks": 495,
+      "starsToday": 2453,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 是面向 AI Agent 的核心运行时系统，用 Go 编写，为构建和调度智能体提供统一底层基础设施。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "runtime",
+        "infra"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:25:11.371Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cilium",
+      "fullName": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25592,
+      "forks": 4124,
+      "starsToday": 690,
+      "topics": [],
+      "author": {
+        "name": "cilium",
+        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
+        "url": "https://github.com/cilium"
+      },
+      "summary": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，提供高性能网络连接、策略执行与流量监控，替代传统 iptables 方案。",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "networking",
+        "security",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:25:11.368Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25205,
+      "forks": 3240,
+      "starsToday": 3094,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI智能体系统，可自动完成复杂渗透测试任务，实现端到端安全评估自动化。",
+      "tags": [
+        "ai-agents",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:25:11.657Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bifrost",
+      "fullName": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8527,
+      "forks": 1323,
+      "starsToday": 806,
+      "topics": [],
+      "author": {
+        "name": "maximhq",
+        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
+        "url": "https://github.com/maximhq"
+      },
+      "summary": "企业级 AI 网关，比 LiteLLM 快 50 倍，支持 1000+ 模型、自适应负载均衡、集群模式与护栏，5k RPS 下开销低于 100 微秒。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "go",
+        "load-balancer",
+        "enterprise"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:25:12.447Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ARTEX",
+      "fullName": "Autumn-27/ARTEX",
+      "url": "https://github.com/Autumn-27/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1421,
+      "forks": 253,
+      "starsToday": 785,
+      "topics": [],
+      "author": {
+        "name": "Autumn-27",
+        "avatar": "https://avatars.githubusercontent.com/u/53844290?s=40&amp;v=4",
+        "url": "https://github.com/Autumn-27"
+      },
+      "summary": "基于 Go 的 AI 自主渗透测试系统，让智能体自动完成攻防测试任务，百度“agent+”攻防挑战赛冠军项目。",
+      "tags": [
+        "ai",
+        "security",
+        "pentest",
+        "agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:25:12.459Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "urfave/cli",
+      "url": "https://github.com/urfave/cli",
+      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24274,
+      "forks": 1832,
+      "starsToday": 73,
+      "topics": [],
+      "author": {
+        "name": "urfave",
+        "avatar": "https://avatars.githubusercontent.com/u/3200486?s=40&amp;v=4",
+        "url": "https://github.com/urfave"
+      },
+      "summary": "Go 语言命令行工具构建库，声明式 API 简洁高效，帮助开发者快速实现 CLI 应用与子命令。",
+      "tags": [
+        "go",
+        "cli",
+        "library",
+        "command-line",
+        "framework"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-03T04:25:12.970Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5845,
+      "forks": 259,
+      "starsToday": 2334,
+      "topics": [],
+      "author": {
+        "name": "asciimoo",
+        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
+        "url": "https://github.com/asciimoo"
+      },
+      "summary": "用 Go 编写的自托管搜索引擎，可索引本地网页与文件，提供私有化全文检索，无需依赖外部服务。",
+      "tags": [
+        "search-engine",
+        "go",
+        "self-hosted",
+        "indexing",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-03T04:25:12.899Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tuios",
+      "fullName": "Gaurav-Gosain/tuios",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4585,
+      "forks": 203,
+      "starsToday": 971,
+      "topics": [],
+      "author": {
+        "name": "Gaurav-Gosain",
+        "avatar": "https://avatars.githubusercontent.com/u/55647468?s=40&amp;v=4",
+        "url": "https://github.com/Gaurav-Gosain"
+      },
+      "summary": "终端窗口管理器，支持平铺窗格、工作区和重启后保留的会话，并为各类编码智能体提供统一收件箱，方便掌握其运行状态。",
+      "tags": [
+        "terminal",
+        "window-manager",
+        "tiling",
+        "agents",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-03T04:25:13.682Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "grpc-go",
+      "fullName": "grpc/grpc-go",
+      "url": "https://github.com/grpc/grpc-go",
+      "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23085,
+      "forks": 4778,
+      "starsToday": 138,
+      "topics": [],
+      "author": {
+        "name": "grpc",
+        "avatar": "https://avatars.githubusercontent.com/u/10121772?s=40&amp;v=4",
+        "url": "https://github.com/grpc"
+      },
+      "summary": "gRPC 的 Go 语言官方实现，基于 HTTP/2 的高性能 RPC 框架，用于构建跨语言微服务通信。",
+      "tags": [
+        "grpc",
+        "go",
+        "rpc",
+        "http2",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-03T04:25:13.596Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7005,
+      "forks": 722,
+      "starsToday": 742,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向 AI 编程代理的持久化记忆系统，Go 编写的跨代理二进制，内置 SQLite+FTS5 全文检索，提供 MCP 服务、HTTP API、CLI 与 TUI。",
+      "tags": [
+        "ai",
+        "memory",
+        "go",
+        "mcp",
+        "sqlite",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:25:14.052Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139132,
+      "forks": 21109,
+      "starsToday": 2374,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 官方编程语言仓库，提供编译器、运行时与标准库源码，以简洁语法和高效并发著称，适合构建高并发后端与云原生服务。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "runtime",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-03T04:25:14.026Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28248,
+      "forks": 2619,
+      "starsToday": 646,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "Go 编写的密钥泄露扫描工具，可在代码库、文件系统与 CI 中查找、验证并分析泄露的凭据，支持数百种密钥类型与实时校验。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "credentials",
+        "golang"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T04:25:14.607Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tunnel-client",
+      "fullName": "openai/tunnel-client",
+      "url": "https://github.com/openai/tunnel-client",
+      "description": "Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 526,
+      "forks": 106,
+      "starsToday": 190,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/201815723?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 官方 Go 客户端，通过安全隧道把内网或本地 MCP 服务器接入 ChatGPT、Codex 与 Responses API，无需暴露公网。",
+      "tags": [
+        "mcp",
+        "tunnel",
+        "openai",
+        "go",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-03T04:25:14.640Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudflared",
+      "fullName": "cloudflare/cloudflared",
+      "url": "https://github.com/cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15995,
+      "forks": 1467,
+      "starsToday": 541,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/7826979?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "Cloudflare Tunnel 官方客户端，无需开放入站端口即可将本地服务安全暴露到公网，支持反向隧道与零信任访问。",
+      "tags": [
+        "cloudflare",
+        "tunnel",
+        "networking",
+        "go",
+        "proxy",
+        "zero-trust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:25:14.959Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6000,
+      "forks": 998,
+      "starsToday": 518,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "面向异构LLM推理的可编程混合模型路由器，按语义自动分发请求到不同模型，提升推理效率与成本控制。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "vllm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-03T04:25:15.178Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "livekit",
+      "fullName": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21254,
+      "forks": 2405,
+      "starsToday": 610,
+      "topics": [],
+      "author": {
+        "name": "livekit",
+        "avatar": "https://avatars.githubusercontent.com/u/6278212?s=40&amp;v=4",
+        "url": "https://github.com/livekit"
+      },
+      "summary": "开源实时音视频与数据传输平台，基于 WebRTC 提供端到端实时通信栈，支持人类与 AI 智能体低延迟交互。",
+      "tags": [
+        "webrtc",
+        "realtime",
+        "video",
+        "audio",
+        "go",
+        "ai"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:25:16.182Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "runtime",
+      "fullName": "e2b-dev/runtime",
+      "url": "https://github.com/e2b-dev/runtime",
+      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1667,
+      "forks": 457,
+      "starsToday": 439,
+      "topics": [],
+      "author": {
+        "name": "e2b-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/49156497?s=40&amp;v=4",
+        "url": "https://github.com/e2b-dev"
+      },
+      "summary": "E2B 沙箱运行时核心组件，为云端、企业版及本地环境提供安全隔离的代码执行环境，支撑 AI 智能体运行不可信代码。",
+      "tags": [
+        "sandbox",
+        "runtime",
+        "go",
+        "ai-agents",
+        "code-execution"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:25:16.009Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-sandbox",
+      "fullName": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4129,
+      "forks": 540,
+      "starsToday": 504,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/4876867?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubernetes 控制器，用于管理隔离、有状态、单例工作负载，适合 AI Agent 运行时与强化学习等场景。",
+      "tags": [
+        "kubernetes",
+        "ai-agents",
+        "sandbox",
+        "go",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-03T04:25:17.406Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
