@@ -2,9 +2,374 @@
   "date": "2026-10-04",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-04T04:54:21.226Z",
-  "enrichedAt": "2026-10-04T04:55:13.301Z",
+  "fetchedAt": "2026-10-04T14:41:09.869Z",
+  "enrichedAt": "2026-10-04T14:41:44.290Z",
   "repos": [
+    {
+      "name": "FluxDown",
+      "fullName": "zerx-lab/FluxDown",
+      "url": "https://github.com/zerx-lab/FluxDown",
+      "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3773,
+      "forks": 223,
+      "starsToday": 334,
+      "topics": [],
+      "author": {
+        "name": "zerx-lab",
+        "avatar": "https://avatars.githubusercontent.com/u/161401688?s=40&amp;v=4",
+        "url": "https://github.com/zerx-lab"
+      },
+      "summary": "Rust 编写的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力与 HLS/DASH 流媒体，多线程加速并可与浏览器无缝集成。",
+      "tags": [
+        "rust",
+        "downloader",
+        "bittorrent",
+        "streaming",
+        "multithread"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-04T14:41:43.078Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "touchHLE",
+      "fullName": "touchHLE/touchHLE",
+      "url": "https://github.com/touchHLE/touchHLE",
+      "description": "High-level emulator for early iOS apps. This repo is used for issues, releases and CI. Submit patches at: https://review.gerrithub.io/admin/repos/touchHLE/touchHLE",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3970,
+      "forks": 344,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "touchHLE",
+        "avatar": "https://avatars.githubusercontent.com/u/91161081?s=40&amp;v=4",
+        "url": "https://github.com/touchHLE"
+      },
+      "summary": "用 Rust 编写的高层模拟器，可在现代设备上运行早期 iOS 应用与游戏，无需原始系统镜像。",
+      "tags": [
+        "emulator",
+        "ios",
+        "rust",
+        "reverse-engineering",
+        "retro"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-04T14:41:43.036Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119531,
+      "forks": 17576,
+      "starsToday": 106,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 编程语言官方仓库，提供内存安全与高性能兼具的系统级开发工具链，含编译器、标准库与 Cargo 生态。",
+      "tags": [
+        "rust",
+        "programming-language",
+        "compiler",
+        "systems",
+        "toolchain"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-04T14:41:43.197Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llmfit",
+      "fullName": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37580,
+      "forks": 2407,
+      "starsToday": 99,
+      "topics": [],
+      "author": {
+        "name": "AlexsJones",
+        "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&amp;v=4",
+        "url": "https://github.com/AlexsJones"
+      },
+      "summary": "用一条命令检测数百个模型与提供商中哪些能在你的硬件上运行，帮助本地部署大模型时快速选型，避免显存与算力不匹配。",
+      "tags": [
+        "llm",
+        "rust",
+        "cli",
+        "hardware",
+        "local-llm"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-04T14:41:42.976Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nasiko",
+      "fullName": "Nasiko-Labs/nasiko",
+      "url": "https://github.com/Nasiko-Labs/nasiko",
+      "description": "The Open Runtime for AI Agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9407,
+      "forks": 2078,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "Nasiko-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/137779928?s=40&amp;v=4",
+        "url": "https://github.com/Nasiko-Labs"
+      },
+      "summary": "用 Rust 编写的开源 AI Agent 运行时，为智能体提供统一的执行与部署环境，简化构建和运行流程。",
+      "tags": [
+        "ai-agents",
+        "runtime",
+        "rust",
+        "llm",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-04T14:41:44.024Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zeron",
+      "fullName": "zeronsh/zeron",
+      "url": "https://github.com/zeronsh/zeron",
+      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2987,
+      "forks": 283,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "zeronsh",
+        "avatar": "https://avatars.githubusercontent.com/u/234226124?s=40&amp;v=4",
+        "url": "https://github.com/zeronsh"
+      },
+      "summary": "面向 Claude Code、Codex、Cursor、Devin 等编码智能体的原生控制平面，用 Rust 编写，统一调度与管理多个 AI 编程代理。",
+      "tags": [
+        "ai-agent",
+        "coding-agent",
+        "rust",
+        "control-plane",
+        "devtool"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-04T04:55:12.147Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FalkorDB",
+      "fullName": "FalkorDB/FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6897,
+      "forks": 502,
+      "starsToday": 159,
+      "topics": [],
+      "author": {
+        "name": "FalkorDB",
+        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
+        "url": "https://github.com/FalkorDB"
+      },
+      "summary": "基于GraphBLAS稀疏矩阵实现的高性能图数据库，主打为LLM提供知识图谱与GraphRAG能力，查询快、可扩展。",
+      "tags": [
+        "graph-database",
+        "graphrag",
+        "knowledge-graph",
+        "graphblas",
+        "rust"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-04T04:55:12.341Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hftbacktest",
+      "fullName": "nkaz001/hftbacktest",
+      "url": "https://github.com/nkaz001/hftbacktest",
+      "description": "Free, open source, a high frequency trading and market making backtesting and trading bot, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world crypto trading examples for Binance and Bybit",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4845,
+      "forks": 922,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "nkaz001",
+        "avatar": "https://avatars.githubusercontent.com/u/75321484?s=40&amp;v=4",
+        "url": "https://github.com/nkaz001"
+      },
+      "summary": "开源高频交易与做市回测框架，基于完整tick与Level-2/3订单簿数据，模拟限价单、队列位置和延迟，附币安、Bybit实盘示例。",
+      "tags": [
+        "hft",
+        "backtesting",
+        "trading",
+        "rust",
+        "crypto",
+        "orderbook"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-04T14:41:44.184Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "benilla",
+      "fullName": "samwhosung/benilla",
+      "url": "https://github.com/samwhosung/benilla",
+      "description": "A complete World of Warcraft 1.12.1 client, written from scratch in Rust and Bevy",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 569,
+      "forks": 111,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "samwhosung",
+        "avatar": "https://avatars.githubusercontent.com/u/51686767?s=40&amp;v=4",
+        "url": "https://github.com/samwhosung"
+      },
+      "summary": "用 Rust 和 Bevy 从零重写的《魔兽世界》1.12.1 客户端，探索用现代游戏引擎复刻经典 MMO 的完整实现。",
+      "tags": [
+        "rust",
+        "bevy",
+        "game",
+        "wow",
+        "engine"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-04T04:55:11.179Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openhuman",
+      "fullName": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 40594,
+      "forks": 4022,
+      "starsToday": 102,
+      "topics": [],
+      "author": {
+        "name": "tinyhumansai",
+        "avatar": "https://avatars.githubusercontent.com/u/31011319?s=40&amp;v=4",
+        "url": "https://github.com/tinyhumansai"
+      },
+      "summary": "OpenHuman 是用 Rust 编写的开源 AI Agent 运行框架，主打速度最快、成本最低、效率最高的智能体编排。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "llm",
+        "framework",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-04T14:41:44.042Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32806,
+      "forks": 3036,
+      "starsToday": 84,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "免费开源的离线语音转文字桌面应用，基于 Rust 构建，支持扩展，无需联网即可完成本地转录，兼顾隐私与低延迟。",
+      "tags": [
+        "speech-to-text",
+        "rust",
+        "offline",
+        "desktop",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-04T04:55:09.653Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clash-verge-rev",
+      "fullName": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 149187,
+      "forks": 10705,
+      "starsToday": 201,
+      "topics": [],
+      "author": {
+        "name": "clash-verge-rev",
+        "avatar": "https://avatars.githubusercontent.com/u/77394545?s=40&amp;v=4",
+        "url": "https://github.com/clash-verge-rev"
+      },
+      "summary": "基于 Tauri 的现代跨平台代理客户端，支持 Windows、macOS 和 Linux，提供简洁易用的图形界面与定制化代理体验。",
+      "tags": [
+        "proxy",
+        "tauri",
+        "rust",
+        "cross-platform",
+        "gui"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-04T14:41:44.290Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "turso",
+      "fullName": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24581,
+      "forks": 1396,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "tursodatabase",
+        "avatar": "https://avatars.githubusercontent.com/u/81939?s=40&amp;v=4",
+        "url": "https://github.com/tursodatabase"
+      },
+      "summary": "用 Rust 重写的 SQL 数据库，兼容 SQLite 并实验性支持 Postgres 协议，主打高性能与可嵌入，被称为数据库界的 LLVM。",
+      "tags": [
+        "database",
+        "rust",
+        "sqlite",
+        "postgres",
+        "embedded"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-04T04:55:13.301Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "prime-agent",
       "fullName": "PrimeIntellect-ai/prime-agent",
@@ -31,34 +396,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-04T04:55:09.728Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Handy",
-      "fullName": "cjpais/Handy",
-      "url": "https://github.com/cjpais/Handy",
-      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 32774,
-      "forks": 3033,
-      "starsToday": 101,
-      "topics": [],
-      "author": {
-        "name": "cjpais",
-        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
-        "url": "https://github.com/cjpais"
-      },
-      "summary": "免费开源的离线语音转文字桌面应用，基于 Rust 构建，支持扩展，无需联网即可完成本地转录，兼顾隐私与低延迟。",
-      "tags": [
-        "speech-to-text",
-        "rust",
-        "offline",
-        "desktop",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-04T04:55:09.653Z",
       "deepwikiAvailable": false
     },
     {
@@ -175,34 +512,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "benilla",
-      "fullName": "samwhosung/benilla",
-      "url": "https://github.com/samwhosung/benilla",
-      "description": "A complete World of Warcraft 1.12.1 client, written from scratch in Rust and Bevy",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 550,
-      "forks": 108,
-      "starsToday": 77,
-      "topics": [],
-      "author": {
-        "name": "samwhosung",
-        "avatar": "https://avatars.githubusercontent.com/u/51686767?s=40&amp;v=4",
-        "url": "https://github.com/samwhosung"
-      },
-      "summary": "用 Rust 和 Bevy 从零重写的《魔兽世界》1.12.1 客户端，探索用现代游戏引擎复刻经典 MMO 的完整实现。",
-      "tags": [
-        "rust",
-        "bevy",
-        "game",
-        "wow",
-        "engine"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-04T04:55:11.179Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "agentgateway",
       "fullName": "agentgateway/agentgateway",
       "url": "https://github.com/agentgateway/agentgateway",
@@ -228,62 +537,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-04T04:55:11.110Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zeron",
-      "fullName": "zeronsh/zeron",
-      "url": "https://github.com/zeronsh/zeron",
-      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2955,
-      "forks": 277,
-      "starsToday": 153,
-      "topics": [],
-      "author": {
-        "name": "zeronsh",
-        "avatar": "https://avatars.githubusercontent.com/u/234226124?s=40&amp;v=4",
-        "url": "https://github.com/zeronsh"
-      },
-      "summary": "面向 Claude Code、Codex、Cursor、Devin 等编码智能体的原生控制平面，用 Rust 编写，统一调度与管理多个 AI 编程代理。",
-      "tags": [
-        "ai-agent",
-        "coding-agent",
-        "rust",
-        "control-plane",
-        "devtool"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-04T04:55:12.147Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "FalkorDB",
-      "fullName": "FalkorDB/FalkorDB",
-      "url": "https://github.com/FalkorDB/FalkorDB",
-      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6784,
-      "forks": 498,
-      "starsToday": 133,
-      "topics": [],
-      "author": {
-        "name": "FalkorDB",
-        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
-        "url": "https://github.com/FalkorDB"
-      },
-      "summary": "基于GraphBLAS稀疏矩阵实现的高性能图数据库，主打为LLM提供知识图谱与GraphRAG能力，查询快、可扩展。",
-      "tags": [
-        "graph-database",
-        "graphrag",
-        "knowledge-graph",
-        "graphblas",
-        "rust"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-04T04:55:12.341Z",
       "deepwikiAvailable": false
     },
     {
@@ -342,34 +595,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-04T04:55:12.059Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "turso",
-      "fullName": "tursodatabase/turso",
-      "url": "https://github.com/tursodatabase/turso",
-      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 24557,
-      "forks": 1395,
-      "starsToday": 55,
-      "topics": [],
-      "author": {
-        "name": "tursodatabase",
-        "avatar": "https://avatars.githubusercontent.com/u/81939?s=40&amp;v=4",
-        "url": "https://github.com/tursodatabase"
-      },
-      "summary": "用 Rust 重写的 SQL 数据库，兼容 SQLite 并实验性支持 Postgres 协议，主打高性能与可嵌入，被称为数据库界的 LLVM。",
-      "tags": [
-        "database",
-        "rust",
-        "sqlite",
-        "postgres",
-        "embedded"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-04T04:55:13.301Z",
       "deepwikiAvailable": false
     }
   ]
