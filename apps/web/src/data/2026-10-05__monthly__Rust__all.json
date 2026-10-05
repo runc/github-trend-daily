@@ -2,8 +2,8 @@
   "date": "2026-10-05",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-10-05T04:41:48.862Z",
-  "enrichedAt": "2026-10-05T04:43:36.862Z",
+  "fetchedAt": "2026-10-05T18:05:08.178Z",
+  "enrichedAt": "2026-10-05T18:06:01.539Z",
   "repos": [
     {
       "name": "OpenShell",
@@ -12,8 +12,8 @@
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14890,
-      "forks": 1699,
+      "stars": 14966,
+      "forks": 1701,
       "starsToday": 6356,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 28067,
-      "forks": 1991,
+      "stars": 28150,
+      "forks": 1996,
       "starsToday": 5942,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8813,
-      "forks": 315,
+      "stars": 8836,
+      "forks": 321,
       "starsToday": 2049,
       "topics": [],
       "author": {
@@ -96,8 +96,8 @@
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 16156,
-      "forks": 993,
+      "stars": 16211,
+      "forks": 996,
       "starsToday": 2204,
       "topics": [],
       "author": {
@@ -118,13 +118,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 34414,
+      "forks": 1547,
+      "starsToday": 2960,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "Rust 编写的高性能开源对象存储系统，兼容 S3 协议，可与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "rust",
+        "object-storage",
+        "s3",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-05T04:43:33.081Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ai-memory",
       "fullName": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8825,
+      "stars": 8837,
       "forks": 614,
       "starsToday": 3174,
       "topics": [],
@@ -146,31 +174,60 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "name": "quiche",
+      "fullName": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 34391,
-      "forks": 1546,
-      "starsToday": 2960,
+      "stars": 12744,
+      "forks": 1167,
+      "starsToday": 971,
       "topics": [],
       "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
       },
-      "summary": "Rust 编写的高性能开源对象存储系统，兼容 S3 协议，可与 MinIO、Ceph 等平台迁移共存。",
+      "summary": "Cloudflare 出品的 Rust 实现 QUIC 传输协议与 HTTP/3，含 TLS 集成，可作为库或独立工具使用，性能与生产可用性俱佳。",
       "tags": [
+        "quic",
+        "http3",
         "rust",
-        "object-storage",
-        "s3",
-        "storage",
-        "minio"
+        "networking",
+        "tls"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-05T04:43:33.081Z",
+      "category": "Library",
+      "enrichedAt": "2026-10-05T18:06:01.539Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24754,
+      "forks": 2241,
+      "starsToday": 6624,
+      "topics": [],
+      "author": {
+        "name": "t8y2",
+        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
+        "url": "https://github.com/t8y2"
+      },
+      "summary": "25MB 轻量跨平台数据库客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB 等 100+ 数据库，内置 AI 助手与 MCP，提供桌面端、CLI 和 Docker。",
+      "tags": [
+        "database",
+        "rust",
+        "cross-platform",
+        "ai",
+        "mcp",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-05T04:43:33.495Z",
       "deepwikiAvailable": false
     },
     {
@@ -180,8 +237,8 @@
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 125141,
-      "forks": 19431,
+      "stars": 125189,
+      "forks": 19450,
       "starsToday": 2990,
       "topics": [],
       "author": {
@@ -208,8 +265,8 @@
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 149260,
-      "forks": 10712,
+      "stars": 149368,
+      "forks": 10718,
       "starsToday": 7476,
       "topics": [],
       "author": {
@@ -230,43 +287,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "dbx",
-      "fullName": "t8y2/dbx",
-      "url": "https://github.com/t8y2/dbx",
-      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 24610,
-      "forks": 2243,
-      "starsToday": 6624,
-      "topics": [],
-      "author": {
-        "name": "t8y2",
-        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
-        "url": "https://github.com/t8y2"
-      },
-      "summary": "25MB 轻量跨平台数据库客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB 等 100+ 数据库，内置 AI 助手与 MCP，提供桌面端、CLI 和 Docker。",
-      "tags": [
-        "database",
-        "rust",
-        "cross-platform",
-        "ai",
-        "mcp",
-        "cli"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-05T04:43:33.495Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "rust",
       "fullName": "rust-lang/rust",
       "url": "https://github.com/rust-lang/rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 119557,
-      "forks": 17592,
+      "stars": 119584,
+      "forks": 17707,
       "starsToday": 2747,
       "topics": [],
       "author": {
@@ -293,7 +321,7 @@
       "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2449,
+      "stars": 2459,
       "forks": 257,
       "starsToday": 1412,
       "topics": [],
@@ -322,8 +350,8 @@
       "description": "HydraDB - fast graph database on object storage",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 13049,
-      "forks": 5511,
+      "stars": 13044,
+      "forks": 5501,
       "starsToday": 10900,
       "topics": [],
       "author": {
@@ -344,41 +372,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "anki",
-      "fullName": "ankitects/anki",
-      "url": "https://github.com/ankitects/anki",
-      "description": "Anki is a smart spaced repetition flashcard program",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31759,
-      "forks": 3299,
-      "starsToday": 1689,
-      "topics": [],
-      "author": {
-        "name": "ankitects",
-        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
-        "url": "https://github.com/ankitects"
-      },
-      "summary": "Anki 是基于间隔重复算法的智能记忆卡片软件，帮助用户高效记忆与长期复习，支持多平台同步与插件扩展。",
-      "tags": [
-        "flashcards",
-        "spaced-repetition",
-        "learning",
-        "rust",
-        "education"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-05T04:43:34.624Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "zeron",
       "fullName": "zeronsh/zeron",
       "url": "https://github.com/zeronsh/zeron",
       "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3018,
+      "stars": 3036,
       "forks": 285,
       "starsToday": 1865,
       "topics": [],
@@ -406,8 +406,8 @@
       "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 9000,
-      "forks": 353,
+      "stars": 9102,
+      "forks": 355,
       "starsToday": 6052,
       "topics": [],
       "author": {
@@ -428,31 +428,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "MovieBox-Tui",
-      "fullName": "mesamirh/MovieBox-Tui",
-      "url": "https://github.com/mesamirh/MovieBox-Tui",
-      "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
+      "name": "anki",
+      "fullName": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2428,
-      "forks": 275,
-      "starsToday": 1080,
+      "stars": 31774,
+      "forks": 3305,
+      "starsToday": 1689,
       "topics": [],
       "author": {
-        "name": "mesamirh",
-        "avatar": "https://avatars.githubusercontent.com/u/73069638?s=40&amp;v=4",
-        "url": "https://github.com/mesamirh"
+        "name": "ankitects",
+        "avatar": "https://avatars.githubusercontent.com/u/180542?s=40&amp;v=4",
+        "url": "https://github.com/ankitects"
       },
-      "summary": "基于 Rust 的终端影视工具，可在命令行中搜索、下载并调用本地播放器观看电影、剧集和直播电视。",
+      "summary": "Anki 是基于间隔重复算法的智能记忆卡片软件，帮助用户高效记忆与长期复习，支持多平台同步与插件扩展。",
       "tags": [
+        "flashcards",
+        "spaced-repetition",
+        "learning",
         "rust",
-        "tui",
-        "cli",
-        "streaming",
-        "media-player"
+        "education"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-05T04:43:35.671Z",
+      "category": "App",
+      "enrichedAt": "2026-10-05T04:43:34.624Z",
       "deepwikiAvailable": false
     },
     {
@@ -462,8 +462,8 @@
       "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 31945,
-      "forks": 3445,
+      "stars": 31958,
+      "forks": 3446,
       "starsToday": 1182,
       "topics": [],
       "author": {
@@ -484,31 +484,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "magnitude",
-      "fullName": "magnitudedev/magnitude",
-      "url": "https://github.com/magnitudedev/magnitude",
-      "description": "Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
+      "name": "MovieBox-Tui",
+      "fullName": "mesamirh/MovieBox-Tui",
+      "url": "https://github.com/mesamirh/MovieBox-Tui",
+      "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 6374,
-      "forks": 432,
-      "starsToday": 4163,
+      "stars": 2432,
+      "forks": 280,
+      "starsToday": 1080,
       "topics": [],
       "author": {
-        "name": "magnitudedev",
-        "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&amp;v=4",
-        "url": "https://github.com/magnitudedev"
+        "name": "mesamirh",
+        "avatar": "https://avatars.githubusercontent.com/u/73069638?s=40&amp;v=4",
+        "url": "https://github.com/mesamirh"
       },
-      "summary": "开源智能体推理引擎，针对本机硬件自动编译调优内核，让开源模型比 llama.cpp 快约 2 倍，支持 Apple Silicon、NVIDIA、AMD 及纯 CPU。",
+      "summary": "基于 Rust 的终端影视工具，可在命令行中搜索、下载并调用本地播放器观看电影、剧集和直播电视。",
       "tags": [
-        "inference",
-        "llm",
         "rust",
-        "gpu",
-        "agents"
+        "tui",
+        "cli",
+        "streaming",
+        "media-player"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-05T04:43:35.695Z",
+      "category": "CLI",
+      "enrichedAt": "2026-10-05T04:43:35.671Z",
       "deepwikiAvailable": false
     },
     {
@@ -518,7 +518,7 @@
       "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 45284,
+      "stars": 45286,
       "forks": 6423,
       "starsToday": 2006,
       "topics": [],
@@ -537,6 +537,63 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-05T04:43:36.742Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "EasyCLIProxyAPI",
+      "fullName": "router-for-me/EasyCLIProxyAPI",
+      "url": "https://github.com/router-for-me/EasyCLIProxyAPI",
+      "description": "A desktop GUI for CLIProxyAPI and a tool for automatically configuring popular AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2699,
+      "forks": 223,
+      "starsToday": 841,
+      "topics": [],
+      "author": {
+        "name": "router-for-me",
+        "avatar": "https://avatars.githubusercontent.com/u/50255339?s=40&amp;v=4",
+        "url": "https://github.com/router-for-me"
+      },
+      "summary": "为 CLIProxyAPI 提供桌面图形界面，并自动配置主流 AI 编程代理，简化本地代理与客户端接入流程。",
+      "tags": [
+        "rust",
+        "gui",
+        "proxy",
+        "ai",
+        "cli",
+        "desktop"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-05T18:06:01.045Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "magnitude",
+      "fullName": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6422,
+      "forks": 440,
+      "starsToday": 4163,
+      "topics": [],
+      "author": {
+        "name": "magnitudedev",
+        "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&amp;v=4",
+        "url": "https://github.com/magnitudedev"
+      },
+      "summary": "开源智能体推理引擎，针对本机硬件自动编译调优内核，让开源模型比 llama.cpp 快约 2 倍，支持 Apple Silicon、NVIDIA、AMD 及纯 CPU。",
+      "tags": [
+        "inference",
+        "llm",
+        "rust",
+        "gpu",
+        "agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-05T04:43:35.695Z",
       "deepwikiAvailable": false
     },
     {

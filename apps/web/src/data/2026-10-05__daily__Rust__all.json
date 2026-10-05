@@ -2,9 +2,122 @@
   "date": "2026-10-05",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-05T04:41:48.862Z",
-  "enrichedAt": "2026-10-05T04:42:34.164Z",
+  "fetchedAt": "2026-10-05T18:05:08.178Z",
+  "enrichedAt": "2026-10-05T18:05:42.481Z",
   "repos": [
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 96521,
+      "forks": 12703,
+      "starsToday": 250,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面，基于Rust构建。",
+      "tags": [
+        "wifi",
+        "rust",
+        "sensing",
+        "presence-detection",
+        "vital-signs"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-05T18:05:41.558Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 119584,
+      "forks": 17707,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 编程语言官方仓库，提供内存安全与高性能兼备的系统级开发工具链，含编译器、标准库与包管理器。",
+      "tags": [
+        "rust",
+        "programming-language",
+        "compiler",
+        "systems",
+        "memory-safety"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-05T04:42:31.128Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dynamo",
+      "fullName": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8223,
+      "forks": 1666,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "ai-dynamo",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/ai-dynamo"
+      },
+      "summary": "面向数据中心的分布式推理服务框架，用 Rust 编写，支持大规模模型推理的调度与部署，提升吞吐与资源利用率。",
+      "tags": [
+        "inference",
+        "rust",
+        "distributed",
+        "serving",
+        "llm",
+        "datacenter"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-05T18:05:41.350Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ALVR",
+      "fullName": "alvr-org/ALVR",
+      "url": "https://github.com/alvr-org/ALVR",
+      "description": "Stream VR games from your PC to your headset via Wi-Fi",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7974,
+      "forks": 730,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "alvr-org",
+        "avatar": "https://avatars.githubusercontent.com/u/10350681?s=40&amp;v=4",
+        "url": "https://github.com/alvr-org"
+      },
+      "summary": "用 Rust 编写的开源工具，通过 Wi-Fi 将 PC 上的 VR 游戏串流到头显，支持 Quest 等独立设备，替代官方串流方案。",
+      "tags": [
+        "vr",
+        "streaming",
+        "rust",
+        "wifi",
+        "openxr"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-05T18:05:41.633Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "FluxDown",
       "fullName": "zerx-lab/FluxDown",
@@ -12,9 +125,9 @@
       "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3854,
+      "stars": 3922,
       "forks": 232,
-      "starsToday": 299,
+      "starsToday": 152,
       "topics": [],
       "author": {
         "name": "zerx-lab",
@@ -31,6 +144,147 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-05T04:42:30.889Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FalkorDB",
+      "fullName": "FalkorDB/FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7399,
+      "forks": 517,
+      "starsToday": 387,
+      "topics": [],
+      "author": {
+        "name": "FalkorDB",
+        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
+        "url": "https://github.com/FalkorDB"
+      },
+      "summary": "基于GraphBLAS稀疏邻接矩阵的极速图数据库，主打为LLM提供知识图谱与GraphRAG支持。",
+      "tags": [
+        "graph-database",
+        "graphblas",
+        "knowledge-graph",
+        "graphrag",
+        "rust"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-05T04:42:32.081Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpui-kit",
+      "fullName": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16211,
+      "forks": 996,
+      "starsToday": 185,
+      "topics": [],
+      "author": {
+        "name": "longbridge",
+        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
+        "url": "https://github.com/longbridge"
+      },
+      "summary": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库，提供丰富控件，助你快速构建高性能原生桌面应用。",
+      "tags": [
+        "rust",
+        "gui",
+        "gpui",
+        "desktop",
+        "ui-components"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-05T18:05:41.413Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2443,
+      "forks": 236,
+      "starsToday": 177,
+      "topics": [],
+      "author": {
+        "name": "storytold",
+        "avatar": "https://avatars.githubusercontent.com/u/39263?s=40&amp;v=4",
+        "url": "https://github.com/storytold"
+      },
+      "summary": "ArtCraft 是面向艺术家、设计师和影视创作者的创意生成引擎，用 Rust 编写，提供可控的 AI 图像与视觉内容创作能力。",
+      "tags": [
+        "rust",
+        "ai",
+        "creative-tools",
+        "image-generation",
+        "design"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-05T18:05:42.456Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Aether",
+      "fullName": "CluvexStudio/Aether",
+      "url": "https://github.com/CluvexStudio/Aether",
+      "description": "A Rust userspace WARP core for censored networks, built around MASQUE over HTTP/3 and HTTP/2.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2088,
+      "forks": 164,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "CluvexStudio",
+        "avatar": "https://avatars.githubusercontent.com/u/125141320?s=40&amp;v=4",
+        "url": "https://github.com/CluvexStudio"
+      },
+      "summary": "基于 Rust 的用户态 WARP 核心，通过 MASQUE over HTTP/3 与 HTTP/2 在受限网络中建立隧道，替代官方客户端。",
+      "tags": [
+        "rust",
+        "warp",
+        "masque",
+        "http3",
+        "proxy",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-05T18:05:42.480Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "turso",
+      "fullName": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24628,
+      "forks": 1408,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "tursodatabase",
+        "avatar": "https://avatars.githubusercontent.com/u/81939?s=40&amp;v=4",
+        "url": "https://github.com/tursodatabase"
+      },
+      "summary": "用 Rust 重写的 SQL 数据库，兼容 SQLite 并实验性支持 Postgres 协议，主打高性能与可嵌入，被称为数据库界的 LLVM。",
+      "tags": [
+        "database",
+        "rust",
+        "sqlite",
+        "postgres",
+        "embedded"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-05T04:42:33.939Z",
       "deepwikiAvailable": false
     },
     {
@@ -59,34 +313,6 @@
       ],
       "category": "Emulator",
       "enrichedAt": "2026-10-05T04:42:30.843Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rust",
-      "fullName": "rust-lang/rust",
-      "url": "https://github.com/rust-lang/rust",
-      "description": "Empowering everyone to build reliable and efficient software.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 119557,
-      "forks": 17592,
-      "starsToday": 112,
-      "topics": [],
-      "author": {
-        "name": "rust-lang",
-        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
-        "url": "https://github.com/rust-lang"
-      },
-      "summary": "Rust 编程语言官方仓库，提供内存安全与高性能兼备的系统级开发工具链，含编译器、标准库与包管理器。",
-      "tags": [
-        "rust",
-        "programming-language",
-        "compiler",
-        "systems",
-        "memory-safety"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-05T04:42:31.128Z",
       "deepwikiAvailable": false
     },
     {
@@ -171,34 +397,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-05T04:42:31.730Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "FalkorDB",
-      "fullName": "FalkorDB/FalkorDB",
-      "url": "https://github.com/FalkorDB/FalkorDB",
-      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7003,
-      "forks": 508,
-      "starsToday": 164,
-      "topics": [],
-      "author": {
-        "name": "FalkorDB",
-        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
-        "url": "https://github.com/FalkorDB"
-      },
-      "summary": "基于GraphBLAS稀疏邻接矩阵的极速图数据库，主打为LLM提供知识图谱与GraphRAG支持。",
-      "tags": [
-        "graph-database",
-        "graphblas",
-        "knowledge-graph",
-        "graphrag",
-        "rust"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-05T04:42:32.081Z",
       "deepwikiAvailable": false
     },
     {
@@ -339,34 +537,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-05T04:42:34.164Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "turso",
-      "fullName": "tursodatabase/turso",
-      "url": "https://github.com/tursodatabase/turso",
-      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 24608,
-      "forks": 1404,
-      "starsToday": 46,
-      "topics": [],
-      "author": {
-        "name": "tursodatabase",
-        "avatar": "https://avatars.githubusercontent.com/u/81939?s=40&amp;v=4",
-        "url": "https://github.com/tursodatabase"
-      },
-      "summary": "用 Rust 重写的 SQL 数据库，兼容 SQLite 并实验性支持 Postgres 协议，主打高性能与可嵌入，被称为数据库界的 LLVM。",
-      "tags": [
-        "database",
-        "rust",
-        "sqlite",
-        "postgres",
-        "embedded"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-05T04:42:33.939Z",
       "deepwikiAvailable": false
     }
   ]
