@@ -2,8 +2,8 @@
   "date": "2026-10-06",
   "since": "monthly",
   "language": "Java",
-  "fetchedAt": "2026-10-06T05:28:16.121Z",
-  "enrichedAt": "2026-10-06T05:30:13.978Z",
+  "fetchedAt": "2026-10-06T15:45:14.103Z",
+  "enrichedAt": "2026-10-06T15:46:14.752Z",
   "repos": [
     {
       "name": "ghidra",
@@ -12,8 +12,8 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 80876,
-      "forks": 8988,
+      "stars": 81003,
+      "forks": 8999,
       "starsToday": 6491,
       "topics": [],
       "author": {
@@ -34,69 +34,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Stirling-PDF",
-      "fullName": "Stirling-Tools/Stirling-PDF",
-      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
-      "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 93631,
-      "forks": 10444,
-      "starsToday": 2566,
-      "topics": [],
-      "author": {
-        "name": "Stirling-Tools",
-        "avatar": "https://avatars.githubusercontent.com/u/77850077?s=40&amp;v=4",
-        "url": "https://github.com/Stirling-Tools"
-      },
-      "summary": "基于本地部署的开源PDF工具箱，支持合并、拆分、转换、OCR、签名等数十种操作，可在任意设备浏览器中使用，数据不出本地。",
-      "tags": [
-        "pdf",
-        "self-hosted",
-        "docker",
-        "typescript",
-        "document"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:30:09.050Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "termux-app",
-      "fullName": "termux/termux-app",
-      "url": "https://github.com/termux/termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 62063,
-      "forks": 7777,
-      "starsToday": 1813,
-      "topics": [],
-      "author": {
-        "name": "termux",
-        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
-        "url": "https://github.com/termux"
-      },
-      "summary": "Termux 是 Android 上的终端模拟器应用，内置 Linux 环境并可通过包管理器安装大量软件包，让手机变身便携开发终端。",
-      "tags": [
-        "android",
-        "terminal",
-        "emulator",
-        "linux",
-        "package-manager"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:30:09.228Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Geyser",
       "fullName": "GeyserMC/Geyser",
       "url": "https://github.com/GeyserMC/Geyser",
       "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 5869,
+      "stars": 5870,
       "forks": 905,
       "starsToday": 102,
       "topics": [],
@@ -118,14 +62,71 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 62092,
+      "forks": 7784,
+      "starsToday": 1813,
+      "topics": [],
+      "author": {
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
+        "url": "https://github.com/termux"
+      },
+      "summary": "Termux 是 Android 上的终端模拟器应用，内置 Linux 环境并可通过包管理器安装大量软件包，让手机变身便携开发终端。",
+      "tags": [
+        "android",
+        "terminal",
+        "emulator",
+        "linux",
+        "package-manager"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:30:09.228Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keycloak",
+      "fullName": "keycloak/keycloak",
+      "url": "https://github.com/keycloak/keycloak",
+      "description": "Open Source Identity and Access Management For Modern Applications and Services",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 37163,
+      "forks": 9015,
+      "starsToday": 587,
+      "topics": [],
+      "author": {
+        "name": "keycloak",
+        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
+        "url": "https://github.com/keycloak"
+      },
+      "summary": "开源身份与访问管理平台，为现代应用和服务提供单点登录、OAuth2/OIDC、用户联邦与权限控制，可自托管替代商业IAM方案。",
+      "tags": [
+        "iam",
+        "sso",
+        "oauth2",
+        "oidc",
+        "java",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-06T05:30:10.459Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "elasticsearch",
       "fullName": "elastic/elasticsearch",
       "url": "https://github.com/elastic/elasticsearch",
       "description": "Free and Open Source, Distributed, RESTful Search Engine",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 78194,
-      "forks": 26106,
+      "stars": 78199,
+      "forks": 26108,
       "starsToday": 406,
       "topics": [],
       "author": {
@@ -146,32 +147,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "keycloak",
-      "fullName": "keycloak/keycloak",
-      "url": "https://github.com/keycloak/keycloak",
-      "description": "Open Source Identity and Access Management For Modern Applications and Services",
+      "name": "Sui",
+      "fullName": "RikkaApps/Sui",
+      "url": "https://github.com/RikkaApps/Sui",
+      "description": "Modern super user interface implementation on Android.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 37155,
-      "forks": 9012,
-      "starsToday": 587,
+      "stars": 4270,
+      "forks": 465,
+      "starsToday": 100,
       "topics": [],
       "author": {
-        "name": "keycloak",
-        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
-        "url": "https://github.com/keycloak"
+        "name": "RikkaApps",
+        "avatar": "https://avatars.githubusercontent.com/u/12999176?s=40&amp;v=4",
+        "url": "https://github.com/RikkaApps"
       },
-      "summary": "开源身份与访问管理平台，为现代应用和服务提供单点登录、OAuth2/OIDC、用户联邦与权限控制，可自托管替代商业IAM方案。",
+      "summary": "Android 平台上的现代超级用户（Root）权限管理实现，为应用提供简洁高效的提权接口。",
       "tags": [
-        "iam",
-        "sso",
-        "oauth2",
-        "oidc",
+        "android",
+        "root",
+        "su",
         "java",
         "security"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-06T05:30:10.459Z",
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:30:11.226Z",
       "deepwikiAvailable": false
     },
     {
@@ -203,34 +203,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "AndroidIDE",
-      "fullName": "AndroidIDEOfficial/AndroidIDE",
-      "url": "https://github.com/AndroidIDEOfficial/AndroidIDE",
-      "description": "AndroidIDE is an IDE for Android to develop full featured Android apps.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 3199,
-      "forks": 678,
-      "starsToday": 113,
-      "topics": [],
-      "author": {
-        "name": "AndroidIDEOfficial",
-        "avatar": "https://avatars.githubusercontent.com/u/46931079?s=40&amp;v=4",
-        "url": "https://github.com/AndroidIDEOfficial"
-      },
-      "summary": "AndroidIDE 是运行在 Android 设备上的集成开发环境，可直接在手机上编写、编译并调试完整的 Android 应用，让移动端开发无需电脑。",
-      "tags": [
-        "android",
-        "ide",
-        "java",
-        "mobile-dev",
-        "gradle"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-06T05:30:10.250Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Fermata",
       "fullName": "AndreyPavlenko/Fermata",
       "url": "https://github.com/AndreyPavlenko/Fermata",
@@ -259,31 +231,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Sui",
-      "fullName": "RikkaApps/Sui",
-      "url": "https://github.com/RikkaApps/Sui",
-      "description": "Modern super user interface implementation on Android.",
+      "name": "AndroidIDE",
+      "fullName": "AndroidIDEOfficial/AndroidIDE",
+      "url": "https://github.com/AndroidIDEOfficial/AndroidIDE",
+      "description": "AndroidIDE is an IDE for Android to develop full featured Android apps.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 4268,
-      "forks": 465,
-      "starsToday": 100,
+      "stars": 3200,
+      "forks": 680,
+      "starsToday": 113,
       "topics": [],
       "author": {
-        "name": "RikkaApps",
-        "avatar": "https://avatars.githubusercontent.com/u/12999176?s=40&amp;v=4",
-        "url": "https://github.com/RikkaApps"
+        "name": "AndroidIDEOfficial",
+        "avatar": "https://avatars.githubusercontent.com/u/46931079?s=40&amp;v=4",
+        "url": "https://github.com/AndroidIDEOfficial"
       },
-      "summary": "Android 平台上的现代超级用户（Root）权限管理实现，为应用提供简洁高效的提权接口。",
+      "summary": "AndroidIDE 是运行在 Android 设备上的集成开发环境，可直接在手机上编写、编译并调试完整的 Android 应用，让移动端开发无需电脑。",
       "tags": [
         "android",
-        "root",
-        "su",
+        "ide",
         "java",
-        "security"
+        "mobile-dev",
+        "gradle"
       ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:30:11.226Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-10-06T05:30:10.250Z",
       "deepwikiAvailable": false
     },
     {
@@ -293,8 +265,8 @@
       "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 29273,
-      "forks": 3276,
+      "stars": 29305,
+      "forks": 3285,
       "starsToday": 1322,
       "topics": [],
       "author": {
@@ -316,13 +288,126 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "spring-boot",
+      "fullName": "spring-projects/spring-boot",
+      "url": "https://github.com/spring-projects/spring-boot",
+      "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 81562,
+      "forks": 44131,
+      "starsToday": 269,
+      "topics": [],
+      "author": {
+        "name": "spring-projects",
+        "avatar": "https://avatars.githubusercontent.com/u/914682?s=40&amp;v=4",
+        "url": "https://github.com/spring-projects"
+      },
+      "summary": "Spring Boot 是 Java 生态主流的应用开发框架，通过自动配置和起步依赖，让开发者以极少配置快速构建生产级 Spring 应用与服务。",
+      "tags": [
+        "java",
+        "spring",
+        "framework",
+        "backend",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-06T05:30:12.614Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "quarkus",
+      "fullName": "quarkusio/quarkus",
+      "url": "https://github.com/quarkusio/quarkus",
+      "description": "Quarkus: Supersonic Subatomic Java.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 15928,
+      "forks": 3329,
+      "starsToday": 93,
+      "topics": [],
+      "author": {
+        "name": "quarkusio",
+        "avatar": "https://avatars.githubusercontent.com/u/1279749?s=40&amp;v=4",
+        "url": "https://github.com/quarkusio"
+      },
+      "summary": "Quarkus 是面向 GraalVM 与 HotSpot 优化的 Kubernetes 原生 Java 框架，启动快、内存占用低，适合云原生微服务与 Serverless 场景。",
+      "tags": [
+        "java",
+        "kubernetes",
+        "graalvm",
+        "framework",
+        "cloud-native"
+      ],
+      "category": "Framework",
+      "enrichedAt": "2026-10-06T05:30:12.638Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iceberg",
+      "fullName": "apache/iceberg",
+      "url": "https://github.com/apache/iceberg",
+      "description": "Apache Iceberg",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9304,
+      "forks": 3575,
+      "starsToday": 103,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Iceberg 是面向海量数据分析的开放表格式，为数据湖提供 ACID 事务、模式演进与隐藏分区，兼容 Spark、Flink 等引擎。",
+      "tags": [
+        "iceberg",
+        "table-format",
+        "data-lake",
+        "java",
+        "apache",
+        "big-data"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-06T05:30:13.434Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Wukong-AICRM",
+      "fullName": "WuKongOpenSource/Wukong-AICRM",
+      "url": "https://github.com/WuKongOpenSource/Wukong-AICRM",
+      "description": "开源 AI CRM，Salesforce 开源替代 + ChatGPT 式 AI 助手：客户管理、知识库查询、任务执行，全程对话完成。Open-source AI CRM and Salesforce alternative powered by conversational AI.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 2066,
+      "forks": 327,
+      "starsToday": 653,
+      "topics": [],
+      "author": {
+        "name": "WuKongOpenSource",
+        "avatar": "https://avatars.githubusercontent.com/u/28340341?s=40&amp;v=4",
+        "url": "https://github.com/WuKongOpenSource"
+      },
+      "summary": "开源 AI CRM，作为 Salesforce 替代方案，通过对话式 AI 助手完成客户管理、知识库查询与任务执行。",
+      "tags": [
+        "crm",
+        "ai",
+        "java",
+        "salesforce-alternative",
+        "chatbot"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:30:12.370Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Suwayomi-Server",
       "fullName": "Suwayomi/Suwayomi-Server",
       "url": "https://github.com/Suwayomi/Suwayomi-Server",
       "description": "A rewrite of Tachiyomi for the Desktop",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 7812,
+      "stars": 7820,
       "forks": 468,
       "starsToday": 286,
       "topics": [],
@@ -341,6 +426,120 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-06T05:30:11.498Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ghidra-mcp",
+      "fullName": "bethington/ghidra-mcp",
+      "url": "https://github.com/bethington/ghidra-mcp",
+      "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4501,
+      "forks": 199,
+      "starsToday": 750,
+      "topics": [],
+      "author": {
+        "name": "bethington",
+        "avatar": "https://avatars.githubusercontent.com/u/5455441?s=40&amp;v=4",
+        "url": "https://github.com/bethington"
+      },
+      "summary": "Ghidra 的 MCP 服务器，提供 200+ 工具让 AI 驱动逆向工程，支持 GUI 插件与无头服务、懒加载与 Docker 部署。",
+      "tags": [
+        "ghidra",
+        "mcp",
+        "reverse-engineering",
+        "java",
+        "ai",
+        "docker"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-06T15:46:14.752Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "voxy",
+      "fullName": "MCRcortex/voxy",
+      "url": "https://github.com/MCRcortex/voxy",
+      "description": "An LoD rendering mod for minecraft",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1285,
+      "forks": 1295,
+      "starsToday": 91,
+      "topics": [],
+      "author": {
+        "name": "MCRcortex",
+        "avatar": "https://avatars.githubusercontent.com/u/18544518?s=40&amp;v=4",
+        "url": "https://github.com/MCRcortex"
+      },
+      "summary": "Minecraft 的 LoD 远景渲染模组，通过细节层级技术大幅提升远距离地形渲染性能与视距。",
+      "tags": [
+        "minecraft",
+        "lod",
+        "rendering",
+        "java",
+        "mod",
+        "graphics"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T15:46:14.668Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Telegram",
+      "fullName": "DrKLO/Telegram",
+      "url": "https://github.com/DrKLO/Telegram",
+      "description": "Telegram for Android source",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 30018,
+      "forks": 10186,
+      "starsToday": 233,
+      "topics": [],
+      "author": {
+        "name": "DrKLO",
+        "avatar": "https://avatars.githubusercontent.com/u/7038595?s=40&amp;v=4",
+        "url": "https://github.com/DrKLO"
+      },
+      "summary": "Telegram 官方 Android 客户端源码，Java 编写，可自行编译定制，是学习大型 IM 应用架构与即时通讯实现的经典参考项目。",
+      "tags": [
+        "telegram",
+        "android",
+        "java",
+        "messaging",
+        "client"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T15:46:14.697Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Stirling-PDF",
+      "fullName": "Stirling-Tools/Stirling-PDF",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 93631,
+      "forks": 10444,
+      "starsToday": 2566,
+      "topics": [],
+      "author": {
+        "name": "Stirling-Tools",
+        "avatar": "https://avatars.githubusercontent.com/u/77850077?s=40&amp;v=4",
+        "url": "https://github.com/Stirling-Tools"
+      },
+      "summary": "基于本地部署的开源PDF工具箱，支持合并、拆分、转换、OCR、签名等数十种操作，可在任意设备浏览器中使用，数据不出本地。",
+      "tags": [
+        "pdf",
+        "self-hosted",
+        "docker",
+        "typescript",
+        "document"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:30:09.050Z",
       "deepwikiAvailable": false
     },
     {
@@ -369,119 +568,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-06T05:30:12.201Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "spring-boot",
-      "fullName": "spring-projects/spring-boot",
-      "url": "https://github.com/spring-projects/spring-boot",
-      "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 81563,
-      "forks": 44060,
-      "starsToday": 269,
-      "topics": [],
-      "author": {
-        "name": "spring-projects",
-        "avatar": "https://avatars.githubusercontent.com/u/914682?s=40&amp;v=4",
-        "url": "https://github.com/spring-projects"
-      },
-      "summary": "Spring Boot 是 Java 生态主流的应用开发框架，通过自动配置和起步依赖，让开发者以极少配置快速构建生产级 Spring 应用与服务。",
-      "tags": [
-        "java",
-        "spring",
-        "framework",
-        "backend",
-        "microservices"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-06T05:30:12.614Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Wukong-AICRM",
-      "fullName": "WuKongOpenSource/Wukong-AICRM",
-      "url": "https://github.com/WuKongOpenSource/Wukong-AICRM",
-      "description": "开源 AI CRM，Salesforce 开源替代 + ChatGPT 式 AI 助手：客户管理、知识库查询、任务执行，全程对话完成。Open-source AI CRM and Salesforce alternative powered by conversational AI.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 2057,
-      "forks": 326,
-      "starsToday": 653,
-      "topics": [],
-      "author": {
-        "name": "WuKongOpenSource",
-        "avatar": "https://avatars.githubusercontent.com/u/28340341?s=40&amp;v=4",
-        "url": "https://github.com/WuKongOpenSource"
-      },
-      "summary": "开源 AI CRM，作为 Salesforce 替代方案，通过对话式 AI 助手完成客户管理、知识库查询与任务执行。",
-      "tags": [
-        "crm",
-        "ai",
-        "java",
-        "salesforce-alternative",
-        "chatbot"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:30:12.370Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "quarkus",
-      "fullName": "quarkusio/quarkus",
-      "url": "https://github.com/quarkusio/quarkus",
-      "description": "Quarkus: Supersonic Subatomic Java.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 15927,
-      "forks": 3326,
-      "starsToday": 93,
-      "topics": [],
-      "author": {
-        "name": "quarkusio",
-        "avatar": "https://avatars.githubusercontent.com/u/1279749?s=40&amp;v=4",
-        "url": "https://github.com/quarkusio"
-      },
-      "summary": "Quarkus 是面向 GraalVM 与 HotSpot 优化的 Kubernetes 原生 Java 框架，启动快、内存占用低，适合云原生微服务与 Serverless 场景。",
-      "tags": [
-        "java",
-        "kubernetes",
-        "graalvm",
-        "framework",
-        "cloud-native"
-      ],
-      "category": "Framework",
-      "enrichedAt": "2026-10-06T05:30:12.638Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "iceberg",
-      "fullName": "apache/iceberg",
-      "url": "https://github.com/apache/iceberg",
-      "description": "Apache Iceberg",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 9303,
-      "forks": 3574,
-      "starsToday": 103,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache Iceberg 是面向海量数据分析的开放表格式，为数据湖提供 ACID 事务、模式演进与隐藏分区，兼容 Spark、Flink 等引擎。",
-      "tags": [
-        "iceberg",
-        "table-format",
-        "data-lake",
-        "java",
-        "apache",
-        "big-data"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-06T05:30:13.434Z",
       "deepwikiAvailable": false
     },
     {

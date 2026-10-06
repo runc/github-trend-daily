@@ -2,9 +2,291 @@
   "date": "2026-10-06",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-06T05:28:16.121Z",
-  "enrichedAt": "2026-10-06T05:28:56.794Z",
+  "fetchedAt": "2026-10-06T15:45:14.103Z",
+  "enrichedAt": "2026-10-06T15:45:53.800Z",
   "repos": [
+    {
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 82522,
+      "forks": 5250,
+      "starsToday": 102,
+      "topics": [],
+      "author": {
+        "name": "rtk-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
+        "url": "https://github.com/rtk-ai"
+      },
+      "summary": "Rust 编写的 CLI 代理，通过拦截常见开发命令输出，将 LLM 上下文 token 消耗降低 60-90%，单二进制零依赖，开箱即用。",
+      "tags": [
+        "rust",
+        "cli",
+        "llm",
+        "token",
+        "proxy",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-06T15:45:52.565Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2732,
+      "forks": 257,
+      "starsToday": 300,
+      "topics": [],
+      "author": {
+        "name": "storytold",
+        "avatar": "https://avatars.githubusercontent.com/u/39263?s=40&amp;v=4",
+        "url": "https://github.com/storytold"
+      },
+      "summary": "ArtCraft 是面向艺术家、设计师和影视创作者的创意制作引擎，用 Rust 编写，提供可控的生成式创作流程。",
+      "tags": [
+        "rust",
+        "creative-tools",
+        "generative-art",
+        "graphics",
+        "engine"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:28:56.136Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mold",
+      "fullName": "rui314/mold",
+      "url": "https://github.com/rui314/mold",
+      "description": "mold 🦠: A Modern Linker in Rust 🦀",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17492,
+      "forks": 572,
+      "starsToday": 92,
+      "topics": [],
+      "author": {
+        "name": "rui314",
+        "avatar": "https://avatars.githubusercontent.com/u/47400?s=40&amp;v=4",
+        "url": "https://github.com/rui314"
+      },
+      "summary": "用 Rust 编写的高性能现代链接器，兼容主流链接器接口，大幅缩短大型项目编译链接时间。",
+      "tags": [
+        "linker",
+        "rust",
+        "build",
+        "performance",
+        "compiler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-06T15:45:52.578Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33021,
+      "forks": 3067,
+      "starsToday": 103,
+      "topics": [],
+      "author": {
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
+      },
+      "summary": "完全离线的开源语音转文字应用，基于 Rust 开发，免费且可扩展，无需联网即可本地完成语音识别。",
+      "tags": [
+        "speech-to-text",
+        "rust",
+        "offline",
+        "open-source",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T15:45:52.561Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 125254,
+      "forks": 19472,
+      "starsToday": 90,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建服务器，可作为 TeamViewer 的免费替代方案，用 Rust 编写，跨平台且性能出色。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "cross-platform",
+        "teamviewer-alternative"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T15:45:52.548Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FalkorDB",
+      "fullName": "FalkorDB/FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7654,
+      "forks": 516,
+      "starsToday": 348,
+      "topics": [],
+      "author": {
+        "name": "FalkorDB",
+        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
+        "url": "https://github.com/FalkorDB"
+      },
+      "summary": "基于GraphBLAS稀疏矩阵的极速图数据库，主打为LLM提供知识图谱与GraphRAG支持，用Rust实现。",
+      "tags": [
+        "graph-database",
+        "graphblas",
+        "knowledge-graph",
+        "graphrag",
+        "rust"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-06T05:28:55.719Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenLogi",
+      "fullName": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22960,
+      "forks": 765,
+      "starsToday": 152,
+      "topics": [],
+      "author": {
+        "name": "AprilNEA",
+        "avatar": "https://avatars.githubusercontent.com/u/37977109?s=40&amp;v=4",
+        "url": "https://github.com/AprilNEA"
+      },
+      "summary": "用 Rust 编写的罗技鼠标本地配置工具，通过 HID++ 重映射按键、DPI 与 SmartShift，替代 Options+，无需账号与遥测。",
+      "tags": [
+        "rust",
+        "hid",
+        "logitech",
+        "mouse",
+        "local-first"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T15:45:53.800Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "limusic",
+      "fullName": "SimoHypers/limusic",
+      "url": "https://github.com/SimoHypers/limusic",
+      "description": "Feature rich, native desktop, YouTube Music client. Tauri + Rust + SvelteKit, ad-free playback through libmpv, Last.fm scrobbling and Discord Rich Presence, no Electron.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 843,
+      "forks": 58,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "SimoHypers",
+        "avatar": "https://avatars.githubusercontent.com/u/153776287?s=40&amp;v=4",
+        "url": "https://github.com/SimoHypers"
+      },
+      "summary": "基于 Tauri + Rust + SvelteKit 的原生 YouTube Music 桌面客户端，用 libmpv 实现无广告播放，支持 Last.fm 记录与 Discord 状态，不依赖 Electron。",
+      "tags": [
+        "tauri",
+        "rust",
+        "sveltekit",
+        "music",
+        "desktop",
+        "libmpv"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T15:45:53.608Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 35616,
+      "forks": 4707,
+      "starsToday": 55,
+      "topics": [],
+      "author": {
+        "name": "block",
+        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
+        "url": "https://github.com/block"
+      },
+      "summary": "基于 Rust 构建的群体智能通信平台，让多个 AI 智能体协同共享上下文与消息，实现分布式协作。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "messaging",
+        "collaboration",
+        "platform"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-06T15:45:53.635Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "turbovec",
+      "fullName": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17331,
+      "forks": 1482,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "RyanCodrai",
+        "avatar": "https://avatars.githubusercontent.com/u/10856497?s=40&amp;v=4",
+        "url": "https://github.com/RyanCodrai"
+      },
+      "summary": "基于 TurboQuant 的向量索引库，用 Rust 实现并提供 Python 绑定，兼顾高性能检索与易用性。",
+      "tags": [
+        "vector-search",
+        "rust",
+        "python",
+        "quantization",
+        "index"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-06T15:45:53.538Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "RuView",
       "fullName": "ruvnet/RuView",
@@ -146,34 +428,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "FalkorDB",
-      "fullName": "FalkorDB/FalkorDB",
-      "url": "https://github.com/FalkorDB/FalkorDB",
-      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7501,
-      "forks": 517,
-      "starsToday": 391,
-      "topics": [],
-      "author": {
-        "name": "FalkorDB",
-        "avatar": "https://avatars.githubusercontent.com/u/2638748?s=40&amp;v=4",
-        "url": "https://github.com/FalkorDB"
-      },
-      "summary": "基于GraphBLAS稀疏矩阵的极速图数据库，主打为LLM提供知识图谱与GraphRAG支持，用Rust实现。",
-      "tags": [
-        "graph-database",
-        "graphblas",
-        "knowledge-graph",
-        "graphrag",
-        "rust"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-06T05:28:55.719Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "gpui-kit",
       "fullName": "longbridge/gpui-kit",
       "url": "https://github.com/longbridge/gpui-kit",
@@ -199,34 +453,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-06T05:28:55.604Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "artcraft",
-      "fullName": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2585,
-      "forks": 248,
-      "starsToday": 222,
-      "topics": [],
-      "author": {
-        "name": "storytold",
-        "avatar": "https://avatars.githubusercontent.com/u/39263?s=40&amp;v=4",
-        "url": "https://github.com/storytold"
-      },
-      "summary": "ArtCraft 是面向艺术家、设计师和影视创作者的创意制作引擎，用 Rust 编写，提供可控的生成式创作流程。",
-      "tags": [
-        "rust",
-        "creative-tools",
-        "generative-art",
-        "graphics",
-        "engine"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:28:56.136Z",
       "deepwikiAvailable": false
     },
     {

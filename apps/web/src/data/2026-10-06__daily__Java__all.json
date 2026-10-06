@@ -2,9 +2,433 @@
   "date": "2026-10-06",
   "since": "daily",
   "language": "Java",
-  "fetchedAt": "2026-10-06T05:28:16.121Z",
-  "enrichedAt": "2026-10-06T05:29:03.393Z",
+  "fetchedAt": "2026-10-06T15:45:14.103Z",
+  "enrichedAt": "2026-10-06T15:45:55.289Z",
   "repos": [
+    {
+      "name": "ghidra",
+      "fullName": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 81003,
+      "forks": 8999,
+      "starsToday": 270,
+      "topics": [],
+      "author": {
+        "name": "NationalSecurityAgency",
+        "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&amp;v=4",
+        "url": "https://github.com/NationalSecurityAgency"
+      },
+      "summary": "美国国家安全局开源的软件逆向工程框架，提供反汇编、反编译与二进制分析能力，支持多平台与插件扩展。",
+      "tags": [
+        "reverse-engineering",
+        "decompiler",
+        "disassembler",
+        "java",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-06T05:28:59.160Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ghidra-mcp",
+      "fullName": "bethington/ghidra-mcp",
+      "url": "https://github.com/bethington/ghidra-mcp",
+      "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4501,
+      "forks": 199,
+      "starsToday": 138,
+      "topics": [],
+      "author": {
+        "name": "bethington",
+        "avatar": "https://avatars.githubusercontent.com/u/5455441?s=40&amp;v=4",
+        "url": "https://github.com/bethington"
+      },
+      "summary": "Ghidra 的 MCP 服务器，提供 200+ 工具让 AI 驱动逆向工程，支持 GUI 插件、无头服务与 Docker 部署。",
+      "tags": [
+        "ghidra",
+        "mcp",
+        "reverse-engineering",
+        "java",
+        "ai",
+        "docker"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-06T05:29:01.451Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "GhidraMCP",
+      "fullName": "LaurieWired/GhidraMCP",
+      "url": "https://github.com/LaurieWired/GhidraMCP",
+      "description": "MCP Server for Ghidra",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 10526,
+      "forks": 1082,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "LaurieWired",
+        "avatar": "https://avatars.githubusercontent.com/u/123765654?s=40&amp;v=4",
+        "url": "https://github.com/LaurieWired"
+      },
+      "summary": "为 Ghidra 逆向工程平台提供 MCP 服务器，让 AI 助手直接调用反编译与符号分析能力，实现智能化二进制分析。",
+      "tags": [
+        "mcp",
+        "ghidra",
+        "reverse-engineering",
+        "java",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-06T05:28:59.065Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kestra",
+      "fullName": "kestra-io/kestra",
+      "url": "https://github.com/kestra-io/kestra",
+      "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 29305,
+      "forks": 3285,
+      "starsToday": 121,
+      "topics": [],
+      "author": {
+        "name": "kestra-io",
+        "avatar": "https://avatars.githubusercontent.com/u/2064609?s=40&amp;v=4",
+        "url": "https://github.com/kestra-io"
+      },
+      "summary": "事件驱动的编排与调度平台，用声明式 YAML 定义工作流，支持数百种插件，适合关键业务任务自动化。",
+      "tags": [
+        "orchestration",
+        "scheduler",
+        "workflow",
+        "java",
+        "yaml",
+        "automation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-06T05:29:00.065Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keycloak",
+      "fullName": "keycloak/keycloak",
+      "url": "https://github.com/keycloak/keycloak",
+      "description": "Open Source Identity and Access Management For Modern Applications and Services",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 37163,
+      "forks": 9015,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "keycloak",
+        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
+        "url": "https://github.com/keycloak"
+      },
+      "summary": "开源身份与访问管理平台，为现代应用和服务提供单点登录、OAuth2/OIDC、用户联邦与权限控制。",
+      "tags": [
+        "iam",
+        "sso",
+        "oauth2",
+        "oidc",
+        "java",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-06T15:45:54.879Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ZombieBuddy",
+      "fullName": "zed-0xff/ZombieBuddy",
+      "url": "https://github.com/zed-0xff/ZombieBuddy",
+      "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 171,
+      "forks": 46,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "zed-0xff",
+        "avatar": "https://avatars.githubusercontent.com/u/5986?s=40&amp;v=4",
+        "url": "https://github.com/zed-0xff"
+      },
+      "summary": "基于 ByteBuddy 的 Java 代理框架，通过注解 API 在运行时修改《僵尸毁灭工程》游戏字节码，无需源码即可制作模组。",
+      "tags": [
+        "java",
+        "bytebuddy",
+        "bytecode",
+        "game-modding",
+        "agent"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-06T05:28:58.813Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FoldCraftLauncher",
+      "fullName": "FCL-Team/FoldCraftLauncher",
+      "url": "https://github.com/FCL-Team/FoldCraftLauncher",
+      "description": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4862,
+      "forks": 328,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "FCL-Team",
+        "avatar": "https://avatars.githubusercontent.com/u/19233890?s=40&amp;v=4",
+        "url": "https://github.com/FCL-Team"
+      },
+      "summary": "Android 平台上的 Minecraft Java 版启动器，让手机端也能运行 Java 版游戏并管理版本与模组。",
+      "tags": [
+        "minecraft",
+        "android",
+        "launcher",
+        "java",
+        "gaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:29:00.067Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "voxy",
+      "fullName": "MCRcortex/voxy",
+      "url": "https://github.com/MCRcortex/voxy",
+      "description": "An LoD rendering mod for minecraft",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1285,
+      "forks": 1295,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "MCRcortex",
+        "avatar": "https://avatars.githubusercontent.com/u/18544518?s=40&amp;v=4",
+        "url": "https://github.com/MCRcortex"
+      },
+      "summary": "Minecraft 的 LoD 远景渲染模组，用 Java 编写，让玩家在远距离也能看到地形细节，提升视距与性能表现。",
+      "tags": [
+        "minecraft",
+        "lod",
+        "rendering",
+        "mod",
+        "java"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:29:02.766Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Geyser",
+      "fullName": "GeyserMC/Geyser",
+      "url": "https://github.com/GeyserMC/Geyser",
+      "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 5870,
+      "forks": 905,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "GeyserMC",
+        "avatar": "https://avatars.githubusercontent.com/u/20743703?s=40&amp;v=4",
+        "url": "https://github.com/GeyserMC"
+      },
+      "summary": "Geyser 是一个代理桥接工具，让基岩版 Minecraft 客户端能连接 Java 版服务器，实现跨版本联机。",
+      "tags": [
+        "minecraft",
+        "proxy",
+        "bridge",
+        "java",
+        "bedrock"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-06T05:29:00.271Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "NewPipe",
+      "fullName": "TeamNewPipe/NewPipe",
+      "url": "https://github.com/TeamNewPipe/NewPipe",
+      "description": "A libre lightweight streaming front-end for Android.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 39927,
+      "forks": 3853,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "TeamNewPipe",
+        "avatar": "https://avatars.githubusercontent.com/u/17365767?s=40&amp;v=4",
+        "url": "https://github.com/TeamNewPipe"
+      },
+      "summary": "开源轻量级 Android 流媒体前端，无需 Google 服务即可观看 YouTube 等平台视频，注重隐私与自由。",
+      "tags": [
+        "android",
+        "streaming",
+        "youtube",
+        "privacy",
+        "java"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:28:57.934Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dataease",
+      "fullName": "dataease/dataease",
+      "url": "https://github.com/dataease/dataease",
+      "description": "🔥 人人可用的开源 BI 工具，数据可视化神器。An open-source BI tool alternative to Tableau.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 24588,
+      "forks": 4263,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "dataease",
+        "avatar": "https://avatars.githubusercontent.com/u/42510293?s=40&amp;v=4",
+        "url": "https://github.com/dataease"
+      },
+      "summary": "开源BI与数据可视化工具，Tableau替代方案，人人可用，支持拖拽式报表与多数据源接入。",
+      "tags": [
+        "bi",
+        "data-visualization",
+        "java",
+        "dashboard",
+        "opensource"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-06T15:45:54.802Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Telegram-X",
+      "fullName": "TGX-Android/Telegram-X",
+      "url": "https://github.com/TGX-Android/Telegram-X",
+      "description": "The main repository of Telegram X — official alternative Telegram client for Android.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 6058,
+      "forks": 1133,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "TGX-Android",
+        "avatar": "https://avatars.githubusercontent.com/u/6242627?s=40&amp;v=4",
+        "url": "https://github.com/TGX-Android"
+      },
+      "summary": "Telegram X 官方安卓客户端的开源主仓库，基于 Java 打造，提供比官方版更流畅的界面与实验性功能，适合学习大型 IM 客户端架构。",
+      "tags": [
+        "telegram",
+        "android",
+        "java",
+        "messaging",
+        "client"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:29:02.614Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AI-Meeting",
+      "fullName": "lishuangqiang/AI-Meeting",
+      "url": "https://github.com/lishuangqiang/AI-Meeting",
+      "description": "基于 Spring Boot 3 + Java 17 + Spring AI + MySQL + MongoDB + Redis + SSE/WebSocket，实现 AI 对话、智能体会话、AI 模拟面试、实时语音转写、长文本语音合成等核心功能。架构清晰、文档完整，支持本地运行与 Docker 一键部署，非常适合作为 Spring Boot AI 应用开发、智能体后端设计与简历展示项目。",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1055,
+      "forks": 131,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "lishuangqiang",
+        "avatar": "https://avatars.githubusercontent.com/u/111173340?s=40&amp;v=4",
+        "url": "https://github.com/lishuangqiang"
+      },
+      "summary": "基于 Spring Boot 3 与 Spring AI 的 AI 应用后端，集成 AI 对话、智能体、模拟面试、语音转写与合成，支持 Docker 一键部署。",
+      "tags": [
+        "java",
+        "spring-boot",
+        "spring-ai",
+        "llm",
+        "agent",
+        "docker"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-06T15:45:55.289Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "forge",
+      "fullName": "Card-Forge/forge",
+      "url": "https://github.com/Card-Forge/forge",
+      "description": "An unofficial rules engine for the world's greatest card game.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 2779,
+      "forks": 1138,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "Card-Forge",
+        "avatar": "https://avatars.githubusercontent.com/u/24357441?s=40&amp;v=4",
+        "url": "https://github.com/Card-Forge"
+      },
+      "summary": "用Java实现的万智牌非官方规则引擎，支持完整对局逻辑与卡牌效果，可跨平台运行并支持自定义卡牌扩展。",
+      "tags": [
+        "java",
+        "game-engine",
+        "mtg",
+        "card-game",
+        "rules-engine"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-06T05:29:01.191Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spring-kafka",
+      "fullName": "spring-projects/spring-kafka",
+      "url": "https://github.com/spring-projects/spring-kafka",
+      "description": "Provides Familiar Spring Abstractions for Apache Kafka",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 2512,
+      "forks": 1771,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "spring-projects",
+        "avatar": "https://avatars.githubusercontent.com/u/483832?s=40&amp;v=4",
+        "url": "https://github.com/spring-projects"
+      },
+      "summary": "Spring 生态的 Apache Kafka 集成框架，提供模板、监听容器、事务与序列化等熟悉抽象，简化 Kafka 消息收发开发。",
+      "tags": [
+        "java",
+        "kafka",
+        "spring",
+        "messaging",
+        "integration"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-06T15:45:54.791Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "newtube",
       "fullName": "aleixrodriala/newtube",
@@ -31,34 +455,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-06T05:28:57.991Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "NewPipe",
-      "fullName": "TeamNewPipe/NewPipe",
-      "url": "https://github.com/TeamNewPipe/NewPipe",
-      "description": "A libre lightweight streaming front-end for Android.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 39917,
-      "forks": 3850,
-      "starsToday": 50,
-      "topics": [],
-      "author": {
-        "name": "TeamNewPipe",
-        "avatar": "https://avatars.githubusercontent.com/u/17365767?s=40&amp;v=4",
-        "url": "https://github.com/TeamNewPipe"
-      },
-      "summary": "开源轻量级 Android 流媒体前端，无需 Google 服务即可观看 YouTube 等平台视频，注重隐私与自由。",
-      "tags": [
-        "android",
-        "streaming",
-        "youtube",
-        "privacy",
-        "java"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:28:57.934Z",
       "deepwikiAvailable": false
     },
     {
@@ -118,62 +514,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ZombieBuddy",
-      "fullName": "zed-0xff/ZombieBuddy",
-      "url": "https://github.com/zed-0xff/ZombieBuddy",
-      "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 167,
-      "forks": 45,
-      "starsToday": 17,
-      "topics": [],
-      "author": {
-        "name": "zed-0xff",
-        "avatar": "https://avatars.githubusercontent.com/u/5986?s=40&amp;v=4",
-        "url": "https://github.com/zed-0xff"
-      },
-      "summary": "基于 ByteBuddy 的 Java 代理框架，通过注解 API 在运行时修改《僵尸毁灭工程》游戏字节码，无需源码即可制作模组。",
-      "tags": [
-        "java",
-        "bytebuddy",
-        "bytecode",
-        "game-modding",
-        "agent"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-06T05:28:58.813Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ghidra",
-      "fullName": "NationalSecurityAgency/ghidra",
-      "url": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 80876,
-      "forks": 8988,
-      "starsToday": 219,
-      "topics": [],
-      "author": {
-        "name": "NationalSecurityAgency",
-        "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&amp;v=4",
-        "url": "https://github.com/NationalSecurityAgency"
-      },
-      "summary": "美国国家安全局开源的软件逆向工程框架，提供反汇编、反编译与二进制分析能力，支持多平台与插件扩展。",
-      "tags": [
-        "reverse-engineering",
-        "decompiler",
-        "disassembler",
-        "java",
-        "security"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-06T05:28:59.160Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "termux-app",
       "fullName": "termux/termux-app",
       "url": "https://github.com/termux/termux-app",
@@ -202,91 +542,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "GhidraMCP",
-      "fullName": "LaurieWired/GhidraMCP",
-      "url": "https://github.com/LaurieWired/GhidraMCP",
-      "description": "MCP Server for Ghidra",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 10445,
-      "forks": 1074,
-      "starsToday": 19,
-      "topics": [],
-      "author": {
-        "name": "LaurieWired",
-        "avatar": "https://avatars.githubusercontent.com/u/123765654?s=40&amp;v=4",
-        "url": "https://github.com/LaurieWired"
-      },
-      "summary": "为 Ghidra 逆向工程平台提供 MCP 服务器，让 AI 助手直接调用反编译与符号分析能力，实现智能化二进制分析。",
-      "tags": [
-        "mcp",
-        "ghidra",
-        "reverse-engineering",
-        "java",
-        "ai"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-06T05:28:59.065Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kestra",
-      "fullName": "kestra-io/kestra",
-      "url": "https://github.com/kestra-io/kestra",
-      "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 29273,
-      "forks": 3276,
-      "starsToday": 121,
-      "topics": [],
-      "author": {
-        "name": "kestra-io",
-        "avatar": "https://avatars.githubusercontent.com/u/2064609?s=40&amp;v=4",
-        "url": "https://github.com/kestra-io"
-      },
-      "summary": "事件驱动的编排与调度平台，用声明式 YAML 定义工作流，支持数百种插件，适合关键业务任务自动化。",
-      "tags": [
-        "orchestration",
-        "scheduler",
-        "workflow",
-        "java",
-        "yaml",
-        "automation"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-06T05:29:00.065Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "FoldCraftLauncher",
-      "fullName": "FCL-Team/FoldCraftLauncher",
-      "url": "https://github.com/FCL-Team/FoldCraftLauncher",
-      "description": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 4857,
-      "forks": 328,
-      "starsToday": 13,
-      "topics": [],
-      "author": {
-        "name": "FCL-Team",
-        "avatar": "https://avatars.githubusercontent.com/u/19233890?s=40&amp;v=4",
-        "url": "https://github.com/FCL-Team"
-      },
-      "summary": "Android 平台上的 Minecraft Java 版启动器，让手机端也能运行 Java 版游戏并管理版本与模组。",
-      "tags": [
-        "minecraft",
-        "android",
-        "launcher",
-        "java",
-        "gaming"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:29:00.067Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "meteor-client",
       "fullName": "MeteorDevelopment/meteor-client",
       "url": "https://github.com/MeteorDevelopment/meteor-client",
@@ -312,63 +567,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-06T05:29:00.274Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Geyser",
-      "fullName": "GeyserMC/Geyser",
-      "url": "https://github.com/GeyserMC/Geyser",
-      "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 5869,
-      "forks": 905,
-      "starsToday": 7,
-      "topics": [],
-      "author": {
-        "name": "GeyserMC",
-        "avatar": "https://avatars.githubusercontent.com/u/20743703?s=40&amp;v=4",
-        "url": "https://github.com/GeyserMC"
-      },
-      "summary": "Geyser 是一个代理桥接工具，让基岩版 Minecraft 客户端能连接 Java 版服务器，实现跨版本联机。",
-      "tags": [
-        "minecraft",
-        "proxy",
-        "bridge",
-        "java",
-        "bedrock"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-06T05:29:00.271Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ghidra-mcp",
-      "fullName": "bethington/ghidra-mcp",
-      "url": "https://github.com/bethington/ghidra-mcp",
-      "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 4335,
-      "forks": 184,
-      "starsToday": 138,
-      "topics": [],
-      "author": {
-        "name": "bethington",
-        "avatar": "https://avatars.githubusercontent.com/u/5455441?s=40&amp;v=4",
-        "url": "https://github.com/bethington"
-      },
-      "summary": "Ghidra 的 MCP 服务器，提供 200+ 工具让 AI 驱动逆向工程，支持 GUI 插件、无头服务与 Docker 部署。",
-      "tags": [
-        "ghidra",
-        "mcp",
-        "reverse-engineering",
-        "java",
-        "ai",
-        "docker"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-06T05:29:01.451Z",
       "deepwikiAvailable": false
     },
     {
@@ -428,34 +626,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "forge",
-      "fullName": "Card-Forge/forge",
-      "url": "https://github.com/Card-Forge/forge",
-      "description": "An unofficial rules engine for the world's greatest card game.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 2776,
-      "forks": 1134,
-      "starsToday": 7,
-      "topics": [],
-      "author": {
-        "name": "Card-Forge",
-        "avatar": "https://avatars.githubusercontent.com/u/24357441?s=40&amp;v=4",
-        "url": "https://github.com/Card-Forge"
-      },
-      "summary": "用Java实现的万智牌非官方规则引擎，支持完整对局逻辑与卡牌效果，可跨平台运行并支持自定义卡牌扩展。",
-      "tags": [
-        "java",
-        "game-engine",
-        "mtg",
-        "card-game",
-        "rules-engine"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:29:01.191Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "lawnchair",
       "fullName": "LawnchairLauncher/lawnchair",
       "url": "https://github.com/LawnchairLauncher/lawnchair",
@@ -509,62 +679,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-06T05:29:02.091Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Telegram-X",
-      "fullName": "TGX-Android/Telegram-X",
-      "url": "https://github.com/TGX-Android/Telegram-X",
-      "description": "The main repository of Telegram X — official alternative Telegram client for Android.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 6058,
-      "forks": 1133,
-      "starsToday": 3,
-      "topics": [],
-      "author": {
-        "name": "TGX-Android",
-        "avatar": "https://avatars.githubusercontent.com/u/6242627?s=40&amp;v=4",
-        "url": "https://github.com/TGX-Android"
-      },
-      "summary": "Telegram X 官方安卓客户端的开源主仓库，基于 Java 打造，提供比官方版更流畅的界面与实验性功能，适合学习大型 IM 客户端架构。",
-      "tags": [
-        "telegram",
-        "android",
-        "java",
-        "messaging",
-        "client"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:29:02.614Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "voxy",
-      "fullName": "MCRcortex/voxy",
-      "url": "https://github.com/MCRcortex/voxy",
-      "description": "An LoD rendering mod for minecraft",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 1285,
-      "forks": 1293,
-      "starsToday": 8,
-      "topics": [],
-      "author": {
-        "name": "MCRcortex",
-        "avatar": "https://avatars.githubusercontent.com/u/18544518?s=40&amp;v=4",
-        "url": "https://github.com/MCRcortex"
-      },
-      "summary": "Minecraft 的 LoD 远景渲染模组，用 Java 编写，让玩家在远距离也能看到地形细节，提升视距与性能表现。",
-      "tags": [
-        "minecraft",
-        "lod",
-        "rendering",
-        "mod",
-        "java"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-06T05:29:02.766Z",
       "deepwikiAvailable": false
     },
     {
