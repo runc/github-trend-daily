@@ -2,8 +2,8 @@
   "date": "2026-10-07",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-10-07T04:57:30.339Z",
-  "enrichedAt": "2026-10-07T04:58:45.561Z",
+  "fetchedAt": "2026-10-07T16:09:54.198Z",
+  "enrichedAt": "2026-10-07T16:10:41.864Z",
   "repos": [
     {
       "name": "caddy",
@@ -12,8 +12,8 @@
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 77430,
-      "forks": 5093,
+      "stars": 77465,
+      "forks": 5095,
       "starsToday": 1264,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4948,
-      "forks": 222,
+      "stars": 4991,
+      "forks": 223,
       "starsToday": 660,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "HTTP load generator, ApacheBench (ab) replacement",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 20645,
-      "forks": 1319,
+      "stars": 20647,
+      "forks": 1321,
       "starsToday": 246,
       "topics": [],
       "author": {
@@ -90,14 +90,239 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "whatsapp-mcp",
+      "fullName": "lharries/whatsapp-mcp",
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "description": "WhatsApp MCP server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6417,
+      "forks": 1370,
+      "starsToday": 85,
+      "topics": [],
+      "author": {
+        "name": "lharries",
+        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
+        "url": "https://github.com/lharries"
+      },
+      "summary": "基于 Go 的 WhatsApp MCP 服务器，让 AI 助手直接读取和发送 WhatsApp 消息，实现聊天数据与个人助理的打通。",
+      "tags": [
+        "whatsapp",
+        "mcp",
+        "go",
+        "ai",
+        "messaging"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-07T04:58:45.561Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58350,
+      "forks": 7229,
+      "starsToday": 130,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "自托管的一体化软件开发平台，提供 Git 托管、代码评审、团队协作、包注册表和 CI/CD，部署简单，可替代 GitHub 私有部署。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "cicd",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:43.324Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38282,
+      "forks": 740,
+      "starsToday": 153,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是 Aqua 开源的 Go 语言安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥泄露并生成 SBOM，适合集成到 CI/CD 流水线。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "golang"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T16:10:41.183Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47556,
+      "forks": 12135,
+      "starsToday": 387,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于 Xray 的多协议多用户代理面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供 Web 界面管理节点与流量。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "golang",
+        "vpn"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-07T04:58:42.369Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19579,
+      "forks": 2026,
+      "starsToday": 122,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google 开源的容器应用内核，用 Go 实现 Linux 系统调用接口，为容器提供安全隔离与沙箱运行环境。",
+      "tags": [
+        "container",
+        "kernel",
+        "sandbox",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-07T04:58:42.363Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ARTEX",
+      "fullName": "Autumn-27/ARTEX",
+      "url": "https://github.com/Autumn-27/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1921,
+      "forks": 474,
+      "starsToday": 376,
+      "topics": [],
+      "author": {
+        "name": "Autumn-27",
+        "avatar": "https://avatars.githubusercontent.com/u/53844290?s=40&amp;v=4",
+        "url": "https://github.com/Autumn-27"
+      },
+      "summary": "基于 Go 的 AI 自主渗透测试系统，让智能体自动完成侦察、漏洞利用与攻击链编排，百度“agent+”攻防挑战赛冠军项目。",
+      "tags": [
+        "ai-agent",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-07T04:58:42.973Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 110367,
+      "forks": 6387,
+      "starsToday": 2004,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用\"原始人语\"压缩提示词的编码代理技能与代理服务，可减少约65%的token消耗，降低调用成本。",
+      "tags": [
+        "llm",
+        "proxy",
+        "token",
+        "coding-agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-07T04:58:44.539Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CodeAF",
+      "fullName": "Agent-Field/CodeAF",
+      "url": "https://github.com/Agent-Field/CodeAF",
+      "description": "Open-Source Software factory for Open Models",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 304,
+      "forks": 41,
+      "starsToday": 145,
+      "topics": [],
+      "author": {
+        "name": "Agent-Field",
+        "avatar": "https://avatars.githubusercontent.com/u/29346072?s=40&amp;v=4",
+        "url": "https://github.com/Agent-Field"
+      },
+      "summary": "基于 Go 的开源软件工厂，用开放模型自动完成代码生成与工程流水线，降低对闭源模型的依赖。",
+      "tags": [
+        "go",
+        "agents",
+        "code-generation",
+        "open-models",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-07T04:58:43.720Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "netdata",
       "fullName": "netdata/netdata",
       "url": "https://github.com/netdata/netdata",
       "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 80817,
-      "forks": 6654,
+      "stars": 80824,
+      "forks": 6655,
       "starsToday": 115,
       "topics": [],
       "author": {
@@ -118,31 +343,116 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "3x-ui",
-      "fullName": "MHSanaei/3x-ui",
-      "url": "https://github.com/MHSanaei/3x-ui",
-      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "name": "superfile",
+      "fullName": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 47526,
-      "forks": 12122,
-      "starsToday": 387,
+      "stars": 23722,
+      "forks": 875,
+      "starsToday": 205,
       "topics": [],
       "author": {
-        "name": "MHSanaei",
-        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
-        "url": "https://github.com/MHSanaei"
+        "name": "yorukot",
+        "avatar": "https://avatars.githubusercontent.com/u/107802416?s=40&amp;v=4",
+        "url": "https://github.com/yorukot"
       },
-      "summary": "基于 Xray 的多协议多用户代理面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供 Web 界面管理节点与流量。",
+      "summary": "基于 Go 编写的现代化终端文件管理器，界面美观、操作高效，支持键盘快捷操作与多面板浏览，适合习惯命令行的开发者日常管理文件。",
       "tags": [
-        "proxy",
-        "xray",
-        "panel",
-        "golang",
-        "vpn"
+        "tui",
+        "file-manager",
+        "go",
+        "terminal",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-07T16:10:40.955Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 66411,
+      "forks": 10904,
+      "starsToday": 137,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 是开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可视化，是云原生监控的事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "time-series",
+        "promql",
+        "observability",
+        "go"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-10-07T04:58:42.369Z",
+      "enrichedAt": "2026-10-07T16:10:40.818Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "k3s",
+      "fullName": "k3s-io/k3s",
+      "url": "https://github.com/k3s-io/k3s",
+      "description": "Lightweight Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34149,
+      "forks": 2752,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "k3s-io",
+        "avatar": "https://avatars.githubusercontent.com/u/370103?s=40&amp;v=4",
+        "url": "https://github.com/k3s-io"
+      },
+      "summary": "轻量级Kubernetes发行版，单二进制打包，专为边缘、IoT和资源受限环境设计，安装部署简单，内存占用低。",
+      "tags": [
+        "kubernetes",
+        "go",
+        "container",
+        "edge",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-07T16:10:41.045Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oauth2-proxy",
+      "fullName": "oauth2-proxy/oauth2-proxy",
+      "url": "https://github.com/oauth2-proxy/oauth2-proxy",
+      "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15055,
+      "forks": 2210,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "oauth2-proxy",
+        "avatar": "https://avatars.githubusercontent.com/u/9232216?s=40&amp;v=4",
+        "url": "https://github.com/oauth2-proxy"
+      },
+      "summary": "反向代理认证服务，为应用接入 Google、Azure、OpenID Connect 等身份提供商，无需改动后端代码即可实现统一登录鉴权。",
+      "tags": [
+        "oauth2",
+        "proxy",
+        "authentication",
+        "golang",
+        "oidc"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-07T16:10:41.864Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,118 +484,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gvisor",
-      "fullName": "google/gvisor",
-      "url": "https://github.com/google/gvisor",
-      "description": "Application Kernel for Containers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 19570,
-      "forks": 2024,
-      "starsToday": 122,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "Google 开源的容器应用内核，用 Go 实现 Linux 系统调用接口，为容器提供安全隔离与沙箱运行环境。",
-      "tags": [
-        "container",
-        "kernel",
-        "sandbox",
-        "security",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-07T04:58:42.363Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ARTEX",
-      "fullName": "Autumn-27/ARTEX",
-      "url": "https://github.com/Autumn-27/ARTEX",
-      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1755,
-      "forks": 405,
-      "starsToday": 376,
-      "topics": [],
-      "author": {
-        "name": "Autumn-27",
-        "avatar": "https://avatars.githubusercontent.com/u/53844290?s=40&amp;v=4",
-        "url": "https://github.com/Autumn-27"
-      },
-      "summary": "基于 Go 的 AI 自主渗透测试系统，让智能体自动完成侦察、漏洞利用与攻击链编排，百度“agent+”攻防挑战赛冠军项目。",
-      "tags": [
-        "ai-agent",
-        "pentest",
-        "security",
-        "golang",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-07T04:58:42.973Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "CodeAF",
-      "fullName": "Agent-Field/CodeAF",
-      "url": "https://github.com/Agent-Field/CodeAF",
-      "description": "Open-Source Software factory for Open Models",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 296,
-      "forks": 40,
-      "starsToday": 145,
-      "topics": [],
-      "author": {
-        "name": "Agent-Field",
-        "avatar": "https://avatars.githubusercontent.com/u/29346072?s=40&amp;v=4",
-        "url": "https://github.com/Agent-Field"
-      },
-      "summary": "基于 Go 的开源软件工厂，用开放模型自动完成代码生成与工程流水线，降低对闭源模型的依赖。",
-      "tags": [
-        "go",
-        "agents",
-        "code-generation",
-        "open-models",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-07T04:58:43.720Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gitea",
-      "fullName": "go-gitea/gitea",
-      "url": "https://github.com/go-gitea/gitea",
-      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 58341,
-      "forks": 7227,
-      "starsToday": 130,
-      "topics": [],
-      "author": {
-        "name": "go-gitea",
-        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
-        "url": "https://github.com/go-gitea"
-      },
-      "summary": "自托管的一体化软件开发平台，提供 Git 托管、代码评审、团队协作、包注册表和 CI/CD，部署简单，可替代 GitHub 私有部署。",
-      "tags": [
-        "git",
-        "self-hosted",
-        "devops",
-        "cicd",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-07T04:58:43.324Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "BillionMail",
       "fullName": "Billionmail/BillionMail",
       "url": "https://github.com/Billionmail/BillionMail",
@@ -311,34 +509,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-07T04:58:44.008Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 110252,
-      "forks": 6383,
-      "starsToday": 2004,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "用\"原始人语\"压缩提示词的编码代理技能与代理服务，可减少约65%的token消耗，降低调用成本。",
-      "tags": [
-        "llm",
-        "proxy",
-        "token",
-        "coding-agent",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-07T04:58:44.539Z",
       "deepwikiAvailable": false
     },
     {
@@ -423,34 +593,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-07T04:58:44.916Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "whatsapp-mcp",
-      "fullName": "lharries/whatsapp-mcp",
-      "url": "https://github.com/lharries/whatsapp-mcp",
-      "description": "WhatsApp MCP server",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6414,
-      "forks": 1369,
-      "starsToday": 85,
-      "topics": [],
-      "author": {
-        "name": "lharries",
-        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
-        "url": "https://github.com/lharries"
-      },
-      "summary": "基于 Go 的 WhatsApp MCP 服务器，让 AI 助手直接读取和发送 WhatsApp 消息，实现聊天数据与个人助理的打通。",
-      "tags": [
-        "whatsapp",
-        "mcp",
-        "go",
-        "ai",
-        "messaging"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-07T04:58:45.561Z",
       "deepwikiAvailable": false
     }
   ]
