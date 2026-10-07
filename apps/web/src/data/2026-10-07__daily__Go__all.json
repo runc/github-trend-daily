@@ -1,0 +1,601 @@
+{
+  "date": "2026-10-07",
+  "since": "daily",
+  "language": "Go",
+  "fetchedAt": "2026-10-07T04:57:30.339Z",
+  "enrichedAt": "2026-10-07T04:58:13.442Z",
+  "repos": [
+    {
+      "name": "caddy",
+      "fullName": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 77430,
+      "forks": 5093,
+      "starsToday": 566,
+      "topics": [],
+      "author": {
+        "name": "caddyserver",
+        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
+        "url": "https://github.com/caddyserver"
+      },
+      "summary": "用 Go 编写的快速可扩展多平台 Web 服务器，支持 HTTP/1-2-3 并自动配置 HTTPS 证书，配置简单，适合替代 Nginx 做反向代理与静态托管。",
+      "tags": [
+        "web-server",
+        "go",
+        "https",
+        "http3",
+        "reverse-proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-07T04:58:08.005Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19570,
+      "forks": 2024,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google 开源的容器应用内核，用 Go 实现 Linux 系统调用接口，为容器提供强隔离与更高安全性。",
+      "tags": [
+        "container",
+        "kernel",
+        "sandbox",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-07T04:58:08.106Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29757,
+      "forks": 2267,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Gitleaks 是用 Go 编写的密钥扫描工具，可检测代码库中的密码、API Key 等敏感信息，支持 Git 历史扫描与 CI 集成。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "devsecops",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:08.093Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38275,
+      "forks": 738,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是 Aqua 开源的 Go 语言安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥并生成 SBOM，集成简单、覆盖全面。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:08.154Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uniterm",
+      "fullName": "ys-ll/uniterm",
+      "url": "https://github.com/ys-ll/uniterm",
+      "description": "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 751,
+      "forks": 116,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "ys-ll",
+        "avatar": "https://avatars.githubusercontent.com/u/114486081?s=40&amp;v=4",
+        "url": "https://github.com/ys-ll"
+      },
+      "summary": "一体化终端工具，集成SSH、RDP、SFTP、数据库、Kubernetes等30多种协议连接，并内置AI Agent可自主执行多轮Shell命令。",
+      "tags": [
+        "terminal",
+        "ssh",
+        "kubernetes",
+        "ai-agent",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:09.391Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ARTEX",
+      "fullName": "Autumn-27/ARTEX",
+      "url": "https://github.com/Autumn-27/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1755,
+      "forks": 405,
+      "starsToday": 113,
+      "topics": [],
+      "author": {
+        "name": "Autumn-27",
+        "avatar": "https://avatars.githubusercontent.com/u/53844290?s=40&amp;v=4",
+        "url": "https://github.com/Autumn-27"
+      },
+      "summary": "基于Go的AI自主渗透测试系统，让智能体自动完成侦察、漏洞利用与攻击链编排，百度“agent+”攻防挑战赛冠军项目。",
+      "tags": [
+        "ai",
+        "security",
+        "pentest",
+        "agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-07T04:58:09.224Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "awesome-ai-agents",
+      "fullName": "slavakurilyak/awesome-ai-agents",
+      "url": "https://github.com/slavakurilyak/awesome-ai-agents",
+      "description": "Awesome list of 300+ agentic AI resources",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2367,
+      "forks": 611,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "slavakurilyak",
+        "avatar": "https://avatars.githubusercontent.com/u/6625584?s=40&amp;v=4",
+        "url": "https://github.com/slavakurilyak"
+      },
+      "summary": "收录300多个智能体AI资源的Awesome清单，涵盖框架、工具与论文，方便开发者快速检索选型。",
+      "tags": [
+        "awesome-list",
+        "ai-agents",
+        "llm",
+        "resources",
+        "curated"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-07T04:58:09.160Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llm-d-router",
+      "fullName": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 376,
+      "forks": 419,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "llm-d",
+        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
+        "url": "https://github.com/llm-d"
+      },
+      "summary": "llm-d 推理请求的智能路由入口，用 Go 编写，为 LLM 推理集群提供请求分发与调度能力。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-07T04:58:09.479Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "k9s",
+      "fullName": "derailed/k9s",
+      "url": "https://github.com/derailed/k9s",
+      "description": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34753,
+      "forks": 2308,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "derailed",
+        "avatar": "https://avatars.githubusercontent.com/u/4060?s=40&amp;v=4",
+        "url": "https://github.com/derailed"
+      },
+      "summary": "k9s 是一款终端里的 Kubernetes 集群管理 CLI，提供实时交互式界面，让查看资源、日志与排障更直观高效。",
+      "tags": [
+        "kubernetes",
+        "cli",
+        "tui",
+        "devops",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-07T04:58:10.410Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "amass",
+      "fullName": "owasp-amass/amass",
+      "url": "https://github.com/owasp-amass/amass",
+      "description": "In-depth attack surface mapping and asset discovery",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15314,
+      "forks": 2195,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "owasp-amass",
+        "avatar": "https://avatars.githubusercontent.com/u/7319658?s=40&amp;v=4",
+        "url": "https://github.com/owasp-amass"
+      },
+      "summary": "OWASP 出品的攻击面测绘与资产发现工具，用 Go 编写，可深度枚举域名、子域与外部资产，广泛用于渗透测试和红队侦察。",
+      "tags": [
+        "security",
+        "recon",
+        "osint",
+        "golang",
+        "pentest"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:10.755Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58341,
+      "forks": 7227,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "用 Go 编写的轻量级自托管一体化软件开发平台，集成 Git 托管、代码评审、团队协作、包注册表与 CI/CD，部署简单。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "cicd",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:10.535Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139309,
+      "forks": 21499,
+      "starsToday": 79,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 编程语言官方仓库，提供简洁高效、原生支持并发的静态编译语言及标准库，广泛用于云原生与后端服务开发。",
+      "tags": [
+        "go",
+        "golang",
+        "programming-language",
+        "compiler",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-07T04:58:10.884Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubescape",
+      "fullName": "kubescape/kubescape",
+      "url": "https://github.com/kubescape/kubescape",
+      "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11779,
+      "forks": 1050,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "kubescape",
+        "avatar": "https://avatars.githubusercontent.com/u/20683409?s=40&amp;v=4",
+        "url": "https://github.com/kubescape"
+      },
+      "summary": "开源Kubernetes安全平台，覆盖IDE、CI/CD与集群，提供风险分析、合规与配置错误扫描，帮用户省时省力。",
+      "tags": [
+        "kubernetes",
+        "security",
+        "compliance",
+        "scanning",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:11.348Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gdu",
+      "fullName": "dundee/gdu",
+      "url": "https://github.com/dundee/gdu",
+      "description": "Fast disk usage analyzer with console interface written in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6084,
+      "forks": 237,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "dundee",
+        "avatar": "https://avatars.githubusercontent.com/u/27106?s=40&amp;v=4",
+        "url": "https://github.com/dundee"
+      },
+      "summary": "用 Go 编写的快速磁盘占用分析工具，提供交互式终端界面，可快速扫描并可视化目录大小，便于清理磁盘空间。",
+      "tags": [
+        "go",
+        "disk-usage",
+        "cli",
+        "tui",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-07T04:58:11.664Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "client_golang",
+      "fullName": "prometheus/client_golang",
+      "url": "https://github.com/prometheus/client_golang",
+      "description": "Prometheus instrumentation library for Go applications",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6038,
+      "forks": 1326,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/5609886?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 官方 Go 客户端库，为 Go 应用提供指标采集与暴露能力，轻松接入监控体系。",
+      "tags": [
+        "prometheus",
+        "go",
+        "metrics",
+        "monitoring",
+        "observability"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-07T04:58:11.920Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-music-dl",
+      "fullName": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5158,
+      "forks": 495,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "guohuiyuan",
+        "avatar": "https://avatars.githubusercontent.com/u/54976075?s=40&amp;v=4",
+        "url": "https://github.com/guohuiyuan"
+      },
+      "summary": "基于 Go 的全网音乐搜索下载工具，支持 CLI 与 Web 双模式，聚合网易云、QQ、酷狗等 10+ 平台，多源并发搜索并解析无损音质。",
+      "tags": [
+        "go",
+        "music",
+        "downloader",
+        "cli",
+        "web"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-07T04:58:12.227Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "podman",
+      "fullName": "podman-container-tools/podman",
+      "url": "https://github.com/podman-container-tools/podman",
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33005,
+      "forks": 3401,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "podman-container-tools",
+        "avatar": "https://avatars.githubusercontent.com/u/30189218?s=40&amp;v=4",
+        "url": "https://github.com/podman-container-tools"
+      },
+      "summary": "Podman 是管理 OCI 容器与 Pod 的无守护进程工具，支持 rootless 运行，可替代 Docker 命令行。",
+      "tags": [
+        "containers",
+        "oci",
+        "go",
+        "devops",
+        "rootless"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:12.442Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 182417,
+      "forks": 18124,
+      "starsToday": 137,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等模型，提供简洁 API 与多平台支持。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-07T04:58:12.982Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 110252,
+      "forks": 6383,
+      "starsToday": 212,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用穴居人式简短表达为编码智能体省 token 的技能与代理，可削减约 65% 的 token 消耗，降低调用成本。",
+      "tags": [
+        "llm",
+        "proxy",
+        "token",
+        "coding-agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-07T04:58:13.294Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "livekit",
+      "fullName": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21309,
+      "forks": 2422,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "livekit",
+        "avatar": "https://avatars.githubusercontent.com/u/6278212?s=40&amp;v=4",
+        "url": "https://github.com/livekit"
+      },
+      "summary": "基于Go的开源实时音视频通信栈，提供WebRTC端到端方案，用于连接人类用户与AI代理，支持可扩展的实时互动应用。",
+      "tags": [
+        "webrtc",
+        "realtime",
+        "video",
+        "audio",
+        "go",
+        "ai"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-07T04:58:13.388Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helm",
+      "fullName": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30310,
+      "forks": 7826,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "helm",
+        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
+        "url": "https://github.com/helm"
+      },
+      "summary": "Kubernetes 包管理器，用 Chart 定义、安装和升级应用，简化 K8s 部署与版本管理。",
+      "tags": [
+        "kubernetes",
+        "helm",
+        "package-manager",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-07T04:58:13.442Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
