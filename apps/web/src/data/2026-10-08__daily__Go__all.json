@@ -2,9 +2,457 @@
   "date": "2026-10-08",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-08T05:08:01.495Z",
-  "enrichedAt": "2026-10-08T05:08:48.572Z",
+  "fetchedAt": "2026-10-08T16:11:42.934Z",
+  "enrichedAt": "2026-10-08T16:12:21.213Z",
   "repos": [
+    {
+      "name": "docker-agent",
+      "fullName": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4162,
+      "forks": 491,
+      "starsToday": 628,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker 工程团队开源的 AI Agent 构建与运行时，用 Go 编写，帮助开发者快速定义、编排并运行智能体。",
+      "tags": [
+        "ai",
+        "agent",
+        "docker",
+        "go",
+        "runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-08T16:12:17.937Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vault",
+      "fullName": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36356,
+      "forks": 4782,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "HashiCorp 开源密钥管理平台，提供机密存储、加密即服务与特权访问管理，统一保护敏感数据与凭证。",
+      "tags": [
+        "secrets",
+        "security",
+        "encryption",
+        "go",
+        "iam"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-08T16:12:17.966Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 182568,
+      "forks": 18156,
+      "starsToday": 127,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等开源模型，提供简洁 API 与 CLI。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-08T05:08:45.150Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24349,
+      "forks": 7928,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实来源，自动同步并可视化集群应用状态。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "devops",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-08T16:12:18.134Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lego",
+      "fullName": "go-acme/lego",
+      "url": "https://github.com/go-acme/lego",
+      "description": "Let's Encrypt/ACME client and library written in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9911,
+      "forks": 1175,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "go-acme",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/go-acme"
+      },
+      "summary": "Go 编写的 ACME/Let's Encrypt 客户端与库，支持自动申请和续期 TLS 证书，覆盖数十种 DNS 服务商验证。",
+      "tags": [
+        "go",
+        "acme",
+        "tls",
+        "certificate",
+        "letsencrypt"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-08T16:12:17.809Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llm-d-router",
+      "fullName": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 379,
+      "forks": 423,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "llm-d",
+        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
+        "url": "https://github.com/llm-d"
+      },
+      "summary": "llm-d 推理请求的智能路由入口，用 Go 编写，负责将大模型推理请求高效分发到后端，提升集群吞吐与延迟表现。",
+      "tags": [
+        "llm",
+        "inference",
+        "router",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-08T16:12:19.027Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "external-secrets",
+      "fullName": "external-secrets/external-secrets",
+      "url": "https://github.com/external-secrets/external-secrets",
+      "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6896,
+      "forks": 1453,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "external-secrets",
+        "avatar": "https://avatars.githubusercontent.com/u/182850?s=40&amp;v=4",
+        "url": "https://github.com/external-secrets"
+      },
+      "summary": "External Secrets Operator 从 AWS Secrets Manager 等第三方服务读取密钥，自动同步为 Kubernetes Secret，实现密钥集中管理与免手工注入。",
+      "tags": [
+        "kubernetes",
+        "secrets",
+        "operator",
+        "go",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-08T16:12:19.141Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-collector-contrib",
+      "fullName": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4981,
+      "forks": 3986,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Collector 的社区贡献仓库，汇集大量接收器、处理器与导出器组件，用于统一采集、转换和转发遥测数据。",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "go",
+        "telemetry",
+        "collector"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-08T05:08:44.912Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "KAI-Scheduler",
+      "fullName": "kai-scheduler/KAI-Scheduler",
+      "url": "https://github.com/kai-scheduler/KAI-Scheduler",
+      "description": "KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1559,
+      "forks": 295,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "kai-scheduler",
+        "avatar": "https://avatars.githubusercontent.com/u/3123328?s=40&amp;v=4",
+        "url": "https://github.com/kai-scheduler"
+      },
+      "summary": "KAI Scheduler 是面向大规模 AI 工作负载的开源 Kubernetes 原生调度器，支持 GPU 共享与队列管理，提升集群利用率。",
+      "tags": [
+        "kubernetes",
+        "scheduler",
+        "ai",
+        "gpu",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-08T16:12:19.120Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wx_channels_download",
+      "fullName": "ltaoo/wx_channels_download",
+      "url": "https://github.com/ltaoo/wx_channels_download",
+      "description": "微信视频号下载器",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9694,
+      "forks": 1606,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "ltaoo",
+        "avatar": "https://avatars.githubusercontent.com/u/15319872?s=40&amp;v=4",
+        "url": "https://github.com/ltaoo"
+      },
+      "summary": "微信视频号视频下载工具，基于 Go 实现，可解析并保存视频号内容到本地，方便离线观看与备份。",
+      "tags": [
+        "wechat",
+        "downloader",
+        "video",
+        "go",
+        "cli"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-08T16:12:19.253Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kyverno",
+      "fullName": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno",
+      "description": "Unified Policy as Code",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8229,
+      "forks": 1642,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "kyverno",
+        "avatar": "https://avatars.githubusercontent.com/u/25727662?s=40&amp;v=4",
+        "url": "https://github.com/kyverno"
+      },
+      "summary": "Kyverno 是 Kubernetes 原生的策略即代码引擎，用声明式 YAML 完成校验、变更、生成与清理，无需学习新语言。",
+      "tags": [
+        "kubernetes",
+        "policy",
+        "go",
+        "security",
+        "admission"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-08T16:12:20.173Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "toolhive",
+      "fullName": "stacklok/toolhive",
+      "url": "https://github.com/stacklok/toolhive",
+      "description": "ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2250,
+      "forks": 314,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "stacklok",
+        "avatar": "https://avatars.githubusercontent.com/u/145564?s=40&amp;v=4",
+        "url": "https://github.com/stacklok"
+      },
+      "summary": "企业级 MCP 服务器运行与管理平台，简化 Model Context Protocol 服务的部署、隔离与运维。",
+      "tags": [
+        "mcp",
+        "go",
+        "ai",
+        "security",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-08T16:12:20.007Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lazygit",
+      "fullName": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 83003,
+      "forks": 3069,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "jesseduffield",
+        "avatar": "https://avatars.githubusercontent.com/u/1225667?s=40&amp;v=4",
+        "url": "https://github.com/jesseduffield"
+      },
+      "summary": "基于终端的 Git 图形界面，用键盘快捷键完成提交、分支、暂存与变基等操作，让 Git 使用更直观高效。",
+      "tags": [
+        "git",
+        "tui",
+        "cli",
+        "go",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-08T16:12:20.264Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24038,
+      "forks": 1746,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
+      },
+      "summary": "自托管的个人音乐流媒体服务器，用 Go 编写，兼容 Subsonic API，可扫描本地曲库并通过网页或各类客户端随时播放。",
+      "tags": [
+        "music",
+        "streaming",
+        "self-hosted",
+        "go",
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-08T16:12:20.683Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29793,
+      "forks": 2270,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "基于 Go 的密钥与凭证扫描工具，可检测代码仓库和文件中泄露的 API Key、密码等敏感信息，支持 Git 历史扫描与 CI 集成。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "ci"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-08T05:08:44.848Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37273,
+      "forks": 3299,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于 WireGuard 的零配置安全组网工具，内置身份认证与访问控制，轻松连接任意设备。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "golang",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-08T16:12:21.213Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "caddy",
       "fullName": "caddyserver/caddy",
@@ -143,90 +591,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-08T05:08:44.625Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gitleaks",
-      "fullName": "gitleaks/gitleaks",
-      "url": "https://github.com/gitleaks/gitleaks",
-      "description": "Find secrets with Gitleaks 🔑",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 29788,
-      "forks": 2270,
-      "starsToday": 44,
-      "topics": [],
-      "author": {
-        "name": "gitleaks",
-        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
-        "url": "https://github.com/gitleaks"
-      },
-      "summary": "基于 Go 的密钥与凭证扫描工具，可检测代码仓库和文件中泄露的 API Key、密码等敏感信息，支持 Git 历史扫描与 CI 集成。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "go",
-        "ci"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-08T05:08:44.848Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "opentelemetry-collector-contrib",
-      "fullName": "open-telemetry/opentelemetry-collector-contrib",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
-      "description": "Contrib repository for the OpenTelemetry Collector",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4980,
-      "forks": 3985,
-      "starsToday": 5,
-      "topics": [],
-      "author": {
-        "name": "open-telemetry",
-        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
-        "url": "https://github.com/open-telemetry"
-      },
-      "summary": "OpenTelemetry Collector 的社区贡献仓库，汇集大量接收器、处理器与导出器组件，用于统一采集、转换和转发遥测数据。",
-      "tags": [
-        "opentelemetry",
-        "observability",
-        "go",
-        "telemetry",
-        "collector"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-08T05:08:44.912Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 182519,
-      "forks": 18146,
-      "starsToday": 130,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等开源模型，提供简洁 API 与 CLI。",
-      "tags": [
-        "llm",
-        "local-inference",
-        "go",
-        "cli",
-        "api"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-08T05:08:45.150Z",
       "deepwikiAvailable": false
     },
     {
