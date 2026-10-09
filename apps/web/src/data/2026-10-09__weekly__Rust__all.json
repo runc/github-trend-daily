@@ -2,37 +2,9 @@
   "date": "2026-10-09",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-10-09T05:11:05.759Z",
-  "enrichedAt": "2026-10-09T05:12:18.298Z",
+  "fetchedAt": "2026-10-09T15:54:25.888Z",
+  "enrichedAt": "2026-10-09T15:55:12.994Z",
   "repos": [
-    {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 15508,
-      "forks": 1745,
-      "starsToday": 1680,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 推出的自主 AI 智能体安全私有运行时，用 Rust 编写，为智能体提供隔离执行环境与权限管控。",
-      "tags": [
-        "ai-agents",
-        "runtime",
-        "rust",
-        "sandbox",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-09T05:12:15.795Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "FluxDown",
       "fullName": "zerx-lab/FluxDown",
@@ -40,8 +12,8 @@
       "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 4077,
-      "forks": 240,
+      "stars": 4116,
+      "forks": 243,
       "starsToday": 743,
       "topics": [],
       "author": {
@@ -62,143 +34,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "openhuman",
-      "fullName": "tinyhumansai/openhuman",
-      "url": "https://github.com/tinyhumansai/openhuman",
-      "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
+      "name": "Handy",
+      "fullName": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 41702,
-      "forks": 4101,
-      "starsToday": 1359,
+      "stars": 33350,
+      "forks": 3104,
+      "starsToday": 745,
       "topics": [],
       "author": {
-        "name": "tinyhumansai",
-        "avatar": "https://avatars.githubusercontent.com/u/31011319?s=40&amp;v=4",
-        "url": "https://github.com/tinyhumansai"
+        "name": "cjpais",
+        "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&amp;v=4",
+        "url": "https://github.com/cjpais"
       },
-      "summary": "OpenHuman 是用 Rust 编写的开源 AI 智能体运行框架，主打速度最快、成本最低、效率最高，适合构建和运行自主智能体。",
+      "summary": "免费开源的离线语音转文字桌面应用，基于Rust开发，无需联网即可完成语音识别，支持扩展。",
       "tags": [
-        "rust",
-        "ai-agent",
-        "llm",
-        "open-source",
-        "framework"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-09T05:12:16.177Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zeron",
-      "fullName": "zeronsh/zeron",
-      "url": "https://github.com/zeronsh/zeron",
-      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3135,
-      "forks": 302,
-      "starsToday": 634,
-      "topics": [],
-      "author": {
-        "name": "zeronsh",
-        "avatar": "https://avatars.githubusercontent.com/u/234226124?s=40&amp;v=4",
-        "url": "https://github.com/zeronsh"
-      },
-      "summary": "面向 Claude Code、Codex、Cursor、Devin 等编码智能体的原生控制平面，用 Rust 编写，统一调度与管理多个 AI 编程代理。",
-      "tags": [
-        "ai-agents",
-        "coding-agent",
-        "rust",
-        "control-plane",
-        "developer-tools"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-09T05:12:16.120Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "touchHLE",
-      "fullName": "touchHLE/touchHLE",
-      "url": "https://github.com/touchHLE/touchHLE",
-      "description": "High-level emulator for early iOS apps. This repo is used for issues, releases and CI. Submit patches at: https://review.gerrithub.io/admin/repos/touchHLE/touchHLE",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3982,
-      "forks": 355,
-      "starsToday": 42,
-      "topics": [],
-      "author": {
-        "name": "touchHLE",
-        "avatar": "https://avatars.githubusercontent.com/u/91161081?s=40&amp;v=4",
-        "url": "https://github.com/touchHLE"
-      },
-      "summary": "用 Rust 编写的高层模拟器，可在现代设备上运行早期 iOS 应用与游戏，无需完整系统镜像。",
-      "tags": [
-        "emulator",
-        "ios",
-        "rust",
-        "reverse-engineering",
-        "retro"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-09T05:12:16.815Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Pumpkin",
-      "fullName": "Pumpkin-MC/Pumpkin",
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 12180,
-      "forks": 898,
-      "starsToday": 359,
-      "topics": [],
-      "author": {
-        "name": "Pumpkin-MC",
-        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
-        "url": "https://github.com/Pumpkin-MC"
-      },
-      "summary": "用 Rust 编写的高性能 Minecraft 服务端，主打快速高效、低资源占用，让任何人都能轻松自建服务器。",
-      "tags": [
-        "minecraft",
-        "rust",
-        "server",
-        "game",
-        "performance"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-09T05:12:17.080Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "autoshorts",
-      "fullName": "JayWebtech/autoshorts",
-      "url": "https://github.com/JayWebtech/autoshorts",
-      "description": "AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1212,
-      "forks": 228,
-      "starsToday": 167,
-      "topics": [],
-      "author": {
-        "name": "JayWebtech",
-        "avatar": "https://avatars.githubusercontent.com/u/45628811?s=40&amp;v=4",
-        "url": "https://github.com/JayWebtech"
-      },
-      "summary": "本地优先的桌面应用，用AI自动从长视频或音频中识别并排序爆款时刻，生成9:16竖屏短视频候选片段。",
-      "tags": [
-        "video",
-        "ai",
+        "speech-to-text",
+        "offline",
         "rust",
         "desktop",
-        "shorts"
+        "open-source"
       ],
       "category": "App",
-      "enrichedAt": "2026-10-09T05:12:17.269Z",
+      "enrichedAt": "2026-10-09T15:55:12.769Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fframes",
+      "fullName": "dmtrKovalenko/fframes",
+      "url": "https://github.com/dmtrKovalenko/fframes",
+      "description": "programmatic video rendering framework that is actually fast",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2467,
+      "forks": 56,
+      "starsToday": 617,
+      "topics": [],
+      "author": {
+        "name": "dmtrKovalenko",
+        "avatar": "https://avatars.githubusercontent.com/u/16926049?s=40&amp;v=4",
+        "url": "https://github.com/dmtrKovalenko"
+      },
+      "summary": "基于 Rust 的编程式视频渲染框架，用代码生成视频且渲染速度极快，适合自动化批量产出视频内容。",
+      "tags": [
+        "rust",
+        "video",
+        "rendering",
+        "framework",
+        "media"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-09T15:55:12.994Z",
       "deepwikiAvailable": false
     },
     {
@@ -208,8 +96,8 @@
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 16609,
-      "forks": 1022,
+      "stars": 16658,
+      "forks": 1025,
       "starsToday": 1151,
       "topics": [],
       "author": {
@@ -231,14 +119,211 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "skills-manager",
+      "fullName": "xingkongliang/skills-manager",
+      "url": "https://github.com/xingkongliang/skills-manager",
+      "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5825,
+      "forks": 488,
+      "starsToday": 447,
+      "topics": [],
+      "author": {
+        "name": "xingkongliang",
+        "avatar": "https://avatars.githubusercontent.com/u/8827798?s=40&amp;v=4",
+        "url": "https://github.com/xingkongliang"
+      },
+      "summary": "轻量级桌面应用，用于统一管理、同步和整理 AI 智能体技能，支持 Claude Code、Codex、Cursor 等 50 多种编码工具。",
+      "tags": [
+        "ai-agent",
+        "skills",
+        "desktop",
+        "rust",
+        "sync",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-09T05:12:18.298Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12212,
+      "forks": 900,
+      "starsToday": 359,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用 Rust 编写的高性能 Minecraft 服务端，主打快速高效、低资源占用，让任何人都能轻松自建服务器。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "server",
+        "game",
+        "performance"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-09T05:12:17.080Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openhuman",
+      "fullName": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 41737,
+      "forks": 4103,
+      "starsToday": 1359,
+      "topics": [],
+      "author": {
+        "name": "tinyhumansai",
+        "avatar": "https://avatars.githubusercontent.com/u/31011319?s=40&amp;v=4",
+        "url": "https://github.com/tinyhumansai"
+      },
+      "summary": "OpenHuman 是用 Rust 编写的开源 AI 智能体运行框架，主打速度最快、成本最低、效率最高，适合构建和运行自主智能体。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "llm",
+        "open-source",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-09T05:12:16.177Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "touchHLE",
+      "fullName": "touchHLE/touchHLE",
+      "url": "https://github.com/touchHLE/touchHLE",
+      "description": "High-level emulator for early iOS apps. This repo is used for issues, releases and CI. Submit patches at: https://review.gerrithub.io/admin/repos/touchHLE/touchHLE",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3983,
+      "forks": 356,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "touchHLE",
+        "avatar": "https://avatars.githubusercontent.com/u/91161081?s=40&amp;v=4",
+        "url": "https://github.com/touchHLE"
+      },
+      "summary": "用 Rust 编写的高层模拟器，可在现代设备上运行早期 iOS 应用与游戏，无需完整系统镜像。",
+      "tags": [
+        "emulator",
+        "ios",
+        "rust",
+        "reverse-engineering",
+        "retro"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-09T05:12:16.815Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "autoshorts",
+      "fullName": "JayWebtech/autoshorts",
+      "url": "https://github.com/JayWebtech/autoshorts",
+      "description": "AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1218,
+      "forks": 228,
+      "starsToday": 167,
+      "topics": [],
+      "author": {
+        "name": "JayWebtech",
+        "avatar": "https://avatars.githubusercontent.com/u/45628811?s=40&amp;v=4",
+        "url": "https://github.com/JayWebtech"
+      },
+      "summary": "本地优先的桌面应用，用AI自动从长视频或音频中识别并排序爆款时刻，生成9:16竖屏短视频候选片段。",
+      "tags": [
+        "video",
+        "ai",
+        "rust",
+        "desktop",
+        "shorts"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-09T05:12:17.269Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hyperfine",
+      "fullName": "sharkdp/hyperfine",
+      "url": "https://github.com/sharkdp/hyperfine",
+      "description": "A command-line benchmarking tool",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 29027,
+      "forks": 521,
+      "starsToday": 53,
+      "topics": [],
+      "author": {
+        "name": "sharkdp",
+        "avatar": "https://avatars.githubusercontent.com/u/4209276?s=40&amp;v=4",
+        "url": "https://github.com/sharkdp"
+      },
+      "summary": "基于 Rust 的命令行基准测试工具，可对任意 shell 命令进行多次运行统计，输出均值、标准差与对比结果，支持预热、参数扫描和导出。",
+      "tags": [
+        "benchmark",
+        "cli",
+        "rust",
+        "performance",
+        "testing"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-09T15:55:12.953Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15574,
+      "forks": 1748,
+      "starsToday": 1680,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 推出的自主 AI 智能体安全私有运行时，用 Rust 编写，为智能体提供隔离执行环境与权限管控。",
+      "tags": [
+        "ai-agents",
+        "runtime",
+        "rust",
+        "sandbox",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-09T05:12:15.795Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "dbx",
       "fullName": "t8y2/dbx",
       "url": "https://github.com/t8y2/dbx",
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 25275,
-      "forks": 2289,
+      "stars": 25389,
+      "forks": 2296,
       "starsToday": 1586,
       "topics": [],
       "author": {
@@ -266,8 +351,8 @@
       "description": "A desktop image editor, faithful to classic Adobe Photoshop, with native PSD/PSB compatibility",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 966,
-      "forks": 45,
+      "stars": 997,
+      "forks": 46,
       "starsToday": 663,
       "topics": [],
       "author": {
@@ -285,6 +370,34 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-09T05:12:17.987Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zeron",
+      "fullName": "zeronsh/zeron",
+      "url": "https://github.com/zeronsh/zeron",
+      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3140,
+      "forks": 303,
+      "starsToday": 634,
+      "topics": [],
+      "author": {
+        "name": "zeronsh",
+        "avatar": "https://avatars.githubusercontent.com/u/234226124?s=40&amp;v=4",
+        "url": "https://github.com/zeronsh"
+      },
+      "summary": "面向 Claude Code、Codex、Cursor、Devin 等编码智能体的原生控制平面，用 Rust 编写，统一调度与管理多个 AI 编程代理。",
+      "tags": [
+        "ai-agents",
+        "coding-agent",
+        "rust",
+        "control-plane",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-09T05:12:16.120Z",
       "deepwikiAvailable": false
     },
     {
@@ -313,35 +426,6 @@
       ],
       "category": "Data",
       "enrichedAt": "2026-10-09T05:12:18.113Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "skills-manager",
-      "fullName": "xingkongliang/skills-manager",
-      "url": "https://github.com/xingkongliang/skills-manager",
-      "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5792,
-      "forks": 483,
-      "starsToday": 447,
-      "topics": [],
-      "author": {
-        "name": "xingkongliang",
-        "avatar": "https://avatars.githubusercontent.com/u/8827798?s=40&amp;v=4",
-        "url": "https://github.com/xingkongliang"
-      },
-      "summary": "轻量级桌面应用，用于统一管理、同步和整理 AI 智能体技能，支持 Claude Code、Codex、Cursor 等 50 多种编码工具。",
-      "tags": [
-        "ai-agent",
-        "skills",
-        "desktop",
-        "rust",
-        "sync",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-09T05:12:18.298Z",
       "deepwikiAvailable": false
     }
   ]

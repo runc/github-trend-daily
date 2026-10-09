@@ -2,35 +2,119 @@
   "date": "2026-10-09",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-09T05:11:05.759Z",
-  "enrichedAt": "2026-10-09T05:11:46.991Z",
+  "fetchedAt": "2026-10-09T15:54:25.888Z",
+  "enrichedAt": "2026-10-09T15:55:00.761Z",
   "repos": [
     {
-      "name": "docker-agent",
-      "fullName": "docker/docker-agent",
-      "url": "https://github.com/docker/docker-agent",
-      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4251,
-      "forks": 495,
-      "starsToday": 766,
+      "stars": 44941,
+      "forks": 3252,
+      "starsToday": 323,
       "topics": [],
       "author": {
-        "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
-        "url": "https://github.com/docker"
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
       },
-      "summary": "Docker 工程团队开源的 AI Agent 构建与运行时，用 Go 编写，帮助开发者快速定义、编排并运行智能体。",
+      "summary": "阿里巴巴开源的大规模代码审查工具，采用确定性流水线加LLM Agent混合架构，支持行级精确评论与多语言安全规则集，兼容OpenAI与Anthropic。",
       "tags": [
-        "ai",
-        "agent",
-        "docker",
-        "golang",
-        "runtime"
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "ai-agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-09T15:54:57.389Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 182505,
+      "forks": 18176,
+      "starsToday": 149,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等主流开源模型，提供简洁 API 与 CLI，让本地推理开箱即用。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-09T05:11:42.836Z",
+      "enrichedAt": "2026-10-09T05:11:42.815Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43569,
+      "forks": 9340,
+      "starsToday": 90,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具无缝使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-09T15:54:57.364Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 91916,
+      "forks": 10930,
+      "starsToday": 81,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "开源 RAG 引擎，融合检索增强生成与 Agent 能力，为 LLM 提供高质量上下文层，支持深度文档理解。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-09T15:54:57.523Z",
       "deepwikiAvailable": false
     },
     {
@@ -40,9 +124,9 @@
       "description": "A tool for secrets management, encryption as a service, and privileged access management",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 36360,
-      "forks": 4781,
-      "starsToday": 7,
+      "stars": 36363,
+      "forks": 4782,
+      "starsToday": 8,
       "topics": [],
       "author": {
         "name": "hashicorp",
@@ -62,31 +146,340 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 182431,
-      "forks": 18168,
-      "starsToday": 128,
+      "stars": 49525,
+      "forks": 11909,
+      "starsToday": 93,
       "topics": [],
       "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
       },
-      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等主流开源模型，提供简洁 API 与 CLI，让本地推理开箱即用。",
+      "summary": "统一 AI 模型网关，将各类大模型聚合并转换为 OpenAI、Claude、Gemini 兼容格式，便于个人与企业集中管理与分发。",
       "tags": [
+        "ai",
+        "gateway",
         "llm",
-        "local-inference",
+        "api",
         "go",
-        "cli",
-        "api"
+        "proxy"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-09T05:11:42.815Z",
+      "enrichedAt": "2026-10-09T15:54:57.482Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52290,
+      "forks": 6809,
+      "starsToday": 118,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与 AI 智能体作为同一团队协同工作，用 Go 编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-09T15:54:58.445Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "docker-agent",
+      "fullName": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4302,
+      "forks": 499,
+      "starsToday": 158,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker 工程团队开源的 AI Agent 构建与运行时，用 Go 编写，帮助开发者快速定义、编排并运行智能体。",
+      "tags": [
+        "ai",
+        "agent",
+        "docker",
+        "golang",
+        "runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-09T05:11:42.836Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12851,
+      "forks": 1180,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "面向 AI Agent 的轻量级沙箱，支持秒级启动、高并发与安全隔离，用 Go 编写，为智能体提供可靠的代码执行环境。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "go",
+        "security",
+        "isolation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-09T15:54:58.706Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32806,
+      "forks": 4363,
+      "starsToday": 220,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转为可查询的RAG、自主推理智能体与自维护Wiki，基于Go构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-09T15:54:58.478Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pansou",
+      "fullName": "fish2018/pansou",
+      "url": "https://github.com/fish2018/pansou",
+      "description": "PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学习研究，请勿以各种形式用于盈利目的。 https://t.me/s/webhtv",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14844,
+      "forks": 3602,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "fish2018",
+        "avatar": "https://avatars.githubusercontent.com/u/34814105?s=40&amp;v=4",
+        "url": "https://github.com/fish2018"
+      },
+      "summary": "PanSou是基于Go的高性能网盘资源搜索API，支持TG频道与插件并发搜索、结果智能排序和网盘类型分类，Docker一键部署开箱即用。",
+      "tags": [
+        "go",
+        "search",
+        "api",
+        "docker",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-09T15:54:58.615Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42018,
+      "forks": 5964,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Xray-core 是 Go 编写的开源网络代理平台，兼容 v2ray-core，提供 XTLS 等高性能传输协议，用于科学上网与流量穿透。",
+      "tags": [
+        "proxy",
+        "golang",
+        "v2ray",
+        "xtls",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-09T15:54:59.705Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mcp-grafana",
+      "fullName": "grafana/mcp-grafana",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "description": "MCP server for Grafana",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3539,
+      "forks": 460,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/5464991?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "Grafana 官方 MCP 服务器，让 AI 助手直接查询仪表盘、数据源与告警，用自然语言操作 Grafana。",
+      "tags": [
+        "grafana",
+        "mcp",
+        "observability",
+        "go",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-09T15:54:59.560Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25392,
+      "forks": 3264,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "全自主 AI Agent 渗透测试系统，用 Go 编写，可自动完成复杂渗透测试任务。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-09T15:54:59.626Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CodeAF",
+      "fullName": "Agent-Field/CodeAF",
+      "url": "https://github.com/Agent-Field/CodeAF",
+      "description": "Open-Source Software factory for Open Models",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 366,
+      "forks": 47,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "Agent-Field",
+        "avatar": "https://avatars.githubusercontent.com/u/29346072?s=40&amp;v=4",
+        "url": "https://github.com/Agent-Field"
+      },
+      "summary": "面向开源模型的软件工厂，用 Go 构建自动化代码生成与交付流水线，让开放模型也能完成工程化开发。",
+      "tags": [
+        "go",
+        "llm",
+        "agents",
+        "codegen",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-09T15:54:59.852Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47701,
+      "forks": 12204,
+      "starsToday": 81,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于 Xray 的多协议多用户代理面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供 Web 界面管理流量与用户。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "golang",
+        "vpn"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-09T15:55:00.675Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28390,
+      "forks": 2624,
+      "starsToday": 40,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "Go 编写的密钥泄露扫描工具，可在代码仓库、文件系统和 CI 中查找、验证并分析泄露的凭据，支持数百种密钥类型与实时校验。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "golang",
+        "credentials"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-09T15:55:00.760Z",
       "deepwikiAvailable": false
     },
     {
