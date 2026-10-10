@@ -2,8 +2,8 @@
   "date": "2026-10-10",
   "since": "monthly",
   "language": "Go",
-  "fetchedAt": "2026-10-10T04:56:14.875Z",
-  "enrichedAt": "2026-10-10T04:57:55.545Z",
+  "fetchedAt": "2026-10-10T15:06:10.679Z",
+  "enrichedAt": "2026-10-10T15:07:47.936Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,8 +12,8 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 45425,
-      "forks": 3278,
+      "stars": 45780,
+      "forks": 3304,
       "starsToday": 23028,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 32895,
-      "forks": 4373,
+      "stars": 33003,
+      "forks": 4391,
       "starsToday": 11118,
       "topics": [],
       "author": {
@@ -69,8 +69,8 @@
       "description": "Agent Substrate: the core system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4720,
-      "forks": 537,
+      "stars": 4756,
+      "forks": 539,
       "starsToday": 2879,
       "topics": [],
       "author": {
@@ -91,14 +91,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "tuios",
+      "fullName": "Gaurav-Gosain/tuios",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5097,
+      "forks": 232,
+      "starsToday": 1489,
+      "topics": [],
+      "author": {
+        "name": "Gaurav-Gosain",
+        "avatar": "https://avatars.githubusercontent.com/u/55647468?s=40&amp;v=4",
+        "url": "https://github.com/Gaurav-Gosain"
+      },
+      "summary": "Go 编写的终端窗口管理器，支持平铺窗格、工作区与可跨重启的会话，并统一收件箱集中管理各编码代理的状态。",
+      "tags": [
+        "terminal",
+        "window-manager",
+        "tui",
+        "go",
+        "agents"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-10T04:57:51.102Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "coder",
       "fullName": "coder/coder",
       "url": "https://github.com/coder/coder",
       "description": "Secure environments for developers and their agents",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 16920,
-      "forks": 1617,
+      "stars": 16929,
+      "forks": 1618,
       "starsToday": 2676,
       "topics": [],
       "author": {
@@ -126,8 +154,8 @@
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 77651,
-      "forks": 5107,
+      "stars": 77678,
+      "forks": 5110,
       "starsToday": 2227,
       "topics": [],
       "author": {
@@ -154,8 +182,8 @@
       "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 7116,
-      "forks": 738,
+      "stars": 7121,
+      "forks": 740,
       "starsToday": 682,
       "topics": [],
       "author": {
@@ -183,8 +211,8 @@
       "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 7637,
-      "forks": 831,
+      "stars": 7647,
+      "forks": 832,
       "starsToday": 1224,
       "topics": [],
       "author": {
@@ -212,8 +240,8 @@
       "description": "Find, verify, and analyze leaked credentials",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 28405,
-      "forks": 2625,
+      "stars": 28409,
+      "forks": 2627,
       "starsToday": 730,
       "topics": [],
       "author": {
@@ -234,70 +262,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "tuios",
-      "fullName": "Gaurav-Gosain/tuios",
-      "url": "https://github.com/Gaurav-Gosain/tuios",
-      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 5084,
-      "forks": 232,
-      "starsToday": 1489,
-      "topics": [],
-      "author": {
-        "name": "Gaurav-Gosain",
-        "avatar": "https://avatars.githubusercontent.com/u/55647468?s=40&amp;v=4",
-        "url": "https://github.com/Gaurav-Gosain"
-      },
-      "summary": "Go 编写的终端窗口管理器，支持平铺窗格、工作区与可跨重启的会话，并统一收件箱集中管理各编码代理的状态。",
-      "tags": [
-        "terminal",
-        "window-manager",
-        "tui",
-        "go",
-        "agents"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-10T04:57:51.102Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenFlux",
-      "fullName": "p1neappleXpress/OpenFlux",
-      "url": "https://github.com/p1neappleXpress/OpenFlux",
-      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2048,
-      "forks": 178,
-      "starsToday": 2054,
-      "topics": [],
-      "author": {
-        "name": "p1neappleXpress",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/p1neappleXpress"
-      },
-      "summary": "Go 编写的网络栈研究工具，提供可插拔传输层的 TCP 隧道，便于测试与实验自定义协议。",
-      "tags": [
-        "go",
-        "networking",
-        "tcp",
-        "tunnel",
-        "proxy"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-10T04:57:51.244Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "pentagi",
       "fullName": "vxcontrol/pentagi",
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 25415,
-      "forks": 3272,
+      "stars": 25431,
+      "forks": 3276,
       "starsToday": 2923,
       "topics": [],
       "author": {
@@ -324,8 +296,8 @@
       "description": "A personal timeline for quick notes. Write short memos, find them later by search, tag, or date. Open source and self-hosted.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 63655,
-      "forks": 4835,
+      "stars": 63667,
+      "forks": 4840,
       "starsToday": 928,
       "topics": [],
       "author": {
@@ -346,13 +318,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenFlux",
+      "fullName": "p1neappleXpress/OpenFlux",
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2053,
+      "forks": 178,
+      "starsToday": 2054,
+      "topics": [],
+      "author": {
+        "name": "p1neappleXpress",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/p1neappleXpress"
+      },
+      "summary": "Go 编写的网络栈研究工具，提供可插拔传输层的 TCP 隧道，便于测试与实验自定义协议。",
+      "tags": [
+        "go",
+        "networking",
+        "tcp",
+        "tunnel",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-10T04:57:51.244Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "hister",
       "fullName": "asciimoo/hister",
       "url": "https://github.com/asciimoo/hister",
       "description": "Your own search engine",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5957,
+      "stars": 5961,
       "forks": 264,
       "starsToday": 2337,
       "topics": [],
@@ -374,41 +374,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "grpc-go",
-      "fullName": "grpc/grpc-go",
-      "url": "https://github.com/grpc/grpc-go",
-      "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 23090,
-      "forks": 4789,
-      "starsToday": 141,
-      "topics": [],
-      "author": {
-        "name": "grpc",
-        "avatar": "https://avatars.githubusercontent.com/u/10121772?s=40&amp;v=4",
-        "url": "https://github.com/grpc"
-      },
-      "summary": "gRPC 的 Go 语言官方实现，基于 HTTP/2 的高性能远程过程调用框架，用于构建跨语言微服务通信。",
-      "tags": [
-        "grpc",
-        "go",
-        "rpc",
-        "http2",
-        "microservices"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-10T04:57:52.396Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "cli",
       "fullName": "urfave/cli",
       "url": "https://github.com/urfave/cli",
       "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24284,
+      "stars": 24285,
       "forks": 1837,
       "starsToday": 83,
       "topics": [],
@@ -430,14 +402,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "grpc-go",
+      "fullName": "grpc/grpc-go",
+      "url": "https://github.com/grpc/grpc-go",
+      "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23091,
+      "forks": 4790,
+      "starsToday": 141,
+      "topics": [],
+      "author": {
+        "name": "grpc",
+        "avatar": "https://avatars.githubusercontent.com/u/10121772?s=40&amp;v=4",
+        "url": "https://github.com/grpc"
+      },
+      "summary": "gRPC 的 Go 语言官方实现，基于 HTTP/2 的高性能远程过程调用框架，用于构建跨语言微服务通信。",
+      "tags": [
+        "grpc",
+        "go",
+        "rpc",
+        "http2",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-10T04:57:52.396Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "runtime",
       "fullName": "e2b-dev/runtime",
       "url": "https://github.com/e2b-dev/runtime",
       "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 1700,
-      "forks": 467,
+      "stars": 1705,
+      "forks": 468,
       "starsToday": 447,
       "topics": [],
       "author": {
@@ -459,31 +459,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "name": "excelize",
+      "fullName": "qax-os/excelize",
+      "url": "https://github.com/qax-os/excelize",
+      "description": "Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 182561,
-      "forks": 18179,
-      "starsToday": 2804,
+      "stars": 20978,
+      "forks": 1968,
+      "starsToday": 95,
       "topics": [],
       "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
+        "name": "qax-os",
+        "avatar": "https://avatars.githubusercontent.com/u/2809468?s=40&amp;v=4",
+        "url": "https://github.com/qax-os"
       },
-      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等主流开源模型，提供简单 API 与 CLI。",
+      "summary": "Go 语言读写 Excel 电子表格的库，支持 XLSX、XLSM、XLAM 等格式，无需依赖 Office 即可生成和解析表格文件。",
       "tags": [
-        "llm",
-        "local-inference",
         "go",
-        "cli",
-        "api"
+        "excel",
+        "xlsx",
+        "spreadsheet",
+        "library"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-10T04:57:53.502Z",
+      "category": "Library",
+      "enrichedAt": "2026-10-10T04:57:54.832Z",
       "deepwikiAvailable": false
     },
     {
@@ -493,8 +493,8 @@
       "description": "The Go programming language",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 139170,
-      "forks": 21735,
+      "stars": 139174,
+      "forks": 21823,
       "starsToday": 1735,
       "topics": [],
       "author": {
@@ -512,6 +512,176 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-10T04:57:53.425Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35369,
+      "forks": 3052,
+      "starsToday": 894,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，以 O(1) 磁盘访问轻松管理数十亿文件并水平扩展。",
+      "tags": [
+        "storage",
+        "distributed",
+        "s3",
+        "golang",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-10T04:57:54.158Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128245,
+      "forks": 46558,
+      "starsToday": 1845,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和服务管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "cloud-native",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-10T15:07:47.604Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openbao",
+      "fullName": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8373,
+      "forks": 620,
+      "starsToday": 1066,
+      "topics": [],
+      "author": {
+        "name": "openbao",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/openbao"
+      },
+      "summary": "OpenBao 是开源密钥管理平台，用于集中管理、存储和分发密钥、证书等敏感数据，兼容 Vault 生态。",
+      "tags": [
+        "secrets",
+        "security",
+        "vault",
+        "go",
+        "encryption"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-10T04:57:54.596Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38331,
+      "forks": 751,
+      "starsToday": 535,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是 Aqua 开源的一体化安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、配置错误、密钥泄露并生成 SBOM，集成简单、速度快。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-10T04:57:55.079Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pentest-Swarm-AI",
+      "fullName": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2778,
+      "forks": 510,
+      "starsToday": 317,
+      "topics": [],
+      "author": {
+        "name": "Armur-Ai",
+        "avatar": "https://avatars.githubusercontent.com/u/26513717?s=40&amp;v=4",
+        "url": "https://github.com/Armur-Ai"
+      },
+      "summary": "基于 Go 的自主渗透测试框架，用 AI 智能体集群编排侦察、分类、利用与报告，支持漏洞赏金、持续监控和 CTF 模式。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-10T15:07:47.936Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 182612,
+      "forks": 18185,
+      "starsToday": 2804,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等主流开源模型，提供简单 API 与 CLI。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-10T04:57:53.502Z",
       "deepwikiAvailable": false
     },
     {
@@ -540,119 +710,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-10T04:57:53.733Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "seaweedfs",
-      "fullName": "seaweedfs/seaweedfs",
-      "url": "https://github.com/seaweedfs/seaweedfs",
-      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 35357,
-      "forks": 3048,
-      "starsToday": 894,
-      "topics": [],
-      "author": {
-        "name": "seaweedfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
-        "url": "https://github.com/seaweedfs"
-      },
-      "summary": "SeaweedFS 是 Go 编写的分布式存储系统，支持 S3 对象存储、文件系统和 Iceberg 表，以 O(1) 磁盘访问轻松管理数十亿文件并水平扩展。",
-      "tags": [
-        "storage",
-        "distributed",
-        "s3",
-        "golang",
-        "filesystem"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-10T04:57:54.158Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openbao",
-      "fullName": "openbao/openbao",
-      "url": "https://github.com/openbao/openbao",
-      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8366,
-      "forks": 620,
-      "starsToday": 1066,
-      "topics": [],
-      "author": {
-        "name": "openbao",
-        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
-        "url": "https://github.com/openbao"
-      },
-      "summary": "OpenBao 是开源密钥管理平台，用于集中管理、存储和分发密钥、证书等敏感数据，兼容 Vault 生态。",
-      "tags": [
-        "secrets",
-        "security",
-        "vault",
-        "go",
-        "encryption"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-10T04:57:54.596Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "excelize",
-      "fullName": "qax-os/excelize",
-      "url": "https://github.com/qax-os/excelize",
-      "description": "Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 20975,
-      "forks": 1968,
-      "starsToday": 95,
-      "topics": [],
-      "author": {
-        "name": "qax-os",
-        "avatar": "https://avatars.githubusercontent.com/u/2809468?s=40&amp;v=4",
-        "url": "https://github.com/qax-os"
-      },
-      "summary": "Go 语言读写 Excel 电子表格的库，支持 XLSX、XLSM、XLAM 等格式，无需依赖 Office 即可生成和解析表格文件。",
-      "tags": [
-        "go",
-        "excel",
-        "xlsx",
-        "spreadsheet",
-        "library"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-10T04:57:54.832Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trivy",
-      "fullName": "aquasecurity/trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 38318,
-      "forks": 749,
-      "starsToday": 535,
-      "topics": [],
-      "author": {
-        "name": "aquasecurity",
-        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
-        "url": "https://github.com/aquasecurity"
-      },
-      "summary": "Trivy 是 Aqua 开源的一体化安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、配置错误、密钥泄露并生成 SBOM，集成简单、速度快。",
-      "tags": [
-        "security",
-        "scanner",
-        "vulnerability",
-        "sbom",
-        "kubernetes",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-10T04:57:55.079Z",
       "deepwikiAvailable": false
     },
     {

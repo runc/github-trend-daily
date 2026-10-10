@@ -2,8 +2,8 @@
   "date": "2026-10-10",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-10-10T04:56:14.875Z",
-  "enrichedAt": "2026-10-10T04:57:18.595Z",
+  "fetchedAt": "2026-10-10T15:06:10.679Z",
+  "enrichedAt": "2026-10-10T15:07:38.671Z",
   "repos": [
     {
       "name": "caddy",
@@ -12,8 +12,8 @@
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 77651,
-      "forks": 5107,
+      "stars": 77678,
+      "forks": 5110,
       "starsToday": 1417,
       "topics": [],
       "author": {
@@ -34,31 +34,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "tuios",
-      "fullName": "Gaurav-Gosain/tuios",
-      "url": "https://github.com/Gaurav-Gosain/tuios",
-      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+      "name": "httpsms",
+      "fullName": "NdoleStudio/httpsms",
+      "url": "https://github.com/NdoleStudio/httpsms",
+      "description": "Send and receive SMS messages using your Android phone programmatically via a simple HTTP API",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5084,
-      "forks": 232,
-      "starsToday": 541,
+      "stars": 5961,
+      "forks": 1079,
+      "starsToday": 673,
       "topics": [],
       "author": {
-        "name": "Gaurav-Gosain",
-        "avatar": "https://avatars.githubusercontent.com/u/55647468?s=40&amp;v=4",
-        "url": "https://github.com/Gaurav-Gosain"
+        "name": "NdoleStudio",
+        "avatar": "https://avatars.githubusercontent.com/u/4196457?s=40&amp;v=4",
+        "url": "https://github.com/NdoleStudio"
       },
-      "summary": "终端窗口管理器，支持平铺窗格、工作区与可跨重启恢复的会话，并为各类编码智能体提供统一收件箱。",
+      "summary": "把安卓手机变成短信网关，通过简洁的 HTTP API 以编程方式收发短信，支持 Webhook 回调，适合自动化通知与验证码场景。",
       "tags": [
-        "terminal",
-        "tui",
-        "window-manager",
-        "ai-agents",
-        "go"
+        "sms",
+        "android",
+        "http-api",
+        "go",
+        "gateway"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-10-10T04:57:14.904Z",
+      "enrichedAt": "2026-10-10T15:07:37.181Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,7 +68,7 @@
       "description": "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 805,
+      "stars": 809,
       "forks": 121,
       "starsToday": 169,
       "topics": [],
@@ -90,14 +90,98 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "tuios",
+      "fullName": "Gaurav-Gosain/tuios",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5097,
+      "forks": 232,
+      "starsToday": 541,
+      "topics": [],
+      "author": {
+        "name": "Gaurav-Gosain",
+        "avatar": "https://avatars.githubusercontent.com/u/55647468?s=40&amp;v=4",
+        "url": "https://github.com/Gaurav-Gosain"
+      },
+      "summary": "终端窗口管理器，支持平铺窗格、工作区与可跨重启恢复的会话，并为各类编码智能体提供统一收件箱。",
+      "tags": [
+        "terminal",
+        "tui",
+        "window-manager",
+        "ai-agents",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-10T04:57:14.904Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47752,
+      "forks": 12236,
+      "starsToday": 440,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于 Go 的多协议多用户 Xray 面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供可视化 Web 管理界面。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "golang",
+        "vpn"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-10T04:57:16.221Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ttt",
+      "fullName": "eugenioenko/ttt",
+      "url": "https://github.com/eugenioenko/ttt",
+      "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 502,
+      "forks": 36,
+      "starsToday": 121,
+      "topics": [],
+      "author": {
+        "name": "eugenioenko",
+        "avatar": "https://avatars.githubusercontent.com/u/17834212?s=40&amp;v=4",
+        "url": "https://github.com/eugenioenko"
+      },
+      "summary": "TTT 是一款终端文本编辑器，用 TUI 提供接近 GUI 的体验，单二进制零配置，可作为 VS Code、Zed、Sublime 的终端替代方案。",
+      "tags": [
+        "editor",
+        "tui",
+        "terminal",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-10T15:07:37.023Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "trivy",
       "fullName": "aquasecurity/trivy",
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38318,
-      "forks": 749,
+      "stars": 38331,
+      "forks": 751,
       "starsToday": 143,
       "topics": [],
       "author": {
@@ -119,31 +203,87 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "3x-ui",
-      "fullName": "MHSanaei/3x-ui",
-      "url": "https://github.com/MHSanaei/3x-ui",
-      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "name": "docker-agent",
+      "fullName": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 47722,
-      "forks": 12224,
-      "starsToday": 440,
+      "stars": 4368,
+      "forks": 503,
+      "starsToday": 936,
       "topics": [],
       "author": {
-        "name": "MHSanaei",
-        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
-        "url": "https://github.com/MHSanaei"
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
+        "url": "https://github.com/docker"
       },
-      "summary": "基于 Go 的多协议多用户 Xray 面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等，提供可视化 Web 管理界面。",
+      "summary": "Docker 工程团队开源的 AI Agent 构建与运行时，用 Go 编写，可快速定义、编排并运行智能体工作流。",
       "tags": [
-        "proxy",
-        "xray",
-        "panel",
+        "ai",
+        "agent",
+        "docker",
         "golang",
-        "vpn"
+        "runtime"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-10T04:57:16.221Z",
+      "category": "AI",
+      "enrichedAt": "2026-10-10T04:57:17.264Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bubbletea",
+      "fullName": "charmbracelet/bubbletea",
+      "url": "https://github.com/charmbracelet/bubbletea",
+      "description": "A powerful little TUI framework 🏗",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45414,
+      "forks": 3596,
+      "starsToday": 179,
+      "topics": [],
+      "author": {
+        "name": "charmbracelet",
+        "avatar": "https://avatars.githubusercontent.com/u/3187948?s=40&amp;v=4",
+        "url": "https://github.com/charmbracelet"
+      },
+      "summary": "Go 编写的终端 UI 框架，基于 Elm 架构，用简洁的状态更新模型构建交互式 TUI 应用，生态成熟。",
+      "tags": [
+        "go",
+        "tui",
+        "cli",
+        "terminal",
+        "framework"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-10T15:07:37.189Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19624,
+      "forks": 2042,
+      "starsToday": 147,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google 开源的容器应用内核，用 Go 实现 Linux 系统调用接口，为容器提供强隔离与安全沙箱能力。",
+      "tags": [
+        "kernel",
+        "containers",
+        "sandbox",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-10T04:57:17.496Z",
       "deepwikiAvailable": false
     },
     {
@@ -153,8 +293,8 @@
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 182561,
-      "forks": 18179,
+      "stars": 182612,
+      "forks": 18185,
       "starsToday": 762,
       "topics": [],
       "author": {
@@ -175,14 +315,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 110877,
+      "forks": 6424,
+      "starsToday": 1941,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用原始人式简短表达压缩提示词的技能与代理，为编码智能体节省约65%的token消耗，降低调用成本。",
+      "tags": [
+        "llm",
+        "proxy",
+        "token",
+        "coding-agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-10T04:57:17.174Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "oauth2-proxy",
       "fullName": "oauth2-proxy/oauth2-proxy",
       "url": "https://github.com/oauth2-proxy/oauth2-proxy",
       "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 15108,
-      "forks": 2216,
+      "stars": 15132,
+      "forks": 2218,
       "starsToday": 64,
       "topics": [],
       "author": {
@@ -209,7 +377,7 @@
       "description": "Open-Source Software factory for Open Models",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 376,
+      "stars": 382,
       "forks": 48,
       "starsToday": 123,
       "topics": [],
@@ -231,14 +399,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "traefik",
+      "fullName": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 65141,
+      "forks": 6232,
+      "starsToday": 117,
+      "topics": [],
+      "author": {
+        "name": "traefik",
+        "avatar": "https://avatars.githubusercontent.com/u/5674651?s=40&amp;v=4",
+        "url": "https://github.com/traefik"
+      },
+      "summary": "云原生反向代理与负载均衡器，自动发现服务并动态配置路由，支持 Kubernetes、Docker 等，简化微服务流量入口管理。",
+      "tags": [
+        "proxy",
+        "golang",
+        "kubernetes",
+        "load-balancer",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-10T15:07:37.319Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "gitea",
       "fullName": "go-gitea/gitea",
       "url": "https://github.com/go-gitea/gitea",
       "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 58397,
-      "forks": 7243,
+      "stars": 58410,
+      "forks": 7247,
       "starsToday": 133,
       "topics": [],
       "author": {
@@ -259,87 +455,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "docker-agent",
-      "fullName": "docker/docker-agent",
-      "url": "https://github.com/docker/docker-agent",
-      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "name": "llm-d-router",
+      "fullName": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4324,
-      "forks": 503,
-      "starsToday": 936,
+      "stars": 388,
+      "forks": 434,
+      "starsToday": 19,
       "topics": [],
       "author": {
-        "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
-        "url": "https://github.com/docker"
+        "name": "llm-d",
+        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
+        "url": "https://github.com/llm-d"
       },
-      "summary": "Docker 工程团队开源的 AI Agent 构建与运行时，用 Go 编写，可快速定义、编排并运行智能体工作流。",
-      "tags": [
-        "ai",
-        "agent",
-        "docker",
-        "golang",
-        "runtime"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-10T04:57:17.264Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 110797,
-      "forks": 6420,
-      "starsToday": 1941,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "用原始人式简短表达压缩提示词的技能与代理，为编码智能体节省约65%的token消耗，降低调用成本。",
+      "summary": "llm-d 的推理请求智能入口路由组件，用 Go 编写，负责将大模型推理请求高效分发到后端服务，提升集群吞吐与调度效率。",
       "tags": [
         "llm",
-        "proxy",
-        "token",
-        "coding-agent",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-10T04:57:17.174Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gvisor",
-      "fullName": "google/gvisor",
-      "url": "https://github.com/google/gvisor",
-      "description": "Application Kernel for Containers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 19618,
-      "forks": 2038,
-      "starsToday": 147,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "Google 开源的容器应用内核，用 Go 实现 Linux 系统调用接口，为容器提供强隔离与安全沙箱能力。",
-      "tags": [
-        "kernel",
-        "containers",
-        "sandbox",
-        "security",
-        "go"
+        "router",
+        "inference",
+        "go",
+        "kubernetes"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-10-10T04:57:17.496Z",
+      "enrichedAt": "2026-10-10T15:07:38.671Z",
       "deepwikiAvailable": false
     },
     {
@@ -349,8 +489,8 @@
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 111372,
-      "forks": 16214,
+      "stars": 111374,
+      "forks": 16302,
       "starsToday": 134,
       "topics": [],
       "author": {
