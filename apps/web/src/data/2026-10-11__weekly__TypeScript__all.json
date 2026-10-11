@@ -2,9 +2,38 @@
   "date": "2026-10-11",
   "since": "weekly",
   "language": "TypeScript",
-  "fetchedAt": "2026-10-11T04:43:34.998Z",
-  "enrichedAt": "2026-10-11T04:44:27.151Z",
+  "fetchedAt": "2026-10-11T15:24:41.865Z",
+  "enrichedAt": "2026-10-11T15:25:17.319Z",
   "repos": [
+    {
+      "name": "e2e",
+      "fullName": "tester-army/e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 8899,
+      "forks": 431,
+      "starsToday": 6564,
+      "topics": [],
+      "author": {
+        "name": "tester-army",
+        "avatar": "https://avatars.githubusercontent.com/u/52801365?s=40&amp;v=4",
+        "url": "https://github.com/tester-army"
+      },
+      "summary": "面向 Web 与移动应用的下一代端到端测试框架，用 TypeScript 编写，简化 E2E 用例编写与执行。",
+      "tags": [
+        "testing",
+        "e2e",
+        "typescript",
+        "automation",
+        "mobile",
+        "web"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-11T04:44:24.473Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "claude-mem",
       "fullName": "thedotmack/claude-mem",
@@ -12,8 +41,8 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 99333,
-      "forks": 8703,
+      "stars": 99575,
+      "forks": 8733,
       "starsToday": 4035,
       "topics": [],
       "author": {
@@ -40,8 +69,8 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 60427,
-      "forks": 5399,
+      "stars": 60697,
+      "forks": 5427,
       "starsToday": 4081,
       "topics": [],
       "author": {
@@ -62,42 +91,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "openrig",
-      "fullName": "mvschwarz/openrig",
-      "url": "https://github.com/mvschwarz/openrig",
-      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 6762,
-      "forks": 500,
-      "starsToday": 2068,
-      "topics": [],
-      "author": {
-        "name": "mvschwarz",
-        "avatar": "https://avatars.githubusercontent.com/u/171890339?s=40&amp;v=4",
-        "url": "https://github.com/mvschwarz"
-      },
-      "summary": "基于 Claude Code、Codex 和 Pi 构建多智能体协作网络，支持持久化团队、角色分工、共享上下文与任务归属，让多个 AI 代理协同完成工作。",
-      "tags": [
-        "agents",
-        "multi-agent",
-        "typescript",
-        "claude",
-        "orchestration"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-11T04:44:23.376Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "plugins",
       "fullName": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 10776,
-      "forks": 1027,
+      "stars": 10853,
+      "forks": 1035,
       "starsToday": 1110,
       "topics": [],
       "author": {
@@ -118,14 +119,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "openrig",
+      "fullName": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 6861,
+      "forks": 513,
+      "starsToday": 2068,
+      "topics": [],
+      "author": {
+        "name": "mvschwarz",
+        "avatar": "https://avatars.githubusercontent.com/u/171890339?s=40&amp;v=4",
+        "url": "https://github.com/mvschwarz"
+      },
+      "summary": "基于 Claude Code、Codex 和 Pi 构建多智能体协作网络，支持持久化团队、角色分工、共享上下文与任务归属，让多个 AI 代理协同完成工作。",
+      "tags": [
+        "agents",
+        "multi-agent",
+        "typescript",
+        "claude",
+        "orchestration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T04:44:23.376Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "billion-context",
+      "fullName": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 855,
+      "forks": 79,
+      "starsToday": 259,
+      "topics": [],
+      "author": {
+        "name": "ranxianglei",
+        "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&amp;v=4",
+        "url": "https://github.com/ranxianglei"
+      },
+      "summary": "上下文压缩插件，让100K小窗口也能支撑数月级超长会话，token消耗降低约5倍。",
+      "tags": [
+        "context",
+        "compression",
+        "llm",
+        "tokens",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T04:44:24.061Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "t3code",
       "fullName": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 26841,
-      "forks": 7040,
+      "stars": 26925,
+      "forks": 7061,
       "starsToday": 2367,
       "topics": [],
       "author": {
@@ -147,71 +204,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "billion-context",
-      "fullName": "ranxianglei/billion-context",
-      "url": "https://github.com/ranxianglei/billion-context",
-      "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 797,
-      "forks": 75,
-      "starsToday": 259,
-      "topics": [],
-      "author": {
-        "name": "ranxianglei",
-        "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&amp;v=4",
-        "url": "https://github.com/ranxianglei"
-      },
-      "summary": "上下文压缩插件，让100K小窗口也能支撑数月级超长会话，token消耗降低约5倍。",
-      "tags": [
-        "context",
-        "compression",
-        "llm",
-        "tokens",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-11T04:44:24.061Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "e2e",
-      "fullName": "tester-army/e2e",
-      "url": "https://github.com/tester-army/e2e",
-      "description": "Next generation e2e testing framework for web and mobile apps.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 8768,
-      "forks": 425,
-      "starsToday": 6564,
-      "topics": [],
-      "author": {
-        "name": "tester-army",
-        "avatar": "https://avatars.githubusercontent.com/u/52801365?s=40&amp;v=4",
-        "url": "https://github.com/tester-army"
-      },
-      "summary": "面向 Web 与移动应用的下一代端到端测试框架，用 TypeScript 编写，简化 E2E 用例编写与执行。",
-      "tags": [
-        "testing",
-        "e2e",
-        "typescript",
-        "automation",
-        "mobile",
-        "web"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-11T04:44:24.473Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "yoinks",
       "fullName": "pablostanley/yoinks",
       "url": "https://github.com/pablostanley/yoinks",
       "description": "yoink any video from your terminal. no shady ads.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 5700,
-      "forks": 480,
+      "stars": 5726,
+      "forks": 483,
       "starsToday": 1940,
       "topics": [],
       "author": {
@@ -238,8 +238,8 @@
       "description": "The open-source CapCut alternative",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 93500,
-      "forks": 9181,
+      "stars": 93559,
+      "forks": 9183,
       "starsToday": 2074,
       "topics": [],
       "author": {
@@ -260,42 +260,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "cloudflare-os",
-      "fullName": "cloudflare/cloudflare-os",
-      "url": "https://github.com/cloudflare/cloudflare-os",
-      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 11339,
-      "forks": 1352,
-      "starsToday": 862,
-      "topics": [],
-      "author": {
-        "name": "cloudflare",
-        "avatar": "https://avatars.githubusercontent.com/u/4001805?s=40&amp;v=4",
-        "url": "https://github.com/cloudflare"
-      },
-      "summary": "基于 Cloudflare Workers 的智能体工作空间，结合企业上下文与内部系统，用于生成文档、构建应用和运行 AI 智能体。",
-      "tags": [
-        "ai",
-        "agents",
-        "cloudflare",
-        "workers",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-11T04:44:25.200Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "freellmapi",
       "fullName": "tashfeenahmed/freellmapi",
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 32988,
-      "forks": 4562,
+      "stars": 33185,
+      "forks": 4590,
       "starsToday": 2591,
       "topics": [],
       "author": {
@@ -316,13 +288,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "cloudflare-os",
+      "fullName": "cloudflare/cloudflare-os",
+      "url": "https://github.com/cloudflare/cloudflare-os",
+      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 11347,
+      "forks": 1355,
+      "starsToday": 862,
+      "topics": [],
+      "author": {
+        "name": "cloudflare",
+        "avatar": "https://avatars.githubusercontent.com/u/4001805?s=40&amp;v=4",
+        "url": "https://github.com/cloudflare"
+      },
+      "summary": "基于 Cloudflare Workers 的智能体工作空间，结合企业上下文与内部系统，用于生成文档、构建应用和运行 AI 智能体。",
+      "tags": [
+        "ai",
+        "agents",
+        "cloudflare",
+        "workers",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T04:44:25.200Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "DmNote",
       "fullName": "DmNote-App/DmNote",
       "url": "https://github.com/DmNote-App/DmNote",
       "description": "Make it yours. A customizable key viewer for DJMAX RESPECT V and any game.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 2905,
+      "stars": 2916,
       "forks": 107,
       "starsToday": 1071,
       "topics": [],
@@ -350,8 +350,8 @@
       "description": "Atomic Agent is a local-first AI agent. Runs open-weight models on your own machine via llama.cpp.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 3229,
-      "forks": 265,
+      "stars": 3241,
+      "forks": 266,
       "starsToday": 606,
       "topics": [],
       "author": {
@@ -378,8 +378,8 @@
       "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 9617,
-      "forks": 1182,
+      "stars": 9637,
+      "forks": 1186,
       "starsToday": 520,
       "topics": [],
       "author": {
@@ -397,6 +397,90 @@
       ],
       "category": "Security",
       "enrichedAt": "2026-10-11T04:44:26.147Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeFlow",
+      "fullName": "hicccc77/WeFlow",
+      "url": "https://github.com/hicccc77/WeFlow",
+      "description": "WeFlow - 一个本地的微信聊天记录导出和年度报告应用",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 14950,
+      "forks": 622,
+      "starsToday": 268,
+      "topics": [],
+      "author": {
+        "name": "hicccc77",
+        "avatar": "https://avatars.githubusercontent.com/u/98377878?s=40&amp;v=4",
+        "url": "https://github.com/hicccc77"
+      },
+      "summary": "本地运行的微信聊天记录导出与年度报告工具，数据不出本机，可生成可视化统计报告。",
+      "tags": [
+        "wechat",
+        "export",
+        "privacy",
+        "typescript",
+        "report"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-11T04:44:27.112Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "effect",
+      "fullName": "Effect-TS/effect",
+      "url": "https://github.com/Effect-TS/effect",
+      "description": "Build production-ready applications in TypeScript",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 17219,
+      "forks": 848,
+      "starsToday": 322,
+      "topics": [],
+      "author": {
+        "name": "Effect-TS",
+        "avatar": "https://avatars.githubusercontent.com/u/24249610?s=40&amp;v=4",
+        "url": "https://github.com/Effect-TS"
+      },
+      "summary": "TypeScript 函数式编程框架，提供类型安全的错误处理、并发、依赖注入等能力，帮助构建生产级应用。",
+      "tags": [
+        "typescript",
+        "functional",
+        "framework",
+        "effect-system",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-11T15:25:17.319Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "video-shotcraft",
+      "fullName": "Vincentwei1021/video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 11265,
+      "forks": 1003,
+      "starsToday": 979,
+      "topics": [],
+      "author": {
+        "name": "Vincentwei1021",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Vincentwei1021"
+      },
+      "summary": "面向 Claude Code 与 Codex 的 AI 视频技能，基于 Remotion 制作电影级产品视频，内置 152 个镜头配方卡与 209 个动效预览及可投产模板。",
+      "tags": [
+        "video",
+        "remotion",
+        "ai-agent",
+        "typescript",
+        "template"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T15:25:16.625Z",
       "deepwikiAvailable": false
     },
     {
@@ -454,34 +538,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-11T04:44:27.151Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeFlow",
-      "fullName": "hicccc77/WeFlow",
-      "url": "https://github.com/hicccc77/WeFlow",
-      "description": "WeFlow - 一个本地的微信聊天记录导出和年度报告应用",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 14936,
-      "forks": 616,
-      "starsToday": 268,
-      "topics": [],
-      "author": {
-        "name": "hicccc77",
-        "avatar": "https://avatars.githubusercontent.com/u/98377878?s=40&amp;v=4",
-        "url": "https://github.com/hicccc77"
-      },
-      "summary": "本地运行的微信聊天记录导出与年度报告工具，数据不出本机，可生成可视化统计报告。",
-      "tags": [
-        "wechat",
-        "export",
-        "privacy",
-        "typescript",
-        "report"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-11T04:44:27.112Z",
       "deepwikiAvailable": false
     }
   ]

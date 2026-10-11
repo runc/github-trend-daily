@@ -2,8 +2,8 @@
   "date": "2026-10-11",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-11T04:43:34.998Z",
-  "enrichedAt": "2026-10-11T04:44:12.210Z",
+  "fetchedAt": "2026-10-11T15:24:41.865Z",
+  "enrichedAt": "2026-10-11T15:25:10.347Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,8 +12,8 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 45918,
-      "forks": 3325,
+      "stars": 46066,
+      "forks": 3343,
       "starsToday": 876,
       "topics": [],
       "author": {
@@ -31,6 +31,400 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-11T04:44:07.345Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49710,
+      "forks": 11951,
+      "starsToday": 135,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型聚合与分发网关，可将各类大模型跨格式转换为OpenAI、Claude或Gemini兼容接口，适合个人与企业集中管理模型。",
+      "tags": [
+        "ai",
+        "gateway",
+        "llm",
+        "api",
+        "go",
+        "proxy"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T04:44:07.304Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ScopeSentry",
+      "fullName": "Autumn-27/ScopeSentry",
+      "url": "https://github.com/Autumn-27/ScopeSentry",
+      "description": "ScopeSentry-Cyberspace mapping, subdomain enumeration, port scanning, sensitive information discovery, vulnerability scanning, distributed nodes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1787,
+      "forks": 342,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "Autumn-27",
+        "avatar": "https://avatars.githubusercontent.com/u/53844290?s=40&amp;v=4",
+        "url": "https://github.com/Autumn-27"
+      },
+      "summary": "基于 Go 的分布式网络资产测绘平台，集成子域名枚举、端口扫描、敏感信息与漏洞发现，支持多节点协同。",
+      "tags": [
+        "security",
+        "scanner",
+        "go",
+        "recon",
+        "distributed"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-11T04:44:07.306Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sliver",
+      "fullName": "BishopFox/sliver",
+      "url": "https://github.com/BishopFox/sliver",
+      "description": "Adversary Emulation Framework",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12076,
+      "forks": 1620,
+      "starsToday": 60,
+      "topics": [],
+      "author": {
+        "name": "BishopFox",
+        "avatar": "https://avatars.githubusercontent.com/u/875022?s=40&amp;v=4",
+        "url": "https://github.com/BishopFox"
+      },
+      "summary": "Sliver 是 Go 编写的开源对手模拟框架，支持多协议 C2 与跨平台植入体，供红队开展安全测试。",
+      "tags": [
+        "security",
+        "c2",
+        "redteam",
+        "golang",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-10-11T15:25:08.266Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows you to search for iOS, iPadOS, tvOS, watchOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11604,
+      "forks": 973,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
+      },
+      "summary": "命令行工具，可在 App Store 搜索 iOS、iPadOS、tvOS、watchOS、visionOS 与 macOS 应用，并下载 .ipa 或 .pkg 安装包，方便离线获取与备份。",
+      "tags": [
+        "appstore",
+        "ios",
+        "cli",
+        "go",
+        "ipa",
+        "download"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-11T15:25:08.218Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33131,
+      "forks": 4414,
+      "starsToday": 216,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体和自维护Wiki，基于Go构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T04:44:10.804Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17623,
+      "forks": 1390,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "larksuite",
+        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
+        "url": "https://github.com/larksuite"
+      },
+      "summary": "飞书官方命令行工具，覆盖消息、文档、多维表格、日历等核心业务域，提供200+命令与20+ AI Agent技能，面向人类与智能体。",
+      "tags": [
+        "lark",
+        "feishu",
+        "cli",
+        "go",
+        "ai-agent"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-11T04:44:09.811Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "HAMi",
+      "fullName": "Project-HAMi/HAMi",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4682,
+      "forks": 853,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "Project-HAMi",
+        "avatar": "https://avatars.githubusercontent.com/u/58680927?s=40&amp;v=4",
+        "url": "https://github.com/Project-HAMi"
+      },
+      "summary": "Kubernetes 异构 GPU 共享调度方案，支持多厂商显卡切分与虚拟化，提升集群 GPU 利用率。",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "scheduling",
+        "go",
+        "virtualization"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-11T15:25:08.256Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52463,
+      "forks": 6834,
+      "starsToday": 81,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与 AI 智能体像同一团队一样协同工作，用 Go 编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T15:25:07.780Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "filebrowser",
+      "fullName": "gtsteffaniak/filebrowser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8607,
+      "forks": 465,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "gtsteffaniak",
+        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
+        "url": "https://github.com/gtsteffaniak"
+      },
+      "summary": "基于 Go 的网页文件浏览器，可在浏览器中管理、预览和分享服务器上的文件，轻量易部署。",
+      "tags": [
+        "filebrowser",
+        "go",
+        "web",
+        "file-management",
+        "self-hosted"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-11T15:25:09.174Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nginx-ui",
+      "fullName": "0xJacky/nginx-ui",
+      "url": "https://github.com/0xJacky/nginx-ui",
+      "description": "Yet another WebUI for Nginx",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11597,
+      "forks": 895,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "0xJacky",
+        "avatar": "https://avatars.githubusercontent.com/u/13096985?s=40&amp;v=4",
+        "url": "https://github.com/0xJacky"
+      },
+      "summary": "基于 Go 的 Nginx 可视化管理面板，提供在线配置编辑、证书申请与日志查看，替代手改配置文件的繁琐流程。",
+      "tags": [
+        "nginx",
+        "webui",
+        "go",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-11T15:25:09.475Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 43710,
+      "forks": 9381,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具可直接使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-11T04:44:10.799Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whatsapp-mcp",
+      "fullName": "lharries/whatsapp-mcp",
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "description": "WhatsApp MCP server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6530,
+      "forks": 1382,
+      "starsToday": 63,
+      "topics": [],
+      "author": {
+        "name": "lharries",
+        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
+        "url": "https://github.com/lharries"
+      },
+      "summary": "基于 Go 的 WhatsApp MCP 服务器，让 AI 助手直接读取和发送 WhatsApp 消息，打通个人聊天数据与 LLM 工作流。",
+      "tags": [
+        "whatsapp",
+        "mcp",
+        "go",
+        "ai",
+        "messaging"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T15:25:09.533Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12874,
+      "forks": 1185,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "面向 AI Agent 的轻量级沙箱，支持秒级启动、高并发与安全隔离，用 Go 编写，为智能体提供安全可靠的代码执行环境。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "go",
+        "security",
+        "isolation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-11T15:25:09.396Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pansou",
+      "fullName": "fish2018/pansou",
+      "url": "https://github.com/fish2018/pansou",
+      "description": "PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学习研究，请勿以各种形式用于盈利目的。 https://t.me/s/webhtv",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14873,
+      "forks": 3611,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "fish2018",
+        "avatar": "https://avatars.githubusercontent.com/u/34814105?s=40&amp;v=4",
+        "url": "https://github.com/fish2018"
+      },
+      "summary": "PanSou 是基于 Go 的高性能网盘资源搜索 API，支持 TG 频道与插件并发搜索、结果智能排序和网盘类型分类，Docker 一键部署开箱即用。",
+      "tags": [
+        "go",
+        "search",
+        "api",
+        "docker",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-11T15:25:10.346Z",
       "deepwikiAvailable": false
     },
     {
@@ -60,63 +454,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-11T04:44:07.511Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "new-api",
-      "fullName": "QuantumNous/new-api",
-      "url": "https://github.com/QuantumNous/new-api",
-      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 49680,
-      "forks": 11939,
-      "starsToday": 135,
-      "topics": [],
-      "author": {
-        "name": "QuantumNous",
-        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
-        "url": "https://github.com/QuantumNous"
-      },
-      "summary": "统一AI模型聚合与分发网关，可将各类大模型跨格式转换为OpenAI、Claude或Gemini兼容接口，适合个人与企业集中管理模型。",
-      "tags": [
-        "ai",
-        "gateway",
-        "llm",
-        "api",
-        "go",
-        "proxy"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-11T04:44:07.304Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ScopeSentry",
-      "fullName": "Autumn-27/ScopeSentry",
-      "url": "https://github.com/Autumn-27/ScopeSentry",
-      "description": "ScopeSentry-Cyberspace mapping, subdomain enumeration, port scanning, sensitive information discovery, vulnerability scanning, distributed nodes",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1770,
-      "forks": 336,
-      "starsToday": 35,
-      "topics": [],
-      "author": {
-        "name": "Autumn-27",
-        "avatar": "https://avatars.githubusercontent.com/u/53844290?s=40&amp;v=4",
-        "url": "https://github.com/Autumn-27"
-      },
-      "summary": "基于 Go 的分布式网络资产测绘平台，集成子域名枚举、端口扫描、敏感信息与漏洞发现，支持多节点协同。",
-      "tags": [
-        "security",
-        "scanner",
-        "go",
-        "recon",
-        "distributed"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-11T04:44:07.306Z",
       "deepwikiAvailable": false
     },
     {
@@ -289,34 +626,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "cli",
-      "fullName": "larksuite/cli",
-      "url": "https://github.com/larksuite/cli",
-      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 17613,
-      "forks": 1390,
-      "starsToday": 23,
-      "topics": [],
-      "author": {
-        "name": "larksuite",
-        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
-        "url": "https://github.com/larksuite"
-      },
-      "summary": "飞书官方命令行工具，覆盖消息、文档、多维表格、日历等核心业务域，提供200+命令与20+ AI Agent技能，面向人类与智能体。",
-      "tags": [
-        "lark",
-        "feishu",
-        "cli",
-        "go",
-        "ai-agent"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-11T04:44:09.811Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "higress",
       "fullName": "higress-group/higress",
       "url": "https://github.com/higress-group/higress",
@@ -343,62 +652,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-11T04:44:09.865Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 33051,
-      "forks": 4397,
-      "starsToday": 216,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体和自维护Wiki，基于Go构建。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "go",
-        "agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-11T04:44:10.804Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sub2api",
-      "fullName": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 43671,
-      "forks": 9373,
-      "starsToday": 88,
-      "topics": [],
-      "author": {
-        "name": "Wei-Shaw",
-        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
-        "url": "https://github.com/Wei-Shaw"
-      },
-      "summary": "一站式开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具可直接使用。",
-      "tags": [
-        "api-gateway",
-        "proxy",
-        "llm",
-        "go",
-        "self-hosted"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-11T04:44:10.799Z",
       "deepwikiAvailable": false
     },
     {

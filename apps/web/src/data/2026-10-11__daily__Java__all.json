@@ -2,9 +2,576 @@
   "date": "2026-10-11",
   "since": "daily",
   "language": "Java",
-  "fetchedAt": "2026-10-11T04:43:34.998Z",
-  "enrichedAt": "2026-10-11T04:44:21.986Z",
+  "fetchedAt": "2026-10-11T15:24:41.865Z",
+  "enrichedAt": "2026-10-11T15:25:15.158Z",
   "repos": [
+    {
+      "name": "ghidra",
+      "fullName": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 83155,
+      "forks": 9251,
+      "starsToday": 615,
+      "topics": [],
+      "author": {
+        "name": "NationalSecurityAgency",
+        "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&amp;v=4",
+        "url": "https://github.com/NationalSecurityAgency"
+      },
+      "summary": "美国国家安全局开源的软件逆向工程框架，提供反汇编、反编译与二进制分析能力，支持多平台与插件扩展。",
+      "tags": [
+        "reverse-engineering",
+        "disassembler",
+        "decompiler",
+        "java",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-11T04:44:15.862Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "doris",
+      "fullName": "apache/doris",
+      "url": "https://github.com/apache/doris",
+      "description": "Apache Doris is a real-time analytics and hybrid search database for AI agents.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 16068,
+      "forks": 3976,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/2899462?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Doris 是实时分析与混合检索数据库，为 AI 智能体提供高并发低延迟的查询与向量搜索能力。",
+      "tags": [
+        "database",
+        "olap",
+        "analytics",
+        "vector-search",
+        "java",
+        "realtime"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-11T04:44:16.725Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruoyi-vue-pro",
+      "fullName": "YunaiV/ruoyi-vue-pro",
+      "url": "https://github.com/YunaiV/ruoyi-vue-pro",
+      "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 39654,
+      "forks": 8555,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "YunaiV",
+        "avatar": "https://avatars.githubusercontent.com/u/2015545?s=40&amp;v=4",
+        "url": "https://github.com/YunaiV"
+      },
+      "summary": "基于 Spring Boot + MyBatis Plus + Vue 的后台管理系统，支持 RBAC 动态权限、SaaS 多租户、工作流、支付商城等企业级功能。",
+      "tags": [
+        "java",
+        "spring-boot",
+        "admin",
+        "vue",
+        "saas",
+        "workflow"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-11T04:44:16.930Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentscope-java",
+      "fullName": "agentscope-ai/agentscope-java",
+      "url": "https://github.com/agentscope-ai/agentscope-java",
+      "description": "Build distributed, production-grade, long-running agents.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 5923,
+      "forks": 1465,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "agentscope-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/9292748?s=40&amp;v=4",
+        "url": "https://github.com/agentscope-ai"
+      },
+      "summary": "Java 智能体框架，用于构建分布式、生产级、长期运行的 Agent 应用，提供工程化运行与编排能力。",
+      "tags": [
+        "agents",
+        "java",
+        "framework",
+        "distributed",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T04:44:19.751Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jadx",
+      "fullName": "skylot/jadx",
+      "url": "https://github.com/skylot/jadx",
+      "description": "Dex to Java decompiler",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 50831,
+      "forks": 5797,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "skylot",
+        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
+        "url": "https://github.com/skylot"
+      },
+      "summary": "jadx 是一款将 Android DEX/APK 反编译为 Java 源码的工具，支持命令行与图形界面，便于逆向分析与代码审查。",
+      "tags": [
+        "decompiler",
+        "android",
+        "dex",
+        "java",
+        "reverse-engineering"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-11T04:44:19.511Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Telegram",
+      "fullName": "DrKLO/Telegram",
+      "url": "https://github.com/DrKLO/Telegram",
+      "description": "Telegram for Android source",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 30057,
+      "forks": 10211,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "DrKLO",
+        "avatar": "https://avatars.githubusercontent.com/u/7038595?s=40&amp;v=4",
+        "url": "https://github.com/DrKLO"
+      },
+      "summary": "Telegram 官方 Android 客户端开源源码，基于 Java，可自行编译定制即时通讯应用。",
+      "tags": [
+        "telegram",
+        "android",
+        "java",
+        "messaging",
+        "client"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-11T15:25:12.512Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jetbrains-cc-gui",
+      "fullName": "zhukunpenglinyutong/jetbrains-cc-gui",
+      "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
+      "description": "Jetbrains Claude Code and Codex GUI Plugin",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 6912,
+      "forks": 672,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "zhukunpenglinyutong",
+        "avatar": "https://avatars.githubusercontent.com/u/31264015?s=40&amp;v=4",
+        "url": "https://github.com/zhukunpenglinyutong"
+      },
+      "summary": "JetBrains IDE 插件，为 Claude Code 和 Codex 提供图形化界面，让开发者无需命令行即可在 IDE 内直接调用 AI 编码助手。",
+      "tags": [
+        "jetbrains",
+        "claude-code",
+        "codex",
+        "ide-plugin",
+        "java",
+        "gui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-11T04:44:20.428Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "JeecgBoot",
+      "fullName": "jeecgboot/JeecgBoot",
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "description": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 48167,
+      "forks": 16214,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "jeecgboot",
+        "avatar": "https://avatars.githubusercontent.com/u/3162115?s=40&amp;v=4",
+        "url": "https://github.com/jeecgboot"
+      },
+      "summary": "企业级AI低代码平台，一句话生成前后端代码乃至整个系统，内置AI聊天、知识库、流程编排与MCP插件，大幅减少Java项目重复开发。",
+      "tags": [
+        "low-code",
+        "java",
+        "ai",
+        "codegen",
+        "enterprise"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-11T04:44:19.515Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skillhub",
+      "fullName": "iflytek/skillhub",
+      "url": "https://github.com/iflytek/skillhub",
+      "description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy on-premise with Docker or Kubernetes.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 5171,
+      "forks": 841,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "iflytek",
+        "avatar": "https://avatars.githubusercontent.com/u/28803103?s=40&amp;v=4",
+        "url": "https://github.com/iflytek"
+      },
+      "summary": "企业级自托管智能体技能注册中心，支持技能包发布与版本管理，提供RBAC权限和审计日志，可用Docker或Kubernetes私有化部署。",
+      "tags": [
+        "agent",
+        "registry",
+        "self-hosted",
+        "rbac",
+        "java",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-11T04:44:20.572Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "PCAPdroid",
+      "fullName": "emanuele-f/PCAPdroid",
+      "url": "https://github.com/emanuele-f/PCAPdroid",
+      "description": "No-root network monitor, firewall and PCAP dumper for Android",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4896,
+      "forks": 558,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "emanuele-f",
+        "avatar": "https://avatars.githubusercontent.com/u/5488003?s=40&amp;v=4",
+        "url": "https://github.com/emanuele-f"
+      },
+      "summary": "Android 免 root 网络监控与防火墙工具，可抓包导出 PCAP 并实时分析应用流量。",
+      "tags": [
+        "android",
+        "pcap",
+        "network",
+        "firewall",
+        "monitor"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-11T15:25:12.544Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "xxl-job",
+      "fullName": "xuxueli/xxl-job",
+      "url": "https://github.com/xuxueli/xxl-job",
+      "description": "A distributed task scheduling framework.（分布式任务调度平台XXL-JOB）",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 30610,
+      "forks": 11496,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "xuxueli",
+        "avatar": "https://avatars.githubusercontent.com/u/10633817?s=40&amp;v=4",
+        "url": "https://github.com/xuxueli"
+      },
+      "summary": "XXL-JOB 是轻量级分布式任务调度框架，提供可视化任务管理、调度中心与执行器分离，支持失败重试、分片广播和日志追踪，开箱即用。",
+      "tags": [
+        "java",
+        "scheduler",
+        "distributed",
+        "job",
+        "framework"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-11T15:25:12.648Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MojoLauncher",
+      "fullName": "MojoLauncher/MojoLauncher",
+      "url": "https://github.com/MojoLauncher/MojoLauncher",
+      "description": "A Minecraft: Java Edition launcher, based on PojavLauncher",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1031,
+      "forks": 434,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "MojoLauncher",
+        "avatar": "https://avatars.githubusercontent.com/u/45949002?s=40&amp;v=4",
+        "url": "https://github.com/MojoLauncher"
+      },
+      "summary": "基于 PojavLauncher 的 Minecraft Java 版启动器，让安卓等移动设备也能运行 Java 版游戏。",
+      "tags": [
+        "minecraft",
+        "launcher",
+        "java",
+        "android",
+        "gaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-11T15:25:13.062Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spring-ai-alibaba",
+      "fullName": "alibaba/spring-ai-alibaba",
+      "url": "https://github.com/alibaba/spring-ai-alibaba",
+      "description": "Agentic AI Framework for Java Developers",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 10996,
+      "forks": 2442,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/18097545?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的 Java 智能体 AI 框架，为 Java 开发者提供构建 Agent 与 LLM 应用的一站式能力，集成 Spring 生态。",
+      "tags": [
+        "java",
+        "ai",
+        "agent",
+        "spring",
+        "llm",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T15:25:13.580Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "PojavLauncher",
+      "fullName": "PojavLauncherTeam/PojavLauncher",
+      "url": "https://github.com/PojavLauncherTeam/PojavLauncher",
+      "description": "A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. Succeeded by https://github.com/AngelAuraMC/Amethyst-Android",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9424,
+      "forks": 2381,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "PojavLauncherTeam",
+        "avatar": "https://avatars.githubusercontent.com/u/24864674?s=40&amp;v=4",
+        "url": "https://github.com/PojavLauncherTeam"
+      },
+      "summary": "基于 Boardwalk 的 Android/iOS 版 Minecraft Java 版启动器，让移动设备也能运行 Java 版游戏。",
+      "tags": [
+        "minecraft",
+        "launcher",
+        "android",
+        "ios",
+        "java",
+        "gaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-11T15:25:13.801Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "java-design-patterns",
+      "fullName": "iluwatar/java-design-patterns",
+      "url": "https://github.com/iluwatar/java-design-patterns",
+      "description": "Design patterns implemented in Java",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 94777,
+      "forks": 27362,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "iluwatar",
+        "avatar": "https://avatars.githubusercontent.com/u/582346?s=40&amp;v=4",
+        "url": "https://github.com/iluwatar"
+      },
+      "summary": "用 Java 实现经典设计模式的示例合集，含详细说明与代码，是学习面向对象设计的最佳参考。",
+      "tags": [
+        "java",
+        "design-patterns",
+        "learning",
+        "architecture",
+        "oop"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-11T15:25:13.736Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hello-algo",
+      "fullName": "krahets/hello-algo",
+      "url": "https://github.com/krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 130545,
+      "forks": 15504,
+      "starsToday": 44,
+      "topics": [],
+      "author": {
+        "name": "krahets",
+        "avatar": "https://avatars.githubusercontent.com/u/26993056?s=40&amp;v=4",
+        "url": "https://github.com/krahets"
+      },
+      "summary": "《Hello 算法》开源教程，用动画图解讲解数据结构与算法，支持一键运行，覆盖多语言代码实现与多语种翻译。",
+      "tags": [
+        "algorithm",
+        "data-structures",
+        "tutorial",
+        "education",
+        "multilingual"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-11T15:25:14.097Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "baritone",
+      "fullName": "cabaletta/baritone",
+      "url": "https://github.com/cabaletta/baritone",
+      "description": "google maps for block game",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9284,
+      "forks": 2062,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "cabaletta",
+        "avatar": "https://avatars.githubusercontent.com/u/3837873?s=40&amp;v=4",
+        "url": "https://github.com/cabaletta"
+      },
+      "summary": "Minecraft 方块游戏的自动寻路机器人，提供路径规划与自动导航，被称为方块世界的谷歌地图。",
+      "tags": [
+        "minecraft",
+        "pathfinding",
+        "java",
+        "bot",
+        "automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-11T15:25:14.780Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spring-ai",
+      "fullName": "spring-projects/spring-ai",
+      "url": "https://github.com/spring-projects/spring-ai",
+      "description": "An Application Framework for AI Engineering",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9530,
+      "forks": 2961,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "spring-projects",
+        "avatar": "https://avatars.githubusercontent.com/u/1351573?s=40&amp;v=4",
+        "url": "https://github.com/spring-projects"
+      },
+      "summary": "Spring 生态的 AI 工程应用框架，为 Java 开发者提供统一的模型接入、向量库与 RAG 等能力，简化企业级 AI 应用开发。",
+      "tags": [
+        "java",
+        "spring",
+        "ai",
+        "framework",
+        "llm",
+        "rag"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-11T04:44:18.435Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 62389,
+      "forks": 7851,
+      "starsToday": 77,
+      "topics": [],
+      "author": {
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
+        "url": "https://github.com/termux"
+      },
+      "summary": "Android 终端模拟器应用，内置 Linux 环境并可通过包管理器安装扩展，让手机直接运行命令行工具。",
+      "tags": [
+        "android",
+        "terminal",
+        "emulator",
+        "linux",
+        "cli"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-11T15:25:15.158Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "flink",
+      "fullName": "apache/flink",
+      "url": "https://github.com/apache/flink",
+      "description": "Apache Flink",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 26399,
+      "forks": 14058,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/5725237?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Flink 是分布式流批一体计算引擎，支持有状态流处理与事件驱动应用，具备高吞吐、低延迟和精确一次语义。",
+      "tags": [
+        "stream-processing",
+        "big-data",
+        "java",
+        "distributed",
+        "flink"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-11T15:25:15.145Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "ghidra-mcp",
       "fullName": "bethington/ghidra-mcp",
@@ -32,34 +599,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-11T04:44:15.821Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ghidra",
-      "fullName": "NationalSecurityAgency/ghidra",
-      "url": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 82840,
-      "forks": 9210,
-      "starsToday": 560,
-      "topics": [],
-      "author": {
-        "name": "NationalSecurityAgency",
-        "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&amp;v=4",
-        "url": "https://github.com/NationalSecurityAgency"
-      },
-      "summary": "美国国家安全局开源的软件逆向工程框架，提供反汇编、反编译与二进制分析能力，支持多平台与插件扩展。",
-      "tags": [
-        "reverse-engineering",
-        "disassembler",
-        "decompiler",
-        "java",
-        "security"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-11T04:44:15.862Z",
       "deepwikiAvailable": false
     },
     {
@@ -116,64 +655,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-11T04:44:15.646Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "doris",
-      "fullName": "apache/doris",
-      "url": "https://github.com/apache/doris",
-      "description": "Apache Doris is a real-time analytics and hybrid search database for AI agents.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 16064,
-      "forks": 3975,
-      "starsToday": 10,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/2899462?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache Doris 是实时分析与混合检索数据库，为 AI 智能体提供高并发低延迟的查询与向量搜索能力。",
-      "tags": [
-        "database",
-        "olap",
-        "analytics",
-        "vector-search",
-        "java",
-        "realtime"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-11T04:44:16.725Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ruoyi-vue-pro",
-      "fullName": "YunaiV/ruoyi-vue-pro",
-      "url": "https://github.com/YunaiV/ruoyi-vue-pro",
-      "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 39645,
-      "forks": 8552,
-      "starsToday": 32,
-      "topics": [],
-      "author": {
-        "name": "YunaiV",
-        "avatar": "https://avatars.githubusercontent.com/u/2015545?s=40&amp;v=4",
-        "url": "https://github.com/YunaiV"
-      },
-      "summary": "基于 Spring Boot + MyBatis Plus + Vue 的后台管理系统，支持 RBAC 动态权限、SaaS 多租户、工作流、支付商城等企业级功能。",
-      "tags": [
-        "java",
-        "spring-boot",
-        "admin",
-        "vue",
-        "saas",
-        "workflow"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-11T04:44:16.930Z",
       "deepwikiAvailable": false
     },
     {
@@ -317,35 +798,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "spring-ai",
-      "fullName": "spring-projects/spring-ai",
-      "url": "https://github.com/spring-projects/spring-ai",
-      "description": "An Application Framework for AI Engineering",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 9528,
-      "forks": 2960,
-      "starsToday": 6,
-      "topics": [],
-      "author": {
-        "name": "spring-projects",
-        "avatar": "https://avatars.githubusercontent.com/u/1351573?s=40&amp;v=4",
-        "url": "https://github.com/spring-projects"
-      },
-      "summary": "Spring 生态的 AI 工程应用框架，为 Java 开发者提供统一的模型接入、向量库与 RAG 等能力，简化企业级 AI 应用开发。",
-      "tags": [
-        "java",
-        "spring",
-        "ai",
-        "framework",
-        "llm",
-        "rag"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-11T04:44:18.435Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "libgdx",
       "fullName": "libgdx/libgdx",
       "url": "https://github.com/libgdx/libgdx",
@@ -371,148 +823,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-11T04:44:19.203Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jadx",
-      "fullName": "skylot/jadx",
-      "url": "https://github.com/skylot/jadx",
-      "description": "Dex to Java decompiler",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 50825,
-      "forks": 5795,
-      "starsToday": 29,
-      "topics": [],
-      "author": {
-        "name": "skylot",
-        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
-        "url": "https://github.com/skylot"
-      },
-      "summary": "jadx 是一款将 Android DEX/APK 反编译为 Java 源码的工具，支持命令行与图形界面，便于逆向分析与代码审查。",
-      "tags": [
-        "decompiler",
-        "android",
-        "dex",
-        "java",
-        "reverse-engineering"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-11T04:44:19.511Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "JeecgBoot",
-      "fullName": "jeecgboot/JeecgBoot",
-      "url": "https://github.com/jeecgboot/JeecgBoot",
-      "description": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 48151,
-      "forks": 16214,
-      "starsToday": 26,
-      "topics": [],
-      "author": {
-        "name": "jeecgboot",
-        "avatar": "https://avatars.githubusercontent.com/u/3162115?s=40&amp;v=4",
-        "url": "https://github.com/jeecgboot"
-      },
-      "summary": "企业级AI低代码平台，一句话生成前后端代码乃至整个系统，内置AI聊天、知识库、流程编排与MCP插件，大幅减少Java项目重复开发。",
-      "tags": [
-        "low-code",
-        "java",
-        "ai",
-        "codegen",
-        "enterprise"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-11T04:44:19.515Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agentscope-java",
-      "fullName": "agentscope-ai/agentscope-java",
-      "url": "https://github.com/agentscope-ai/agentscope-java",
-      "description": "Build distributed, production-grade, long-running agents.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 5917,
-      "forks": 1461,
-      "starsToday": 16,
-      "topics": [],
-      "author": {
-        "name": "agentscope-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/9292748?s=40&amp;v=4",
-        "url": "https://github.com/agentscope-ai"
-      },
-      "summary": "Java 智能体框架，用于构建分布式、生产级、长期运行的 Agent 应用，提供工程化运行与编排能力。",
-      "tags": [
-        "agents",
-        "java",
-        "framework",
-        "distributed",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-11T04:44:19.751Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jetbrains-cc-gui",
-      "fullName": "zhukunpenglinyutong/jetbrains-cc-gui",
-      "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
-      "description": "Jetbrains Claude Code and Codex GUI Plugin",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 6908,
-      "forks": 672,
-      "starsToday": 33,
-      "topics": [],
-      "author": {
-        "name": "zhukunpenglinyutong",
-        "avatar": "https://avatars.githubusercontent.com/u/31264015?s=40&amp;v=4",
-        "url": "https://github.com/zhukunpenglinyutong"
-      },
-      "summary": "JetBrains IDE 插件，为 Claude Code 和 Codex 提供图形化界面，让开发者无需命令行即可在 IDE 内直接调用 AI 编码助手。",
-      "tags": [
-        "jetbrains",
-        "claude-code",
-        "codex",
-        "ide-plugin",
-        "java",
-        "gui"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-11T04:44:20.428Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "skillhub",
-      "fullName": "iflytek/skillhub",
-      "url": "https://github.com/iflytek/skillhub",
-      "description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy on-premise with Docker or Kubernetes.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 5169,
-      "forks": 841,
-      "starsToday": 10,
-      "topics": [],
-      "author": {
-        "name": "iflytek",
-        "avatar": "https://avatars.githubusercontent.com/u/28803103?s=40&amp;v=4",
-        "url": "https://github.com/iflytek"
-      },
-      "summary": "企业级自托管智能体技能注册中心，支持技能包发布与版本管理，提供RBAC权限和审计日志，可用Docker或Kubernetes私有化部署。",
-      "tags": [
-        "agent",
-        "registry",
-        "self-hosted",
-        "rbac",
-        "java",
-        "kubernetes"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-11T04:44:20.572Z",
       "deepwikiAvailable": false
     },
     {
