@@ -2,9 +2,345 @@
   "date": "2026-10-12",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-12T04:59:14.236Z",
-  "enrichedAt": "2026-10-12T04:59:48.136Z",
+  "fetchedAt": "2026-10-12T18:43:33.839Z",
+  "enrichedAt": "2026-10-12T18:44:03.639Z",
   "repos": [
+    {
+      "name": "Pentest-Swarm-AI",
+      "fullName": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2853,
+      "forks": 527,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "Armur-Ai",
+        "avatar": "https://avatars.githubusercontent.com/u/26513717?s=40&amp;v=4",
+        "url": "https://github.com/Armur-Ai"
+      },
+      "summary": "基于 Go 的自主渗透测试框架，用 AI 智能体集群编排侦察、分类、利用与报告，支持漏洞赏金、持续监控和 CTF 模式。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-12T18:44:02.468Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whatsapp-mcp",
+      "fullName": "lharries/whatsapp-mcp",
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "description": "WhatsApp MCP server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6554,
+      "forks": 1391,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "lharries",
+        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
+        "url": "https://github.com/lharries"
+      },
+      "summary": "基于Go的WhatsApp MCP服务器，让AI助手直接读取和发送WhatsApp消息，实现个人聊天数据与LLM集成。",
+      "tags": [
+        "mcp",
+        "whatsapp",
+        "go",
+        "ai",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-12T04:59:48.090Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sliver",
+      "fullName": "BishopFox/sliver",
+      "url": "https://github.com/BishopFox/sliver",
+      "description": "Adversary Emulation Framework",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12096,
+      "forks": 1621,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "BishopFox",
+        "avatar": "https://avatars.githubusercontent.com/u/875022?s=40&amp;v=4",
+        "url": "https://github.com/BishopFox"
+      },
+      "summary": "Go 编写的红队对抗模拟框架，提供跨平台植入体与 C2 通信，用于安全测试与渗透演练。",
+      "tags": [
+        "security",
+        "redteam",
+        "c2",
+        "golang",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-10-12T04:59:44.768Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "filebrowser",
+      "fullName": "gtsteffaniak/filebrowser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8673,
+      "forks": 472,
+      "starsToday": 66,
+      "topics": [],
+      "author": {
+        "name": "gtsteffaniak",
+        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
+        "url": "https://github.com/gtsteffaniak"
+      },
+      "summary": "基于 Go 的网页文件浏览器，可在浏览器中管理、预览和分享服务器文件，轻量自托管，适合个人网盘与团队文件管理。",
+      "tags": [
+        "filebrowser",
+        "go",
+        "self-hosted",
+        "web-ui",
+        "file-management"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-12T04:59:46.879Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7354,
+      "forks": 1551,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
+      },
+      "summary": "开源太阳能充电控制器，用Go编写，自动调节电动车充电功率以匹配光伏发电余量，支持多种逆变器、充电桩和车辆协议。",
+      "tags": [
+        "solar",
+        "ev-charging",
+        "go",
+        "energy",
+        "home-automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-12T18:44:02.350Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jaeger",
+      "fullName": "jaegertracing/jaeger",
+      "url": "https://github.com/jaegertracing/jaeger",
+      "description": "CNCF Jaeger, a Distributed Tracing Platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23284,
+      "forks": 3159,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "jaegertracing",
+        "avatar": "https://avatars.githubusercontent.com/u/3523016?s=40&amp;v=4",
+        "url": "https://github.com/jaegertracing"
+      },
+      "summary": "CNCF 分布式追踪平台 Jaeger，用 Go 编写，支持链路采集、存储与可视化分析，兼容 OpenTelemetry，是微服务性能排查的行业标准方案。",
+      "tags": [
+        "tracing",
+        "observability",
+        "go",
+        "cncf",
+        "distributed-systems"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-12T18:44:02.576Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenFlux",
+      "fullName": "p1neappleXpress/OpenFlux",
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2088,
+      "forks": 180,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "p1neappleXpress",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/p1neappleXpress"
+      },
+      "summary": "Go 编写的网络栈研究工具，提供可插拔传输层的 TCP 隧道，便于测试与实验自定义协议。",
+      "tags": [
+        "go",
+        "tcp",
+        "tunnel",
+        "networking",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-12T18:44:02.202Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TorrServer",
+      "fullName": "YouROK/TorrServer",
+      "url": "https://github.com/YouROK/TorrServer",
+      "description": "Torrent stream server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3121,
+      "forks": 369,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "YouROK",
+        "avatar": "https://avatars.githubusercontent.com/u/1551446?s=40&amp;v=4",
+        "url": "https://github.com/YouROK"
+      },
+      "summary": "用 Go 编写的种子流媒体服务器，无需等待完整下载即可边下边播，支持 HTTP 流式播放与多平台部署。",
+      "tags": [
+        "torrent",
+        "streaming",
+        "go",
+        "server",
+        "media"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-12T18:44:03.188Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nginx-ui",
+      "fullName": "0xJacky/nginx-ui",
+      "url": "https://github.com/0xJacky/nginx-ui",
+      "description": "Yet another WebUI for Nginx",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11600,
+      "forks": 897,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "0xJacky",
+        "avatar": "https://avatars.githubusercontent.com/u/13096985?s=40&amp;v=4",
+        "url": "https://github.com/0xJacky"
+      },
+      "summary": "基于 Go 的 Nginx 可视化管理面板，提供配置编辑、证书申请与日志查看等 Web 界面，简化 Nginx 运维。",
+      "tags": [
+        "nginx",
+        "webui",
+        "go",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-12T04:59:46.792Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 182872,
+      "forks": 18234,
+      "starsToday": 138,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大语言模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等开源模型，提供简洁 API 与多平台支持。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "ai",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-12T18:44:03.468Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FounderOS",
+      "fullName": "Bennettxai/FounderOS",
+      "url": "https://github.com/Bennettxai/FounderOS",
+      "description": "An open-source, single-operator business command center: run a one-person operated company as AI-assisted departments (comms, funnel, social, finances, agents, and a knowledge graph) from one live dashboard.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1078,
+      "forks": 306,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "Bennettxai",
+        "avatar": "https://avatars.githubusercontent.com/u/203468938?s=40&amp;v=4",
+        "url": "https://github.com/Bennettxai"
+      },
+      "summary": "开源单人公司运营指挥中心，用AI代理分饰沟通、漏斗、社交、财务等部门，通过实时仪表盘和知识图谱统一管理一人企业。",
+      "tags": [
+        "ai-agents",
+        "dashboard",
+        "knowledge-graph",
+        "go",
+        "business"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-12T18:44:03.639Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "M365-Copilot2API",
+      "fullName": "HEXUXIU/M365-Copilot2API",
+      "url": "https://github.com/HEXUXIU/M365-Copilot2API",
+      "description": "Microsoft 365 Copilot → OpenAI / Anthropic 兼容 API 网关。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 554,
+      "forks": 189,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "HEXUXIU",
+        "avatar": "https://avatars.githubusercontent.com/u/228712682?s=40&amp;v=4",
+        "url": "https://github.com/HEXUXIU"
+      },
+      "summary": "将 Microsoft 365 Copilot 封装为 OpenAI 与 Anthropic 兼容的 API 网关，用 Go 编写，让现有客户端无需改动即可直接调用 M365 Copilot 能力。",
+      "tags": [
+        "api-gateway",
+        "copilot",
+        "openai",
+        "anthropic",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-12T18:44:03.585Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "open-code-review",
       "fullName": "alibaba/open-code-review",
@@ -87,34 +423,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-12T04:59:44.707Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sliver",
-      "fullName": "BishopFox/sliver",
-      "url": "https://github.com/BishopFox/sliver",
-      "description": "Adversary Emulation Framework",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 12092,
-      "forks": 1620,
-      "starsToday": 47,
-      "topics": [],
-      "author": {
-        "name": "BishopFox",
-        "avatar": "https://avatars.githubusercontent.com/u/875022?s=40&amp;v=4",
-        "url": "https://github.com/BishopFox"
-      },
-      "summary": "Go 编写的红队对抗模拟框架，提供跨平台植入体与 C2 通信，用于安全测试与渗透演练。",
-      "tags": [
-        "security",
-        "redteam",
-        "c2",
-        "golang",
-        "pentest"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-10-12T04:59:44.768Z",
       "deepwikiAvailable": false
     },
     {
@@ -259,62 +567,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "filebrowser",
-      "fullName": "gtsteffaniak/filebrowser",
-      "url": "https://github.com/gtsteffaniak/filebrowser",
-      "description": "📂 Web File Browser",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8656,
-      "forks": 468,
-      "starsToday": 15,
-      "topics": [],
-      "author": {
-        "name": "gtsteffaniak",
-        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
-        "url": "https://github.com/gtsteffaniak"
-      },
-      "summary": "基于 Go 的网页文件浏览器，可在浏览器中管理、预览和分享服务器文件，轻量自托管，适合个人网盘与团队文件管理。",
-      "tags": [
-        "filebrowser",
-        "go",
-        "self-hosted",
-        "web-ui",
-        "file-management"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-12T04:59:46.879Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "nginx-ui",
-      "fullName": "0xJacky/nginx-ui",
-      "url": "https://github.com/0xJacky/nginx-ui",
-      "description": "Yet another WebUI for Nginx",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 11602,
-      "forks": 896,
-      "starsToday": 6,
-      "topics": [],
-      "author": {
-        "name": "0xJacky",
-        "avatar": "https://avatars.githubusercontent.com/u/13096985?s=40&amp;v=4",
-        "url": "https://github.com/0xJacky"
-      },
-      "summary": "基于 Go 的 Nginx 可视化管理面板，提供配置编辑、证书申请与日志查看等 Web 界面，简化 Nginx 运维。",
-      "tags": [
-        "nginx",
-        "webui",
-        "go",
-        "devops",
-        "self-hosted"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-12T04:59:46.792Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "sub2api",
       "fullName": "Wei-Shaw/sub2api",
       "url": "https://github.com/Wei-Shaw/sub2api",
@@ -340,34 +592,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-12T04:59:47.094Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "whatsapp-mcp",
-      "fullName": "lharries/whatsapp-mcp",
-      "url": "https://github.com/lharries/whatsapp-mcp",
-      "description": "WhatsApp MCP server",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6541,
-      "forks": 1385,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "lharries",
-        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
-        "url": "https://github.com/lharries"
-      },
-      "summary": "基于Go的WhatsApp MCP服务器，让AI助手直接读取和发送WhatsApp消息，实现个人聊天数据与LLM集成。",
-      "tags": [
-        "mcp",
-        "whatsapp",
-        "go",
-        "ai",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-12T04:59:48.090Z",
       "deepwikiAvailable": false
     },
     {
