@@ -2,8 +2,8 @@
   "date": "2026-10-13",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-13T05:59:47.570Z",
-  "enrichedAt": "2026-10-13T06:00:29.120Z",
+  "fetchedAt": "2026-10-13T16:46:44.568Z",
+  "enrichedAt": "2026-10-13T16:47:25.714Z",
   "repos": [
     {
       "name": "artcraft",
@@ -12,9 +12,9 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 22915,
-      "forks": 3667,
-      "starsToday": 4095,
+      "stars": 24752,
+      "forks": 3902,
+      "starsToday": 4078,
       "topics": [],
       "author": {
         "name": "storytold",
@@ -34,15 +34,72 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 97769,
+      "forks": 12809,
+      "starsToday": 263,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面，隐私友好。",
+      "tags": [
+        "wifi",
+        "rust",
+        "sensing",
+        "privacy",
+        "iot"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-13T16:47:25.684Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 83193,
+      "forks": 5281,
+      "starsToday": 131,
+      "topics": [],
+      "author": {
+        "name": "rtk-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
+        "url": "https://github.com/rtk-ai"
+      },
+      "summary": "Rust 编写的 CLI 代理，拦截常见开发命令输出并压缩，可减少 60-90% 的 LLM token 消耗，单二进制零依赖，开箱即用。",
+      "tags": [
+        "cli",
+        "rust",
+        "llm",
+        "proxy",
+        "token",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-13T16:47:25.713Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "jcode",
       "fullName": "1jehuang/jcode",
       "url": "https://github.com/1jehuang/jcode",
       "description": "High performance coding agent harness written in rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 20625,
+      "stars": 20661,
       "forks": 2400,
-      "starsToday": 161,
+      "starsToday": 102,
       "topics": [],
       "author": {
         "name": "1jehuang",
@@ -59,6 +116,91 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-13T06:00:27.781Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "edgequake",
+      "fullName": "raphaelmansuy/edgequake",
+      "url": "https://github.com/raphaelmansuy/edgequake",
+      "description": "EdegQuake 🌋 High-performance GraphRAG inspired from LightRag written in Rust; Transform documents into intelligent knowledge graphs for superior retrieval and generation",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2231,
+      "forks": 267,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "raphaelmansuy",
+        "avatar": "https://avatars.githubusercontent.com/u/1003084?s=40&amp;v=4",
+        "url": "https://github.com/raphaelmansuy"
+      },
+      "summary": "用 Rust 编写的高性能 GraphRAG 引擎，灵感来自 LightRAG，可将文档转化为知识图谱，实现更强的检索与生成。",
+      "tags": [
+        "rust",
+        "graphrag",
+        "rag",
+        "knowledge-graph",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-13T16:47:25.464Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31449,
+      "forks": 1885,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "googleworkspace",
+        "avatar": "https://avatars.githubusercontent.com/u/109114539?s=40&amp;v=4",
+        "url": "https://github.com/googleworkspace"
+      },
+      "summary": "Google Workspace 官方命令行工具，用一条命令统一操作 Drive、Gmail、日历、表格、文档等，基于 Discovery Service 动态生成，并内置 AI 智能体技能。",
+      "tags": [
+        "cli",
+        "google-workspace",
+        "rust",
+        "ai-agent",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-13T16:47:25.502Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2954,
+      "forks": 323,
+      "starsToday": 83,
+      "topics": [],
+      "author": {
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
+      },
+      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 文件读写与 GPU 加速渲染，可替代商业 CAD 工具。",
+      "tags": [
+        "cad",
+        "rust",
+        "dwg",
+        "dxf",
+        "gpu",
+        "3d"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-13T06:00:29.120Z",
       "deepwikiAvailable": false
     },
     {
@@ -116,35 +258,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-13T06:00:27.798Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenCADStudio",
-      "fullName": "HakanSeven12/OpenCADStudio",
-      "url": "https://github.com/HakanSeven12/OpenCADStudio",
-      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2913,
-      "forks": 320,
-      "starsToday": 96,
-      "topics": [],
-      "author": {
-        "name": "HakanSeven12",
-        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
-        "url": "https://github.com/HakanSeven12"
-      },
-      "summary": "基于 Rust 的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 文件读写与 GPU 加速渲染，可替代商业 CAD 工具。",
-      "tags": [
-        "cad",
-        "rust",
-        "dwg",
-        "dxf",
-        "gpu",
-        "3d"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-13T06:00:29.120Z",
       "deepwikiAvailable": false
     }
   ]

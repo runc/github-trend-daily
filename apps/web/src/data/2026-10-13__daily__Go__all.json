@@ -2,9 +2,121 @@
   "date": "2026-10-13",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-13T05:59:47.570Z",
-  "enrichedAt": "2026-10-13T06:00:26.509Z",
+  "fetchedAt": "2026-10-13T16:46:44.568Z",
+  "enrichedAt": "2026-10-13T16:47:24.214Z",
   "repos": [
+    {
+      "name": "FounderOS",
+      "fullName": "Bennettxai/FounderOS",
+      "url": "https://github.com/Bennettxai/FounderOS",
+      "description": "An open-source, single-operator business command center: run a one-person operated company as AI-assisted departments (comms, funnel, social, finances, agents, and a knowledge graph) from one live dashboard.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1108,
+      "forks": 313,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "Bennettxai",
+        "avatar": "https://avatars.githubusercontent.com/u/203468938?s=40&amp;v=4",
+        "url": "https://github.com/Bennettxai"
+      },
+      "summary": "开源单人公司运营指挥台，用AI代理充当沟通、漏斗、社媒、财务等部门，通过单一实时仪表盘统一管理业务与知识图谱。",
+      "tags": [
+        "ai-agents",
+        "dashboard",
+        "go",
+        "knowledge-graph",
+        "business"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-13T06:00:26.137Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27973,
+      "forks": 4142,
+      "starsToday": 2044,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go的自主AI智能体系统，可自动完成复杂渗透测试任务，从侦察到漏洞利用全流程自动化，降低安全测试门槛。",
+      "tags": [
+        "ai-agents",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-13T16:47:18.921Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33728,
+      "forks": 4489,
+      "starsToday": 261,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，用 Go 编写，可将原始文档转化为可查询的 RAG 检索、自主推理智能体与自维护 Wiki。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-13T16:47:18.665Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52688,
+      "forks": 6869,
+      "starsToday": 107,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与 AI 智能体像同一团队一样协同工作，用 Go 编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "golang",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-13T16:47:18.935Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "Pentest-Swarm-AI",
       "fullName": "Armur-Ai/Pentest-Swarm-AI",
@@ -12,9 +124,9 @@
       "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2875,
-      "forks": 527,
-      "starsToday": 50,
+      "stars": 2934,
+      "forks": 536,
+      "starsToday": 74,
       "topics": [],
       "author": {
         "name": "Armur-Ai",
@@ -31,6 +143,374 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-13T06:00:23.623Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "An open, programmable decision layer for models and compute.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6140,
+      "forks": 1040,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "面向模型与算力的开源可编程决策层，用语义路由智能分发请求，优化推理成本与性能。",
+      "tags": [
+        "llm",
+        "routing",
+        "inference",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-13T16:47:18.382Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46829,
+      "forks": 3402,
+      "starsToday": 364,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，采用确定性流水线加LLM Agent混合架构，支持行级精准评论与多语言安全规则集，兼容OpenAI和Anthropic。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-13T16:47:19.768Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "filebrowser",
+      "fullName": "gtsteffaniak/filebrowser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8694,
+      "forks": 474,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "gtsteffaniak",
+        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
+        "url": "https://github.com/gtsteffaniak"
+      },
+      "summary": "基于 Go 的网页文件浏览器，可在浏览器中管理、预览和分享服务器上的文件，轻量易部署，适合自建网盘。",
+      "tags": [
+        "filebrowser",
+        "go",
+        "self-hosted",
+        "web",
+        "file-management"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-13T06:00:23.893Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "HAMi",
+      "fullName": "Project-HAMi/HAMi",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4741,
+      "forks": 863,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "Project-HAMi",
+        "avatar": "https://avatars.githubusercontent.com/u/58680927?s=40&amp;v=4",
+        "url": "https://github.com/Project-HAMi"
+      },
+      "summary": "基于 Kubernetes 的异构 GPU 共享调度方案，支持显存与算力切分，让多个容器共用同一张 GPU，提升集群利用率。",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "go",
+        "scheduling",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-13T16:47:20.069Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keda",
+      "fullName": "kedacore/keda",
+      "url": "https://github.com/kedacore/keda",
+      "description": "KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10613,
+      "forks": 1545,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "kedacore",
+        "avatar": "https://avatars.githubusercontent.com/u/726523?s=40&amp;v=4",
+        "url": "https://github.com/kedacore"
+      },
+      "summary": "KEDA 是基于 Kubernetes 的事件驱动自动扩缩容组件，可依据队列、消息等外部事件源为任意容器按需伸缩，支持缩容到零。",
+      "tags": [
+        "kubernetes",
+        "autoscaling",
+        "event-driven",
+        "go",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-13T16:47:20.394Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-native-callcenter",
+      "fullName": "rasonyang/ai-native-callcenter",
+      "url": "https://github.com/rasonyang/ai-native-callcenter",
+      "description": "Self-hosted, API-first AI call center. Realtime voice bots answer every call, human agents take over without a drop. Full REST + SSE API with OpenAPI spec to embed in your product. FreeSWITCH + OpenAI Realtime / Qwen, one Go binary.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 242,
+      "forks": 50,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "rasonyang",
+        "avatar": "https://avatars.githubusercontent.com/u/1861686?s=40&amp;v=4",
+        "url": "https://github.com/rasonyang"
+      },
+      "summary": "自托管 API 优先的 AI 呼叫中心，实时语音机器人接听来电并支持人工无缝接管，单个 Go 二进制集成 FreeSWITCH 与 OpenAI Realtime，提供 REST+SSE 接口便于嵌入自有产品。",
+      "tags": [
+        "callcenter",
+        "voice-ai",
+        "go",
+        "freeswitch",
+        "self-hosted",
+        "realtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-13T16:47:20.260Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform",
+      "fullName": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49899,
+      "forks": 10643,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/35067?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "HashiCorp 开源的基础设施即代码工具，用声明式配置文件安全可预测地创建、变更和管理云基础设施，支持版本化与团队协作。",
+      "tags": [
+        "terraform",
+        "iac",
+        "infrastructure",
+        "devops",
+        "go",
+        "cloud"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-13T16:47:21.129Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bifrost",
+      "fullName": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8756,
+      "forks": 1386,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "maximhq",
+        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
+        "url": "https://github.com/maximhq"
+      },
+      "summary": "开源高性能 AI 网关，提供兼容 OpenAI 的统一 API 接入上万模型，支持故障转移、负载均衡、语义缓存与虚拟密钥，并兼作 MCP 与智能体网关，额外开销低于 200µs。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "mcp",
+        "go",
+        "openai-api",
+        "load-balancing"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-13T16:47:21.406Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "livekit",
+      "fullName": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21412,
+      "forks": 2442,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "livekit",
+        "avatar": "https://avatars.githubusercontent.com/u/6278212?s=40&amp;v=4",
+        "url": "https://github.com/livekit"
+      },
+      "summary": "LiveKit 是开源端到端实时通信栈，基于 WebRTC 提供音视频与数据通道，支持人类与 AI 智能体实时互动。",
+      "tags": [
+        "webrtc",
+        "realtime",
+        "video",
+        "audio",
+        "ai",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-13T16:47:21.639Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17658,
+      "forks": 1391,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "larksuite",
+        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
+        "url": "https://github.com/larksuite"
+      },
+      "summary": "飞书官方命令行工具，覆盖消息、文档、多维表格、日历、邮件等核心业务域，提供200+命令与20+ AI Agent技能，兼顾人工与智能体使用。",
+      "tags": [
+        "cli",
+        "lark",
+        "feishu",
+        "go",
+        "ai-agent"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-13T16:47:21.851Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-redis",
+      "fullName": "redis/go-redis",
+      "url": "https://github.com/redis/go-redis",
+      "description": "Redis Go client",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22258,
+      "forks": 2607,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "redis",
+        "avatar": "https://avatars.githubusercontent.com/u/290976?s=40&amp;v=4",
+        "url": "https://github.com/redis"
+      },
+      "summary": "Redis 官方推荐的 Go 语言客户端，提供连接池、集群、哨兵、管道与 Lua 脚本等完整支持，是 Go 项目接入 Redis 的主流选择。",
+      "tags": [
+        "redis",
+        "go",
+        "client",
+        "database",
+        "cache"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-13T16:47:22.422Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49865,
+      "forks": 11992,
+      "starsToday": 80,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，聚合多种大模型并转换为OpenAI、Claude、Gemini兼容格式，便于个人与企业集中管理分发。",
+      "tags": [
+        "ai",
+        "gateway",
+        "llm",
+        "openai",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-13T16:47:24.214Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12915,
+      "forks": 1191,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "腾讯云开源的轻量级沙箱，为 AI Agent 提供秒级启动、高并发且安全的隔离执行环境，基于 Go 实现。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "go",
+        "security",
+        "isolation"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-13T16:47:23.074Z",
       "deepwikiAvailable": false
     },
     {
@@ -87,34 +567,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-13T06:00:23.825Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "filebrowser",
-      "fullName": "gtsteffaniak/filebrowser",
-      "url": "https://github.com/gtsteffaniak/filebrowser",
-      "description": "📂 Web File Browser",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8689,
-      "forks": 473,
-      "starsToday": 64,
-      "topics": [],
-      "author": {
-        "name": "gtsteffaniak",
-        "avatar": "https://avatars.githubusercontent.com/u/42989099?s=40&amp;v=4",
-        "url": "https://github.com/gtsteffaniak"
-      },
-      "summary": "基于 Go 的网页文件浏览器，可在浏览器中管理、预览和分享服务器上的文件，轻量易部署，适合自建网盘。",
-      "tags": [
-        "filebrowser",
-        "go",
-        "self-hosted",
-        "web",
-        "file-management"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-13T06:00:23.893Z",
       "deepwikiAvailable": false
     },
     {
@@ -285,34 +737,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-13T06:00:25.926Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "FounderOS",
-      "fullName": "Bennettxai/FounderOS",
-      "url": "https://github.com/Bennettxai/FounderOS",
-      "description": "An open-source, single-operator business command center: run a one-person operated company as AI-assisted departments (comms, funnel, social, finances, agents, and a knowledge graph) from one live dashboard.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1100,
-      "forks": 309,
-      "starsToday": 22,
-      "topics": [],
-      "author": {
-        "name": "Bennettxai",
-        "avatar": "https://avatars.githubusercontent.com/u/203468938?s=40&amp;v=4",
-        "url": "https://github.com/Bennettxai"
-      },
-      "summary": "开源单人公司运营指挥台，用AI代理充当沟通、漏斗、社媒、财务等部门，通过单一实时仪表盘统一管理业务与知识图谱。",
-      "tags": [
-        "ai-agents",
-        "dashboard",
-        "go",
-        "knowledge-graph",
-        "business"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-13T06:00:26.137Z",
       "deepwikiAvailable": false
     },
     {
