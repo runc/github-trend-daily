@@ -2,9 +2,634 @@
   "date": "2026-10-14",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-14T04:02:39.044Z",
-  "enrichedAt": "2026-10-14T04:03:22.514Z",
+  "fetchedAt": "2026-10-14T14:24:03.952Z",
+  "enrichedAt": "2026-10-14T14:24:46.097Z",
   "repos": [
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28878,
+      "forks": 4341,
+      "starsToday": 1819,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go的自主AI智能体系统，可自动执行复杂渗透测试任务，覆盖侦察到漏洞利用全流程。",
+      "tags": [
+        "ai-agents",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T04:03:16.935Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38384,
+      "forks": 5872,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令启动整套服务，简化本地开发与部署编排。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "cli",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-14T14:24:40.842Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111718,
+      "forks": 6484,
+      "starsToday": 325,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用原始人式简短表达压缩提示词与上下文的代理工具，为编码智能体节省约65%的token消耗，降低调用成本。",
+      "tags": [
+        "llm",
+        "proxy",
+        "token",
+        "agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T14:24:41.114Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "slashdocs",
+      "fullName": "razorpay/slashdocs",
+      "url": "https://github.com/razorpay/slashdocs",
+      "description": "Give your agents the power to publish reviewable HTML documents. Self-hosted server + CLI + remote MCP; agents push, humans review with comments and versions.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 280,
+      "forks": 36,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "razorpay",
+        "avatar": "https://avatars.githubusercontent.com/u/77329899?s=40&amp;v=4",
+        "url": "https://github.com/razorpay"
+      },
+      "summary": "让 AI 智能体发布可评审 HTML 文档的自托管服务，含 CLI 与远程 MCP，支持评论与版本管理，实现智能体推送、人类审阅的协作流程。",
+      "tags": [
+        "mcp",
+        "agents",
+        "docs",
+        "self-hosted",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-14T14:24:41.110Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "anubis",
+      "fullName": "TecharoHQ/anubis",
+      "url": "https://github.com/TecharoHQ/anubis",
+      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23388,
+      "forks": 770,
+      "starsToday": 65,
+      "topics": [],
+      "author": {
+        "name": "TecharoHQ",
+        "avatar": "https://avatars.githubusercontent.com/u/529003?s=40&amp;v=4",
+        "url": "https://github.com/TecharoHQ"
+      },
+      "summary": "用工作量证明挑战校验每个入站 HTTP 请求，以低成本方式拦截 AI 爬虫与恶意抓取，保护站点带宽与内容。",
+      "tags": [
+        "go",
+        "anti-bot",
+        "crawler",
+        "proof-of-work",
+        "http",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-14T14:24:41.189Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139386,
+      "forks": 22325,
+      "starsToday": 146,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 官方编程语言仓库，提供编译器、标准库与工具链源码，以简洁语法、高效并发和快速编译著称。",
+      "tags": [
+        "go",
+        "golang",
+        "programming-language",
+        "compiler",
+        "standard-library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-14T14:24:42.052Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentmesh",
+      "fullName": "google/agentmesh",
+      "url": "https://github.com/google/agentmesh",
+      "description": "Agent Mesh",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1052,
+      "forks": 172,
+      "starsToday": 44,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/6450081?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google 开源的 Go 语言智能体网格框架，为多智能体系统提供统一通信与协作基础设施，简化分布式 Agent 互联互通。",
+      "tags": [
+        "agents",
+        "go",
+        "multi-agent",
+        "framework",
+        "google"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T14:24:42.808Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Pentest-Swarm-AI",
+      "fullName": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2958,
+      "forks": 544,
+      "starsToday": 83,
+      "topics": [],
+      "author": {
+        "name": "Armur-Ai",
+        "avatar": "https://avatars.githubusercontent.com/u/26513717?s=40&amp;v=4",
+        "url": "https://github.com/Armur-Ai"
+      },
+      "summary": "基于 Go 的自主渗透测试框架，用 AI 智能体集群编排侦察、分类、利用与报告，支持漏洞赏金、持续监控和 CTF 模式。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T04:03:17.868Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128345,
+      "forks": 47058,
+      "starsToday": 55,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和运维管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "cloud-native",
+        "golang",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-14T14:24:42.329Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "An open, programmable decision layer for models and compute.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6157,
+      "forks": 1045,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "开源可编程的模型与算力决策路由层，用 Go 编写，按语义智能调度请求到不同模型和计算资源，提升推理效率并降低成本。",
+      "tags": [
+        "llm",
+        "routing",
+        "inference",
+        "go",
+        "vllm",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-14T04:03:18.333Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenFlux",
+      "fullName": "p1neappleXpress/OpenFlux",
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2138,
+      "forks": 184,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "p1neappleXpress",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/p1neappleXpress"
+      },
+      "summary": "基于 Go 的网络栈研究工具，提供可插拔传输层的 TCP 隧道，便于测试与实验自定义协议。",
+      "tags": [
+        "go",
+        "networking",
+        "tcp",
+        "tunnel",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-14T14:24:42.597Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keploy",
+      "fullName": "keploy/keploy",
+      "url": "https://github.com/keploy/keploy",
+      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18571,
+      "forks": 2409,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "keploy",
+        "avatar": "https://avatars.githubusercontent.com/u/12831254?s=40&amp;v=4",
+        "url": "https://github.com/keploy"
+      },
+      "summary": "开源测试平台，用真实流量自动生成API、集成与E2E测试用例，并创建隔离的生产沙箱环境，无需手写测试即可回放验证。",
+      "tags": [
+        "testing",
+        "api",
+        "e2e",
+        "go",
+        "sandbox",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-14T14:24:43.522Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "chi",
+      "fullName": "go-chi/chi",
+      "url": "https://github.com/go-chi/chi",
+      "description": "lightweight, idiomatic and composable router for building Go HTTP services",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22948,
+      "forks": 3703,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "go-chi",
+        "avatar": "https://avatars.githubusercontent.com/u/18831?s=40&amp;v=4",
+        "url": "https://github.com/go-chi"
+      },
+      "summary": "Go 语言轻量级、符合惯用法且可组合的 HTTP 路由库，基于标准库接口，适合构建高性能 Web 服务。",
+      "tags": [
+        "go",
+        "router",
+        "http",
+        "web",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-14T14:24:43.790Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "esbuild",
+      "fullName": "evanw/esbuild",
+      "url": "https://github.com/evanw/esbuild",
+      "description": "An extremely fast bundler for the web",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 40079,
+      "forks": 1357,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "evanw",
+        "avatar": "https://avatars.githubusercontent.com/u/406394?s=40&amp;v=4",
+        "url": "https://github.com/evanw"
+      },
+      "summary": "用 Go 编写的前端打包工具，速度极快，支持 JS/TS/CSS 打包压缩，可替代 webpack 等方案。",
+      "tags": [
+        "bundler",
+        "go",
+        "javascript",
+        "typescript",
+        "build-tool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-14T14:24:44.092Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33933,
+      "forks": 4516,
+      "starsToday": 251,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，用Go编写，可将原始文档转为可查询的RAG、自主推理智能体与自维护Wiki。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent",
+        "wiki"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T04:03:17.087Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "birdnet-go",
+      "fullName": "tphakala/birdnet-go",
+      "url": "https://github.com/tphakala/birdnet-go",
+      "description": "Self-hosted realtime soundscape analyser for birds, bats and other wildlife. Multi-model local AI inference, runs 24/7 on a Raspberry Pi.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2281,
+      "forks": 194,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "tphakala",
+        "avatar": "https://avatars.githubusercontent.com/u/7030001?s=40&amp;v=4",
+        "url": "https://github.com/tphakala"
+      },
+      "summary": "自托管的实时声景分析器，用本地多模型AI识别鸟类、蝙蝠等野生动物叫声，可在树莓派上7x24小时运行。",
+      "tags": [
+        "go",
+        "ai",
+        "audio",
+        "self-hosted",
+        "raspberry-pi",
+        "wildlife"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T14:24:44.300Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5123,
+      "forks": 568,
+      "starsToday": 106,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 是用 Go 编写的智能体核心运行系统，为构建和编排 AI Agent 提供底层基础设施与统一运行时。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "infra",
+        "runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T14:24:44.805Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bifrost",
+      "fullName": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8788,
+      "forks": 1392,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "maximhq",
+        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
+        "url": "https://github.com/maximhq"
+      },
+      "summary": "开源高性能 AI 网关，统一 OpenAI 兼容 API 接入万级模型，支持故障转移、负载均衡、语义缓存与虚拟密钥，开销低于 200µs。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "mcp",
+        "go",
+        "openai-api"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-14T04:03:20.758Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Ydisks-Xianyu-Helper",
+      "fullName": "Christ9038/Ydisks-Xianyu-Helper",
+      "url": "https://github.com/Christ9038/Ydisks-Xianyu-Helper",
+      "description": "闲鱼多账号自动发货、消息回复系统——基于 Go 与 React 构建",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1866,
+      "forks": 556,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "Christ9038",
+        "avatar": "https://avatars.githubusercontent.com/u/3616298?s=40&amp;v=4",
+        "url": "https://github.com/Christ9038"
+      },
+      "summary": "基于 Go 与 React 的闲鱼多账号自动发货与消息回复系统，帮助卖家自动化处理订单和客服消息。",
+      "tags": [
+        "go",
+        "react",
+        "automation",
+        "ecommerce",
+        "bot"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-14T14:24:45.161Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7189,
+      "forks": 743,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/111561081?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向 AI 编程代理的持久化记忆系统，Go 单二进制，内置 SQLite+FTS5 全文检索，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
+      "tags": [
+        "ai",
+        "memory",
+        "go",
+        "mcp",
+        "sqlite",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T14:24:45.780Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hister",
+      "fullName": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6032,
+      "forks": 271,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "asciimoo",
+        "avatar": "https://avatars.githubusercontent.com/u/20240?s=40&amp;v=4",
+        "url": "https://github.com/asciimoo"
+      },
+      "summary": "用 Go 编写的自托管搜索引擎，可索引本机浏览历史与文件，提供完全私有的本地搜索体验。",
+      "tags": [
+        "search",
+        "golang",
+        "self-hosted",
+        "privacy",
+        "indexing"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-14T14:24:45.717Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-collector-contrib",
+      "fullName": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4997,
+      "forks": 4009,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Collector 的社区贡献仓库，提供大量接收器、处理器、导出器与扩展组件，用于统一采集、处理并转发遥测数据。",
+      "tags": [
+        "observability",
+        "opentelemetry",
+        "telemetry",
+        "go",
+        "collector"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-14T14:24:46.096Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "FounderOS",
       "fullName": "Bennettxai/FounderOS",
@@ -35,63 +660,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "pentagi",
-      "fullName": "vxcontrol/pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 28347,
-      "forks": 4232,
-      "starsToday": 1819,
-      "topics": [],
-      "author": {
-        "name": "vxcontrol",
-        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
-        "url": "https://github.com/vxcontrol"
-      },
-      "summary": "基于Go的自主AI智能体系统，可自动执行复杂渗透测试任务，覆盖侦察到漏洞利用全流程。",
-      "tags": [
-        "ai-agents",
-        "pentest",
-        "security",
-        "golang",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-14T04:03:16.935Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 33825,
-      "forks": 4495,
-      "starsToday": 251,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的大模型知识平台，用Go编写，可将原始文档转为可查询的RAG、自主推理智能体与自维护Wiki。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "go",
-        "agent",
-        "wiki"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-14T04:03:17.087Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "multica",
       "fullName": "multica-ai/multica",
       "url": "https://github.com/multica-ai/multica",
@@ -117,63 +685,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-14T04:03:16.670Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Pentest-Swarm-AI",
-      "fullName": "Armur-Ai/Pentest-Swarm-AI",
-      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
-      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2945,
-      "forks": 540,
-      "starsToday": 83,
-      "topics": [],
-      "author": {
-        "name": "Armur-Ai",
-        "avatar": "https://avatars.githubusercontent.com/u/26513717?s=40&amp;v=4",
-        "url": "https://github.com/Armur-Ai"
-      },
-      "summary": "基于 Go 的自主渗透测试框架，用 AI 智能体集群编排侦察、分类、利用与报告，支持漏洞赏金、持续监控和 CTF 模式。",
-      "tags": [
-        "security",
-        "pentest",
-        "ai-agents",
-        "golang",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-14T04:03:17.868Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "semantic-router",
-      "fullName": "vllm-project/semantic-router",
-      "url": "https://github.com/vllm-project/semantic-router",
-      "description": "An open, programmable decision layer for models and compute.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6146,
-      "forks": 1041,
-      "starsToday": 30,
-      "topics": [],
-      "author": {
-        "name": "vllm-project",
-        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
-        "url": "https://github.com/vllm-project"
-      },
-      "summary": "开源可编程的模型与算力决策路由层，用 Go 编写，按语义智能调度请求到不同模型和计算资源，提升推理效率并降低成本。",
-      "tags": [
-        "llm",
-        "routing",
-        "inference",
-        "go",
-        "vllm",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-14T04:03:18.333Z",
       "deepwikiAvailable": false
     },
     {
@@ -344,34 +855,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-14T04:03:19.700Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "bifrost",
-      "fullName": "maximhq/bifrost",
-      "url": "https://github.com/maximhq/bifrost",
-      "description": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing, semantic caching, virtual keys, budgets and MCP Code Mode. Works with any SDK or agent and adds under 200µs of overhead at 5k RPS.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8763,
-      "forks": 1386,
-      "starsToday": 31,
-      "topics": [],
-      "author": {
-        "name": "maximhq",
-        "avatar": "https://avatars.githubusercontent.com/u/1050029?s=40&amp;v=4",
-        "url": "https://github.com/maximhq"
-      },
-      "summary": "开源高性能 AI 网关，统一 OpenAI 兼容 API 接入万级模型，支持故障转移、负载均衡、语义缓存与虚拟密钥，开销低于 200µs。",
-      "tags": [
-        "ai-gateway",
-        "llm",
-        "mcp",
-        "go",
-        "openai-api"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-14T04:03:20.758Z",
       "deepwikiAvailable": false
     },
     {

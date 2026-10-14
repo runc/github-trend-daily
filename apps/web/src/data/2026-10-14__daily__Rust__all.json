@@ -2,9 +2,121 @@
   "date": "2026-10-14",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-14T04:02:39.044Z",
-  "enrichedAt": "2026-10-14T04:03:25.447Z",
+  "fetchedAt": "2026-10-14T14:24:03.952Z",
+  "enrichedAt": "2026-10-14T14:24:50.172Z",
   "repos": [
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 120061,
+      "forks": 18658,
+      "starsToday": 205,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 编程语言官方仓库，提供内存安全与高性能兼备的系统级开发工具链，含编译器、标准库与包管理器。",
+      "tags": [
+        "rust",
+        "programming-language",
+        "compiler",
+        "systems",
+        "toolchain"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-14T14:24:47.361Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruff",
+      "fullName": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 50067,
+      "forks": 2511,
+      "starsToday": 54,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的高性能 Python 代码检查与格式化工具，速度远超传统方案，可替代 Flake8、Black 等，支持自动修复。",
+      "tags": [
+        "python",
+        "linter",
+        "formatter",
+        "rust",
+        "static-analysis"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-14T14:24:47.929Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ZLUDA",
+      "fullName": "vosen/ZLUDA",
+      "url": "https://github.com/vosen/ZLUDA",
+      "description": "CUDA on non-NVIDIA GPUs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15049,
+      "forks": 955,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "vosen",
+        "avatar": "https://avatars.githubusercontent.com/u/1206376?s=40&amp;v=4",
+        "url": "https://github.com/vosen"
+      },
+      "summary": "用Rust实现的CUDA兼容层，让CUDA程序无需改动即可在非NVIDIA GPU上运行，降低对N卡硬件的依赖。",
+      "tags": [
+        "cuda",
+        "gpu",
+        "rust",
+        "compatibility",
+        "amd"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-14T14:24:47.605Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 97925,
+      "forks": 12834,
+      "starsToday": 261,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面。基于Rust，把信道状态信息变成隐私友好的视觉替代方案。",
+      "tags": [
+        "wifi",
+        "rust",
+        "sensing",
+        "privacy",
+        "csi"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-14T04:03:24.286Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "artcraft",
       "fullName": "storytold/artcraft",
@@ -12,9 +124,9 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 26107,
-      "forks": 4095,
-      "starsToday": 4081,
+      "stars": 27259,
+      "forks": 4278,
+      "starsToday": 3172,
       "topics": [],
       "author": {
         "name": "storytold",
@@ -34,31 +146,172 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "RuView",
-      "fullName": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 97843,
-      "forks": 12823,
-      "starsToday": 261,
+      "stars": 26652,
+      "forks": 2406,
+      "starsToday": 348,
       "topics": [],
       "author": {
-        "name": "ruvnet",
-        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
-        "url": "https://github.com/ruvnet"
+        "name": "t8y2",
+        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
+        "url": "https://github.com/t8y2"
       },
-      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面。基于Rust，把信道状态信息变成隐私友好的视觉替代方案。",
+      "summary": "仅25MB的轻量跨平台数据库客户端，支持100+数据库，内置AI助手、MCP服务、CLI与Docker部署。",
       "tags": [
-        "wifi",
+        "database",
         "rust",
-        "sensing",
-        "privacy",
-        "csi"
+        "cross-platform",
+        "ai",
+        "mcp",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-14T14:24:47.494Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tauri",
+      "fullName": "tauri-apps/tauri",
+      "url": "https://github.com/tauri-apps/tauri",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 111887,
+      "forks": 4079,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "tauri-apps",
+        "avatar": "https://avatars.githubusercontent.com/u/20051258?s=40&amp;v=4",
+        "url": "https://github.com/tauri-apps"
+      },
+      "summary": "用 Rust 构建体积更小、更快、更安全的桌面与移动应用，前端仍可用任意 Web 技术栈，是 Electron 的轻量替代方案。",
+      "tags": [
+        "rust",
+        "desktop",
+        "mobile",
+        "webview",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-14T14:24:48.933Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tokio",
+      "fullName": "tokio-rs/tokio",
+      "url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33452,
+      "forks": 5926,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "Rust 异步运行时，提供 I/O、网络、任务调度与定时器等组件，用于编写可靠的高并发异步应用。",
+      "tags": [
+        "rust",
+        "async",
+        "runtime",
+        "networking",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-14T14:24:48.859Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uv",
+      "fullName": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 90757,
+      "forks": 3658,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的极速 Python 包与项目管理器，可替代 pip、pip-tools、virtualenv 等工具，安装与解析依赖速度远超传统方案。",
+      "tags": [
+        "python",
+        "package-manager",
+        "rust",
+        "cli",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-14T14:24:48.803Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 129188,
+      "forks": 20301,
+      "starsToday": 204,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 开源的终端编码智能体，用 Rust 编写，可在命令行中直接读写代码、执行任务，轻量高效。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "cli",
+        "rust",
+        "terminal"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-14T04:03:24.286Z",
+      "enrichedAt": "2026-10-14T14:24:49.404Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity-Manager",
+      "fullName": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32212,
+      "forks": 3481,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "lbjlaq",
+        "avatar": "https://avatars.githubusercontent.com/u/22748003?s=40&amp;v=4",
+        "url": "https://github.com/lbjlaq"
+      },
+      "summary": "基于 Tauri v2 与 React 的 Antigravity 账号管理工具，支持一键无缝切换多个账号，解决多账号频繁登录的痛点。",
+      "tags": [
+        "tauri",
+        "rust",
+        "react",
+        "account-manager",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-14T14:24:50.172Z",
       "deepwikiAvailable": false
     },
     {
