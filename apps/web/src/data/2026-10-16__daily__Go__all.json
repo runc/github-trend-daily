@@ -2,8 +2,8 @@
   "date": "2026-10-16",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-16T03:40:59.327Z",
-  "enrichedAt": "2026-10-16T03:41:43.593Z",
+  "fetchedAt": "2026-10-16T13:47:59.664Z",
+  "enrichedAt": "2026-10-16T13:48:37.922Z",
   "repos": [
     {
       "name": "caveman",
@@ -12,9 +12,9 @@
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 112673,
-      "forks": 6526,
-      "starsToday": 433,
+      "stars": 112993,
+      "forks": 6538,
+      "starsToday": 943,
       "topics": [],
       "author": {
         "name": "JuliusBrussee",
@@ -34,14 +34,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30003,
+      "forks": 2317,
+      "starsToday": 54,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "基于 Go 的密钥扫描工具，可在代码仓库和文件中检测密码、API Key 等敏感信息，支持 Git 历史扫描与 CI 集成。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T03:41:38.361Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Arrmada",
+      "fullName": "tristenlammi/Arrmada",
+      "url": "https://github.com/tristenlammi/Arrmada",
+      "description": "arrrrrrrr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 217,
+      "forks": 11,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "tristenlammi",
+        "avatar": "https://avatars.githubusercontent.com/u/151690794?s=40&amp;v=4",
+        "url": "https://github.com/tristenlammi"
+      },
+      "summary": "用 Go 编写的 *arr 系列媒体工具统一管理面板，集中查看和调度 Sonarr、Radarr 等实例，简化自建媒体库运维。",
+      "tags": [
+        "go",
+        "arr",
+        "selfhosted",
+        "media",
+        "dashboard"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T13:48:33.826Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "pentagi",
       "fullName": "vxcontrol/pentagi",
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 30520,
-      "forks": 4590,
+      "stars": 30656,
+      "forks": 4654,
       "starsToday": 1388,
       "topics": [],
       "author": {
@@ -59,6 +115,462 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-16T03:41:36.832Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34360,
+      "forks": 4583,
+      "starsToday": 225,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的 LLM 知识平台，将原始文档转为可查询的 RAG、自主推理智能体与自维护 Wiki，基于 Go 构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:41.252Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cilium",
+      "fullName": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25670,
+      "forks": 4161,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "cilium",
+        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
+        "url": "https://github.com/cilium"
+      },
+      "summary": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，提供高性能网络连接、策略执行与流量监控，替代传统 iptables 方案。",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "networking",
+        "security",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:33.691Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opencode2api",
+      "fullName": "jasonxu114514/opencode2api",
+      "url": "https://github.com/jasonxu114514/opencode2api",
+      "description": "A Go-based OpenCode Zen / Zen Go API proxy with OpenAI & Anthropic API compatibility, key/proxy pooling, automatic routing, and WebUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 863,
+      "forks": 160,
+      "starsToday": 186,
+      "topics": [],
+      "author": {
+        "name": "jasonxu114514",
+        "avatar": "https://avatars.githubusercontent.com/u/117326624?s=40&amp;v=4",
+        "url": "https://github.com/jasonxu114514"
+      },
+      "summary": "基于 Go 的 OpenCode Zen API 代理，兼容 OpenAI 与 Anthropic 接口，支持密钥与代理池、自动路由及 WebUI 管理。",
+      "tags": [
+        "go",
+        "api-proxy",
+        "openai",
+        "anthropic",
+        "llm",
+        "webui"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:33.873Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "picoclaw",
+      "fullName": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30077,
+      "forks": 4470,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "sipeed",
+        "avatar": "https://avatars.githubusercontent.com/u/10548612?s=40&amp;v=4",
+        "url": "https://github.com/sipeed"
+      },
+      "summary": "基于 Go 的轻量级 AI 智能体框架，体积小、启动快，可部署在嵌入式设备到服务器等各种环境，用来自动化日常任务。",
+      "tags": [
+        "ai",
+        "agent",
+        "go",
+        "lightweight",
+        "automation",
+        "embedded"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T13:48:33.865Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7318,
+      "forks": 759,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/111561081?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "面向 AI 编程代理的持久化记忆系统，Go 单文件二进制，基于 SQLite+FTS5，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
+      "tags": [
+        "ai",
+        "memory",
+        "go",
+        "sqlite",
+        "mcp",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:39.897Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "scion",
+      "fullName": "GoogleCloudPlatform/scion",
+      "url": "https://github.com/GoogleCloudPlatform/scion",
+      "description": "",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1918,
+      "forks": 285,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "GoogleCloudPlatform",
+        "avatar": "https://avatars.githubusercontent.com/u/40845?s=40&amp;v=4",
+        "url": "https://github.com/GoogleCloudPlatform"
+      },
+      "summary": "Google Cloud 开源的 Go 语言多容器运行时，为容器提供独立网络与文件系统隔离，便于构建和调试复杂分布式应用。",
+      "tags": [
+        "go",
+        "containers",
+        "networking",
+        "google-cloud",
+        "runtime"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:35.056Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keploy",
+      "fullName": "keploy/keploy",
+      "url": "https://github.com/keploy/keploy",
+      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18590,
+      "forks": 2415,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "keploy",
+        "avatar": "https://avatars.githubusercontent.com/u/12831254?s=40&amp;v=4",
+        "url": "https://github.com/keploy"
+      },
+      "summary": "开源测试平台，通过录制生产流量自动生成API、集成与E2E测试用例和模拟数据，无需手写测试即可在隔离沙箱中验证服务。",
+      "tags": [
+        "testing",
+        "api",
+        "go",
+        "e2e",
+        "mock",
+        "sandbox"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T13:48:35.254Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llm-d-router",
+      "fullName": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 411,
+      "forks": 457,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "llm-d",
+        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
+        "url": "https://github.com/llm-d"
+      },
+      "summary": "llm-d 推理请求的智能路由入口，用 Go 编写，负责调度与分发大模型推理流量，提升集群吞吐与延迟表现。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:35.298Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 44201,
+      "forks": 9460,
+      "starsToday": 115,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "一站式开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具无缝使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:35.223Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpt-load",
+      "fullName": "tbphp/gpt-load",
+      "url": "https://github.com/tbphp/gpt-load",
+      "description": "Self-hosted AI gateway for multi-channel, multi-credential setups — API keys and subscription accounts, scheduling, failover, request logs and usage. 自托管 AI 网关：多渠道多凭据统一接入，含密钥与订阅账号、调度容错、日志与用量。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7136,
+      "forks": 792,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "tbphp",
+        "avatar": "https://avatars.githubusercontent.com/u/17903218?s=40&amp;v=4",
+        "url": "https://github.com/tbphp"
+      },
+      "summary": "自托管 AI 网关，统一接入多渠道多凭据（API 密钥与订阅账号），提供调度、故障转移、请求日志与用量统计。",
+      "tags": [
+        "ai-gateway",
+        "go",
+        "self-hosted",
+        "proxy",
+        "load-balancing",
+        "llm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:36.254Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-zero",
+      "fullName": "zeromicro/go-zero",
+      "url": "https://github.com/zeromicro/go-zero",
+      "description": "A cloud-native Go microservices framework with cli tool for productivity.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33382,
+      "forks": 4331,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "zeromicro",
+        "avatar": "https://avatars.githubusercontent.com/u/1918356?s=40&amp;v=4",
+        "url": "https://github.com/zeromicro"
+      },
+      "summary": "云原生 Go 微服务框架，内置代码生成 CLI，简化 API/RPC 服务开发与部署，提升工程效率。",
+      "tags": [
+        "go",
+        "microservices",
+        "cloud-native",
+        "framework",
+        "cli"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:36.708Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 55426,
+      "forks": 8473,
+      "starsToday": 149,
+      "topics": [],
+      "author": {
+        "name": "router-for-me",
+        "avatar": "https://avatars.githubusercontent.com/u/4966831?s=40&amp;v=4",
+        "url": "https://github.com/router-for-me"
+      },
+      "summary": "将 Antigravity、Codex、Claude Code 等客户端封装为 OpenAI/Gemini/Claude 兼容 API 服务，通过统一接口免费调用 Gemini、GPT、Grok、Claude 等模型。",
+      "tags": [
+        "api",
+        "proxy",
+        "llm",
+        "golang",
+        "openai-compatible"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:43.592Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gotenberg",
+      "fullName": "gotenberg/gotenberg",
+      "url": "https://github.com/gotenberg/gotenberg",
+      "description": "A developer-friendly API for converting many document formats into PDF files, and more!",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13308,
+      "forks": 871,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "gotenberg",
+        "avatar": "https://avatars.githubusercontent.com/u/8983173?s=40&amp;v=4",
+        "url": "https://github.com/gotenberg"
+      },
+      "summary": "基于 Go 的文档转换 API 服务，可将 HTML、Office、Markdown 等多种格式转为 PDF，Docker 一键部署，适合后端集成。",
+      "tags": [
+        "pdf",
+        "document-conversion",
+        "api",
+        "golang",
+        "docker"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T13:48:36.520Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bytebase",
+      "fullName": "bytebase/bytebase",
+      "url": "https://github.com/bytebase/bytebase",
+      "description": "Database governance built for humans and agents — controlling changes and access across every major database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14575,
+      "forks": 995,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "bytebase",
+        "avatar": "https://avatars.githubusercontent.com/u/98006139?s=40&amp;v=4",
+        "url": "https://github.com/bytebase"
+      },
+      "summary": "面向人类与 AI Agent 的数据库治理平台，统一管控各类主流数据库的变更与访问权限，覆盖 SQL 审核、发布流程与权限管理。",
+      "tags": [
+        "database",
+        "governance",
+        "devops",
+        "sql",
+        "access-control",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T13:48:36.582Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "radar",
+      "fullName": "skyhook-io/radar",
+      "url": "https://github.com/skyhook-io/radar",
+      "description": "The missing open-source Kubernetes UI with a built-in MCP server for AI agents. See what's broken, why, and what changed. Issues, Topology, event timeline, Helm, GitOps, live service traffic, and cluster audits - all in one Go binary.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3819,
+      "forks": 245,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "skyhook-io",
+        "avatar": "https://avatars.githubusercontent.com/u/81293832?s=40&amp;v=4",
+        "url": "https://github.com/skyhook-io"
+      },
+      "summary": "开源 Kubernetes 可视化界面，内置 MCP 服务器供 AI 代理调用，可查看故障原因、拓扑、事件时间线、Helm、GitOps 与实时流量，单个 Go 二进制即可部署。",
+      "tags": [
+        "kubernetes",
+        "mcp",
+        "observability",
+        "go",
+        "devops",
+        "ai-agents"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T13:48:37.922Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "node_exporter",
+      "fullName": "prometheus/node_exporter",
+      "url": "https://github.com/prometheus/node_exporter",
+      "description": "Exporter for machine metrics",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13845,
+      "forks": 2729,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/1320667?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 官方机器指标采集器，以 Go 编写，将 CPU、内存、磁盘、网络等主机指标暴露为 Prometheus 可抓取格式，是节点监控的事实标准。",
+      "tags": [
+        "prometheus",
+        "monitoring",
+        "metrics",
+        "golang",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:37.646Z",
       "deepwikiAvailable": false
     },
     {
@@ -175,34 +687,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gitleaks",
-      "fullName": "gitleaks/gitleaks",
-      "url": "https://github.com/gitleaks/gitleaks",
-      "description": "Find secrets with Gitleaks 🔑",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 29987,
-      "forks": 2301,
-      "starsToday": 33,
-      "topics": [],
-      "author": {
-        "name": "gitleaks",
-        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
-        "url": "https://github.com/gitleaks"
-      },
-      "summary": "基于 Go 的密钥扫描工具，可在代码仓库和文件中检测密码、API Key 等敏感信息，支持 Git 历史扫描与 CI 集成。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "go",
-        "devsecops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-16T03:41:38.361Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ax",
       "fullName": "google/ax",
       "url": "https://github.com/google/ax",
@@ -315,35 +799,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "engram",
-      "fullName": "Gentleman-Programming/engram",
-      "url": "https://github.com/Gentleman-Programming/engram",
-      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7274,
-      "forks": 752,
-      "starsToday": 38,
-      "topics": [],
-      "author": {
-        "name": "Gentleman-Programming",
-        "avatar": "https://avatars.githubusercontent.com/u/111561081?s=40&amp;v=4",
-        "url": "https://github.com/Gentleman-Programming"
-      },
-      "summary": "面向 AI 编程代理的持久化记忆系统，Go 单文件二进制，基于 SQLite+FTS5，提供 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
-      "tags": [
-        "ai",
-        "memory",
-        "go",
-        "sqlite",
-        "mcp",
-        "cli"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:39.897Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "containerd",
       "fullName": "containerd/containerd",
       "url": "https://github.com/containerd/containerd",
@@ -369,34 +824,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-16T03:41:40.926Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 34245,
-      "forks": 4566,
-      "starsToday": 225,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的 LLM 知识平台，将原始文档转为可查询的 RAG、自主推理智能体与自维护 Wiki，基于 Go 构建。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "go",
-        "agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:41.252Z",
       "deepwikiAvailable": false
     },
     {
@@ -594,34 +1021,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-16T03:41:43.503Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "CLIProxyAPI",
-      "fullName": "router-for-me/CLIProxyAPI",
-      "url": "https://github.com/router-for-me/CLIProxyAPI",
-      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 55380,
-      "forks": 8464,
-      "starsToday": 149,
-      "topics": [],
-      "author": {
-        "name": "router-for-me",
-        "avatar": "https://avatars.githubusercontent.com/u/4966831?s=40&amp;v=4",
-        "url": "https://github.com/router-for-me"
-      },
-      "summary": "将 Antigravity、Codex、Claude Code 等客户端封装为 OpenAI/Gemini/Claude 兼容 API 服务，通过统一接口免费调用 Gemini、GPT、Grok、Claude 等模型。",
-      "tags": [
-        "api",
-        "proxy",
-        "llm",
-        "golang",
-        "openai-compatible"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:43.592Z",
       "deepwikiAvailable": false
     }
   ]

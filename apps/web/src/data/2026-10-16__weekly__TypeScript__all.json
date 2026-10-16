@@ -2,8 +2,8 @@
   "date": "2026-10-16",
   "since": "weekly",
   "language": "TypeScript",
-  "fetchedAt": "2026-10-16T03:40:59.327Z",
-  "enrichedAt": "2026-10-16T03:41:59.075Z",
+  "fetchedAt": "2026-10-16T13:47:59.664Z",
+  "enrichedAt": "2026-10-16T13:48:48.761Z",
   "repos": [
     {
       "name": "rea",
@@ -12,8 +12,8 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 274235,
-      "forks": 69028,
+      "stars": 284176,
+      "forks": 71593,
       "starsToday": 239477,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 64665,
-      "forks": 5817,
+      "stars": 65021,
+      "forks": 5853,
       "starsToday": 5318,
       "topics": [],
       "author": {
@@ -62,14 +62,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "context-mode",
+      "fullName": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 30037,
+      "forks": 2113,
+      "starsToday": 4038,
+      "topics": [],
+      "author": {
+        "name": "mksglu",
+        "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&amp;v=4",
+        "url": "https://github.com/mksglu"
+      },
+      "summary": "面向 AI 编码代理的上下文窗口优化工具，沙箱化工具输出可减少 98% token，持久化会话记忆，并通过 MCP 与钩子在 17 个平台间统一路由。",
+      "tags": [
+        "ai",
+        "mcp",
+        "context",
+        "typescript",
+        "agents",
+        "memory"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:57.692Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "billion-context",
       "fullName": "ranxianglei/billion-context",
       "url": "https://github.com/ranxianglei/billion-context",
       "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 1409,
-      "forks": 116,
+      "stars": 1483,
+      "forks": 117,
       "starsToday": 659,
       "topics": [],
       "author": {
@@ -96,8 +125,8 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 11674,
-      "forks": 1137,
+      "stars": 11796,
+      "forks": 1145,
       "starsToday": 1214,
       "topics": [],
       "author": {
@@ -115,6 +144,399 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-16T03:41:55.092Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 101176,
+      "forks": 8855,
+      "starsToday": 2903,
+      "topics": [],
+      "author": {
+        "name": "thedotmack",
+        "avatar": "https://avatars.githubusercontent.com/u/683968?s=40&amp;v=4",
+        "url": "https://github.com/thedotmack"
+      },
+      "summary": "为各类 AI 编码代理提供跨会话持久记忆：自动捕获会话内容、用 AI 压缩并注入后续会话，兼容 Claude Code、Codex、Gemini 等。",
+      "tags": [
+        "ai",
+        "memory",
+        "agents",
+        "context",
+        "typescript",
+        "devtool"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:57.788Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 35198,
+      "forks": 3003,
+      "starsToday": 1686,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/32676955?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "Vercel 推出的开放 agent 技能工具，通过 npx skills 一键安装和管理可复用的 AI 技能包，让智能体快速扩展能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "skills",
+        "cli",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:56.578Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LibreTV",
+      "fullName": "LibreSpark/LibreTV",
+      "url": "https://github.com/LibreSpark/LibreTV",
+      "description": "一分钟搭建影视站，支持Docker等部署方式",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 18688,
+      "forks": 28891,
+      "starsToday": 4160,
+      "topics": [],
+      "author": {
+        "name": "LibreSpark",
+        "avatar": "https://avatars.githubusercontent.com/u/110226580?s=40&amp;v=4",
+        "url": "https://github.com/LibreSpark"
+      },
+      "summary": "一分钟即可搭建的影视聚合站点，支持Docker等多种部署方式，开箱即用。",
+      "tags": [
+        "video",
+        "docker",
+        "self-hosted",
+        "typescript",
+        "streaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T13:48:47.417Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "folia-major",
+      "fullName": "chthollyphile/folia-major",
+      "url": "https://github.com/chthollyphile/folia-major",
+      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 6945,
+      "forks": 694,
+      "starsToday": 2675,
+      "topics": [],
+      "author": {
+        "name": "chthollyphile",
+        "avatar": "https://avatars.githubusercontent.com/u/30263107?s=40&amp;v=4",
+        "url": "https://github.com/chthollyphile"
+      },
+      "summary": "本地与 Navidrome 等多平台在线音乐播放器，主打绚丽的歌词动画效果，支持第三方音源接入。",
+      "tags": [
+        "music",
+        "player",
+        "lyrics",
+        "typescript",
+        "navidrome"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T03:41:56.414Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 64522,
+      "forks": 5099,
+      "starsToday": 1873,
+      "topics": [],
+      "author": {
+        "name": "remotion-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/1629785?s=40&amp;v=4",
+        "url": "https://github.com/remotion-dev"
+      },
+      "summary": "用 React 以编程方式制作视频的框架，把组件和动画渲染成 MP4，支持参数化批量生成，适合数据驱动和自动化视频生产。",
+      "tags": [
+        "react",
+        "video",
+        "typescript",
+        "animation",
+        "rendering"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-16T03:41:56.536Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "HeliosGen",
+      "fullName": "SegFault42/HeliosGen",
+      "url": "https://github.com/SegFault42/HeliosGen",
+      "description": "🏆 Self Hosted Gen AI desktop app. Free alternative to Higgsfield, OpenArt, Freepik....",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 3132,
+      "forks": 352,
+      "starsToday": 763,
+      "topics": [],
+      "author": {
+        "name": "SegFault42",
+        "avatar": "https://avatars.githubusercontent.com/u/9384676?s=40&amp;v=4",
+        "url": "https://github.com/SegFault42"
+      },
+      "summary": "自托管的生成式AI桌面应用，可本地运行图像生成，作为Higgsfield、OpenArt、Freepik等商业平台的免费替代方案。",
+      "tags": [
+        "ai",
+        "self-hosted",
+        "desktop-app",
+        "image-generation",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:57.891Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "obsidian-mind",
+      "fullName": "breferrari/obsidian-mind",
+      "url": "https://github.com/breferrari/obsidian-mind",
+      "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 5343,
+      "forks": 610,
+      "starsToday": 384,
+      "topics": [],
+      "author": {
+        "name": "breferrari",
+        "avatar": "https://avatars.githubusercontent.com/u/1744013?s=40&amp;v=4",
+        "url": "https://github.com/breferrari"
+      },
+      "summary": "基于 Obsidian 的自组织知识库，为 AI 编程助手提供持久化记忆，让代理跨会话记住项目上下文与决策。",
+      "tags": [
+        "obsidian",
+        "ai-agents",
+        "memory",
+        "typescript",
+        "knowledge-base"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:57.838Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freellmapi",
+      "fullName": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 36025,
+      "forks": 4856,
+      "starsToday": 3714,
+      "topics": [],
+      "author": {
+        "name": "tashfeenahmed",
+        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
+        "url": "https://github.com/tashfeenahmed"
+      },
+      "summary": "聚合34家免费LLM提供商、635个模型端点的统一API网关，通过单个/v1接口提供智能路由、自动故障转移和密钥加密，兼容自定义OpenAI接口。",
+      "tags": [
+        "llm",
+        "api-gateway",
+        "typescript",
+        "openai",
+        "routing"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:58.807Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TencentDB-Agent-Memory",
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 29298,
+      "forks": 2862,
+      "starsToday": 1465,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/277734672?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "腾讯云推出的团队级 AI Agent 记忆中枢，将对话、文档和代码转化为可治理、可共享的四种记忆资产，支持跨 Agent 与框架复用。",
+      "tags": [
+        "ai",
+        "agent",
+        "memory",
+        "typescript",
+        "knowledge-base"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T03:41:59.075Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeFlow",
+      "fullName": "hicccc77/WeFlow",
+      "url": "https://github.com/hicccc77/WeFlow",
+      "description": "WeFlow - 一个本地的微信聊天记录导出和年度报告应用",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 15189,
+      "forks": 704,
+      "starsToday": 334,
+      "topics": [],
+      "author": {
+        "name": "hicccc77",
+        "avatar": "https://avatars.githubusercontent.com/u/98377878?s=40&amp;v=4",
+        "url": "https://github.com/hicccc77"
+      },
+      "summary": "WeFlow 是本地运行的微信聊天记录导出与年度报告工具，数据不出本机即可备份分析聊天历史。",
+      "tags": [
+        "wechat",
+        "backup",
+        "typescript",
+        "privacy",
+        "report"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T03:41:58.988Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenCut",
+      "fullName": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 94882,
+      "forks": 9334,
+      "starsToday": 1684,
+      "topics": [],
+      "author": {
+        "name": "OpenCut-app",
+        "avatar": "https://avatars.githubusercontent.com/u/167211895?s=40&amp;v=4",
+        "url": "https://github.com/OpenCut-app"
+      },
+      "summary": "开源版剪映替代品，基于 TypeScript 的网页视频编辑器，支持浏览器内剪辑，免费可自托管。",
+      "tags": [
+        "video-editor",
+        "typescript",
+        "open-source",
+        "web",
+        "self-hosted"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T13:48:47.744Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "InvokeAI",
+      "fullName": "invoke-ai/InvokeAI",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 28681,
+      "forks": 3054,
+      "starsToday": 213,
+      "topics": [],
+      "author": {
+        "name": "invoke-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/4822129?s=40&amp;v=4",
+        "url": "https://github.com/invoke-ai"
+      },
+      "summary": "InvokeAI 是面向 Stable Diffusion 的专业创作引擎，提供行业领先的 WebUI，支持艺术家与开发者生成和编辑视觉内容，也是多个商业产品的基础。",
+      "tags": [
+        "stable-diffusion",
+        "image-generation",
+        "webui",
+        "ai-art",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T13:48:47.818Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-quickstarts",
+      "fullName": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 18014,
+      "forks": 3106,
+      "starsToday": 197,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/286490957?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Anthropic 官方 Claude API 快速上手示例集，提供多种可部署应用模板，帮助开发者迅速构建基于 Claude 的 AI 应用。",
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm",
+        "quickstart",
+        "examples"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T13:48:47.845Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Motrix",
+      "fullName": "agalwood/Motrix",
+      "url": "https://github.com/agalwood/Motrix",
+      "description": "A full-featured download manager.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 56904,
+      "forks": 5093,
+      "starsToday": 722,
+      "topics": [],
+      "author": {
+        "name": "agalwood",
+        "avatar": "https://avatars.githubusercontent.com/u/1032175?s=40&amp;v=4",
+        "url": "https://github.com/agalwood"
+      },
+      "summary": "Motrix 是一款功能全面的开源下载管理器，基于 TypeScript 与 Electron 构建，支持 HTTP、BT、磁力链等多种协议，界面简洁易用。",
+      "tags": [
+        "download",
+        "electron",
+        "typescript",
+        "bittorrent",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T13:48:48.761Z",
       "deepwikiAvailable": false
     },
     {
@@ -143,288 +565,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-16T03:41:56.340Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "skills",
-      "fullName": "vercel-labs/skills",
-      "url": "https://github.com/vercel-labs/skills",
-      "description": "The open agent skills tool - npx skills",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 35132,
-      "forks": 2997,
-      "starsToday": 1686,
-      "topics": [],
-      "author": {
-        "name": "vercel-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/32676955?s=40&amp;v=4",
-        "url": "https://github.com/vercel-labs"
-      },
-      "summary": "Vercel 推出的开放 agent 技能工具，通过 npx skills 一键安装和管理可复用的 AI 技能包，让智能体快速扩展能力。",
-      "tags": [
-        "ai",
-        "agents",
-        "skills",
-        "cli",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:56.578Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 64428,
-      "forks": 5086,
-      "starsToday": 1873,
-      "topics": [],
-      "author": {
-        "name": "remotion-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/1629785?s=40&amp;v=4",
-        "url": "https://github.com/remotion-dev"
-      },
-      "summary": "用 React 以编程方式制作视频的框架，把组件和动画渲染成 MP4，支持参数化批量生成，适合数据驱动和自动化视频生产。",
-      "tags": [
-        "react",
-        "video",
-        "typescript",
-        "animation",
-        "rendering"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-16T03:41:56.536Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "folia-major",
-      "fullName": "chthollyphile/folia-major",
-      "url": "https://github.com/chthollyphile/folia-major",
-      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 6646,
-      "forks": 658,
-      "starsToday": 2675,
-      "topics": [],
-      "author": {
-        "name": "chthollyphile",
-        "avatar": "https://avatars.githubusercontent.com/u/30263107?s=40&amp;v=4",
-        "url": "https://github.com/chthollyphile"
-      },
-      "summary": "本地与 Navidrome 等多平台在线音乐播放器，主打绚丽的歌词动画效果，支持第三方音源接入。",
-      "tags": [
-        "music",
-        "player",
-        "lyrics",
-        "typescript",
-        "navidrome"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-16T03:41:56.414Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "claude-mem",
-      "fullName": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 101084,
-      "forks": 8845,
-      "starsToday": 2903,
-      "topics": [],
-      "author": {
-        "name": "thedotmack",
-        "avatar": "https://avatars.githubusercontent.com/u/683968?s=40&amp;v=4",
-        "url": "https://github.com/thedotmack"
-      },
-      "summary": "为各类 AI 编码代理提供跨会话持久记忆：自动捕获会话内容、用 AI 压缩并注入后续会话，兼容 Claude Code、Codex、Gemini 等。",
-      "tags": [
-        "ai",
-        "memory",
-        "agents",
-        "context",
-        "typescript",
-        "devtool"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:57.788Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "context-mode",
-      "fullName": "mksglu/context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 29854,
-      "forks": 2084,
-      "starsToday": 4038,
-      "topics": [],
-      "author": {
-        "name": "mksglu",
-        "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&amp;v=4",
-        "url": "https://github.com/mksglu"
-      },
-      "summary": "面向 AI 编码代理的上下文窗口优化工具，沙箱化工具输出可减少 98% token，持久化会话记忆，并通过 MCP 与钩子在 17 个平台间统一路由。",
-      "tags": [
-        "ai",
-        "mcp",
-        "context",
-        "typescript",
-        "agents",
-        "memory"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:57.692Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "HeliosGen",
-      "fullName": "SegFault42/HeliosGen",
-      "url": "https://github.com/SegFault42/HeliosGen",
-      "description": "🏆 Self Hosted Gen AI desktop app. Free alternative to Higgsfield, OpenArt, Freepik....",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 3116,
-      "forks": 351,
-      "starsToday": 763,
-      "topics": [],
-      "author": {
-        "name": "SegFault42",
-        "avatar": "https://avatars.githubusercontent.com/u/9384676?s=40&amp;v=4",
-        "url": "https://github.com/SegFault42"
-      },
-      "summary": "自托管的生成式AI桌面应用，可本地运行图像生成，作为Higgsfield、OpenArt、Freepik等商业平台的免费替代方案。",
-      "tags": [
-        "ai",
-        "self-hosted",
-        "desktop-app",
-        "image-generation",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:57.891Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "obsidian-mind",
-      "fullName": "breferrari/obsidian-mind",
-      "url": "https://github.com/breferrari/obsidian-mind",
-      "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 5335,
-      "forks": 608,
-      "starsToday": 384,
-      "topics": [],
-      "author": {
-        "name": "breferrari",
-        "avatar": "https://avatars.githubusercontent.com/u/1744013?s=40&amp;v=4",
-        "url": "https://github.com/breferrari"
-      },
-      "summary": "基于 Obsidian 的自组织知识库，为 AI 编程助手提供持久化记忆，让代理跨会话记住项目上下文与决策。",
-      "tags": [
-        "obsidian",
-        "ai-agents",
-        "memory",
-        "typescript",
-        "knowledge-base"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:57.838Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "freellmapi",
-      "fullName": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 35821,
-      "forks": 4836,
-      "starsToday": 3714,
-      "topics": [],
-      "author": {
-        "name": "tashfeenahmed",
-        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
-        "url": "https://github.com/tashfeenahmed"
-      },
-      "summary": "聚合34家免费LLM提供商、635个模型端点的统一API网关，通过单个/v1接口提供智能路由、自动故障转移和密钥加密，兼容自定义OpenAI接口。",
-      "tags": [
-        "llm",
-        "api-gateway",
-        "typescript",
-        "openai",
-        "routing"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:58.807Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "WeFlow",
-      "fullName": "hicccc77/WeFlow",
-      "url": "https://github.com/hicccc77/WeFlow",
-      "description": "WeFlow - 一个本地的微信聊天记录导出和年度报告应用",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 15162,
-      "forks": 695,
-      "starsToday": 334,
-      "topics": [],
-      "author": {
-        "name": "hicccc77",
-        "avatar": "https://avatars.githubusercontent.com/u/98377878?s=40&amp;v=4",
-        "url": "https://github.com/hicccc77"
-      },
-      "summary": "WeFlow 是本地运行的微信聊天记录导出与年度报告工具，数据不出本机即可备份分析聊天历史。",
-      "tags": [
-        "wechat",
-        "backup",
-        "typescript",
-        "privacy",
-        "report"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-16T03:41:58.988Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "TencentDB-Agent-Memory",
-      "fullName": "TencentCloud/TencentDB-Agent-Memory",
-      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 29261,
-      "forks": 2852,
-      "starsToday": 1465,
-      "topics": [],
-      "author": {
-        "name": "TencentCloud",
-        "avatar": "https://avatars.githubusercontent.com/u/277734672?s=40&amp;v=4",
-        "url": "https://github.com/TencentCloud"
-      },
-      "summary": "腾讯云推出的团队级 AI Agent 记忆中枢，将对话、文档和代码转化为可治理、可共享的四种记忆资产，支持跨 Agent 与框架复用。",
-      "tags": [
-        "ai",
-        "agent",
-        "memory",
-        "typescript",
-        "knowledge-base"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-16T03:41:59.075Z",
       "deepwikiAvailable": false
     }
   ]

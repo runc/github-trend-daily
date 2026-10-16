@@ -2,8 +2,8 @@
   "date": "2026-10-16",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-16T03:40:59.327Z",
-  "enrichedAt": "2026-10-16T03:41:47.872Z",
+  "fetchedAt": "2026-10-16T13:47:59.664Z",
+  "enrichedAt": "2026-10-16T13:48:40.856Z",
   "repos": [
     {
       "name": "xerj",
@@ -12,9 +12,9 @@
       "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5821,
-      "forks": 313,
-      "starsToday": 715,
+      "stars": 6507,
+      "forks": 331,
+      "starsToday": 1647,
       "topics": [],
       "author": {
         "name": "xerj-org",
@@ -32,6 +32,315 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-16T03:41:44.981Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 98294,
+      "forks": 12877,
+      "starsToday": 225,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面，基于Rust构建。",
+      "tags": [
+        "wifi",
+        "rust",
+        "sensing",
+        "presence-detection",
+        "privacy"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T13:48:38.844Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9505,
+      "forks": 679,
+      "starsToday": 159,
+      "topics": [],
+      "author": {
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
+      },
+      "summary": "为 AI 编码 CLI 提供长期记忆的方案，支持在不同厂商的编码代理之间交接上下文，用 Rust 编写。",
+      "tags": [
+        "ai",
+        "memory",
+        "agents",
+        "cli",
+        "rust"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T13:48:39.080Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloud-hypervisor",
+      "fullName": "cloud-hypervisor/cloud-hypervisor",
+      "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+      "description": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6369,
+      "forks": 800,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "cloud-hypervisor",
+        "avatar": "https://avatars.githubusercontent.com/u/588224?s=40&amp;v=4",
+        "url": "https://github.com/cloud-hypervisor"
+      },
+      "summary": "用 Rust 编写的云工作负载虚拟机监视器，支持 CPU/内存/设备热插拔、Windows 与 Linux 客户机及 vhost-user 卸载，体积小、安全性强。",
+      "tags": [
+        "rust",
+        "virtualization",
+        "vmm",
+        "cloud",
+        "kvm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T13:48:39.457Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hydradb",
+      "fullName": "hydra-db/hydradb",
+      "url": "https://github.com/hydra-db/hydradb",
+      "description": "HydraDB - fast graph database on object storage",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13036,
+      "forks": 5431,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "hydra-db",
+        "avatar": "https://avatars.githubusercontent.com/u/248433309?s=40&amp;v=4",
+        "url": "https://github.com/hydra-db"
+      },
+      "summary": "HydraDB 是基于对象存储构建的高性能图数据库，用 Rust 编写，兼顾低成本存储与快速图查询。",
+      "tags": [
+        "database",
+        "graph",
+        "rust",
+        "object-storage",
+        "storage"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-16T13:48:39.306Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 83594,
+      "forks": 5306,
+      "starsToday": 169,
+      "topics": [],
+      "author": {
+        "name": "rtk-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
+        "url": "https://github.com/rtk-ai"
+      },
+      "summary": "Rust 编写的 CLI 代理，拦截常见开发命令输出并压缩，可减少 60-90% 的 LLM token 消耗，单二进制零依赖，开箱即用。",
+      "tags": [
+        "rust",
+        "cli",
+        "llm",
+        "token",
+        "proxy",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T03:41:46.047Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microduck",
+      "fullName": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9473,
+      "forks": 1231,
+      "starsToday": 40,
+      "topics": [],
+      "author": {
+        "name": "pollen-robotics",
+        "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&amp;v=4",
+        "url": "https://github.com/pollen-robotics"
+      },
+      "summary": "用 Rust 编写的微型双足鸭子机器人开源项目，提供硬件设计与固件，供爱好者复刻和二次开发。",
+      "tags": [
+        "robotics",
+        "rust",
+        "biped",
+        "hardware",
+        "firmware"
+      ],
+      "category": "Robotics",
+      "enrichedAt": "2026-10-16T13:48:40.369Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vite-plus",
+      "fullName": "voidzero-dev/vite-plus",
+      "url": "https://github.com/voidzero-dev/vite-plus",
+      "description": "The unified toolchain and entry point for web development.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6294,
+      "forks": 280,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "voidzero-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/156269?s=40&amp;v=4",
+        "url": "https://github.com/voidzero-dev"
+      },
+      "summary": "Vite 团队推出的统一 Web 开发工具链与入口，用 Rust 整合构建、测试等环节，简化前端工程配置。",
+      "tags": [
+        "vite",
+        "toolchain",
+        "rust",
+        "web",
+        "build"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T13:48:40.270Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dynamo",
+      "fullName": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8310,
+      "forks": 1713,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "ai-dynamo",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/ai-dynamo"
+      },
+      "summary": "面向数据中心规模的分布式推理服务框架，用 Rust 编写，支持大规模模型推理的高效调度与部署。",
+      "tags": [
+        "inference",
+        "rust",
+        "distributed",
+        "serving",
+        "llm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T03:41:47.872Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 126000,
+      "forks": 19749,
+      "starsToday": 124,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建服务器，可作为 TeamViewer 的免费替代方案，用 Rust 编写，跨平台且性能出色。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T13:48:40.589Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16503,
+      "forks": 751,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的离线开源语法检查器，本地运行不上传数据，速度快且注重隐私保护。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "linter"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T03:41:47.022Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "magnitude",
+      "fullName": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. 2x faster than Ollama. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6956,
+      "forks": 478,
+      "starsToday": 196,
+      "topics": [],
+      "author": {
+        "name": "magnitudedev",
+        "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&amp;v=4",
+        "url": "https://github.com/magnitudedev"
+      },
+      "summary": "开源推理引擎，针对你的硬件自动调优内核，为每个模型寻找最快运行方式，速度比 Ollama 快 2 倍，支持 Apple Silicon、NVIDIA、AMD 及纯 CPU。",
+      "tags": [
+        "inference",
+        "llm",
+        "rust",
+        "gpu",
+        "performance"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T13:48:40.856Z",
       "deepwikiAvailable": false
     },
     {
@@ -175,35 +484,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "rtk",
-      "fullName": "rtk-ai/rtk",
-      "url": "https://github.com/rtk-ai/rtk",
-      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 83533,
-      "forks": 5305,
-      "starsToday": 169,
-      "topics": [],
-      "author": {
-        "name": "rtk-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
-        "url": "https://github.com/rtk-ai"
-      },
-      "summary": "Rust 编写的 CLI 代理，拦截常见开发命令输出并压缩，可减少 60-90% 的 LLM token 消耗，单二进制零依赖，开箱即用。",
-      "tags": [
-        "rust",
-        "cli",
-        "llm",
-        "token",
-        "proxy",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-16T03:41:46.047Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "surrealdb",
       "fullName": "surrealdb/surrealdb",
       "url": "https://github.com/surrealdb/surrealdb",
@@ -232,34 +512,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "harper",
-      "fullName": "Automattic/harper",
-      "url": "https://github.com/Automattic/harper",
-      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 16463,
-      "forks": 740,
-      "starsToday": 41,
-      "topics": [],
-      "author": {
-        "name": "Automattic",
-        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
-        "url": "https://github.com/Automattic"
-      },
-      "summary": "基于 Rust 的离线开源语法检查器，本地运行不上传数据，速度快且注重隐私保护。",
-      "tags": [
-        "rust",
-        "grammar",
-        "privacy",
-        "offline",
-        "linter"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-16T03:41:47.022Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "agent-browser",
       "fullName": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
@@ -285,34 +537,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-10-16T03:41:47.410Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dynamo",
-      "fullName": "ai-dynamo/dynamo",
-      "url": "https://github.com/ai-dynamo/dynamo",
-      "description": "A Datacenter Scale Distributed Inference Serving Framework",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8305,
-      "forks": 1709,
-      "starsToday": 11,
-      "topics": [],
-      "author": {
-        "name": "ai-dynamo",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/ai-dynamo"
-      },
-      "summary": "面向数据中心规模的分布式推理服务框架，用 Rust 编写，支持大规模模型推理的高效调度与部署。",
-      "tags": [
-        "inference",
-        "rust",
-        "distributed",
-        "serving",
-        "llm"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-16T03:41:47.872Z",
       "deepwikiAvailable": false
     }
   ]

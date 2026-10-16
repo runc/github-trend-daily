@@ -2,8 +2,8 @@
   "date": "2026-10-16",
   "since": "weekly",
   "language": "Java",
-  "fetchedAt": "2026-10-16T03:40:59.327Z",
-  "enrichedAt": "2026-10-16T03:42:23.208Z",
+  "fetchedAt": "2026-10-16T13:47:59.664Z",
+  "enrichedAt": "2026-10-16T13:48:57.304Z",
   "repos": [
     {
       "name": "ghidra",
@@ -12,8 +12,8 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 88919,
-      "forks": 9932,
+      "stars": 89339,
+      "forks": 9981,
       "starsToday": 6614,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 5663,
-      "forks": 330,
+      "stars": 5676,
+      "forks": 334,
       "starsToday": 791,
       "topics": [],
       "author": {
@@ -63,59 +63,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "hello-algo",
-      "fullName": "krahets/hello-algo",
-      "url": "https://github.com/krahets/hello-algo",
-      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "name": "jadx",
+      "fullName": "skylot/jadx",
+      "url": "https://github.com/skylot/jadx",
+      "description": "Dex to Java decompiler",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 130751,
-      "forks": 15510,
-      "starsToday": 350,
+      "stars": 51001,
+      "forks": 5817,
+      "starsToday": 223,
       "topics": [],
       "author": {
-        "name": "krahets",
-        "avatar": "https://avatars.githubusercontent.com/u/26993056?s=40&amp;v=4",
-        "url": "https://github.com/krahets"
+        "name": "skylot",
+        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
+        "url": "https://github.com/skylot"
       },
-      "summary": "动画图解、可一键运行的数据结构与算法教程，支持多语言讲解与十余种编程语言代码实现，适合零基础入门与面试复习。",
+      "summary": "jadx 是一款将 Android DEX/APK 反编译为 Java 源码的工具，支持命令行与图形界面，便于逆向分析与代码审计。",
       "tags": [
-        "algorithm",
-        "data-structures",
-        "tutorial",
-        "education",
-        "multilingual"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-16T03:42:17.921Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "GhidraMCP",
-      "fullName": "LaurieWired/GhidraMCP",
-      "url": "https://github.com/LaurieWired/GhidraMCP",
-      "description": "MCP Server for Ghidra",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 11290,
-      "forks": 1185,
-      "starsToday": 606,
-      "topics": [],
-      "author": {
-        "name": "LaurieWired",
-        "avatar": "https://avatars.githubusercontent.com/u/123765654?s=40&amp;v=4",
-        "url": "https://github.com/LaurieWired"
-      },
-      "summary": "为 Ghidra 逆向工程工具提供 MCP 服务端，让 AI 助手直接调用反编译与符号分析能力，实现自动化二进制分析。",
-      "tags": [
-        "mcp",
-        "ghidra",
-        "reverse-engineering",
+        "decompiler",
+        "android",
+        "dex",
         "java",
-        "ai"
+        "reverse-engineering"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-10-16T03:42:17.862Z",
+      "enrichedAt": "2026-10-16T03:42:19.120Z",
       "deepwikiAvailable": false
     },
     {
@@ -125,8 +97,8 @@
       "description": "A libre lightweight streaming front-end for Android.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 40149,
-      "forks": 3885,
+      "stars": 40153,
+      "forks": 3887,
       "starsToday": 200,
       "topics": [],
       "author": {
@@ -148,14 +120,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "GhidraMCP",
+      "fullName": "LaurieWired/GhidraMCP",
+      "url": "https://github.com/LaurieWired/GhidraMCP",
+      "description": "MCP Server for Ghidra",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 11305,
+      "forks": 1187,
+      "starsToday": 606,
+      "topics": [],
+      "author": {
+        "name": "LaurieWired",
+        "avatar": "https://avatars.githubusercontent.com/u/123765654?s=40&amp;v=4",
+        "url": "https://github.com/LaurieWired"
+      },
+      "summary": "为 Ghidra 逆向工程工具提供 MCP 服务端，让 AI 助手直接调用反编译与符号分析能力，实现自动化二进制分析。",
+      "tags": [
+        "mcp",
+        "ghidra",
+        "reverse-engineering",
+        "java",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T03:42:17.862Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hello-algo",
+      "fullName": "krahets/hello-algo",
+      "url": "https://github.com/krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 130783,
+      "forks": 15511,
+      "starsToday": 350,
+      "topics": [],
+      "author": {
+        "name": "krahets",
+        "avatar": "https://avatars.githubusercontent.com/u/26993056?s=40&amp;v=4",
+        "url": "https://github.com/krahets"
+      },
+      "summary": "动画图解、可一键运行的数据结构与算法教程，支持多语言讲解与十余种编程语言代码实现，适合零基础入门与面试复习。",
+      "tags": [
+        "algorithm",
+        "data-structures",
+        "tutorial",
+        "education",
+        "multilingual"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-16T03:42:17.921Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "NoteLite",
       "fullName": "Lucas0623z/NoteLite",
       "url": "https://github.com/Lucas0623z/NoteLite",
       "description": "Open-source OMR and guided music practice: turn sheet music PDFs/images into MusicXML/MIDI, refine scores, and practice with MIDI or microphone feedback.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 1043,
-      "forks": 164,
+      "stars": 1049,
+      "forks": 165,
       "starsToday": 93,
       "topics": [],
       "author": {
@@ -176,31 +204,32 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "jadx",
-      "fullName": "skylot/jadx",
-      "url": "https://github.com/skylot/jadx",
-      "description": "Dex to Java decompiler",
+      "name": "ruoyi-vue-pro",
+      "fullName": "YunaiV/ruoyi-vue-pro",
+      "url": "https://github.com/YunaiV/ruoyi-vue-pro",
+      "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 50990,
-      "forks": 5815,
-      "starsToday": 223,
+      "stars": 39847,
+      "forks": 8586,
+      "starsToday": 250,
       "topics": [],
       "author": {
-        "name": "skylot",
-        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
-        "url": "https://github.com/skylot"
+        "name": "YunaiV",
+        "avatar": "https://avatars.githubusercontent.com/u/2015545?s=40&amp;v=4",
+        "url": "https://github.com/YunaiV"
       },
-      "summary": "jadx 是一款将 Android DEX/APK 反编译为 Java 源码的工具，支持命令行与图形界面，便于逆向分析与代码审计。",
+      "summary": "基于 Spring Boot + MyBatis Plus + Vue 的后台管理系统，支持 RBAC 权限、多租户、工作流、支付、商城、CRM、IoT 与 AI 大模型等企业级功能。",
       "tags": [
-        "decompiler",
-        "android",
-        "dex",
         "java",
-        "reverse-engineering"
+        "spring-boot",
+        "admin",
+        "vue",
+        "saas",
+        "workflow"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-16T03:42:19.120Z",
+      "category": "Web",
+      "enrichedAt": "2026-10-16T03:42:20.607Z",
       "deepwikiAvailable": false
     },
     {
@@ -210,8 +239,8 @@
       "description": "AndroidIDE is an IDE for Android to develop full featured Android apps.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 3259,
-      "forks": 714,
+      "stars": 3261,
+      "forks": 716,
       "starsToday": 47,
       "topics": [],
       "author": {
@@ -229,6 +258,317 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-16T03:42:19.580Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "shenyu",
+      "fullName": "apache/shenyu",
+      "url": "https://github.com/apache/shenyu",
+      "description": "Apache ShenYu is a Java native API Gateway for service proxy, protocol conversion and API governance.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 8867,
+      "forks": 3083,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/9673503?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache ShenYu 是 Java 原生 API 网关，支持服务代理、协议转换与 API 治理，适用于微服务流量统一管理。",
+      "tags": [
+        "java",
+        "api-gateway",
+        "microservices",
+        "proxy",
+        "apache"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T03:42:20.485Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opendataloader-pdf",
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 29724,
+      "forks": 2826,
+      "starsToday": 242,
+      "topics": [],
+      "author": {
+        "name": "opendataloader-project",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/opendataloader-project"
+      },
+      "summary": "开源 Java PDF 解析工具，将 PDF 转为 AI 可用数据并自动生成无障碍标签，适合 RAG 与文档处理。",
+      "tags": [
+        "pdf",
+        "parser",
+        "java",
+        "accessibility",
+        "rag",
+        "data"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-16T03:42:21.726Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cloudstack",
+      "fullName": "apache/cloudstack",
+      "url": "https://github.com/apache/cloudstack",
+      "description": "Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 3103,
+      "forks": 1403,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/95203?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache CloudStack 是开源 IaaS 云平台，用 Java 编写，可编排虚拟机、存储与网络，快速搭建私有云或公有云。",
+      "tags": [
+        "cloud",
+        "iaas",
+        "java",
+        "infrastructure",
+        "virtualization"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-16T03:42:21.982Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Apktool",
+      "fullName": "iBotPeaches/Apktool",
+      "url": "https://github.com/iBotPeaches/Apktool",
+      "description": "A tool for reverse engineering Android apk files",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 25941,
+      "forks": 4046,
+      "starsToday": 185,
+      "topics": [],
+      "author": {
+        "name": "iBotPeaches",
+        "avatar": "https://avatars.githubusercontent.com/u/611784?s=40&amp;v=4",
+        "url": "https://github.com/iBotPeaches"
+      },
+      "summary": "Apktool 是 Android APK 逆向工程工具，可反编译资源与字节码、修改后重新打包并签名，是安卓应用分析与汉化的基础工具。",
+      "tags": [
+        "android",
+        "reverse-engineering",
+        "apk",
+        "java",
+        "decompiler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T03:42:23.208Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DnsConf",
+      "fullName": "noVibe/DnsConf",
+      "url": "https://github.com/noVibe/DnsConf",
+      "description": "DNS Block and Redirect configurer for Cloudflare / NextDNS",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1156,
+      "forks": 3792,
+      "starsToday": 95,
+      "topics": [],
+      "author": {
+        "name": "noVibe",
+        "avatar": "https://avatars.githubusercontent.com/u/117359029?s=40&amp;v=4",
+        "url": "https://github.com/noVibe"
+      },
+      "summary": "面向 Cloudflare 与 NextDNS 的 DNS 拦截与重定向配置工具，帮助用户集中管理域名屏蔽规则和解析重定向。",
+      "tags": [
+        "dns",
+        "cloudflare",
+        "nextdns",
+        "java",
+        "networking"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T03:42:21.826Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "so-novel",
+      "fullName": "freeok/so-novel",
+      "url": "https://github.com/freeok/so-novel",
+      "description": "小说下载｜网文下载 | 网络小说",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 8587,
+      "forks": 755,
+      "starsToday": 222,
+      "topics": [],
+      "author": {
+        "name": "freeok",
+        "avatar": "https://avatars.githubusercontent.com/u/51998152?s=40&amp;v=4",
+        "url": "https://github.com/freeok"
+      },
+      "summary": "基于 Java 的网络小说下载工具，支持多站点书源抓取并导出为常见电子书格式，方便离线阅读与批量下载。",
+      "tags": [
+        "novel",
+        "downloader",
+        "java",
+        "ebook",
+        "scraper"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T13:48:57.234Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LeviLaunchroid",
+      "fullName": "LiteLDev/LeviLaunchroid",
+      "url": "https://github.com/LiteLDev/LeviLaunchroid",
+      "description": "A launcher designed for Minecraft Bedrock Edition on Android",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 624,
+      "forks": 150,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "LiteLDev",
+        "avatar": "https://avatars.githubusercontent.com/u/198057285?s=40&amp;v=4",
+        "url": "https://github.com/LiteLDev"
+      },
+      "summary": "面向安卓的 Minecraft 基岩版启动器，可管理游戏版本与模组，简化启动流程。",
+      "tags": [
+        "minecraft",
+        "launcher",
+        "android",
+        "java",
+        "gaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T03:42:22.023Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Fermata",
+      "fullName": "AndreyPavlenko/Fermata",
+      "url": "https://github.com/AndreyPavlenko/Fermata",
+      "description": "",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1425,
+      "forks": 217,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "AndreyPavlenko",
+        "avatar": "https://avatars.githubusercontent.com/u/1067755?s=40&amp;v=4",
+        "url": "https://github.com/AndreyPavlenko"
+      },
+      "summary": "开源 Android 媒体播放器，支持视频、音乐、网络串流与电视直播，界面简洁且功能完整。",
+      "tags": [
+        "android",
+        "media-player",
+        "java",
+        "video",
+        "iptv"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-16T13:48:57.304Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentscope-java",
+      "fullName": "agentscope-ai/agentscope-java",
+      "url": "https://github.com/agentscope-ai/agentscope-java",
+      "description": "Build distributed, production-grade, long-running agents.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 6008,
+      "forks": 1494,
+      "starsToday": 113,
+      "topics": [],
+      "author": {
+        "name": "agentscope-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/9292748?s=40&amp;v=4",
+        "url": "https://github.com/agentscope-ai"
+      },
+      "summary": "AgentScope 的 Java 实现，用于构建分布式、生产级、可长期运行的智能体系统，提供多智能体编排与工程化能力。",
+      "tags": [
+        "agents",
+        "java",
+        "llm",
+        "multi-agent",
+        "distributed",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-16T13:48:56.253Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beam",
+      "fullName": "apache/beam",
+      "url": "https://github.com/apache/beam",
+      "description": "Apache Beam is a unified programming model for Batch and Streaming data processing.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 8684,
+      "forks": 4678,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/575353?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Beam 是统一的批处理与流式数据处理编程模型，提供多语言 SDK 与可移植运行器，实现一次编写、多引擎执行。",
+      "tags": [
+        "data-processing",
+        "streaming",
+        "batch",
+        "java",
+        "apache"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-16T03:42:20.847Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Chat2DB",
+      "fullName": "OtterMind/Chat2DB",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "description": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 28320,
+      "forks": 3070,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "OtterMind",
+        "avatar": "https://avatars.githubusercontent.com/u/86969353?s=40&amp;v=4",
+        "url": "https://github.com/OtterMind"
+      },
+      "summary": "跨平台本地优先的数据库客户端与SQL工作台，支持40多种数据库，可用自有AI模型生成、解释和优化SQL，提供桌面、Web、Docker和CLI版本并支持MCP。",
+      "tags": [
+        "database",
+        "sql",
+        "ai",
+        "mcp",
+        "java",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-16T13:48:55.927Z",
       "deepwikiAvailable": false
     },
     {
@@ -257,232 +597,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-16T03:42:20.447Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ruoyi-vue-pro",
-      "fullName": "YunaiV/ruoyi-vue-pro",
-      "url": "https://github.com/YunaiV/ruoyi-vue-pro",
-      "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 39828,
-      "forks": 8585,
-      "starsToday": 250,
-      "topics": [],
-      "author": {
-        "name": "YunaiV",
-        "avatar": "https://avatars.githubusercontent.com/u/2015545?s=40&amp;v=4",
-        "url": "https://github.com/YunaiV"
-      },
-      "summary": "基于 Spring Boot + MyBatis Plus + Vue 的后台管理系统，支持 RBAC 权限、多租户、工作流、支付、商城、CRM、IoT 与 AI 大模型等企业级功能。",
-      "tags": [
-        "java",
-        "spring-boot",
-        "admin",
-        "vue",
-        "saas",
-        "workflow"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-16T03:42:20.607Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "shenyu",
-      "fullName": "apache/shenyu",
-      "url": "https://github.com/apache/shenyu",
-      "description": "Apache ShenYu is a Java native API Gateway for service proxy, protocol conversion and API governance.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 8851,
-      "forks": 3082,
-      "starsToday": 10,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/9673503?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache ShenYu 是 Java 原生 API 网关，支持服务代理、协议转换与 API 治理，适用于微服务流量统一管理。",
-      "tags": [
-        "java",
-        "api-gateway",
-        "microservices",
-        "proxy",
-        "apache"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-16T03:42:20.485Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "beam",
-      "fullName": "apache/beam",
-      "url": "https://github.com/apache/beam",
-      "description": "Apache Beam is a unified programming model for Batch and Streaming data processing.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 8684,
-      "forks": 4677,
-      "starsToday": 8,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/575353?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache Beam 是统一的批处理与流式数据处理编程模型，提供多语言 SDK 与可移植运行器，实现一次编写、多引擎执行。",
-      "tags": [
-        "data-processing",
-        "streaming",
-        "batch",
-        "java",
-        "apache"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-16T03:42:20.847Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "LeviLaunchroid",
-      "fullName": "LiteLDev/LeviLaunchroid",
-      "url": "https://github.com/LiteLDev/LeviLaunchroid",
-      "description": "A launcher designed for Minecraft Bedrock Edition on Android",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 624,
-      "forks": 148,
-      "starsToday": 15,
-      "topics": [],
-      "author": {
-        "name": "LiteLDev",
-        "avatar": "https://avatars.githubusercontent.com/u/198057285?s=40&amp;v=4",
-        "url": "https://github.com/LiteLDev"
-      },
-      "summary": "面向安卓的 Minecraft 基岩版启动器，可管理游戏版本与模组，简化启动流程。",
-      "tags": [
-        "minecraft",
-        "launcher",
-        "android",
-        "java",
-        "gaming"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-16T03:42:22.023Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "opendataloader-pdf",
-      "fullName": "opendataloader-project/opendataloader-pdf",
-      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
-      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 29718,
-      "forks": 2823,
-      "starsToday": 242,
-      "topics": [],
-      "author": {
-        "name": "opendataloader-project",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/opendataloader-project"
-      },
-      "summary": "开源 Java PDF 解析工具，将 PDF 转为 AI 可用数据并自动生成无障碍标签，适合 RAG 与文档处理。",
-      "tags": [
-        "pdf",
-        "parser",
-        "java",
-        "accessibility",
-        "rag",
-        "data"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-16T03:42:21.726Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "DnsConf",
-      "fullName": "noVibe/DnsConf",
-      "url": "https://github.com/noVibe/DnsConf",
-      "description": "DNS Block and Redirect configurer for Cloudflare / NextDNS",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 1152,
-      "forks": 3769,
-      "starsToday": 95,
-      "topics": [],
-      "author": {
-        "name": "noVibe",
-        "avatar": "https://avatars.githubusercontent.com/u/117359029?s=40&amp;v=4",
-        "url": "https://github.com/noVibe"
-      },
-      "summary": "面向 Cloudflare 与 NextDNS 的 DNS 拦截与重定向配置工具，帮助用户集中管理域名屏蔽规则和解析重定向。",
-      "tags": [
-        "dns",
-        "cloudflare",
-        "nextdns",
-        "java",
-        "networking"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-16T03:42:21.826Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cloudstack",
-      "fullName": "apache/cloudstack",
-      "url": "https://github.com/apache/cloudstack",
-      "description": "Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 3103,
-      "forks": 1400,
-      "starsToday": 14,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/95203?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache CloudStack 是开源 IaaS 云平台，用 Java 编写，可编排虚拟机、存储与网络，快速搭建私有云或公有云。",
-      "tags": [
-        "cloud",
-        "iaas",
-        "java",
-        "infrastructure",
-        "virtualization"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-16T03:42:21.982Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Apktool",
-      "fullName": "iBotPeaches/Apktool",
-      "url": "https://github.com/iBotPeaches/Apktool",
-      "description": "A tool for reverse engineering Android apk files",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 25936,
-      "forks": 4047,
-      "starsToday": 185,
-      "topics": [],
-      "author": {
-        "name": "iBotPeaches",
-        "avatar": "https://avatars.githubusercontent.com/u/611784?s=40&amp;v=4",
-        "url": "https://github.com/iBotPeaches"
-      },
-      "summary": "Apktool 是 Android APK 逆向工程工具，可反编译资源与字节码、修改后重新打包并签名，是安卓应用分析与汉化的基础工具。",
-      "tags": [
-        "android",
-        "reverse-engineering",
-        "apk",
-        "java",
-        "decompiler"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-16T03:42:23.208Z",
       "deepwikiAvailable": false
     },
     {
