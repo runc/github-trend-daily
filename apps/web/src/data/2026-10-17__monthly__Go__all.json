@@ -2,8 +2,8 @@
   "date": "2026-10-17",
   "since": "monthly",
   "language": "Go",
-  "fetchedAt": "2026-10-17T03:30:42.422Z",
-  "enrichedAt": "2026-10-17T03:32:34.742Z",
+  "fetchedAt": "2026-10-17T12:45:10.644Z",
+  "enrichedAt": "2026-10-17T12:46:05.705Z",
   "repos": [
     {
       "name": "substrate",
@@ -12,8 +12,8 @@
       "description": "Agent Substrate: the core system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5328,
-      "forks": 585,
+      "stars": 5370,
+      "forks": 589,
       "starsToday": 3417,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 34413,
-      "forks": 4589,
+      "stars": 34467,
+      "forks": 4594,
       "starsToday": 9769,
       "topics": [],
       "author": {
@@ -62,41 +62,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "open-code-review",
-      "fullName": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 47503,
-      "forks": 3465,
-      "starsToday": 17022,
-      "topics": [],
-      "author": {
-        "name": "alibaba",
-        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
-        "url": "https://github.com/alibaba"
-      },
-      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic接口。",
-      "tags": [
-        "code-review",
-        "llm",
-        "go",
-        "static-analysis",
-        "security"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-17T03:32:28.311Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "caddy",
       "fullName": "caddyserver/caddy",
       "url": "https://github.com/caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 78060,
+      "stars": 78066,
       "forks": 5147,
       "starsToday": 2530,
       "topics": [],
@@ -118,14 +90,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "openbao",
+      "fullName": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8486,
+      "forks": 632,
+      "starsToday": 1129,
+      "topics": [],
+      "author": {
+        "name": "openbao",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/openbao"
+      },
+      "summary": "OpenBao 是开源的机密管理平台，用于安全存储、管理和分发密钥、证书等敏感数据，是 Vault 的开源分支。",
+      "tags": [
+        "secrets",
+        "security",
+        "vault",
+        "go",
+        "encryption"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T03:32:33.481Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "coder",
       "fullName": "coder/coder",
       "url": "https://github.com/coder/coder",
       "description": "Secure environments for developers and their agents",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 17052,
-      "forks": 1637,
+      "stars": 17059,
+      "forks": 1636,
       "starsToday": 2679,
       "topics": [],
       "author": {
@@ -146,42 +146,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "pentagi",
-      "fullName": "vxcontrol/pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 30764,
-      "forks": 4679,
-      "starsToday": 6328,
-      "topics": [],
-      "author": {
-        "name": "vxcontrol",
-        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
-        "url": "https://github.com/vxcontrol"
-      },
-      "summary": "基于Go开发的全自主AI智能体系统，可自动执行复杂渗透测试任务，覆盖侦察、漏洞利用与报告全流程。",
-      "tags": [
-        "pentesting",
-        "ai-agents",
-        "security",
-        "go",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-17T03:32:29.512Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "engram",
       "fullName": "Gentleman-Programming/engram",
       "url": "https://github.com/Gentleman-Programming/engram",
       "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 7366,
-      "forks": 769,
+      "stars": 7382,
+      "forks": 770,
       "starsToday": 715,
       "topics": [],
       "author": {
@@ -203,31 +175,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "cli",
-      "fullName": "urfave/cli",
-      "url": "https://github.com/urfave/cli",
-      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24293,
-      "forks": 1866,
-      "starsToday": 80,
+      "stars": 30838,
+      "forks": 4732,
+      "starsToday": 6328,
       "topics": [],
       "author": {
-        "name": "urfave",
-        "avatar": "https://avatars.githubusercontent.com/u/3200486?s=40&amp;v=4",
-        "url": "https://github.com/urfave"
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
       },
-      "summary": "Go 语言命令行应用构建库，以声明式 API 快速定义命令、参数与子命令，简洁高效，是 Go CLI 开发的主流选择。",
+      "summary": "基于Go开发的全自主AI智能体系统，可自动执行复杂渗透测试任务，覆盖侦察、漏洞利用与报告全流程。",
       "tags": [
+        "pentesting",
+        "ai-agents",
+        "security",
         "go",
-        "cli",
-        "command-line",
-        "library",
-        "flags"
+        "automation"
       ],
-      "category": "Library",
-      "enrichedAt": "2026-10-17T03:32:29.796Z",
+      "category": "AI",
+      "enrichedAt": "2026-10-17T03:32:29.512Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 183575,
+      "forks": 18349,
+      "starsToday": 3166,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的轻量工具，一条命令即可下载并推理，支持多平台与 API 调用。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "self-hosted",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-17T03:32:30.931Z",
       "deepwikiAvailable": false
     },
     {
@@ -237,7 +237,7 @@
       "description": "AI Agent Builder and Runtime by Docker Engineering",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 4548,
+      "stars": 4553,
       "forks": 521,
       "starsToday": 1228,
       "topics": [],
@@ -259,13 +259,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "cli",
+      "fullName": "urfave/cli",
+      "url": "https://github.com/urfave/cli",
+      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24291,
+      "forks": 1882,
+      "starsToday": 80,
+      "topics": [],
+      "author": {
+        "name": "urfave",
+        "avatar": "https://avatars.githubusercontent.com/u/3200486?s=40&amp;v=4",
+        "url": "https://github.com/urfave"
+      },
+      "summary": "Go 语言命令行应用构建库，以声明式 API 快速定义命令、参数与子命令，简洁高效，是 Go CLI 开发的主流选择。",
+      "tags": [
+        "go",
+        "cli",
+        "command-line",
+        "library",
+        "flags"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-17T03:32:29.796Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "tuios",
       "fullName": "Gaurav-Gosain/tuios",
       "url": "https://github.com/Gaurav-Gosain/tuios",
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 5431,
+      "stars": 5439,
       "forks": 255,
       "starsToday": 1787,
       "topics": [],
@@ -293,7 +321,7 @@
       "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2996,
+      "stars": 2999,
       "forks": 546,
       "starsToday": 508,
       "topics": [],
@@ -312,62 +340,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-17T03:32:30.893Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 183506,
-      "forks": 18339,
-      "starsToday": 3166,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的轻量工具，一条命令即可下载并推理，支持多平台与 API 调用。",
-      "tags": [
-        "llm",
-        "local-inference",
-        "go",
-        "self-hosted",
-        "ai"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-17T03:32:30.931Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "compose",
-      "fullName": "docker/compose",
-      "url": "https://github.com/docker/compose",
-      "description": "Define and run multi-container applications with Docker",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 38375,
-      "forks": 5876,
-      "starsToday": 398,
-      "topics": [],
-      "author": {
-        "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
-        "url": "https://github.com/docker"
-      },
-      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令编排启动整套服务，是本地开发与部署的标准工具。",
-      "tags": [
-        "docker",
-        "containers",
-        "orchestration",
-        "devops",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-17T03:32:31.764Z",
       "deepwikiAvailable": false
     },
     {
@@ -399,31 +371,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "trufflehog",
-      "fullName": "trufflesecurity/trufflehog",
-      "url": "https://github.com/trufflesecurity/trufflehog",
-      "description": "Find, verify, and analyze leaked credentials",
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 28542,
-      "forks": 2644,
-      "starsToday": 663,
+      "stars": 38378,
+      "forks": 5877,
+      "starsToday": 398,
       "topics": [],
       "author": {
-        "name": "trufflesecurity",
-        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
-        "url": "https://github.com/trufflesecurity"
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
       },
-      "summary": "用Go编写的密钥泄露扫描工具，可在代码仓库、文件系统和CI中查找并验证泄露的凭据，支持800多种检测器，有效降低误报。",
+      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令编排启动整套服务，是本地开发与部署的标准工具。",
       "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "golang",
-        "devsecops"
+        "docker",
+        "containers",
+        "orchestration",
+        "devops",
+        "go"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-10-17T03:32:32.100Z",
+      "enrichedAt": "2026-10-17T03:32:31.764Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5409,
+      "forks": 593,
+      "starsToday": 295,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的 Agentic Workflows 工具，用 Go 编写，让 AI 智能体以声明式方式编排 GitHub Actions 自动化流程。",
+      "tags": [
+        "github-actions",
+        "ai-agents",
+        "workflow",
+        "go",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T12:46:05.570Z",
       "deepwikiAvailable": false
     },
     {
@@ -433,8 +433,8 @@
       "description": "ZITADEL - Identity infrastructure, simplified for you.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 15329,
-      "forks": 1379,
+      "stars": 15332,
+      "forks": 1381,
       "starsToday": 329,
       "topics": [],
       "author": {
@@ -461,8 +461,8 @@
       "description": "The Go programming language",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 139275,
-      "forks": 22570,
+      "stars": 139282,
+      "forks": 22569,
       "starsToday": 1402,
       "topics": [],
       "author": {
@@ -480,6 +480,203 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-17T03:32:32.890Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "memos",
+      "fullName": "usememos/memos",
+      "url": "https://github.com/usememos/memos",
+      "description": "A personal timeline for quick notes. Write short memos, find them later by search, tag, or date. Open source and self-hosted.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 63862,
+      "forks": 4866,
+      "starsToday": 901,
+      "topics": [],
+      "author": {
+        "name": "usememos",
+        "avatar": "https://avatars.githubusercontent.com/u/24653555?s=40&amp;v=4",
+        "url": "https://github.com/usememos"
+      },
+      "summary": "开源自托管的轻量笔记工具，以时间线形式记录短笔记，支持搜索、标签和日期检索，Go 编写，部署简单。",
+      "tags": [
+        "notes",
+        "self-hosted",
+        "go",
+        "memo",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-17T03:32:34.023Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "seaweedfs",
+      "fullName": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 35539,
+      "forks": 3072,
+      "starsToday": 872,
+      "topics": [],
+      "author": {
+        "name": "seaweedfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
+        "url": "https://github.com/seaweedfs"
+      },
+      "summary": "Go 编写的分布式存储系统，支持 S3 对象存储、文件系统与 Iceberg 表，以 O(1) 磁盘访问轻松承载数十亿文件并水平扩展。",
+      "tags": [
+        "storage",
+        "s3",
+        "distributed",
+        "golang",
+        "filesystem"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T03:32:33.350Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform",
+      "fullName": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49941,
+      "forks": 10647,
+      "starsToday": 506,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/35067?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "Terraform 是 HashiCorp 开源的声明式基础设施即代码工具，用配置文件安全可预测地创建、变更和管理云资源，支持版本化与团队协作。",
+      "tags": [
+        "terraform",
+        "iac",
+        "devops",
+        "infrastructure",
+        "go",
+        "cloud"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T03:32:34.742Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42156,
+      "forks": 5999,
+      "starsToday": 650,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Go 编写的网络代理平台，兼容 v2ray-core 并支持 XTLS 等协议，用于构建高性能代理与网络穿透工具。",
+      "tags": [
+        "proxy",
+        "networking",
+        "golang",
+        "v2ray",
+        "xtls"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T12:46:05.705Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 66601,
+      "forks": 10920,
+      "starsToday": 803,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可观测性，是云原生监控事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "promql",
+        "time-series",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T12:46:05.696Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28552,
+      "forks": 2644,
+      "starsToday": 663,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "用Go编写的密钥泄露扫描工具，可在代码仓库、文件系统和CI中查找并验证泄露的凭据，支持800多种检测器，有效降低误报。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "golang",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T03:32:32.100Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47503,
+      "forks": 3465,
+      "starsToday": 17022,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic接口。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T03:32:28.311Z",
       "deepwikiAvailable": false
     },
     {
@@ -508,119 +705,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-17T03:32:33.320Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openbao",
-      "fullName": "openbao/openbao",
-      "url": "https://github.com/openbao/openbao",
-      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8483,
-      "forks": 632,
-      "starsToday": 1129,
-      "topics": [],
-      "author": {
-        "name": "openbao",
-        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
-        "url": "https://github.com/openbao"
-      },
-      "summary": "OpenBao 是开源的机密管理平台，用于安全存储、管理和分发密钥、证书等敏感数据，是 Vault 的开源分支。",
-      "tags": [
-        "secrets",
-        "security",
-        "vault",
-        "go",
-        "encryption"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-17T03:32:33.481Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "seaweedfs",
-      "fullName": "seaweedfs/seaweedfs",
-      "url": "https://github.com/seaweedfs/seaweedfs",
-      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 35531,
-      "forks": 3073,
-      "starsToday": 872,
-      "topics": [],
-      "author": {
-        "name": "seaweedfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1543151?s=40&amp;v=4",
-        "url": "https://github.com/seaweedfs"
-      },
-      "summary": "Go 编写的分布式存储系统，支持 S3 对象存储、文件系统与 Iceberg 表，以 O(1) 磁盘访问轻松承载数十亿文件并水平扩展。",
-      "tags": [
-        "storage",
-        "s3",
-        "distributed",
-        "golang",
-        "filesystem"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-17T03:32:33.350Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "memos",
-      "fullName": "usememos/memos",
-      "url": "https://github.com/usememos/memos",
-      "description": "A personal timeline for quick notes. Write short memos, find them later by search, tag, or date. Open source and self-hosted.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 63856,
-      "forks": 4867,
-      "starsToday": 901,
-      "topics": [],
-      "author": {
-        "name": "usememos",
-        "avatar": "https://avatars.githubusercontent.com/u/24653555?s=40&amp;v=4",
-        "url": "https://github.com/usememos"
-      },
-      "summary": "开源自托管的轻量笔记工具，以时间线形式记录短笔记，支持搜索、标签和日期检索，Go 编写，部署简单。",
-      "tags": [
-        "notes",
-        "self-hosted",
-        "go",
-        "memo",
-        "privacy"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-17T03:32:34.023Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "terraform",
-      "fullName": "hashicorp/terraform",
-      "url": "https://github.com/hashicorp/terraform",
-      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 49936,
-      "forks": 10647,
-      "starsToday": 506,
-      "topics": [],
-      "author": {
-        "name": "hashicorp",
-        "avatar": "https://avatars.githubusercontent.com/u/35067?s=40&amp;v=4",
-        "url": "https://github.com/hashicorp"
-      },
-      "summary": "Terraform 是 HashiCorp 开源的声明式基础设施即代码工具，用配置文件安全可预测地创建、变更和管理云资源，支持版本化与团队协作。",
-      "tags": [
-        "terraform",
-        "iac",
-        "devops",
-        "infrastructure",
-        "go",
-        "cloud"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-17T03:32:34.742Z",
       "deepwikiAvailable": false
     },
     {

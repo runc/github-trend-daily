@@ -2,9 +2,37 @@
   "date": "2026-10-17",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-17T03:30:42.422Z",
-  "enrichedAt": "2026-10-17T03:31:29.955Z",
+  "fetchedAt": "2026-10-17T12:45:10.644Z",
+  "enrichedAt": "2026-10-17T12:45:48.741Z",
   "repos": [
+    {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9688,
+      "forks": 693,
+      "starsToday": 159,
+      "topics": [],
+      "author": {
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
+      },
+      "summary": "为编码智能体CLI提供长期记忆的方案，支持在不同厂商的agent之间交接上下文，用Rust实现。",
+      "tags": [
+        "memory",
+        "agents",
+        "rust",
+        "cli",
+        "context"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-17T03:31:26.954Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "xerj",
       "fullName": "xerj-org/xerj",
@@ -12,9 +40,9 @@
       "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7038,
-      "forks": 356,
-      "starsToday": 1648,
+      "stars": 7375,
+      "forks": 382,
+      "starsToday": 1102,
       "topics": [],
       "author": {
         "name": "xerj-org",
@@ -31,6 +59,399 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-17T03:31:27.035Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "magnitude",
+      "fullName": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. 2x faster than Ollama. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7041,
+      "forks": 482,
+      "starsToday": 219,
+      "topics": [],
+      "author": {
+        "name": "magnitudedev",
+        "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&amp;v=4",
+        "url": "https://github.com/magnitudedev"
+      },
+      "summary": "开源推理引擎，针对你的硬件自动调优内核以最快方式运行各模型，速度比Ollama快2倍，支持Apple Silicon、NVIDIA、AMD及纯CPU。",
+      "tags": [
+        "inference",
+        "rust",
+        "llm",
+        "performance",
+        "gpu"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-17T03:31:29.955Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zed",
+      "fullName": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 91849,
+      "forks": 11093,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "zed-industries",
+        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
+        "url": "https://github.com/zed-industries"
+      },
+      "summary": "Atom 与 Tree-sitter 作者打造的 Rust 高性能多人协作代码编辑器，主打极速响应与实时协作。",
+      "tags": [
+        "editor",
+        "rust",
+        "collaboration",
+        "ide",
+        "performance"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T12:45:46.637Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dynamo",
+      "fullName": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8317,
+      "forks": 1717,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "ai-dynamo",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/ai-dynamo"
+      },
+      "summary": "基于Rust的数据中心级分布式推理服务框架，支持跨节点大规模部署与高效调度LLM推理负载。",
+      "tags": [
+        "inference",
+        "rust",
+        "distributed",
+        "llm",
+        "serving"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T03:31:29.249Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Konnect",
+      "fullName": "mixelpixx/Konnect",
+      "url": "https://github.com/mixelpixx/Konnect",
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1218,
+      "forks": 139,
+      "starsToday": 228,
+      "topics": [],
+      "author": {
+        "name": "mixelpixx",
+        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
+        "url": "https://github.com/mixelpixx"
+      },
+      "summary": "面向 KiCAD 10 的 AI 辅助 PCB 设计插件，以单个 Rust 二进制向 Claude 等大模型暴露 217 个原理图、布局、布线、器件放置、设计审查与制造工具。",
+      "tags": [
+        "pcb",
+        "kicad",
+        "rust",
+        "llm",
+        "eda",
+        "plugin"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T12:45:46.547Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenBitFun",
+      "fullName": "GCWing/OpenBitFun",
+      "url": "https://github.com/GCWing/OpenBitFun",
+      "description": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2827,
+      "forks": 267,
+      "starsToday": 151,
+      "topics": [],
+      "author": {
+        "name": "GCWing",
+        "avatar": "https://avatars.githubusercontent.com/u/24753352?s=40&amp;v=4",
+        "url": "https://github.com/GCWing"
+      },
+      "summary": "基于Rust高性能Agent运行时与桌面应用的通用AI助手，兼具代码Agent深度与跨领域通用能力。",
+      "tags": [
+        "rust",
+        "agent",
+        "desktop",
+        "ai",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-17T12:45:46.682Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nautilus_trader",
+      "fullName": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30233,
+      "forks": 4051,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "nautechsystems",
+        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
+        "url": "https://github.com/nautechsystems"
+      },
+      "summary": "Rust原生高性能量化交易引擎，采用确定性事件驱动架构，支持回测与实盘交易，生产级可用。",
+      "tags": [
+        "trading",
+        "rust",
+        "quant",
+        "backtesting",
+        "event-driven"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-17T12:45:46.686Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16596,
+      "forks": 786,
+      "starsToday": 65,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的离线语法检查器，速度快、注重隐私，完全开源，可本地实时校验英文写作。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "linter"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T03:31:29.316Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "surrealdb",
+      "fullName": "surrealdb/surrealdb",
+      "url": "https://github.com/surrealdb/surrealdb",
+      "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33188,
+      "forks": 1425,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "surrealdb",
+        "avatar": "https://avatars.githubusercontent.com/u/1588290?s=40&amp;v=4",
+        "url": "https://github.com/surrealdb"
+      },
+      "summary": "Rust 编写的可扩展分布式文档-图数据库，融合文档与图模型并支持实时查询，面向实时 Web 应用。",
+      "tags": [
+        "database",
+        "rust",
+        "distributed",
+        "graph",
+        "realtime"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-17T12:45:47.689Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mise",
+      "fullName": "jdx/mise",
+      "url": "https://github.com/jdx/mise",
+      "description": "dev tools, env vars, task runner",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 35108,
+      "forks": 1486,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "jdx",
+        "avatar": "https://avatars.githubusercontent.com/u/216188?s=40&amp;v=4",
+        "url": "https://github.com/jdx"
+      },
+      "summary": "Rust 编写的开发工具与环境变量管理器，统一管理多语言运行时版本、环境变量和任务脚本，替代 asdf、direnv、make 等工具。",
+      "tags": [
+        "rust",
+        "version-manager",
+        "task-runner",
+        "devtools",
+        "env"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T12:45:47.640Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 126084,
+      "forks": 19775,
+      "starsToday": 109,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建中继服务器，可作为 TeamViewer 的替代方案，用 Rust 编写，跨平台且开箱即用。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "p2p"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-17T03:31:29.551Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vite-plus",
+      "fullName": "voidzero-dev/vite-plus",
+      "url": "https://github.com/voidzero-dev/vite-plus",
+      "description": "The unified toolchain and entry point for web development.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6337,
+      "forks": 283,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "voidzero-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/156269?s=40&amp;v=4",
+        "url": "https://github.com/voidzero-dev"
+      },
+      "summary": "Vite 官方统一工具链与入口，用 Rust 整合 Web 开发所需的构建、检查等环节，简化前端工程配置。",
+      "tags": [
+        "vite",
+        "toolchain",
+        "rust",
+        "web",
+        "build"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T03:31:28.568Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "monty",
+      "fullName": "pydantic/monty",
+      "url": "https://github.com/pydantic/monty",
+      "description": "A secure Python sandbox, written in Rust, for code written by AI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8695,
+      "forks": 459,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "pydantic",
+        "avatar": "https://avatars.githubusercontent.com/u/4039449?s=40&amp;v=4",
+        "url": "https://github.com/pydantic"
+      },
+      "summary": "用 Rust 实现的安全 Python 沙箱，专为运行 AI 生成的代码设计，兼顾隔离性与执行效率。",
+      "tags": [
+        "python",
+        "sandbox",
+        "rust",
+        "security",
+        "ai"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T12:45:47.929Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "foundry",
+      "fullName": "foundry-rs/foundry",
+      "url": "https://github.com/foundry-rs/foundry",
+      "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10674,
+      "forks": 2677,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "foundry-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/19890894?s=40&amp;v=4",
+        "url": "https://github.com/foundry-rs"
+      },
+      "summary": "用 Rust 编写的以太坊开发工具链，集成编译、测试、部署与链上交互，速度极快且模块化。",
+      "tags": [
+        "ethereum",
+        "rust",
+        "solidity",
+        "smart-contracts",
+        "toolkit"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T12:45:47.629Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Ghostex",
+      "fullName": "maddada/Ghostex",
+      "url": "https://github.com/maddada/Ghostex",
+      "description": "The Best & Most Powerful Native Agents Workspace. Fully Rust & GPUI based. Mobile apps. 20+ agents. Ghostty.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1220,
+      "forks": 83,
+      "starsToday": 63,
+      "topics": [],
+      "author": {
+        "name": "maddada",
+        "avatar": "https://avatars.githubusercontent.com/u/1892053?s=40&amp;v=4",
+        "url": "https://github.com/maddada"
+      },
+      "summary": "基于 Rust 与 GPUI 构建的原生 AI 智能体工作台，内置 20+ 智能体并支持移动端，性能强、体验流畅。",
+      "tags": [
+        "rust",
+        "gpui",
+        "ai-agents",
+        "workspace",
+        "desktop"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-17T12:45:48.741Z",
       "deepwikiAvailable": false
     },
     {
@@ -59,34 +480,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-17T03:31:26.831Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-memory",
-      "fullName": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 9626,
-      "forks": 690,
-      "starsToday": 159,
-      "topics": [],
-      "author": {
-        "name": "akitaonrails",
-        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
-        "url": "https://github.com/akitaonrails"
-      },
-      "summary": "为编码智能体CLI提供长期记忆的方案，支持在不同厂商的agent之间交接上下文，用Rust实现。",
-      "tags": [
-        "memory",
-        "agents",
-        "rust",
-        "cli",
-        "context"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-17T03:31:26.954Z",
       "deepwikiAvailable": false
     },
     {
@@ -199,146 +592,6 @@
       ],
       "category": "Hardware",
       "enrichedAt": "2026-10-17T03:31:28.186Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "vite-plus",
-      "fullName": "voidzero-dev/vite-plus",
-      "url": "https://github.com/voidzero-dev/vite-plus",
-      "description": "The unified toolchain and entry point for web development.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6328,
-      "forks": 282,
-      "starsToday": 87,
-      "topics": [],
-      "author": {
-        "name": "voidzero-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/156269?s=40&amp;v=4",
-        "url": "https://github.com/voidzero-dev"
-      },
-      "summary": "Vite 官方统一工具链与入口，用 Rust 整合 Web 开发所需的构建、检查等环节，简化前端工程配置。",
-      "tags": [
-        "vite",
-        "toolchain",
-        "rust",
-        "web",
-        "build"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-17T03:31:28.568Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dynamo",
-      "fullName": "ai-dynamo/dynamo",
-      "url": "https://github.com/ai-dynamo/dynamo",
-      "description": "A Datacenter Scale Distributed Inference Serving Framework",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 8316,
-      "forks": 1717,
-      "starsToday": 11,
-      "topics": [],
-      "author": {
-        "name": "ai-dynamo",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/ai-dynamo"
-      },
-      "summary": "基于Rust的数据中心级分布式推理服务框架，支持跨节点大规模部署与高效调度LLM推理负载。",
-      "tags": [
-        "inference",
-        "rust",
-        "distributed",
-        "llm",
-        "serving"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-17T03:31:29.249Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 126045,
-      "forks": 19768,
-      "starsToday": 124,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面应用，支持自建中继服务器，可作为 TeamViewer 的替代方案，用 Rust 编写，跨平台且开箱即用。",
-      "tags": [
-        "remote-desktop",
-        "rust",
-        "self-hosted",
-        "teamviewer-alternative",
-        "p2p"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-17T03:31:29.551Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "harper",
-      "fullName": "Automattic/harper",
-      "url": "https://github.com/Automattic/harper",
-      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 16570,
-      "forks": 762,
-      "starsToday": 65,
-      "topics": [],
-      "author": {
-        "name": "Automattic",
-        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
-        "url": "https://github.com/Automattic"
-      },
-      "summary": "基于 Rust 的离线语法检查器，速度快、注重隐私，完全开源，可本地实时校验英文写作。",
-      "tags": [
-        "rust",
-        "grammar",
-        "privacy",
-        "offline",
-        "linter"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-17T03:31:29.316Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "magnitude",
-      "fullName": "magnitudedev/magnitude",
-      "url": "https://github.com/magnitudedev/magnitude",
-      "description": "Open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. 2x faster than Ollama. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7022,
-      "forks": 481,
-      "starsToday": 219,
-      "topics": [],
-      "author": {
-        "name": "magnitudedev",
-        "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&amp;v=4",
-        "url": "https://github.com/magnitudedev"
-      },
-      "summary": "开源推理引擎，针对你的硬件自动调优内核以最快方式运行各模型，速度比Ollama快2倍，支持Apple Silicon、NVIDIA、AMD及纯CPU。",
-      "tags": [
-        "inference",
-        "rust",
-        "llm",
-        "performance",
-        "gpu"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-17T03:31:29.955Z",
       "deepwikiAvailable": false
     }
   ]

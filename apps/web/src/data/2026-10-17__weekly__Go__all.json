@@ -2,8 +2,8 @@
   "date": "2026-10-17",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-10-17T03:30:42.422Z",
-  "enrichedAt": "2026-10-17T03:31:57.302Z",
+  "fetchedAt": "2026-10-17T12:45:10.644Z",
+  "enrichedAt": "2026-10-17T12:45:57.229Z",
   "repos": [
     {
       "name": "pentagi",
@@ -12,8 +12,8 @@
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 30764,
-      "forks": 4679,
+      "stars": 30838,
+      "forks": 4732,
       "starsToday": 5401,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "📂 Web File Browser",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 8784,
-      "forks": 489,
+      "stars": 8789,
+      "forks": 490,
       "starsToday": 228,
       "topics": [],
       "author": {
@@ -68,7 +68,7 @@
       "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2996,
+      "stars": 2999,
       "forks": 546,
       "starsToday": 227,
       "topics": [],
@@ -96,7 +96,7 @@
       "description": "An open-source, single-operator business command center: run a one-person operated company as AI-assisted departments (comms, funnel, social, finances, agents, and a knowledge graph) from one live dashboard.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 1168,
+      "stars": 1169,
       "forks": 328,
       "starsToday": 152,
       "topics": [],
@@ -118,14 +118,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 183575,
+      "forks": 18349,
+      "starsToday": 1098,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的命令行工具，一条命令即可下载并推理，开箱即用。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "models"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-17T03:31:54.524Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llm-d-router",
+      "fullName": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 416,
+      "forks": 459,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "llm-d",
+        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
+        "url": "https://github.com/llm-d"
+      },
+      "summary": "基于Go的LLM推理请求智能路由入口，为分布式推理集群提供调度与负载均衡，提升吞吐与延迟表现。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T03:31:54.504Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ttt",
       "fullName": "eugenioenko/ttt",
       "url": "https://github.com/eugenioenko/ttt",
       "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 604,
-      "forks": 66,
+      "stars": 610,
+      "forks": 68,
       "starsToday": 140,
       "topics": [],
       "author": {
@@ -143,6 +199,34 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-17T03:31:54.168Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whatsapp-mcp",
+      "fullName": "lharries/whatsapp-mcp",
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "description": "WhatsApp MCP server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6640,
+      "forks": 1417,
+      "starsToday": 220,
+      "topics": [],
+      "author": {
+        "name": "lharries",
+        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
+        "url": "https://github.com/lharries"
+      },
+      "summary": "基于Go的WhatsApp MCP服务器，让AI助手直接读取和发送WhatsApp消息，打通个人聊天数据与LLM。",
+      "tags": [
+        "mcp",
+        "whatsapp",
+        "go",
+        "llm",
+        "messaging"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-17T03:31:55.347Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,87 +258,144 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "name": "sliver",
+      "fullName": "BishopFox/sliver",
+      "url": "https://github.com/BishopFox/sliver",
+      "description": "Adversary Emulation Framework",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 183506,
-      "forks": 18339,
-      "starsToday": 1098,
+      "stars": 12137,
+      "forks": 1628,
+      "starsToday": 145,
       "topics": [],
       "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
+        "name": "BishopFox",
+        "avatar": "https://avatars.githubusercontent.com/u/875022?s=40&amp;v=4",
+        "url": "https://github.com/BishopFox"
       },
-      "summary": "本地运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的命令行工具，一条命令即可下载并推理，开箱即用。",
+      "summary": "Sliver 是 Go 编写的开源对手模拟框架，提供跨平台植入体、C2 通信与多人协作，用于红队演练与安全测试。",
       "tags": [
-        "llm",
-        "local-inference",
         "go",
-        "cli",
-        "models"
+        "red-team",
+        "c2",
+        "security",
+        "pentest"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-17T03:31:54.524Z",
+      "category": "Security",
+      "enrichedAt": "2026-10-17T03:31:55.795Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "llm-d-router",
-      "fullName": "llm-d/llm-d-router",
-      "url": "https://github.com/llm-d/llm-d-router",
-      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "name": "nginx-ui",
+      "fullName": "0xJacky/nginx-ui",
+      "url": "https://github.com/0xJacky/nginx-ui",
+      "description": "Yet another WebUI for Nginx",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 415,
-      "forks": 459,
-      "starsToday": 26,
+      "stars": 11638,
+      "forks": 903,
+      "starsToday": 64,
       "topics": [],
       "author": {
-        "name": "llm-d",
-        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
-        "url": "https://github.com/llm-d"
+        "name": "0xJacky",
+        "avatar": "https://avatars.githubusercontent.com/u/13096985?s=40&amp;v=4",
+        "url": "https://github.com/0xJacky"
       },
-      "summary": "基于Go的LLM推理请求智能路由入口，为分布式推理集群提供调度与负载均衡，提升吞吐与延迟表现。",
+      "summary": "基于Go开发的Nginx Web管理界面，提供配置在线编辑、证书管理与站点监控等可视化运维能力。",
       "tags": [
-        "llm",
-        "router",
-        "inference",
+        "nginx",
+        "webui",
         "go",
-        "kubernetes"
+        "self-hosted",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-17T03:31:56.497Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50114,
+      "forks": 12074,
+      "starsToday": 628,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型聚合与分发网关，将各类大模型转换为OpenAI、Claude、Gemini兼容格式，便于个人与企业集中管理调用。",
+      "tags": [
+        "ai",
+        "gateway",
+        "llm",
+        "openai",
+        "go"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-10-17T03:31:54.504Z",
+      "enrichedAt": "2026-10-17T03:31:55.754Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "whatsapp-mcp",
-      "fullName": "lharries/whatsapp-mcp",
-      "url": "https://github.com/lharries/whatsapp-mcp",
-      "description": "WhatsApp MCP server",
+      "name": "jaeger",
+      "fullName": "jaegertracing/jaeger",
+      "url": "https://github.com/jaegertracing/jaeger",
+      "description": "CNCF Jaeger, a Distributed Tracing Platform",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6638,
-      "forks": 1417,
-      "starsToday": 220,
+      "stars": 23300,
+      "forks": 3174,
+      "starsToday": 41,
       "topics": [],
       "author": {
-        "name": "lharries",
-        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
-        "url": "https://github.com/lharries"
+        "name": "jaegertracing",
+        "avatar": "https://avatars.githubusercontent.com/u/3523016?s=40&amp;v=4",
+        "url": "https://github.com/jaegertracing"
       },
-      "summary": "基于Go的WhatsApp MCP服务器，让AI助手直接读取和发送WhatsApp消息，打通个人聊天数据与LLM。",
+      "summary": "CNCF 分布式追踪平台 Jaeger，用 Go 实现，支持 OpenTelemetry 链路采集、存储与可视化分析，用于微服务调用链监控与性能排障。",
       "tags": [
-        "mcp",
-        "whatsapp",
+        "tracing",
+        "observability",
+        "distributed-systems",
         "go",
-        "llm",
-        "messaging"
+        "opentelemetry",
+        "cncf"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-17T12:45:57.229Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentmesh",
+      "fullName": "google/agentmesh",
+      "url": "https://github.com/google/agentmesh",
+      "description": "Agent Mesh",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1101,
+      "forks": 182,
+      "starsToday": 126,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/6450081?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google 开源的 Go 语言多智能体协作框架，为分布式 Agent 提供统一通信与编排层，简化跨 Agent 互联互通。",
+      "tags": [
+        "agents",
+        "go",
+        "multi-agent",
+        "framework",
+        "orchestration"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-17T03:31:55.347Z",
+      "enrichedAt": "2026-10-17T03:31:56.884Z",
       "deepwikiAvailable": false
     },
     {
@@ -286,90 +427,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "sliver",
-      "fullName": "BishopFox/sliver",
-      "url": "https://github.com/BishopFox/sliver",
-      "description": "Adversary Emulation Framework",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 12135,
-      "forks": 1628,
-      "starsToday": 145,
-      "topics": [],
-      "author": {
-        "name": "BishopFox",
-        "avatar": "https://avatars.githubusercontent.com/u/875022?s=40&amp;v=4",
-        "url": "https://github.com/BishopFox"
-      },
-      "summary": "Sliver 是 Go 编写的开源对手模拟框架，提供跨平台植入体、C2 通信与多人协作，用于红队演练与安全测试。",
-      "tags": [
-        "go",
-        "red-team",
-        "c2",
-        "security",
-        "pentest"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-10-17T03:31:55.795Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "new-api",
-      "fullName": "QuantumNous/new-api",
-      "url": "https://github.com/QuantumNous/new-api",
-      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 50096,
-      "forks": 12065,
-      "starsToday": 628,
-      "topics": [],
-      "author": {
-        "name": "QuantumNous",
-        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
-        "url": "https://github.com/QuantumNous"
-      },
-      "summary": "统一AI模型聚合与分发网关，将各类大模型转换为OpenAI、Claude、Gemini兼容格式，便于个人与企业集中管理调用。",
-      "tags": [
-        "ai",
-        "gateway",
-        "llm",
-        "openai",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-17T03:31:55.754Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "nginx-ui",
-      "fullName": "0xJacky/nginx-ui",
-      "url": "https://github.com/0xJacky/nginx-ui",
-      "description": "Yet another WebUI for Nginx",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 11638,
-      "forks": 902,
-      "starsToday": 64,
-      "topics": [],
-      "author": {
-        "name": "0xJacky",
-        "avatar": "https://avatars.githubusercontent.com/u/13096985?s=40&amp;v=4",
-        "url": "https://github.com/0xJacky"
-      },
-      "summary": "基于Go开发的Nginx Web管理界面，提供配置在线编辑、证书管理与站点监控等可视化运维能力。",
-      "tags": [
-        "nginx",
-        "webui",
-        "go",
-        "self-hosted",
-        "devops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-17T03:31:56.497Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "esbuild",
       "fullName": "evanw/esbuild",
       "url": "https://github.com/evanw/esbuild",
@@ -395,34 +452,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-17T03:31:56.982Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agentmesh",
-      "fullName": "google/agentmesh",
-      "url": "https://github.com/google/agentmesh",
-      "description": "Agent Mesh",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1097,
-      "forks": 180,
-      "starsToday": 126,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/6450081?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "Google 开源的 Go 语言多智能体协作框架，为分布式 Agent 提供统一通信与编排层，简化跨 Agent 互联互通。",
-      "tags": [
-        "agents",
-        "go",
-        "multi-agent",
-        "framework",
-        "orchestration"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-17T03:31:56.884Z",
       "deepwikiAvailable": false
     },
     {
