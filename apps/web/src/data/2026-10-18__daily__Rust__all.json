@@ -2,8 +2,8 @@
   "date": "2026-10-18",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-18T03:37:43.772Z",
-  "enrichedAt": "2026-10-18T03:38:33.172Z",
+  "fetchedAt": "2026-10-18T13:04:10.687Z",
+  "enrichedAt": "2026-10-18T13:04:48.945Z",
   "repos": [
     {
       "name": "ai-memory",
@@ -12,9 +12,9 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 9990,
-      "forks": 724,
-      "starsToday": 178,
+      "stars": 10217,
+      "forks": 737,
+      "starsToday": 513,
       "topics": [],
       "author": {
         "name": "akitaonrails",
@@ -40,9 +40,9 @@
       "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7893,
-      "forks": 419,
-      "starsToday": 1160,
+      "stars": 8177,
+      "forks": 431,
+      "starsToday": 842,
       "topics": [],
       "author": {
         "name": "xerj-org",
@@ -59,6 +59,259 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-18T03:38:29.174Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 83826,
+      "forks": 5327,
+      "starsToday": 160,
+      "topics": [],
+      "author": {
+        "name": "rtk-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/43991222?s=40&amp;v=4",
+        "url": "https://github.com/rtk-ai"
+      },
+      "summary": "Rust 编写的 CLI 代理，拦截常见开发命令输出并压缩，为 LLM 节省 60-90% token，单二进制零依赖。",
+      "tags": [
+        "rust",
+        "cli",
+        "llm",
+        "token",
+        "proxy"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-18T13:04:47.445Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Konnect",
+      "fullName": "mixelpixx/Konnect",
+      "url": "https://github.com/mixelpixx/Konnect",
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1265,
+      "forks": 143,
+      "starsToday": 112,
+      "topics": [],
+      "author": {
+        "name": "mixelpixx",
+        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
+        "url": "https://github.com/mixelpixx"
+      },
+      "summary": "面向 KiCAD 10 的 AI 辅助 PCB 设计插件，单个 Rust 二进制向 Claude 等大模型暴露 217 个原理图、布局、布线、审查与制造工具。",
+      "tags": [
+        "pcb",
+        "kicad",
+        "rust",
+        "llm",
+        "eda",
+        "plugin"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-18T03:38:30.246Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31634,
+      "forks": 1987,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "googleworkspace",
+        "avatar": "https://avatars.githubusercontent.com/u/109114539?s=40&amp;v=4",
+        "url": "https://github.com/googleworkspace"
+      },
+      "summary": "Google Workspace 官方命令行工具，基于 Discovery Service 动态生成，用一条命令管理 Drive、Gmail、日历、表格、文档等，并内置 AI 智能体技能。",
+      "tags": [
+        "cli",
+        "google-workspace",
+        "rust",
+        "ai-agent",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-18T13:04:47.563Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "roundhouse",
+      "fullName": "rubys/roundhouse",
+      "url": "https://github.com/rubys/roundhouse",
+      "description": "Rails as a specification; the deployment target is a build flag",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 477,
+      "forks": 41,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "rubys",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/rubys"
+      },
+      "summary": "把 Rails 当作规范、部署目标作为编译开关的 Rust 实现，用同一套代码生成多种运行时后端，探索 Rails 语义的可移植重实现。",
+      "tags": [
+        "rails",
+        "rust",
+        "web",
+        "compiler",
+        "portability"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-18T13:04:47.629Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16668,
+      "forks": 814,
+      "starsToday": 97,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的离线开源语法检查器，速度快、注重隐私，可作为本地写作纠错工具使用。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "writing"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-18T03:38:31.572Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microduck",
+      "fullName": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9538,
+      "forks": 1243,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "pollen-robotics",
+        "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&amp;v=4",
+        "url": "https://github.com/pollen-robotics"
+      },
+      "summary": "用Rust编写的微型双足鸭子机器人开源项目，提供硬件设计与固件，便于低成本复现和二次开发。",
+      "tags": [
+        "robotics",
+        "rust",
+        "biped",
+        "hardware",
+        "open-source"
+      ],
+      "category": "Hardware",
+      "enrichedAt": "2026-10-18T13:04:47.681Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenBitFun",
+      "fullName": "GCWing/OpenBitFun",
+      "url": "https://github.com/GCWing/OpenBitFun",
+      "description": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2834,
+      "forks": 269,
+      "starsToday": 148,
+      "topics": [],
+      "author": {
+        "name": "GCWing",
+        "avatar": "https://avatars.githubusercontent.com/u/24753352?s=40&amp;v=4",
+        "url": "https://github.com/GCWing"
+      },
+      "summary": "Rust 编写的高性能 Agent 运行时搭配桌面应用，兼具代码智能体能力与通用办公场景，开源可扩展。",
+      "tags": [
+        "rust",
+        "agent",
+        "desktop",
+        "ai",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-18T03:38:30.576Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "impactor",
+      "fullName": "claration/impactor",
+      "url": "https://github.com/claration/impactor",
+      "description": "Cross-platform & feature rich iOS/iPadOS/tvOS sideloading application. Formerly known as PlumeImpactor.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3511,
+      "forks": 239,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "claration",
+        "avatar": "https://avatars.githubusercontent.com/u/97859147?s=40&amp;v=4",
+        "url": "https://github.com/claration"
+      },
+      "summary": "跨平台 iOS/iPadOS/tvOS 侧载工具，用 Rust 重写，功能丰富，可替代 Cydia Impactor 为设备安装 IPA。",
+      "tags": [
+        "ios",
+        "sideload",
+        "rust",
+        "cross-platform",
+        "ipa"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-18T13:04:48.945Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "starship",
+      "fullName": "starship/starship",
+      "url": "https://github.com/starship/starship",
+      "description": "☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 60319,
+      "forks": 2707,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "starship",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/starship"
+      },
+      "summary": "Rust 编写的极简高速跨 shell 提示符，高度可定制，支持任意 shell 与丰富模块化配置。",
+      "tags": [
+        "shell",
+        "prompt",
+        "rust",
+        "cli",
+        "customization"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-18T13:04:48.861Z",
       "deepwikiAvailable": false
     },
     {
@@ -147,63 +400,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Konnect",
-      "fullName": "mixelpixx/Konnect",
-      "url": "https://github.com/mixelpixx/Konnect",
-      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1254,
-      "forks": 141,
-      "starsToday": 112,
-      "topics": [],
-      "author": {
-        "name": "mixelpixx",
-        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
-        "url": "https://github.com/mixelpixx"
-      },
-      "summary": "面向 KiCAD 10 的 AI 辅助 PCB 设计插件，单个 Rust 二进制向 Claude 等大模型暴露 217 个原理图、布局、布线、审查与制造工具。",
-      "tags": [
-        "pcb",
-        "kicad",
-        "rust",
-        "llm",
-        "eda",
-        "plugin"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-18T03:38:30.246Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenBitFun",
-      "fullName": "GCWing/OpenBitFun",
-      "url": "https://github.com/GCWing/OpenBitFun",
-      "description": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2831,
-      "forks": 267,
-      "starsToday": 148,
-      "topics": [],
-      "author": {
-        "name": "GCWing",
-        "avatar": "https://avatars.githubusercontent.com/u/24753352?s=40&amp;v=4",
-        "url": "https://github.com/GCWing"
-      },
-      "summary": "Rust 编写的高性能 Agent 运行时搭配桌面应用，兼具代码智能体能力与通用办公场景，开源可扩展。",
-      "tags": [
-        "rust",
-        "agent",
-        "desktop",
-        "ai",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-18T03:38:30.576Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "nautilus_trader",
       "fullName": "nautechsystems/nautilus_trader",
       "url": "https://github.com/nautechsystems/nautilus_trader",
@@ -229,34 +425,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-18T03:38:30.248Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "harper",
-      "fullName": "Automattic/harper",
-      "url": "https://github.com/Automattic/harper",
-      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 16643,
-      "forks": 795,
-      "starsToday": 97,
-      "topics": [],
-      "author": {
-        "name": "Automattic",
-        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
-        "url": "https://github.com/Automattic"
-      },
-      "summary": "基于 Rust 的离线开源语法检查器，速度快、注重隐私，可作为本地写作纠错工具使用。",
-      "tags": [
-        "rust",
-        "grammar",
-        "privacy",
-        "offline",
-        "writing"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-18T03:38:31.572Z",
       "deepwikiAvailable": false
     },
     {
