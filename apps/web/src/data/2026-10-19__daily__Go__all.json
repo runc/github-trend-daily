@@ -2,9 +2,433 @@
   "date": "2026-10-19",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-19T03:47:50.912Z",
-  "enrichedAt": "2026-10-19T03:48:31.796Z",
+  "fetchedAt": "2026-10-19T16:17:23.917Z",
+  "enrichedAt": "2026-10-19T16:18:00.615Z",
   "repos": [
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38511,
+      "forks": 774,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "开源安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、配置错误、密钥泄露并生成SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "sbom",
+        "kubernetes",
+        "vulnerability",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:17:57.464Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58569,
+      "forks": 7293,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "自托管的一体化软件开发平台，提供 Git 托管、代码评审、团队协作、包仓库与 CI/CD，轻量易部署。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "cicd",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:17:57.412Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helm",
+      "fullName": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30340,
+      "forks": 7848,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "helm",
+        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
+        "url": "https://github.com/helm"
+      },
+      "summary": "Helm 是 Kubernetes 官方包管理器，用 Go 编写，通过 Chart 模板化定义、安装和升级集群应用，简化 K8s 部署与版本管理。",
+      "tags": [
+        "kubernetes",
+        "package-manager",
+        "go",
+        "devops",
+        "charts"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:17:57.474Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "urfave/cli",
+      "url": "https://github.com/urfave/cli",
+      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24291,
+      "forks": 1923,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "urfave",
+        "avatar": "https://avatars.githubusercontent.com/u/3200486?s=40&amp;v=4",
+        "url": "https://github.com/urfave"
+      },
+      "summary": "Go 语言声明式命令行框架，API 简洁易用，可快速构建带子命令、参数与帮助信息的 CLI 工具。",
+      "tags": [
+        "go",
+        "cli",
+        "command-line",
+        "framework",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-19T16:17:57.431Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 183835,
+      "forks": 18406,
+      "starsToday": 128,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的工具，提供简洁命令行与 API，让开源模型开箱即用。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:27.975Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "Open source factory for one-shot engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8029,
+      "forks": 656,
+      "starsToday": 103,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的一次性工程任务工厂，用 Go 编写，可编排自动化流水线快速完成端到端开发任务。",
+      "tags": [
+        "go",
+        "automation",
+        "workflow",
+        "devtool",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:17:58.748Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 60406,
+      "forks": 5546,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "Go 编写的云存储同步命令行工具，支持 Google Drive、S3、Dropbox 等数十种后端，可像 rsync 一样在本地与云端间同步、复制和加密数据。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "go",
+        "cli",
+        "s3",
+        "backup"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-19T16:17:58.781Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AIStudio2API",
+      "fullName": "Mag1cFall/AIStudio2API",
+      "url": "https://github.com/Mag1cFall/AIStudio2API",
+      "description": "将AI Studio Playground和Build反代成API | AI Studio to OpenAI, Anthropic & Gemini Compatible API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 375,
+      "forks": 107,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "Mag1cFall",
+        "avatar": "https://avatars.githubusercontent.com/u/107487022?s=40&amp;v=4",
+        "url": "https://github.com/Mag1cFall"
+      },
+      "summary": "将 Google AI Studio Playground 与 Build 反向代理为 OpenAI、Anthropic、Gemini 兼容 API 的 Go 服务，便于复用现有客户端直接调用。",
+      "tags": [
+        "go",
+        "proxy",
+        "api",
+        "openai",
+        "gemini",
+        "llm"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T03:48:30.520Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "etcd",
+      "fullName": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52400,
+      "forks": 10541,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "etcd-io",
+        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
+        "url": "https://github.com/etcd-io"
+      },
+      "summary": "etcd 是 Go 编写的分布式可靠键值存储，基于 Raft 提供强一致性与高可用，是 Kubernetes 等系统的核心配置与协调数据后端。",
+      "tags": [
+        "etcd",
+        "key-value",
+        "raft",
+        "distributed",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-19T16:17:58.787Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fiber",
+      "fullName": "gofiber/fiber",
+      "url": "https://github.com/gofiber/fiber",
+      "description": "⚡️ Express inspired web framework written in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 40221,
+      "forks": 2055,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "gofiber",
+        "avatar": "https://avatars.githubusercontent.com/u/25108519?s=40&amp;v=4",
+        "url": "https://github.com/gofiber"
+      },
+      "summary": "受 Express 启发的 Go 高性能 Web 框架，API 简洁、内存占用低，适合快速构建 HTTP 服务与 API。",
+      "tags": [
+        "go",
+        "web-framework",
+        "http",
+        "backend",
+        "api"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-19T16:17:58.710Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "livekit",
+      "fullName": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 21651,
+      "forks": 2483,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "livekit",
+        "avatar": "https://avatars.githubusercontent.com/u/6278212?s=40&amp;v=4",
+        "url": "https://github.com/livekit"
+      },
+      "summary": "开源实时音视频与数据传输栈，基于WebRTC，为人类与AI代理提供低延迟连接，支持语音AI、直播与会议场景。",
+      "tags": [
+        "webrtc",
+        "realtime",
+        "video",
+        "ai",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-19T16:18:00.103Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "immich-go",
+      "fullName": "simulot/immich-go",
+      "url": "https://github.com/simulot/immich-go",
+      "description": "An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7065,
+      "forks": 273,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "simulot",
+        "avatar": "https://avatars.githubusercontent.com/u/5980377?s=40&amp;v=4",
+        "url": "https://github.com/simulot"
+      },
+      "summary": "Go 编写的 Immich 命令行替代工具，无需 Node.js，可高效导入 Google Photos Takeout 归档并处理元数据。",
+      "tags": [
+        "immich",
+        "go",
+        "cli",
+        "google-photos",
+        "import"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-19T16:17:59.686Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Fabric",
+      "fullName": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 44359,
+      "forks": 4308,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "danielmiessler",
+        "avatar": "https://avatars.githubusercontent.com/u/1226059?s=40&amp;v=4",
+        "url": "https://github.com/danielmiessler"
+      },
+      "summary": "开源AI增强框架，通过众包提示词库和模块化命令行工具，将AI能力接入任意工作流。",
+      "tags": [
+        "ai",
+        "prompts",
+        "go",
+        "cli",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T16:18:00.026Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freehire",
+      "fullName": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1373,
+      "forks": 159,
+      "starsToday": 311,
+      "topics": [],
+      "author": {
+        "name": "strelov1",
+        "avatar": "https://avatars.githubusercontent.com/u/10761735?s=40&amp;v=4",
+        "url": "https://github.com/strelov1"
+      },
+      "summary": "开源求职搜索引擎，用 Go 编写，帮助求职者聚合检索招聘信息，替代商业职位搜索平台。",
+      "tags": [
+        "job-search",
+        "go",
+        "search-engine",
+        "self-hosted",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-19T16:18:00.267Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72205,
+      "forks": 19248,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是容器生态的开源协作项目，提供构建容器化系统的核心组件，也是 Docker 引擎的上游基础。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "infrastructure",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-19T16:18:00.615Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "lazyskills",
       "fullName": "alvinunreal/lazyskills",
@@ -115,34 +539,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-19T03:48:26.735Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 183767,
-      "forks": 18399,
-      "starsToday": 146,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地一键运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的工具，提供简洁命令行与 API，让开源模型开箱即用。",
-      "tags": [
-        "llm",
-        "local-inference",
-        "go",
-        "cli",
-        "api"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:27.975Z",
       "deepwikiAvailable": false
     },
     {
@@ -369,35 +765,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-19T03:48:30.610Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "AIStudio2API",
-      "fullName": "Mag1cFall/AIStudio2API",
-      "url": "https://github.com/Mag1cFall/AIStudio2API",
-      "description": "将AI Studio Playground和Build反代成API | AI Studio to OpenAI, Anthropic & Gemini Compatible API",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 359,
-      "forks": 102,
-      "starsToday": 29,
-      "topics": [],
-      "author": {
-        "name": "Mag1cFall",
-        "avatar": "https://avatars.githubusercontent.com/u/107487022?s=40&amp;v=4",
-        "url": "https://github.com/Mag1cFall"
-      },
-      "summary": "将 Google AI Studio Playground 与 Build 反向代理为 OpenAI、Anthropic、Gemini 兼容 API 的 Go 服务，便于复用现有客户端直接调用。",
-      "tags": [
-        "go",
-        "proxy",
-        "api",
-        "openai",
-        "gemini",
-        "llm"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-19T03:48:30.520Z",
       "deepwikiAvailable": false
     },
     {

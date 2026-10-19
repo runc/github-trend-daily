@@ -2,8 +2,8 @@
   "date": "2026-10-19",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-19T03:47:50.912Z",
-  "enrichedAt": "2026-10-19T03:48:35.597Z",
+  "fetchedAt": "2026-10-19T16:17:23.917Z",
+  "enrichedAt": "2026-10-19T16:18:03.498Z",
   "repos": [
     {
       "name": "ai-memory",
@@ -12,9 +12,9 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 10610,
-      "forks": 754,
-      "starsToday": 512,
+      "stars": 11051,
+      "forks": 781,
+      "starsToday": 666,
       "topics": [],
       "author": {
         "name": "akitaonrails",
@@ -40,9 +40,9 @@
       "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 8573,
-      "forks": 455,
-      "starsToday": 835,
+      "stars": 8901,
+      "forks": 477,
+      "starsToday": 675,
       "topics": [],
       "author": {
         "name": "xerj-org",
@@ -59,6 +59,230 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-19T03:48:33.123Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "smg",
+      "fullName": "smg-project/smg",
+      "url": "https://github.com/smg-project/smg",
+      "description": "Engine-agnostic LLM gateway in Rust. Full OpenAI & Anthropic API compatibility across vLLM, TRT-LLM, TokenSpeed, SGLang, OpenAI, Gemini & more. Industry-first gRPC pipeline, KV cache-aware routing, chat history, tokenization caching, Responses API, embeddings, WASM plugins, MCP, and multi-tenant auth.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 633,
+      "forks": 195,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "smg-project",
+        "avatar": "https://avatars.githubusercontent.com/u/25425177?s=40&amp;v=4",
+        "url": "https://github.com/smg-project"
+      },
+      "summary": "Rust 编写的引擎无关 LLM 网关，兼容 OpenAI 与 Anthropic API，统一接入 vLLM、SGLang、Gemini 等后端，提供 gRPC 管线、KV 缓存感知路由与多租户鉴权。",
+      "tags": [
+        "llm",
+        "gateway",
+        "rust",
+        "openai",
+        "grpc"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-19T16:18:01.943Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bun",
+      "fullName": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 96301,
+      "forks": 5146,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "oven-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/709451?s=40&amp;v=4",
+        "url": "https://github.com/oven-sh"
+      },
+      "summary": "Bun 是一体化 JavaScript 运行时，集成打包器、测试运行器与包管理器，以极高速度替代 Node.js 工具链。",
+      "tags": [
+        "javascript",
+        "runtime",
+        "bundler",
+        "package-manager",
+        "zig"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:18:02.053Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Codync",
+      "fullName": "leepokai/Codync",
+      "url": "https://github.com/leepokai/Codync",
+      "description": "The open-source Grok Bot alternative: message Claude Code, Codex, Cursor, Gemini and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Free. Also a Muse and Dots alternative. Built in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 602,
+      "forks": 80,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "leepokai",
+        "avatar": "https://avatars.githubusercontent.com/u/109857817?s=40&amp;v=4",
+        "url": "https://github.com/leepokai"
+      },
+      "summary": "用 Rust 编写的开源 Grok Bot 替代品，可把 Claude Code、Codex、Cursor、Gemini 等 40+ AI 代理当作机器人，从手机、桌面或终端远程对话，免费自托管。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "self-hosted",
+        "chatbot",
+        "cross-platform"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T16:18:01.835Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16747,
+      "forks": 842,
+      "starsToday": 67,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的开源离线语法检查器，速度快、隐私优先，可本地运行无需联网。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "linter"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T03:48:34.354Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4481,
+      "forks": 787,
+      "starsToday": 139,
+      "topics": [],
+      "author": {
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
+      },
+      "summary": "基于Rust开发的WiFi安全审计工具，提供图形界面进行无线网络扫描、抓包与安全评估。",
+      "tags": [
+        "wifi",
+        "security",
+        "rust",
+        "auditing",
+        "gui"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-10-19T16:18:01.852Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 83044,
+      "forks": 5020,
+      "starsToday": 415,
+      "topics": [],
+      "author": {
+        "name": "pbakaus",
+        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
+        "url": "https://github.com/pbakaus"
+      },
+      "summary": "一套面向 AI 编程助手的设计语言规范，帮助 AI 生成更专业、更一致的界面设计，提升设计输出质量。",
+      "tags": [
+        "design",
+        "ai",
+        "rust",
+        "ui",
+        "prompt"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:18:03.089Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity",
+      "fullName": "confeden/Antigravity",
+      "url": "https://github.com/confeden/Antigravity",
+      "description": "Antigravity в России без VPN и смены региона аккаунта Google",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 921,
+      "forks": 54,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "confeden",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/confeden"
+      },
+      "summary": "用 Rust 编写的工具，让俄罗斯用户无需 VPN 或切换 Google 账号区域即可使用 Antigravity，解决地区限制访问问题。",
+      "tags": [
+        "rust",
+        "antigravity",
+        "proxy",
+        "region-restriction",
+        "google"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:18:03.498Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fish-shell",
+      "fullName": "fish-shell/fish-shell",
+      "url": "https://github.com/fish-shell/fish-shell",
+      "description": "The user-friendly command line shell.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 34327,
+      "forks": 2394,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "fish-shell",
+        "avatar": "https://avatars.githubusercontent.com/u/920838?s=40&amp;v=4",
+        "url": "https://github.com/fish-shell"
+      },
+      "summary": "fish 是一款用户友好的命令行 shell，提供智能自动补全、语法高亮和简洁脚本语法，现以 Rust 重写，开箱即用无需配置。",
+      "tags": [
+        "shell",
+        "cli",
+        "rust",
+        "terminal",
+        "autocomplete"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-19T16:18:03.184Z",
       "deepwikiAvailable": false
     },
     {
@@ -172,34 +396,6 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-10-19T03:48:34.249Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "harper",
-      "fullName": "Automattic/harper",
-      "url": "https://github.com/Automattic/harper",
-      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 16715,
-      "forks": 830,
-      "starsToday": 78,
-      "topics": [],
-      "author": {
-        "name": "Automattic",
-        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
-        "url": "https://github.com/Automattic"
-      },
-      "summary": "基于 Rust 的开源离线语法检查器，速度快、隐私优先，可本地运行无需联网。",
-      "tags": [
-        "rust",
-        "grammar",
-        "privacy",
-        "offline",
-        "linter"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-19T03:48:34.354Z",
       "deepwikiAvailable": false
     },
     {

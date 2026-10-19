@@ -2,8 +2,8 @@
   "date": "2026-10-19",
   "since": "weekly",
   "language": "TypeScript",
-  "fetchedAt": "2026-10-19T03:47:50.912Z",
-  "enrichedAt": "2026-10-19T03:48:47.111Z",
+  "fetchedAt": "2026-10-19T16:17:23.917Z",
+  "enrichedAt": "2026-10-19T16:18:08.660Z",
   "repos": [
     {
       "name": "rea",
@@ -12,8 +12,8 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 324439,
-      "forks": 82184,
+      "stars": 333354,
+      "forks": 84264,
       "starsToday": 229268,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 30814,
-      "forks": 2285,
+      "stars": 30986,
+      "forks": 2311,
       "starsToday": 4138,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 66882,
-      "forks": 6064,
+      "stars": 67406,
+      "forks": 6099,
       "starsToday": 5883,
       "topics": [],
       "author": {
@@ -96,8 +96,8 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 12803,
-      "forks": 1259,
+      "stars": 12989,
+      "forks": 1276,
       "starsToday": 1717,
       "topics": [],
       "author": {
@@ -118,31 +118,32 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "billion-context",
-      "fullName": "ranxianglei/billion-context",
-      "url": "https://github.com/ranxianglei/billion-context",
-      "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+      "name": "ruflo",
+      "fullName": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 1896,
-      "forks": 161,
-      "starsToday": 1001,
+      "stars": 76980,
+      "forks": 9087,
+      "starsToday": 2117,
       "topics": [],
       "author": {
-        "name": "ranxianglei",
-        "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&amp;v=4",
-        "url": "https://github.com/ranxianglei"
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
       },
-      "summary": "TypeScript上下文压缩插件，让100K小窗口省5倍token并支持数十亿token的超长单会话。",
+      "summary": "TypeScript 多智能体编排框架，支持蜂群协作、自适应记忆、向量 RAG 与自主工作流，可对接 Claude Code 等编码代理。",
       "tags": [
-        "context",
-        "compression",
-        "llm",
-        "tokens",
-        "typescript"
+        "agents",
+        "multi-agent",
+        "orchestration",
+        "rag",
+        "typescript",
+        "llm"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:43.014Z",
+      "enrichedAt": "2026-10-19T03:48:43.086Z",
       "deepwikiAvailable": false
     },
     {
@@ -152,8 +153,8 @@
       "description": "The open agent skills tool - npx skills",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 35522,
-      "forks": 3032,
+      "stars": 35627,
+      "forks": 3042,
       "starsToday": 1734,
       "topics": [],
       "author": {
@@ -174,32 +175,370 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ruflo",
-      "fullName": "ruvnet/ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "name": "billion-context",
+      "fullName": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 76620,
-      "forks": 9059,
-      "starsToday": 2117,
+      "stars": 1987,
+      "forks": 172,
+      "starsToday": 1001,
       "topics": [],
       "author": {
-        "name": "ruvnet",
-        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
-        "url": "https://github.com/ruvnet"
+        "name": "ranxianglei",
+        "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&amp;v=4",
+        "url": "https://github.com/ranxianglei"
       },
-      "summary": "TypeScript 多智能体编排框架，支持蜂群协作、自适应记忆、向量 RAG 与自主工作流，可对接 Claude Code 等编码代理。",
+      "summary": "TypeScript上下文压缩插件，让100K小窗口省5倍token并支持数十亿token的超长单会话。",
       "tags": [
-        "agents",
-        "multi-agent",
-        "orchestration",
+        "context",
+        "compression",
+        "llm",
+        "tokens",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:43.014Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freellmapi",
+      "fullName": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 37450,
+      "forks": 5056,
+      "starsToday": 3815,
+      "topics": [],
+      "author": {
+        "name": "tashfeenahmed",
+        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
+        "url": "https://github.com/tashfeenahmed"
+      },
+      "summary": "聚合34家免费LLM提供商、635个模型端点的统一OpenAI兼容API网关，支持智能路由、自动故障转移与密钥加密，月可用74亿token。",
+      "tags": [
+        "llm",
+        "api-gateway",
+        "openai-compatible",
+        "failover",
+        "typescript",
+        "free"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:44.298Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LibreTV",
+      "fullName": "LibreSpark/LibreTV",
+      "url": "https://github.com/LibreSpark/LibreTV",
+      "description": "一分钟搭建影视站，支持Docker等部署方式",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 19924,
+      "forks": 29397,
+      "starsToday": 5454,
+      "topics": [],
+      "author": {
+        "name": "LibreSpark",
+        "avatar": "https://avatars.githubusercontent.com/u/110226580?s=40&amp;v=4",
+        "url": "https://github.com/LibreSpark"
+      },
+      "summary": "一分钟搭建影视站的开源项目，支持Docker等多种部署方式，快速自建在线影视聚合站点。",
+      "tags": [
+        "video",
+        "docker",
+        "self-hosted",
+        "typescript",
+        "streaming"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-19T16:18:08.441Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "folia-major",
+      "fullName": "chthollyphile/folia-major",
+      "url": "https://github.com/chthollyphile/folia-major",
+      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 8209,
+      "forks": 847,
+      "starsToday": 3083,
+      "topics": [],
+      "author": {
+        "name": "chthollyphile",
+        "avatar": "https://avatars.githubusercontent.com/u/30263107?s=40&amp;v=4",
+        "url": "https://github.com/chthollyphile"
+      },
+      "summary": "本地与 Navidrome、多平台在线音乐播放器，主打绚丽的歌词动画效果，支持第三方音源接入。",
+      "tags": [
+        "music",
+        "player",
+        "lyrics",
+        "typescript",
+        "navidrome"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-19T03:48:44.488Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dsh-workbuddy-connect",
+      "fullName": "corrinehu/dsh-workbuddy-connect",
+      "url": "https://github.com/corrinehu/dsh-workbuddy-connect",
+      "description": "将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness，零配置使用。Bring the models in the WorkBuddy desktop app into DeepSeek Harness with zero configuration.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 1420,
+      "forks": 131,
+      "starsToday": 904,
+      "topics": [],
+      "author": {
+        "name": "corrinehu",
+        "avatar": "https://avatars.githubusercontent.com/u/202069267?s=40&amp;v=4",
+        "url": "https://github.com/corrinehu"
+      },
+      "summary": "自动将 WorkBuddy 桌面 App 中的模型接入 DeepSeek Harness，零配置即可使用，省去手动配置模型的麻烦。",
+      "tags": [
+        "deepseek",
+        "workbuddy",
+        "typescript",
+        "integration",
+        "llm"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T03:48:44.550Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TencentDB-Agent-Memory",
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 29631,
+      "forks": 2978,
+      "starsToday": 1673,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/277734672?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "腾讯云推出的团队级AI Agent记忆中枢，将对话、文档与代码沉淀为聊天记忆、技能、LLM-Wiki和代码图谱四类可复用记忆资产，支持统一治理与跨框架共享。",
+      "tags": [
+        "ai-agents",
+        "memory",
         "rag",
+        "knowledge-base",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:45.918Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "HeliosGen",
+      "fullName": "SegFault42/HeliosGen",
+      "url": "https://github.com/SegFault42/HeliosGen",
+      "description": "🏆 Self Hosted Gen AI desktop app. Free alternative to Higgsfield, OpenArt, Freepik....",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 3171,
+      "forks": 355,
+      "starsToday": 628,
+      "topics": [],
+      "author": {
+        "name": "SegFault42",
+        "avatar": "https://avatars.githubusercontent.com/u/9384676?s=40&amp;v=4",
+        "url": "https://github.com/SegFault42"
+      },
+      "summary": "自托管生成式AI桌面应用，本地运行图像等生成模型，是Higgsfield、OpenArt、Freepik的免费替代方案。",
+      "tags": [
+        "ai",
+        "self-hosted",
+        "desktop",
+        "image-generation",
+        "typescript"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-19T03:48:44.743Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenCreator",
+      "fullName": "krillinai/OpenCreator",
+      "url": "https://github.com/krillinai/OpenCreator",
+      "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 13719,
+      "forks": 1507,
+      "starsToday": 994,
+      "topics": [],
+      "author": {
+        "name": "krillinai",
+        "avatar": "https://avatars.githubusercontent.com/u/114557800?s=40&amp;v=4",
+        "url": "https://github.com/krillinai"
+      },
+      "summary": "开源AI创作工作台，集成视频下载、翻译配音、图像语音与数字人生成，一站式服务社交媒体内容生产。",
+      "tags": [
+        "ai",
+        "video",
+        "translation",
+        "dubbing",
+        "creator-tools",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:45.962Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenIntelligentUI",
+      "fullName": "CopilotKit/OpenIntelligentUI",
+      "url": "https://github.com/CopilotKit/OpenIntelligentUI",
+      "description": "Open-Source Generative UI Framework",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 3487,
+      "forks": 389,
+      "starsToday": 857,
+      "topics": [],
+      "author": {
+        "name": "CopilotKit",
+        "avatar": "https://avatars.githubusercontent.com/u/85066839?s=40&amp;v=4",
+        "url": "https://github.com/CopilotKit"
+      },
+      "summary": "开源生成式UI框架，让AI在应用中直接渲染交互式界面组件，简化智能体前端开发。",
+      "tags": [
+        "generative-ui",
+        "ai",
+        "typescript",
+        "framework",
+        "react"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:45.734Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 217447,
+      "forks": 29077,
+      "starsToday": 4593,
+      "topics": [],
+      "author": {
+        "name": "anomalyco",
+        "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&amp;v=4",
+        "url": "https://github.com/anomalyco"
+      },
+      "summary": "开源终端AI编码代理，可在命令行中理解代码库并自动完成编码任务，支持多模型与插件扩展。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "cli",
         "typescript",
         "llm"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:43.086Z",
+      "enrichedAt": "2026-10-19T16:18:08.659Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openui",
+      "fullName": "thesysdev/openui",
+      "url": "https://github.com/thesysdev/openui",
+      "description": "The Open Standard for Generative UI",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 12105,
+      "forks": 821,
+      "starsToday": 1288,
+      "topics": [],
+      "author": {
+        "name": "thesysdev",
+        "avatar": "https://avatars.githubusercontent.com/u/173032156?s=40&amp;v=4",
+        "url": "https://github.com/thesysdev"
+      },
+      "summary": "生成式UI开放标准，让大模型直接输出可交互界面而非纯文本，提供规范与TypeScript实现。",
+      "tags": [
+        "generative-ui",
+        "llm",
+        "typescript",
+        "standard",
+        "frontend"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T16:18:08.479Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenTerminal",
+      "fullName": "ErTasselli/OpenTerminal",
+      "url": "https://github.com/ErTasselli/OpenTerminal",
+      "description": "A Terminal-style trading dashboard built entirely on free public market data. No API keys, no subscriptions.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 1865,
+      "forks": 324,
+      "starsToday": 419,
+      "topics": [],
+      "author": {
+        "name": "ErTasselli",
+        "avatar": "https://avatars.githubusercontent.com/u/231684775?s=40&amp;v=4",
+        "url": "https://github.com/ErTasselli"
+      },
+      "summary": "终端风格的交易行情仪表盘，完全基于免费公开市场数据，无需API密钥或订阅即可使用。",
+      "tags": [
+        "trading",
+        "terminal",
+        "dashboard",
+        "typescript",
+        "market-data"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-19T16:18:08.646Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rakazo",
+      "fullName": "elie222/rakazo",
+      "url": "https://github.com/elie222/rakazo",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4724,
+      "forks": 851,
+      "starsToday": 850,
+      "topics": [],
+      "author": {
+        "name": "elie222",
+        "avatar": "https://avatars.githubusercontent.com/u/3090527?s=40&amp;v=4",
+        "url": "https://github.com/elie222"
+      },
+      "summary": "开源版 Grok Bot 替代方案，可自选模型与沙箱环境，基于 TypeScript 构建，支持灵活部署与扩展。",
+      "tags": [
+        "ai",
+        "bot",
+        "typescript",
+        "self-hosted",
+        "llm",
+        "sandbox"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:47.111Z",
       "deepwikiAvailable": false
     },
     {
@@ -231,204 +570,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "freellmapi",
-      "fullName": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 37143,
-      "forks": 5018,
-      "starsToday": 3815,
-      "topics": [],
-      "author": {
-        "name": "tashfeenahmed",
-        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
-        "url": "https://github.com/tashfeenahmed"
-      },
-      "summary": "聚合34家免费LLM提供商、635个模型端点的统一OpenAI兼容API网关，支持智能路由、自动故障转移与密钥加密，月可用74亿token。",
-      "tags": [
-        "llm",
-        "api-gateway",
-        "openai-compatible",
-        "failover",
-        "typescript",
-        "free"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:44.298Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "folia-major",
-      "fullName": "chthollyphile/folia-major",
-      "url": "https://github.com/chthollyphile/folia-major",
-      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 8000,
-      "forks": 830,
-      "starsToday": 3083,
-      "topics": [],
-      "author": {
-        "name": "chthollyphile",
-        "avatar": "https://avatars.githubusercontent.com/u/30263107?s=40&amp;v=4",
-        "url": "https://github.com/chthollyphile"
-      },
-      "summary": "本地与 Navidrome、多平台在线音乐播放器，主打绚丽的歌词动画效果，支持第三方音源接入。",
-      "tags": [
-        "music",
-        "player",
-        "lyrics",
-        "typescript",
-        "navidrome"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-19T03:48:44.488Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dsh-workbuddy-connect",
-      "fullName": "corrinehu/dsh-workbuddy-connect",
-      "url": "https://github.com/corrinehu/dsh-workbuddy-connect",
-      "description": "将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness，零配置使用。Bring the models in the WorkBuddy desktop app into DeepSeek Harness with zero configuration.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 1350,
-      "forks": 126,
-      "starsToday": 904,
-      "topics": [],
-      "author": {
-        "name": "corrinehu",
-        "avatar": "https://avatars.githubusercontent.com/u/202069267?s=40&amp;v=4",
-        "url": "https://github.com/corrinehu"
-      },
-      "summary": "自动将 WorkBuddy 桌面 App 中的模型接入 DeepSeek Harness，零配置即可使用，省去手动配置模型的麻烦。",
-      "tags": [
-        "deepseek",
-        "workbuddy",
-        "typescript",
-        "integration",
-        "llm"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-19T03:48:44.550Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "HeliosGen",
-      "fullName": "SegFault42/HeliosGen",
-      "url": "https://github.com/SegFault42/HeliosGen",
-      "description": "🏆 Self Hosted Gen AI desktop app. Free alternative to Higgsfield, OpenArt, Freepik....",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 3162,
-      "forks": 354,
-      "starsToday": 628,
-      "topics": [],
-      "author": {
-        "name": "SegFault42",
-        "avatar": "https://avatars.githubusercontent.com/u/9384676?s=40&amp;v=4",
-        "url": "https://github.com/SegFault42"
-      },
-      "summary": "自托管生成式AI桌面应用，本地运行图像等生成模型，是Higgsfield、OpenArt、Freepik的免费替代方案。",
-      "tags": [
-        "ai",
-        "self-hosted",
-        "desktop",
-        "image-generation",
-        "typescript"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-19T03:48:44.743Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenIntelligentUI",
-      "fullName": "CopilotKit/OpenIntelligentUI",
-      "url": "https://github.com/CopilotKit/OpenIntelligentUI",
-      "description": "Open-Source Generative UI Framework",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 3439,
-      "forks": 384,
-      "starsToday": 857,
-      "topics": [],
-      "author": {
-        "name": "CopilotKit",
-        "avatar": "https://avatars.githubusercontent.com/u/85066839?s=40&amp;v=4",
-        "url": "https://github.com/CopilotKit"
-      },
-      "summary": "开源生成式UI框架，让AI在应用中直接渲染交互式界面组件，简化智能体前端开发。",
-      "tags": [
-        "generative-ui",
-        "ai",
-        "typescript",
-        "framework",
-        "react"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:45.734Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "TencentDB-Agent-Memory",
-      "fullName": "TencentCloud/TencentDB-Agent-Memory",
-      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 29584,
-      "forks": 2954,
-      "starsToday": 1673,
-      "topics": [],
-      "author": {
-        "name": "TencentCloud",
-        "avatar": "https://avatars.githubusercontent.com/u/277734672?s=40&amp;v=4",
-        "url": "https://github.com/TencentCloud"
-      },
-      "summary": "腾讯云推出的团队级AI Agent记忆中枢，将对话、文档与代码沉淀为聊天记忆、技能、LLM-Wiki和代码图谱四类可复用记忆资产，支持统一治理与跨框架共享。",
-      "tags": [
-        "ai-agents",
-        "memory",
-        "rag",
-        "knowledge-base",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:45.918Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenCreator",
-      "fullName": "krillinai/OpenCreator",
-      "url": "https://github.com/krillinai/OpenCreator",
-      "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 13694,
-      "forks": 1499,
-      "starsToday": 994,
-      "topics": [],
-      "author": {
-        "name": "krillinai",
-        "avatar": "https://avatars.githubusercontent.com/u/114557800?s=40&amp;v=4",
-        "url": "https://github.com/krillinai"
-      },
-      "summary": "开源AI创作工作台，集成视频下载、翻译配音、图像语音与数字人生成，一站式服务社交媒体内容生产。",
-      "tags": [
-        "ai",
-        "video",
-        "translation",
-        "dubbing",
-        "creator-tools",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:45.962Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "remotion",
       "fullName": "remotion-dev/remotion",
       "url": "https://github.com/remotion-dev/remotion",
@@ -454,35 +595,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-19T03:48:46.223Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rakazo",
-      "fullName": "elie222/rakazo",
-      "url": "https://github.com/elie222/rakazo",
-      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 4614,
-      "forks": 839,
-      "starsToday": 850,
-      "topics": [],
-      "author": {
-        "name": "elie222",
-        "avatar": "https://avatars.githubusercontent.com/u/3090527?s=40&amp;v=4",
-        "url": "https://github.com/elie222"
-      },
-      "summary": "开源版 Grok Bot 替代方案，可自选模型与沙箱环境，基于 TypeScript 构建，支持灵活部署与扩展。",
-      "tags": [
-        "ai",
-        "bot",
-        "typescript",
-        "self-hosted",
-        "llm",
-        "sandbox"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:47.111Z",
       "deepwikiAvailable": false
     }
   ]

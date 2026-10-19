@@ -2,8 +2,8 @@
   "date": "2026-10-19",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-10-19T03:47:50.912Z",
-  "enrichedAt": "2026-10-19T03:48:25.605Z",
+  "fetchedAt": "2026-10-19T16:17:23.917Z",
+  "enrichedAt": "2026-10-19T16:17:56.014Z",
   "repos": [
     {
       "name": "ai-job-search",
@@ -12,9 +12,9 @@
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 53779,
-      "forks": 17482,
-      "starsToday": 2232,
+      "stars": 56119,
+      "forks": 17919,
+      "starsToday": 3860,
       "topics": [],
       "author": {
         "name": "MadsLorentzen",
@@ -34,15 +34,155 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "ComfyUI",
+      "fullName": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 139394,
+      "forks": 16552,
+      "starsToday": 1011,
+      "topics": [],
+      "author": {
+        "name": "Comfy-Org",
+        "avatar": "https://avatars.githubusercontent.com/u/121283862?s=40&amp;v=4",
+        "url": "https://github.com/Comfy-Org"
+      },
+      "summary": "基于节点图的扩散模型本地推理引擎，提供GUI、API与后端，模块化组合工作流，支持快速本地生成图像。",
+      "tags": [
+        "diffusion",
+        "node-editor",
+        "gui",
+        "inference",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:23.087Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "headroom",
+      "fullName": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 76093,
+      "forks": 5914,
+      "starsToday": 317,
+      "topics": [],
+      "author": {
+        "name": "headroomlabs-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/3607994?s=40&amp;v=4",
+        "url": "https://github.com/headroomlabs-ai"
+      },
+      "summary": "在工具输出、日志、文件和RAG片段进入LLM前压缩，编码代理省20%令牌、JSON省60-95%，答案不变，提供库、代理和MCP服务器。",
+      "tags": [
+        "llm",
+        "token-compression",
+        "mcp",
+        "rag",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T16:17:53.686Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jasna",
+      "fullName": "Kruk2/jasna",
+      "url": "https://github.com/Kruk2/jasna",
+      "description": "Video restoration tool",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2793,
+      "forks": 209,
+      "starsToday": 502,
+      "topics": [],
+      "author": {
+        "name": "Kruk2",
+        "avatar": "https://avatars.githubusercontent.com/u/59397941?s=40&amp;v=4",
+        "url": "https://github.com/Kruk2"
+      },
+      "summary": "基于Python的视频修复工具，用于去除画面噪点、模糊与压缩伪影，提升老旧或低质视频的清晰度。",
+      "tags": [
+        "video",
+        "restoration",
+        "python",
+        "denoise",
+        "upscaling"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T03:48:23.206Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CLI-Anything",
+      "fullName": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 55040,
+      "forks": 4970,
+      "starsToday": 607,
+      "topics": [],
+      "author": {
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
+      },
+      "summary": "将各类软件封装为命令行接口，让AI Agent可直接调用任意软件，实现软件Agent原生化。",
+      "tags": [
+        "cli",
+        "ai-agent",
+        "automation",
+        "python",
+        "tooling"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T03:48:21.933Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Kronos",
+      "fullName": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 41408,
+      "forks": 6898,
+      "starsToday": 355,
+      "topics": [],
+      "author": {
+        "name": "shiyu-coder",
+        "avatar": "https://avatars.githubusercontent.com/u/65760973?s=40&amp;v=4",
+        "url": "https://github.com/shiyu-coder"
+      },
+      "summary": "Kronos 是面向金融市场语言的开源基础模型，用类语言模型方式建模K线行情，支持金融时序预测与分析。",
+      "tags": [
+        "finance",
+        "foundation-model",
+        "time-series",
+        "python",
+        "trading"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T16:17:53.684Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "claude-plugins-official",
       "fullName": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 42802,
-      "forks": 4539,
-      "starsToday": 1175,
+      "stars": 43102,
+      "forks": 4559,
+      "starsToday": 814,
       "topics": [],
       "author": {
         "name": "anthropics",
@@ -62,31 +202,227 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "CLI-Anything",
-      "fullName": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 54698,
-      "forks": 4952,
-      "starsToday": 589,
+      "stars": 128914,
+      "forks": 12434,
+      "starsToday": 751,
       "topics": [],
       "author": {
-        "name": "HKUDS",
-        "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&amp;v=4",
-        "url": "https://github.com/HKUDS"
+        "name": "Graphify-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Graphify-Labs"
       },
-      "summary": "将各类软件封装为命令行接口，让AI Agent可直接调用任意软件，实现软件Agent原生化。",
+      "summary": "将代码库及其文档、SQL、配置和PDF解析为可查询知识图谱的AI编码助手技能，本地确定性AST解析，每条边可解释，无需向量库。",
       "tags": [
-        "cli",
-        "ai-agent",
-        "automation",
-        "python",
-        "tooling"
+        "knowledge-graph",
+        "ast",
+        "code-analysis",
+        "ai-coding",
+        "python"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-10-19T03:48:21.933Z",
+      "enrichedAt": "2026-10-19T03:48:24.234Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "strix",
+      "fullName": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 69919,
+      "forks": 7803,
+      "starsToday": 476,
+      "topics": [],
+      "author": {
+        "name": "usestrix",
+        "avatar": "https://avatars.githubusercontent.com/u/49919286?s=40&amp;v=4",
+        "url": "https://github.com/usestrix"
+      },
+      "summary": "开源AI渗透测试工具，自动发现并修复应用漏洞，替代人工安全测试流程。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai",
+        "python",
+        "vulnerability"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:17:53.624Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "UniMate",
+      "fullName": "Friedrich-M/UniMate",
+      "url": "https://github.com/Friedrich-M/UniMate",
+      "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2006,
+      "forks": 217,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "Friedrich-M",
+        "avatar": "https://avatars.githubusercontent.com/u/85838942?s=40&amp;v=4",
+        "url": "https://github.com/Friedrich-M"
+      },
+      "summary": "UniMate 是 SIGGRAPH Asia 2026 论文官方实现，用单一统一模型为各类不同骨架驱动动画，免去逐骨架定制。",
+      "tags": [
+        "animation",
+        "skeleton",
+        "siggraph",
+        "python",
+        "deep-learning"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T16:17:53.482Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "artemis",
+      "fullName": "google/artemis",
+      "url": "https://github.com/google/artemis",
+      "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code. It also achieves 99%+ success rate on AndroidWorld Benchmark.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 12890,
+      "forks": 1509,
+      "starsToday": 526,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/120092213?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "谷歌开源的自然语言驱动Android自动化工具，可将指令转为可靠端到端操作并采集日志，集成主流AI编程助手，AndroidWorld基准成功率超99%。",
+      "tags": [
+        "android",
+        "automation",
+        "ai-agent",
+        "testing",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-19T16:17:55.002Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 80564,
+      "forks": 12227,
+      "starsToday": 394,
+      "topics": [],
+      "author": {
+        "name": "666ghj",
+        "avatar": "https://avatars.githubusercontent.com/u/110395318?s=40&amp;v=4",
+        "url": "https://github.com/666ghj"
+      },
+      "summary": "基于群体智能的通用预测引擎，用多智能体模拟对任意事件进行推演与预测，简洁易用且领域通用。",
+      "tags": [
+        "swarm-intelligence",
+        "prediction",
+        "multi-agent",
+        "python",
+        "simulation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T16:17:54.874Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-source-games",
+      "fullName": "bobeff/open-source-games",
+      "url": "https://github.com/bobeff/open-source-games",
+      "description": "A list of open source games.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 16556,
+      "forks": 1466,
+      "starsToday": 461,
+      "topics": [],
+      "author": {
+        "name": "bobeff",
+        "avatar": "https://avatars.githubusercontent.com/u/675506?s=40&amp;v=4",
+        "url": "https://github.com/bobeff"
+      },
+      "summary": "收录开源游戏的大型清单，按类型整理并附源码与许可信息，方便玩家和开发者查找可自由修改的游戏项目。",
+      "tags": [
+        "games",
+        "awesome-list",
+        "open-source",
+        "resources",
+        "python"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-19T16:17:55.256Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fastapi",
+      "fullName": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 103249,
+      "forks": 10059,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "fastapi",
+        "avatar": "https://avatars.githubusercontent.com/u/1326112?s=40&amp;v=4",
+        "url": "https://github.com/fastapi"
+      },
+      "summary": "基于Python类型注解的高性能Web API框架，自动生成OpenAPI文档与数据校验，开发快、易上手、可直接用于生产。",
+      "tags": [
+        "python",
+        "web-framework",
+        "api",
+        "openapi",
+        "async"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-19T16:17:54.962Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "academic-research-skills",
+      "fullName": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 52951,
+      "forks": 4059,
+      "starsToday": 282,
+      "topics": [],
+      "author": {
+        "name": "Imbad0202",
+        "avatar": "https://avatars.githubusercontent.com/u/132531341?s=40&amp;v=4",
+        "url": "https://github.com/Imbad0202"
+      },
+      "summary": "面向 Claude Code 的学术研究技能集，覆盖调研、写作、审稿、修改到定稿的完整论文工作流，帮助研究者自动化产出规范学术成果。",
+      "tags": [
+        "claude-code",
+        "academic",
+        "writing",
+        "workflow",
+        "research"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-19T16:17:56.014Z",
       "deepwikiAvailable": false
     },
     {
@@ -115,62 +451,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-19T03:48:21.931Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jasna",
-      "fullName": "Kruk2/jasna",
-      "url": "https://github.com/Kruk2/jasna",
-      "description": "Video restoration tool",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 2509,
-      "forks": 194,
-      "starsToday": 115,
-      "topics": [],
-      "author": {
-        "name": "Kruk2",
-        "avatar": "https://avatars.githubusercontent.com/u/59397941?s=40&amp;v=4",
-        "url": "https://github.com/Kruk2"
-      },
-      "summary": "基于Python的视频修复工具，用于去除画面噪点、模糊与压缩伪影，提升老旧或低质视频的清晰度。",
-      "tags": [
-        "video",
-        "restoration",
-        "python",
-        "denoise",
-        "upscaling"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:23.206Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ComfyUI",
-      "fullName": "Comfy-Org/ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 138766,
-      "forks": 16509,
-      "starsToday": 154,
-      "topics": [],
-      "author": {
-        "name": "Comfy-Org",
-        "avatar": "https://avatars.githubusercontent.com/u/121283862?s=40&amp;v=4",
-        "url": "https://github.com/Comfy-Org"
-      },
-      "summary": "基于节点图的扩散模型本地推理引擎，提供GUI、API与后端，模块化组合工作流，支持快速本地生成图像。",
-      "tags": [
-        "diffusion",
-        "node-editor",
-        "gui",
-        "inference",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-19T03:48:23.087Z",
       "deepwikiAvailable": false
     },
     {
@@ -255,34 +535,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-19T03:48:24.188Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "graphify",
-      "fullName": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 128503,
-      "forks": 12386,
-      "starsToday": 626,
-      "topics": [],
-      "author": {
-        "name": "Graphify-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/Graphify-Labs"
-      },
-      "summary": "将代码库及其文档、SQL、配置和PDF解析为可查询知识图谱的AI编码助手技能，本地确定性AST解析，每条边可解释，无需向量库。",
-      "tags": [
-        "knowledge-graph",
-        "ast",
-        "code-analysis",
-        "ai-coding",
-        "python"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-19T03:48:24.234Z",
       "deepwikiAvailable": false
     },
     {
