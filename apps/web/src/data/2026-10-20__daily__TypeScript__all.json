@@ -2,35 +2,35 @@
   "date": "2026-10-20",
   "since": "daily",
   "language": "TypeScript",
-  "fetchedAt": "2026-10-20T03:59:15.122Z",
-  "enrichedAt": "2026-10-20T03:59:40.630Z",
+  "fetchedAt": "2026-10-20T14:10:19.480Z",
+  "enrichedAt": "2026-10-20T14:10:48.769Z",
   "repos": [
     {
-      "name": "opencode",
-      "fullName": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 217965,
-      "forks": 29130,
-      "starsToday": 1311,
+      "stars": 99194,
+      "forks": 6323,
+      "starsToday": 1559,
       "topics": [],
       "author": {
-        "name": "anomalyco",
-        "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&amp;v=4",
-        "url": "https://github.com/anomalyco"
+        "name": "stablyai",
+        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
+        "url": "https://github.com/stablyai"
       },
-      "summary": "开源终端 AI 编码代理，可在命令行中直接读写代码、执行任务，支持多模型与插件扩展。",
+      "summary": "Orca 是统一调度多智能体舰队的平台，可用自有订阅运行 Claude Code、Grok Bot 等编码代理，支持桌面、移动与远程运行时。",
       "tags": [
-        "ai",
+        "agents",
         "coding-agent",
-        "cli",
         "typescript",
-        "llm"
+        "multi-agent",
+        "remote-runtime"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-20T03:59:36.548Z",
+      "enrichedAt": "2026-10-20T03:59:36.714Z",
       "deepwikiAvailable": false
     },
     {
@@ -40,9 +40,9 @@
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 77302,
-      "forks": 9111,
-      "starsToday": 564,
+      "stars": 77575,
+      "forks": 9131,
+      "starsToday": 683,
       "topics": [],
       "author": {
         "name": "ruvnet",
@@ -63,31 +63,87 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 98487,
-      "forks": 6283,
-      "starsToday": 1590,
+      "stars": 218483,
+      "forks": 29171,
+      "starsToday": 1256,
       "topics": [],
       "author": {
-        "name": "stablyai",
-        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
-        "url": "https://github.com/stablyai"
+        "name": "anomalyco",
+        "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&amp;v=4",
+        "url": "https://github.com/anomalyco"
       },
-      "summary": "Orca 是统一调度多智能体舰队的平台，可用自有订阅运行 Claude Code、Grok Bot 等编码代理，支持桌面、移动与远程运行时。",
+      "summary": "开源终端 AI 编码代理，可在命令行中直接读写代码、执行任务，支持多模型与插件扩展。",
       "tags": [
-        "agents",
+        "ai",
         "coding-agent",
+        "cli",
         "typescript",
-        "multi-agent",
-        "remote-runtime"
+        "llm"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-20T03:59:36.714Z",
+      "enrichedAt": "2026-10-20T03:59:36.548Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 28752,
+      "forks": 7708,
+      "starsToday": 298,
+      "topics": [],
+      "author": {
+        "name": "pingdotgg",
+        "avatar": "https://avatars.githubusercontent.com/u/51714798?s=40&amp;v=4",
+        "url": "https://github.com/pingdotgg"
+      },
+      "summary": "T3 团队开源的 TypeScript 全栈项目脚手架，集成类型安全 API 与最佳实践，快速搭建现代 Web 应用。",
+      "tags": [
+        "typescript",
+        "fullstack",
+        "boilerplate",
+        "web",
+        "nextjs"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-20T03:59:39.675Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openclaw",
+      "fullName": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 392962,
+      "forks": 82546,
+      "starsToday": 568,
+      "topics": [],
+      "author": {
+        "name": "openclaw",
+        "avatar": "https://avatars.githubusercontent.com/u/58493?s=40&amp;v=4",
+        "url": "https://github.com/openclaw"
+      },
+      "summary": "跨平台开源AI智能体，可实际执行任务而非仅对话，支持任意操作系统与平台，TypeScript编写，社区热度极高。",
+      "tags": [
+        "ai",
+        "agent",
+        "typescript",
+        "cross-platform",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-20T14:10:47.550Z",
       "deepwikiAvailable": false
     },
     {
@@ -97,9 +153,9 @@
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 152716,
-      "forks": 27146,
-      "starsToday": 167,
+      "stars": 152887,
+      "forks": 27193,
+      "starsToday": 553,
       "topics": [],
       "author": {
         "name": "anthropics",
@@ -116,6 +172,230 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-20T03:59:36.672Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenWA",
+      "fullName": "rmyndharis/OpenWA",
+      "url": "https://github.com/rmyndharis/OpenWA",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 15878,
+      "forks": 3706,
+      "starsToday": 252,
+      "topics": [],
+      "author": {
+        "name": "rmyndharis",
+        "avatar": "https://avatars.githubusercontent.com/u/2390382?s=40&amp;v=4",
+        "url": "https://github.com/rmyndharis"
+      },
+      "summary": "免费开源的自托管 WhatsApp API 网关，基于 TypeScript，可自行部署并通过 HTTP 接口收发消息、接入自动化与机器人。",
+      "tags": [
+        "whatsapp",
+        "api",
+        "self-hosted",
+        "typescript",
+        "gateway"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:10:47.290Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "itsaplan",
+      "fullName": "croffasia/itsaplan",
+      "url": "https://github.com/croffasia/itsaplan",
+      "description": "⭐️⭐️⭐️ Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 1528,
+      "forks": 229,
+      "starsToday": 104,
+      "topics": [],
+      "author": {
+        "name": "croffasia",
+        "avatar": "https://avatars.githubusercontent.com/u/696180?s=40&amp;v=4",
+        "url": "https://github.com/croffasia"
+      },
+      "summary": "开源可自托管的 Linear/Plane 替代品，支持团队与 AI 智能体协同进行项目管理和问题跟踪，共同规划并交付产品。",
+      "tags": [
+        "project-management",
+        "issue-tracking",
+        "self-hosted",
+        "ai-agents",
+        "typescript"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-20T03:59:40.630Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "emdash",
+      "fullName": "emdash-cms/emdash",
+      "url": "https://github.com/emdash-cms/emdash",
+      "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 13815,
+      "forks": 1315,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "emdash-cms",
+        "avatar": "https://avatars.githubusercontent.com/u/213306?s=40&amp;v=4",
+        "url": "https://github.com/emdash-cms"
+      },
+      "summary": "基于 Astro 的全栈 TypeScript CMS，被视为 WordPress 的精神继任者，提供内容管理与现代前端一体化方案。",
+      "tags": [
+        "cms",
+        "astro",
+        "typescript",
+        "fullstack",
+        "wordpress"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-20T14:10:47.513Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openui",
+      "fullName": "thesysdev/openui",
+      "url": "https://github.com/thesysdev/openui",
+      "description": "The Open Standard for Generative UI",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 12469,
+      "forks": 844,
+      "starsToday": 401,
+      "topics": [],
+      "author": {
+        "name": "thesysdev",
+        "avatar": "https://avatars.githubusercontent.com/u/173032156?s=40&amp;v=4",
+        "url": "https://github.com/thesysdev"
+      },
+      "summary": "生成式UI开放标准，让大模型直接输出可交互界面而非纯文本，提供规范与TypeScript实现。",
+      "tags": [
+        "generative-ui",
+        "llm",
+        "typescript",
+        "standard",
+        "frontend"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-20T03:59:39.982Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dsh-pet",
+      "fullName": "PC2005-cloud/dsh-pet",
+      "url": "https://github.com/PC2005-cloud/dsh-pet",
+      "description": "DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 3021,
+      "forks": 196,
+      "starsToday": 505,
+      "topics": [],
+      "author": {
+        "name": "PC2005-cloud",
+        "avatar": "https://avatars.githubusercontent.com/u/246970914?s=40&amp;v=4",
+        "url": "https://github.com/PC2005-cloud"
+      },
+      "summary": "DSH 桌面宠物工具，一行命令即可安装透明动画桌宠，支持多开与尺寸位置自定义，并内置 DIY 素材链可用 AI 视频生成专属宠物。",
+      "tags": [
+        "desktop-pet",
+        "typescript",
+        "ai",
+        "animation",
+        "cli"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-20T14:10:47.493Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lossless-cut",
+      "fullName": "mifi/lossless-cut",
+      "url": "https://github.com/mifi/lossless-cut",
+      "description": "The swiss army knife of lossless video/audio editing",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 44763,
+      "forks": 2244,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "mifi",
+        "avatar": "https://avatars.githubusercontent.com/u/402547?s=40&amp;v=4",
+        "url": "https://github.com/mifi"
+      },
+      "summary": "无损音视频剪辑工具，无需重新编码即可快速剪切、合并片段，跨平台开源，适合日常快速处理素材。",
+      "tags": [
+        "video",
+        "audio",
+        "editor",
+        "ffmpeg",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-20T14:10:48.388Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iptv",
+      "fullName": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 141640,
+      "forks": 8349,
+      "starsToday": 208,
+      "topics": [],
+      "author": {
+        "name": "iptv-org",
+        "avatar": "https://avatars.githubusercontent.com/u/7253922?s=40&amp;v=4",
+        "url": "https://github.com/iptv-org"
+      },
+      "summary": "汇集全球公开可用的IPTV频道播放列表，按国家分类整理，可直接用于各类播放器，是最大的开源IPTV频道索引库。",
+      "tags": [
+        "iptv",
+        "streaming",
+        "playlist",
+        "m3u",
+        "tv"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-20T14:10:48.769Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rakazo",
+      "fullName": "elie222/rakazo",
+      "url": "https://github.com/elie222/rakazo",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4871,
+      "forks": 882,
+      "starsToday": 188,
+      "topics": [],
+      "author": {
+        "name": "elie222",
+        "avatar": "https://avatars.githubusercontent.com/u/3090527?s=40&amp;v=4",
+        "url": "https://github.com/elie222"
+      },
+      "summary": "开源版 Grok Bot 替代方案，可自选模型与沙箱环境，支持自主配置 AI 助手。",
+      "tags": [
+        "ai",
+        "typescript",
+        "sandbox",
+        "llm",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-20T14:10:48.454Z",
       "deepwikiAvailable": false
     },
     {
@@ -318,34 +598,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "t3code",
-      "fullName": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 28654,
-      "forks": 7679,
-      "starsToday": 298,
-      "topics": [],
-      "author": {
-        "name": "pingdotgg",
-        "avatar": "https://avatars.githubusercontent.com/u/51714798?s=40&amp;v=4",
-        "url": "https://github.com/pingdotgg"
-      },
-      "summary": "T3 团队开源的 TypeScript 全栈项目脚手架，集成类型安全 API 与最佳实践，快速搭建现代 Web 应用。",
-      "tags": [
-        "typescript",
-        "fullstack",
-        "boilerplate",
-        "web",
-        "nextjs"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-20T03:59:39.675Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "crm",
       "fullName": "trycompai/crm",
       "url": "https://github.com/trycompai/crm",
@@ -371,62 +623,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-20T03:59:39.945Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openui",
-      "fullName": "thesysdev/openui",
-      "url": "https://github.com/thesysdev/openui",
-      "description": "The Open Standard for Generative UI",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 12248,
-      "forks": 829,
-      "starsToday": 401,
-      "topics": [],
-      "author": {
-        "name": "thesysdev",
-        "avatar": "https://avatars.githubusercontent.com/u/173032156?s=40&amp;v=4",
-        "url": "https://github.com/thesysdev"
-      },
-      "summary": "生成式UI开放标准，让大模型直接输出可交互界面而非纯文本，提供规范与TypeScript实现。",
-      "tags": [
-        "generative-ui",
-        "llm",
-        "typescript",
-        "standard",
-        "frontend"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-20T03:59:39.982Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "itsaplan",
-      "fullName": "croffasia/itsaplan",
-      "url": "https://github.com/croffasia/itsaplan",
-      "description": "⭐️⭐️⭐️ Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 1449,
-      "forks": 220,
-      "starsToday": 104,
-      "topics": [],
-      "author": {
-        "name": "croffasia",
-        "avatar": "https://avatars.githubusercontent.com/u/696180?s=40&amp;v=4",
-        "url": "https://github.com/croffasia"
-      },
-      "summary": "开源可自托管的 Linear/Plane 替代品，支持团队与 AI 智能体协同进行项目管理和问题跟踪，共同规划并交付产品。",
-      "tags": [
-        "project-management",
-        "issue-tracking",
-        "self-hosted",
-        "ai-agents",
-        "typescript"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-20T03:59:40.630Z",
       "deepwikiAvailable": false
     }
   ]

@@ -2,9 +2,38 @@
   "date": "2026-10-20",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-20T03:59:15.122Z",
-  "enrichedAt": "2026-10-20T03:59:59.656Z",
+  "fetchedAt": "2026-10-20T14:10:19.480Z",
+  "enrichedAt": "2026-10-20T14:11:02.374Z",
   "repos": [
+    {
+      "name": "xerj",
+      "fullName": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10991,
+      "forks": 696,
+      "starsToday": 2155,
+      "topics": [],
+      "author": {
+        "name": "xerj-org",
+        "avatar": "https://avatars.githubusercontent.com/u/297525353?s=40&amp;v=4",
+        "url": "https://github.com/xerj-org"
+      },
+      "summary": "本地优先的搜索引擎与MCP服务器，单个Rust二进制即可索引代码、文档、日志和PDF，支持BM25、向量与混合检索，兼容Elasticsearch API，为AI代理提供代码搜索、记忆与RAG能力。",
+      "tags": [
+        "search",
+        "rust",
+        "mcp",
+        "rag",
+        "vector-search",
+        "local-first"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-20T03:59:56.582Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "ai-memory",
       "fullName": "akitaonrails/ai-memory",
@@ -12,9 +41,9 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 11482,
-      "forks": 816,
-      "starsToday": 666,
+      "stars": 11779,
+      "forks": 839,
+      "starsToday": 902,
       "topics": [],
       "author": {
         "name": "akitaonrails",
@@ -34,32 +63,314 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "xerj",
-      "fullName": "xerj-org/xerj",
-      "url": "https://github.com/xerj-org/xerj",
-      "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 10616,
-      "forks": 610,
-      "starsToday": 671,
+      "stars": 83580,
+      "forks": 5056,
+      "starsToday": 593,
       "topics": [],
       "author": {
-        "name": "xerj-org",
-        "avatar": "https://avatars.githubusercontent.com/u/297525353?s=40&amp;v=4",
-        "url": "https://github.com/xerj-org"
+        "name": "pbakaus",
+        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
+        "url": "https://github.com/pbakaus"
       },
-      "summary": "本地优先的搜索引擎与MCP服务器，单个Rust二进制即可索引代码、文档、日志和PDF，支持BM25、向量与混合检索，兼容Elasticsearch API，为AI代理提供代码搜索、记忆与RAG能力。",
+      "summary": "一套面向 AI 编程助手的设计语言规范，用 Rust 实现，帮助 AI 生成更专业、更一致的界面设计。",
       "tags": [
-        "search",
+        "design",
+        "ai",
         "rust",
-        "mcp",
-        "rag",
-        "vector-search",
-        "local-first"
+        "ui",
+        "prompt"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-10-20T03:59:56.582Z",
+      "enrichedAt": "2026-10-20T03:59:57.933Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1529,
+      "forks": 278,
+      "starsToday": 173,
+      "topics": [],
+      "author": {
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
+      },
+      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用 Rust 实现，适合在 S3 类存储上做版本化图数据管理。",
+      "tags": [
+        "graph-database",
+        "rust",
+        "object-storage",
+        "ontology",
+        "versioning"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-20T14:10:59.745Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-ontologies",
+      "fullName": "fabio-rovai/open-ontologies",
+      "url": "https://github.com/fabio-rovai/open-ontologies",
+      "description": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1146,
+      "forks": 160,
+      "starsToday": 52,
+      "topics": [],
+      "author": {
+        "name": "fabio-rovai",
+        "avatar": "https://avatars.githubusercontent.com/u/146086869?s=40&amp;v=4",
+        "url": "https://github.com/fabio-rovai"
+      },
+      "summary": "用Rust实现的本体变更管理工具，支持规划、应用与回滚生产本体变更，并生成影响范围报告和可供审计复核的证明。",
+      "tags": [
+        "ontology",
+        "rust",
+        "audit",
+        "rollback",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-20T14:11:00.135Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "macro",
+      "fullName": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4780,
+      "forks": 475,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "macro-inc",
+        "avatar": "https://avatars.githubusercontent.com/u/6412775?s=40&amp;v=4",
+        "url": "https://github.com/macro-inc"
+      },
+      "summary": "基于 Rust 打造的团队统一工作空间，将邮件、聊天、文档、任务、AI 代理、通话与 CRM 通过 @ 链接和共享 AI 记忆整合为一体。",
+      "tags": [
+        "collaboration",
+        "workspace",
+        "rust",
+        "ai",
+        "crm",
+        "productivity"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-20T14:10:59.941Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Beav",
+      "fullName": "Jamailar/Beav",
+      "url": "https://github.com/Jamailar/Beav",
+      "description": "小红书 AI 运营工作台｜小红书采集、评论区下载、素材库、选题、AI写作、小红书全域解决方案，开箱即用，一键安装，小红书AI工作台，自媒体素材库，AI写作+图片自动编排，小红书版OpenClaw、自媒体资产底座+AI工作台，支持小红书图文+小红书评论区下载、小红书AI创作工具、自媒体版WorkBuddy、抖音、小红书爬虫数据采集",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2082,
+      "forks": 274,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "Jamailar",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/Jamailar"
+      },
+      "summary": "基于Rust的小红书AI运营工作台，集成笔记与评论区采集、素材库、选题及AI写作排版，开箱即用。",
+      "tags": [
+        "xiaohongshu",
+        "ai",
+        "scraper",
+        "content",
+        "rust"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-20T14:10:59.982Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 146719,
+      "forks": 9685,
+      "starsToday": 508,
+      "topics": [],
+      "author": {
+        "name": "farion1231",
+        "avatar": "https://avatars.githubusercontent.com/u/44939412?s=40&amp;v=4",
+        "url": "https://github.com/farion1231"
+      },
+      "summary": "跨平台桌面工具，一站式管理 Claude Code、Codex、OpenCode 等多个 AI 编程代理的配置与切换，基于 Rust 构建。",
+      "tags": [
+        "rust",
+        "desktop",
+        "ai-agents",
+        "config-manager",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-20T14:11:00.976Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MangoDisk",
+      "fullName": "harry0703/MangoDisk",
+      "url": "https://github.com/harry0703/MangoDisk",
+      "description": "Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4370,
+      "forks": 294,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
+      },
+      "summary": "跨平台磁盘清理与空间分析工具，支持重复文件清理、应用卸载、启动项管理和系统优化，以安全优先为设计原则。",
+      "tags": [
+        "disk-cleaner",
+        "rust",
+        "cross-platform",
+        "system-optimization",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-20T14:11:01.357Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6294,
+      "forks": 550,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "开源AI原生矢量设计工具，支持并发Agent团队，用提示词直接在实时画布上生成UI，以代码方式做设计，是Pencil的现代替代品。",
+      "tags": [
+        "ai",
+        "design",
+        "vector",
+        "rust",
+        "ui",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-20T14:11:01.126Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpui-kit",
+      "fullName": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18407,
+      "forks": 1115,
+      "starsToday": 185,
+      "topics": [],
+      "author": {
+        "name": "longbridge",
+        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
+        "url": "https://github.com/longbridge"
+      },
+      "summary": "基于 GPUI 的 Rust 跨平台桌面 GUI 组件库，提供丰富可复用组件，助你快速构建高性能原生桌面应用界面。",
+      "tags": [
+        "rust",
+        "gui",
+        "gpui",
+        "desktop",
+        "components",
+        "ui"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-20T14:11:01.123Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9330,
+      "forks": 334,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "Rust 编写的 Git worktree 管理 CLI，简化多分支并行开发，专为并行 AI 智能体工作流设计。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agents"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-20T14:11:02.244Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentgateway",
+      "fullName": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5425,
+      "forks": 959,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "agentgateway",
+        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
+        "url": "https://github.com/agentgateway"
+      },
+      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理，用 Rust 编写，统一管理智能体流量与工具调用。",
+      "tags": [
+        "proxy",
+        "mcp",
+        "ai-agents",
+        "rust",
+        "gateway"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:11:02.374Z",
       "deepwikiAvailable": false
     },
     {
@@ -200,34 +511,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-20T03:59:58.038Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 83307,
-      "forks": 5041,
-      "starsToday": 422,
-      "topics": [],
-      "author": {
-        "name": "pbakaus",
-        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
-        "url": "https://github.com/pbakaus"
-      },
-      "summary": "一套面向 AI 编程助手的设计语言规范，用 Rust 实现，帮助 AI 生成更专业、更一致的界面设计。",
-      "tags": [
-        "design",
-        "ai",
-        "rust",
-        "ui",
-        "prompt"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-20T03:59:57.933Z",
       "deepwikiAvailable": false
     },
     {

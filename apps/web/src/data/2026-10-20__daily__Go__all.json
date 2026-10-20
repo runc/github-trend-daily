@@ -2,9 +2,571 @@
   "date": "2026-10-20",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-20T03:59:15.122Z",
-  "enrichedAt": "2026-10-20T03:59:55.204Z",
+  "fetchedAt": "2026-10-20T14:10:19.480Z",
+  "enrichedAt": "2026-10-20T14:10:58.638Z",
   "repos": [
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128505,
+      "forks": 47510,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和运维管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "golang",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:10:54.336Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helm",
+      "fullName": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30349,
+      "forks": 7856,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "helm",
+        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
+        "url": "https://github.com/helm"
+      },
+      "summary": "Helm 是 Kubernetes 官方包管理器，用 Chart 模板化定义、打包、发布和回滚应用，大幅简化 K8s 部署与版本管理。",
+      "tags": [
+        "kubernetes",
+        "helm",
+        "package-manager",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-20T03:59:51.375Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6648,
+      "forks": 1041,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可批量提取商户名称、地址、电话、网站、评分、评论数、经纬度及邮箱等信息，支持导出结构化数据。",
+      "tags": [
+        "go",
+        "scraper",
+        "google-maps",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-20T14:10:54.123Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49776,
+      "forks": 4523,
+      "starsToday": 133,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "开源本地AI推理引擎，支持LLM、视觉、语音、图像、视频等多模态模型，无需GPU即可在任意硬件上运行，提供OpenAI兼容API。",
+      "tags": [
+        "llm",
+        "self-hosted",
+        "inference",
+        "openai-api",
+        "go",
+        "multimodal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-20T14:10:54.345Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50334,
+      "forks": 12157,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，聚合多种大模型并转换为OpenAI、Claude、Gemini兼容格式，便于个人与企业集中管理与分发。",
+      "tags": [
+        "ai",
+        "gateway",
+        "llm",
+        "openai",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-20T14:10:54.323Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58588,
+      "forks": 7303,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "Go 编写的轻量自托管一体化软件开发平台，集成 Git 托管、代码评审、团队协作、包仓库与 CI/CD，可替代 GitHub 私有部署。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "go",
+        "ci-cd"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-20T03:59:51.016Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freehire",
+      "fullName": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1709,
+      "forks": 207,
+      "starsToday": 309,
+      "topics": [],
+      "author": {
+        "name": "strelov1",
+        "avatar": "https://avatars.githubusercontent.com/u/10761735?s=40&amp;v=4",
+        "url": "https://github.com/strelov1"
+      },
+      "summary": "开源求职搜索引擎，用 Go 编写，帮助求职者聚合检索职位信息，替代商业招聘平台。",
+      "tags": [
+        "job-search",
+        "search-engine",
+        "go",
+        "open-source",
+        "career"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-20T03:59:54.402Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "datadog-agent",
+      "fullName": "DataDog/datadog-agent",
+      "url": "https://github.com/DataDog/datadog-agent",
+      "description": "Main repository for Datadog Agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3769,
+      "forks": 1514,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "DataDog",
+        "avatar": "https://avatars.githubusercontent.com/u/23154723?s=40&amp;v=4",
+        "url": "https://github.com/DataDog"
+      },
+      "summary": "Datadog 官方监控 Agent 主仓库，用 Go 编写，采集主机指标、日志与链路追踪并上报至 Datadog 平台。",
+      "tags": [
+        "monitoring",
+        "observability",
+        "go",
+        "agent",
+        "metrics"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:10:55.237Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-skills-golang",
+      "fullName": "samber/cc-skills-golang",
+      "url": "https://github.com/samber/cc-skills-golang",
+      "description": "🧑‍🎨 A collection of Golang agentic skills that works",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3523,
+      "forks": 234,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "samber",
+        "avatar": "https://avatars.githubusercontent.com/u/2951285?s=40&amp;v=4",
+        "url": "https://github.com/samber"
+      },
+      "summary": "面向 AI 编程代理的 Golang 技能集合，帮助 Claude 等代理按最佳实践编写 Go 代码。",
+      "tags": [
+        "golang",
+        "ai-agents",
+        "claude",
+        "skills",
+        "code-generation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-20T14:10:55.344Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vault",
+      "fullName": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36408,
+      "forks": 4795,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "HashiCorp 开源密钥管理平台，提供密钥存储、加密即服务与特权访问管理，支持动态凭证与多种认证后端。",
+      "tags": [
+        "secrets",
+        "security",
+        "encryption",
+        "go",
+        "access-management"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:10:55.481Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentsview",
+      "fullName": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6221,
+      "forks": 704,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "kenn-io",
+        "avatar": "https://avatars.githubusercontent.com/u/329591?s=40&amp;v=4",
+        "url": "https://github.com/kenn-io"
+      },
+      "summary": "本地优先的编码智能体会话搜索与分析工具，支持 Claude Code、Codex 等 20 多种智能体，提供会话检索、洞察和 token 用量统计。",
+      "tags": [
+        "go",
+        "ai-agents",
+        "analytics",
+        "local-first",
+        "search",
+        "token-usage"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-20T14:10:55.796Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harbor",
+      "fullName": "goharbor/harbor",
+      "url": "https://github.com/goharbor/harbor",
+      "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29576,
+      "forks": 5393,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "goharbor",
+        "avatar": "https://avatars.githubusercontent.com/u/5835782?s=40&amp;v=4",
+        "url": "https://github.com/goharbor"
+      },
+      "summary": "开源云原生容器镜像仓库，支持镜像存储、签名与漏洞扫描，提供访问控制与复制能力。",
+      "tags": [
+        "registry",
+        "containers",
+        "kubernetes",
+        "security",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:10:56.540Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "listmonk",
+      "fullName": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23876,
+      "forks": 2703,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "knadh",
+        "avatar": "https://avatars.githubusercontent.com/u/547147?s=40&amp;v=4",
+        "url": "https://github.com/knadh"
+      },
+      "summary": "高性能自托管邮件列表与newsletter管理工具，单二进制部署，自带现代化仪表盘，适合自建邮件营销系统。",
+      "tags": [
+        "newsletter",
+        "email",
+        "self-hosted",
+        "go",
+        "mailing-list"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-20T14:10:56.369Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netdata",
+      "fullName": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 81061,
+      "forks": 6694,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "netdata",
+        "avatar": "https://avatars.githubusercontent.com/u/2662304?s=40&amp;v=4",
+        "url": "https://github.com/netdata"
+      },
+      "summary": "开源全栈可观测性平台，实时采集指标与日志并支持AI辅助诊断，轻量团队也能快速部署。",
+      "tags": [
+        "monitoring",
+        "observability",
+        "metrics",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:10:56.665Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139422,
+      "forks": 22766,
+      "starsToday": 55,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方源码仓库，提供简洁高效、原生支持并发的编译型语言及标准库与工具链。",
+      "tags": [
+        "go",
+        "golang",
+        "programming-language",
+        "compiler",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-20T14:10:57.344Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24442,
+      "forks": 8005,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "Argo CD 是 Kubernetes 的声明式 GitOps 持续交付工具，以 Git 为唯一事实来源自动同步集群状态，支持多集群管理与可视化回滚。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "devops",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:10:57.502Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gin",
+      "fullName": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 89393,
+      "forks": 8773,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "gin-gonic",
+        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
+        "url": "https://github.com/gin-gonic"
+      },
+      "summary": "Go 语言高性能 HTTP Web 框架，基于 httprouter，API 简洁，适合构建 REST API、Web 应用与微服务。",
+      "tags": [
+        "go",
+        "web-framework",
+        "http",
+        "rest-api",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-20T14:10:57.533Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17758,
+      "forks": 1402,
+      "starsToday": 26,
+      "topics": [],
+      "author": {
+        "name": "larksuite",
+        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
+        "url": "https://github.com/larksuite"
+      },
+      "summary": "飞书官方命令行工具，覆盖消息、文档、多维表格、日历、邮件等核心业务域，提供200+命令与20+ AI Agent技能，面向人类与智能体。",
+      "tags": [
+        "lark",
+        "feishu",
+        "cli",
+        "ai-agent",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-20T14:10:58.028Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "istio",
+      "fullName": "istio/istio",
+      "url": "https://github.com/istio/istio",
+      "description": "Connect, secure, control, and observe services.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38458,
+      "forks": 8402,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "istio",
+        "avatar": "https://avatars.githubusercontent.com/u/25311884?s=40&amp;v=4",
+        "url": "https://github.com/istio"
+      },
+      "summary": "Istio 是开源服务网格平台，为微服务提供流量管理、安全认证、策略控制与可观测性，无需改动业务代码。",
+      "tags": [
+        "service-mesh",
+        "kubernetes",
+        "microservices",
+        "go",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-20T14:10:58.638Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "urfave/cli",
+      "url": "https://github.com/urfave/cli",
+      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24294,
+      "forks": 1963,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "urfave",
+        "avatar": "https://avatars.githubusercontent.com/u/3200486?s=40&amp;v=4",
+        "url": "https://github.com/urfave"
+      },
+      "summary": "Go 语言命令行工具构建库，以声明式 API 快速定义命令、参数与子命令，简洁高效，是 Go CLI 开发的主流选择。",
+      "tags": [
+        "go",
+        "cli",
+        "command-line",
+        "library",
+        "flags"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-20T03:59:51.116Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "trivy",
       "fullName": "aquasecurity/trivy",
@@ -32,90 +594,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-20T03:59:50.910Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gitea",
-      "fullName": "go-gitea/gitea",
-      "url": "https://github.com/go-gitea/gitea",
-      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 58577,
-      "forks": 7296,
-      "starsToday": 23,
-      "topics": [],
-      "author": {
-        "name": "go-gitea",
-        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
-        "url": "https://github.com/go-gitea"
-      },
-      "summary": "Go 编写的轻量自托管一体化软件开发平台，集成 Git 托管、代码评审、团队协作、包仓库与 CI/CD，可替代 GitHub 私有部署。",
-      "tags": [
-        "git",
-        "self-hosted",
-        "devops",
-        "go",
-        "ci-cd"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-20T03:59:51.016Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "helm",
-      "fullName": "helm/helm",
-      "url": "https://github.com/helm/helm",
-      "description": "The Kubernetes Package Manager",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 30343,
-      "forks": 7852,
-      "starsToday": 3,
-      "topics": [],
-      "author": {
-        "name": "helm",
-        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
-        "url": "https://github.com/helm"
-      },
-      "summary": "Helm 是 Kubernetes 官方包管理器，用 Chart 模板化定义、打包、发布和回滚应用，大幅简化 K8s 部署与版本管理。",
-      "tags": [
-        "kubernetes",
-        "helm",
-        "package-manager",
-        "go",
-        "devops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-20T03:59:51.375Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "urfave/cli",
-      "url": "https://github.com/urfave/cli",
-      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 24293,
-      "forks": 1935,
-      "starsToday": 0,
-      "topics": [],
-      "author": {
-        "name": "urfave",
-        "avatar": "https://avatars.githubusercontent.com/u/3200486?s=40&amp;v=4",
-        "url": "https://github.com/urfave"
-      },
-      "summary": "Go 语言命令行工具构建库，以声明式 API 快速定义命令、参数与子命令，简洁高效，是 Go CLI 开发的主流选择。",
-      "tags": [
-        "go",
-        "cli",
-        "command-line",
-        "library",
-        "flags"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-20T03:59:51.116Z",
       "deepwikiAvailable": false
     },
     {
@@ -370,34 +848,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-20T03:59:54.877Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "freehire",
-      "fullName": "strelov1/freehire",
-      "url": "https://github.com/strelov1/freehire",
-      "description": "freehire — the open-source search engine for job seekers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1483,
-      "forks": 172,
-      "starsToday": 295,
-      "topics": [],
-      "author": {
-        "name": "strelov1",
-        "avatar": "https://avatars.githubusercontent.com/u/10761735?s=40&amp;v=4",
-        "url": "https://github.com/strelov1"
-      },
-      "summary": "开源求职搜索引擎，用 Go 编写，帮助求职者聚合检索职位信息，替代商业招聘平台。",
-      "tags": [
-        "job-search",
-        "search-engine",
-        "go",
-        "open-source",
-        "career"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-20T03:59:54.402Z",
       "deepwikiAvailable": false
     },
     {
