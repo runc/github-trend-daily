@@ -2,9 +2,261 @@
   "date": "2026-10-21",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-21T03:48:29.798Z",
-  "enrichedAt": "2026-10-21T03:49:15.475Z",
+  "fetchedAt": "2026-10-21T14:23:13.154Z",
+  "enrichedAt": "2026-10-21T14:23:56.849Z",
   "repos": [
+    {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12073,
+      "forks": 855,
+      "starsToday": 810,
+      "topics": [],
+      "author": {
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
+      },
+      "summary": "为编码智能体 CLI 提供长期记忆的方案，支持在不同厂商的 agent 之间交接上下文，用 Rust 编写。",
+      "tags": [
+        "ai",
+        "memory",
+        "agents",
+        "rust",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-21T03:49:12.388Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cua",
+      "fullName": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30527,
+      "forks": 2210,
+      "starsToday": 208,
+      "topics": [],
+      "author": {
+        "name": "trycua",
+        "avatar": "https://avatars.githubusercontent.com/u/195596869?s=40&amp;v=4",
+        "url": "https://github.com/trycua"
+      },
+      "summary": "开源计算机使用智能体基础设施，提供跨系统沙箱、驱动与基准，支持训练、评测和数据生成。",
+      "tags": [
+        "computer-use",
+        "agents",
+        "sandbox",
+        "benchmark",
+        "rust"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-21T14:23:55.791Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 130270,
+      "forks": 20536,
+      "starsToday": 538,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 开源的终端编码智能体，用 Rust 编写，可在命令行中直接读写代码、执行任务，轻量高效。",
+      "tags": [
+        "ai",
+        "agent",
+        "cli",
+        "rust",
+        "coding-assistant"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-21T14:23:55.791Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MangoDisk",
+      "fullName": "harry0703/MangoDisk",
+      "url": "https://github.com/harry0703/MangoDisk",
+      "description": "Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4463,
+      "forks": 298,
+      "starsToday": 77,
+      "topics": [],
+      "author": {
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
+      },
+      "summary": "跨平台磁盘清理与空间分析工具，支持重复文件清理、应用卸载、启动项管理和系统优化，安全优先。",
+      "tags": [
+        "disk-cleaner",
+        "rust",
+        "cross-platform",
+        "system-utility",
+        "macos"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-21T03:49:14.571Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 147155,
+      "forks": 9705,
+      "starsToday": 507,
+      "topics": [],
+      "author": {
+        "name": "farion1231",
+        "avatar": "https://avatars.githubusercontent.com/u/44939412?s=40&amp;v=4",
+        "url": "https://github.com/farion1231"
+      },
+      "summary": "跨平台桌面工具，一站式管理 Claude Code、Codex 等多个 AI 编程代理的配置与切换，基于 Rust 构建。",
+      "tags": [
+        "desktop",
+        "rust",
+        "claude-code",
+        "codex",
+        "config-manager"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-21T03:49:13.701Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1578,
+      "forks": 232,
+      "starsToday": 190,
+      "topics": [],
+      "author": {
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
+      },
+      "summary": "基于对象存储的原生图数据库，支持分支与类型化本体，用 Rust 编写，适合低成本构建可版本化的知识图谱。",
+      "tags": [
+        "graph-database",
+        "rust",
+        "object-storage",
+        "ontology",
+        "versioning"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-21T03:49:12.653Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "turso",
+      "fullName": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24917,
+      "forks": 1474,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "tursodatabase",
+        "avatar": "https://avatars.githubusercontent.com/u/81939?s=40&amp;v=4",
+        "url": "https://github.com/tursodatabase"
+      },
+      "summary": "用 Rust 编写的 SQL 数据库，兼容 SQLite 并实验性支持 Postgres 协议，主打可嵌入与高性能，被称为数据库界的 LLVM。",
+      "tags": [
+        "rust",
+        "database",
+        "sqlite",
+        "postgres",
+        "embedded"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-21T14:23:55.491Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-ontologies",
+      "fullName": "fabio-rovai/open-ontologies",
+      "url": "https://github.com/fabio-rovai/open-ontologies",
+      "description": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1185,
+      "forks": 164,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "fabio-rovai",
+        "avatar": "https://avatars.githubusercontent.com/u/146086869?s=40&amp;v=4",
+        "url": "https://github.com/fabio-rovai"
+      },
+      "summary": "用 Rust 实现的本体变更管理工具，支持对生产本体做计划、应用与回滚，并生成影响范围报告和可供审计复核的证明。",
+      "tags": [
+        "ontology",
+        "rust",
+        "audit",
+        "migration",
+        "rollback"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-21T03:49:13.342Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uzu",
+      "fullName": "trymirai/uzu",
+      "url": "https://github.com/trymirai/uzu",
+      "description": "A high-performance inference engine for AI models",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2469,
+      "forks": 143,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "trymirai",
+        "avatar": "https://avatars.githubusercontent.com/u/83587632?s=40&amp;v=4",
+        "url": "https://github.com/trymirai"
+      },
+      "summary": "基于 Rust 的高性能 AI 模型推理引擎，主打低延迟与跨平台部署，适合本地及服务端推理场景。",
+      "tags": [
+        "rust",
+        "inference",
+        "ai",
+        "performance",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-21T14:23:55.537Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "xerj",
       "fullName": "xerj-org/xerj",
@@ -12,8 +264,8 @@
       "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 12469,
-      "forks": 749,
+      "stars": 12648,
+      "forks": 781,
       "starsToday": 2660,
       "topics": [],
       "author": {
@@ -35,31 +287,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ai-memory",
-      "fullName": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "name": "EasyTier",
+      "fullName": "EasyTier/EasyTier",
+      "url": "https://github.com/EasyTier/EasyTier",
+      "description": "A simple, decentralized mesh VPN with WireGuard support.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 11947,
-      "forks": 848,
-      "starsToday": 810,
+      "stars": 14190,
+      "forks": 1446,
+      "starsToday": 23,
       "topics": [],
       "author": {
-        "name": "akitaonrails",
-        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
-        "url": "https://github.com/akitaonrails"
+        "name": "EasyTier",
+        "avatar": "https://avatars.githubusercontent.com/u/5665404?s=40&amp;v=4",
+        "url": "https://github.com/EasyTier"
       },
-      "summary": "为编码智能体 CLI 提供长期记忆的方案，支持在不同厂商的 agent 之间交接上下文，用 Rust 编写。",
+      "summary": "基于Rust实现的去中心化Mesh组网VPN，支持WireGuard，无需中心服务器即可轻松组建跨地域虚拟局域网。",
       "tags": [
-        "ai",
-        "memory",
-        "agents",
+        "vpn",
+        "mesh",
+        "wireguard",
         "rust",
-        "cli"
+        "networking"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-21T03:49:12.388Z",
+      "category": "Infra",
+      "enrichedAt": "2026-10-21T14:23:56.849Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oxc",
+      "fullName": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "description": "⚓ A collection of high-performance JavaScript tools.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 23160,
+      "forks": 1392,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "oxc-project",
+        "avatar": "https://avatars.githubusercontent.com/u/1430279?s=40&amp;v=4",
+        "url": "https://github.com/oxc-project"
+      },
+      "summary": "用 Rust 编写的高性能 JavaScript 工具集，包含解析器、Linter、压缩器等，可替代 Babel/ESLint 等工具链，速度显著更快。",
+      "tags": [
+        "rust",
+        "javascript",
+        "parser",
+        "linter",
+        "compiler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-21T14:23:56.766Z",
       "deepwikiAvailable": false
     },
     {
@@ -69,8 +349,8 @@
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 83927,
-      "forks": 5030,
+      "stars": 84212,
+      "forks": 5039,
       "starsToday": 601,
       "topics": [],
       "author": {
@@ -88,62 +368,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-21T03:49:12.327Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omnigraph",
-      "fullName": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1536,
-      "forks": 235,
-      "starsToday": 190,
-      "topics": [],
-      "author": {
-        "name": "ModernRelay",
-        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
-        "url": "https://github.com/ModernRelay"
-      },
-      "summary": "基于对象存储的原生图数据库，支持分支与类型化本体，用 Rust 编写，适合低成本构建可版本化的知识图谱。",
-      "tags": [
-        "graph-database",
-        "rust",
-        "object-storage",
-        "ontology",
-        "versioning"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-21T03:49:12.653Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "open-ontologies",
-      "fullName": "fabio-rovai/open-ontologies",
-      "url": "https://github.com/fabio-rovai/open-ontologies",
-      "description": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1162,
-      "forks": 161,
-      "starsToday": 56,
-      "topics": [],
-      "author": {
-        "name": "fabio-rovai",
-        "avatar": "https://avatars.githubusercontent.com/u/146086869?s=40&amp;v=4",
-        "url": "https://github.com/fabio-rovai"
-      },
-      "summary": "用 Rust 实现的本体变更管理工具，支持对生产本体做计划、应用与回滚，并生成影响范围报告和可供审计复核的证明。",
-      "tags": [
-        "ontology",
-        "rust",
-        "audit",
-        "migration",
-        "rollback"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-21T03:49:13.342Z",
       "deepwikiAvailable": false
     },
     {
@@ -201,62 +425,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-21T03:49:13.660Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cc-switch",
-      "fullName": "farion1231/cc-switch",
-      "url": "https://github.com/farion1231/cc-switch",
-      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 146895,
-      "forks": 9697,
-      "starsToday": 507,
-      "topics": [],
-      "author": {
-        "name": "farion1231",
-        "avatar": "https://avatars.githubusercontent.com/u/44939412?s=40&amp;v=4",
-        "url": "https://github.com/farion1231"
-      },
-      "summary": "跨平台桌面工具，一站式管理 Claude Code、Codex 等多个 AI 编程代理的配置与切换，基于 Rust 构建。",
-      "tags": [
-        "desktop",
-        "rust",
-        "claude-code",
-        "codex",
-        "config-manager"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-21T03:49:13.701Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "MangoDisk",
-      "fullName": "harry0703/MangoDisk",
-      "url": "https://github.com/harry0703/MangoDisk",
-      "description": "Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 4401,
-      "forks": 296,
-      "starsToday": 77,
-      "topics": [],
-      "author": {
-        "name": "harry0703",
-        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
-        "url": "https://github.com/harry0703"
-      },
-      "summary": "跨平台磁盘清理与空间分析工具，支持重复文件清理、应用卸载、启动项管理和系统优化，安全优先。",
-      "tags": [
-        "disk-cleaner",
-        "rust",
-        "cross-platform",
-        "system-utility",
-        "macos"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-21T03:49:14.571Z",
       "deepwikiAvailable": false
     },
     {
