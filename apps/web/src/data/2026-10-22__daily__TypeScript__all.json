@@ -2,37 +2,9 @@
   "date": "2026-10-22",
   "since": "daily",
   "language": "TypeScript",
-  "fetchedAt": "2026-10-22T03:48:19.012Z",
-  "enrichedAt": "2026-10-22T03:48:46.648Z",
+  "fetchedAt": "2026-10-22T14:24:15.025Z",
+  "enrichedAt": "2026-10-22T14:24:46.987Z",
   "repos": [
-    {
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 101559,
-      "forks": 6424,
-      "starsToday": 1541,
-      "topics": [],
-      "author": {
-        "name": "stablyai",
-        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
-        "url": "https://github.com/stablyai"
-      },
-      "summary": "Orca 是统一调度多编码智能体（如 Claude Code、Grok Bot）的工作平台，支持自带订阅运行，覆盖桌面、移动与远程运行时。",
-      "tags": [
-        "ai-agents",
-        "coding-agent",
-        "typescript",
-        "multi-agent",
-        "remote"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-22T03:48:42.892Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "supabase",
       "fullName": "supabase/supabase",
@@ -40,9 +12,9 @@
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 113099,
-      "forks": 16956,
-      "starsToday": 504,
+      "stars": 113317,
+      "forks": 16991,
+      "starsToday": 683,
       "topics": [],
       "author": {
         "name": "supabase",
@@ -62,15 +34,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenStock",
+      "fullName": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 20775,
+      "forks": 2561,
+      "starsToday": 186,
+      "topics": [],
+      "author": {
+        "name": "Open-Dev-Society",
+        "avatar": "https://avatars.githubusercontent.com/u/148683640?s=40&amp;v=4",
+        "url": "https://github.com/Open-Dev-Society"
+      },
+      "summary": "开源免费的美股行情平台替代品，支持实时价格追踪、个性化提醒和公司深度洞察，基于TypeScript构建。",
+      "tags": [
+        "finance",
+        "stocks",
+        "typescript",
+        "nextjs",
+        "alerts"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-22T14:24:44.455Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "twenty",
       "fullName": "twentyhq/twenty",
       "url": "https://github.com/twentyhq/twenty",
       "description": "The open alternative to Salesforce, designed for AI.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 59265,
-      "forks": 9667,
-      "starsToday": 112,
+      "stars": 59502,
+      "forks": 9687,
+      "starsToday": 713,
       "topics": [],
       "author": {
         "name": "twentyhq",
@@ -87,6 +87,344 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-22T03:48:42.581Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freellmapi",
+      "fullName": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 39320,
+      "forks": 5308,
+      "starsToday": 675,
+      "topics": [],
+      "author": {
+        "name": "tashfeenahmed",
+        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
+        "url": "https://github.com/tashfeenahmed"
+      },
+      "summary": "聚合34家免费LLM提供商的635个模型端点，统一为单个OpenAI兼容/v1接口，支持智能路由、自动故障转移与密钥加密。",
+      "tags": [
+        "llm",
+        "api-gateway",
+        "openai",
+        "typescript",
+        "failover",
+        "routing"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-22T03:48:45.758Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "genoffice",
+      "fullName": "genspark-ai/genoffice",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 10463,
+      "forks": 1385,
+      "starsToday": 191,
+      "topics": [],
+      "author": {
+        "name": "genspark-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/127435065?s=40&amp;v=4",
+        "url": "https://github.com/genspark-ai"
+      },
+      "summary": "开源AI办公套件，含文档、表格、幻灯片、PDF等编辑器与内置AI代理，并提供CLI和agent skill，让Claude Code等工具在本地生成编辑真实Office文件。",
+      "tags": [
+        "office",
+        "ai-agent",
+        "typescript",
+        "cli",
+        "productivity"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-22T14:24:44.333Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "worldmonitor",
+      "fullName": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 89185,
+      "forks": 13689,
+      "starsToday": 160,
+      "topics": [],
+      "author": {
+        "name": "koala73",
+        "avatar": "https://avatars.githubusercontent.com/u/996596?s=40&amp;v=4",
+        "url": "https://github.com/koala73"
+      },
+      "summary": "实时全球情报仪表盘，用AI聚合新闻、监控地缘政治与基础设施，提供统一态势感知界面。",
+      "tags": [
+        "dashboard",
+        "news",
+        "geopolitics",
+        "ai",
+        "monitoring",
+        "typescript"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-22T03:48:46.647Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 66270,
+      "forks": 5309,
+      "starsToday": 380,
+      "topics": [],
+      "author": {
+        "name": "remotion-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/1629785?s=40&amp;v=4",
+        "url": "https://github.com/remotion-dev"
+      },
+      "summary": "用 React 以代码方式制作视频的框架，支持组件化、参数化渲染与程序化动画，可批量生成 MP4。",
+      "tags": [
+        "react",
+        "video",
+        "typescript",
+        "animation",
+        "rendering"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-22T14:24:44.275Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 29336,
+      "forks": 7866,
+      "starsToday": 302,
+      "topics": [],
+      "author": {
+        "name": "pingdotgg",
+        "avatar": "https://avatars.githubusercontent.com/u/51714798?s=40&amp;v=4",
+        "url": "https://github.com/pingdotgg"
+      },
+      "summary": "T3 Code 是 T3 团队开源的 AI 编程代理工具，用 TypeScript 构建，提供可本地运行的智能编码助手，快速生成与修改代码。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "typescript",
+        "developer-tools",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-22T03:48:43.812Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vite",
+      "fullName": "vitejs/vite",
+      "url": "https://github.com/vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 83449,
+      "forks": 8863,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "vitejs",
+        "avatar": "https://avatars.githubusercontent.com/u/49056869?s=40&amp;v=4",
+        "url": "https://github.com/vitejs"
+      },
+      "summary": "下一代前端构建工具，基于原生ESM提供极速冷启动与热更新，支持开箱即用的开发服务器和优化的生产构建。",
+      "tags": [
+        "vite",
+        "frontend",
+        "build-tool",
+        "dev-server",
+        "typescript"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-22T14:24:44.306Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "firecrawl",
+      "fullName": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 194145,
+      "forks": 10247,
+      "starsToday": 455,
+      "topics": [],
+      "author": {
+        "name": "firecrawl",
+        "avatar": "https://avatars.githubusercontent.com/u/20311743?s=40&amp;v=4",
+        "url": "https://github.com/firecrawl"
+      },
+      "summary": "Firecrawl 是面向 AI 应用的网页数据抓取与转换工具，可将任意网站转为 LLM 可用的结构化 Markdown 或 JSON，支持爬取、搜索与批量提取。",
+      "tags": [
+        "scraping",
+        "crawler",
+        "llm",
+        "typescript",
+        "api"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-22T14:24:45.620Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dokploy",
+      "fullName": "Dokploy/dokploy",
+      "url": "https://github.com/Dokploy/dokploy",
+      "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 37944,
+      "forks": 3108,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "Dokploy",
+        "avatar": "https://avatars.githubusercontent.com/u/47042324?s=40&amp;v=4",
+        "url": "https://github.com/Dokploy"
+      },
+      "summary": "开源PaaS平台，可自托管部署应用与数据库，替代Vercel、Netlify和Heroku，支持Docker与Git自动构建。",
+      "tags": [
+        "paas",
+        "self-hosted",
+        "deployment",
+        "docker",
+        "typescript"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-22T14:24:45.701Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compound-engineering-plugin",
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 25651,
+      "forks": 2029,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "EveryInc",
+        "avatar": "https://avatars.githubusercontent.com/u/517103?s=40&amp;v=4",
+        "url": "https://github.com/EveryInc"
+      },
+      "summary": "面向 Claude Code、Codex、Cursor 等 AI 编程工具的官方 Compound Engineering 插件，用工程化工作流提升 AI 编码质量与效率。",
+      "tags": [
+        "claude-code",
+        "ai",
+        "plugin",
+        "cursor",
+        "typescript"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-22T14:24:45.602Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "docs",
+      "fullName": "github/docs",
+      "url": "https://github.com/github/docs",
+      "description": "The open-source repo for docs.github.com",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 21073,
+      "forks": 69194,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/63058869?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方文档站点 docs.github.com 的开源仓库，包含全部文档内容与基于 TypeScript 的渲染站点，支持社区贡献与本地预览。",
+      "tags": [
+        "documentation",
+        "github",
+        "typescript",
+        "static-site",
+        "open-source"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-22T14:24:45.657Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenBot",
+      "fullName": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 6894,
+      "forks": 942,
+      "starsToday": 89,
+      "topics": [],
+      "author": {
+        "name": "CopilotKit",
+        "avatar": "https://avatars.githubusercontent.com/u/1574202?s=40&amp;v=4",
+        "url": "https://github.com/CopilotKit"
+      },
+      "summary": "开源AI同事框架，每个智能体拥有独立浏览器、文件与工具环境，行动前决策、事后留痕，兼容任意AG-UI智能体。",
+      "tags": [
+        "ai-agent",
+        "typescript",
+        "ag-ui",
+        "browser-automation",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-22T14:24:46.987Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 102347,
+      "forks": 6463,
+      "starsToday": 1694,
+      "topics": [],
+      "author": {
+        "name": "stablyai",
+        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
+        "url": "https://github.com/stablyai"
+      },
+      "summary": "Orca 是统一调度多编码智能体（如 Claude Code、Grok Bot）的工作平台，支持自带订阅运行，覆盖桌面、移动与远程运行时。",
+      "tags": [
+        "ai-agents",
+        "coding-agent",
+        "typescript",
+        "multi-agent",
+        "remote"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-22T03:48:42.892Z",
       "deepwikiAvailable": false
     },
     {
@@ -144,34 +482,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-22T03:48:43.759Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "t3code",
-      "fullName": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 29190,
-      "forks": 7836,
-      "starsToday": 302,
-      "topics": [],
-      "author": {
-        "name": "pingdotgg",
-        "avatar": "https://avatars.githubusercontent.com/u/51714798?s=40&amp;v=4",
-        "url": "https://github.com/pingdotgg"
-      },
-      "summary": "T3 Code 是 T3 团队开源的 AI 编程代理工具，用 TypeScript 构建，提供可本地运行的智能编码助手，快速生成与修改代码。",
-      "tags": [
-        "ai",
-        "coding-agent",
-        "typescript",
-        "developer-tools",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-22T03:48:43.812Z",
       "deepwikiAvailable": false
     },
     {
@@ -315,35 +625,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "freellmapi",
-      "fullName": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 39033,
-      "forks": 5261,
-      "starsToday": 675,
-      "topics": [],
-      "author": {
-        "name": "tashfeenahmed",
-        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
-        "url": "https://github.com/tashfeenahmed"
-      },
-      "summary": "聚合34家免费LLM提供商的635个模型端点，统一为单个OpenAI兼容/v1接口，支持智能路由、自动故障转移与密钥加密。",
-      "tags": [
-        "llm",
-        "api-gateway",
-        "openai",
-        "typescript",
-        "failover",
-        "routing"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-22T03:48:45.758Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "cline",
       "fullName": "cline/cline",
       "url": "https://github.com/cline/cline",
@@ -397,35 +678,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-22T03:48:46.351Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "worldmonitor",
-      "fullName": "koala73/worldmonitor",
-      "url": "https://github.com/koala73/worldmonitor",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 89123,
-      "forks": 13677,
-      "starsToday": 160,
-      "topics": [],
-      "author": {
-        "name": "koala73",
-        "avatar": "https://avatars.githubusercontent.com/u/996596?s=40&amp;v=4",
-        "url": "https://github.com/koala73"
-      },
-      "summary": "实时全球情报仪表盘，用AI聚合新闻、监控地缘政治与基础设施，提供统一态势感知界面。",
-      "tags": [
-        "dashboard",
-        "news",
-        "geopolitics",
-        "ai",
-        "monitoring",
-        "typescript"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-22T03:48:46.647Z",
       "deepwikiAvailable": false
     }
   ]

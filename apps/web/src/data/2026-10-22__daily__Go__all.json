@@ -2,9 +2,486 @@
   "date": "2026-10-22",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-22T03:48:19.012Z",
-  "enrichedAt": "2026-10-22T03:48:59.086Z",
+  "fetchedAt": "2026-10-22T14:24:15.025Z",
+  "enrichedAt": "2026-10-22T14:24:57.177Z",
   "repos": [
+    {
+      "name": "Cybersecurity-Projects",
+      "fullName": "CarterPerez-dev/Cybersecurity-Projects",
+      "url": "https://github.com/CarterPerez-dev/Cybersecurity-Projects",
+      "description": "Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Gamified Cybersecurity learning 👇",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8452,
+      "forks": 1231,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "CarterPerez-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/188120068?s=40&amp;v=4",
+        "url": "https://github.com/CarterPerez-dev"
+      },
+      "summary": "涵盖70个从入门到进阶的网络安全实战项目合集，可学习、扩展或直接复用，以游戏化方式学习安全技术。",
+      "tags": [
+        "cybersecurity",
+        "learning",
+        "go",
+        "tutorial",
+        "projects"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-22T14:24:52.185Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freehire",
+      "fullName": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2722,
+      "forks": 265,
+      "starsToday": 692,
+      "topics": [],
+      "author": {
+        "name": "strelov1",
+        "avatar": "https://avatars.githubusercontent.com/u/10761735?s=40&amp;v=4",
+        "url": "https://github.com/strelov1"
+      },
+      "summary": "开源求职搜索引擎，用 Go 编写，聚合职位信息并提供高效检索，帮助求职者快速找到合适岗位。",
+      "tags": [
+        "job-search",
+        "search-engine",
+        "go",
+        "open-source",
+        "career"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-22T14:24:52.217Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 48027,
+      "forks": 3516,
+      "starsToday": 225,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic接口。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-22T14:24:52.427Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111568,
+      "forks": 16787,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "JavaScript 的超集语言，为 JS 添加静态类型，编译输出干净的 JavaScript，提升大型项目可维护性。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "compiler",
+        "language",
+        "static-typing"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-10-22T14:24:52.519Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helm",
+      "fullName": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30358,
+      "forks": 7843,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "helm",
+        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
+        "url": "https://github.com/helm"
+      },
+      "summary": "Kubernetes 官方包管理器，用 Chart 模板化定义、安装和升级集群应用，简化 K8s 应用分发与版本管理。",
+      "tags": [
+        "kubernetes",
+        "package-manager",
+        "go",
+        "cli",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-22T14:24:53.665Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-beacon",
+      "fullName": "Asymptote-Labs/agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2562,
+      "forks": 234,
+      "starsToday": 443,
+      "topics": [],
+      "author": {
+        "name": "Asymptote-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Asymptote-Labs"
+      },
+      "summary": "面向 AI Agent 的跨框架自进化记忆层，用 Go 实现，为不同 Agent 框架提供统一持久的记忆能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "memory",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-22T03:48:54.896Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37933,
+      "forks": 3340,
+      "starsToday": 67,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于 WireGuard 的零配置网状 VPN 方案，支持 SSO/2FA 身份认证与 NAT 穿透，让设备间安全直连。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-22T14:24:53.297Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zitadel",
+      "fullName": "zitadel/zitadel",
+      "url": "https://github.com/zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for you.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15385,
+      "forks": 1396,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "zitadel",
+        "avatar": "https://avatars.githubusercontent.com/u/9405495?s=40&amp;v=4",
+        "url": "https://github.com/zitadel"
+      },
+      "summary": "基于Go的开源身份基础设施平台，提供OIDC、SAML、多租户用户管理与单点登录，简化自托管IAM部署。",
+      "tags": [
+        "identity",
+        "auth",
+        "sso",
+        "oidc",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-22T14:24:53.589Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-collector-contrib",
+      "fullName": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5013,
+      "forks": 4041,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Collector 的官方扩展仓库，提供大量社区维护的接收器、处理器、导出器与扩展组件，用于构建可观测性数据采集与处理流水线。",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "collector",
+        "go",
+        "telemetry"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-22T14:24:53.976Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38610,
+      "forks": 790,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "开源安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、配置错误与密钥泄露，并生成SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-22T14:24:54.427Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-skills-golang",
+      "fullName": "samber/cc-skills-golang",
+      "url": "https://github.com/samber/cc-skills-golang",
+      "description": "🧑‍🎨 A collection of Golang agentic skills that works",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3561,
+      "forks": 238,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "samber",
+        "avatar": "https://avatars.githubusercontent.com/u/2951285?s=40&amp;v=4",
+        "url": "https://github.com/samber"
+      },
+      "summary": "面向 Golang 的 AI Agent 技能集合，为 Claude Code 等编码助手提供可复用的 Go 开发技能，提升代码生成与工程实践质量。",
+      "tags": [
+        "golang",
+        "ai-agent",
+        "claude",
+        "skills",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-22T14:24:55.035Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 53551,
+      "forks": 7031,
+      "starsToday": 131,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与AI智能体在同一团队中协同工作，用Go编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-22T03:48:58.872Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "alloy",
+      "fullName": "grafana/alloy",
+      "url": "https://github.com/grafana/alloy",
+      "description": "OpenTelemetry Collector distribution with programmable pipelines",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3631,
+      "forks": 744,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/u/630212?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "Grafana 开源的 OpenTelemetry Collector 发行版，支持用可编程配置构建指标、日志、追踪采集管道，统一替代 Promtail 等旧组件。",
+      "tags": [
+        "observability",
+        "opentelemetry",
+        "telemetry",
+        "go",
+        "grafana"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-22T14:24:54.886Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wx_channels_download",
+      "fullName": "ltaoo/wx_channels_download",
+      "url": "https://github.com/ltaoo/wx_channels_download",
+      "description": "微信视频号下载器",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10034,
+      "forks": 1658,
+      "starsToday": 89,
+      "topics": [],
+      "author": {
+        "name": "ltaoo",
+        "avatar": "https://avatars.githubusercontent.com/u/15319872?s=40&amp;v=4",
+        "url": "https://github.com/ltaoo"
+      },
+      "summary": "用 Go 编写的微信视频号下载工具，可抓取并保存视频号中的视频，方便离线收藏与备份。",
+      "tags": [
+        "go",
+        "wechat",
+        "downloader",
+        "video",
+        "scraper"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-22T14:24:55.070Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139458,
+      "forks": 22300,
+      "starsToday": 63,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方源码仓库，提供简洁高效、内置并发与垃圾回收的编译型编程语言及其标准库和工具链。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "concurrency",
+        "standard-library"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-10-22T14:24:57.177Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17788,
+      "forks": 1348,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "larksuite",
+        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
+        "url": "https://github.com/larksuite"
+      },
+      "summary": "飞书官方命令行工具，覆盖消息、文档、多维表格、日历、邮件等核心业务域，提供200+命令与20+ AI Agent技能，面向人类与智能体。",
+      "tags": [
+        "lark",
+        "feishu",
+        "cli",
+        "ai-agent",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-22T03:48:56.338Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128539,
+      "forks": 47097,
+      "starsToday": 52,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动部署、扩缩容和自愈能力，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "cloud-native",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-22T14:24:56.009Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "ollama",
       "fullName": "ollama/ollama",
@@ -31,34 +508,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-22T03:48:55.205Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-beacon",
-      "fullName": "Asymptote-Labs/agent-beacon",
-      "url": "https://github.com/Asymptote-Labs/agent-beacon",
-      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2460,
-      "forks": 224,
-      "starsToday": 443,
-      "topics": [],
-      "author": {
-        "name": "Asymptote-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/Asymptote-Labs"
-      },
-      "summary": "面向 AI Agent 的跨框架自进化记忆层，用 Go 实现，为不同 Agent 框架提供统一持久的记忆能力。",
-      "tags": [
-        "ai",
-        "agents",
-        "memory",
-        "go",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-22T03:48:54.896Z",
       "deepwikiAvailable": false
     },
     {
@@ -116,34 +565,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-22T03:48:55.120Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "larksuite/cli",
-      "url": "https://github.com/larksuite/cli",
-      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 17770,
-      "forks": 1347,
-      "starsToday": 21,
-      "topics": [],
-      "author": {
-        "name": "larksuite",
-        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
-        "url": "https://github.com/larksuite"
-      },
-      "summary": "飞书官方命令行工具，覆盖消息、文档、多维表格、日历、邮件等核心业务域，提供200+命令与20+ AI Agent技能，面向人类与智能体。",
-      "tags": [
-        "lark",
-        "feishu",
-        "cli",
-        "ai-agent",
-        "go"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-22T03:48:56.338Z",
       "deepwikiAvailable": false
     },
     {
@@ -400,34 +821,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-22T03:48:59.086Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "multica",
-      "fullName": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 53468,
-      "forks": 7019,
-      "starsToday": 131,
-      "topics": [],
-      "author": {
-        "name": "multica-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
-        "url": "https://github.com/multica-ai"
-      },
-      "summary": "开源可自托管的人机协作平台，让人类与AI智能体在同一团队中协同工作，用Go编写。",
-      "tags": [
-        "ai-agents",
-        "collaboration",
-        "self-hosted",
-        "go",
-        "open-source"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-22T03:48:58.872Z",
       "deepwikiAvailable": false
     },
     {
