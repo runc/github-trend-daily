@@ -1,0 +1,572 @@
+{
+  "date": "2026-10-23",
+  "since": "weekly",
+  "language": "Go",
+  "fetchedAt": "2026-10-23T03:52:26.750Z",
+  "enrichedAt": "2026-10-23T03:53:43.915Z",
+  "repos": [
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 184356,
+      "forks": 18482,
+      "starsToday": 1419,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的开源工具，提供简洁命令行与 API，让本地推理开箱即用。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:38.194Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32069,
+      "forks": 4957,
+      "starsToday": 1667,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI智能体系统，可自动执行复杂渗透测试任务，实现从侦察到漏洞利用的端到端自动化安全评估。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:38.229Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30241,
+      "forks": 2312,
+      "starsToday": 278,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "用 Go 编写的密钥扫描工具，可检测代码与提交历史中的密码、令牌等敏感信息，支持 Git 钩子和 CI 集成。",
+      "tags": [
+        "security",
+        "secrets",
+        "git",
+        "scanner",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:53:37.906Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49858,
+      "forks": 4531,
+      "starsToday": 343,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "开源本地AI推理引擎，用Go编写，无需GPU即可在任意硬件上运行LLM、视觉、语音、图像和视频模型，提供OpenAI兼容API。",
+      "tags": [
+        "llm",
+        "self-hosted",
+        "inference",
+        "go",
+        "openai-api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:37.875Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "etcd",
+      "fullName": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52420,
+      "forks": 10550,
+      "starsToday": 89,
+      "topics": [],
+      "author": {
+        "name": "etcd-io",
+        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
+        "url": "https://github.com/etcd-io"
+      },
+      "summary": "基于Go的分布式可靠键值存储，为分布式系统提供强一致的配置共享与服务发现，是Kubernetes等系统的核心组件。",
+      "tags": [
+        "etcd",
+        "key-value",
+        "distributed",
+        "go",
+        "raft",
+        "consensus"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:39.331Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58639,
+      "forks": 7298,
+      "starsToday": 150,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "自托管的一体化软件开发平台，提供 Git 托管、代码评审、团队协作、包仓库与 CI/CD，轻量易部署。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "go",
+        "cicd"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:53:39.073Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "engram",
+      "fullName": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7546,
+      "forks": 788,
+      "starsToday": 310,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/111561081?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "为 AI 编码代理提供持久化记忆的 Go 单文件程序，基于 SQLite+FTS5，内置 MCP 服务、HTTP API、CLI 与 TUI，跨代理通用。",
+      "tags": [
+        "ai",
+        "memory",
+        "mcp",
+        "sqlite",
+        "go",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:39.281Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "scion",
+      "fullName": "GoogleCloudPlatform/scion",
+      "url": "https://github.com/GoogleCloudPlatform/scion",
+      "description": "",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2015,
+      "forks": 295,
+      "starsToday": 131,
+      "topics": [],
+      "author": {
+        "name": "GoogleCloudPlatform",
+        "avatar": "https://avatars.githubusercontent.com/u/40845?s=40&amp;v=4",
+        "url": "https://github.com/GoogleCloudPlatform"
+      },
+      "summary": "Google开源的SCION多智能体运行时框架，用Go编写，为AI智能体提供隔离环境、通信与编排能力，便于构建和调试复杂多智能体系统。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "framework",
+        "orchestration"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:39.784Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helm",
+      "fullName": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30359,
+      "forks": 7849,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "helm",
+        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
+        "url": "https://github.com/helm"
+      },
+      "summary": "Helm 是 Kubernetes 官方包管理器，用 Go 编写，通过 Chart 模板化定义、安装和升级集群应用，简化 K8s 部署与版本管理。",
+      "tags": [
+        "kubernetes",
+        "package-manager",
+        "go",
+        "devops",
+        "charts"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:53:40.577Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "github-mcp-server",
+      "fullName": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33873,
+      "forks": 5219,
+      "starsToday": 246,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/4811358?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方MCP服务器，用Go编写，让AI助手通过Model Context Protocol直接访问仓库、Issue、PR等GitHub数据与操作。",
+      "tags": [
+        "mcp",
+        "github",
+        "go",
+        "ai",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:40.669Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "frankenphp",
+      "fullName": "php/frankenphp",
+      "url": "https://github.com/php/frankenphp",
+      "description": "🧟 The modern PHP app server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11452,
+      "forks": 499,
+      "starsToday": 55,
+      "topics": [],
+      "author": {
+        "name": "php",
+        "avatar": "https://avatars.githubusercontent.com/u/57224?s=40&amp;v=4",
+        "url": "https://github.com/php"
+      },
+      "summary": "基于Go编写的现代PHP应用服务器，内置Caddy，支持worker模式与HTTP/2/3，可单文件部署替代传统FPM。",
+      "tags": [
+        "php",
+        "go",
+        "server",
+        "caddy",
+        "web"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:40.314Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72200,
+      "forks": 19193,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是容器生态的协作开源项目，提供构建自定义容器系统的组件与框架，是 Docker 引擎的上游基础。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "infrastructure"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:41.266Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cilium",
+      "fullName": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25710,
+      "forks": 4180,
+      "starsToday": 52,
+      "topics": [],
+      "author": {
+        "name": "cilium",
+        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
+        "url": "https://github.com/cilium"
+      },
+      "summary": "基于eBPF的Kubernetes网络、安全与可观测性平台，提供高性能容器网络、L3/L4策略与流量监控，替代传统iptables方案。",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "networking",
+        "security",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:41.921Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139483,
+      "forks": 22298,
+      "starsToday": 500,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方源码仓库，提供简洁高效、内置并发与垃圾回收的静态编译型编程语言及其标准库和工具链。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "concurrency",
+        "standard-library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-23T03:53:41.962Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 114446,
+      "forks": 6594,
+      "starsToday": 2173,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "面向编码智能体的技能与代理，用\"原始人语\"精简提示词，可削减约65%的token消耗。",
+      "tags": [
+        "llm",
+        "tokens",
+        "proxy",
+        "go",
+        "coding-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:42.053Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform",
+      "fullName": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50078,
+      "forks": 10595,
+      "starsToday": 186,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/35067?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "Terraform 是 HashiCorp 开源的声明式基础设施即代码工具，用配置文件安全可预测地创建、变更和管理云资源，支持版本化与团队协作。",
+      "tags": [
+        "terraform",
+        "iac",
+        "devops",
+        "infrastructure",
+        "go",
+        "cloud"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:42.574Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pearl",
+      "fullName": "pearl-research-labs/pearl",
+      "url": "https://github.com/pearl-research-labs/pearl",
+      "description": "Monorepo for the Pearl network 🐚",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 385,
+      "forks": 94,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "pearl-research-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/17099688?s=40&amp;v=4",
+        "url": "https://github.com/pearl-research-labs"
+      },
+      "summary": "Pearl 网络的 Go 语言单体仓库，汇集区块链节点、协议与相关工具的核心实现。",
+      "tags": [
+        "blockchain",
+        "go",
+        "monorepo",
+        "network",
+        "crypto"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:43.121Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6762,
+      "forks": 1065,
+      "starsToday": 273,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、经纬度与邮箱等信息，支持导出结构化数据。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "go",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:53:43.465Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gin",
+      "fullName": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 89416,
+      "forks": 8762,
+      "starsToday": 106,
+      "topics": [],
+      "author": {
+        "name": "gin-gonic",
+        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
+        "url": "https://github.com/gin-gonic"
+      },
+      "summary": "Go 语言高性能 HTTP Web 框架，基于 httprouter，API 简洁，适合构建 REST API、Web 应用与微服务。",
+      "tags": [
+        "go",
+        "web-framework",
+        "http",
+        "rest-api",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-23T03:53:43.526Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "PatchMon",
+      "fullName": "PatchMon/PatchMon",
+      "url": "https://github.com/PatchMon/PatchMon",
+      "description": "Linux Patch Management & Automation Platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3471,
+      "forks": 196,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "PatchMon",
+        "avatar": "https://avatars.githubusercontent.com/u/170360133?s=40&amp;v=4",
+        "url": "https://github.com/PatchMon"
+      },
+      "summary": "基于 Go 的 Linux 补丁管理与自动化平台，集中追踪各主机补丁状态并自动执行更新，简化运维补丁流程。",
+      "tags": [
+        "linux",
+        "patch-management",
+        "automation",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:43.915Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
