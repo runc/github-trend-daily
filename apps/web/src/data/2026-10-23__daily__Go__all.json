@@ -2,9 +2,460 @@
   "date": "2026-10-23",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-23T03:52:26.750Z",
-  "enrichedAt": "2026-10-23T03:53:10.254Z",
+  "fetchedAt": "2026-10-23T14:06:59.504Z",
+  "enrichedAt": "2026-10-23T14:07:34.630Z",
   "repos": [
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 66715,
+      "forks": 10910,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可视化，是云原生监控事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "promql",
+        "time-series",
+        "golang",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:31.958Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freehire",
+      "fullName": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2901,
+      "forks": 282,
+      "starsToday": 191,
+      "topics": [],
+      "author": {
+        "name": "strelov1",
+        "avatar": "https://avatars.githubusercontent.com/u/10761735?s=40&amp;v=4",
+        "url": "https://github.com/strelov1"
+      },
+      "summary": "开源求职搜索引擎，用 Go 编写，聚合职位信息并提供高效检索，帮助求职者快速找到合适岗位。",
+      "tags": [
+        "job-search",
+        "search-engine",
+        "go",
+        "open-source",
+        "self-hosted"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-23T14:07:31.816Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38658,
+      "forks": 794,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Go 编写的全能安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥并生成 SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:53:08.690Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-beacon",
+      "fullName": "Asymptote-Labs/agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2678,
+      "forks": 244,
+      "starsToday": 124,
+      "topics": [],
+      "author": {
+        "name": "Asymptote-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Asymptote-Labs"
+      },
+      "summary": "面向AI Agent的跨框架自进化记忆层，用Go编写，为不同Agent框架提供统一持久记忆能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "memory",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:07.322Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fleet",
+      "fullName": "fleetdm/fleet",
+      "url": "https://github.com/fleetdm/fleet",
+      "description": "Open device management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7037,
+      "forks": 1080,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "fleetdm",
+        "avatar": "https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4",
+        "url": "https://github.com/fleetdm"
+      },
+      "summary": "开源设备管理平台，统一管理macOS、Windows、Linux和ChromeOS终端，提供设备清单、安全态势与合规检测，支持osquery和MDM。",
+      "tags": [
+        "mdm",
+        "osquery",
+        "device-management",
+        "security",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:32.327Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SafeLine",
+      "fullName": "chaitin/SafeLine",
+      "url": "https://github.com/chaitin/SafeLine",
+      "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22916,
+      "forks": 1568,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "chaitin",
+        "avatar": "https://avatars.githubusercontent.com/u/150229899?s=40&amp;v=4",
+        "url": "https://github.com/chaitin"
+      },
+      "summary": "SafeLine 是自托管的 Web 应用防火墙兼反向代理，用 Go 编写，可拦截攻击与漏洞利用，为网站提供开箱即用的防护。",
+      "tags": [
+        "waf",
+        "security",
+        "reverse-proxy",
+        "self-hosted",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:31.871Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "frankenphp",
+      "fullName": "php/frankenphp",
+      "url": "https://github.com/php/frankenphp",
+      "description": "🧟 The modern PHP app server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11455,
+      "forks": 500,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "php",
+        "avatar": "https://avatars.githubusercontent.com/u/57224?s=40&amp;v=4",
+        "url": "https://github.com/php"
+      },
+      "summary": "基于Go编写的现代PHP应用服务器，内置Caddy，支持worker模式、HTTP/2/3与自动HTTPS，可替代传统PHP-FPM部署。",
+      "tags": [
+        "php",
+        "go",
+        "app-server",
+        "caddy",
+        "http3"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:33.435Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 92735,
+      "forks": 11085,
+      "starsToday": 80,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供高质量上下文层，支持深度文档理解。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "document-parsing"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T14:07:32.989Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CubeSandbox",
+      "fullName": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13023,
+      "forks": 1179,
+      "starsToday": 21,
+      "topics": [],
+      "author": {
+        "name": "TencentCloud",
+        "avatar": "https://avatars.githubusercontent.com/u/63215266?s=40&amp;v=4",
+        "url": "https://github.com/TencentCloud"
+      },
+      "summary": "腾讯云开源的AI Agent沙箱，基于Go实现，支持秒级启动、高并发与安全隔离，为智能体提供轻量代码执行环境。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "go",
+        "security",
+        "container"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:33.392Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 53649,
+      "forks": 7037,
+      "starsToday": 109,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的协作平台，让人类与AI智能体在同一团队中协同工作，用Go编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "teamwork"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:08.833Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wx_channels_download",
+      "fullName": "ltaoo/wx_channels_download",
+      "url": "https://github.com/ltaoo/wx_channels_download",
+      "description": "微信视频号下载器",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10062,
+      "forks": 1665,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "ltaoo",
+        "avatar": "https://avatars.githubusercontent.com/u/15319872?s=40&amp;v=4",
+        "url": "https://github.com/ltaoo"
+      },
+      "summary": "用 Go 编写的微信视频号下载工具，可抓取并保存视频号视频，解决官方无下载入口的问题。",
+      "tags": [
+        "wechat",
+        "downloader",
+        "video",
+        "go",
+        "scraper"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-23T03:53:10.108Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50568,
+      "forks": 12231,
+      "starsToday": 109,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，聚合多种大模型并转换为OpenAI、Claude、Gemini兼容格式，便于个人与企业集中管理和分发。",
+      "tags": [
+        "ai",
+        "gateway",
+        "llm",
+        "openai",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:33.591Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-stack",
+      "fullName": "github/gh-stack",
+      "url": "https://github.com/github/gh-stack",
+      "description": "GitHub Stacked PRs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1715,
+      "forks": 86,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/1701557?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的堆叠式 PR 命令行工具，用 Go 编写，帮助开发者把大型改动拆成多个相互依赖的 PR 并按顺序合并。",
+      "tags": [
+        "github",
+        "cli",
+        "pull-request",
+        "go",
+        "git"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-23T14:07:34.365Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-skills-golang",
+      "fullName": "samber/cc-skills-golang",
+      "url": "https://github.com/samber/cc-skills-golang",
+      "description": "🧑‍🎨 A collection of Golang agentic skills that works",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3592,
+      "forks": 241,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "samber",
+        "avatar": "https://avatars.githubusercontent.com/u/2951285?s=40&amp;v=4",
+        "url": "https://github.com/samber"
+      },
+      "summary": "面向 Go 语言的 AI 智能体技能集合，为 Claude Code 等编码代理提供可复用的 Golang 开发能力与最佳实践。",
+      "tags": [
+        "golang",
+        "ai-agent",
+        "claude-code",
+        "skills",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:53:08.615Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "grok2api",
+      "fullName": "chenyme/grok2api",
+      "url": "https://github.com/chenyme/grok2api",
+      "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7848,
+      "forks": 2342,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "chenyme",
+        "avatar": "https://avatars.githubusercontent.com/u/118253778?s=40&amp;v=4",
+        "url": "https://github.com/chenyme"
+      },
+      "summary": "基于 Go 的 Grok 多账号 API 网关，统一接入 Grok Build、Web 与 Console，实现账号池调度与接口聚合。",
+      "tags": [
+        "grok",
+        "api-gateway",
+        "go",
+        "multi-account",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:34.630Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zitadel",
+      "fullName": "zitadel/zitadel",
+      "url": "https://github.com/zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for you.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15405,
+      "forks": 1398,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "zitadel",
+        "avatar": "https://avatars.githubusercontent.com/u/9405495?s=40&amp;v=4",
+        "url": "https://github.com/zitadel"
+      },
+      "summary": "基于Go的开源身份基础设施平台，提供OIDC、SAML、多租户认证与用户管理，简化IAM搭建。",
+      "tags": [
+        "identity",
+        "oidc",
+        "saml",
+        "auth",
+        "go",
+        "iam"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:07.459Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "Cybersecurity-Projects",
       "fullName": "CarterPerez-dev/Cybersecurity-Projects",
@@ -118,34 +569,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agent-beacon",
-      "fullName": "Asymptote-Labs/agent-beacon",
-      "url": "https://github.com/Asymptote-Labs/agent-beacon",
-      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2634,
-      "forks": 240,
-      "starsToday": 245,
-      "topics": [],
-      "author": {
-        "name": "Asymptote-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/Asymptote-Labs"
-      },
-      "summary": "面向AI Agent的跨框架自进化记忆层，用Go编写，为不同Agent框架提供统一持久记忆能力。",
-      "tags": [
-        "ai",
-        "agents",
-        "memory",
-        "go",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-23T03:53:07.322Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "tailscale",
       "fullName": "tailscale/tailscale",
       "url": "https://github.com/tailscale/tailscale",
@@ -171,35 +594,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-23T03:53:07.177Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zitadel",
-      "fullName": "zitadel/zitadel",
-      "url": "https://github.com/zitadel/zitadel",
-      "description": "ZITADEL - Identity infrastructure, simplified for you.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 15397,
-      "forks": 1398,
-      "starsToday": 24,
-      "topics": [],
-      "author": {
-        "name": "zitadel",
-        "avatar": "https://avatars.githubusercontent.com/u/9405495?s=40&amp;v=4",
-        "url": "https://github.com/zitadel"
-      },
-      "summary": "基于Go的开源身份基础设施平台，提供OIDC、SAML、多租户认证与用户管理，简化IAM搭建。",
-      "tags": [
-        "identity",
-        "oidc",
-        "saml",
-        "auth",
-        "go",
-        "iam"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-23T03:53:07.459Z",
       "deepwikiAvailable": false
     },
     {
@@ -231,91 +625,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "trivy",
-      "fullName": "aquasecurity/trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 38632,
-      "forks": 794,
-      "starsToday": 46,
-      "topics": [],
-      "author": {
-        "name": "aquasecurity",
-        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
-        "url": "https://github.com/aquasecurity"
-      },
-      "summary": "Go 编写的全能安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥并生成 SBOM。",
-      "tags": [
-        "security",
-        "scanner",
-        "vulnerability",
-        "sbom",
-        "kubernetes",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-23T03:53:08.690Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cc-skills-golang",
-      "fullName": "samber/cc-skills-golang",
-      "url": "https://github.com/samber/cc-skills-golang",
-      "description": "🧑‍🎨 A collection of Golang agentic skills that works",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3583,
-      "forks": 240,
-      "starsToday": 24,
-      "topics": [],
-      "author": {
-        "name": "samber",
-        "avatar": "https://avatars.githubusercontent.com/u/2951285?s=40&amp;v=4",
-        "url": "https://github.com/samber"
-      },
-      "summary": "面向 Go 语言的 AI 智能体技能集合，为 Claude Code 等编码代理提供可复用的 Golang 开发能力与最佳实践。",
-      "tags": [
-        "golang",
-        "ai-agent",
-        "claude-code",
-        "skills",
-        "devtool"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-23T03:53:08.615Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "multica",
-      "fullName": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 53593,
-      "forks": 7033,
-      "starsToday": 145,
-      "topics": [],
-      "author": {
-        "name": "multica-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
-        "url": "https://github.com/multica-ai"
-      },
-      "summary": "开源可自托管的协作平台，让人类与AI智能体在同一团队中协同工作，用Go编写。",
-      "tags": [
-        "ai-agents",
-        "collaboration",
-        "self-hosted",
-        "go",
-        "teamwork"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-23T03:53:08.833Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "alloy",
       "fullName": "grafana/alloy",
       "url": "https://github.com/grafana/alloy",
@@ -341,34 +650,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-23T03:53:08.999Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "wx_channels_download",
-      "fullName": "ltaoo/wx_channels_download",
-      "url": "https://github.com/ltaoo/wx_channels_download",
-      "description": "微信视频号下载器",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 10042,
-      "forks": 1658,
-      "starsToday": 66,
-      "topics": [],
-      "author": {
-        "name": "ltaoo",
-        "avatar": "https://avatars.githubusercontent.com/u/15319872?s=40&amp;v=4",
-        "url": "https://github.com/ltaoo"
-      },
-      "summary": "用 Go 编写的微信视频号下载工具，可抓取并保存视频号视频，解决官方无下载入口的问题。",
-      "tags": [
-        "wechat",
-        "downloader",
-        "video",
-        "go",
-        "scraper"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-23T03:53:10.108Z",
       "deepwikiAvailable": false
     },
     {

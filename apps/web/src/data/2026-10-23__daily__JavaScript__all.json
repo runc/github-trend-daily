@@ -2,37 +2,9 @@
   "date": "2026-10-23",
   "since": "daily",
   "language": "JavaScript",
-  "fetchedAt": "2026-10-23T03:52:26.750Z",
-  "enrichedAt": "2026-10-23T03:52:59.548Z",
+  "fetchedAt": "2026-10-23T14:06:59.504Z",
+  "enrichedAt": "2026-10-23T14:07:27.998Z",
   "repos": [
-    {
-      "name": "ponytail",
-      "fullName": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": 173745,
-      "forks": 9462,
-      "starsToday": 1948,
-      "topics": [],
-      "author": {
-        "name": "DietrichGebert",
-        "avatar": "https://avatars.githubusercontent.com/u/137048761?s=40&amp;v=4",
-        "url": "https://github.com/DietrichGebert"
-      },
-      "summary": "让 AI 编程助手像最懒的资深开发者一样思考，优先复用与删减，避免写多余代码，减少无谓实现与维护负担。",
-      "tags": [
-        "ai",
-        "agent",
-        "code-quality",
-        "javascript",
-        "prompt"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-23T03:52:56.953Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "security-audit-skill",
       "fullName": "cloudflare/security-audit-skill",
@@ -40,9 +12,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 39836,
-      "forks": 2485,
-      "starsToday": 2979,
+      "stars": 41070,
+      "forks": 2562,
+      "starsToday": 2706,
       "topics": [],
       "author": {
         "name": "cloudflare",
@@ -68,9 +40,9 @@
       "description": "Node.js JavaScript runtime ✨🐢🚀✨",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 122573,
-      "forks": 39924,
-      "starsToday": 76,
+      "stars": 122641,
+      "forks": 39936,
+      "starsToday": 93,
       "topics": [],
       "author": {
         "name": "nodejs",
@@ -90,15 +62,99 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "nuclei-templates",
+      "fullName": "projectdiscovery/nuclei-templates",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 13191,
+      "forks": 3706,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "projectdiscovery",
+        "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&amp;v=4",
+        "url": "https://github.com/projectdiscovery"
+      },
+      "summary": "社区维护的nuclei漏洞扫描模板库，覆盖CVE、配置错误等检测规则，可直接用于安全评估与漏洞发现。",
+      "tags": [
+        "security",
+        "vulnerability",
+        "scanner",
+        "templates",
+        "nuclei"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-10-23T14:07:27.998Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 174443,
+      "forks": 9500,
+      "starsToday": 1870,
+      "topics": [],
+      "author": {
+        "name": "DietrichGebert",
+        "avatar": "https://avatars.githubusercontent.com/u/137048761?s=40&amp;v=4",
+        "url": "https://github.com/DietrichGebert"
+      },
+      "summary": "让 AI 编程助手像最懒的资深开发者一样思考，优先复用与删减，避免写多余代码，减少无谓实现与维护负担。",
+      "tags": [
+        "ai",
+        "agent",
+        "code-quality",
+        "javascript",
+        "prompt"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:52:56.953Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mailcow-dockerized",
+      "fullName": "mailcow/mailcow-dockerized",
+      "url": "https://github.com/mailcow/mailcow-dockerized",
+      "description": "mailcow: dockerized - 🐮 + 🐋 = 💕",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 13667,
+      "forks": 1849,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "mailcow",
+        "avatar": "https://avatars.githubusercontent.com/u/2972950?s=40&amp;v=4",
+        "url": "https://github.com/mailcow"
+      },
+      "summary": "基于 Docker 的一体化邮件服务器套件，集成 Postfix、Dovecot、SOGo 等组件，提供 Web 管理界面与反垃圾防护，可快速自建完整邮件系统。",
+      "tags": [
+        "mail",
+        "docker",
+        "self-hosted",
+        "smtp",
+        "email-server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:27.920Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ego-lite",
       "fullName": "citrolabs/ego-lite",
       "url": "https://github.com/citrolabs/ego-lite",
       "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 18842,
-      "forks": 1039,
-      "starsToday": 311,
+      "stars": 18970,
+      "forks": 1051,
+      "starsToday": 235,
       "topics": [],
       "author": {
         "name": "citrolabs",
@@ -115,6 +171,63 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-23T03:52:57.087Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jiangshan-map",
+      "fullName": "DeanChensj/jiangshan-map",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 164 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 1208,
+      "forks": 154,
+      "starsToday": 385,
+      "topics": [],
+      "author": {
+        "name": "DeanChensj",
+        "avatar": "https://avatars.githubusercontent.com/u/9414763?s=40&amp;v=4",
+        "url": "https://github.com/DeanChensj"
+      },
+      "summary": "中国历史交互地图时间轴，覆盖公元前403年至今18个朝代、164幅疆域快照，含古今地名沿革与诗词路线可视化。",
+      "tags": [
+        "history",
+        "map",
+        "visualization",
+        "china",
+        "timeline",
+        "javascript"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-23T14:07:27.797Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "next.js",
+      "fullName": "vercel/next.js",
+      "url": "https://github.com/vercel/next.js",
+      "description": "The React Framework",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 143197,
+      "forks": 34886,
+      "starsToday": 78,
+      "topics": [],
+      "author": {
+        "name": "vercel",
+        "avatar": "https://avatars.githubusercontent.com/u/22380829?s=40&amp;v=4",
+        "url": "https://github.com/vercel"
+      },
+      "summary": "Next.js 是 Vercel 出品的 React 全栈框架，提供路由、服务端渲染、静态生成与 API 等能力，开箱即用地构建生产级 Web 应用。",
+      "tags": [
+        "react",
+        "framework",
+        "ssr",
+        "web",
+        "javascript"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-23T14:07:27.748Z",
       "deepwikiAvailable": false
     },
     {

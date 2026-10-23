@@ -2,8 +2,8 @@
   "date": "2026-10-23",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-10-23T03:52:26.750Z",
-  "enrichedAt": "2026-10-23T03:53:04.728Z",
+  "fetchedAt": "2026-10-23T14:06:59.504Z",
+  "enrichedAt": "2026-10-23T14:07:30.698Z",
   "repos": [
     {
       "name": "knowledge-work-plugins",
@@ -12,9 +12,9 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 31710,
-      "forks": 3540,
-      "starsToday": 303,
+      "stars": 31986,
+      "forks": 3556,
+      "starsToday": 643,
       "topics": [],
       "author": {
         "name": "anthropics",
@@ -34,15 +34,127 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "Claude-Red",
+      "fullName": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 8113,
+      "forks": 1074,
+      "starsToday": 209,
+      "topics": [],
+      "author": {
+        "name": "SnailSploit",
+        "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&amp;v=4",
+        "url": "https://github.com/SnailSploit"
+      },
+      "summary": "面向 Claude 技能系统的攻防安全技能库，以结构化 SKILL.md 注入 SQL 注入、Shellcode、EDR 绕过、漏洞利用开发等专家方法论。",
+      "tags": [
+        "security",
+        "claude",
+        "prompt",
+        "offensive-security",
+        "skills"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T14:07:29.485Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "VoxCPM",
+      "fullName": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 40056,
+      "forks": 4555,
+      "starsToday": 144,
+      "topics": [],
+      "author": {
+        "name": "OpenBMB",
+        "avatar": "https://avatars.githubusercontent.com/u/63361337?s=40&amp;v=4",
+        "url": "https://github.com/OpenBMB"
+      },
+      "summary": "VoxCPM2 是无分词器的多语言语音合成模型，支持创意音色设计与高保真声音克隆，开箱即用。",
+      "tags": [
+        "tts",
+        "speech",
+        "voice-cloning",
+        "multilingual",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T14:07:29.253Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Unlimited-OCR",
+      "fullName": "baidu/Unlimited-OCR",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 28260,
+      "forks": 2998,
+      "starsToday": 93,
+      "topics": [],
+      "author": {
+        "name": "baidu",
+        "avatar": "https://avatars.githubusercontent.com/u/105093222?s=40&amp;v=4",
+        "url": "https://github.com/baidu"
+      },
+      "summary": "百度开源的长文档OCR解析项目，支持一次性长程解析，突破传统OCR长度限制，高效提取超长文档文字内容。",
+      "tags": [
+        "ocr",
+        "document-parsing",
+        "python",
+        "deep-learning",
+        "long-document"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T14:07:29.322Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 113244,
+      "forks": 21912,
+      "starsToday": 498,
+      "topics": [],
+      "author": {
+        "name": "TauricResearch",
+        "avatar": "https://avatars.githubusercontent.com/u/48253104?s=40&amp;v=4",
+        "url": "https://github.com/TauricResearch"
+      },
+      "summary": "基于多智能体LLM的金融交易框架，模拟分析师、研究员与交易员协作完成行情研判与决策。",
+      "tags": [
+        "llm",
+        "multi-agent",
+        "trading",
+        "finance",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T14:07:29.411Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "graphify",
       "fullName": "Graphify-Labs/graphify",
       "url": "https://github.com/Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 133130,
-      "forks": 12733,
-      "starsToday": 1408,
+      "stars": 133610,
+      "forks": 12767,
+      "starsToday": 1328,
       "topics": [],
       "author": {
         "name": "Graphify-Labs",
@@ -59,6 +171,147 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-23T03:53:01.025Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Mailu",
+      "fullName": "Mailu/Mailu",
+      "url": "https://github.com/Mailu/Mailu",
+      "description": "Insular email distribution - mail server as Docker images",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 7577,
+      "forks": 1022,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "Mailu",
+        "avatar": "https://avatars.githubusercontent.com/u/77500?s=40&amp;v=4",
+        "url": "https://github.com/Mailu"
+      },
+      "summary": "基于 Docker 镜像的自托管邮件服务器套件，集成 SMTP、IMAP、Webmail 与反垃圾功能，可快速搭建独立邮件系统。",
+      "tags": [
+        "mail",
+        "docker",
+        "self-hosted",
+        "smtp",
+        "python"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:30.697Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "book-to-skill",
+      "fullName": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 35834,
+      "forks": 3786,
+      "starsToday": 139,
+      "topics": [],
+      "author": {
+        "name": "virgiliojr94",
+        "avatar": "https://avatars.githubusercontent.com/u/23645449?s=40&amp;v=4",
+        "url": "https://github.com/virgiliojr94"
+      },
+      "summary": "将技术书籍PDF自动转换为Claude Code技能，便于随时学习、查阅并在编码时直接调用书中知识。",
+      "tags": [
+        "pdf",
+        "claude-code",
+        "llm",
+        "knowledge-base",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T14:07:30.617Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "onyx",
+      "fullName": "onyx-dot-app/onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 32908,
+      "forks": 4621,
+      "starsToday": 84,
+      "topics": [],
+      "author": {
+        "name": "onyx-dot-app",
+        "avatar": "https://avatars.githubusercontent.com/u/9919?s=40&amp;v=4",
+        "url": "https://github.com/onyx-dot-app"
+      },
+      "summary": "开源企业级AI聊天平台，支持接入任意LLM，提供RAG检索、连接器与助手等高级功能，可自托管部署。",
+      "tags": [
+        "ai",
+        "llm",
+        "chat",
+        "rag",
+        "self-hosted",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:04.025Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vllm",
+      "fullName": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 95222,
+      "forks": 23839,
+      "starsToday": 111,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "高吞吐、显存高效的大模型推理与服务引擎，支持PagedAttention与连续批处理，是自建LLM服务的工业级方案。",
+      "tags": [
+        "llm",
+        "inference",
+        "serving",
+        "python",
+        "gpu"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:02.170Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-howto",
+      "fullName": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 43812,
+      "forks": 5435,
+      "starsToday": 1168,
+      "topics": [],
+      "author": {
+        "name": "luongnv89",
+        "avatar": "https://avatars.githubusercontent.com/u/3288457?s=40&amp;v=4",
+        "url": "https://github.com/luongnv89"
+      },
+      "summary": "Claude Code 可视化实战指南，从基础概念到高级 Agent，提供可直接复制的模板，上手即用。",
+      "tags": [
+        "claude",
+        "ai",
+        "agents",
+        "tutorial",
+        "templates"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:00.778Z",
       "deepwikiAvailable": false
     },
     {
@@ -87,62 +340,6 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-10-23T03:53:00.810Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "claude-howto",
-      "fullName": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 43380,
-      "forks": 5401,
-      "starsToday": 177,
-      "topics": [],
-      "author": {
-        "name": "luongnv89",
-        "avatar": "https://avatars.githubusercontent.com/u/3288457?s=40&amp;v=4",
-        "url": "https://github.com/luongnv89"
-      },
-      "summary": "Claude Code 可视化实战指南，从基础概念到高级 Agent，提供可直接复制的模板，上手即用。",
-      "tags": [
-        "claude",
-        "ai",
-        "agents",
-        "tutorial",
-        "templates"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-23T03:53:00.778Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "vllm",
-      "fullName": "vllm-project/vllm",
-      "url": "https://github.com/vllm-project/vllm",
-      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 95169,
-      "forks": 23814,
-      "starsToday": 440,
-      "topics": [],
-      "author": {
-        "name": "vllm-project",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/vllm-project"
-      },
-      "summary": "高吞吐、显存高效的大模型推理与服务引擎，支持PagedAttention与连续批处理，是自建LLM服务的工业级方案。",
-      "tags": [
-        "llm",
-        "inference",
-        "serving",
-        "python",
-        "gpu"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-23T03:53:02.170Z",
       "deepwikiAvailable": false
     },
     {
@@ -311,35 +508,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-23T03:53:03.671Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "onyx",
-      "fullName": "onyx-dot-app/onyx",
-      "url": "https://github.com/onyx-dot-app/onyx",
-      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 32877,
-      "forks": 4619,
-      "starsToday": 181,
-      "topics": [],
-      "author": {
-        "name": "onyx-dot-app",
-        "avatar": "https://avatars.githubusercontent.com/u/9919?s=40&amp;v=4",
-        "url": "https://github.com/onyx-dot-app"
-      },
-      "summary": "开源企业级AI聊天平台，支持接入任意LLM，提供RAG检索、连接器与助手等高级功能，可自托管部署。",
-      "tags": [
-        "ai",
-        "llm",
-        "chat",
-        "rag",
-        "self-hosted",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-23T03:53:04.025Z",
       "deepwikiAvailable": false
     },
     {

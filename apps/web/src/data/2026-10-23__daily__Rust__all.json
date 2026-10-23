@@ -2,9 +2,460 @@
   "date": "2026-10-23",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-10-23T03:52:26.750Z",
-  "enrichedAt": "2026-10-23T03:53:14.605Z",
+  "fetchedAt": "2026-10-23T14:06:59.504Z",
+  "enrichedAt": "2026-10-23T14:07:38.415Z",
   "repos": [
+    {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18379,
+      "forks": 1856,
+      "starsToday": 1240,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 开源的 AI 智能体安全运行时，用 Rust 编写，为自主智能体提供隔离、私密的执行环境与权限管控。",
+      "tags": [
+        "ai-agents",
+        "sandbox",
+        "runtime",
+        "rust",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:11.924Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microduck",
+      "fullName": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10356,
+      "forks": 1325,
+      "starsToday": 430,
+      "topics": [],
+      "author": {
+        "name": "pollen-robotics",
+        "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&amp;v=4",
+        "url": "https://github.com/pollen-robotics"
+      },
+      "summary": "用Rust编写的微型双足鸭子机器人项目，提供开源硬件设计与固件，用于学习和研究小型双足机器人步态控制。",
+      "tags": [
+        "robotics",
+        "rust",
+        "bipedal",
+        "hardware",
+        "embedded"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-23T14:07:36.086Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "macro",
+      "fullName": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4863,
+      "forks": 473,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "macro-inc",
+        "avatar": "https://avatars.githubusercontent.com/u/6412775?s=40&amp;v=4",
+        "url": "https://github.com/macro-inc"
+      },
+      "summary": "基于Rust构建的一体化团队协作工作台，将邮件、聊天、文档、任务、AI代理、通话与CRM通过@链接和共享AI记忆整合在一起。",
+      "tags": [
+        "collaboration",
+        "workspace",
+        "rust",
+        "ai",
+        "crm"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-23T14:07:36.124Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dynamo",
+      "fullName": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 8372,
+      "forks": 1753,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "ai-dynamo",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/ai-dynamo"
+      },
+      "summary": "Rust编写的数据中心级分布式推理服务框架，支持多节点GPU推理编排与调度，提升大模型部署吞吐与资源利用率。",
+      "tags": [
+        "inference",
+        "rust",
+        "distributed",
+        "llm",
+        "gpu",
+        "serving"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:35.922Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentgateway",
+      "fullName": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5519,
+      "forks": 980,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "agentgateway",
+        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
+        "url": "https://github.com/agentgateway"
+      },
+      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理网关，用 Rust 编写，统一管理智能体流量与工具调用。",
+      "tags": [
+        "proxy",
+        "mcp",
+        "ai-agents",
+        "rust",
+        "gateway"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T03:53:11.861Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uv",
+      "fullName": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 91068,
+      "forks": 3686,
+      "starsToday": 58,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的极速 Python 包与项目管理器，可替代 pip、pip-tools、virtualenv 等工具，统一依赖安装、虚拟环境与项目管理工作流。",
+      "tags": [
+        "python",
+        "package-manager",
+        "rust",
+        "cli",
+        "dependency"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:53:14.593Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6429,
+      "forks": 562,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "开源AI原生矢量设计工具，支持多智能体并发协作，用提示词直接在实时画布生成UI，Design-as-Code。",
+      "tags": [
+        "design",
+        "ai",
+        "vector",
+        "rust",
+        "ui",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T14:07:36.130Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MangoDisk",
+      "fullName": "harry0703/MangoDisk",
+      "url": "https://github.com/harry0703/MangoDisk",
+      "description": "Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4585,
+      "forks": 309,
+      "starsToday": 54,
+      "topics": [],
+      "author": {
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
+      },
+      "summary": "基于Rust的跨平台磁盘清理与空间分析工具，主打安全优先，支持重复文件清理、应用卸载、启动项管理、系统优化与维护。",
+      "tags": [
+        "disk-cleaner",
+        "rust",
+        "cross-platform",
+        "system-optimization",
+        "duplicate-files"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-23T14:07:37.490Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9415,
+      "forks": 334,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "Rust 编写的 Git worktree 管理 CLI，简化多分支并行开发，专为并行 AI 代理工作流设计。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agents"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-23T03:53:14.605Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "stalwart",
+      "fullName": "stalwartlabs/stalwart",
+      "url": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15256,
+      "forks": 1010,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "stalwartlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
+        "url": "https://github.com/stalwartlabs"
+      },
+      "summary": "用 Rust 编写的全能邮件与协作服务器，支持 IMAP、JMAP、SMTP、CalDAV、CardDAV 和 WebDAV，安全且可扩展。",
+      "tags": [
+        "mail",
+        "rust",
+        "smtp",
+        "imap",
+        "jmap",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-23T14:07:37.452Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hex",
+      "fullName": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex",
+      "description": "Local-first voice dictation for macOS. Hold a shortcut, speak, and paste into any app. Native Rust, on-device speech recognition, and a Linux beta.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 542,
+      "forks": 69,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "anomalyco",
+        "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&amp;v=4",
+        "url": "https://github.com/anomalyco"
+      },
+      "summary": "macOS 本地优先的语音听写工具，按住快捷键说话即可粘贴到任意应用，基于 Rust 与端侧语音识别，另有 Linux 测试版。",
+      "tags": [
+        "dictation",
+        "speech-recognition",
+        "rust",
+        "macos",
+        "local-first"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-23T14:07:37.803Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "turso",
+      "fullName": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24979,
+      "forks": 1485,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "tursodatabase",
+        "avatar": "https://avatars.githubusercontent.com/u/81939?s=40&amp;v=4",
+        "url": "https://github.com/tursodatabase"
+      },
+      "summary": "用 Rust 编写的 SQL 数据库，兼容 SQLite 并实验性支持 Postgres 协议，主打可嵌入与高性能，被称为数据库界的 LLVM。",
+      "tags": [
+        "database",
+        "rust",
+        "sqlite",
+        "postgres",
+        "embedded"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-23T14:07:37.317Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12917,
+      "forks": 908,
+      "starsToday": 283,
+      "topics": [],
+      "author": {
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
+      },
+      "summary": "为编码智能体CLI提供长期记忆的Rust方案，支持在不同厂商的agent之间交接上下文。",
+      "tags": [
+        "ai",
+        "memory",
+        "agents",
+        "rust",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T14:07:38.415Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 85289,
+      "forks": 5091,
+      "starsToday": 533,
+      "topics": [],
+      "author": {
+        "name": "pbakaus",
+        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
+        "url": "https://github.com/pbakaus"
+      },
+      "summary": "一套面向 AI 编程助手的设计语言规范，用 Rust 实现，帮助 AI 生成更专业、更具设计感的界面与代码。",
+      "tags": [
+        "ai",
+        "design",
+        "rust",
+        "llm",
+        "ui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-23T03:53:11.847Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "redlib",
+      "fullName": "redlib-org/redlib",
+      "url": "https://github.com/redlib-org/redlib",
+      "description": "Private front-end for Reddit",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3889,
+      "forks": 299,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "redlib-org",
+        "avatar": "https://avatars.githubusercontent.com/u/69441971?s=40&amp;v=4",
+        "url": "https://github.com/redlib-org"
+      },
+      "summary": "Reddit 的隐私友好替代前端，用 Rust 编写，无需登录和 JS 即可浏览，规避追踪与广告。",
+      "tags": [
+        "reddit",
+        "privacy",
+        "rust",
+        "frontend",
+        "self-hosted"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-23T03:53:13.329Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 130591,
+      "forks": 20587,
+      "starsToday": 174,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 开源的终端编码智能体，用 Rust 编写，可在命令行中直接读写代码、执行任务，轻量高效。",
+      "tags": [
+        "ai",
+        "agent",
+        "cli",
+        "rust",
+        "coding"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-23T03:53:13.118Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "nautilus_trader",
       "fullName": "nautechsystems/nautilus_trader",
@@ -31,90 +482,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-23T03:53:11.643Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 85062,
-      "forks": 5076,
-      "starsToday": 587,
-      "topics": [],
-      "author": {
-        "name": "pbakaus",
-        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
-        "url": "https://github.com/pbakaus"
-      },
-      "summary": "一套面向 AI 编程助手的设计语言规范，用 Rust 实现，帮助 AI 生成更专业、更具设计感的界面与代码。",
-      "tags": [
-        "ai",
-        "design",
-        "rust",
-        "llm",
-        "ui"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-23T03:53:11.847Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 17910,
-      "forks": 1838,
-      "starsToday": 211,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 开源的 AI 智能体安全运行时，用 Rust 编写，为自主智能体提供隔离、私密的执行环境与权限管控。",
-      "tags": [
-        "ai-agents",
-        "sandbox",
-        "runtime",
-        "rust",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-23T03:53:11.924Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agentgateway",
-      "fullName": "agentgateway/agentgateway",
-      "url": "https://github.com/agentgateway/agentgateway",
-      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5511,
-      "forks": 977,
-      "starsToday": 34,
-      "topics": [],
-      "author": {
-        "name": "agentgateway",
-        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
-        "url": "https://github.com/agentgateway"
-      },
-      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理网关，用 Rust 编写，统一管理智能体流量与工具调用。",
-      "tags": [
-        "proxy",
-        "mcp",
-        "ai-agents",
-        "rust",
-        "gateway"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-23T03:53:11.861Z",
       "deepwikiAvailable": false
     },
     {
@@ -146,34 +513,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "codex",
-      "fullName": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 130505,
-      "forks": 20575,
-      "starsToday": 181,
-      "topics": [],
-      "author": {
-        "name": "openai",
-        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
-        "url": "https://github.com/openai"
-      },
-      "summary": "OpenAI 开源的终端编码智能体，用 Rust 编写，可在命令行中直接读写代码、执行任务，轻量高效。",
-      "tags": [
-        "ai",
-        "agent",
-        "cli",
-        "rust",
-        "coding"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-23T03:53:13.118Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "cua",
       "fullName": "trycua/cua",
       "url": "https://github.com/trycua/cua",
@@ -202,34 +541,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "redlib",
-      "fullName": "redlib-org/redlib",
-      "url": "https://github.com/redlib-org/redlib",
-      "description": "Private front-end for Reddit",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3885,
-      "forks": 296,
-      "starsToday": 13,
-      "topics": [],
-      "author": {
-        "name": "redlib-org",
-        "avatar": "https://avatars.githubusercontent.com/u/69441971?s=40&amp;v=4",
-        "url": "https://github.com/redlib-org"
-      },
-      "summary": "Reddit 的隐私友好替代前端，用 Rust 编写，无需登录和 JS 即可浏览，规避追踪与广告。",
-      "tags": [
-        "reddit",
-        "privacy",
-        "rust",
-        "frontend",
-        "self-hosted"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-23T03:53:13.329Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "iggy",
       "fullName": "apache/iggy",
       "url": "https://github.com/apache/iggy",
@@ -255,62 +566,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-23T03:53:14.259Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "uv",
-      "fullName": "astral-sh/uv",
-      "url": "https://github.com/astral-sh/uv",
-      "description": "An extremely fast Python package and project manager, written in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 91049,
-      "forks": 3687,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "astral-sh",
-        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
-        "url": "https://github.com/astral-sh"
-      },
-      "summary": "用 Rust 编写的极速 Python 包与项目管理器，可替代 pip、pip-tools、virtualenv 等工具，统一依赖安装、虚拟环境与项目管理工作流。",
-      "tags": [
-        "python",
-        "package-manager",
-        "rust",
-        "cli",
-        "dependency"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-23T03:53:14.593Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "worktrunk",
-      "fullName": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 9400,
-      "forks": 336,
-      "starsToday": 31,
-      "topics": [],
-      "author": {
-        "name": "max-sixty",
-        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
-        "url": "https://github.com/max-sixty"
-      },
-      "summary": "Rust 编写的 Git worktree 管理 CLI，简化多分支并行开发，专为并行 AI 代理工作流设计。",
-      "tags": [
-        "git",
-        "worktree",
-        "cli",
-        "rust",
-        "ai-agents"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-23T03:53:14.605Z",
       "deepwikiAvailable": false
     }
   ]
