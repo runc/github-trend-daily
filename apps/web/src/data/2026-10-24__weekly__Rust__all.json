@@ -2,8 +2,8 @@
   "date": "2026-10-24",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-10-24T03:47:12.184Z",
-  "enrichedAt": "2026-10-24T03:48:30.495Z",
+  "fetchedAt": "2026-10-24T13:10:16.051Z",
+  "enrichedAt": "2026-10-24T13:11:13.618Z",
   "repos": [
     {
       "name": "ai-memory",
@@ -12,8 +12,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 13080,
-      "forks": 911,
+      "stars": 13166,
+      "forks": 918,
       "starsToday": 3449,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14241,
-      "forks": 983,
+      "stars": 15179,
+      "forks": 1026,
       "starsToday": 7783,
       "topics": [],
       "author": {
@@ -63,14 +63,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "microduck",
+      "fullName": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10659,
+      "forks": 1382,
+      "starsToday": 936,
+      "topics": [],
+      "author": {
+        "name": "pollen-robotics",
+        "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&amp;v=4",
+        "url": "https://github.com/pollen-robotics"
+      },
+      "summary": "用 Rust 编写的微型双足鸭子机器人开源项目，提供完整硬件设计与固件，供爱好者低成本复刻与学习双足机器人控制。",
+      "tags": [
+        "robotics",
+        "rust",
+        "biped",
+        "hardware",
+        "open-source"
+      ],
+      "category": "Hardware",
+      "enrichedAt": "2026-10-24T03:48:28.342Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "bun",
       "fullName": "oven-sh/bun",
       "url": "https://github.com/oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 96366,
-      "forks": 5116,
+      "stars": 96380,
+      "forks": 5117,
       "starsToday": 197,
       "topics": [],
       "author": {
@@ -91,13 +119,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6504,
+      "forks": 570,
+      "starsToday": 315,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/30104542?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "开源AI原生矢量设计工具，支持多智能体并发协作，用提示词直接在实时画布上生成UI，设计即代码。",
+      "tags": [
+        "design",
+        "ai",
+        "vector",
+        "rust",
+        "ui",
+        "agent"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-24T13:11:13.410Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Konnect",
       "fullName": "mixelpixx/Konnect",
       "url": "https://github.com/mixelpixx/Konnect",
       "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1385,
+      "stars": 1388,
       "forks": 166,
       "starsToday": 265,
       "topics": [],
@@ -117,6 +174,231 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-24T03:48:26.887Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Codync",
+      "fullName": "leepokai/Codync",
+      "url": "https://github.com/leepokai/Codync",
+      "description": "The open-source Grok Bot alternative: message Claude Code, Codex, Cursor, Gemini and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Free. Also a Muse and Dots alternative. Built in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 775,
+      "forks": 97,
+      "starsToday": 304,
+      "topics": [],
+      "author": {
+        "name": "leepokai",
+        "avatar": "https://avatars.githubusercontent.com/u/109857817?s=40&amp;v=4",
+        "url": "https://github.com/leepokai"
+      },
+      "summary": "用 Rust 编写的开源工具，可将 Claude Code、Codex、Cursor、Gemini 等 40+ AI 智能体接入为本地机器人，从手机、电脑或终端随时对话。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "self-hosted",
+        "chat",
+        "cross-platform"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-24T03:48:27.972Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "macro",
+      "fullName": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4894,
+      "forks": 473,
+      "starsToday": 202,
+      "topics": [],
+      "author": {
+        "name": "macro-inc",
+        "avatar": "https://avatars.githubusercontent.com/u/6412775?s=40&amp;v=4",
+        "url": "https://github.com/macro-inc"
+      },
+      "summary": "Rust 编写的团队统一工作台，将邮件、聊天、文档、任务、AI 代理、通话与 CRM 通过 @ 关联和共享 AI 记忆整合到一个平台。",
+      "tags": [
+        "workspace",
+        "collaboration",
+        "ai",
+        "crm",
+        "rust",
+        "productivity"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-24T13:11:13.617Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17082,
+      "forks": 766,
+      "starsToday": 499,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "Rust 编写的离线语法检查器，本地运行不上传数据，速度快且开源，可替代云端写作助手。",
+      "tags": [
+        "grammar",
+        "rust",
+        "privacy",
+        "offline",
+        "writing"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T13:11:13.569Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uzu",
+      "fullName": "trymirai/uzu",
+      "url": "https://github.com/trymirai/uzu",
+      "description": "A high-performance inference engine for AI models",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2563,
+      "forks": 146,
+      "starsToday": 192,
+      "topics": [],
+      "author": {
+        "name": "trymirai",
+        "avatar": "https://avatars.githubusercontent.com/u/83587632?s=40&amp;v=4",
+        "url": "https://github.com/trymirai"
+      },
+      "summary": "用 Rust 编写的高性能 AI 模型推理引擎，主打低开销与跨平台部署，适合替代重量级运行时。",
+      "tags": [
+        "rust",
+        "inference",
+        "llm",
+        "performance",
+        "engine"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-24T03:48:27.751Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oxc",
+      "fullName": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "description": "⚓ A collection of high-performance JavaScript tools.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 23208,
+      "forks": 1403,
+      "starsToday": 133,
+      "topics": [],
+      "author": {
+        "name": "oxc-project",
+        "avatar": "https://avatars.githubusercontent.com/u/1430279?s=40&amp;v=4",
+        "url": "https://github.com/oxc-project"
+      },
+      "summary": "用 Rust 编写的高性能 JavaScript 工具集，包含解析器、Linter、压缩器等，可作为前端构建与代码检查的高速替代方案。",
+      "tags": [
+        "rust",
+        "javascript",
+        "parser",
+        "linter",
+        "compiler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T03:48:30.213Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1725,
+      "forks": 241,
+      "starsToday": 397,
+      "topics": [],
+      "author": {
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
+      },
+      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用 Rust 编写，适合低成本可版本化的图数据管理。",
+      "tags": [
+        "graph-database",
+        "rust",
+        "object-storage",
+        "branching",
+        "ontology"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-24T03:48:28.953Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31835,
+      "forks": 1951,
+      "starsToday": 274,
+      "topics": [],
+      "author": {
+        "name": "googleworkspace",
+        "avatar": "https://avatars.githubusercontent.com/u/109114539?s=40&amp;v=4",
+        "url": "https://github.com/googleworkspace"
+      },
+      "summary": "Google Workspace 官方命令行工具，基于 Discovery Service 动态生成，用一条命令统一操作 Drive、Gmail、日历、表格、文档等，并内置 AI agent 技能。",
+      "tags": [
+        "google-workspace",
+        "cli",
+        "rust",
+        "ai-agent",
+        "productivity"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-24T03:48:28.663Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4744,
+      "forks": 795,
+      "starsToday": 531,
+      "topics": [],
+      "author": {
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
+      },
+      "summary": "基于Rust开发的WiFi安全审计工具，用于扫描无线网络、捕获握手包并检测安全弱点，界面简洁易用。",
+      "tags": [
+        "wifi",
+        "security",
+        "rust",
+        "audit",
+        "network"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-10-24T03:48:30.495Z",
       "deepwikiAvailable": false
     },
     {
@@ -145,146 +427,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-24T03:48:27.411Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Codync",
-      "fullName": "leepokai/Codync",
-      "url": "https://github.com/leepokai/Codync",
-      "description": "The open-source Grok Bot alternative: message Claude Code, Codex, Cursor, Gemini and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Free. Also a Muse and Dots alternative. Built in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 763,
-      "forks": 94,
-      "starsToday": 304,
-      "topics": [],
-      "author": {
-        "name": "leepokai",
-        "avatar": "https://avatars.githubusercontent.com/u/109857817?s=40&amp;v=4",
-        "url": "https://github.com/leepokai"
-      },
-      "summary": "用 Rust 编写的开源工具，可将 Claude Code、Codex、Cursor、Gemini 等 40+ AI 智能体接入为本地机器人，从手机、电脑或终端随时对话。",
-      "tags": [
-        "rust",
-        "ai-agents",
-        "self-hosted",
-        "chat",
-        "cross-platform"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-24T03:48:27.972Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "uzu",
-      "fullName": "trymirai/uzu",
-      "url": "https://github.com/trymirai/uzu",
-      "description": "A high-performance inference engine for AI models",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2560,
-      "forks": 146,
-      "starsToday": 192,
-      "topics": [],
-      "author": {
-        "name": "trymirai",
-        "avatar": "https://avatars.githubusercontent.com/u/83587632?s=40&amp;v=4",
-        "url": "https://github.com/trymirai"
-      },
-      "summary": "用 Rust 编写的高性能 AI 模型推理引擎，主打低开销与跨平台部署，适合替代重量级运行时。",
-      "tags": [
-        "rust",
-        "inference",
-        "llm",
-        "performance",
-        "engine"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-24T03:48:27.751Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "microduck",
-      "fullName": "pollen-robotics/microduck",
-      "url": "https://github.com/pollen-robotics/microduck",
-      "description": "A Tiny biped duck robot 🦆",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 10523,
-      "forks": 1355,
-      "starsToday": 936,
-      "topics": [],
-      "author": {
-        "name": "pollen-robotics",
-        "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&amp;v=4",
-        "url": "https://github.com/pollen-robotics"
-      },
-      "summary": "用 Rust 编写的微型双足鸭子机器人开源项目，提供完整硬件设计与固件，供爱好者低成本复刻与学习双足机器人控制。",
-      "tags": [
-        "robotics",
-        "rust",
-        "biped",
-        "hardware",
-        "open-source"
-      ],
-      "category": "Hardware",
-      "enrichedAt": "2026-10-24T03:48:28.342Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "googleworkspace/cli",
-      "url": "https://github.com/googleworkspace/cli",
-      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31821,
-      "forks": 1952,
-      "starsToday": 274,
-      "topics": [],
-      "author": {
-        "name": "googleworkspace",
-        "avatar": "https://avatars.githubusercontent.com/u/109114539?s=40&amp;v=4",
-        "url": "https://github.com/googleworkspace"
-      },
-      "summary": "Google Workspace 官方命令行工具，基于 Discovery Service 动态生成，用一条命令统一操作 Drive、Gmail、日历、表格、文档等，并内置 AI agent 技能。",
-      "tags": [
-        "google-workspace",
-        "cli",
-        "rust",
-        "ai-agent",
-        "productivity"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-24T03:48:28.663Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omnigraph",
-      "fullName": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1710,
-      "forks": 239,
-      "starsToday": 397,
-      "topics": [],
-      "author": {
-        "name": "ModernRelay",
-        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
-        "url": "https://github.com/ModernRelay"
-      },
-      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用 Rust 编写，适合低成本可版本化的图数据管理。",
-      "tags": [
-        "graph-database",
-        "rust",
-        "object-storage",
-        "branching",
-        "ontology"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-24T03:48:28.953Z",
       "deepwikiAvailable": false
     },
     {
@@ -370,62 +512,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-24T03:48:29.728Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "oxc",
-      "fullName": "oxc-project/oxc",
-      "url": "https://github.com/oxc-project/oxc",
-      "description": "⚓ A collection of high-performance JavaScript tools.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 23204,
-      "forks": 1403,
-      "starsToday": 133,
-      "topics": [],
-      "author": {
-        "name": "oxc-project",
-        "avatar": "https://avatars.githubusercontent.com/u/1430279?s=40&amp;v=4",
-        "url": "https://github.com/oxc-project"
-      },
-      "summary": "用 Rust 编写的高性能 JavaScript 工具集，包含解析器、Linter、压缩器等，可作为前端构建与代码检查的高速替代方案。",
-      "tags": [
-        "rust",
-        "javascript",
-        "parser",
-        "linter",
-        "compiler"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-24T03:48:30.213Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "airgorah",
-      "fullName": "martin-olivier/airgorah",
-      "url": "https://github.com/martin-olivier/airgorah",
-      "description": "A WiFi security auditing software",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 4743,
-      "forks": 795,
-      "starsToday": 531,
-      "topics": [],
-      "author": {
-        "name": "martin-olivier",
-        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
-        "url": "https://github.com/martin-olivier"
-      },
-      "summary": "基于Rust开发的WiFi安全审计工具，用于扫描无线网络、捕获握手包并检测安全弱点，界面简洁易用。",
-      "tags": [
-        "wifi",
-        "security",
-        "rust",
-        "audit",
-        "network"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-10-24T03:48:30.495Z",
       "deepwikiAvailable": false
     }
   ]

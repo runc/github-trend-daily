@@ -2,9 +2,94 @@
   "date": "2026-10-24",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-10-24T03:47:12.184Z",
-  "enrichedAt": "2026-10-24T03:48:25.256Z",
+  "fetchedAt": "2026-10-24T13:10:16.051Z",
+  "enrichedAt": "2026-10-24T13:11:12.293Z",
   "repos": [
+    {
+      "name": "agent-beacon",
+      "fullName": "Asymptote-Labs/agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2735,
+      "forks": 247,
+      "starsToday": 856,
+      "topics": [],
+      "author": {
+        "name": "Asymptote-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Asymptote-Labs"
+      },
+      "summary": "跨框架的AI Agent自改进记忆层，用Go实现，为不同Agent框架提供可复用、可自我进化的持久记忆能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "memory",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-24T03:48:19.029Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49907,
+      "forks": 4540,
+      "starsToday": 345,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "开源本地AI推理引擎，用Go编写，可在任意硬件上运行LLM、视觉、语音、图像和视频模型，无需GPU，兼容OpenAI API。",
+      "tags": [
+        "llm",
+        "self-hosted",
+        "inference",
+        "openai-api",
+        "golang",
+        "cpu"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-24T03:48:17.997Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gin",
+      "fullName": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 89421,
+      "forks": 8769,
+      "starsToday": 98,
+      "topics": [],
+      "author": {
+        "name": "gin-gonic",
+        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
+        "url": "https://github.com/gin-gonic"
+      },
+      "summary": "Go 语言高性能 HTTP Web 框架，基于 httprouter，API 简洁，适合构建 REST API、Web 应用与微服务。",
+      "tags": [
+        "go",
+        "web-framework",
+        "http",
+        "rest-api",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-24T03:48:19.117Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "ollama",
       "fullName": "ollama/ollama",
@@ -12,8 +97,8 @@
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 184506,
-      "forks": 18509,
+      "stars": 184603,
+      "forks": 18538,
       "starsToday": 1387,
       "topics": [],
       "author": {
@@ -34,14 +119,380 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "wx_channels_download",
+      "fullName": "ltaoo/wx_channels_download",
+      "url": "https://github.com/ltaoo/wx_channels_download",
+      "description": "微信视频号下载器",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10084,
+      "forks": 1669,
+      "starsToday": 232,
+      "topics": [],
+      "author": {
+        "name": "ltaoo",
+        "avatar": "https://avatars.githubusercontent.com/u/15319872?s=40&amp;v=4",
+        "url": "https://github.com/ltaoo"
+      },
+      "summary": "微信视频号视频下载工具，基于 Go 实现，可抓取并保存视频号内容，便于离线收藏与素材留存。",
+      "tags": [
+        "wechat",
+        "downloader",
+        "video",
+        "go",
+        "scraper"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-24T03:48:23.052Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "Open source factory for one-shot engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8187,
+      "forks": 668,
+      "starsToday": 397,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的一次性工程自动化平台，用Go编写，通过事件驱动的工作流把开发运维任务编排成可复用的自动化流水线。",
+      "tags": [
+        "automation",
+        "workflow",
+        "go",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T03:48:19.363Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58670,
+      "forks": 7307,
+      "starsToday": 156,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "自托管的一体化软件开发平台，提供 Git 托管、代码评审、团队协作、包仓库与 CI/CD，轻量易部署。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "go",
+        "ci-cd"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T03:48:20.223Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SafeLine",
+      "fullName": "chaitin/SafeLine",
+      "url": "https://github.com/chaitin/SafeLine",
+      "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 22928,
+      "forks": 1570,
+      "starsToday": 167,
+      "topics": [],
+      "author": {
+        "name": "chaitin",
+        "avatar": "https://avatars.githubusercontent.com/u/150229899?s=40&amp;v=4",
+        "url": "https://github.com/chaitin"
+      },
+      "summary": "自托管 WAF 与反向代理，为 Web 应用拦截攻击与漏洞利用，部署简单、开箱即用。",
+      "tags": [
+        "waf",
+        "security",
+        "reverse-proxy",
+        "golang",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-24T13:11:11.207Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opencode2api",
+      "fullName": "jasonxu114514/opencode2api",
+      "url": "https://github.com/jasonxu114514/opencode2api",
+      "description": "A Go-based OpenCode Zen / Zen Go API proxy with OpenAI & Anthropic API compatibility, key/proxy pooling, automatic routing, and WebUI.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1260,
+      "forks": 222,
+      "starsToday": 386,
+      "topics": [],
+      "author": {
+        "name": "jasonxu114514",
+        "avatar": "https://avatars.githubusercontent.com/u/117326624?s=40&amp;v=4",
+        "url": "https://github.com/jasonxu114514"
+      },
+      "summary": "Go 编写的 OpenCode Zen API 代理，兼容 OpenAI 与 Anthropic 接口，支持密钥/代理池、自动路由和 WebUI 管理。",
+      "tags": [
+        "go",
+        "proxy",
+        "openai",
+        "anthropic",
+        "api-gateway"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-24T03:48:18.842Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38686,
+      "forks": 795,
+      "starsToday": 222,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Go 编写的综合安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥泄露并生成 SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T13:11:11.418Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "github-mcp-server",
+      "fullName": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33918,
+      "forks": 5228,
+      "starsToday": 258,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/4811358?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方MCP服务器，用Go编写，让AI助手通过MCP协议直接访问仓库、Issue、PR等GitHub数据与操作。",
+      "tags": [
+        "mcp",
+        "github",
+        "ai",
+        "go",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-24T03:48:21.284Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32241,
+      "forks": 4999,
+      "starsToday": 1536,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI智能体系统，可自动执行复杂渗透测试任务，实现从侦察到漏洞利用的自动化安全评估。",
+      "tags": [
+        "ai-agents",
+        "pentest",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-24T03:48:20.106Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentsview",
+      "fullName": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 50 other agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6255,
+      "forks": 661,
+      "starsToday": 139,
+      "topics": [],
+      "author": {
+        "name": "kenn-io",
+        "avatar": "https://avatars.githubusercontent.com/u/329591?s=40&amp;v=4",
+        "url": "https://github.com/kenn-io"
+      },
+      "summary": "本地优先的编码智能体会话检索与分析工具，支持Claude Code、Codex等50多种智能体，提供洞察与token用量统计。",
+      "tags": [
+        "agents",
+        "analytics",
+        "search",
+        "local-first",
+        "go",
+        "token-usage"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T13:11:11.383Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "helm",
+      "fullName": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30365,
+      "forks": 7858,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "helm",
+        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
+        "url": "https://github.com/helm"
+      },
+      "summary": "Helm 是 Kubernetes 的包管理器，用 Chart 模板化定义、安装和升级应用，简化集群内复杂服务的部署与版本管理。",
+      "tags": [
+        "kubernetes",
+        "package-manager",
+        "go",
+        "devops",
+        "charts"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T03:48:20.015Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ttt",
+      "fullName": "eugenioenko/ttt",
+      "url": "https://github.com/eugenioenko/ttt",
+      "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 810,
+      "forks": 94,
+      "starsToday": 203,
+      "topics": [],
+      "author": {
+        "name": "eugenioenko",
+        "avatar": "https://avatars.githubusercontent.com/u/17834212?s=40&amp;v=4",
+        "url": "https://github.com/eugenioenko"
+      },
+      "summary": "Go 编写的终端文本编辑器，以 TUI 提供接近 GUI 的体验，单二进制零配置，可替代 VS Code、Zed 等编辑器。",
+      "tags": [
+        "editor",
+        "tui",
+        "go",
+        "terminal",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T13:11:11.251Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "PatchMon",
+      "fullName": "PatchMon/PatchMon",
+      "url": "https://github.com/PatchMon/PatchMon",
+      "description": "Linux Patch Management & Automation Platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3494,
+      "forks": 198,
+      "starsToday": 65,
+      "topics": [],
+      "author": {
+        "name": "PatchMon",
+        "avatar": "https://avatars.githubusercontent.com/u/170360133?s=40&amp;v=4",
+        "url": "https://github.com/PatchMon"
+      },
+      "summary": "基于Go的Linux补丁管理与自动化平台，集中追踪各主机补丁状态并自动执行更新，简化运维打补丁流程。",
+      "tags": [
+        "linux",
+        "patch-management",
+        "automation",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-24T03:48:21.503Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72199,
+      "forks": 19193,
+      "starsToday": 58,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是容器生态的协作开源项目，提供构建自定义容器系统的基础组件，是 Docker 引擎的上游代码库。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "infrastructure",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-24T03:48:21.925Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "gitleaks",
       "fullName": "gitleaks/gitleaks",
       "url": "https://github.com/gitleaks/gitleaks",
       "description": "Find secrets with Gitleaks 🔑",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 30278,
-      "forks": 2315,
+      "stars": 30291,
+      "forks": 2316,
       "starsToday": 268,
       "topics": [],
       "author": {
@@ -62,32 +513,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "LocalAI",
-      "fullName": "mudler/LocalAI",
-      "url": "https://github.com/mudler/LocalAI",
-      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "name": "pearl",
+      "fullName": "pearl-research-labs/pearl",
+      "url": "https://github.com/pearl-research-labs/pearl",
+      "description": "Monorepo for the Pearl network 🐚",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 49899,
-      "forks": 4539,
-      "starsToday": 345,
+      "stars": 391,
+      "forks": 94,
+      "starsToday": 27,
       "topics": [],
       "author": {
-        "name": "mudler",
-        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
-        "url": "https://github.com/mudler"
+        "name": "pearl-research-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/17099688?s=40&amp;v=4",
+        "url": "https://github.com/pearl-research-labs"
       },
-      "summary": "开源本地AI推理引擎，用Go编写，可在任意硬件上运行LLM、视觉、语音、图像和视频模型，无需GPU，兼容OpenAI API。",
+      "summary": "Pearl 网络的 Go 语言单体仓库，汇集节点、协议与核心组件源码，供开发者参与该区块链网络的构建与协作。",
       "tags": [
+        "go",
+        "monorepo",
+        "blockchain",
+        "network",
+        "node"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-24T03:48:22.784Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "awesome-ai-agents",
+      "fullName": "slavakurilyak/awesome-ai-agents",
+      "url": "https://github.com/slavakurilyak/awesome-ai-agents",
+      "description": "Awesome list of 300+ agentic AI resources",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2641,
+      "forks": 690,
+      "starsToday": 186,
+      "topics": [],
+      "author": {
+        "name": "slavakurilyak",
+        "avatar": "https://avatars.githubusercontent.com/u/6625584?s=40&amp;v=4",
+        "url": "https://github.com/slavakurilyak"
+      },
+      "summary": "收录300多个智能体AI资源的精选清单，涵盖框架、工具与学习资料，是AI Agent开发者的导航入口。",
+      "tags": [
+        "awesome-list",
+        "ai-agents",
         "llm",
-        "self-hosted",
-        "inference",
-        "openai-api",
-        "golang",
-        "cpu"
+        "resources",
+        "curated"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-24T03:48:17.997Z",
+      "enrichedAt": "2026-10-24T13:11:12.293Z",
       "deepwikiAvailable": false
     },
     {
@@ -120,202 +598,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agent-beacon",
-      "fullName": "Asymptote-Labs/agent-beacon",
-      "url": "https://github.com/Asymptote-Labs/agent-beacon",
-      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2713,
-      "forks": 245,
-      "starsToday": 856,
-      "topics": [],
-      "author": {
-        "name": "Asymptote-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/Asymptote-Labs"
-      },
-      "summary": "跨框架的AI Agent自改进记忆层，用Go实现，为不同Agent框架提供可复用、可自我进化的持久记忆能力。",
-      "tags": [
-        "ai",
-        "agents",
-        "memory",
-        "go",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-24T03:48:19.029Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "opencode2api",
-      "fullName": "jasonxu114514/opencode2api",
-      "url": "https://github.com/jasonxu114514/opencode2api",
-      "description": "A Go-based OpenCode Zen / Zen Go API proxy with OpenAI & Anthropic API compatibility, key/proxy pooling, automatic routing, and WebUI.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1254,
-      "forks": 221,
-      "starsToday": 386,
-      "topics": [],
-      "author": {
-        "name": "jasonxu114514",
-        "avatar": "https://avatars.githubusercontent.com/u/117326624?s=40&amp;v=4",
-        "url": "https://github.com/jasonxu114514"
-      },
-      "summary": "Go 编写的 OpenCode Zen API 代理，兼容 OpenAI 与 Anthropic 接口，支持密钥/代理池、自动路由和 WebUI 管理。",
-      "tags": [
-        "go",
-        "proxy",
-        "openai",
-        "anthropic",
-        "api-gateway"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-24T03:48:18.842Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gin",
-      "fullName": "gin-gonic/gin",
-      "url": "https://github.com/gin-gonic/gin",
-      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 89424,
-      "forks": 8769,
-      "starsToday": 98,
-      "topics": [],
-      "author": {
-        "name": "gin-gonic",
-        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
-        "url": "https://github.com/gin-gonic"
-      },
-      "summary": "Go 语言高性能 HTTP Web 框架，基于 httprouter，API 简洁，适合构建 REST API、Web 应用与微服务。",
-      "tags": [
-        "go",
-        "web-framework",
-        "http",
-        "rest-api",
-        "microservices"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-24T03:48:19.117Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "superplane",
-      "fullName": "superplanehq/superplane",
-      "url": "https://github.com/superplanehq/superplane",
-      "description": "Open source factory for one-shot engineering",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8181,
-      "forks": 668,
-      "starsToday": 397,
-      "topics": [],
-      "author": {
-        "name": "superplanehq",
-        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
-        "url": "https://github.com/superplanehq"
-      },
-      "summary": "开源的一次性工程自动化平台，用Go编写，通过事件驱动的工作流把开发运维任务编排成可复用的自动化流水线。",
-      "tags": [
-        "automation",
-        "workflow",
-        "go",
-        "devops",
-        "self-hosted"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-24T03:48:19.363Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "helm",
-      "fullName": "helm/helm",
-      "url": "https://github.com/helm/helm",
-      "description": "The Kubernetes Package Manager",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 30363,
-      "forks": 7855,
-      "starsToday": 38,
-      "topics": [],
-      "author": {
-        "name": "helm",
-        "avatar": "https://avatars.githubusercontent.com/u/89193?s=40&amp;v=4",
-        "url": "https://github.com/helm"
-      },
-      "summary": "Helm 是 Kubernetes 的包管理器，用 Chart 模板化定义、安装和升级应用，简化集群内复杂服务的部署与版本管理。",
-      "tags": [
-        "kubernetes",
-        "package-manager",
-        "go",
-        "devops",
-        "charts"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-24T03:48:20.015Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pentagi",
-      "fullName": "vxcontrol/pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 32184,
-      "forks": 4994,
-      "starsToday": 1536,
-      "topics": [],
-      "author": {
-        "name": "vxcontrol",
-        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
-        "url": "https://github.com/vxcontrol"
-      },
-      "summary": "基于Go构建的全自主AI智能体系统，可自动执行复杂渗透测试任务，实现从侦察到漏洞利用的自动化安全评估。",
-      "tags": [
-        "ai-agents",
-        "pentest",
-        "security",
-        "golang",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-24T03:48:20.106Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gitea",
-      "fullName": "go-gitea/gitea",
-      "url": "https://github.com/go-gitea/gitea",
-      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 58666,
-      "forks": 7305,
-      "starsToday": 156,
-      "topics": [],
-      "author": {
-        "name": "go-gitea",
-        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
-        "url": "https://github.com/go-gitea"
-      },
-      "summary": "自托管的一体化软件开发平台，提供 Git 托管、代码评审、团队协作、包仓库与 CI/CD，轻量易部署。",
-      "tags": [
-        "git",
-        "self-hosted",
-        "devops",
-        "go",
-        "ci-cd"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-24T03:48:20.223Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "engram",
       "fullName": "Gentleman-Programming/engram",
       "url": "https://github.com/Gentleman-Programming/engram",
@@ -345,62 +627,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "github-mcp-server",
-      "fullName": "github/github-mcp-server",
-      "url": "https://github.com/github/github-mcp-server",
-      "description": "GitHub's official MCP Server",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 33900,
-      "forks": 5225,
-      "starsToday": 258,
-      "topics": [],
-      "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/u/4811358?s=40&amp;v=4",
-        "url": "https://github.com/github"
-      },
-      "summary": "GitHub官方MCP服务器，用Go编写，让AI助手通过MCP协议直接访问仓库、Issue、PR等GitHub数据与操作。",
-      "tags": [
-        "mcp",
-        "github",
-        "ai",
-        "go",
-        "api"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-24T03:48:21.284Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "PatchMon",
-      "fullName": "PatchMon/PatchMon",
-      "url": "https://github.com/PatchMon/PatchMon",
-      "description": "Linux Patch Management & Automation Platform",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3490,
-      "forks": 197,
-      "starsToday": 65,
-      "topics": [],
-      "author": {
-        "name": "PatchMon",
-        "avatar": "https://avatars.githubusercontent.com/u/170360133?s=40&amp;v=4",
-        "url": "https://github.com/PatchMon"
-      },
-      "summary": "基于Go的Linux补丁管理与自动化平台，集中追踪各主机补丁状态并自动执行更新，简化运维打补丁流程。",
-      "tags": [
-        "linux",
-        "patch-management",
-        "automation",
-        "go",
-        "devops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-24T03:48:21.503Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "terraform",
       "fullName": "hashicorp/terraform",
       "url": "https://github.com/hashicorp/terraform",
@@ -427,34 +653,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-24T03:48:21.419Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "moby",
-      "fullName": "moby/moby",
-      "url": "https://github.com/moby/moby",
-      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 72200,
-      "forks": 19192,
-      "starsToday": 58,
-      "topics": [],
-      "author": {
-        "name": "moby",
-        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
-        "url": "https://github.com/moby"
-      },
-      "summary": "Moby 是容器生态的协作开源项目，提供构建自定义容器系统的基础组件，是 Docker 引擎的上游代码库。",
-      "tags": [
-        "docker",
-        "containers",
-        "go",
-        "infrastructure",
-        "devops"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-24T03:48:21.925Z",
       "deepwikiAvailable": false
     },
     {
@@ -511,62 +709,6 @@
       ],
       "category": "Language",
       "enrichedAt": "2026-10-24T03:48:25.256Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pearl",
-      "fullName": "pearl-research-labs/pearl",
-      "url": "https://github.com/pearl-research-labs/pearl",
-      "description": "Monorepo for the Pearl network 🐚",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 389,
-      "forks": 94,
-      "starsToday": 27,
-      "topics": [],
-      "author": {
-        "name": "pearl-research-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/17099688?s=40&amp;v=4",
-        "url": "https://github.com/pearl-research-labs"
-      },
-      "summary": "Pearl 网络的 Go 语言单体仓库，汇集节点、协议与核心组件源码，供开发者参与该区块链网络的构建与协作。",
-      "tags": [
-        "go",
-        "monorepo",
-        "blockchain",
-        "network",
-        "node"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-24T03:48:22.784Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "wx_channels_download",
-      "fullName": "ltaoo/wx_channels_download",
-      "url": "https://github.com/ltaoo/wx_channels_download",
-      "description": "微信视频号下载器",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 10075,
-      "forks": 1668,
-      "starsToday": 232,
-      "topics": [],
-      "author": {
-        "name": "ltaoo",
-        "avatar": "https://avatars.githubusercontent.com/u/15319872?s=40&amp;v=4",
-        "url": "https://github.com/ltaoo"
-      },
-      "summary": "微信视频号视频下载工具，基于 Go 实现，可抓取并保存视频号内容，便于离线收藏与素材留存。",
-      "tags": [
-        "wechat",
-        "downloader",
-        "video",
-        "go",
-        "scraper"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-24T03:48:23.052Z",
       "deepwikiAvailable": false
     },
     {
