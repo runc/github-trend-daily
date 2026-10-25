@@ -2,37 +2,9 @@
   "date": "2026-10-25",
   "since": "weekly",
   "language": "Python",
-  "fetchedAt": "2026-10-25T03:45:55.014Z",
-  "enrichedAt": "2026-10-25T03:47:01.399Z",
+  "fetchedAt": "2026-10-25T13:36:35.759Z",
+  "enrichedAt": "2026-10-25T13:37:27.264Z",
   "repos": [
-    {
-      "name": "claude-plugins-official",
-      "fullName": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 44378,
-      "forks": 4656,
-      "starsToday": 3232,
-      "topics": [],
-      "author": {
-        "name": "anthropics",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/anthropics"
-      },
-      "summary": "Anthropic官方维护的Claude Code插件目录，汇集高质量插件，方便用户发现和安装扩展Claude Code能力。",
-      "tags": [
-        "claude-code",
-        "plugins",
-        "anthropic",
-        "directory",
-        "ai"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-25T03:46:57.235Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "knowledge-work-plugins",
       "fullName": "anthropics/knowledge-work-plugins",
@@ -40,8 +12,8 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 32677,
-      "forks": 3609,
+      "stars": 32836,
+      "forks": 3625,
       "starsToday": 2631,
       "topics": [],
       "author": {
@@ -62,14 +34,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 134776,
+      "forks": 12869,
+      "starsToday": 6868,
+      "topics": [],
+      "author": {
+        "name": "Graphify-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Graphify-Labs"
+      },
+      "summary": "将代码库及文档、SQL、配置、PDF 解析为可查询知识图谱的 AI 编码助手技能，本地确定性 AST 解析，每条边可解释，无需向量库。",
+      "tags": [
+        "knowledge-graph",
+        "ast",
+        "code-analysis",
+        "ai-coding",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-25T03:46:57.053Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ComfyUI",
       "fullName": "Comfy-Org/ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 142663,
-      "forks": 16828,
+      "stars": 142811,
+      "forks": 16853,
       "starsToday": 4648,
       "topics": [],
       "author": {
@@ -91,59 +91,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "graphify",
-      "fullName": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "name": "claude-plugins-official",
+      "fullName": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 134529,
-      "forks": 12838,
-      "starsToday": 6868,
+      "stars": 44464,
+      "forks": 4658,
+      "starsToday": 3232,
       "topics": [],
       "author": {
-        "name": "Graphify-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/Graphify-Labs"
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
       },
-      "summary": "将代码库及文档、SQL、配置、PDF 解析为可查询知识图谱的 AI 编码助手技能，本地确定性 AST 解析，每条边可解释，无需向量库。",
+      "summary": "Anthropic官方维护的Claude Code插件目录，汇集高质量插件，方便用户发现和安装扩展Claude Code能力。",
       "tags": [
-        "knowledge-graph",
-        "ast",
-        "code-analysis",
-        "ai-coding",
-        "python"
+        "claude-code",
+        "plugins",
+        "anthropic",
+        "directory",
+        "ai"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-10-25T03:46:57.053Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "CLI-Anything",
-      "fullName": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 56874,
-      "forks": 5099,
-      "starsToday": 3069,
-      "topics": [],
-      "author": {
-        "name": "HKUDS",
-        "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&amp;v=4",
-        "url": "https://github.com/HKUDS"
-      },
-      "summary": "将各类软件封装为命令行接口，让AI Agent可直接调用操作，实现软件Agent原生化。",
-      "tags": [
-        "cli",
-        "ai-agents",
-        "automation",
-        "python",
-        "tooling"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-25T03:46:58.436Z",
+      "enrichedAt": "2026-10-25T03:46:57.235Z",
       "deepwikiAvailable": false
     },
     {
@@ -153,8 +125,8 @@
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 95368,
-      "forks": 23905,
+      "stars": 95438,
+      "forks": 23927,
       "starsToday": 1371,
       "topics": [],
       "author": {
@@ -175,14 +147,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "fastapi",
+      "fullName": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 104138,
+      "forks": 10115,
+      "starsToday": 1012,
+      "topics": [],
+      "author": {
+        "name": "fastapi",
+        "avatar": "https://avatars.githubusercontent.com/u/1326112?s=40&amp;v=4",
+        "url": "https://github.com/fastapi"
+      },
+      "summary": "基于Python类型注解的高性能异步Web框架，自动生成OpenAPI文档与数据校验，开发快、易上手、可直接用于生产。",
+      "tags": [
+        "python",
+        "web-framework",
+        "api",
+        "async",
+        "openapi"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-25T03:46:58.685Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CLI-Anything",
+      "fullName": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 56993,
+      "forks": 5114,
+      "starsToday": 3069,
+      "topics": [],
+      "author": {
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
+      },
+      "summary": "将各类软件封装为命令行接口，让AI Agent可直接调用操作，实现软件Agent原生化。",
+      "tags": [
+        "cli",
+        "ai-agents",
+        "automation",
+        "python",
+        "tooling"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-25T03:46:58.436Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "VoiceStudio",
       "fullName": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 85144,
-      "forks": 9423,
+      "stars": 85849,
+      "forks": 9518,
       "starsToday": 12237,
       "topics": [],
       "author": {
@@ -204,42 +232,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "fastapi",
-      "fullName": "fastapi/fastapi",
-      "url": "https://github.com/fastapi/fastapi",
-      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 104100,
-      "forks": 10116,
-      "starsToday": 1012,
-      "topics": [],
-      "author": {
-        "name": "fastapi",
-        "avatar": "https://avatars.githubusercontent.com/u/1326112?s=40&amp;v=4",
-        "url": "https://github.com/fastapi"
-      },
-      "summary": "基于Python类型注解的高性能异步Web框架，自动生成OpenAPI文档与数据校验，开发快、易上手、可直接用于生产。",
-      "tags": [
-        "python",
-        "web-framework",
-        "api",
-        "async",
-        "openapi"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-25T03:46:58.685Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "agents",
       "fullName": "wshobson/agents",
       "url": "https://github.com/wshobson/agents",
       "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 41652,
-      "forks": 4414,
+      "stars": 41679,
+      "forks": 4419,
       "starsToday": 703,
       "topics": [],
       "author": {
@@ -260,14 +260,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "sglang",
+      "fullName": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 38129,
+      "forks": 9883,
+      "starsToday": 535,
+      "topics": [],
+      "author": {
+        "name": "sgl-project",
+        "avatar": "https://avatars.githubusercontent.com/u/95566987?s=40&amp;v=4",
+        "url": "https://github.com/sgl-project"
+      },
+      "summary": "高性能大语言模型与多模态模型推理服务框架，提供高效KV缓存与并行调度，显著提升吞吐与部署效率。",
+      "tags": [
+        "llm",
+        "inference",
+        "serving",
+        "python",
+        "multimodal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-25T03:47:00.809Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "claude-howto",
       "fullName": "luongnv89/claude-howto",
       "url": "https://github.com/luongnv89/claude-howto",
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 44641,
-      "forks": 5496,
+      "stars": 44892,
+      "forks": 5519,
       "starsToday": 2435,
       "topics": [],
       "author": {
@@ -288,14 +316,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "Kronos",
+      "fullName": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 43693,
+      "forks": 7218,
+      "starsToday": 2732,
+      "topics": [],
+      "author": {
+        "name": "shiyu-coder",
+        "avatar": "https://avatars.githubusercontent.com/u/65760973?s=40&amp;v=4",
+        "url": "https://github.com/shiyu-coder"
+      },
+      "summary": "Kronos 是面向金融市场 K 线序列的开源基础模型，将行情数据视为一种语言进行预训练，可用于价格走势预测与量化研究。",
+      "tags": [
+        "finance",
+        "foundation-model",
+        "time-series",
+        "trading",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-25T03:47:00.886Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "jasna",
       "fullName": "Kruk2/jasna",
       "url": "https://github.com/Kruk2/jasna",
       "description": "Video restoration tool",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 3604,
-      "forks": 278,
+      "stars": 3657,
+      "forks": 283,
       "starsToday": 1476,
       "topics": [],
       "author": {
@@ -322,8 +378,8 @@
       "description": "Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handles replies, books meetings. No API keys needed — runs on your Claude or Codex subscriptions.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 2467,
-      "forks": 510,
+      "stars": 2506,
+      "forks": 521,
       "starsToday": 1249,
       "topics": [],
       "author": {
@@ -344,59 +400,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Kronos",
-      "fullName": "shiyu-coder/Kronos",
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "name": "scientific-agent-skills",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 43607,
-      "forks": 7200,
-      "starsToday": 2732,
+      "stars": 54524,
+      "forks": 4805,
+      "starsToday": 2548,
       "topics": [],
       "author": {
-        "name": "shiyu-coder",
-        "avatar": "https://avatars.githubusercontent.com/u/65760973?s=40&amp;v=4",
-        "url": "https://github.com/shiyu-coder"
+        "name": "K-Dense-AI",
+        "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&amp;v=4",
+        "url": "https://github.com/K-Dense-AI"
       },
-      "summary": "Kronos 是面向金融市场 K 线序列的开源基础模型，将行情数据视为一种语言进行预训练，可用于价格走势预测与量化研究。",
+      "summary": "面向科研的 Agent Skills 库，提供177个经验证的即用技能与100多个生物、化学、医学及药物发现数据库，可让任意AI代理变身AI科学家。",
       "tags": [
+        "agent-skills",
+        "science",
+        "bioinformatics",
+        "llm",
+        "drug-discovery"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-25T13:37:27.264Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 114002,
+      "forks": 22072,
+      "starsToday": 2160,
+      "topics": [],
+      "author": {
+        "name": "TauricResearch",
+        "avatar": "https://avatars.githubusercontent.com/u/48253104?s=40&amp;v=4",
+        "url": "https://github.com/TauricResearch"
+      },
+      "summary": "基于多智能体LLM的金融交易框架，模拟分析师、研究员与交易员协作完成市场研判与决策。",
+      "tags": [
+        "llm",
+        "multi-agent",
         "finance",
-        "foundation-model",
-        "time-series",
         "trading",
         "python"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-25T03:47:00.886Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sglang",
-      "fullName": "sgl-project/sglang",
-      "url": "https://github.com/sgl-project/sglang",
-      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 37974,
-      "forks": 9870,
-      "starsToday": 535,
-      "topics": [],
-      "author": {
-        "name": "sgl-project",
-        "avatar": "https://avatars.githubusercontent.com/u/95566987?s=40&amp;v=4",
-        "url": "https://github.com/sgl-project"
-      },
-      "summary": "高性能大语言模型与多模态模型推理服务框架，提供高效KV缓存与并行调度，显著提升吞吐与部署效率。",
-      "tags": [
-        "llm",
-        "inference",
-        "serving",
-        "python",
-        "multimodal"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-25T03:47:00.809Z",
+      "enrichedAt": "2026-10-25T13:37:27.169Z",
       "deepwikiAvailable": false
     },
     {
