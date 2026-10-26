@@ -2,8 +2,8 @@
   "date": "2026-10-26",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-10-26T03:49:22.969Z",
-  "enrichedAt": "2026-10-26T03:50:41.275Z",
+  "fetchedAt": "2026-10-26T15:56:28.464Z",
+  "enrichedAt": "2026-10-26T15:57:24.092Z",
   "repos": [
     {
       "name": "ai-memory",
@@ -12,8 +12,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 13555,
-      "forks": 960,
+      "stars": 13714,
+      "forks": 970,
       "starsToday": 3254,
       "topics": [],
       "author": {
@@ -34,14 +34,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 88719,
+      "forks": 5293,
+      "starsToday": 4741,
+      "topics": [],
+      "author": {
+        "name": "pbakaus",
+        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
+        "url": "https://github.com/pbakaus"
+      },
+      "summary": "一套面向 AI 编程助手的设计语言，用 Rust 实现，帮助 AI 生成更专业、更一致的界面设计。",
+      "tags": [
+        "design",
+        "ai",
+        "rust",
+        "ui",
+        "llm"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-26T03:50:38.891Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "microduck",
+      "fullName": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12229,
+      "forks": 1533,
+      "starsToday": 1876,
+      "topics": [],
+      "author": {
+        "name": "pollen-robotics",
+        "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&amp;v=4",
+        "url": "https://github.com/pollen-robotics"
+      },
+      "summary": "开源微型双足鸭子机器人项目，用Rust实现控制与仿真，提供低成本可复刻的机器人学习与研发平台。",
+      "tags": [
+        "robotics",
+        "rust",
+        "biped",
+        "hardware",
+        "open-source"
+      ],
+      "category": "Robotics",
+      "enrichedAt": "2026-10-26T03:50:36.864Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "xerj",
       "fullName": "xerj-org/xerj",
       "url": "https://github.com/xerj-org/xerj",
       "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 15611,
-      "forks": 1143,
+      "stars": 16758,
+      "forks": 1166,
       "starsToday": 7637,
       "topics": [],
       "author": {
@@ -63,71 +119,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "microduck",
-      "fullName": "pollen-robotics/microduck",
-      "url": "https://github.com/pollen-robotics/microduck",
-      "description": "A Tiny biped duck robot 🦆",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11798,
-      "forks": 1498,
-      "starsToday": 1876,
-      "topics": [],
-      "author": {
-        "name": "pollen-robotics",
-        "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&amp;v=4",
-        "url": "https://github.com/pollen-robotics"
-      },
-      "summary": "开源微型双足鸭子机器人项目，用Rust实现控制与仿真，提供低成本可复刻的机器人学习与研发平台。",
-      "tags": [
-        "robotics",
-        "rust",
-        "biped",
-        "hardware",
-        "open-source"
-      ],
-      "category": "Robotics",
-      "enrichedAt": "2026-10-26T03:50:36.864Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Concat",
-      "fullName": "jub0t/Concat",
-      "url": "https://github.com/jub0t/Concat",
-      "description": "The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 11570,
-      "forks": 1421,
-      "starsToday": 2616,
-      "topics": [],
-      "author": {
-        "name": "jub0t",
-        "avatar": "https://avatars.githubusercontent.com/u/57962439?s=40&amp;v=4",
-        "url": "https://github.com/jub0t"
-      },
-      "summary": "开源本地优先的跨平台视频剪辑工具，可替代 CapCut，支持通过 JSON-RPC API 与 MCP 脚本化控制。",
-      "tags": [
-        "video-editing",
-        "rust",
-        "mcp",
-        "json-rpc",
-        "cross-platform",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-26T03:50:37.011Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "bun",
       "fullName": "oven-sh/bun",
       "url": "https://github.com/oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 96411,
-      "forks": 5138,
+      "stars": 96418,
+      "forks": 5153,
       "starsToday": 205,
       "topics": [],
       "author": {
@@ -154,8 +153,8 @@
       "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 6678,
-      "forks": 582,
+      "stars": 6699,
+      "forks": 586,
       "starsToday": 452,
       "topics": [],
       "author": {
@@ -177,59 +176,116 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "harper",
-      "fullName": "Automattic/harper",
-      "url": "https://github.com/Automattic/harper",
-      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "name": "Concat",
+      "fullName": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "description": "The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 17127,
-      "forks": 768,
-      "starsToday": 441,
+      "stars": 11705,
+      "forks": 1436,
+      "starsToday": 2616,
       "topics": [],
       "author": {
-        "name": "Automattic",
-        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
-        "url": "https://github.com/Automattic"
+        "name": "jub0t",
+        "avatar": "https://avatars.githubusercontent.com/u/57962439?s=40&amp;v=4",
+        "url": "https://github.com/jub0t"
       },
-      "summary": "基于 Rust 的离线语法检查器，速度快、注重隐私，可本地运行无需联网，开源可自托管。",
+      "summary": "开源本地优先的跨平台视频剪辑工具，可替代 CapCut，支持通过 JSON-RPC API 与 MCP 脚本化控制。",
       "tags": [
+        "video-editing",
         "rust",
-        "grammar",
-        "privacy",
-        "offline",
-        "linter"
+        "mcp",
+        "json-rpc",
+        "cross-platform",
+        "open-source"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-26T03:50:38.351Z",
+      "category": "App",
+      "enrichedAt": "2026-10-26T03:50:37.011Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 87906,
-      "forks": 5251,
-      "starsToday": 4741,
+      "stars": 20034,
+      "forks": 1978,
+      "starsToday": 3233,
       "topics": [],
       "author": {
-        "name": "pbakaus",
-        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
-        "url": "https://github.com/pbakaus"
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
       },
-      "summary": "一套面向 AI 编程助手的设计语言，用 Rust 实现，帮助 AI 生成更专业、更一致的界面设计。",
+      "summary": "NVIDIA 开源的 AI 智能体安全运行时，用 Rust 编写，为自主智能体提供隔离、私密的执行环境与权限管控。",
       "tags": [
-        "design",
-        "ai",
+        "ai-agents",
         "rust",
-        "ui",
-        "llm"
+        "sandbox",
+        "runtime",
+        "security"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-26T03:50:38.891Z",
+      "category": "Infra",
+      "enrichedAt": "2026-10-26T03:50:40.102Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nautilus_trader",
+      "fullName": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30884,
+      "forks": 4155,
+      "starsToday": 527,
+      "topics": [],
+      "author": {
+        "name": "nautechsystems",
+        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
+        "url": "https://github.com/nautechsystems"
+      },
+      "summary": "Rust 原生高性能量化交易引擎，采用确定性事件驱动架构，支持回测与实盘统一，适合生产级策略开发。",
+      "tags": [
+        "trading",
+        "rust",
+        "quant",
+        "backtesting",
+        "event-driven"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-26T15:57:23.961Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MangoDisk",
+      "fullName": "harry0703/MangoDisk",
+      "url": "https://github.com/harry0703/MangoDisk",
+      "description": "Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4835,
+      "forks": 330,
+      "starsToday": 549,
+      "topics": [],
+      "author": {
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
+      },
+      "summary": "跨平台磁盘清理与空间分析工具，支持重复文件清理、应用卸载、启动项管理和系统优化，以安全优先为设计原则。",
+      "tags": [
+        "disk-cleaner",
+        "rust",
+        "cross-platform",
+        "system-optimization",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-26T03:50:39.501Z",
       "deepwikiAvailable": false
     },
     {
@@ -239,8 +295,8 @@
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 4932,
-      "forks": 480,
+      "stars": 4945,
+      "forks": 481,
       "starsToday": 217,
       "topics": [],
       "author": {
@@ -258,6 +314,174 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-26T03:50:38.909Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "impactor",
+      "fullName": "claration/impactor",
+      "url": "https://github.com/claration/impactor",
+      "description": "Cross-platform & feature rich iOS/iPadOS/tvOS sideloading application. Formerly known as PlumeImpactor.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3624,
+      "forks": 255,
+      "starsToday": 102,
+      "topics": [],
+      "author": {
+        "name": "claration",
+        "avatar": "https://avatars.githubusercontent.com/u/97859147?s=40&amp;v=4",
+        "url": "https://github.com/claration"
+      },
+      "summary": "跨平台 iOS/iPadOS/tvOS 侧载工具，用 Rust 编写，功能丰富，可替代 Cydia Impactor 完成应用签名安装。",
+      "tags": [
+        "ios",
+        "sideload",
+        "rust",
+        "cross-platform",
+        "signing"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-26T03:50:40.771Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oxc",
+      "fullName": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "description": "⚓ A collection of high-performance JavaScript tools.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 23232,
+      "forks": 1407,
+      "starsToday": 126,
+      "topics": [],
+      "author": {
+        "name": "oxc-project",
+        "avatar": "https://avatars.githubusercontent.com/u/1430279?s=40&amp;v=4",
+        "url": "https://github.com/oxc-project"
+      },
+      "summary": "用 Rust 编写的高性能 JavaScript 工具集，包含解析器、Linter、压缩器等，可作为前端构建与代码检查的快速替代方案。",
+      "tags": [
+        "rust",
+        "javascript",
+        "parser",
+        "linter",
+        "compiler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-26T15:57:24.023Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Cap",
+      "fullName": "CapSoftware/Cap",
+      "url": "https://github.com/CapSoftware/Cap",
+      "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 23821,
+      "forks": 2163,
+      "starsToday": 402,
+      "topics": [],
+      "author": {
+        "name": "CapSoftware",
+        "avatar": "https://avatars.githubusercontent.com/u/33632126?s=40&amp;v=4",
+        "url": "https://github.com/CapSoftware"
+      },
+      "summary": "开源版 Loom 替代品，用 Rust 打造，可快速录制并生成美观、易分享的屏幕录像，支持跨平台与自托管。",
+      "tags": [
+        "screen-recording",
+        "rust",
+        "loom-alternative",
+        "video",
+        "self-hosted"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-26T15:57:24.092Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1774,
+      "forks": 247,
+      "starsToday": 436,
+      "topics": [],
+      "author": {
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
+      },
+      "summary": "基于对象存储的原生图数据库，支持分支与类型化本体，用 Rust 实现，适合低成本可版本化的图数据管理。",
+      "tags": [
+        "graph-database",
+        "rust",
+        "object-storage",
+        "branching",
+        "ontology"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-26T03:50:39.959Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "redlib",
+      "fullName": "redlib-org/redlib",
+      "url": "https://github.com/redlib-org/redlib",
+      "description": "Private front-end for Reddit",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3930,
+      "forks": 310,
+      "starsToday": 82,
+      "topics": [],
+      "author": {
+        "name": "redlib-org",
+        "avatar": "https://avatars.githubusercontent.com/u/69441971?s=40&amp;v=4",
+        "url": "https://github.com/redlib-org"
+      },
+      "summary": "Reddit 的隐私友好替代前端，用 Rust 编写，无需登录和 JS 即可浏览，去除追踪与广告。",
+      "tags": [
+        "reddit",
+        "privacy",
+        "rust",
+        "frontend",
+        "self-hosted"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-10-26T03:50:41.274Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17145,
+      "forks": 767,
+      "starsToday": 441,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的离线语法检查器，速度快、注重隐私，可本地运行无需联网，开源可自托管。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "linter"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-26T03:50:38.351Z",
       "deepwikiAvailable": false
     },
     {
@@ -290,118 +514,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "MangoDisk",
-      "fullName": "harry0703/MangoDisk",
-      "url": "https://github.com/harry0703/MangoDisk",
-      "description": "Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 4788,
-      "forks": 328,
-      "starsToday": 549,
-      "topics": [],
-      "author": {
-        "name": "harry0703",
-        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
-        "url": "https://github.com/harry0703"
-      },
-      "summary": "跨平台磁盘清理与空间分析工具，支持重复文件清理、应用卸载、启动项管理和系统优化，以安全优先为设计原则。",
-      "tags": [
-        "disk-cleaner",
-        "rust",
-        "cross-platform",
-        "system-optimization",
-        "desktop"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-26T03:50:39.501Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 19907,
-      "forks": 1969,
-      "starsToday": 3233,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 开源的 AI 智能体安全运行时，用 Rust 编写，为自主智能体提供隔离、私密的执行环境与权限管控。",
-      "tags": [
-        "ai-agents",
-        "rust",
-        "sandbox",
-        "runtime",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-26T03:50:40.102Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omnigraph",
-      "fullName": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1755,
-      "forks": 245,
-      "starsToday": 436,
-      "topics": [],
-      "author": {
-        "name": "ModernRelay",
-        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
-        "url": "https://github.com/ModernRelay"
-      },
-      "summary": "基于对象存储的原生图数据库，支持分支与类型化本体，用 Rust 实现，适合低成本可版本化的图数据管理。",
-      "tags": [
-        "graph-database",
-        "rust",
-        "object-storage",
-        "branching",
-        "ontology"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-10-26T03:50:39.959Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "impactor",
-      "fullName": "claration/impactor",
-      "url": "https://github.com/claration/impactor",
-      "description": "Cross-platform & feature rich iOS/iPadOS/tvOS sideloading application. Formerly known as PlumeImpactor.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3613,
-      "forks": 257,
-      "starsToday": 102,
-      "topics": [],
-      "author": {
-        "name": "claration",
-        "avatar": "https://avatars.githubusercontent.com/u/97859147?s=40&amp;v=4",
-        "url": "https://github.com/claration"
-      },
-      "summary": "跨平台 iOS/iPadOS/tvOS 侧载工具，用 Rust 编写，功能丰富，可替代 Cydia Impactor 完成应用签名安装。",
-      "tags": [
-        "ios",
-        "sideload",
-        "rust",
-        "cross-platform",
-        "signing"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-26T03:50:40.771Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "uzu",
       "fullName": "trymirai/uzu",
       "url": "https://github.com/trymirai/uzu",
@@ -427,34 +539,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-26T03:50:40.896Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "redlib",
-      "fullName": "redlib-org/redlib",
-      "url": "https://github.com/redlib-org/redlib",
-      "description": "Private front-end for Reddit",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3928,
-      "forks": 310,
-      "starsToday": 82,
-      "topics": [],
-      "author": {
-        "name": "redlib-org",
-        "avatar": "https://avatars.githubusercontent.com/u/69441971?s=40&amp;v=4",
-        "url": "https://github.com/redlib-org"
-      },
-      "summary": "Reddit 的隐私友好替代前端，用 Rust 编写，无需登录和 JS 即可浏览，去除追踪与广告。",
-      "tags": [
-        "reddit",
-        "privacy",
-        "rust",
-        "frontend",
-        "self-hosted"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-10-26T03:50:41.274Z",
       "deepwikiAvailable": false
     }
   ]

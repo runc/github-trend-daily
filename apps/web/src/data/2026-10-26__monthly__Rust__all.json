@@ -2,37 +2,9 @@
   "date": "2026-10-26",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-10-26T03:49:22.969Z",
-  "enrichedAt": "2026-10-26T03:51:21.067Z",
+  "fetchedAt": "2026-10-26T15:56:28.464Z",
+  "enrichedAt": "2026-10-26T15:57:34.557Z",
   "repos": [
-    {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 19908,
-      "forks": 1969,
-      "starsToday": 11062,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 开源的 AI 智能体安全运行时，用 Rust 编写，为自主 Agent 提供隔离、私密的执行环境与权限管控。",
-      "tags": [
-        "ai-agents",
-        "sandbox",
-        "rust",
-        "runtime",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-26T03:51:15.534Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "impeccable",
       "fullName": "pbakaus/impeccable",
@@ -40,8 +12,8 @@
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 87906,
-      "forks": 5251,
+      "stars": 88719,
+      "forks": 5293,
       "starsToday": 16493,
       "topics": [],
       "author": {
@@ -62,13 +34,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 20034,
+      "forks": 1978,
+      "starsToday": 11062,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 开源的 AI 智能体安全运行时，用 Rust 编写，为自主 Agent 提供隔离、私密的执行环境与权限管控。",
+      "tags": [
+        "ai-agents",
+        "sandbox",
+        "rust",
+        "runtime",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-26T03:51:15.534Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "gpui-kit",
       "fullName": "longbridge/gpui-kit",
       "url": "https://github.com/longbridge/gpui-kit",
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 18624,
+      "stars": 18648,
       "forks": 1150,
       "starsToday": 3932,
       "topics": [],
@@ -96,8 +96,8 @@
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 27760,
-      "forks": 2488,
+      "stars": 27807,
+      "forks": 2494,
       "starsToday": 7208,
       "topics": [],
       "author": {
@@ -119,70 +119,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "bevy",
-      "fullName": "bevyengine/bevy",
-      "url": "https://github.com/bevyengine/bevy",
-      "description": "A refreshingly simple data-driven game engine built in Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 49274,
-      "forks": 4974,
-      "starsToday": 1030,
-      "topics": [],
-      "author": {
-        "name": "bevyengine",
-        "avatar": "https://avatars.githubusercontent.com/u/2694663?s=40&amp;v=4",
-        "url": "https://github.com/bevyengine"
-      },
-      "summary": "基于Rust的数据驱动游戏引擎，采用ECS架构，简洁高效，适合2D/3D游戏开发。",
-      "tags": [
-        "rust",
-        "game-engine",
-        "ecs",
-        "gamedev",
-        "3d"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-26T03:51:16.581Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "moli",
-      "fullName": "lexmount/moli",
-      "url": "https://github.com/lexmount/moli",
-      "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 20713,
-      "forks": 555,
-      "starsToday": 18837,
-      "topics": [],
-      "author": {
-        "name": "lexmount",
-        "avatar": "https://avatars.githubusercontent.com/u/31354274?s=40&amp;v=4",
-        "url": "https://github.com/lexmount"
-      },
-      "summary": "用 Rust 编写的面向 AI Agent 的无头浏览器，轻量、快速且兼容性高，为自动化网页操作与抓取提供高效方案。",
-      "tags": [
-        "rust",
-        "headless-browser",
-        "ai-agents",
-        "automation",
-        "browser"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-26T03:51:16.942Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "xerj",
       "fullName": "xerj-org/xerj",
       "url": "https://github.com/xerj-org/xerj",
       "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 15611,
-      "forks": 1143,
+      "stars": 16758,
+      "forks": 1166,
       "starsToday": 13668,
       "topics": [],
       "author": {
@@ -204,14 +148,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "moli",
+      "fullName": "lexmount/moli",
+      "url": "https://github.com/lexmount/moli",
+      "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 20862,
+      "forks": 559,
+      "starsToday": 18837,
+      "topics": [],
+      "author": {
+        "name": "lexmount",
+        "avatar": "https://avatars.githubusercontent.com/u/31354274?s=40&amp;v=4",
+        "url": "https://github.com/lexmount"
+      },
+      "summary": "用 Rust 编写的面向 AI Agent 的无头浏览器，轻量、快速且兼容性高，为自动化网页操作与抓取提供高效方案。",
+      "tags": [
+        "rust",
+        "headless-browser",
+        "ai-agents",
+        "automation",
+        "browser"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-26T03:51:16.942Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13714,
+      "forks": 970,
+      "starsToday": 5139,
+      "topics": [],
+      "author": {
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
+      },
+      "summary": "为编码智能体CLI提供长期记忆的Rust方案，支持在不同厂商智能体之间交接上下文与状态。",
+      "tags": [
+        "ai",
+        "memory",
+        "agents",
+        "rust",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-26T03:51:18.249Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Concat",
       "fullName": "jub0t/Concat",
       "url": "https://github.com/jub0t/Concat",
       "description": "The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 11570,
-      "forks": 1421,
+      "stars": 11705,
+      "forks": 1436,
       "starsToday": 7934,
       "topics": [],
       "author": {
@@ -233,14 +233,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "bevy",
+      "fullName": "bevyengine/bevy",
+      "url": "https://github.com/bevyengine/bevy",
+      "description": "A refreshingly simple data-driven game engine built in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 49288,
+      "forks": 4977,
+      "starsToday": 1030,
+      "topics": [],
+      "author": {
+        "name": "bevyengine",
+        "avatar": "https://avatars.githubusercontent.com/u/2694663?s=40&amp;v=4",
+        "url": "https://github.com/bevyengine"
+      },
+      "summary": "基于Rust的数据驱动游戏引擎，采用ECS架构，简洁高效，适合2D/3D游戏开发。",
+      "tags": [
+        "rust",
+        "game-engine",
+        "ecs",
+        "gamedev",
+        "3d"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-26T03:51:16.581Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "cua",
       "fullName": "trycua/cua",
       "url": "https://github.com/trycua/cua",
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30964,
-      "forks": 2262,
+      "stars": 31011,
+      "forks": 2271,
       "starsToday": 4767,
       "topics": [],
       "author": {
@@ -261,31 +289,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ai-memory",
-      "fullName": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "name": "monty",
+      "fullName": "pydantic/monty",
+      "url": "https://github.com/pydantic/monty",
+      "description": "A secure Python sandbox, written in Rust, for code written by AI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 13555,
-      "forks": 960,
-      "starsToday": 5139,
+      "stars": 8780,
+      "forks": 474,
+      "starsToday": 485,
       "topics": [],
       "author": {
-        "name": "akitaonrails",
-        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
-        "url": "https://github.com/akitaonrails"
+        "name": "pydantic",
+        "avatar": "https://avatars.githubusercontent.com/u/4039449?s=40&amp;v=4",
+        "url": "https://github.com/pydantic"
       },
-      "summary": "为编码智能体CLI提供长期记忆的Rust方案，支持在不同厂商智能体之间交接上下文与状态。",
+      "summary": "用 Rust 实现的安全 Python 沙箱，专为运行 AI 生成的代码设计，提供隔离执行环境。",
       "tags": [
-        "ai",
-        "memory",
-        "agents",
+        "python",
+        "sandbox",
         "rust",
-        "cli"
+        "security",
+        "ai"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-26T03:51:18.249Z",
+      "category": "Infra",
+      "enrichedAt": "2026-10-26T15:57:33.042Z",
       "deepwikiAvailable": false
     },
     {
@@ -295,7 +323,7 @@
       "description": "Policy-driven, layered isolation and containment",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2991,
+      "stars": 2999,
       "forks": 164,
       "starsToday": 1638,
       "topics": [],
@@ -317,13 +345,96 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "Pumpkin",
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 12651,
+      "forks": 958,
+      "starsToday": 1348,
+      "topics": [],
+      "author": {
+        "name": "Pumpkin-MC",
+        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
+        "url": "https://github.com/Pumpkin-MC"
+      },
+      "summary": "用 Rust 从零实现的 Minecraft 服务端，主打高性能与低资源占用，让任何人都能轻松搭建快速高效的服务器。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "game-server",
+        "server"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-26T03:51:19.014Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 127140,
+      "forks": 20046,
+      "starsToday": 3044,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，Rust 编写，支持自建服务器，可替代 TeamViewer，开箱即用无需配置。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "p2p"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-26T15:57:33.074Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills-manager",
+      "fullName": "xingkongliang/skills-manager",
+      "url": "https://github.com/xingkongliang/skills-manager",
+      "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6899,
+      "forks": 556,
+      "starsToday": 1898,
+      "topics": [],
+      "author": {
+        "name": "xingkongliang",
+        "avatar": "https://avatars.githubusercontent.com/u/8827798?s=40&amp;v=4",
+        "url": "https://github.com/xingkongliang"
+      },
+      "summary": "轻量级桌面应用，用于统一管理、同步和整理 AI 编码代理技能，兼容 Claude Code、Cursor、Copilot 等 50+ 工具。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "desktop",
+        "skills",
+        "sync"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-26T03:51:19.237Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "uzu",
       "fullName": "trymirai/uzu",
       "url": "https://github.com/trymirai/uzu",
       "description": "A high-performance inference engine for AI models",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2577,
+      "stars": 2579,
       "forks": 148,
       "starsToday": 771,
       "topics": [],
@@ -345,58 +456,145 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Pumpkin",
-      "fullName": "Pumpkin-MC/Pumpkin",
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers",
+      "name": "OpenCADStudio",
+      "fullName": "HakanSeven12/OpenCADStudio",
+      "url": "https://github.com/HakanSeven12/OpenCADStudio",
+      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 12639,
-      "forks": 957,
-      "starsToday": 1348,
+      "stars": 3562,
+      "forks": 421,
+      "starsToday": 1271,
       "topics": [],
       "author": {
-        "name": "Pumpkin-MC",
-        "avatar": "https://avatars.githubusercontent.com/u/71594357?s=40&amp;v=4",
-        "url": "https://github.com/Pumpkin-MC"
+        "name": "HakanSeven12",
+        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
+        "url": "https://github.com/HakanSeven12"
       },
-      "summary": "用 Rust 从零实现的 Minecraft 服务端，主打高性能与低资源占用，让任何人都能轻松搭建快速高效的服务器。",
+      "summary": "用 Rust 编写的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 格式读写与 GPU 加速渲染，可作为轻量级桌面 CAD 替代方案。",
       "tags": [
-        "minecraft",
+        "cad",
         "rust",
-        "game-server",
-        "server"
+        "dxf",
+        "dwg",
+        "3d",
+        "gpu"
       ],
       "category": "App",
-      "enrichedAt": "2026-10-26T03:51:19.014Z",
+      "enrichedAt": "2026-10-26T03:51:20.748Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "skills-manager",
-      "fullName": "xingkongliang/skills-manager",
-      "url": "https://github.com/xingkongliang/skills-manager",
-      "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "name": "Konnect",
+      "fullName": "mixelpixx/Konnect",
+      "url": "https://github.com/mixelpixx/Konnect",
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 6858,
-      "forks": 554,
-      "starsToday": 1898,
+      "stars": 1417,
+      "forks": 178,
+      "starsToday": 628,
       "topics": [],
       "author": {
-        "name": "xingkongliang",
-        "avatar": "https://avatars.githubusercontent.com/u/8827798?s=40&amp;v=4",
-        "url": "https://github.com/xingkongliang"
+        "name": "mixelpixx",
+        "avatar": "https://avatars.githubusercontent.com/u/11727006?s=40&amp;v=4",
+        "url": "https://github.com/mixelpixx"
       },
-      "summary": "轻量级桌面应用，用于统一管理、同步和整理 AI 编码代理技能，兼容 Claude Code、Cursor、Copilot 等 50+ 工具。",
+      "summary": "面向 KiCAD 10 的 AI 辅助 PCB 设计原生插件，单个 Rust 二进制向 Claude 等大模型开放 217 个原理图、布局、布线、放置、设计审查与制造工具。",
+      "tags": [
+        "kicad",
+        "pcb",
+        "rust",
+        "llm",
+        "eda",
+        "plugin"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-26T15:57:33.162Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "egui",
+      "fullName": "emilk/egui",
+      "url": "https://github.com/emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31777,
+      "forks": 2259,
+      "starsToday": 1124,
+      "topics": [],
+      "author": {
+        "name": "emilk",
+        "avatar": "https://avatars.githubusercontent.com/u/1148717?s=40&amp;v=4",
+        "url": "https://github.com/emilk"
+      },
+      "summary": "Rust 编写的即时模式 GUI 库，API 简单易用，同一套代码可运行于 Web 与原生平台，适合快速构建跨平台界面。",
       "tags": [
         "rust",
-        "ai-agents",
-        "desktop",
-        "skills",
-        "sync"
+        "gui",
+        "immediate-mode",
+        "cross-platform",
+        "wasm"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-26T03:51:21.067Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Antigravity",
+      "fullName": "confeden/Antigravity",
+      "url": "https://github.com/confeden/Antigravity",
+      "description": "Antigravity в России без VPN и смены региона аккаунта Google",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1031,
+      "forks": 62,
+      "starsToday": 423,
+      "topics": [],
+      "author": {
+        "name": "confeden",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/confeden"
+      },
+      "summary": "Rust 编写的工具，让俄罗斯用户无需 VPN 或切换 Google 账号地区即可使用 Antigravity，解决区域限制访问问题。",
+      "tags": [
+        "rust",
+        "proxy",
+        "antigravity",
+        "region-unlock",
+        "network"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-26T15:57:33.284Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FluxDown",
+      "fullName": "zerx-lab/FluxDown",
+      "url": "https://github.com/zerx-lab/FluxDown",
+      "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5032,
+      "forks": 295,
+      "starsToday": 1866,
+      "topics": [],
+      "author": {
+        "name": "zerx-lab",
+        "avatar": "https://avatars.githubusercontent.com/u/161401688?s=40&amp;v=4",
+        "url": "https://github.com/zerx-lab"
+      },
+      "summary": "Rust 编写的多协议下载管理器，支持 HTTP/FTP/BT 磁力及 HLS/DASH 流媒体，多线程加速并与浏览器集成，界面精美且免费无广告。",
+      "tags": [
+        "rust",
+        "downloader",
+        "bittorrent",
+        "hls",
+        "desktop"
       ],
       "category": "App",
-      "enrichedAt": "2026-10-26T03:51:19.237Z",
+      "enrichedAt": "2026-10-26T15:57:34.557Z",
       "deepwikiAvailable": false
     },
     {
@@ -484,35 +682,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "OpenCADStudio",
-      "fullName": "HakanSeven12/OpenCADStudio",
-      "url": "https://github.com/HakanSeven12/OpenCADStudio",
-      "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3537,
-      "forks": 417,
-      "starsToday": 1271,
-      "topics": [],
-      "author": {
-        "name": "HakanSeven12",
-        "avatar": "https://avatars.githubusercontent.com/u/3831435?s=40&amp;v=4",
-        "url": "https://github.com/HakanSeven12"
-      },
-      "summary": "用 Rust 编写的开源 CAD 应用，支持 2D/3D 绘图、DWG/DXF 格式读写与 GPU 加速渲染，可作为轻量级桌面 CAD 替代方案。",
-      "tags": [
-        "cad",
-        "rust",
-        "dxf",
-        "dwg",
-        "3d",
-        "gpu"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-26T03:51:20.748Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "workbuddy-switch",
       "fullName": "changexbc/workbuddy-switch",
       "url": "https://github.com/changexbc/workbuddy-switch",
@@ -538,34 +707,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-26T03:51:20.618Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "egui",
-      "fullName": "emilk/egui",
-      "url": "https://github.com/emilk/egui",
-      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31757,
-      "forks": 2256,
-      "starsToday": 1124,
-      "topics": [],
-      "author": {
-        "name": "emilk",
-        "avatar": "https://avatars.githubusercontent.com/u/1148717?s=40&amp;v=4",
-        "url": "https://github.com/emilk"
-      },
-      "summary": "Rust 编写的即时模式 GUI 库，API 简单易用，同一套代码可运行于 Web 与原生平台，适合快速构建跨平台界面。",
-      "tags": [
-        "rust",
-        "gui",
-        "immediate-mode",
-        "cross-platform",
-        "wasm"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-10-26T03:51:21.067Z",
       "deepwikiAvailable": false
     }
   ]
