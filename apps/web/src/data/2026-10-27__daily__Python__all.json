@@ -2,63 +2,91 @@
   "date": "2026-10-27",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-10-27T04:12:01.951Z",
-  "enrichedAt": "2026-10-27T04:12:40.687Z",
+  "fetchedAt": "2026-10-27T15:12:41.454Z",
+  "enrichedAt": "2026-10-27T15:13:18.463Z",
   "repos": [
     {
-      "name": "TradingAgents",
-      "fullName": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "name": "DeepTutor",
+      "fullName": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 116371,
-      "forks": 22315,
-      "starsToday": 1395,
+      "stars": 45251,
+      "forks": 5698,
+      "starsToday": 1587,
       "topics": [],
       "author": {
-        "name": "TauricResearch",
-        "avatar": "https://avatars.githubusercontent.com/u/48253104?s=40&amp;v=4",
-        "url": "https://github.com/TauricResearch"
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/150592536?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
       },
-      "summary": "基于多智能体LLM的金融交易框架，模拟分析师、研究员与交易员协作决策，用于量化交易策略研究。",
+      "summary": "DeepTutor 是港大开源的终身个性化 AI 辅导系统，为每位学习者构建持续演进的个人知识画像并提供自适应教学。",
       "tags": [
+        "education",
+        "tutor",
         "llm",
-        "multi-agent",
-        "trading",
-        "finance",
+        "personalization",
         "python"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-27T04:12:36.091Z",
+      "enrichedAt": "2026-10-27T15:13:15.559Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "SkillSpector",
-      "fullName": "NVIDIA/SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "name": "treg",
+      "fullName": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 22353,
-      "forks": 1945,
-      "starsToday": 214,
+      "stars": 6349,
+      "forks": 543,
+      "starsToday": 261,
       "topics": [],
       "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
+        "name": "superdesigndev",
+        "avatar": "https://avatars.githubusercontent.com/u/22532527?s=40&amp;v=4",
+        "url": "https://github.com/superdesigndev"
       },
-      "summary": "面向AI Agent技能的安全扫描器，安装前检测Claude Code、Codex与MCP技能中的提示注入、数据外泄、恶意模式及供应链风险。",
+      "summary": "面向 AI Agent 的工具聚合网关，像 OpenRouter 一样统一接入和调用各类 agent 工具，简化工具集成与切换。",
       "tags": [
-        "security",
-        "ai-agents",
-        "mcp",
-        "scanner",
-        "prompt-injection"
+        "ai",
+        "agents",
+        "tools",
+        "gateway",
+        "python"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-27T04:12:36.158Z",
+      "category": "AI",
+      "enrichedAt": "2026-10-27T15:13:15.745Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-seo",
+      "fullName": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 22543,
+      "forks": 3088,
+      "starsToday": 1457,
+      "topics": [],
+      "author": {
+        "name": "AgriciDaniel",
+        "avatar": "https://avatars.githubusercontent.com/u/223140489?s=40&amp;v=4",
+        "url": "https://github.com/AgriciDaniel"
+      },
+      "summary": "面向 Claude Code 的通用 SEO 技能包，含 26 个子技能与 19 个子代理，覆盖技术 SEO、结构化数据、GEO/AEO、外链与本地化，并支持 PDF/Excel 报告。",
+      "tags": [
+        "seo",
+        "claude",
+        "ai-agent",
+        "python",
+        "reporting"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-27T04:12:38.613Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,9 +96,9 @@
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 103898,
-      "forks": 9217,
-      "starsToday": 746,
+      "stars": 104641,
+      "forks": 9276,
+      "starsToday": 1623,
       "topics": [],
       "author": {
         "name": "Panniantong",
@@ -90,15 +118,127 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "TradingAgents",
+      "fullName": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 117062,
+      "forks": 22421,
+      "starsToday": 1702,
+      "topics": [],
+      "author": {
+        "name": "TauricResearch",
+        "avatar": "https://avatars.githubusercontent.com/u/48253104?s=40&amp;v=4",
+        "url": "https://github.com/TauricResearch"
+      },
+      "summary": "基于多智能体LLM的金融交易框架，模拟分析师、研究员与交易员协作决策，用于量化交易策略研究。",
+      "tags": [
+        "llm",
+        "multi-agent",
+        "trading",
+        "finance",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-27T04:12:36.091Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Claude-Red",
+      "fullName": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 9591,
+      "forks": 1290,
+      "starsToday": 257,
+      "topics": [],
+      "author": {
+        "name": "SnailSploit",
+        "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&amp;v=4",
+        "url": "https://github.com/SnailSploit"
+      },
+      "summary": "面向Claude技能系统的攻防安全技能库，以SKILL.md结构化文件为Claude注入SQL注入、Shellcode、EDR绕过、漏洞利用开发等专家级方法论。",
+      "tags": [
+        "security",
+        "offensive-security",
+        "claude",
+        "skills",
+        "prompt-engineering"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-27T15:13:16.162Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 22664,
+      "forks": 1968,
+      "starsToday": 932,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "面向AI Agent技能的安全扫描器，安装前检测Claude Code、Codex与MCP技能中的提示注入、数据外泄、恶意模式及供应链风险。",
+      "tags": [
+        "security",
+        "ai-agents",
+        "mcp",
+        "scanner",
+        "prompt-injection"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-27T04:12:36.158Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spiderfoot",
+      "fullName": "smicallef/spiderfoot",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 23887,
+      "forks": 3875,
+      "starsToday": 84,
+      "topics": [],
+      "author": {
+        "name": "smicallef",
+        "avatar": "https://avatars.githubusercontent.com/u/1687345?s=40&amp;v=4",
+        "url": "https://github.com/smicallef"
+      },
+      "summary": "SpiderFoot 是 Python 编写的自动化 OSINT 情报收集工具，可对目标进行威胁情报聚合与攻击面测绘，支持 200+ 数据源模块。",
+      "tags": [
+        "osint",
+        "threat-intelligence",
+        "recon",
+        "security",
+        "python"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-10-27T04:12:37.675Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "VoiceStudio",
       "fullName": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 89608,
-      "forks": 9880,
-      "starsToday": 2297,
+      "stars": 90777,
+      "forks": 10004,
+      "starsToday": 2601,
       "topics": [],
       "author": {
         "name": "debpalash",
@@ -116,6 +256,175 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-27T04:12:36.192Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 74612,
+      "forks": 13078,
+      "starsToday": 529,
+      "topics": [],
+      "author": {
+        "name": "rohitg00",
+        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
+        "url": "https://github.com/rohitg00"
+      },
+      "summary": "从零学习 AI 工程的实战教程仓库，涵盖原理讲解、动手构建与部署上线，适合系统入门并落地项目。",
+      "tags": [
+        "ai",
+        "tutorial",
+        "python",
+        "education",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-27T15:13:16.080Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "i-have-adhd",
+      "fullName": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 59008,
+      "forks": 3418,
+      "starsToday": 182,
+      "topics": [],
+      "author": {
+        "name": "ayghri",
+        "avatar": "https://avatars.githubusercontent.com/u/32200675?s=40&amp;v=4",
+        "url": "https://github.com/ayghri"
+      },
+      "summary": "让编码智能体先给结论、不埋答案的技能，输出对ADHD用户更友好，减少冗长铺垫。",
+      "tags": [
+        "ai",
+        "agent",
+        "prompt",
+        "productivity",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-27T15:13:16.837Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AutoSwarm",
+      "fullName": "HKUDS/AutoSwarm",
+      "url": "https://github.com/HKUDS/AutoSwarm",
+      "description": "AutoSwarm: All Your Agents, Working as One (Codex · Claude Code · DeepSeek Harness · Muse · Grok · WorkBuddy· nanobot · and more)",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2025,
+      "forks": 366,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/90381931?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
+      },
+      "summary": "AutoSwarm 是一个 Python 多智能体协同框架，可将 Codex、Claude Code、DeepSeek 等多种编码代理统一编排为一个协作团队。",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "llm",
+        "python",
+        "agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-27T15:13:16.977Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Summer2027-Internships",
+      "fullName": "SimplifyJobs/Summer2027-Internships",
+      "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+      "description": "Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 48181,
+      "forks": 3265,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "SimplifyJobs",
+        "avatar": "https://avatars.githubusercontent.com/u/143137531?s=40&amp;v=4",
+        "url": "https://github.com/SimplifyJobs"
+      },
+      "summary": "每日更新的2027年暑期实习岗位汇总仓库，涵盖软件工程、数据科学、AI、量化、产品与硬件方向，方便学生集中查找并投递。",
+      "tags": [
+        "internships",
+        "jobs",
+        "career",
+        "python",
+        "students"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-27T15:13:17.341Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "auto-ontology",
+      "fullName": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 252,
+      "forks": 34,
+      "starsToday": 75,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/263323607?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 推出的 Python 框架，在数据之上构建语义图谱推理层，为 LLM 与智能体工作流提供确定性查询生成、更优上下文检索和可解释的 AI 推理。",
+      "tags": [
+        "ontology",
+        "knowledge-graph",
+        "llm",
+        "rag",
+        "python",
+        "agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-27T15:13:17.456Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "HelloGitHub",
+      "fullName": "521xueweihan/HelloGitHub",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "description": "分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 184955,
+      "forks": 13115,
+      "starsToday": 333,
+      "topics": [],
+      "author": {
+        "name": "521xueweihan",
+        "avatar": "https://avatars.githubusercontent.com/u/8255800?s=40&amp;v=4",
+        "url": "https://github.com/521xueweihan"
+      },
+      "summary": "HelloGitHub 月刊，定期精选并分享 GitHub 上有趣、适合入门的开源项目，帮助新手发现优质项目并参与开源。",
+      "tags": [
+        "awesome-list",
+        "opensource",
+        "github",
+        "beginner",
+        "newsletter"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-27T15:13:18.463Z",
       "deepwikiAvailable": false
     },
     {
@@ -176,34 +485,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "spiderfoot",
-      "fullName": "smicallef/spiderfoot",
-      "url": "https://github.com/smicallef/spiderfoot",
-      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 23871,
-      "forks": 3864,
-      "starsToday": 84,
-      "topics": [],
-      "author": {
-        "name": "smicallef",
-        "avatar": "https://avatars.githubusercontent.com/u/1687345?s=40&amp;v=4",
-        "url": "https://github.com/smicallef"
-      },
-      "summary": "SpiderFoot 是 Python 编写的自动化 OSINT 情报收集工具，可对目标进行威胁情报聚合与攻击面测绘，支持 200+ 数据源模块。",
-      "tags": [
-        "osint",
-        "threat-intelligence",
-        "recon",
-        "security",
-        "python"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-10-27T04:12:37.675Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "obsidian-second-brain",
       "fullName": "eugeniughelbur/obsidian-second-brain",
       "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
@@ -257,34 +538,6 @@
       ],
       "category": "Education",
       "enrichedAt": "2026-10-27T04:12:38.536Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "claude-seo",
-      "fullName": "AgriciDaniel/claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 22234,
-      "forks": 3050,
-      "starsToday": 1457,
-      "topics": [],
-      "author": {
-        "name": "AgriciDaniel",
-        "avatar": "https://avatars.githubusercontent.com/u/223140489?s=40&amp;v=4",
-        "url": "https://github.com/AgriciDaniel"
-      },
-      "summary": "面向 Claude Code 的通用 SEO 技能包，含 26 个子技能与 19 个子代理，覆盖技术 SEO、结构化数据、GEO/AEO、外链与本地化，并支持 PDF/Excel 报告。",
-      "tags": [
-        "seo",
-        "claude",
-        "ai-agent",
-        "python",
-        "reporting"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-27T04:12:38.613Z",
       "deepwikiAvailable": false
     },
     {
