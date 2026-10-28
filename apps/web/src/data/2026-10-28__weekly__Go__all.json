@@ -2,8 +2,8 @@
   "date": "2026-10-28",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-10-28T04:41:09.935Z",
-  "enrichedAt": "2026-10-28T04:42:21.851Z",
+  "fetchedAt": "2026-10-28T15:48:10.350Z",
+  "enrichedAt": "2026-10-28T15:49:06.080Z",
   "repos": [
     {
       "name": "freehire",
@@ -12,8 +12,8 @@
       "description": "freehire — the open-source search engine for job seekers",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3253,
-      "forks": 337,
+      "stars": 3274,
+      "forks": 339,
       "starsToday": 1486,
       "topics": [],
       "author": {
@@ -34,41 +34,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agent-beacon",
-      "fullName": "Asymptote-Labs/agent-beacon",
-      "url": "https://github.com/Asymptote-Labs/agent-beacon",
-      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2880,
-      "forks": 262,
-      "starsToday": 946,
-      "topics": [],
-      "author": {
-        "name": "Asymptote-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/Asymptote-Labs"
-      },
-      "summary": "面向AI智能体的跨框架自进化记忆层，让不同Agent共享并持续优化长期记忆。",
-      "tags": [
-        "ai",
-        "agents",
-        "memory",
-        "go",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:17.301Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "awesome-ai-agents",
       "fullName": "slavakurilyak/awesome-ai-agents",
       "url": "https://github.com/slavakurilyak/awesome-ai-agents",
       "description": "Awesome list of 300+ agentic AI resources",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2758,
+      "stars": 2764,
       "forks": 717,
       "starsToday": 274,
       "topics": [],
@@ -90,13 +62,463 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 54110,
+      "forks": 7122,
+      "starsToday": 735,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与AI智能体在同一团队中协同工作，用Go编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "teamwork"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:18.539Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 185109,
+      "forks": 18680,
+      "starsToday": 1173,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地运行大模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等开源模型，提供简洁 CLI 与 API。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:18.484Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38226,
+      "forks": 3373,
+      "starsToday": 382,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于 WireGuard 的零配置网状 VPN 方案，提供端到端加密、SSO/2FA 身份认证与 NAT 穿透，让设备间安全互联变得简单。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-28T15:49:04.806Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ttt",
+      "fullName": "eugenioenko/ttt",
+      "url": "https://github.com/eugenioenko/ttt",
+      "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 938,
+      "forks": 111,
+      "starsToday": 287,
+      "topics": [],
+      "author": {
+        "name": "eugenioenko",
+        "avatar": "https://avatars.githubusercontent.com/u/17834212?s=40&amp;v=4",
+        "url": "https://github.com/eugenioenko"
+      },
+      "summary": "用 Go 编写的终端文本编辑器，TUI 界面接近 GUI 体验，单二进制零配置，可作为 VS Code、Zed、Sublime 的终端替代方案。",
+      "tags": [
+        "editor",
+        "tui",
+        "go",
+        "terminal",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-28T04:42:19.926Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38811,
+      "forks": 806,
+      "starsToday": 248,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Go 编写的全能安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥泄露并生成 SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-28T04:42:19.609Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-skills-golang",
+      "fullName": "samber/cc-skills-golang",
+      "url": "https://github.com/samber/cc-skills-golang",
+      "description": "🧑‍🎨 A collection of Golang agentic skills that works",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3706,
+      "forks": 248,
+      "starsToday": 172,
+      "topics": [],
+      "author": {
+        "name": "samber",
+        "avatar": "https://avatars.githubusercontent.com/u/2951285?s=40&amp;v=4",
+        "url": "https://github.com/samber"
+      },
+      "summary": "面向 Go 语言的 AI Agent 技能集合，为 Claude Code 等编码助手提供可复用的 Go 开发能力与最佳实践。",
+      "tags": [
+        "golang",
+        "ai-agent",
+        "skills",
+        "claude",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-28T04:42:18.870Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LocalAI",
+      "fullName": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50025,
+      "forks": 4554,
+      "starsToday": 275,
+      "topics": [],
+      "author": {
+        "name": "mudler",
+        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
+        "url": "https://github.com/mudler"
+      },
+      "summary": "开源本地AI推理引擎，用Go编写，支持LLM、视觉、语音、图像、视频等多模态模型，无需GPU即可在任意硬件上运行，提供OpenAI兼容API。",
+      "tags": [
+        "llm",
+        "self-hosted",
+        "inference",
+        "go",
+        "openai-api",
+        "multimodal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:19.436Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wails",
+      "fullName": "wailsapp/wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Create beautiful applications using Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36792,
+      "forks": 1910,
+      "starsToday": 177,
+      "topics": [],
+      "author": {
+        "name": "wailsapp",
+        "avatar": "https://avatars.githubusercontent.com/u/1943904?s=40&amp;v=4",
+        "url": "https://github.com/wailsapp"
+      },
+      "summary": "用 Go 构建桌面应用的框架，将 Go 后端与前端 Web 技术结合，可打包为轻量原生应用，替代 Electron。",
+      "tags": [
+        "go",
+        "desktop",
+        "gui",
+        "webview",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-28T15:49:04.938Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pearl",
+      "fullName": "pearl-research-labs/pearl",
+      "url": "https://github.com/pearl-research-labs/pearl",
+      "description": "Monorepo for the Pearl network 🐚",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 424,
+      "forks": 101,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "pearl-research-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/17099688?s=40&amp;v=4",
+        "url": "https://github.com/pearl-research-labs"
+      },
+      "summary": "Pearl 区块链网络的 Go 语言单体仓库，包含节点与核心协议实现，供开发者参与网络构建与研究。",
+      "tags": [
+        "blockchain",
+        "go",
+        "monorepo",
+        "node",
+        "crypto"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-28T04:42:19.877Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "frankenphp",
+      "fullName": "php/frankenphp",
+      "url": "https://github.com/php/frankenphp",
+      "description": "🧟 The modern PHP app server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11488,
+      "forks": 502,
+      "starsToday": 76,
+      "topics": [],
+      "author": {
+        "name": "php",
+        "avatar": "https://avatars.githubusercontent.com/u/57224?s=40&amp;v=4",
+        "url": "https://github.com/php"
+      },
+      "summary": "基于Go编写的现代PHP应用服务器，内置Caddy，支持worker模式、HTTP/2/3与自动HTTPS，可替代传统FPM部署。",
+      "tags": [
+        "php",
+        "go",
+        "server",
+        "caddy",
+        "performance"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-28T15:49:04.658Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-beacon",
+      "fullName": "Asymptote-Labs/agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2885,
+      "forks": 262,
+      "starsToday": 946,
+      "topics": [],
+      "author": {
+        "name": "Asymptote-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Asymptote-Labs"
+      },
+      "summary": "面向AI智能体的跨框架自进化记忆层，让不同Agent共享并持续优化长期记忆。",
+      "tags": [
+        "ai",
+        "agents",
+        "memory",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:17.301Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dagger",
+      "fullName": "dagger/dagger",
+      "url": "https://github.com/dagger/dagger",
+      "description": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16529,
+      "forks": 940,
+      "starsToday": 177,
+      "topics": [],
+      "author": {
+        "name": "dagger",
+        "avatar": "https://avatars.githubusercontent.com/u/30126853?s=40&amp;v=4",
+        "url": "https://github.com/dagger"
+      },
+      "summary": "基于容器的自动化引擎，用代码定义流水线，可在本地、CI或云端构建测试并发布任意代码库。",
+      "tags": [
+        "ci",
+        "pipeline",
+        "containers",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-28T15:49:04.814Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "new-api",
+      "fullName": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50880,
+      "forks": 12327,
+      "starsToday": 547,
+      "topics": [],
+      "author": {
+        "name": "QuantumNous",
+        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
+        "url": "https://github.com/QuantumNous"
+      },
+      "summary": "统一AI模型网关，聚合多家大模型并转换为OpenAI、Claude、Gemini兼容格式，便于个人与企业集中管理与分发。",
+      "tags": [
+        "ai",
+        "gateway",
+        "llm",
+        "openai",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:21.200Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "Open source factory for one-shot engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8345,
+      "forks": 678,
+      "starsToday": 285,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的一次性工程自动化平台，用Go编写，通过可视化流程编排把开发运维任务串成可复用的自动化流水线。",
+      "tags": [
+        "automation",
+        "workflow",
+        "go",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-28T15:49:05.867Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 93017,
+      "forks": 11142,
+      "starsToday": 484,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供高质量上下文层，支持深度文档理解。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "knowledge-base"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:21.734Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72220,
+      "forks": 19254,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是 Docker 上游的开源容器框架项目，提供构建自定义容器系统的组件与工具链，是容器生态的核心基础。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "infrastructure",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-28T15:49:06.080Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "SafeLine",
       "fullName": "chaitin/SafeLine",
       "url": "https://github.com/chaitin/SafeLine",
       "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 23055,
+      "stars": 23065,
       "forks": 1581,
       "starsToday": 242,
       "topics": [],
@@ -143,204 +565,6 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-10-28T04:42:18.331Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ollama",
-      "fullName": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 185049,
-      "forks": 18666,
-      "starsToday": 1173,
-      "topics": [],
-      "author": {
-        "name": "ollama",
-        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
-        "url": "https://github.com/ollama"
-      },
-      "summary": "本地运行大模型的工具，一条命令即可下载并启动 Kimi、DeepSeek、Qwen、Gemma 等开源模型，提供简洁 CLI 与 API。",
-      "tags": [
-        "llm",
-        "local-inference",
-        "go",
-        "cli",
-        "self-hosted"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:18.484Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "multica",
-      "fullName": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 54033,
-      "forks": 7109,
-      "starsToday": 735,
-      "topics": [],
-      "author": {
-        "name": "multica-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
-        "url": "https://github.com/multica-ai"
-      },
-      "summary": "开源可自托管的人机协作平台，让人类与AI智能体在同一团队中协同工作，用Go编写。",
-      "tags": [
-        "ai-agents",
-        "collaboration",
-        "self-hosted",
-        "go",
-        "teamwork"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:18.539Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cc-skills-golang",
-      "fullName": "samber/cc-skills-golang",
-      "url": "https://github.com/samber/cc-skills-golang",
-      "description": "🧑‍🎨 A collection of Golang agentic skills that works",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3696,
-      "forks": 247,
-      "starsToday": 172,
-      "topics": [],
-      "author": {
-        "name": "samber",
-        "avatar": "https://avatars.githubusercontent.com/u/2951285?s=40&amp;v=4",
-        "url": "https://github.com/samber"
-      },
-      "summary": "面向 Go 语言的 AI Agent 技能集合，为 Claude Code 等编码助手提供可复用的 Go 开发能力与最佳实践。",
-      "tags": [
-        "golang",
-        "ai-agent",
-        "skills",
-        "claude",
-        "developer-tools"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-28T04:42:18.870Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "LocalAI",
-      "fullName": "mudler/LocalAI",
-      "url": "https://github.com/mudler/LocalAI",
-      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 50014,
-      "forks": 4554,
-      "starsToday": 275,
-      "topics": [],
-      "author": {
-        "name": "mudler",
-        "avatar": "https://avatars.githubusercontent.com/u/2420543?s=40&amp;v=4",
-        "url": "https://github.com/mudler"
-      },
-      "summary": "开源本地AI推理引擎，用Go编写，支持LLM、视觉、语音、图像、视频等多模态模型，无需GPU即可在任意硬件上运行，提供OpenAI兼容API。",
-      "tags": [
-        "llm",
-        "self-hosted",
-        "inference",
-        "go",
-        "openai-api",
-        "multimodal"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:19.436Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pearl",
-      "fullName": "pearl-research-labs/pearl",
-      "url": "https://github.com/pearl-research-labs/pearl",
-      "description": "Monorepo for the Pearl network 🐚",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 419,
-      "forks": 100,
-      "starsToday": 41,
-      "topics": [],
-      "author": {
-        "name": "pearl-research-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/17099688?s=40&amp;v=4",
-        "url": "https://github.com/pearl-research-labs"
-      },
-      "summary": "Pearl 区块链网络的 Go 语言单体仓库，包含节点与核心协议实现，供开发者参与网络构建与研究。",
-      "tags": [
-        "blockchain",
-        "go",
-        "monorepo",
-        "node",
-        "crypto"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-28T04:42:19.877Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trivy",
-      "fullName": "aquasecurity/trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 38790,
-      "forks": 804,
-      "starsToday": 248,
-      "topics": [],
-      "author": {
-        "name": "aquasecurity",
-        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
-        "url": "https://github.com/aquasecurity"
-      },
-      "summary": "Go 编写的全能安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥泄露并生成 SBOM。",
-      "tags": [
-        "security",
-        "scanner",
-        "vulnerability",
-        "sbom",
-        "kubernetes",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-28T04:42:19.609Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ttt",
-      "fullName": "eugenioenko/ttt",
-      "url": "https://github.com/eugenioenko/ttt",
-      "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 923,
-      "forks": 109,
-      "starsToday": 287,
-      "topics": [],
-      "author": {
-        "name": "eugenioenko",
-        "avatar": "https://avatars.githubusercontent.com/u/17834212?s=40&amp;v=4",
-        "url": "https://github.com/eugenioenko"
-      },
-      "summary": "用 Go 编写的终端文本编辑器，TUI 界面接近 GUI 体验，单二进制零配置，可作为 VS Code、Zed、Sublime 的终端替代方案。",
-      "tags": [
-        "editor",
-        "tui",
-        "go",
-        "terminal",
-        "cli"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-28T04:42:19.926Z",
       "deepwikiAvailable": false
     },
     {
@@ -400,34 +624,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "new-api",
-      "fullName": "QuantumNous/new-api",
-      "url": "https://github.com/QuantumNous/new-api",
-      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 50825,
-      "forks": 12311,
-      "starsToday": 547,
-      "topics": [],
-      "author": {
-        "name": "QuantumNous",
-        "avatar": "https://avatars.githubusercontent.com/u/61247483?s=40&amp;v=4",
-        "url": "https://github.com/QuantumNous"
-      },
-      "summary": "统一AI模型网关，聚合多家大模型并转换为OpenAI、Claude、Gemini兼容格式，便于个人与企业集中管理与分发。",
-      "tags": [
-        "ai",
-        "gateway",
-        "llm",
-        "openai",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:21.200Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "loki",
       "fullName": "grafana/loki",
       "url": "https://github.com/grafana/loki",
@@ -453,34 +649,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-28T04:42:20.950Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ragflow",
-      "fullName": "infiniflow/ragflow",
-      "url": "https://github.com/infiniflow/ragflow",
-      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 92984,
-      "forks": 11129,
-      "starsToday": 484,
-      "topics": [],
-      "author": {
-        "name": "infiniflow",
-        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
-        "url": "https://github.com/infiniflow"
-      },
-      "summary": "开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供高质量上下文层，支持深度文档理解。",
-      "tags": [
-        "rag",
-        "llm",
-        "agent",
-        "retrieval",
-        "knowledge-base"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:21.734Z",
       "deepwikiAvailable": false
     },
     {

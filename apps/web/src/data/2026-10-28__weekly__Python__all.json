@@ -2,37 +2,9 @@
   "date": "2026-10-28",
   "since": "weekly",
   "language": "Python",
-  "fetchedAt": "2026-10-28T04:41:09.935Z",
-  "enrichedAt": "2026-10-28T04:42:16.352Z",
+  "fetchedAt": "2026-10-28T15:48:10.350Z",
+  "enrichedAt": "2026-10-28T15:49:03.345Z",
   "repos": [
-    {
-      "name": "knowledge-work-plugins",
-      "fullName": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 33476,
-      "forks": 3676,
-      "starsToday": 2789,
-      "topics": [],
-      "author": {
-        "name": "anthropics",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/anthropics"
-      },
-      "summary": "Anthropic 开源的 Claude Cowork 插件集合，帮助知识工作者扩展 AI 办公能力。",
-      "tags": [
-        "claude",
-        "plugins",
-        "ai",
-        "productivity",
-        "anthropic"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:13.948Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "claude-seo",
       "fullName": "AgriciDaniel/claude-seo",
@@ -40,8 +12,8 @@
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 22841,
-      "forks": 3104,
+      "stars": 23135,
+      "forks": 3134,
       "starsToday": 3081,
       "topics": [],
       "author": {
@@ -62,14 +34,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "knowledge-work-plugins",
+      "fullName": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 33574,
+      "forks": 3689,
+      "starsToday": 2789,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Anthropic 开源的 Claude Cowork 插件集合，帮助知识工作者扩展 AI 办公能力。",
+      "tags": [
+        "claude",
+        "plugins",
+        "ai",
+        "productivity",
+        "anthropic"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:13.948Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "TradingAgents",
       "fullName": "TauricResearch/TradingAgents",
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 117429,
-      "forks": 22481,
+      "stars": 117709,
+      "forks": 22525,
       "starsToday": 4882,
       "topics": [],
       "author": {
@@ -96,8 +96,8 @@
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 137111,
-      "forks": 13082,
+      "stars": 137511,
+      "forks": 13111,
       "starsToday": 7268,
       "topics": [],
       "author": {
@@ -118,14 +118,154 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 92557,
+      "forks": 10239,
+      "starsToday": 12866,
+      "topics": [],
+      "author": {
+        "name": "debpalash",
+        "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&amp;v=4",
+        "url": "https://github.com/debpalash"
+      },
+      "summary": "完全本地运行的开源语音工作台，支持声音克隆、语音设计、视频配音、听写、转写与有声书制作，覆盖646种语言。",
+      "tags": [
+        "tts",
+        "voice-cloning",
+        "speech",
+        "local",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T15:49:03.345Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vllm",
+      "fullName": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 95772,
+      "forks": 24095,
+      "starsToday": 1404,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "高吞吐、显存高效的大语言模型推理与服务引擎，支持PagedAttention与连续批处理，广泛用于生产级LLM部署。",
+      "tags": [
+        "llm",
+        "inference",
+        "serving",
+        "python",
+        "gpu"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:15.091Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "higgsfield-ai/skills",
+      "url": "https://github.com/higgsfield-ai/skills",
+      "description": "",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1761,
+      "forks": 329,
+      "starsToday": 406,
+      "topics": [],
+      "author": {
+        "name": "higgsfield-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/12931096?s=40&amp;v=4",
+        "url": "https://github.com/higgsfield-ai"
+      },
+      "summary": "Higgsfield AI 官方技能库，用 Python 封装可复用的 AI 能力模块，方便开发者快速集成到自己的应用中。",
+      "tags": [
+        "ai",
+        "python",
+        "skills",
+        "sdk",
+        "agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:16.129Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-toolkit-for-aws",
+      "fullName": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 3326,
+      "forks": 416,
+      "starsToday": 397,
+      "topics": [],
+      "author": {
+        "name": "aws",
+        "avatar": "https://avatars.githubusercontent.com/u/25950814?s=40&amp;v=4",
+        "url": "https://github.com/aws"
+      },
+      "summary": "AWS官方MCP服务器、技能与插件工具包，帮助AI代理在AWS上构建应用。",
+      "tags": [
+        "aws",
+        "mcp",
+        "ai-agents",
+        "python",
+        "plugins"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:16.295Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "last30days-skill",
+      "fullName": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 65763,
+      "forks": 5723,
+      "starsToday": 874,
+      "topics": [],
+      "author": {
+        "name": "mvanhorn",
+        "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&amp;v=4",
+        "url": "https://github.com/mvanhorn"
+      },
+      "summary": "AI代理技能：跨Reddit、X、YouTube、HN、Polymarket及网页检索任意话题，并综合生成有据可依的摘要。",
+      "tags": [
+        "ai-agent",
+        "research",
+        "summarization",
+        "social-media",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T15:49:02.887Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "fastapi",
       "fullName": "fastapi/fastapi",
       "url": "https://github.com/fastapi/fastapi",
       "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 104199,
-      "forks": 10132,
+      "stars": 104240,
+      "forks": 10137,
       "starsToday": 1089,
       "topics": [],
       "author": {
@@ -146,31 +286,116 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "vllm",
-      "fullName": "vllm-project/vllm",
-      "url": "https://github.com/vllm-project/vllm",
-      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "name": "claude-howto",
+      "fullName": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 95727,
-      "forks": 24077,
-      "starsToday": 1404,
+      "stars": 45783,
+      "forks": 5611,
+      "starsToday": 3545,
       "topics": [],
       "author": {
-        "name": "vllm-project",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/vllm-project"
+        "name": "luongnv89",
+        "avatar": "https://avatars.githubusercontent.com/u/3288457?s=40&amp;v=4",
+        "url": "https://github.com/luongnv89"
       },
-      "summary": "高吞吐、显存高效的大语言模型推理与服务引擎，支持PagedAttention与连续批处理，广泛用于生产级LLM部署。",
+      "summary": "面向 Claude Code 的图文实战指南，从基础概念到高级 Agent，提供可直接复制的模板，上手即用。",
       "tags": [
-        "llm",
-        "inference",
-        "serving",
-        "python",
-        "gpu"
+        "claude",
+        "ai-agents",
+        "tutorial",
+        "templates",
+        "llm"
       ],
       "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:15.091Z",
+      "enrichedAt": "2026-10-28T04:42:15.125Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DeepTutor",
+      "fullName": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 47546,
+      "forks": 5912,
+      "starsToday": 5182,
+      "topics": [],
+      "author": {
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/150592536?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
+      },
+      "summary": "DeepTutor 是港大开源的终身个性化 AI 辅导系统，能持续记忆学习者状态并自适应调整教学，提供长期陪伴式学习体验。",
+      "tags": [
+        "ai",
+        "education",
+        "tutoring",
+        "llm",
+        "python",
+        "personalization"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T15:49:02.494Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Claude-Red",
+      "fullName": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 9686,
+      "forks": 1308,
+      "starsToday": 1994,
+      "topics": [],
+      "author": {
+        "name": "SnailSploit",
+        "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&amp;v=4",
+        "url": "https://github.com/SnailSploit"
+      },
+      "summary": "面向Claude技能系统的攻防安全技能库，以结构化SKILL.md文件为Claude注入SQL注入、Shellcode、EDR绕过、漏洞利用开发等专家级方法论。",
+      "tags": [
+        "security",
+        "offensive-security",
+        "claude",
+        "prompt-engineering",
+        "pentest"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:16.223Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 22959,
+      "forks": 1987,
+      "starsToday": 2140,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA出品的AI Agent技能安全扫描器，在安装Claude Code、Codex和MCP技能前检测漏洞、恶意模式、提示注入、数据外泄与供应链风险。",
+      "tags": [
+        "security",
+        "ai-agent",
+        "mcp",
+        "scanner",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-28T15:49:02.363Z",
       "deepwikiAvailable": false
     },
     {
@@ -199,118 +424,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-28T04:42:15.223Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "claude-howto",
-      "fullName": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 45631,
-      "forks": 5591,
-      "starsToday": 3545,
-      "topics": [],
-      "author": {
-        "name": "luongnv89",
-        "avatar": "https://avatars.githubusercontent.com/u/3288457?s=40&amp;v=4",
-        "url": "https://github.com/luongnv89"
-      },
-      "summary": "面向 Claude Code 的图文实战指南，从基础概念到高级 Agent，提供可直接复制的模板，上手即用。",
-      "tags": [
-        "claude",
-        "ai-agents",
-        "tutorial",
-        "templates",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:15.125Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-toolkit-for-aws",
-      "fullName": "aws/agent-toolkit-for-aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 3317,
-      "forks": 416,
-      "starsToday": 397,
-      "topics": [],
-      "author": {
-        "name": "aws",
-        "avatar": "https://avatars.githubusercontent.com/u/25950814?s=40&amp;v=4",
-        "url": "https://github.com/aws"
-      },
-      "summary": "AWS官方MCP服务器、技能与插件工具包，帮助AI代理在AWS上构建应用。",
-      "tags": [
-        "aws",
-        "mcp",
-        "ai-agents",
-        "python",
-        "plugins"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:16.295Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Claude-Red",
-      "fullName": "SnailSploit/Claude-Red",
-      "url": "https://github.com/SnailSploit/Claude-Red",
-      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 9640,
-      "forks": 1299,
-      "starsToday": 1994,
-      "topics": [],
-      "author": {
-        "name": "SnailSploit",
-        "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&amp;v=4",
-        "url": "https://github.com/SnailSploit"
-      },
-      "summary": "面向Claude技能系统的攻防安全技能库，以结构化SKILL.md文件为Claude注入SQL注入、Shellcode、EDR绕过、漏洞利用开发等专家级方法论。",
-      "tags": [
-        "security",
-        "offensive-security",
-        "claude",
-        "prompt-engineering",
-        "pentest"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:16.223Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "skills",
-      "fullName": "higgsfield-ai/skills",
-      "url": "https://github.com/higgsfield-ai/skills",
-      "description": "",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 1750,
-      "forks": 328,
-      "starsToday": 406,
-      "topics": [],
-      "author": {
-        "name": "higgsfield-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/12931096?s=40&amp;v=4",
-        "url": "https://github.com/higgsfield-ai"
-      },
-      "summary": "Higgsfield AI 官方技能库，用 Python 封装可复用的 AI 能力模块，方便开发者快速集成到自己的应用中。",
-      "tags": [
-        "ai",
-        "python",
-        "skills",
-        "sdk",
-        "agents"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:16.129Z",
       "deepwikiAvailable": false
     },
     {

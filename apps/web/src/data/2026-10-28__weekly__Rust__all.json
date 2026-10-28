@@ -2,37 +2,9 @@
   "date": "2026-10-28",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-10-28T04:41:09.935Z",
-  "enrichedAt": "2026-10-28T04:42:26.845Z",
+  "fetchedAt": "2026-10-28T15:48:10.350Z",
+  "enrichedAt": "2026-10-28T15:49:07.519Z",
   "repos": [
-    {
-      "name": "ai-memory",
-      "fullName": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 14130,
-      "forks": 1007,
-      "starsToday": 2239,
-      "topics": [],
-      "author": {
-        "name": "akitaonrails",
-        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
-        "url": "https://github.com/akitaonrails"
-      },
-      "summary": "为编码智能体 CLI 提供长期记忆的 Rust 方案，支持在不同厂商的 agent 之间交接上下文与工作状态。",
-      "tags": [
-        "memory",
-        "agents",
-        "rust",
-        "cli",
-        "context"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-28T04:42:23.029Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "impeccable",
       "fullName": "pbakaus/impeccable",
@@ -40,8 +12,8 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 90846,
-      "forks": 5385,
+      "stars": 91910,
+      "forks": 5431,
       "starsToday": 6713,
       "topics": [],
       "author": {
@@ -63,14 +35,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "ai-memory",
+      "fullName": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 14242,
+      "forks": 1014,
+      "starsToday": 2239,
+      "topics": [],
+      "author": {
+        "name": "akitaonrails",
+        "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&amp;v=4",
+        "url": "https://github.com/akitaonrails"
+      },
+      "summary": "为编码智能体 CLI 提供长期记忆的 Rust 方案，支持在不同厂商的 agent 之间交接上下文与工作状态。",
+      "tags": [
+        "memory",
+        "agents",
+        "rust",
+        "cli",
+        "context"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T04:42:23.029Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "microduck",
       "fullName": "pollen-robotics/microduck",
       "url": "https://github.com/pollen-robotics/microduck",
       "description": "A Tiny biped duck robot 🦆",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 12800,
-      "forks": 1582,
+      "stars": 12901,
+      "forks": 1593,
       "starsToday": 3114,
       "topics": [],
       "author": {
@@ -97,8 +97,8 @@
       "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 17165,
-      "forks": 1251,
+      "stars": 17273,
+      "forks": 1281,
       "starsToday": 5091,
       "topics": [],
       "author": {
@@ -126,8 +126,8 @@
       "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 6735,
-      "forks": 587,
+      "stars": 6795,
+      "forks": 591,
       "starsToday": 441,
       "topics": [],
       "author": {
@@ -149,31 +149,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "bun",
-      "fullName": "oven-sh/bun",
-      "url": "https://github.com/oven-sh/bun",
-      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "name": "macro",
+      "fullName": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 96444,
-      "forks": 5182,
-      "starsToday": 213,
+      "stars": 5266,
+      "forks": 512,
+      "starsToday": 346,
       "topics": [],
       "author": {
-        "name": "oven-sh",
-        "avatar": "https://avatars.githubusercontent.com/u/709451?s=40&amp;v=4",
-        "url": "https://github.com/oven-sh"
+        "name": "macro-inc",
+        "avatar": "https://avatars.githubusercontent.com/u/25272206?s=40&amp;v=4",
+        "url": "https://github.com/macro-inc"
       },
-      "summary": "Bun 是集 JavaScript 运行时、打包器、测试运行器和包管理器于一体的高性能工具，用 Rust/Zig 实现，速度远超 Node.js 生态。",
+      "summary": "基于Rust构建的一体化团队协作工作台，整合邮件、聊天、文档、任务、AI代理、通话与CRM，通过@链接和共享AI记忆打通各模块。",
       "tags": [
-        "javascript",
-        "runtime",
-        "bundler",
-        "package-manager",
+        "collaboration",
+        "workspace",
+        "ai",
+        "crm",
         "rust"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-28T04:42:24.368Z",
+      "category": "App",
+      "enrichedAt": "2026-10-28T04:42:25.544Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Cap",
+      "fullName": "CapSoftware/Cap",
+      "url": "https://github.com/CapSoftware/Cap",
+      "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 24000,
+      "forks": 2182,
+      "starsToday": 471,
+      "topics": [],
+      "author": {
+        "name": "CapSoftware",
+        "avatar": "https://avatars.githubusercontent.com/u/33632126?s=40&amp;v=4",
+        "url": "https://github.com/CapSoftware"
+      },
+      "summary": "开源版 Loom 替代品，用 Rust 打造，可快速录制并生成美观可分享的屏幕录像，主打隐私与自托管。",
+      "tags": [
+        "screen-recording",
+        "rust",
+        "loom-alternative",
+        "video",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-28T04:42:25.354Z",
       "deepwikiAvailable": false
     },
     {
@@ -183,8 +211,8 @@
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 20336,
-      "forks": 2001,
+      "stars": 20468,
+      "forks": 2011,
       "starsToday": 3483,
       "topics": [],
       "author": {
@@ -211,8 +239,8 @@
       "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5690,
-      "forks": 1005,
+      "stars": 5711,
+      "forks": 1007,
       "starsToday": 261,
       "topics": [],
       "author": {
@@ -233,31 +261,32 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Cap",
-      "fullName": "CapSoftware/Cap",
-      "url": "https://github.com/CapSoftware/Cap",
-      "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
+      "name": "stalwart",
+      "fullName": "stalwartlabs/stalwart",
+      "url": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 23958,
-      "forks": 2177,
-      "starsToday": 471,
+      "stars": 15458,
+      "forks": 1025,
+      "starsToday": 222,
       "topics": [],
       "author": {
-        "name": "CapSoftware",
-        "avatar": "https://avatars.githubusercontent.com/u/33632126?s=40&amp;v=4",
-        "url": "https://github.com/CapSoftware"
+        "name": "stalwartlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
+        "url": "https://github.com/stalwartlabs"
       },
-      "summary": "开源版 Loom 替代品，用 Rust 打造，可快速录制并生成美观可分享的屏幕录像，主打隐私与自托管。",
+      "summary": "Rust 编写的全能邮件与协作服务器，支持 IMAP、JMAP、SMTP、CalDAV、CardDAV、WebDAV，安全可扩展，可自建替代商业邮件套件。",
       "tags": [
-        "screen-recording",
+        "mail",
         "rust",
-        "loom-alternative",
-        "video",
-        "open-source"
+        "self-hosted",
+        "jmap",
+        "imap",
+        "collaboration"
       ],
-      "category": "App",
-      "enrichedAt": "2026-10-28T04:42:25.354Z",
+      "category": "Infra",
+      "enrichedAt": "2026-10-28T04:42:26.842Z",
       "deepwikiAvailable": false
     },
     {
@@ -267,8 +296,8 @@
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 30964,
-      "forks": 4172,
+      "stars": 30994,
+      "forks": 4173,
       "starsToday": 598,
       "topics": [],
       "author": {
@@ -289,42 +318,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "macro",
-      "fullName": "macro-inc/macro",
-      "url": "https://github.com/macro-inc/macro",
-      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5149,
-      "forks": 505,
-      "starsToday": 346,
-      "topics": [],
-      "author": {
-        "name": "macro-inc",
-        "avatar": "https://avatars.githubusercontent.com/u/25272206?s=40&amp;v=4",
-        "url": "https://github.com/macro-inc"
-      },
-      "summary": "基于Rust构建的一体化团队协作工作台，整合邮件、聊天、文档、任务、AI代理、通话与CRM，通过@链接和共享AI记忆打通各模块。",
-      "tags": [
-        "collaboration",
-        "workspace",
-        "ai",
-        "crm",
-        "rust"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-10-28T04:42:25.544Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "impactor",
       "fullName": "claration/impactor",
       "url": "https://github.com/claration/impactor",
       "description": "Cross-platform & feature rich iOS/iPadOS/tvOS sideloading application. Formerly known as PlumeImpactor.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3651,
-      "forks": 261,
+      "stars": 3664,
+      "forks": 262,
       "starsToday": 116,
       "topics": [],
       "author": {
@@ -342,6 +343,90 @@
       ],
       "category": "App",
       "enrichedAt": "2026-10-28T04:42:25.595Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "x-algorithm",
+      "fullName": "xai-org/x-algorithm",
+      "url": "https://github.com/xai-org/x-algorithm",
+      "description": "Algorithm powering the For You feed on X",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33861,
+      "forks": 5473,
+      "starsToday": 163,
+      "topics": [],
+      "author": {
+        "name": "xai-org",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/xai-org"
+      },
+      "summary": "xAI开源的X平台\"For You\"推荐流算法，用Rust实现信息流排序核心逻辑，供研究推荐系统参考。",
+      "tags": [
+        "rust",
+        "recommendation",
+        "algorithm",
+        "social-media",
+        "feed"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T15:49:07.518Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bun",
+      "fullName": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 96447,
+      "forks": 5191,
+      "starsToday": 213,
+      "topics": [],
+      "author": {
+        "name": "oven-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/709451?s=40&amp;v=4",
+        "url": "https://github.com/oven-sh"
+      },
+      "summary": "Bun 是集 JavaScript 运行时、打包器、测试运行器和包管理器于一体的高性能工具，用 Rust/Zig 实现，速度远超 Node.js 生态。",
+      "tags": [
+        "javascript",
+        "runtime",
+        "bundler",
+        "package-manager",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-28T04:42:24.368Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uzu",
+      "fullName": "trymirai/uzu",
+      "url": "https://github.com/trymirai/uzu",
+      "description": "A high-performance inference engine for AI models",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2973,
+      "forks": 181,
+      "starsToday": 494,
+      "topics": [],
+      "author": {
+        "name": "trymirai",
+        "avatar": "https://avatars.githubusercontent.com/u/83587632?s=40&amp;v=4",
+        "url": "https://github.com/trymirai"
+      },
+      "summary": "Rust 编写的高性能 AI 模型推理引擎，主打低开销与跨平台部署，适合本地与生产环境跑模型。",
+      "tags": [
+        "rust",
+        "inference",
+        "llm",
+        "performance",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-28T15:49:07.472Z",
       "deepwikiAvailable": false
     },
     {
@@ -398,35 +483,6 @@
       ],
       "category": "Data",
       "enrichedAt": "2026-10-28T04:42:26.845Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "stalwart",
-      "fullName": "stalwartlabs/stalwart",
-      "url": "https://github.com/stalwartlabs/stalwart",
-      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 15430,
-      "forks": 1023,
-      "starsToday": 222,
-      "topics": [],
-      "author": {
-        "name": "stalwartlabs",
-        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
-        "url": "https://github.com/stalwartlabs"
-      },
-      "summary": "Rust 编写的全能邮件与协作服务器，支持 IMAP、JMAP、SMTP、CalDAV、CardDAV、WebDAV，安全可扩展，可自建替代商业邮件套件。",
-      "tags": [
-        "mail",
-        "rust",
-        "self-hosted",
-        "jmap",
-        "imap",
-        "collaboration"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-28T04:42:26.842Z",
       "deepwikiAvailable": false
     },
     {
