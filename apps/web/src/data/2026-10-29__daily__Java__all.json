@@ -2,9 +2,515 @@
   "date": "2026-10-29",
   "since": "daily",
   "language": "Java",
-  "fetchedAt": "2026-10-29T04:53:45.630Z",
-  "enrichedAt": "2026-10-29T04:54:36.339Z",
+  "fetchedAt": "2026-10-29T15:55:15.260Z",
+  "enrichedAt": "2026-10-29T15:56:05.457Z",
   "repos": [
+    {
+      "name": "ghidra",
+      "fullName": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 95759,
+      "forks": 10793,
+      "starsToday": 478,
+      "topics": [],
+      "author": {
+        "name": "NationalSecurityAgency",
+        "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&amp;v=4",
+        "url": "https://github.com/NationalSecurityAgency"
+      },
+      "summary": "美国国家安全局开源的软件逆向工程框架，提供反汇编、反编译、调试与脚本扩展能力，支持多平台二进制分析。",
+      "tags": [
+        "reverse-engineering",
+        "decompiler",
+        "java",
+        "security",
+        "disassembler"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:56:01.057Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "floci",
+      "fullName": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 27268,
+      "forks": 3006,
+      "starsToday": 60,
+      "topics": [],
+      "author": {
+        "name": "floci-io",
+        "avatar": "https://avatars.githubusercontent.com/u/2405682?s=40&amp;v=4",
+        "url": "https://github.com/floci-io"
+      },
+      "summary": "轻量免费的AWS本地模拟器，可替代LocalStack，让开发者在本地离线运行和测试AWS服务。",
+      "tags": [
+        "aws",
+        "emulator",
+        "localstack",
+        "testing",
+        "java"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:56:00.627Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "copilot-sdk",
+      "fullName": "github/copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 10612,
+      "forks": 1515,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1693627?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "多平台 SDK，用于将 GitHub Copilot Agent 集成到各类应用与服务中，提供统一接口调用 AI 编码代理能力。",
+      "tags": [
+        "copilot",
+        "sdk",
+        "ai-agent",
+        "github",
+        "multi-platform"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-29T04:54:36.078Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentscope-java",
+      "fullName": "agentscope-ai/agentscope-java",
+      "url": "https://github.com/agentscope-ai/agentscope-java",
+      "description": "Build distributed, production-grade, long-running agents.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 6180,
+      "forks": 1546,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "agentscope-ai",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/agentscope-ai"
+      },
+      "summary": "Java 编写的智能体框架，用于构建可分布式部署、面向生产环境、长时间运行的 Agent 应用。",
+      "tags": [
+        "java",
+        "agents",
+        "llm",
+        "distributed",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-29T15:56:00.920Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenSearch",
+      "fullName": "opensearch-project/OpenSearch",
+      "url": "https://github.com/opensearch-project/OpenSearch",
+      "description": "🔎 Open source distributed and RESTful search engine.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 13931,
+      "forks": 3057,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "opensearch-project",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/opensearch-project"
+      },
+      "summary": "开源分布式 RESTful 搜索引擎，支持全文检索、日志分析与大规模数据查询，是 Elasticsearch 的开源替代方案。",
+      "tags": [
+        "search",
+        "java",
+        "distributed",
+        "rest",
+        "analytics"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-29T15:56:01.049Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keycloak",
+      "fullName": "keycloak/keycloak",
+      "url": "https://github.com/keycloak/keycloak",
+      "description": "Open Source Identity and Access Management For Modern Applications and Services",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 37591,
+      "forks": 9116,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "keycloak",
+        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
+        "url": "https://github.com/keycloak"
+      },
+      "summary": "开源身份与访问管理平台，为现代应用和服务提供单点登录、OAuth2/OIDC、用户联邦与权限控制。",
+      "tags": [
+        "iam",
+        "sso",
+        "oauth2",
+        "oidc",
+        "java",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T04:54:33.915Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "neo4j",
+      "fullName": "neo4j/neo4j",
+      "url": "https://github.com/neo4j/neo4j",
+      "description": "Graphs for Everyone",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 17377,
+      "forks": 2776,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "neo4j",
+        "avatar": "https://avatars.githubusercontent.com/u/187292?s=40&amp;v=4",
+        "url": "https://github.com/neo4j"
+      },
+      "summary": "Neo4j 原生图数据库，用节点与关系存储和查询关联数据，支持 Cypher 查询语言与 ACID 事务。",
+      "tags": [
+        "database",
+        "graph",
+        "cypher",
+        "java",
+        "graphdb"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-29T15:56:02.031Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Geyser",
+      "fullName": "GeyserMC/Geyser",
+      "url": "https://github.com/GeyserMC/Geyser",
+      "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 5945,
+      "forks": 934,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "GeyserMC",
+        "avatar": "https://avatars.githubusercontent.com/u/20743703?s=40&amp;v=4",
+        "url": "https://github.com/GeyserMC"
+      },
+      "summary": "Geyser 是一个代理桥接工具，让基岩版 Minecraft 玩家可以直接连接并游玩 Java 版服务器，实现跨版本互通。",
+      "tags": [
+        "minecraft",
+        "proxy",
+        "bridge",
+        "java",
+        "bedrock"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T15:56:02.159Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "starrocks",
+      "fullName": "StarRocks/starrocks",
+      "url": "https://github.com/StarRocks/starrocks",
+      "description": "The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. With the flexibility to support nearly any scenario, StarRocks provides best-in-class performance for multi-dimensional analytics, real-time analytics, and ad-hoc queries. A Linux Foundation project.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 12215,
+      "forks": 2640,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "StarRocks",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/StarRocks"
+      },
+      "summary": "StarRocks 是开源高性能分析型查询引擎，支持湖仓内外的亚秒级多维分析、实时分析与即席查询。",
+      "tags": [
+        "olap",
+        "analytics",
+        "query-engine",
+        "lakehouse",
+        "database"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-29T15:56:02.922Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DSA-Bootcamp-Java",
+      "fullName": "kunal-kushwaha/DSA-Bootcamp-Java",
+      "url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+      "description": "This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 24079,
+      "forks": 13607,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "kunal-kushwaha",
+        "avatar": "https://avatars.githubusercontent.com/u/42698533?s=40&amp;v=4",
+        "url": "https://github.com/kunal-kushwaha"
+      },
+      "summary": "WeMakeDevs Java 数据结构与算法训练营的代码示例、作业与笔记，适合系统学习 DSA 并准备面试。",
+      "tags": [
+        "java",
+        "dsa",
+        "algorithms",
+        "interview",
+        "education"
+      ],
+      "category": "Education",
+      "enrichedAt": "2026-10-29T15:56:02.218Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spring-framework",
+      "fullName": "spring-projects/spring-framework",
+      "url": "https://github.com/spring-projects/spring-framework",
+      "description": "Spring Framework",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 60302,
+      "forks": 38741,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "spring-projects",
+        "avatar": "https://avatars.githubusercontent.com/u/1263688?s=40&amp;v=4",
+        "url": "https://github.com/spring-projects"
+      },
+      "summary": "Java 企业级应用开发核心框架，提供依赖注入、AOP、Web 与响应式编程等基础设施，是 Spring 生态的基石。",
+      "tags": [
+        "java",
+        "spring",
+        "framework",
+        "dependency-injection",
+        "backend"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-29T15:56:03.330Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Paper",
+      "fullName": "PaperMC/Paper",
+      "url": "https://github.com/PaperMC/Paper",
+      "description": "The most widely used, high performance Minecraft server that aims to fix gameplay and mechanics inconsistencies",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 12780,
+      "forks": 3559,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "PaperMC",
+        "avatar": "https://avatars.githubusercontent.com/u/15055071?s=40&amp;v=4",
+        "url": "https://github.com/PaperMC"
+      },
+      "summary": "高性能 Minecraft 服务端，修复原版游戏机制不一致问题，是使用最广泛的服务端实现。",
+      "tags": [
+        "minecraft",
+        "server",
+        "java",
+        "game",
+        "performance"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-29T15:56:03.960Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jenkins",
+      "fullName": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 26703,
+      "forks": 9815,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "jenkinsci",
+        "avatar": "https://avatars.githubusercontent.com/u/50003?s=40&amp;v=4",
+        "url": "https://github.com/jenkinsci"
+      },
+      "summary": "Jenkins 是开源自动化服务器，用 Java 编写，通过插件生态实现持续集成与持续交付的构建、测试和部署流水线。",
+      "tags": [
+        "jenkins",
+        "ci-cd",
+        "automation",
+        "java",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:56:03.718Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spring-security",
+      "fullName": "spring-projects/spring-security",
+      "url": "https://github.com/spring-projects/spring-security",
+      "description": "Spring Security",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9656,
+      "forks": 6372,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "spring-projects",
+        "avatar": "https://avatars.githubusercontent.com/u/362503?s=40&amp;v=4",
+        "url": "https://github.com/spring-projects"
+      },
+      "summary": "Spring 官方安全框架，为 Java 应用提供认证、授权与防护能力，是企业级 Spring 生态的标准安全方案。",
+      "tags": [
+        "java",
+        "security",
+        "authentication",
+        "authorization",
+        "spring"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-29T15:56:04.098Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jetbrains-cc-gui",
+      "fullName": "zhukunpenglinyutong/jetbrains-cc-gui",
+      "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
+      "description": "Jetbrains Claude Code and Codex GUI Plugin",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 7344,
+      "forks": 695,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "zhukunpenglinyutong",
+        "avatar": "https://avatars.githubusercontent.com/u/31264015?s=40&amp;v=4",
+        "url": "https://github.com/zhukunpenglinyutong"
+      },
+      "summary": "JetBrains IDE 插件，为 Claude Code 与 Codex 提供图形化界面，让开发者在 IDE 内直接使用 AI 编程助手。",
+      "tags": [
+        "jetbrains",
+        "claude-code",
+        "codex",
+        "plugin",
+        "ide",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:56:04.448Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dolphinscheduler",
+      "fullName": "apache/dolphinscheduler",
+      "url": "https://github.com/apache/dolphinscheduler",
+      "description": "Apache DolphinScheduler is the modern data orchestration platform. Agile to create high performance workflow with low-code",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 14539,
+      "forks": 5122,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/22415594?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache DolphinScheduler 是分布式可视化数据编排平台，支持低代码拖拽创建高性能工作流，提供任务调度、依赖管理与多引擎执行能力。",
+      "tags": [
+        "workflow",
+        "scheduler",
+        "data-orchestration",
+        "java",
+        "low-code"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-29T15:56:04.813Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fineract",
+      "fullName": "apache/fineract",
+      "url": "https://github.com/apache/fineract",
+      "description": "Apache Fineract",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 2583,
+      "forks": 2907,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/542697?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Fineract 是开源核心银行与小额信贷平台，提供账户、贷款、储蓄、会计等完整金融服务后端，支持多租户与多币种部署。",
+      "tags": [
+        "banking",
+        "fintech",
+        "java",
+        "microfinance",
+        "api"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-29T15:56:05.457Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dependency-track",
+      "fullName": "DependencyTrack/dependency-track",
+      "url": "https://github.com/DependencyTrack/dependency-track",
+      "description": "Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4380,
+      "forks": 846,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "DependencyTrack",
+        "avatar": "https://avatars.githubusercontent.com/u/5693141?s=40&amp;v=4",
+        "url": "https://github.com/DependencyTrack"
+      },
+      "summary": "开源软件供应链组件分析平台，通过SBOM持续识别并降低第三方组件风险，支持漏洞与许可证合规监控。",
+      "tags": [
+        "sbom",
+        "security",
+        "supply-chain",
+        "vulnerability",
+        "java"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T04:54:34.968Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "hello-algo",
       "fullName": "krahets/hello-algo",
@@ -261,35 +767,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "keycloak",
-      "fullName": "keycloak/keycloak",
-      "url": "https://github.com/keycloak/keycloak",
-      "description": "Open Source Identity and Access Management For Modern Applications and Services",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 37585,
-      "forks": 9113,
-      "starsToday": 24,
-      "topics": [],
-      "author": {
-        "name": "keycloak",
-        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
-        "url": "https://github.com/keycloak"
-      },
-      "summary": "开源身份与访问管理平台，为现代应用和服务提供单点登录、OAuth2/OIDC、用户联邦与权限控制。",
-      "tags": [
-        "iam",
-        "sso",
-        "oauth2",
-        "oidc",
-        "java",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-29T04:54:33.915Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "JeecgBoot",
       "fullName": "jeecgboot/JeecgBoot",
       "url": "https://github.com/jeecgboot/JeecgBoot",
@@ -315,62 +792,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-29T04:54:33.932Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dependency-track",
-      "fullName": "DependencyTrack/dependency-track",
-      "url": "https://github.com/DependencyTrack/dependency-track",
-      "description": "Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 4377,
-      "forks": 844,
-      "starsToday": 13,
-      "topics": [],
-      "author": {
-        "name": "DependencyTrack",
-        "avatar": "https://avatars.githubusercontent.com/u/5693141?s=40&amp;v=4",
-        "url": "https://github.com/DependencyTrack"
-      },
-      "summary": "开源软件供应链组件分析平台，通过SBOM持续识别并降低第三方组件风险，支持漏洞与许可证合规监控。",
-      "tags": [
-        "sbom",
-        "security",
-        "supply-chain",
-        "vulnerability",
-        "java"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-29T04:54:34.968Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "copilot-sdk",
-      "fullName": "github/copilot-sdk",
-      "url": "https://github.com/github/copilot-sdk",
-      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 10601,
-      "forks": 1514,
-      "starsToday": 3,
-      "topics": [],
-      "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/in/1693627?s=40&amp;v=4",
-        "url": "https://github.com/github"
-      },
-      "summary": "多平台 SDK，用于将 GitHub Copilot Agent 集成到各类应用与服务中，提供统一接口调用 AI 编码代理能力。",
-      "tags": [
-        "copilot",
-        "sdk",
-        "ai-agent",
-        "github",
-        "multi-platform"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-29T04:54:36.078Z",
       "deepwikiAvailable": false
     },
     {

@@ -2,9 +2,542 @@
   "date": "2026-10-29",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-29T04:53:45.630Z",
-  "enrichedAt": "2026-10-29T04:54:26.000Z",
+  "fetchedAt": "2026-10-29T15:55:15.260Z",
+  "enrichedAt": "2026-10-29T15:55:55.520Z",
   "repos": [
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28284,
+      "forks": 1910,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久记忆层的Go工具，让AI代理跨会话保留项目上下文与知识。",
+      "tags": [
+        "ai",
+        "agent",
+        "memory",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-29T15:55:50.463Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 115992,
+      "forks": 6709,
+      "starsToday": 289,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用\"原始人语\"压缩提示词的编程代理技能与代理服务，可削减约65%的token消耗。",
+      "tags": [
+        "llm",
+        "tokens",
+        "proxy",
+        "go",
+        "prompt"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:55:50.371Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38534,
+      "forks": 5891,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "用 YAML 定义并一键运行多容器 Docker 应用，是本地开发与编排多服务环境的标准工具。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "yaml",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:55:50.632Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "VictoriaMetrics",
+      "fullName": "VictoriaMetrics/VictoriaMetrics",
+      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+      "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17947,
+      "forks": 1792,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "VictoriaMetrics",
+        "avatar": "https://avatars.githubusercontent.com/u/283442?s=40&amp;v=4",
+        "url": "https://github.com/VictoriaMetrics"
+      },
+      "summary": "高性能、低成本的时序数据库与监控方案，兼容 Prometheus，适合大规模指标存储与查询。",
+      "tags": [
+        "timeseries",
+        "monitoring",
+        "database",
+        "prometheus",
+        "go"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-29T15:55:50.431Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5952,
+      "forks": 650,
+      "starsToday": 52,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Agent Substrate 是用 Go 编写的 AI 智能体核心运行系统，为构建和调度自主 Agent 提供底层基础设施。",
+      "tags": [
+        "agents",
+        "go",
+        "infra",
+        "ai",
+        "framework"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T15:55:51.558Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keploy",
+      "fullName": "keploy/keploy",
+      "url": "https://github.com/keploy/keploy",
+      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18893,
+      "forks": 2437,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "keploy",
+        "avatar": "https://avatars.githubusercontent.com/u/12831254?s=40&amp;v=4",
+        "url": "https://github.com/keploy"
+      },
+      "summary": "开源测试平台，从真实流量自动生成API、集成与E2E测试用例及数据模拟，无需手写测试即可在隔离沙箱中安全复现生产环境。",
+      "tags": [
+        "testing",
+        "api",
+        "e2e",
+        "go",
+        "mocking"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:55:51.566Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ax",
+      "fullName": "google/ax",
+      "url": "https://github.com/google/ax",
+      "description": "Agent Executor (AX) is Google's open agentic orchestration runtime",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14334,
+      "forks": 760,
+      "starsToday": 133,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google开源的智能体编排运行时，用Go实现，为AI Agent提供可扩展的执行与调度基础设施。",
+      "tags": [
+        "agent",
+        "orchestration",
+        "go",
+        "google",
+        "runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-29T15:55:51.704Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "glance",
+      "fullName": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37862,
+      "forks": 1500,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "glanceapp",
+        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
+        "url": "https://github.com/glanceapp"
+      },
+      "summary": "自托管仪表盘，将RSS、新闻、天气、书签等各类信息源聚合到单一页面，Go编写、轻量易部署。",
+      "tags": [
+        "dashboard",
+        "self-hosted",
+        "go",
+        "rss",
+        "feeds"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-29T15:55:51.860Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailcat",
+      "fullName": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8674,
+      "forks": 394,
+      "starsToday": 60,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "类似 netcat 的网络工具，通过 Tailscale 数据平面直连传输，无需其控制平面，适合点对点调试与文件传输。",
+      "tags": [
+        "netcat",
+        "tailscale",
+        "networking",
+        "go",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-29T15:55:52.874Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nats-server",
+      "fullName": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 20959,
+      "forks": 2020,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "nats-io",
+        "avatar": "https://avatars.githubusercontent.com/u/90097?s=40&amp;v=4",
+        "url": "https://github.com/nats-io"
+      },
+      "summary": "NATS 消息系统的高性能服务端，为云与边缘场景提供轻量、低延迟的发布订阅与请求响应通信。",
+      "tags": [
+        "nats",
+        "messaging",
+        "pubsub",
+        "go",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T15:55:52.969Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30487,
+      "forks": 2323,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Go 编写的密钥泄露扫描工具，可检测代码与提交历史中的密码、API Key 等敏感信息，支持 CI 集成与自定义规则。",
+      "tags": [
+        "security",
+        "secrets",
+        "go",
+        "cli",
+        "static-analysis"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:55:52.988Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lazygit",
+      "fullName": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 83506,
+      "forks": 3193,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "jesseduffield",
+        "avatar": "https://avatars.githubusercontent.com/u/1225667?s=40&amp;v=4",
+        "url": "https://github.com/jesseduffield"
+      },
+      "summary": "基于 Go 的终端 Git 图形界面，用键盘交互完成提交、分支、暂存与 rebase 等操作，降低命令行记忆成本。",
+      "tags": [
+        "git",
+        "tui",
+        "go",
+        "cli",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-29T15:55:53.195Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "Open source factory for one-shot engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8381,
+      "forks": 680,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的一次性工程平台，用Go编写，通过可视化流程编排把CI/CD、事件触发与自动化任务组合成可复用的工程流水线。",
+      "tags": [
+        "automation",
+        "workflow",
+        "devops",
+        "go",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T04:54:20.828Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "semantic-router",
+      "fullName": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "An open, programmable decision layer for models and compute.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6316,
+      "forks": 1090,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/48784001?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "基于语义理解的开源可编程路由层，按请求意图为模型与算力做智能调度分发。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "llmops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T15:55:54.166Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42437,
+      "forks": 6063,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Xray-core 是 Go 编写的开源网络代理平台，兼容 v2ray-core 并支持 XTLS 等协议，用于构建高性能、抗封锁的代理与转发服务。",
+      "tags": [
+        "proxy",
+        "networking",
+        "golang",
+        "v2ray",
+        "xtls"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T15:55:54.350Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pgx",
+      "fullName": "jackc/pgx",
+      "url": "https://github.com/jackc/pgx",
+      "description": "PostgreSQL driver and toolkit for Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14363,
+      "forks": 1151,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "jackc",
+        "avatar": "https://avatars.githubusercontent.com/u/94130?s=40&amp;v=4",
+        "url": "https://github.com/jackc"
+      },
+      "summary": "Go 语言的高性能 PostgreSQL 驱动与工具包，支持原生协议、连接池、批量查询与类型映射，是 database/sql 之外的常用选择。",
+      "tags": [
+        "go",
+        "postgresql",
+        "database",
+        "driver",
+        "sql"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-29T15:55:54.262Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45087,
+      "forks": 9700,
+      "starsToday": 80,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "Go 编写的开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具可无缝使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T15:55:54.182Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform",
+      "fullName": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50096,
+      "forks": 10597,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/35067?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "HashiCorp 开源的基础设施即代码工具，用声明式配置文件安全可预测地创建、变更和管理云基础设施，支持版本化与团队协作。",
+      "tags": [
+        "terraform",
+        "iac",
+        "devops",
+        "cloud",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T15:55:55.520Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 56882,
+      "forks": 8708,
+      "starsToday": 136,
+      "topics": [],
+      "author": {
+        "name": "router-for-me",
+        "avatar": "https://avatars.githubusercontent.com/u/4966831?s=40&amp;v=4",
+        "url": "https://github.com/router-for-me"
+      },
+      "summary": "用Go将Antigravity、Codex、Claude Code等CLI工具封装为OpenAI/Gemini/Claude兼容API服务，通过API免费使用各家大模型。",
+      "tags": [
+        "api-proxy",
+        "llm",
+        "openai",
+        "gemini",
+        "claude",
+        "golang"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-29T04:54:21.934Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "cloudflared",
       "fullName": "cloudflare/cloudflared",
@@ -31,34 +564,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-29T04:54:20.851Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "superplane",
-      "fullName": "superplanehq/superplane",
-      "url": "https://github.com/superplanehq/superplane",
-      "description": "Open source factory for one-shot engineering",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8366,
-      "forks": 680,
-      "starsToday": 69,
-      "topics": [],
-      "author": {
-        "name": "superplanehq",
-        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
-        "url": "https://github.com/superplanehq"
-      },
-      "summary": "开源的一次性工程平台，用Go编写，通过可视化流程编排把CI/CD、事件触发与自动化任务组合成可复用的工程流水线。",
-      "tags": [
-        "automation",
-        "workflow",
-        "devops",
-        "go",
-        "self-hosted"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-29T04:54:20.828Z",
       "deepwikiAvailable": false
     },
     {
@@ -115,35 +620,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-29T04:54:20.802Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "CLIProxyAPI",
-      "fullName": "router-for-me/CLIProxyAPI",
-      "url": "https://github.com/router-for-me/CLIProxyAPI",
-      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 56814,
-      "forks": 8701,
-      "starsToday": 162,
-      "topics": [],
-      "author": {
-        "name": "router-for-me",
-        "avatar": "https://avatars.githubusercontent.com/u/4966831?s=40&amp;v=4",
-        "url": "https://github.com/router-for-me"
-      },
-      "summary": "用Go将Antigravity、Codex、Claude Code等CLI工具封装为OpenAI/Gemini/Claude兼容API服务，通过API免费使用各家大模型。",
-      "tags": [
-        "api-proxy",
-        "llm",
-        "openai",
-        "gemini",
-        "claude",
-        "golang"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-29T04:54:21.934Z",
       "deepwikiAvailable": false
     },
     {

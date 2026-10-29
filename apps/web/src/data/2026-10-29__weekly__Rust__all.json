@@ -2,8 +2,8 @@
   "date": "2026-10-29",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-10-29T04:53:45.630Z",
-  "enrichedAt": "2026-10-29T04:55:03.130Z",
+  "fetchedAt": "2026-10-29T15:55:15.260Z",
+  "enrichedAt": "2026-10-29T15:56:14.993Z",
   "repos": [
     {
       "name": "impeccable",
@@ -12,8 +12,8 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 93214,
-      "forks": 5501,
+      "stars": 94685,
+      "forks": 5589,
       "starsToday": 7283,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14326,
-      "forks": 1025,
+      "stars": 14380,
+      "forks": 1032,
       "starsToday": 2194,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "A Tiny biped duck robot 🦆",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 12971,
-      "forks": 1601,
+      "stars": 13048,
+      "forks": 1614,
       "starsToday": 3245,
       "topics": [],
       "author": {
@@ -90,14 +90,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "agentgateway",
+      "fullName": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5770,
+      "forks": 1022,
+      "starsToday": 259,
+      "topics": [],
+      "author": {
+        "name": "agentgateway",
+        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
+        "url": "https://github.com/agentgateway"
+      },
+      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理网关，用 Rust 编写，统一管理智能体流量与工具调用。",
+      "tags": [
+        "ai",
+        "mcp",
+        "proxy",
+        "gateway",
+        "rust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T04:55:01.600Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "xerj",
       "fullName": "xerj-org/xerj",
       "url": "https://github.com/xerj-org/xerj",
       "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 17377,
-      "forks": 1303,
+      "stars": 17519,
+      "forks": 1330,
       "starsToday": 4974,
       "topics": [],
       "author": {
@@ -119,43 +147,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "openpencil",
-      "fullName": "ZSeven-W/openpencil",
-      "url": "https://github.com/ZSeven-W/openpencil",
-      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6920,
-      "forks": 600,
-      "starsToday": 487,
-      "topics": [],
-      "author": {
-        "name": "ZSeven-W",
-        "avatar": "https://avatars.githubusercontent.com/u/162498?s=40&amp;v=4",
-        "url": "https://github.com/ZSeven-W"
-      },
-      "summary": "开源 AI 原生矢量设计工具，支持多 Agent 团队并发，用提示词直接在实时画布生成 UI，践行 Design-as-Code。",
-      "tags": [
-        "ai",
-        "design",
-        "vector",
-        "rust",
-        "agent",
-        "ui"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-29T04:55:00.400Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "macro",
       "fullName": "macro-inc/macro",
       "url": "https://github.com/macro-inc/macro",
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5508,
-      "forks": 525,
+      "stars": 5627,
+      "forks": 532,
       "starsToday": 475,
       "topics": [],
       "author": {
@@ -177,14 +176,100 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6946,
+      "forks": 603,
+      "starsToday": 487,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/162498?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "开源 AI 原生矢量设计工具，支持多 Agent 团队并发，用提示词直接在实时画布生成 UI，践行 Design-as-Code。",
+      "tags": [
+        "ai",
+        "design",
+        "vector",
+        "rust",
+        "agent",
+        "ui"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-29T04:55:00.400Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 101501,
+      "forks": 13191,
+      "starsToday": 2449,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面，Rust编写。",
+      "tags": [
+        "wifi",
+        "sensing",
+        "rust",
+        "privacy",
+        "iot"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-29T15:56:14.993Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "stalwart",
+      "fullName": "stalwartlabs/stalwart",
+      "url": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15485,
+      "forks": 1029,
+      "starsToday": 264,
+      "topics": [],
+      "author": {
+        "name": "stalwartlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
+        "url": "https://github.com/stalwartlabs"
+      },
+      "summary": "基于 Rust 的一体化邮件与协作服务器，支持 IMAP、JMAP、SMTP、CalDAV、CardDAV、WebDAV，安全且易扩展。",
+      "tags": [
+        "mail",
+        "rust",
+        "jmap",
+        "imap",
+        "self-hosted",
+        "collaboration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-29T04:55:01.602Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Cap",
       "fullName": "CapSoftware/Cap",
       "url": "https://github.com/CapSoftware/Cap",
       "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 24025,
-      "forks": 2188,
+      "stars": 24051,
+      "forks": 2196,
       "starsToday": 519,
       "topics": [],
       "author": {
@@ -211,8 +296,8 @@
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 20615,
-      "forks": 2021,
+      "stars": 20668,
+      "forks": 2026,
       "starsToday": 3555,
       "topics": [],
       "author": {
@@ -233,88 +318,87 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agentgateway",
-      "fullName": "agentgateway/agentgateway",
-      "url": "https://github.com/agentgateway/agentgateway",
-      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "name": "x-algorithm",
+      "fullName": "xai-org/x-algorithm",
+      "url": "https://github.com/xai-org/x-algorithm",
+      "description": "Algorithm powering the For You feed on X",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5742,
-      "forks": 1015,
-      "starsToday": 259,
+      "stars": 33894,
+      "forks": 5479,
+      "starsToday": 171,
       "topics": [],
       "author": {
-        "name": "agentgateway",
-        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
-        "url": "https://github.com/agentgateway"
+        "name": "xai-org",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/xai-org"
       },
-      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理网关，用 Rust 编写，统一管理智能体流量与工具调用。",
+      "summary": "xAI开源的X\"For You\"推荐信息流算法，Rust实现，公开候选召回与排序逻辑，供研究推荐系统。",
       "tags": [
+        "recommendation",
+        "rust",
+        "algorithm",
+        "feed",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-29T04:55:03.063Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uzu",
+      "fullName": "trymirai/uzu",
+      "url": "https://github.com/trymirai/uzu",
+      "description": "A high-performance inference engine for AI models",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3029,
+      "forks": 186,
+      "starsToday": 509,
+      "topics": [],
+      "author": {
+        "name": "trymirai",
+        "avatar": "https://avatars.githubusercontent.com/u/83587632?s=40&amp;v=4",
+        "url": "https://github.com/trymirai"
+      },
+      "summary": "Rust 编写的高性能 AI 模型推理引擎，专注低开销、高效率的模型部署与推理加速。",
+      "tags": [
+        "rust",
+        "inference",
         "ai",
-        "mcp",
-        "proxy",
-        "gateway",
-        "rust"
+        "performance",
+        "llm"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-29T04:55:01.600Z",
+      "category": "AI",
+      "enrichedAt": "2026-10-29T04:55:03.130Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "stalwart",
-      "fullName": "stalwartlabs/stalwart",
-      "url": "https://github.com/stalwartlabs/stalwart",
-      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
+      "name": "cuda-rust",
+      "fullName": "NVIDIA/cuda-rust",
+      "url": "https://github.com/NVIDIA/cuda-rust",
+      "description": "NVIDIA's CUDA platform for Rust. Host runtime crates plus Tile (cutile-rs) and SIMT (cuda-oxide) kernel programming models in idiomatic Rust.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 15473,
-      "forks": 1026,
-      "starsToday": 264,
+      "stars": 3872,
+      "forks": 350,
+      "starsToday": 101,
       "topics": [],
       "author": {
-        "name": "stalwartlabs",
-        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
-        "url": "https://github.com/stalwartlabs"
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/20253082?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
       },
-      "summary": "基于 Rust 的一体化邮件与协作服务器，支持 IMAP、JMAP、SMTP、CalDAV、CardDAV、WebDAV，安全且易扩展。",
+      "summary": "NVIDIA官方CUDA的Rust绑定，提供主机运行时crate及Tile与SIMT内核编程模型，让开发者用惯用Rust编写GPU内核。",
       "tags": [
-        "mail",
         "rust",
-        "jmap",
-        "imap",
-        "self-hosted",
-        "collaboration"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-29T04:55:01.602Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "nautilus_trader",
-      "fullName": "nautechsystems/nautilus_trader",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 31017,
-      "forks": 4176,
-      "starsToday": 548,
-      "topics": [],
-      "author": {
-        "name": "nautechsystems",
-        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
-        "url": "https://github.com/nautechsystems"
-      },
-      "summary": "Rust 原生高性能量化交易引擎，采用确定性事件驱动架构，支持回测与实盘交易，生产级可用。",
-      "tags": [
-        "trading",
-        "rust",
-        "quant",
-        "backtesting",
-        "engine"
+        "cuda",
+        "gpu",
+        "nvidia",
+        "kernel"
       ],
       "category": "Library",
-      "enrichedAt": "2026-10-29T04:55:01.668Z",
+      "enrichedAt": "2026-10-29T15:56:14.677Z",
       "deepwikiAvailable": false
     },
     {
@@ -346,42 +430,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "x-algorithm",
-      "fullName": "xai-org/x-algorithm",
-      "url": "https://github.com/xai-org/x-algorithm",
-      "description": "Algorithm powering the For You feed on X",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 33881,
-      "forks": 5477,
-      "starsToday": 171,
-      "topics": [],
-      "author": {
-        "name": "xai-org",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/xai-org"
-      },
-      "summary": "xAI开源的X\"For You\"推荐信息流算法，Rust实现，公开候选召回与排序逻辑，供研究推荐系统。",
-      "tags": [
-        "recommendation",
-        "rust",
-        "algorithm",
-        "feed",
-        "open-source"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-29T04:55:03.063Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "bun",
       "fullName": "oven-sh/bun",
       "url": "https://github.com/oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 96455,
-      "forks": 5204,
+      "stars": 96459,
+      "forks": 5212,
       "starsToday": 198,
       "topics": [],
       "author": {
@@ -402,31 +458,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "uzu",
-      "fullName": "trymirai/uzu",
-      "url": "https://github.com/trymirai/uzu",
-      "description": "A high-performance inference engine for AI models",
+      "name": "open-ontologies",
+      "fullName": "fabio-rovai/open-ontologies",
+      "url": "https://github.com/fabio-rovai/open-ontologies",
+      "description": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3003,
-      "forks": 183,
-      "starsToday": 509,
+      "stars": 2067,
+      "forks": 243,
+      "starsToday": 824,
       "topics": [],
       "author": {
-        "name": "trymirai",
-        "avatar": "https://avatars.githubusercontent.com/u/83587632?s=40&amp;v=4",
-        "url": "https://github.com/trymirai"
+        "name": "fabio-rovai",
+        "avatar": "https://avatars.githubusercontent.com/u/146086869?s=40&amp;v=4",
+        "url": "https://github.com/fabio-rovai"
       },
-      "summary": "Rust 编写的高性能 AI 模型推理引擎，专注低开销、高效率的模型部署与推理加速。",
+      "summary": "用Rust实现的本体变更管理工具，支持对生产本体做计划、应用与回滚，并生成影响范围报告和可供审计复核的证明。",
       "tags": [
+        "ontology",
         "rust",
-        "inference",
-        "ai",
-        "performance",
-        "llm"
+        "audit",
+        "rollback",
+        "devops"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-10-29T04:55:03.130Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-10-29T15:56:14.786Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nautilus_trader",
+      "fullName": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31017,
+      "forks": 4176,
+      "starsToday": 548,
+      "topics": [],
+      "author": {
+        "name": "nautechsystems",
+        "avatar": "https://avatars.githubusercontent.com/u/22510164?s=40&amp;v=4",
+        "url": "https://github.com/nautechsystems"
+      },
+      "summary": "Rust 原生高性能量化交易引擎，采用确定性事件驱动架构，支持回测与实盘交易，生产级可用。",
+      "tags": [
+        "trading",
+        "rust",
+        "quant",
+        "backtesting",
+        "engine"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-10-29T04:55:01.668Z",
       "deepwikiAvailable": false
     }
   ]
