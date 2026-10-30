@@ -2,9 +2,656 @@
   "date": "2026-10-30",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-30T04:53:26.511Z",
-  "enrichedAt": "2026-10-30T04:54:09.507Z",
+  "fetchedAt": "2026-10-30T15:40:33.434Z",
+  "enrichedAt": "2026-10-30T15:41:15.854Z",
   "repos": [
+    {
+      "name": "wails",
+      "fullName": "wailsapp/wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Create beautiful applications using Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36837,
+      "forks": 1916,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "wailsapp",
+        "avatar": "https://avatars.githubusercontent.com/u/1943904?s=40&amp;v=4",
+        "url": "https://github.com/wailsapp"
+      },
+      "summary": "用 Go 构建桌面应用的框架，将 Go 后端与前端 Web 技术结合，打包为轻量原生可执行文件，替代 Electron。",
+      "tags": [
+        "go",
+        "desktop",
+        "gui",
+        "webview",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-30T15:41:10.749Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-workflows",
+      "fullName": "argoproj/argo-workflows",
+      "url": "https://github.com/argoproj/argo-workflows",
+      "description": "Workflow Engine for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17070,
+      "forks": 3722,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/u/1142830?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "Kubernetes 原生容器工作流引擎，用 YAML 定义 DAG 与步骤编排，支持并行、依赖、重试和产物传递，适合批处理与 CI/CD 流水线。",
+      "tags": [
+        "kubernetes",
+        "workflow",
+        "go",
+        "dag",
+        "ci-cd"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:10.848Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 93193,
+      "forks": 11180,
+      "starsToday": 110,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "开源RAG引擎，融合深度文档理解与Agent能力，为LLM提供高质量上下文层，支持可溯源的检索增强问答。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "document-parsing"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-30T15:41:10.850Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli-printing-press",
+      "fullName": "mvanhorn/cli-printing-press",
+      "url": "https://github.com/mvanhorn/cli-printing-press",
+      "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4893,
+      "forks": 533,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "mvanhorn",
+        "avatar": "https://avatars.githubusercontent.com/u/517103?s=40&amp;v=4",
+        "url": "https://github.com/mvanhorn"
+      },
+      "summary": "自动分析任意API并生成面向AI代理的CLI工具，集成SQLite同步、离线搜索与复合洞察命令。",
+      "tags": [
+        "cli",
+        "api",
+        "ai-agents",
+        "sqlite",
+        "go",
+        "codegen"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-30T15:41:10.795Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49091,
+      "forks": 3596,
+      "starsToday": 147,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic接口。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-30T15:41:12.106Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "milvus",
+      "fullName": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46537,
+      "forks": 4320,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "milvus-io",
+        "avatar": "https://avatars.githubusercontent.com/u/84113973?s=40&amp;v=4",
+        "url": "https://github.com/milvus-io"
+      },
+      "summary": "Milvus 是云原生高性能向量数据库，专为大规模向量近似最近邻检索设计，支撑 AI 应用与相似度搜索场景。",
+      "tags": [
+        "vector-database",
+        "ann-search",
+        "golang",
+        "cloud-native",
+        "ai"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-30T15:41:12.194Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "crossplane",
+      "fullName": "crossplane/crossplane",
+      "url": "https://github.com/crossplane/crossplane",
+      "description": "The Cloud Native Control Plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12208,
+      "forks": 1286,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "crossplane",
+        "avatar": "https://avatars.githubusercontent.com/u/1049349?s=40&amp;v=4",
+        "url": "https://github.com/crossplane"
+      },
+      "summary": "基于 Kubernetes 的云原生控制平面，用 CRD 统一声明式管理多云基础设施，无需自建 Terraform 流水线。",
+      "tags": [
+        "kubernetes",
+        "control-plane",
+        "infrastructure",
+        "cloud",
+        "go",
+        "gitops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:12.107Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "act",
+      "fullName": "nektos/act",
+      "url": "https://github.com/nektos/act",
+      "description": "Run your GitHub Actions locally 🚀",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72489,
+      "forks": 2087,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "nektos",
+        "avatar": "https://avatars.githubusercontent.com/u/2239057?s=40&amp;v=4",
+        "url": "https://github.com/nektos"
+      },
+      "summary": "用 Go 编写的工具，可在本地直接运行 GitHub Actions 工作流，免去反复推送调试，加速 CI 开发与验证。",
+      "tags": [
+        "github-actions",
+        "ci",
+        "go",
+        "cli",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-30T15:41:12.050Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kserve",
+      "fullName": "kserve/kserve",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6174,
+      "forks": 1768,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "kserve",
+        "avatar": "https://avatars.githubusercontent.com/u/7662095?s=40&amp;v=4",
+        "url": "https://github.com/kserve"
+      },
+      "summary": "Kubernetes上的标准化AI推理平台，统一支持生成式与预测式模型的多框架、可扩展部署。",
+      "tags": [
+        "kubernetes",
+        "inference",
+        "mlops",
+        "go",
+        "serving"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:13.249Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 116263,
+      "forks": 6725,
+      "starsToday": 295,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "用\"原始人语\"压缩提示词的技能与代理，为编码智能体削减约65%的token消耗。",
+      "tags": [
+        "llm",
+        "tokens",
+        "proxy",
+        "prompt",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-30T04:54:03.458Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fleet",
+      "fullName": "fleetdm/fleet",
+      "url": "https://github.com/fleetdm/fleet",
+      "description": "Open device management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7080,
+      "forks": 1096,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "fleetdm",
+        "avatar": "https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4",
+        "url": "https://github.com/fleetdm"
+      },
+      "summary": "开源设备管理平台，统一管理笔记本、服务器、移动设备与容器，支持OSQuery实时查询、合规策略与漏洞可见性。",
+      "tags": [
+        "device-management",
+        "osquery",
+        "go",
+        "security",
+        "mdm"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:13.259Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38347,
+      "forks": 3389,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于 WireGuard 的零配置网状 VPN 方案，提供身份认证与访问控制，让设备间安全互联变得简单。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:13.228Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "loki",
+      "fullName": "grafana/loki",
+      "url": "https://github.com/grafana/loki",
+      "description": "Like Prometheus, but for logs.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29094,
+      "forks": 4164,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "grafana",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/grafana"
+      },
+      "summary": "Grafana Loki 是受 Prometheus 启发的水平可扩展日志聚合系统，只索引标签而非全文，存储成本低，可与 Grafana 无缝集成查询日志。",
+      "tags": [
+        "logging",
+        "observability",
+        "prometheus",
+        "grafana",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:13.593Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24503,
+      "forks": 8068,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实源自动同步集群状态，支持多集群管理与可视化回滚。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:14.350Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nomad",
+      "fullName": "hashicorp/nomad",
+      "url": "https://github.com/hashicorp/nomad",
+      "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17059,
+      "forks": 2154,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/1047914?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "Nomad 是 HashiCorp 开源的易用高性能工作负载编排器，可统一调度微服务、批处理及容器与非容器应用，原生集成 Consul 和 Vault。",
+      "tags": [
+        "nomad",
+        "orchestration",
+        "scheduler",
+        "golang",
+        "hashicorp",
+        "cluster"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:14.613Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "docker-agent",
+      "fullName": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4621,
+      "forks": 542,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker工程团队开源的AI Agent构建与运行时，用Go编写，可定义、组合并在容器中运行多智能体工作流。",
+      "tags": [
+        "ai",
+        "agent",
+        "docker",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-30T15:41:14.576Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "frp",
+      "fullName": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 110333,
+      "forks": 15287,
+      "starsToday": 49,
+      "topics": [],
+      "author": {
+        "name": "fatedier",
+        "avatar": "https://avatars.githubusercontent.com/u/7346661?s=40&amp;v=4",
+        "url": "https://github.com/fatedier"
+      },
+      "summary": "Go 编写的高性能反向代理，可将 NAT 或防火墙后的本地服务安全暴露到公网，支持 TCP/UDP/HTTP 等协议与内网穿透。",
+      "tags": [
+        "go",
+        "reverse-proxy",
+        "nat",
+        "tunnel",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:15.222Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opentelemetry-collector-contrib",
+      "fullName": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5034,
+      "forks": 4067,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "open-telemetry",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/open-telemetry"
+      },
+      "summary": "OpenTelemetry Collector 官方贡献仓库，汇集大量第三方接收器、处理器与导出器组件，用于构建可扩展的统一遥测数据采集管道。",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "go",
+        "telemetry",
+        "collector"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T15:41:15.490Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 54369,
+      "forks": 7156,
+      "starsToday": 142,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与AI智能体在同一团队中协同工作，基于Go构建。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-30T15:41:15.854Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5532,
+      "forks": 609,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的 Agentic Workflows 工具，用 Go 编写，让开发者以声明式方式在 GitHub Actions 中编排 AI 代理工作流，简化自动化任务构建。",
+      "tags": [
+        "github",
+        "ai",
+        "workflow",
+        "automation",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-30T15:41:15.689Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sub2api",
+      "fullName": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 45154,
+      "forks": 9725,
+      "starsToday": 75,
+      "topics": [],
+      "author": {
+        "name": "Wei-Shaw",
+        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
+        "url": "https://github.com/Wei-Shaw"
+      },
+      "summary": "Go 编写的开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具可直接使用。",
+      "tags": [
+        "api-gateway",
+        "proxy",
+        "llm",
+        "go",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-30T04:54:08.903Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lazygit",
+      "fullName": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 83536,
+      "forks": 3209,
+      "starsToday": 43,
+      "topics": [],
+      "author": {
+        "name": "jesseduffield",
+        "avatar": "https://avatars.githubusercontent.com/u/1225667?s=40&amp;v=4",
+        "url": "https://github.com/jesseduffield"
+      },
+      "summary": "用 Go 编写的终端 Git 图形界面，以快捷键完成提交、分支、暂存与变基等操作，让命令行 Git 更直观高效。",
+      "tags": [
+        "git",
+        "tui",
+        "go",
+        "cli",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-30T04:54:06.237Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ax",
+      "fullName": "google/ax",
+      "url": "https://github.com/google/ax",
+      "description": "Agent Executor (AX) is Google's open agentic orchestration runtime",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14375,
+      "forks": 767,
+      "starsToday": 93,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "Google开源的智能体编排运行时，用Go编写，提供可扩展的Agent执行与调度基础设施。",
+      "tags": [
+        "agent",
+        "orchestration",
+        "go",
+        "runtime",
+        "google"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-30T04:54:04.972Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "beads",
       "fullName": "gastownhall/beads",
@@ -31,34 +678,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-30T04:54:03.633Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 116145,
-      "forks": 6717,
-      "starsToday": 295,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "用\"原始人语\"压缩提示词的技能与代理，为编码智能体削减约65%的token消耗。",
-      "tags": [
-        "llm",
-        "tokens",
-        "proxy",
-        "prompt",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-30T04:54:03.458Z",
       "deepwikiAvailable": false
     },
     {
@@ -175,34 +794,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ax",
-      "fullName": "google/ax",
-      "url": "https://github.com/google/ax",
-      "description": "Agent Executor (AX) is Google's open agentic orchestration runtime",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 14361,
-      "forks": 764,
-      "starsToday": 93,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/108380?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "Google开源的智能体编排运行时，用Go编写，提供可扩展的Agent执行与调度基础设施。",
-      "tags": [
-        "agent",
-        "orchestration",
-        "go",
-        "runtime",
-        "google"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-30T04:54:04.972Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "glance",
       "fullName": "glanceapp/glance",
       "url": "https://github.com/glanceapp/glance",
@@ -315,34 +906,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "lazygit",
-      "fullName": "jesseduffield/lazygit",
-      "url": "https://github.com/jesseduffield/lazygit",
-      "description": "simple terminal UI for git commands",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 83520,
-      "forks": 3200,
-      "starsToday": 33,
-      "topics": [],
-      "author": {
-        "name": "jesseduffield",
-        "avatar": "https://avatars.githubusercontent.com/u/1225667?s=40&amp;v=4",
-        "url": "https://github.com/jesseduffield"
-      },
-      "summary": "用 Go 编写的终端 Git 图形界面，以快捷键完成提交、分支、暂存与变基等操作，让命令行 Git 更直观高效。",
-      "tags": [
-        "git",
-        "tui",
-        "go",
-        "cli",
-        "terminal"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-30T04:54:06.237Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "superplane",
       "fullName": "superplanehq/superplane",
       "url": "https://github.com/superplanehq/superplane",
@@ -452,34 +1015,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-10-30T04:54:07.893Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "sub2api",
-      "fullName": "Wei-Shaw/sub2api",
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 45117,
-      "forks": 9707,
-      "starsToday": 75,
-      "topics": [],
-      "author": {
-        "name": "Wei-Shaw",
-        "avatar": "https://avatars.githubusercontent.com/u/26101719?s=40&amp;v=4",
-        "url": "https://github.com/Wei-Shaw"
-      },
-      "summary": "Go 编写的开源 API 中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，原生工具可直接使用。",
-      "tags": [
-        "api-gateway",
-        "proxy",
-        "llm",
-        "go",
-        "self-hosted"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-30T04:54:08.903Z",
       "deepwikiAvailable": false
     },
     {
