@@ -2,9 +2,516 @@
   "date": "2026-10-31",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-10-31T04:39:19.370Z",
-  "enrichedAt": "2026-10-31T04:39:59.802Z",
+  "fetchedAt": "2026-10-31T15:09:58.534Z",
+  "enrichedAt": "2026-10-31T15:10:34.532Z",
   "repos": [
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49164,
+      "forks": 3600,
+      "starsToday": 82,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic接口。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-31T04:39:55.094Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "betterleaks",
+      "fullName": "betterleaks/betterleaks",
+      "url": "https://github.com/betterleaks/betterleaks",
+      "description": "Find leaked secrets everywhere.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2694,
+      "forks": 172,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "betterleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/betterleaks"
+      },
+      "summary": "Go 编写的密钥泄露扫描工具，可在代码、文件与各类数据源中快速发现泄露的 API Key、令牌等敏感信息。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-31T15:10:30.946Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cilium",
+      "fullName": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25742,
+      "forks": 4203,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "cilium",
+        "avatar": "https://avatars.githubusercontent.com/u/5714066?s=40&amp;v=4",
+        "url": "https://github.com/cilium"
+      },
+      "summary": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，提供高性能容器网络、L3/L4 策略与流量监控。",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "networking",
+        "security",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-31T15:10:30.929Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "k3s",
+      "fullName": "k3s-io/k3s",
+      "url": "https://github.com/k3s-io/k3s",
+      "description": "Lightweight Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34295,
+      "forks": 2773,
+      "starsToday": 10,
+      "topics": [],
+      "author": {
+        "name": "k3s-io",
+        "avatar": "https://avatars.githubusercontent.com/u/370103?s=40&amp;v=4",
+        "url": "https://github.com/k3s-io"
+      },
+      "summary": "轻量级Kubernetes发行版，单二进制打包，适合边缘与资源受限环境快速部署集群。",
+      "tags": [
+        "kubernetes",
+        "go",
+        "edge",
+        "container",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-31T15:10:30.907Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 54434,
+      "forks": 7166,
+      "starsToday": 71,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与AI代理作为同一团队协同工作，用Go编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T04:39:58.727Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16091,
+      "forks": 1786,
+      "starsToday": 92,
+      "topics": [],
+      "author": {
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
+      },
+      "summary": "开源自托管邮件服务器，集成邮件营销与NewsLetter功能，替代付费邮件服务，开发者友好。",
+      "tags": [
+        "mail",
+        "self-hosted",
+        "email-marketing",
+        "newsletter",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-31T15:10:30.891Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36110,
+      "forks": 4908,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体与自维护Wiki，基于Go构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T15:10:32.187Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "App-Store-Connect-CLI",
+      "fullName": "rorkai/App-Store-Connect-CLI",
+      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8151,
+      "forks": 711,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "rorkai",
+        "avatar": "https://avatars.githubusercontent.com/u/30552772?s=40&amp;v=4",
+        "url": "https://github.com/rorkai"
+      },
+      "summary": "用 Go 编写的 App Store Connect 命令行工具，可脚本化自动化 TestFlight、构建、提审、签名、订阅与截图等发布流程。",
+      "tags": [
+        "cli",
+        "go",
+        "app-store",
+        "testflight",
+        "automation",
+        "ios"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-31T15:10:32.271Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 116463,
+      "forks": 6744,
+      "starsToday": 216,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "面向编码智能体的技能与代理，通过\"穴居人式\"精简表达削减约65%的token消耗，降低调用成本。",
+      "tags": [
+        "llm",
+        "tokens",
+        "proxy",
+        "agents",
+        "cost-optimization"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T04:39:56.371Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7104,
+      "forks": 1108,
+      "starsToday": 60,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、经纬度与邮箱等信息，支持导出结构化数据。",
+      "tags": [
+        "go",
+        "scraper",
+        "google-maps",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-10-31T15:10:32.364Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "radar",
+      "fullName": "skyhook-io/radar",
+      "url": "https://github.com/skyhook-io/radar",
+      "description": "The missing open-source Kubernetes UI with a built-in MCP server for AI agents. See what's broken, why, and what changed. Issues, Topology, event timeline, Helm, GitOps, live service traffic, and cluster audits - all in one Go binary.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3996,
+      "forks": 265,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "skyhook-io",
+        "avatar": "https://avatars.githubusercontent.com/u/81293832?s=40&amp;v=4",
+        "url": "https://github.com/skyhook-io"
+      },
+      "summary": "开源Kubernetes可视化UI，内置MCP服务器供AI代理调用，集成问题诊断、拓扑图、事件时间线、Helm、GitOps与集群审计，单Go二进制部署。",
+      "tags": [
+        "kubernetes",
+        "mcp",
+        "observability",
+        "go",
+        "dashboard"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-31T15:10:31.882Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "Open source factory for one-shot engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8489,
+      "forks": 685,
+      "starsToday": 46,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的一次性工程自动化工厂，用 Go 构建，帮助团队编排和运行可复用的工程工作流。",
+      "tags": [
+        "go",
+        "automation",
+        "workflow",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-31T15:10:33.297Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AIStudio2API",
+      "fullName": "Mag1cFall/AIStudio2API",
+      "url": "https://github.com/Mag1cFall/AIStudio2API",
+      "description": "将AI Studio Playground和Build反代成API | AI Studio to OpenAI, Anthropic & Gemini Compatible API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 600,
+      "forks": 146,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "Mag1cFall",
+        "avatar": "https://avatars.githubusercontent.com/u/107487022?s=40&amp;v=4",
+        "url": "https://github.com/Mag1cFall"
+      },
+      "summary": "用Go将Google AI Studio的Playground与Build反代为OpenAI、Anthropic、Gemini兼容API，便于复用现有客户端与工具链。",
+      "tags": [
+        "go",
+        "proxy",
+        "api",
+        "gemini",
+        "openai",
+        "llm"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-31T15:10:33.476Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lazygit",
+      "fullName": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 83561,
+      "forks": 3224,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "jesseduffield",
+        "avatar": "https://avatars.githubusercontent.com/u/1225667?s=40&amp;v=4",
+        "url": "https://github.com/jesseduffield"
+      },
+      "summary": "基于 Go 的终端 Git 图形界面，用直观的 TUI 简化提交、分支、暂存与变基等常用操作，降低命令行使用门槛。",
+      "tags": [
+        "git",
+        "tui",
+        "cli",
+        "go",
+        "terminal"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-10-31T04:39:59.779Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26729,
+      "forks": 1134,
+      "starsToday": 32,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据记录、Docker 容器统计与告警通知，单二进制部署简单。",
+      "tags": [
+        "monitoring",
+        "go",
+        "docker",
+        "self-hosted",
+        "alerts"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-31T15:10:33.347Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "listmonk",
+      "fullName": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24095,
+      "forks": 2736,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "knadh",
+        "avatar": "https://avatars.githubusercontent.com/u/547147?s=40&amp;v=4",
+        "url": "https://github.com/knadh"
+      },
+      "summary": "高性能自托管邮件列表与newsletter管理工具，单二进制部署，自带现代化仪表盘，适合自建邮件营销与订阅管理。",
+      "tags": [
+        "newsletter",
+        "mailing-list",
+        "self-hosted",
+        "go",
+        "email"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-31T15:10:33.702Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38415,
+      "forks": 3398,
+      "starsToday": 67,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于 WireGuard 的零配置网状 VPN，支持 SSO/2FA 身份认证与 NAT 穿透，让设备间安全互联变得极其简单。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-10-31T04:39:57.141Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CasaOS",
+      "fullName": "IceWhaleTech/CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37464,
+      "forks": 2203,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "IceWhaleTech",
+        "avatar": "https://avatars.githubusercontent.com/u/13556972?s=40&amp;v=4",
+        "url": "https://github.com/IceWhaleTech"
+      },
+      "summary": "CasaOS 是开源的个人云系统，提供简洁易用的 Web 界面，把家用设备变成私有云，集中管理应用、文件与存储。",
+      "tags": [
+        "self-hosted",
+        "personal-cloud",
+        "go",
+        "nas",
+        "docker"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-10-31T15:10:34.532Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "wails",
       "fullName": "wailsapp/wails",
@@ -115,34 +622,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-10-31T04:39:54.521Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "open-code-review",
-      "fullName": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 49140,
-      "forks": 3597,
-      "starsToday": 163,
-      "topics": [],
-      "author": {
-        "name": "alibaba",
-        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
-        "url": "https://github.com/alibaba"
-      },
-      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic接口。",
-      "tags": [
-        "code-review",
-        "llm",
-        "go",
-        "static-analysis",
-        "security"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-31T04:39:55.094Z",
       "deepwikiAvailable": false
     },
     {
@@ -258,34 +737,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 116361,
-      "forks": 6741,
-      "starsToday": 296,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "面向编码智能体的技能与代理，通过\"穴居人式\"精简表达削减约65%的token消耗，降低调用成本。",
-      "tags": [
-        "llm",
-        "tokens",
-        "proxy",
-        "agents",
-        "cost-optimization"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-31T04:39:56.371Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "fleet",
       "fullName": "fleetdm/fleet",
       "url": "https://github.com/fleetdm/fleet",
@@ -311,34 +762,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-31T04:39:56.498Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "tailscale",
-      "fullName": "tailscale/tailscale",
-      "url": "https://github.com/tailscale/tailscale",
-      "description": "The easiest, most secure way to use WireGuard and 2FA.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 38382,
-      "forks": 3396,
-      "starsToday": 57,
-      "topics": [],
-      "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
-      },
-      "summary": "基于 WireGuard 的零配置网状 VPN，支持 SSO/2FA 身份认证与 NAT 穿透，让设备间安全互联变得极其简单。",
-      "tags": [
-        "vpn",
-        "wireguard",
-        "networking",
-        "go",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-10-31T04:39:57.141Z",
       "deepwikiAvailable": false
     },
     {
@@ -510,34 +933,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "multica",
-      "fullName": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 54396,
-      "forks": 7167,
-      "starsToday": 137,
-      "topics": [],
-      "author": {
-        "name": "multica-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
-        "url": "https://github.com/multica-ai"
-      },
-      "summary": "开源可自托管的人机协作平台，让人类与AI代理作为同一团队协同工作，用Go编写。",
-      "tags": [
-        "ai-agents",
-        "collaboration",
-        "self-hosted",
-        "go",
-        "open-source"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-31T04:39:58.727Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "gh-aw",
       "fullName": "github/gh-aw",
       "url": "https://github.com/github/gh-aw",
@@ -591,34 +986,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-10-31T04:39:59.725Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "lazygit",
-      "fullName": "jesseduffield/lazygit",
-      "url": "https://github.com/jesseduffield/lazygit",
-      "description": "simple terminal UI for git commands",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 83545,
-      "forks": 3218,
-      "starsToday": 42,
-      "topics": [],
-      "author": {
-        "name": "jesseduffield",
-        "avatar": "https://avatars.githubusercontent.com/u/1225667?s=40&amp;v=4",
-        "url": "https://github.com/jesseduffield"
-      },
-      "summary": "基于 Go 的终端 Git 图形界面，用直观的 TUI 简化提交、分支、暂存与变基等常用操作，降低命令行使用门槛。",
-      "tags": [
-        "git",
-        "tui",
-        "cli",
-        "go",
-        "terminal"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-10-31T04:39:59.779Z",
       "deepwikiAvailable": false
     },
     {

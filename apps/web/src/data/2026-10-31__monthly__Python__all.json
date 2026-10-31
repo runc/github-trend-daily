@@ -2,8 +2,8 @@
   "date": "2026-10-31",
   "since": "monthly",
   "language": "Python",
-  "fetchedAt": "2026-10-31T04:39:19.370Z",
-  "enrichedAt": "2026-10-31T04:41:02.127Z",
+  "fetchedAt": "2026-10-31T15:09:58.534Z",
+  "enrichedAt": "2026-10-31T15:10:52.939Z",
   "repos": [
     {
       "name": "knowledge-work-plugins",
@@ -12,8 +12,8 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 34065,
-      "forks": 3754,
+      "stars": 34139,
+      "forks": 3764,
       "starsToday": 8279,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 95915,
-      "forks": 10622,
+      "stars": 96437,
+      "forks": 10698,
       "starsToday": 49116,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Design physical products with AI",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 24375,
-      "forks": 2340,
+      "stars": 24449,
+      "forks": 2345,
       "starsToday": 7976,
       "topics": [],
       "author": {
@@ -96,8 +96,8 @@
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 45466,
-      "forks": 4740,
+      "stars": 45519,
+      "forks": 4744,
       "starsToday": 8442,
       "topics": [],
       "author": {
@@ -124,8 +124,8 @@
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 24600,
-      "forks": 3271,
+      "stars": 24842,
+      "forks": 3302,
       "starsToday": 6415,
       "topics": [],
       "author": {
@@ -152,8 +152,8 @@
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 106896,
-      "forks": 9502,
+      "stars": 107115,
+      "forks": 9524,
       "starsToday": 21207,
       "topics": [],
       "author": {
@@ -174,14 +174,98 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "asd-ste100-skill",
+      "fullName": "danyuchn/asd-ste100-skill",
+      "url": "https://github.com/danyuchn/asd-ste100-skill",
+      "description": "ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 5875,
+      "forks": 341,
+      "starsToday": 3590,
+      "topics": [],
+      "author": {
+        "name": "danyuchn",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/danyuchn"
+      },
+      "summary": "将ASD-STE100简化技术英语规则封装为Claude Code技能，用于改写面向AI代理的模糊英文表述，提升指令清晰度与可执行性。",
+      "tags": [
+        "claude",
+        "prompt-engineering",
+        "ste100",
+        "writing",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T15:10:52.882Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 23644,
+      "forks": 2045,
+      "starsToday": 4985,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "AI Agent 技能安全扫描器，安装前检测 Claude Code、Codex 与 MCP 技能中的提示注入、数据外泄和供应链风险。",
+      "tags": [
+        "security",
+        "ai-agent",
+        "mcp",
+        "scanner",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-10-31T04:41:00.640Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DeepTutor",
+      "fullName": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 52437,
+      "forks": 6424,
+      "starsToday": 11148,
+      "topics": [],
+      "author": {
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/150592536?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
+      },
+      "summary": "DeepTutor 是港大开源的终身个性化 AI 辅导系统，基于 Python 构建，可为学习者提供持续记忆与自适应教学。",
+      "tags": [
+        "ai",
+        "education",
+        "tutoring",
+        "python",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T04:41:01.133Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "CLI-Anything",
       "fullName": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 57853,
-      "forks": 5207,
+      "stars": 57887,
+      "forks": 5210,
       "starsToday": 7064,
       "topics": [],
       "author": {
@@ -208,8 +292,8 @@
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 65240,
-      "forks": 10159,
+      "stars": 65345,
+      "forks": 10180,
       "starsToday": 9567,
       "topics": [],
       "author": {
@@ -237,8 +321,8 @@
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 73533,
-      "forks": 9635,
+      "stars": 73813,
+      "forks": 9673,
       "starsToday": 11782,
       "topics": [],
       "author": {
@@ -256,6 +340,118 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-31T04:41:00.042Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 75987,
+      "forks": 13406,
+      "starsToday": 15219,
+      "topics": [],
+      "author": {
+        "name": "rohitg00",
+        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
+        "url": "https://github.com/rohitg00"
+      },
+      "summary": "从零学习AI工程的实战教程仓库，涵盖原理讲解、动手实现与项目落地，帮助开发者系统掌握AI应用开发全流程。",
+      "tags": [
+        "ai",
+        "tutorial",
+        "python",
+        "llm",
+        "education"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T04:41:01.203Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-howto",
+      "fullName": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 46251,
+      "forks": 5671,
+      "starsToday": 4702,
+      "topics": [],
+      "author": {
+        "name": "luongnv89",
+        "avatar": "https://avatars.githubusercontent.com/u/3288457?s=40&amp;v=4",
+        "url": "https://github.com/luongnv89"
+      },
+      "summary": "面向 Claude Code 的可视化实战指南，从基础概念到高级 Agent，提供可直接复制的模板，快速上手并落地。",
+      "tags": [
+        "claude",
+        "ai-agents",
+        "tutorial",
+        "templates",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T04:41:01.732Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jasna",
+      "fullName": "Kruk2/jasna",
+      "url": "https://github.com/Kruk2/jasna",
+      "description": "Video restoration tool",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 4171,
+      "forks": 341,
+      "starsToday": 2265,
+      "topics": [],
+      "author": {
+        "name": "Kruk2",
+        "avatar": "https://avatars.githubusercontent.com/u/59397941?s=40&amp;v=4",
+        "url": "https://github.com/Kruk2"
+      },
+      "summary": "基于Python的视频修复工具，用于去除视频中的噪点、模糊等画质问题，提升画面清晰度。",
+      "tags": [
+        "video",
+        "restoration",
+        "python",
+        "image-processing",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T04:41:02.127Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 83004,
+      "forks": 12549,
+      "starsToday": 7915,
+      "topics": [],
+      "author": {
+        "name": "666ghj",
+        "avatar": "https://avatars.githubusercontent.com/u/110395318?s=40&amp;v=4",
+        "url": "https://github.com/666ghj"
+      },
+      "summary": "基于群体智能的通用预测引擎，用多智能体模拟对任意事件进行趋势推演与预测，简洁易用。",
+      "tags": [
+        "swarm-intelligence",
+        "prediction",
+        "multi-agent",
+        "python",
+        "simulation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-10-31T15:10:52.939Z",
       "deepwikiAvailable": false
     },
     {
@@ -288,90 +484,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "SkillSpector",
-      "fullName": "NVIDIA/SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 23559,
-      "forks": 2037,
-      "starsToday": 4985,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "AI Agent 技能安全扫描器，安装前检测 Claude Code、Codex 与 MCP 技能中的提示注入、数据外泄和供应链风险。",
-      "tags": [
-        "security",
-        "ai-agent",
-        "mcp",
-        "scanner",
-        "python"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-10-31T04:41:00.640Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-engineering-from-scratch",
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 75761,
-      "forks": 13346,
-      "starsToday": 15219,
-      "topics": [],
-      "author": {
-        "name": "rohitg00",
-        "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4",
-        "url": "https://github.com/rohitg00"
-      },
-      "summary": "从零学习AI工程的实战教程仓库，涵盖原理讲解、动手实现与项目落地，帮助开发者系统掌握AI应用开发全流程。",
-      "tags": [
-        "ai",
-        "tutorial",
-        "python",
-        "llm",
-        "education"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-31T04:41:01.203Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "DeepTutor",
-      "fullName": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 51918,
-      "forks": 6363,
-      "starsToday": 11148,
-      "topics": [],
-      "author": {
-        "name": "HKUDS",
-        "avatar": "https://avatars.githubusercontent.com/u/150592536?s=40&amp;v=4",
-        "url": "https://github.com/HKUDS"
-      },
-      "summary": "DeepTutor 是港大开源的终身个性化 AI 辅导系统，基于 Python 构建，可为学习者提供持续记忆与自适应教学。",
-      "tags": [
-        "ai",
-        "education",
-        "tutoring",
-        "python",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-31T04:41:01.133Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Octop",
       "fullName": "TencentCloud/Octop",
       "url": "https://github.com/TencentCloud/Octop",
@@ -397,62 +509,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-10-31T04:41:01.605Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "claude-howto",
-      "fullName": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 46229,
-      "forks": 5669,
-      "starsToday": 4702,
-      "topics": [],
-      "author": {
-        "name": "luongnv89",
-        "avatar": "https://avatars.githubusercontent.com/u/3288457?s=40&amp;v=4",
-        "url": "https://github.com/luongnv89"
-      },
-      "summary": "面向 Claude Code 的可视化实战指南，从基础概念到高级 Agent，提供可直接复制的模板，快速上手并落地。",
-      "tags": [
-        "claude",
-        "ai-agents",
-        "tutorial",
-        "templates",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-31T04:41:01.732Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jasna",
-      "fullName": "Kruk2/jasna",
-      "url": "https://github.com/Kruk2/jasna",
-      "description": "Video restoration tool",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 4133,
-      "forks": 339,
-      "starsToday": 2265,
-      "topics": [],
-      "author": {
-        "name": "Kruk2",
-        "avatar": "https://avatars.githubusercontent.com/u/59397941?s=40&amp;v=4",
-        "url": "https://github.com/Kruk2"
-      },
-      "summary": "基于Python的视频修复工具，用于去除视频中的噪点、模糊等画质问题，提升画面清晰度。",
-      "tags": [
-        "video",
-        "restoration",
-        "python",
-        "image-processing",
-        "ai"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-10-31T04:41:02.127Z",
       "deepwikiAvailable": false
     }
   ]
