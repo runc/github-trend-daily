@@ -2,8 +2,8 @@
   "date": "2026-11-03",
   "since": "monthly",
   "language": "Java",
-  "fetchedAt": "2026-11-03T05:48:37.776Z",
-  "enrichedAt": "2026-11-03T05:50:48.468Z",
+  "fetchedAt": "2026-11-03T16:52:45.473Z",
+  "enrichedAt": "2026-11-03T16:53:42.678Z",
   "repos": [
     {
       "name": "ghidra",
@@ -12,8 +12,8 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 97269,
-      "forks": 11010,
+      "stars": 97459,
+      "forks": 11030,
       "starsToday": 17043,
       "topics": [],
       "author": {
@@ -34,31 +34,60 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "HMCL",
-      "fullName": "HMCL-dev/HMCL",
-      "url": "https://github.com/HMCL-dev/HMCL",
-      "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular",
+      "name": "ghidra-mcp",
+      "fullName": "bethington/ghidra-mcp",
+      "url": "https://github.com/bethington/ghidra-mcp",
+      "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 10876,
-      "forks": 1297,
-      "starsToday": 762,
+      "stars": 6091,
+      "forks": 378,
+      "starsToday": 2011,
       "topics": [],
       "author": {
-        "name": "HMCL-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/5411982?s=40&amp;v=4",
-        "url": "https://github.com/HMCL-dev"
+        "name": "bethington",
+        "avatar": "https://avatars.githubusercontent.com/u/5455441?s=40&amp;v=4",
+        "url": "https://github.com/bethington"
       },
-      "summary": "跨平台多功能 Minecraft 启动器，支持多版本管理、模组与整合包安装，界面友好且社区活跃。",
+      "summary": "Ghidra 的 MCP 服务器，提供 200+ 工具让 AI 驱动逆向工程，支持 GUI 插件与无头服务、批量操作及 Docker 部署。",
       "tags": [
-        "minecraft",
-        "launcher",
+        "ghidra",
+        "mcp",
+        "reverse-engineering",
         "java",
-        "cross-platform",
-        "gaming"
+        "ai",
+        "docker"
       ],
-      "category": "App",
-      "enrichedAt": "2026-11-03T05:50:41.694Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-11-03T05:50:43.173Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Apktool",
+      "fullName": "iBotPeaches/Apktool",
+      "url": "https://github.com/iBotPeaches/Apktool",
+      "description": "A tool for reverse engineering Android apk files",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 26973,
+      "forks": 4216,
+      "starsToday": 1277,
+      "topics": [],
+      "author": {
+        "name": "iBotPeaches",
+        "avatar": "https://avatars.githubusercontent.com/u/611784?s=40&amp;v=4",
+        "url": "https://github.com/iBotPeaches"
+      },
+      "summary": "Android APK 逆向工程工具，可反编译资源与 smali 代码并重新打包签名，是安卓逆向分析的事实标准。",
+      "tags": [
+        "android",
+        "reverse-engineering",
+        "apk",
+        "decompiler",
+        "java"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-03T05:50:41.608Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,8 +97,8 @@
       "description": "MCP Server for Ghidra",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 11723,
-      "forks": 1259,
+      "stars": 11738,
+      "forks": 1263,
       "starsToday": 1521,
       "topics": [],
       "author": {
@@ -90,31 +119,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Apktool",
-      "fullName": "iBotPeaches/Apktool",
-      "url": "https://github.com/iBotPeaches/Apktool",
-      "description": "A tool for reverse engineering Android apk files",
+      "name": "HMCL",
+      "fullName": "HMCL-dev/HMCL",
+      "url": "https://github.com/HMCL-dev/HMCL",
+      "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 26952,
-      "forks": 4210,
-      "starsToday": 1277,
+      "stars": 10883,
+      "forks": 1297,
+      "starsToday": 762,
       "topics": [],
       "author": {
-        "name": "iBotPeaches",
-        "avatar": "https://avatars.githubusercontent.com/u/611784?s=40&amp;v=4",
-        "url": "https://github.com/iBotPeaches"
+        "name": "HMCL-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/5411982?s=40&amp;v=4",
+        "url": "https://github.com/HMCL-dev"
       },
-      "summary": "Android APK 逆向工程工具，可反编译资源与 smali 代码并重新打包签名，是安卓逆向分析的事实标准。",
+      "summary": "跨平台多功能 Minecraft 启动器，支持多版本管理、模组与整合包安装，界面友好且社区活跃。",
       "tags": [
-        "android",
-        "reverse-engineering",
-        "apk",
-        "decompiler",
-        "java"
+        "minecraft",
+        "launcher",
+        "java",
+        "cross-platform",
+        "gaming"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-03T05:50:41.608Z",
+      "category": "App",
+      "enrichedAt": "2026-11-03T05:50:41.694Z",
       "deepwikiAvailable": false
     },
     {
@@ -152,7 +181,7 @@
       "description": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 5126,
+      "stars": 5132,
       "forks": 367,
       "starsToday": 332,
       "topics": [],
@@ -181,7 +210,7 @@
       "language": "Java",
       "languageColor": "#b07219",
       "stars": 81733,
-      "forks": 43464,
+      "forks": 43466,
       "starsToday": 549,
       "topics": [],
       "author": {
@@ -202,43 +231,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ghidra-mcp",
-      "fullName": "bethington/ghidra-mcp",
-      "url": "https://github.com/bethington/ghidra-mcp",
-      "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 6078,
-      "forks": 375,
-      "starsToday": 2011,
-      "topics": [],
-      "author": {
-        "name": "bethington",
-        "avatar": "https://avatars.githubusercontent.com/u/5455441?s=40&amp;v=4",
-        "url": "https://github.com/bethington"
-      },
-      "summary": "Ghidra 的 MCP 服务器，提供 200+ 工具让 AI 驱动逆向工程，支持 GUI 插件与无头服务、批量操作及 Docker 部署。",
-      "tags": [
-        "ghidra",
-        "mcp",
-        "reverse-engineering",
-        "java",
-        "ai",
-        "docker"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-03T05:50:43.173Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "elasticsearch",
       "fullName": "elastic/elasticsearch",
       "url": "https://github.com/elastic/elasticsearch",
       "description": "Free and Open Source, Distributed, RESTful Search Engine",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 78472,
-      "forks": 26241,
+      "stars": 78473,
+      "forks": 26240,
       "starsToday": 451,
       "topics": [],
       "author": {
@@ -265,8 +265,8 @@
       "description": "Apache Flink",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 26444,
-      "forks": 14208,
+      "stars": 26443,
+      "forks": 14207,
       "starsToday": 97,
       "topics": [],
       "author": {
@@ -287,31 +287,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ZombieBuddy",
-      "fullName": "zed-0xff/ZombieBuddy",
-      "url": "https://github.com/zed-0xff/ZombieBuddy",
-      "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
+      "name": "jadx",
+      "fullName": "skylot/jadx",
+      "url": "https://github.com/skylot/jadx",
+      "description": "Dex to Java decompiler",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 299,
-      "forks": 78,
-      "starsToday": 180,
+      "stars": 51538,
+      "forks": 5882,
+      "starsToday": 889,
       "topics": [],
       "author": {
-        "name": "zed-0xff",
-        "avatar": "https://avatars.githubusercontent.com/u/5986?s=40&amp;v=4",
-        "url": "https://github.com/zed-0xff"
+        "name": "skylot",
+        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
+        "url": "https://github.com/skylot"
       },
-      "summary": "基于 ByteBuddy 的 Java agent 框架，通过注解 API 在运行时修改《僵尸毁灭工程》游戏字节码，无需源码即可制作模组。",
+      "summary": "jadx 是一款将 Android DEX/APK 反编译为 Java 源码的工具，支持命令行与图形界面，便于逆向分析与代码审计。",
       "tags": [
-        "java",
-        "bytebuddy",
-        "agent",
-        "modding",
-        "bytecode"
+        "decompiler",
+        "android",
+        "dex",
+        "reverse-engineering",
+        "java"
       ],
-      "category": "Library",
-      "enrichedAt": "2026-11-03T05:50:44.392Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-11-03T05:50:45.811Z",
       "deepwikiAvailable": false
     },
     {
@@ -321,7 +321,7 @@
       "description": "AndroidIDE is an IDE for Android to develop full featured Android apps.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 3345,
+      "stars": 3346,
       "forks": 752,
       "starsToday": 175,
       "topics": [],
@@ -343,97 +343,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "termux-app",
-      "fullName": "termux/termux-app",
-      "url": "https://github.com/termux/termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 63982,
-      "forks": 8162,
-      "starsToday": 2335,
-      "topics": [],
-      "author": {
-        "name": "termux",
-        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
-        "url": "https://github.com/termux"
-      },
-      "summary": "Android 终端模拟器应用，内置 Linux 环境并可通过包管理器安装扩展各类软件包。",
-      "tags": [
-        "android",
-        "terminal",
-        "linux",
-        "emulator",
-        "cli"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-03T05:50:45.468Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jadx",
-      "fullName": "skylot/jadx",
-      "url": "https://github.com/skylot/jadx",
-      "description": "Dex to Java decompiler",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 51510,
-      "forks": 5875,
-      "starsToday": 889,
-      "topics": [],
-      "author": {
-        "name": "skylot",
-        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
-        "url": "https://github.com/skylot"
-      },
-      "summary": "jadx 是一款将 Android DEX/APK 反编译为 Java 源码的工具，支持命令行与图形界面，便于逆向分析与代码审计。",
-      "tags": [
-        "decompiler",
-        "android",
-        "dex",
-        "reverse-engineering",
-        "java"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-03T05:50:45.811Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "dependency-track",
-      "fullName": "DependencyTrack/dependency-track",
-      "url": "https://github.com/DependencyTrack/dependency-track",
-      "description": "Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 4399,
-      "forks": 853,
-      "starsToday": 148,
-      "topics": [],
-      "author": {
-        "name": "DependencyTrack",
-        "avatar": "https://avatars.githubusercontent.com/u/5693141?s=40&amp;v=4",
-        "url": "https://github.com/DependencyTrack"
-      },
-      "summary": "开源软件供应链组件分析平台，通过SBOM识别并降低第三方依赖风险，支持持续监控漏洞与许可证合规。",
-      "tags": [
-        "sbom",
-        "security",
-        "supply-chain",
-        "vulnerability",
-        "java"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-03T05:50:45.801Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Overdrive-release",
       "fullName": "yash-srivastava/Overdrive-release",
       "url": "https://github.com/yash-srivastava/Overdrive-release",
       "description": "Advanced Sentry Mode for BYD Vehicles",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 410,
+      "stars": 411,
       "forks": 120,
       "starsToday": 100,
       "topics": [],
@@ -455,14 +371,98 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "ZombieBuddy",
+      "fullName": "zed-0xff/ZombieBuddy",
+      "url": "https://github.com/zed-0xff/ZombieBuddy",
+      "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 302,
+      "forks": 79,
+      "starsToday": 180,
+      "topics": [],
+      "author": {
+        "name": "zed-0xff",
+        "avatar": "https://avatars.githubusercontent.com/u/5986?s=40&amp;v=4",
+        "url": "https://github.com/zed-0xff"
+      },
+      "summary": "基于 ByteBuddy 的 Java agent 框架，通过注解 API 在运行时修改《僵尸毁灭工程》游戏字节码，无需源码即可制作模组。",
+      "tags": [
+        "java",
+        "bytebuddy",
+        "agent",
+        "modding",
+        "bytecode"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-03T05:50:44.392Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 64020,
+      "forks": 8168,
+      "starsToday": 2335,
+      "topics": [],
+      "author": {
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
+        "url": "https://github.com/termux"
+      },
+      "summary": "Android 终端模拟器应用，内置 Linux 环境并可通过包管理器安装扩展各类软件包。",
+      "tags": [
+        "android",
+        "terminal",
+        "linux",
+        "emulator",
+        "cli"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-03T05:50:45.468Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dependency-track",
+      "fullName": "DependencyTrack/dependency-track",
+      "url": "https://github.com/DependencyTrack/dependency-track",
+      "description": "Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 4402,
+      "forks": 852,
+      "starsToday": 148,
+      "topics": [],
+      "author": {
+        "name": "DependencyTrack",
+        "avatar": "https://avatars.githubusercontent.com/u/5693141?s=40&amp;v=4",
+        "url": "https://github.com/DependencyTrack"
+      },
+      "summary": "开源软件供应链组件分析平台，通过SBOM识别并降低第三方依赖风险，支持持续监控漏洞与许可证合规。",
+      "tags": [
+        "sbom",
+        "security",
+        "supply-chain",
+        "vulnerability",
+        "java"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-03T05:50:45.801Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "interviews",
       "fullName": "kdn251/interviews",
       "url": "https://github.com/kdn251/interviews",
       "description": "Everything you need to know to get the job.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 65539,
-      "forks": 12932,
+      "stars": 65541,
+      "forks": 12933,
       "starsToday": 336,
       "topics": [],
       "author": {
@@ -489,8 +489,8 @@
       "description": "All Algorithms implemented in Java",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 66716,
-      "forks": 21468,
+      "stars": 66724,
+      "forks": 21469,
       "starsToday": 489,
       "topics": [],
       "author": {

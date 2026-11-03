@@ -2,8 +2,8 @@
   "date": "2026-11-03",
   "since": "weekly",
   "language": "Python",
-  "fetchedAt": "2026-11-03T05:48:37.776Z",
-  "enrichedAt": "2026-11-03T05:49:46.111Z",
+  "fetchedAt": "2026-11-03T16:52:45.473Z",
+  "enrichedAt": "2026-11-03T16:53:32.275Z",
   "repos": [
     {
       "name": "claude-seo",
@@ -12,8 +12,8 @@
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 26059,
-      "forks": 3406,
+      "stars": 26227,
+      "forks": 3422,
       "starsToday": 4091,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 186853,
-      "forks": 22066,
+      "stars": 187021,
+      "forks": 22088,
       "starsToday": 2828,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 120054,
-      "forks": 22964,
+      "stars": 120235,
+      "forks": 22998,
       "starsToday": 4603,
       "topics": [],
       "author": {
@@ -90,59 +90,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "treg",
-      "fullName": "superdesigndev/treg",
-      "url": "https://github.com/superdesigndev/treg",
-      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "name": "graphify",
+      "fullName": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 7055,
-      "forks": 632,
-      "starsToday": 854,
+      "stars": 141659,
+      "forks": 13546,
+      "starsToday": 5224,
       "topics": [],
       "author": {
-        "name": "superdesigndev",
-        "avatar": "https://avatars.githubusercontent.com/u/22532527?s=40&amp;v=4",
-        "url": "https://github.com/superdesigndev"
+        "name": "Graphify-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Graphify-Labs"
       },
-      "summary": "面向AI Agent的工具聚合平台，被称为\"Agent工具的OpenRouter\"，统一接入与调用各类工具，简化Agent工具集成。",
+      "summary": "将代码库及其文档、SQL模式、配置与PDF解析为可查询知识图谱的AI编程助手技能，基于本地确定性AST解析，每条边可溯源，无需向量库。",
       "tags": [
-        "agents",
-        "tools",
-        "llm",
-        "python",
-        "api"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-03T05:49:43.263Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "SkillSpector",
-      "fullName": "NVIDIA/SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 24042,
-      "forks": 2075,
-      "starsToday": 2073,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "面向 AI Agent 技能的安全扫描器，在安装前检测 Claude Code、Codex 与 MCP 技能中的漏洞、恶意模式、提示注入、数据外泄和供应链风险。",
-      "tags": [
-        "security",
-        "ai-agent",
-        "scanner",
-        "mcp",
-        "prompt-injection"
+        "knowledge-graph",
+        "ast",
+        "code-analysis",
+        "ai-coding",
+        "python"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-11-03T05:49:44.351Z",
+      "enrichedAt": "2026-11-03T05:49:44.578Z",
       "deepwikiAvailable": false
     },
     {
@@ -152,8 +124,8 @@
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 64094,
-      "forks": 5068,
+      "stars": 64298,
+      "forks": 5082,
       "starsToday": 3035,
       "topics": [],
       "author": {
@@ -174,14 +146,154 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "ffmpeg-skill",
+      "fullName": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 4438,
+      "forks": 350,
+      "starsToday": 1352,
+      "topics": [],
+      "author": {
+        "name": "kajisho5",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/kajisho5"
+      },
+      "summary": "面向编程智能体的本地视频编辑工具，提供42个FFmpeg工具、机器可读契约与MCP服务器，支持剪辑、字幕、重构图、响度与平台导出，无需云端和API密钥。",
+      "tags": [
+        "ffmpeg",
+        "mcp",
+        "video",
+        "ai-agent",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-03T16:53:30.756Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 75821,
+      "forks": 10029,
+      "starsToday": 3406,
+      "topics": [],
+      "author": {
+        "name": "calesthio",
+        "avatar": "https://avatars.githubusercontent.com/u/213189893?s=40&amp;v=4",
+        "url": "https://github.com/calesthio"
+      },
+      "summary": "开源智能体视频制作系统，内置12条制作流水线与100+工具，将AI编程助手变成完整视频工作室。",
+      "tags": [
+        "video",
+        "agent",
+        "python",
+        "ai",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-03T16:53:30.916Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "treg",
+      "fullName": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 7095,
+      "forks": 638,
+      "starsToday": 854,
+      "topics": [],
+      "author": {
+        "name": "superdesigndev",
+        "avatar": "https://avatars.githubusercontent.com/u/22532527?s=40&amp;v=4",
+        "url": "https://github.com/superdesigndev"
+      },
+      "summary": "面向AI Agent的工具聚合平台，被称为\"Agent工具的OpenRouter\"，统一接入与调用各类工具，简化Agent工具集成。",
+      "tags": [
+        "agents",
+        "tools",
+        "llm",
+        "python",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-03T05:49:43.263Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spec-kit",
+      "fullName": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 146434,
+      "forks": 13136,
+      "starsToday": 2495,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/15701806?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "面向规范驱动开发（SDD）的入门工具包，帮助团队用结构化规范流程快速启动项目。",
+      "tags": [
+        "spec-driven",
+        "sdd",
+        "toolkit",
+        "python",
+        "workflow"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-03T05:49:45.814Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 24168,
+      "forks": 2083,
+      "starsToday": 2073,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "面向 AI Agent 技能的安全扫描器，在安装前检测 Claude Code、Codex 与 MCP 技能中的漏洞、恶意模式、提示注入、数据外泄和供应链风险。",
+      "tags": [
+        "security",
+        "ai-agent",
+        "scanner",
+        "mcp",
+        "prompt-injection"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-03T05:49:44.351Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "AstrBot",
       "fullName": "AstrBotDevs/AstrBot",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 45717,
-      "forks": 3359,
+      "stars": 45835,
+      "forks": 3364,
       "starsToday": 1965,
       "topics": [],
       "author": {
@@ -203,59 +315,173 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "graphify",
-      "fullName": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "name": "last30days-skill",
+      "fullName": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 141340,
-      "forks": 13522,
-      "starsToday": 5224,
+      "stars": 66449,
+      "forks": 5814,
+      "starsToday": 841,
       "topics": [],
       "author": {
-        "name": "Graphify-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/Graphify-Labs"
+        "name": "mvanhorn",
+        "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&amp;v=4",
+        "url": "https://github.com/mvanhorn"
       },
-      "summary": "将代码库及其文档、SQL模式、配置与PDF解析为可查询知识图谱的AI编程助手技能，基于本地确定性AST解析，每条边可溯源，无需向量库。",
+      "summary": "AI Agent技能：跨Reddit、X、YouTube、HN、Polymarket及网页检索任意话题，并综合生成有据可依的摘要。",
       "tags": [
-        "knowledge-graph",
-        "ast",
-        "code-analysis",
-        "ai-coding",
+        "ai-agent",
+        "research",
+        "skill",
+        "summarization",
         "python"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-03T05:49:44.578Z",
+      "category": "AI",
+      "enrichedAt": "2026-11-03T16:53:30.853Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "spec-kit",
-      "fullName": "github/spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "name": "mempalace",
+      "fullName": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 145777,
-      "forks": 13072,
-      "starsToday": 2495,
+      "stars": 60324,
+      "forks": 7657,
+      "starsToday": 544,
       "topics": [],
       "author": {
-        "name": "github",
-        "avatar": "https://avatars.githubusercontent.com/u/15701806?s=40&amp;v=4",
-        "url": "https://github.com/github"
+        "name": "MemPalace",
+        "avatar": "https://avatars.githubusercontent.com/u/4753812?s=40&amp;v=4",
+        "url": "https://github.com/MemPalace"
       },
-      "summary": "面向规范驱动开发（SDD）的入门工具包，帮助团队用结构化规范流程快速启动项目。",
+      "summary": "开源AI记忆系统，为智能体提供长期记忆能力，基准测试表现领先且完全免费。",
       "tags": [
-        "spec-driven",
-        "sdd",
-        "toolkit",
+        "ai",
+        "memory",
+        "llm",
         "python",
-        "workflow"
+        "agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-03T05:49:45.771Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 94141,
+      "forks": 9882,
+      "starsToday": 3802,
+      "topics": [],
+      "author": {
+        "name": "D4Vinci",
+        "avatar": "https://avatars.githubusercontent.com/u/20604835?s=40&amp;v=4",
+        "url": "https://github.com/D4Vinci"
+      },
+      "summary": "Python 网页抓取框架，从单次请求到大规模爬虫全覆盖，自适应解析与反检测能力强。",
+      "tags": [
+        "scraping",
+        "crawler",
+        "python",
+        "web",
+        "automation"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-03T16:53:30.847Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pr-agent",
+      "fullName": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 14343,
+      "forks": 2058,
+      "starsToday": 591,
+      "topics": [],
+      "author": {
+        "name": "The-PR-Agent",
+        "avatar": "https://avatars.githubusercontent.com/u/21198860?s=40&amp;v=4",
+        "url": "https://github.com/The-PR-Agent"
+      },
+      "summary": "开源AI代码评审工具，自动分析PR并生成描述、审查意见与改进建议，可集成到GitHub/GitLab工作流。",
+      "tags": [
+        "code-review",
+        "llm",
+        "pull-request",
+        "python",
+        "automation"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-11-03T05:49:45.814Z",
+      "enrichedAt": "2026-11-03T16:53:32.275Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "DeepTutor",
+      "fullName": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 54652,
+      "forks": 6685,
+      "starsToday": 10827,
+      "topics": [],
+      "author": {
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/150592536?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
+      },
+      "summary": "DeepTutor 是港大数据智能实验室开源的终身个性化 AI 辅导系统，通过持续学习用户画像提供自适应教学，支持多学科对话式答疑与学习路径规划。",
+      "tags": [
+        "ai",
+        "tutor",
+        "education",
+        "llm",
+        "personalization",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-03T05:49:46.110Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AiSOC",
+      "fullName": "beenuar/AiSOC",
+      "url": "https://github.com/beenuar/AiSOC",
+      "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6939,
+      "forks": 715,
+      "starsToday": 2760,
+      "topics": [],
+      "author": {
+        "name": "beenuar",
+        "avatar": "https://avatars.githubusercontent.com/u/19245630?s=40&amp;v=4",
+        "url": "https://github.com/beenuar"
+      },
+      "summary": "开源AI安全运营中心：告警融合、LLM智能体分诊、MITRE ATT&CK调查，并记录可回放的决策账本；可自托管、无需API密钥，附带MCP服务器。",
+      "tags": [
+        "security",
+        "llm",
+        "soc",
+        "mitre-attack",
+        "mcp",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-03T16:53:32.228Z",
       "deepwikiAvailable": false
     },
     {
@@ -284,63 +510,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-11-03T05:49:46.111Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "mempalace",
-      "fullName": "MemPalace/mempalace",
-      "url": "https://github.com/MemPalace/mempalace",
-      "description": "The best-benchmarked open-source AI memory system. And it's free.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 60281,
-      "forks": 7643,
-      "starsToday": 544,
-      "topics": [],
-      "author": {
-        "name": "MemPalace",
-        "avatar": "https://avatars.githubusercontent.com/u/4753812?s=40&amp;v=4",
-        "url": "https://github.com/MemPalace"
-      },
-      "summary": "开源AI记忆系统，为智能体提供长期记忆能力，基准测试表现领先且完全免费。",
-      "tags": [
-        "ai",
-        "memory",
-        "llm",
-        "python",
-        "agents"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-03T05:49:45.771Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "DeepTutor",
-      "fullName": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 54409,
-      "forks": 6656,
-      "starsToday": 10827,
-      "topics": [],
-      "author": {
-        "name": "HKUDS",
-        "avatar": "https://avatars.githubusercontent.com/u/150592536?s=40&amp;v=4",
-        "url": "https://github.com/HKUDS"
-      },
-      "summary": "DeepTutor 是港大数据智能实验室开源的终身个性化 AI 辅导系统，通过持续学习用户画像提供自适应教学，支持多学科对话式答疑与学习路径规划。",
-      "tags": [
-        "ai",
-        "tutor",
-        "education",
-        "llm",
-        "personalization",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-03T05:49:46.110Z",
       "deepwikiAvailable": false
     }
   ]
