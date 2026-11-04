@@ -2,8 +2,8 @@
   "date": "2026-11-04",
   "since": "monthly",
   "language": "Go",
-  "fetchedAt": "2026-11-04T05:23:39.636Z",
-  "enrichedAt": "2026-11-04T05:25:32.102Z",
+  "fetchedAt": "2026-11-04T16:56:05.254Z",
+  "enrichedAt": "2026-11-04T16:57:08.791Z",
   "repos": [
     {
       "name": "ollama",
@@ -12,8 +12,8 @@
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 185840,
-      "forks": 18872,
+      "stars": 185910,
+      "forks": 18879,
       "starsToday": 4771,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 33212,
-      "forks": 5183,
+      "stars": 33286,
+      "forks": 5192,
       "starsToday": 8181,
       "topics": [],
       "author": {
@@ -62,31 +62,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "CodeAF",
-      "fullName": "Agent-Field/CodeAF",
-      "url": "https://github.com/Agent-Field/CodeAF",
-      "description": "Open-Source Software factory for Open Models",
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 628,
-      "forks": 73,
-      "starsToday": 361,
+      "stars": 38596,
+      "forks": 5901,
+      "starsToday": 510,
       "topics": [],
       "author": {
-        "name": "Agent-Field",
-        "avatar": "https://avatars.githubusercontent.com/u/29346072?s=40&amp;v=4",
-        "url": "https://github.com/Agent-Field"
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
       },
-      "summary": "面向开源模型的软件工厂，用 Go 构建多智能体流水线，自动完成编码、测试与交付，降低自托管模型落地门槛。",
+      "summary": "Docker Compose 官方工具，用 YAML 定义并一键启动多容器应用，简化本地开发与部署编排。",
       "tags": [
-        "go",
-        "agents",
-        "llm",
-        "automation",
-        "open-models"
+        "docker",
+        "containers",
+        "orchestration",
+        "yaml",
+        "golang"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-11-04T05:25:26.329Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-11-04T05:25:27.283Z",
       "deepwikiAvailable": false
     },
     {
@@ -96,8 +96,8 @@
       "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 7268,
-      "forks": 1132,
+      "stars": 7314,
+      "forks": 1147,
       "starsToday": 997,
       "topics": [],
       "author": {
@@ -118,31 +118,481 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "compose",
-      "fullName": "docker/compose",
-      "url": "https://github.com/docker/compose",
-      "description": "Define and run multi-container applications with Docker",
+      "name": "agent-beacon",
+      "fullName": "Asymptote-Labs/agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38595,
-      "forks": 5901,
-      "starsToday": 510,
+      "stars": 3270,
+      "forks": 288,
+      "starsToday": 1495,
+      "topics": [],
+      "author": {
+        "name": "Asymptote-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Asymptote-Labs"
+      },
+      "summary": "跨框架的AI Agent自进化记忆层，为不同Agent运行时提供统一持久化记忆与自我改进能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "memory",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T05:25:27.660Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CodeAF",
+      "fullName": "Agent-Field/CodeAF",
+      "url": "https://github.com/Agent-Field/CodeAF",
+      "description": "Open-Source Software factory for Open Models",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 631,
+      "forks": 75,
+      "starsToday": 361,
+      "topics": [],
+      "author": {
+        "name": "Agent-Field",
+        "avatar": "https://avatars.githubusercontent.com/u/29346072?s=40&amp;v=4",
+        "url": "https://github.com/Agent-Field"
+      },
+      "summary": "面向开源模型的软件工厂，用 Go 构建多智能体流水线，自动完成编码、测试与交付，降低自托管模型落地门槛。",
+      "tags": [
+        "go",
+        "agents",
+        "llm",
+        "automation",
+        "open-models"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T05:25:26.329Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38627,
+      "forks": 3422,
+      "starsToday": 1580,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于 WireGuard 的零配置安全组网工具，提供点对点加密连接与身份认证，轻松构建私有网络。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-04T16:57:08.691Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24538,
+      "forks": 8092,
+      "starsToday": 261,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实源自动同步集群状态，支持多集群管理与可视化回滚。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-04T16:57:08.790Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freehire",
+      "fullName": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3396,
+      "forks": 372,
+      "starsToday": 2937,
+      "topics": [],
+      "author": {
+        "name": "strelov1",
+        "avatar": "https://avatars.githubusercontent.com/u/10761735?s=40&amp;v=4",
+        "url": "https://github.com/strelov1"
+      },
+      "summary": "开源求职搜索引擎，聚合招聘信息并提供高效检索，帮助求职者快速找到合适职位。",
+      "tags": [
+        "job-search",
+        "search-engine",
+        "go",
+        "open-source",
+        "career"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-04T05:25:27.548Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llm-d-router",
+      "fullName": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 452,
+      "forks": 510,
+      "starsToday": 75,
+      "topics": [],
+      "author": {
+        "name": "llm-d",
+        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
+        "url": "https://github.com/llm-d"
+      },
+      "summary": "llm-d 的推理请求智能入口路由器，用 Go 编写，负责将 LLM 推理请求高效分发到后端模型服务，提升集群吞吐与延迟表现。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-04T05:25:28.594Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "shrt",
+      "fullName": "N4darae/shrt",
+      "url": "https://github.com/N4darae/shrt",
+      "description": "A contract-driven gRPC regression harness for AI coding agents, with human-approved baselines. Snapshot the valid call chains of an API so an agent can look one up instead of tracing for it. gRPC today, OpenAPI next",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2170,
+      "forks": 150,
+      "starsToday": 1711,
+      "topics": [],
+      "author": {
+        "name": "N4darae",
+        "avatar": "https://avatars.githubusercontent.com/u/221652879?s=40&amp;v=4",
+        "url": "https://github.com/N4darae"
+      },
+      "summary": "面向 AI 编码代理的契约驱动 gRPC 回归测试工具，快照合法调用链并需人工确认基线，让代理直接查询而非自行追踪，后续将支持 OpenAPI。",
+      "tags": [
+        "grpc",
+        "testing",
+        "ai-agents",
+        "regression",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-04T05:25:28.903Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keploy",
+      "fullName": "keploy/keploy",
+      "url": "https://github.com/keploy/keploy",
+      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19372,
+      "forks": 2449,
+      "starsToday": 849,
+      "topics": [],
+      "author": {
+        "name": "keploy",
+        "avatar": "https://avatars.githubusercontent.com/u/12831254?s=40&amp;v=4",
+        "url": "https://github.com/keploy"
+      },
+      "summary": "基于Go的开源测试平台，从真实流量自动生成API、集成与E2E测试用例及模拟数据，无需手写测试即可在隔离沙箱中安全验证。",
+      "tags": [
+        "testing",
+        "api",
+        "go",
+        "mocking",
+        "e2e"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-04T05:25:30.300Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "docker-agent",
+      "fullName": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4653,
+      "forks": 550,
+      "starsToday": 1292,
       "topics": [],
       "author": {
         "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
         "url": "https://github.com/docker"
       },
-      "summary": "Docker Compose 官方工具，用 YAML 定义并一键启动多容器应用，简化本地开发与部署编排。",
+      "summary": "Docker 工程团队开源的 AI Agent 构建与运行时，用 Go 编写，可快速定义、编排并运行智能体工作流。",
       "tags": [
+        "ai",
+        "agent",
+        "go",
         "docker",
-        "containers",
-        "orchestration",
-        "yaml",
-        "golang"
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T05:25:28.621Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whatsapp-mcp",
+      "fullName": "lharries/whatsapp-mcp",
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "description": "WhatsApp MCP server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6807,
+      "forks": 1480,
+      "starsToday": 436,
+      "topics": [],
+      "author": {
+        "name": "lharries",
+        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
+        "url": "https://github.com/lharries"
+      },
+      "summary": "基于Go的WhatsApp MCP服务器，让AI助手通过模型上下文协议读取和发送WhatsApp消息，实现个人聊天数据与LLM集成。",
+      "tags": [
+        "mcp",
+        "whatsapp",
+        "go",
+        "ai",
+        "messaging"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T05:25:29.658Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-native-callcenter",
+      "fullName": "rasonyang/ai-native-callcenter",
+      "url": "https://github.com/rasonyang/ai-native-callcenter",
+      "description": "Self-hosted API-first AI call center: AI talks, code controls the call. AI agents answer every call; humans take over without dropping it. Runs on FreeSWITCH with your SIP trunk and realtime model (OpenAI, Grok, Qwen, Doubao, or any compatible gateway).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 527,
+      "forks": 98,
+      "starsToday": 332,
+      "topics": [],
+      "author": {
+        "name": "rasonyang",
+        "avatar": "https://avatars.githubusercontent.com/u/1861686?s=40&amp;v=4",
+        "url": "https://github.com/rasonyang"
+      },
+      "summary": "自托管API优先的AI呼叫中心，基于FreeSWITCH与实时语音模型，AI接听所有来电，人工可无缝接管不中断通话。",
+      "tags": [
+        "callcenter",
+        "voice-ai",
+        "freeswitch",
+        "sip",
+        "go",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T05:25:31.438Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111729,
+      "forks": 15405,
+      "starsToday": 662,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "JavaScript 的超集语言，为 JS 添加静态类型，编译输出干净的 JavaScript，提升大型项目可维护性与开发体验。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "compiler",
+        "language",
+        "static-typing"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-11-04T05:25:30.052Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "awesome-ai-agents",
+      "fullName": "slavakurilyak/awesome-ai-agents",
+      "url": "https://github.com/slavakurilyak/awesome-ai-agents",
+      "description": "Awesome list of 300+ agentic AI resources",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2878,
+      "forks": 749,
+      "starsToday": 587,
+      "topics": [],
+      "author": {
+        "name": "slavakurilyak",
+        "avatar": "https://avatars.githubusercontent.com/u/6625584?s=40&amp;v=4",
+        "url": "https://github.com/slavakurilyak"
+      },
+      "summary": "汇集300多个AI智能体（Agent）相关资源的精选清单，涵盖框架、工具与学习资料，便于快速检索与选型。",
+      "tags": [
+        "awesome-list",
+        "ai-agents",
+        "llm",
+        "resources",
+        "agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T05:25:30.776Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42618,
+      "forks": 6104,
+      "starsToday": 836,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Go 编写的网络代理平台，兼容 v2ray-core 并支持 XTLS 等协议，用于构建高性能代理与穿透服务。",
+      "tags": [
+        "proxy",
+        "golang",
+        "v2ray",
+        "xtls",
+        "networking"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-04T05:25:31.296Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 60797,
+      "forks": 5650,
+      "starsToday": 802,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "Go 编写的云存储同步工具，被称为云存储版 rsync，支持 Google Drive、S3、Dropbox 等数十种后端，实现文件同步、挂载与加密传输。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "go",
+        "cli",
+        "s3",
+        "backup"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-04T05:25:32.102Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139562,
+      "forks": 21008,
+      "starsToday": 1969,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方仓库，包含编译器、运行时与标准库源码，是构建高并发、简洁高效后端服务的基础工具链。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "standard-library",
+        "runtime"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-04T05:25:28.811Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30668,
+      "forks": 2333,
+      "starsToday": 1075,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Gitleaks 是用 Go 编写的密钥扫描工具，可检测代码与提交历史中的密码、API Key 等敏感信息，支持 CI 集成与自定义规则。",
+      "tags": [
+        "security",
+        "secrets",
+        "go",
+        "cli",
+        "static-analysis"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-11-04T05:25:27.283Z",
+      "enrichedAt": "2026-11-04T16:57:08.714Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,202 +624,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "freehire",
-      "fullName": "strelov1/freehire",
-      "url": "https://github.com/strelov1/freehire",
-      "description": "freehire — the open-source search engine for job seekers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3477,
-      "forks": 368,
-      "starsToday": 2937,
-      "topics": [],
-      "author": {
-        "name": "strelov1",
-        "avatar": "https://avatars.githubusercontent.com/u/10761735?s=40&amp;v=4",
-        "url": "https://github.com/strelov1"
-      },
-      "summary": "开源求职搜索引擎，聚合招聘信息并提供高效检索，帮助求职者快速找到合适职位。",
-      "tags": [
-        "job-search",
-        "search-engine",
-        "go",
-        "open-source",
-        "career"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-11-04T05:25:27.548Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-beacon",
-      "fullName": "Asymptote-Labs/agent-beacon",
-      "url": "https://github.com/Asymptote-Labs/agent-beacon",
-      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3246,
-      "forks": 288,
-      "starsToday": 1495,
-      "topics": [],
-      "author": {
-        "name": "Asymptote-Labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/Asymptote-Labs"
-      },
-      "summary": "跨框架的AI Agent自进化记忆层，为不同Agent运行时提供统一持久化记忆与自我改进能力。",
-      "tags": [
-        "ai",
-        "agents",
-        "memory",
-        "go",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-04T05:25:27.660Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "llm-d-router",
-      "fullName": "llm-d/llm-d-router",
-      "url": "https://github.com/llm-d/llm-d-router",
-      "description": "llm-d Router: The intelligent entry point for inference requests",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 449,
-      "forks": 507,
-      "starsToday": 75,
-      "topics": [],
-      "author": {
-        "name": "llm-d",
-        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
-        "url": "https://github.com/llm-d"
-      },
-      "summary": "llm-d 的推理请求智能入口路由器，用 Go 编写，负责将 LLM 推理请求高效分发到后端模型服务，提升集群吞吐与延迟表现。",
-      "tags": [
-        "llm",
-        "router",
-        "inference",
-        "go",
-        "kubernetes"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-04T05:25:28.594Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "shrt",
-      "fullName": "N4darae/shrt",
-      "url": "https://github.com/N4darae/shrt",
-      "description": "A contract-driven gRPC regression harness for AI coding agents, with human-approved baselines. Snapshot the valid call chains of an API so an agent can look one up instead of tracing for it. gRPC today, OpenAPI next",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2149,
-      "forks": 149,
-      "starsToday": 1711,
-      "topics": [],
-      "author": {
-        "name": "N4darae",
-        "avatar": "https://avatars.githubusercontent.com/u/221652879?s=40&amp;v=4",
-        "url": "https://github.com/N4darae"
-      },
-      "summary": "面向 AI 编码代理的契约驱动 gRPC 回归测试工具，快照合法调用链并需人工确认基线，让代理直接查询而非自行追踪，后续将支持 OpenAPI。",
-      "tags": [
-        "grpc",
-        "testing",
-        "ai-agents",
-        "regression",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-04T05:25:28.903Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "docker-agent",
-      "fullName": "docker/docker-agent",
-      "url": "https://github.com/docker/docker-agent",
-      "description": "AI Agent Builder and Runtime by Docker Engineering",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4651,
-      "forks": 548,
-      "starsToday": 1292,
-      "topics": [],
-      "author": {
-        "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/153495?s=40&amp;v=4",
-        "url": "https://github.com/docker"
-      },
-      "summary": "Docker 工程团队开源的 AI Agent 构建与运行时，用 Go 编写，可快速定义、编排并运行智能体工作流。",
-      "tags": [
-        "ai",
-        "agent",
-        "go",
-        "docker",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-04T05:25:28.621Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "go",
-      "fullName": "golang/go",
-      "url": "https://github.com/golang/go",
-      "description": "The Go programming language",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 139561,
-      "forks": 21020,
-      "starsToday": 1969,
-      "topics": [],
-      "author": {
-        "name": "golang",
-        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
-        "url": "https://github.com/golang"
-      },
-      "summary": "Go 语言官方仓库，包含编译器、运行时与标准库源码，是构建高并发、简洁高效后端服务的基础工具链。",
-      "tags": [
-        "go",
-        "programming-language",
-        "compiler",
-        "standard-library",
-        "runtime"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-04T05:25:28.811Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "whatsapp-mcp",
-      "fullName": "lharries/whatsapp-mcp",
-      "url": "https://github.com/lharries/whatsapp-mcp",
-      "description": "WhatsApp MCP server",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6802,
-      "forks": 1476,
-      "starsToday": 436,
-      "topics": [],
-      "author": {
-        "name": "lharries",
-        "avatar": "https://avatars.githubusercontent.com/u/22766134?s=40&amp;v=4",
-        "url": "https://github.com/lharries"
-      },
-      "summary": "基于Go的WhatsApp MCP服务器，让AI助手通过模型上下文协议读取和发送WhatsApp消息，实现个人聊天数据与LLM集成。",
-      "tags": [
-        "mcp",
-        "whatsapp",
-        "go",
-        "ai",
-        "messaging"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-04T05:25:29.658Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "kubernetes",
       "fullName": "kubernetes/kubernetes",
       "url": "https://github.com/kubernetes/kubernetes",
@@ -398,147 +652,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "TypeScript",
-      "fullName": "microsoft/TypeScript",
-      "url": "https://github.com/microsoft/TypeScript",
-      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 111733,
-      "forks": 15409,
-      "starsToday": 662,
-      "topics": [],
-      "author": {
-        "name": "microsoft",
-        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
-        "url": "https://github.com/microsoft"
-      },
-      "summary": "JavaScript 的超集语言，为 JS 添加静态类型，编译输出干净的 JavaScript，提升大型项目可维护性与开发体验。",
-      "tags": [
-        "typescript",
-        "javascript",
-        "compiler",
-        "language",
-        "static-typing"
-      ],
-      "category": "Language",
-      "enrichedAt": "2026-11-04T05:25:30.052Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "keploy",
-      "fullName": "keploy/keploy",
-      "url": "https://github.com/keploy/keploy",
-      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 19294,
-      "forks": 2448,
-      "starsToday": 849,
-      "topics": [],
-      "author": {
-        "name": "keploy",
-        "avatar": "https://avatars.githubusercontent.com/u/12831254?s=40&amp;v=4",
-        "url": "https://github.com/keploy"
-      },
-      "summary": "基于Go的开源测试平台，从真实流量自动生成API、集成与E2E测试用例及模拟数据，无需手写测试即可在隔离沙箱中安全验证。",
-      "tags": [
-        "testing",
-        "api",
-        "go",
-        "mocking",
-        "e2e"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-04T05:25:30.300Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "awesome-ai-agents",
-      "fullName": "slavakurilyak/awesome-ai-agents",
-      "url": "https://github.com/slavakurilyak/awesome-ai-agents",
-      "description": "Awesome list of 300+ agentic AI resources",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 2872,
-      "forks": 745,
-      "starsToday": 587,
-      "topics": [],
-      "author": {
-        "name": "slavakurilyak",
-        "avatar": "https://avatars.githubusercontent.com/u/6625584?s=40&amp;v=4",
-        "url": "https://github.com/slavakurilyak"
-      },
-      "summary": "汇集300多个AI智能体（Agent）相关资源的精选清单，涵盖框架、工具与学习资料，便于快速检索与选型。",
-      "tags": [
-        "awesome-list",
-        "ai-agents",
-        "llm",
-        "resources",
-        "agents"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-04T05:25:30.776Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-native-callcenter",
-      "fullName": "rasonyang/ai-native-callcenter",
-      "url": "https://github.com/rasonyang/ai-native-callcenter",
-      "description": "Self-hosted API-first AI call center: AI talks, code controls the call. AI agents answer every call; humans take over without dropping it. Runs on FreeSWITCH with your SIP trunk and realtime model (OpenAI, Grok, Qwen, Doubao, or any compatible gateway).",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 524,
-      "forks": 98,
-      "starsToday": 332,
-      "topics": [],
-      "author": {
-        "name": "rasonyang",
-        "avatar": "https://avatars.githubusercontent.com/u/1861686?s=40&amp;v=4",
-        "url": "https://github.com/rasonyang"
-      },
-      "summary": "自托管API优先的AI呼叫中心，基于FreeSWITCH与实时语音模型，AI接听所有来电，人工可无缝接管不中断通话。",
-      "tags": [
-        "callcenter",
-        "voice-ai",
-        "freeswitch",
-        "sip",
-        "go",
-        "self-hosted"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-04T05:25:31.438Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Xray-core",
-      "fullName": "XTLS/Xray-core",
-      "url": "https://github.com/XTLS/Xray-core",
-      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 42607,
-      "forks": 6101,
-      "starsToday": 836,
-      "topics": [],
-      "author": {
-        "name": "XTLS",
-        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
-        "url": "https://github.com/XTLS"
-      },
-      "summary": "Go 编写的网络代理平台，兼容 v2ray-core 并支持 XTLS 等协议，用于构建高性能代理与穿透服务。",
-      "tags": [
-        "proxy",
-        "golang",
-        "v2ray",
-        "xtls",
-        "networking"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-04T05:25:31.296Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "tuios",
       "fullName": "Gaurav-Gosain/tuios",
       "url": "https://github.com/Gaurav-Gosain/tuios",
@@ -564,35 +677,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-11-04T05:25:31.682Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rclone",
-      "fullName": "rclone/rclone",
-      "url": "https://github.com/rclone/rclone",
-      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 60781,
-      "forks": 5646,
-      "starsToday": 802,
-      "topics": [],
-      "author": {
-        "name": "rclone",
-        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
-        "url": "https://github.com/rclone"
-      },
-      "summary": "Go 编写的云存储同步工具，被称为云存储版 rsync，支持 Google Drive、S3、Dropbox 等数十种后端，实现文件同步、挂载与加密传输。",
-      "tags": [
-        "cloud-storage",
-        "sync",
-        "go",
-        "cli",
-        "s3",
-        "backup"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-04T05:25:32.102Z",
       "deepwikiAvailable": false
     }
   ]

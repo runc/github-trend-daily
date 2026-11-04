@@ -2,9 +2,37 @@
   "date": "2026-11-04",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-11-04T05:23:39.636Z",
-  "enrichedAt": "2026-11-04T05:24:23.872Z",
+  "fetchedAt": "2026-11-04T16:56:05.254Z",
+  "enrichedAt": "2026-11-04T16:56:49.028Z",
   "repos": [
+    {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10884,
+      "forks": 405,
+      "starsToday": 524,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "用 Rust 编写的 Git worktree 管理 CLI，简化多工作树创建与切换，专为并行 AI 智能体工作流设计。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agents"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-04T05:24:20.881Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "agent-desktop",
       "fullName": "vercel-labs/agent-desktop",
@@ -12,9 +40,9 @@
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 13248,
-      "forks": 912,
-      "starsToday": 3791,
+      "stars": 14494,
+      "forks": 994,
+      "starsToday": 2463,
       "topics": [],
       "author": {
         "name": "vercel-labs",
@@ -34,31 +62,314 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "worktrunk",
-      "fullName": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "name": "zapfast",
+      "fullName": "crmne/zapfast",
+      "url": "https://github.com/crmne/zapfast",
+      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 10616,
-      "forks": 385,
-      "starsToday": 438,
+      "stars": 2751,
+      "forks": 298,
+      "starsToday": 295,
       "topics": [],
       "author": {
-        "name": "max-sixty",
-        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
-        "url": "https://github.com/max-sixty"
+        "name": "crmne",
+        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
+        "url": "https://github.com/crmne"
       },
-      "summary": "用 Rust 编写的 Git worktree 管理 CLI，简化多工作树创建与切换，专为并行 AI 智能体工作流设计。",
+      "summary": "用 Rust 和 egui 编写的原生 WhatsApp 桌面客户端，主打轻量快速，替代官方 Electron 版。",
       "tags": [
-        "git",
-        "worktree",
-        "cli",
         "rust",
-        "ai-agents"
+        "egui",
+        "whatsapp",
+        "desktop",
+        "chat"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-04T05:24:23.408Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-browser",
+      "fullName": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 45505,
+      "forks": 3127,
+      "starsToday": 133,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "基于Rust的浏览器自动化CLI，为AI智能体提供网页操作能力，让模型可直接驱动浏览器完成任务。",
+      "tags": [
+        "browser-automation",
+        "ai-agents",
+        "cli",
+        "rust"
       ],
       "category": "CLI",
-      "enrichedAt": "2026-11-04T05:24:20.881Z",
+      "enrichedAt": "2026-11-04T05:24:22.063Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CalibRaw",
+      "fullName": "Duecki1/CalibRaw",
+      "url": "https://github.com/Duecki1/CalibRaw",
+      "description": "Free, open-source RAW editor for Linux, Android, Windows and macOS. GPU-accelerated, non-destructive, with masks, HDR merge and local AI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 286,
+      "forks": 19,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "Duecki1",
+        "avatar": "https://avatars.githubusercontent.com/u/77442285?s=40&amp;v=4",
+        "url": "https://github.com/Duecki1"
+      },
+      "summary": "基于 Rust 的免费开源 RAW 照片编辑器，跨 Linux/Android/Windows/macOS，GPU 加速、非破坏性编辑，支持蒙版、HDR 合成与本地 AI。",
+      "tags": [
+        "raw",
+        "photo-editing",
+        "rust",
+        "gpu",
+        "cross-platform",
+        "ai"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-04T16:56:47.413Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 29063,
+      "forks": 2651,
+      "starsToday": 165,
+      "topics": [],
+      "author": {
+        "name": "t8y2",
+        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
+        "url": "https://github.com/t8y2"
+      },
+      "summary": "25MB轻量跨平台数据库客户端，支持MySQL、PostgreSQL、SQLite、Redis、MongoDB等100+数据库，内置AI助手、MCP服务与CLI，提供桌面端和Docker部署。",
+      "tags": [
+        "database",
+        "rust",
+        "gui",
+        "ai",
+        "mcp",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-04T16:56:47.704Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jan",
+      "fullName": "janhq/jan",
+      "url": "https://github.com/janhq/jan",
+      "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 45435,
+      "forks": 3146,
+      "starsToday": 58,
+      "topics": [],
+      "author": {
+        "name": "janhq",
+        "avatar": "https://avatars.githubusercontent.com/u/10354610?s=40&amp;v=4",
+        "url": "https://github.com/janhq"
+      },
+      "summary": "开源本地大模型桌面客户端，可完全离线运行，作为ChatGPT的隐私友好替代方案。",
+      "tags": [
+        "llm",
+        "offline",
+        "desktop",
+        "chatgpt-alternative",
+        "rust",
+        "privacy"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T05:24:23.854Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "infinity",
+      "fullName": "hydro-project/infinity",
+      "url": "https://github.com/hydro-project/infinity",
+      "description": "An agent runtime and tool protocol for principled agent concurrency",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 674,
+      "forks": 76,
+      "starsToday": 82,
+      "topics": [],
+      "author": {
+        "name": "hydro-project",
+        "avatar": "https://avatars.githubusercontent.com/u/543055?s=40&amp;v=4",
+        "url": "https://github.com/hydro-project"
+      },
+      "summary": "Rust 编写的智能体运行时与工具协议，为智能体并发提供有原则的调度与隔离，解决多智能体并行执行时的协调难题。",
+      "tags": [
+        "rust",
+        "agent",
+        "runtime",
+        "concurrency",
+        "protocol"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T16:56:47.551Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spotifast",
+      "fullName": "crmne/spotifast",
+      "url": "https://github.com/crmne/spotifast",
+      "description": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9664,
+      "forks": 572,
+      "starsToday": 75,
+      "topics": [],
+      "author": {
+        "name": "crmne",
+        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
+        "url": "https://github.com/crmne"
+      },
+      "summary": "用 Rust 编写的轻量原生 Spotify 客户端，支持完整曲库浏览、本地播放与 Spotify Connect，跨 Linux、macOS 和 Windows 运行。",
+      "tags": [
+        "spotify",
+        "rust",
+        "music",
+        "desktop",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-04T16:56:47.245Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "egui",
+      "fullName": "emilk/egui",
+      "url": "https://github.com/emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 31984,
+      "forks": 2316,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "emilk",
+        "avatar": "https://avatars.githubusercontent.com/u/1148717?s=40&amp;v=4",
+        "url": "https://github.com/emilk"
+      },
+      "summary": "Rust 编写的即时模式 GUI 库，API 简单易用，同一套代码可同时运行于 Web 与原生平台。",
+      "tags": [
+        "rust",
+        "gui",
+        "immediate-mode",
+        "wasm",
+        "cross-platform"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-04T16:56:48.581Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk-server",
+      "fullName": "rustdesk/rustdesk-server",
+      "url": "https://github.com/rustdesk/rustdesk-server",
+      "description": "RustDesk Server Program",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 10675,
+      "forks": 2739,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "RustDesk 远程桌面自建服务器端程序，用 Rust 实现中继与信令服务，可完全替代官方公共服务器，实现私有化部署和端到端自主可控。",
+      "tags": [
+        "rustdesk",
+        "remote-desktop",
+        "self-hosted",
+        "rust",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-04T16:56:48.840Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5003,
+      "forks": 844,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
+      },
+      "summary": "基于 Rust 的 WiFi 安全审计工具，提供图形界面进行无线网络扫描、握手包捕获与密码破解测试。",
+      "tags": [
+        "wifi",
+        "security",
+        "rust",
+        "auditing",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-11-04T16:56:49.028Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "octomind",
+      "fullName": "Muvon/octomind",
+      "url": "https://github.com/Muvon/octomind",
+      "description": "Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Runs in terminal, CI, or as a daemon.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 475,
+      "forks": 65,
+      "starsToday": 126,
+      "topics": [],
+      "author": {
+        "name": "Muvon",
+        "avatar": "https://avatars.githubusercontent.com/u/59067742?s=40&amp;v=4",
+        "url": "https://github.com/Muvon"
+      },
+      "summary": "开源AI编码代理与运行时，单一Rust二进制，支持任意模型与MCP原生，可在终端、CI或守护进程中运行。",
+      "tags": [
+        "ai",
+        "agent",
+        "rust",
+        "mcp",
+        "cli",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T16:56:48.693Z",
       "deepwikiAvailable": false
     },
     {
@@ -143,33 +454,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-04T05:24:22.195Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agent-browser",
-      "fullName": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 45433,
-      "forks": 3117,
-      "starsToday": 143,
-      "topics": [],
-      "author": {
-        "name": "vercel-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
-        "url": "https://github.com/vercel-labs"
-      },
-      "summary": "基于Rust的浏览器自动化CLI，为AI智能体提供网页操作能力，让模型可直接驱动浏览器完成任务。",
-      "tags": [
-        "browser-automation",
-        "ai-agents",
-        "cli",
-        "rust"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-04T05:24:22.063Z",
       "deepwikiAvailable": false
     },
     {
@@ -282,63 +566,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-04T05:24:23.417Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zapfast",
-      "fullName": "crmne/zapfast",
-      "url": "https://github.com/crmne/zapfast",
-      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2564,
-      "forks": 290,
-      "starsToday": 31,
-      "topics": [],
-      "author": {
-        "name": "crmne",
-        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
-        "url": "https://github.com/crmne"
-      },
-      "summary": "用 Rust 和 egui 编写的原生 WhatsApp 桌面客户端，主打轻量快速，替代官方 Electron 版。",
-      "tags": [
-        "rust",
-        "egui",
-        "whatsapp",
-        "desktop",
-        "chat"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-04T05:24:23.408Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jan",
-      "fullName": "janhq/jan",
-      "url": "https://github.com/janhq/jan",
-      "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 45410,
-      "forks": 3145,
-      "starsToday": 63,
-      "topics": [],
-      "author": {
-        "name": "janhq",
-        "avatar": "https://avatars.githubusercontent.com/u/10354610?s=40&amp;v=4",
-        "url": "https://github.com/janhq"
-      },
-      "summary": "开源本地大模型桌面客户端，可完全离线运行，作为ChatGPT的隐私友好替代方案。",
-      "tags": [
-        "llm",
-        "offline",
-        "desktop",
-        "chatgpt-alternative",
-        "rust",
-        "privacy"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-04T05:24:23.854Z",
       "deepwikiAvailable": false
     }
   ]

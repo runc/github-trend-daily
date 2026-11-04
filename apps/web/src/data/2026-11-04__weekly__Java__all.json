@@ -2,8 +2,8 @@
   "date": "2026-11-04",
   "since": "weekly",
   "language": "Java",
-  "fetchedAt": "2026-11-04T05:23:39.636Z",
-  "enrichedAt": "2026-11-04T05:25:06.781Z",
+  "fetchedAt": "2026-11-04T16:56:05.254Z",
+  "enrichedAt": "2026-11-04T16:57:02.568Z",
   "repos": [
     {
       "name": "floci",
@@ -12,8 +12,8 @@
       "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 28983,
-      "forks": 3224,
+      "stars": 29404,
+      "forks": 3260,
       "starsToday": 1574,
       "topics": [],
       "author": {
@@ -34,31 +34,32 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Java",
-      "fullName": "TheAlgorithms/Java",
-      "url": "https://github.com/TheAlgorithms/Java",
-      "description": "All Algorithms implemented in Java",
+      "name": "keycloak",
+      "fullName": "keycloak/keycloak",
+      "url": "https://github.com/keycloak/keycloak",
+      "description": "Open Source Identity and Access Management For Modern Applications and Services",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 66727,
-      "forks": 21463,
-      "starsToday": 148,
+      "stars": 37701,
+      "forks": 9141,
+      "starsToday": 141,
       "topics": [],
       "author": {
-        "name": "TheAlgorithms",
-        "avatar": "https://avatars.githubusercontent.com/u/19151554?s=40&amp;v=4",
-        "url": "https://github.com/TheAlgorithms"
+        "name": "keycloak",
+        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
+        "url": "https://github.com/keycloak"
       },
-      "summary": "用Java实现各类经典算法与数据结构的学习型代码库，覆盖排序、搜索、图论等，适合教学与面试准备。",
+      "summary": "开源身份与访问管理平台，为现代应用和服务提供单点登录、OAuth2/OIDC、用户联邦与权限控制。",
       "tags": [
+        "iam",
+        "sso",
+        "oauth2",
+        "oidc",
         "java",
-        "algorithms",
-        "data-structures",
-        "education",
-        "interview"
+        "security"
       ],
-      "category": "Library",
-      "enrichedAt": "2026-11-04T05:25:01.913Z",
+      "category": "Infra",
+      "enrichedAt": "2026-11-04T05:25:01.716Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,8 +69,8 @@
       "description": "Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 16442,
-      "forks": 1500,
+      "stars": 16448,
+      "forks": 1501,
       "starsToday": 86,
       "topics": [],
       "author": {
@@ -90,32 +91,367 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "keycloak",
-      "fullName": "keycloak/keycloak",
-      "url": "https://github.com/keycloak/keycloak",
-      "description": "Open Source Identity and Access Management For Modern Applications and Services",
+      "name": "CodeOnTheGo",
+      "fullName": "appdevforall/CodeOnTheGo",
+      "url": "https://github.com/appdevforall/CodeOnTheGo",
+      "description": "Code on the Go is an IDE that lets you build Android apps on Android phones, without a laptop computer and without Internet access. Code on the Go is a project of App Dev for All.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 37690,
-      "forks": 9140,
-      "starsToday": 141,
+      "stars": 555,
+      "forks": 117,
+      "starsToday": 59,
       "topics": [],
       "author": {
-        "name": "keycloak",
-        "avatar": "https://avatars.githubusercontent.com/u/2271511?s=40&amp;v=4",
-        "url": "https://github.com/keycloak"
+        "name": "appdevforall",
+        "avatar": "https://avatars.githubusercontent.com/u/46931079?s=40&amp;v=4",
+        "url": "https://github.com/appdevforall"
       },
-      "summary": "开源身份与访问管理平台，为现代应用和服务提供单点登录、OAuth2/OIDC、用户联邦与权限控制。",
+      "summary": "在安卓手机上离线开发安卓应用的移动IDE，无需电脑和网络即可编写、构建应用。",
       "tags": [
-        "iam",
-        "sso",
-        "oauth2",
-        "oidc",
+        "android",
+        "ide",
         "java",
-        "security"
+        "offline",
+        "mobile"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-04T05:25:01.716Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-11-04T05:25:03.030Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jdk",
+      "fullName": "openjdk/jdk",
+      "url": "https://github.com/openjdk/jdk",
+      "description": "JDK main-line development https://openjdk.org/projects/jdk",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 23505,
+      "forks": 6602,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "openjdk",
+        "avatar": "https://avatars.githubusercontent.com/u/1858943?s=40&amp;v=4",
+        "url": "https://github.com/openjdk"
+      },
+      "summary": "OpenJDK 主线开发仓库，Java 平台标准实现与虚拟机的官方源码，是 JDK 新特性与修复的源头。",
+      "tags": [
+        "java",
+        "jvm",
+        "openjdk",
+        "jdk",
+        "language"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-04T05:25:03.364Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iceberg",
+      "fullName": "apache/iceberg",
+      "url": "https://github.com/apache/iceberg",
+      "description": "Apache Iceberg",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 9406,
+      "forks": 3659,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Iceberg 是开放表格式规范及 Java 实现，为数据湖提供 ACID、模式演进与多引擎兼容能力。",
+      "tags": [
+        "iceberg",
+        "table-format",
+        "data-lake",
+        "java",
+        "apache",
+        "big-data"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-04T05:25:04.236Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agentscope-java",
+      "fullName": "agentscope-ai/agentscope-java",
+      "url": "https://github.com/agentscope-ai/agentscope-java",
+      "description": "Build distributed, production-grade, long-running agents.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 6249,
+      "forks": 1567,
+      "starsToday": 97,
+      "topics": [],
+      "author": {
+        "name": "agentscope-ai",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/agentscope-ai"
+      },
+      "summary": "Java 智能体框架，用于构建分布式、生产级、可长期运行的 Agent 应用，提供编排与运行时能力。",
+      "tags": [
+        "java",
+        "agents",
+        "llm",
+        "distributed",
+        "framework"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-04T05:25:04.544Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "spring-framework",
+      "fullName": "spring-projects/spring-framework",
+      "url": "https://github.com/spring-projects/spring-framework",
+      "description": "Spring Framework",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 60313,
+      "forks": 38761,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "spring-projects",
+        "avatar": "https://avatars.githubusercontent.com/u/1263688?s=40&amp;v=4",
+        "url": "https://github.com/spring-projects"
+      },
+      "summary": "Java 企业级应用开发核心框架，提供依赖注入、AOP、Web 与响应式编程等基础设施，是 Spring 生态的基石。",
+      "tags": [
+        "java",
+        "spring",
+        "framework",
+        "dependency-injection",
+        "backend"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-04T05:25:04.390Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jadx",
+      "fullName": "skylot/jadx",
+      "url": "https://github.com/skylot/jadx",
+      "description": "Dex to Java decompiler",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 51591,
+      "forks": 5897,
+      "starsToday": 265,
+      "topics": [],
+      "author": {
+        "name": "skylot",
+        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
+        "url": "https://github.com/skylot"
+      },
+      "summary": "jadx 是一款将 Android Dex/APK 反编译为 Java 源码的工具，提供命令行与图形界面，支持反混淆与资源解码。",
+      "tags": [
+        "decompiler",
+        "android",
+        "dex",
+        "java",
+        "reverse-engineering"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-04T05:25:04.245Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 64084,
+      "forks": 8187,
+      "starsToday": 548,
+      "topics": [],
+      "author": {
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
+        "url": "https://github.com/termux"
+      },
+      "summary": "Termux 是 Android 上的终端模拟器应用，通过包管理器提供完整 Linux 环境，可安装扩展各类软件包。",
+      "tags": [
+        "android",
+        "terminal",
+        "linux",
+        "emulator",
+        "package-manager"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-04T16:57:02.310Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jenkins",
+      "fullName": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 26725,
+      "forks": 9820,
+      "starsToday": 34,
+      "topics": [],
+      "author": {
+        "name": "jenkinsci",
+        "avatar": "https://avatars.githubusercontent.com/u/50003?s=40&amp;v=4",
+        "url": "https://github.com/jenkinsci"
+      },
+      "summary": "Jenkins 是开源自动化服务器，通过插件生态实现持续集成与持续交付流水线的构建、测试和部署。",
+      "tags": [
+        "jenkins",
+        "ci-cd",
+        "automation",
+        "java",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-04T16:57:02.431Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "NagramXF",
+      "fullName": "Keeperorowner/NagramXF",
+      "url": "https://github.com/Keeperorowner/NagramXF",
+      "description": "A fork of NagramX with additional features.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 1101,
+      "forks": 77,
+      "starsToday": 53,
+      "topics": [],
+      "author": {
+        "name": "Keeperorowner",
+        "avatar": "https://avatars.githubusercontent.com/u/5331402?s=40&amp;v=4",
+        "url": "https://github.com/Keeperorowner"
+      },
+      "summary": "NagramX 的第三方分支，为 Telegram 安卓客户端增加更多自定义功能与增强特性。",
+      "tags": [
+        "telegram",
+        "android",
+        "java",
+        "fork",
+        "client"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-04T16:57:02.163Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "quarkus",
+      "fullName": "quarkusio/quarkus",
+      "url": "https://github.com/quarkusio/quarkus",
+      "description": "Quarkus: Supersonic Subatomic Java.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 15975,
+      "forks": 3356,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "quarkusio",
+        "avatar": "https://avatars.githubusercontent.com/u/1279749?s=40&amp;v=4",
+        "url": "https://github.com/quarkusio"
+      },
+      "summary": "Quarkus 是面向 GraalVM 与 HotSpot 的 Kubernetes 原生 Java 框架，大幅缩短启动时间并降低内存占用，适合云原生微服务与服务端开发。",
+      "tags": [
+        "java",
+        "kubernetes",
+        "graalvm",
+        "cloud-native",
+        "framework"
+      ],
+      "category": "Framework",
+      "enrichedAt": "2026-11-04T05:25:05.835Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Java",
+      "fullName": "TheAlgorithms/Java",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "description": "All Algorithms implemented in Java",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 66735,
+      "forks": 21464,
+      "starsToday": 148,
+      "topics": [],
+      "author": {
+        "name": "TheAlgorithms",
+        "avatar": "https://avatars.githubusercontent.com/u/19151554?s=40&amp;v=4",
+        "url": "https://github.com/TheAlgorithms"
+      },
+      "summary": "用Java实现各类经典算法与数据结构的学习型代码库，覆盖排序、搜索、图论等，适合教学与面试准备。",
+      "tags": [
+        "java",
+        "algorithms",
+        "data-structures",
+        "education",
+        "interview"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-04T05:25:01.913Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trino",
+      "fullName": "trinodb/trino",
+      "url": "https://github.com/trinodb/trino",
+      "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 13456,
+      "forks": 3853,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "trinodb",
+        "avatar": "https://avatars.githubusercontent.com/u/144328?s=40&amp;v=4",
+        "url": "https://github.com/trinodb"
+      },
+      "summary": "Trino 是分布式 SQL 查询引擎，可跨多种数据源统一查询海量数据，前身为 PrestoSQL。",
+      "tags": [
+        "sql",
+        "query-engine",
+        "big-data",
+        "java",
+        "distributed",
+        "olap"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-04T05:25:05.625Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "exteraless",
+      "fullName": "exteraless/exteraless",
+      "url": "https://github.com/exteraless/exteraless",
+      "description": "",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 519,
+      "forks": 46,
+      "starsToday": 85,
+      "topics": [],
+      "author": {
+        "name": "exteraless",
+        "avatar": "https://avatars.githubusercontent.com/u/98914858?s=40&amp;v=4",
+        "url": "https://github.com/exteraless"
+      },
+      "summary": "Java 编写的开源项目 exteraless，暂无官方描述，今日新增 85 星，适合关注 Java 生态的开发者探索。",
+      "tags": [
+        "java",
+        "open-source",
+        "trending"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-04T16:57:02.568Z",
       "deepwikiAvailable": false
     },
     {
@@ -147,34 +483,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "CodeOnTheGo",
-      "fullName": "appdevforall/CodeOnTheGo",
-      "url": "https://github.com/appdevforall/CodeOnTheGo",
-      "description": "Code on the Go is an IDE that lets you build Android apps on Android phones, without a laptop computer and without Internet access. Code on the Go is a project of App Dev for All.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 552,
-      "forks": 116,
-      "starsToday": 59,
-      "topics": [],
-      "author": {
-        "name": "appdevforall",
-        "avatar": "https://avatars.githubusercontent.com/u/46931079?s=40&amp;v=4",
-        "url": "https://github.com/appdevforall"
-      },
-      "summary": "在安卓手机上离线开发安卓应用的移动IDE，无需电脑和网络即可编写、构建应用。",
-      "tags": [
-        "android",
-        "ide",
-        "java",
-        "offline",
-        "mobile"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-04T05:25:03.030Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Paper",
       "fullName": "PaperMC/Paper",
       "url": "https://github.com/PaperMC/Paper",
@@ -200,176 +508,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-11-04T05:25:03.065Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jdk",
-      "fullName": "openjdk/jdk",
-      "url": "https://github.com/openjdk/jdk",
-      "description": "JDK main-line development https://openjdk.org/projects/jdk",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 23501,
-      "forks": 6606,
-      "starsToday": 34,
-      "topics": [],
-      "author": {
-        "name": "openjdk",
-        "avatar": "https://avatars.githubusercontent.com/u/1858943?s=40&amp;v=4",
-        "url": "https://github.com/openjdk"
-      },
-      "summary": "OpenJDK 主线开发仓库，Java 平台标准实现与虚拟机的官方源码，是 JDK 新特性与修复的源头。",
-      "tags": [
-        "java",
-        "jvm",
-        "openjdk",
-        "jdk",
-        "language"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-04T05:25:03.364Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "iceberg",
-      "fullName": "apache/iceberg",
-      "url": "https://github.com/apache/iceberg",
-      "description": "Apache Iceberg",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 9405,
-      "forks": 3659,
-      "starsToday": 28,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache Iceberg 是开放表格式规范及 Java 实现，为数据湖提供 ACID、模式演进与多引擎兼容能力。",
-      "tags": [
-        "iceberg",
-        "table-format",
-        "data-lake",
-        "java",
-        "apache",
-        "big-data"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-04T05:25:04.236Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "spring-framework",
-      "fullName": "spring-projects/spring-framework",
-      "url": "https://github.com/spring-projects/spring-framework",
-      "description": "Spring Framework",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 60313,
-      "forks": 38759,
-      "starsToday": 25,
-      "topics": [],
-      "author": {
-        "name": "spring-projects",
-        "avatar": "https://avatars.githubusercontent.com/u/1263688?s=40&amp;v=4",
-        "url": "https://github.com/spring-projects"
-      },
-      "summary": "Java 企业级应用开发核心框架，提供依赖注入、AOP、Web 与响应式编程等基础设施，是 Spring 生态的基石。",
-      "tags": [
-        "java",
-        "spring",
-        "framework",
-        "dependency-injection",
-        "backend"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-04T05:25:04.390Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jadx",
-      "fullName": "skylot/jadx",
-      "url": "https://github.com/skylot/jadx",
-      "description": "Dex to Java decompiler",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 51568,
-      "forks": 5891,
-      "starsToday": 265,
-      "topics": [],
-      "author": {
-        "name": "skylot",
-        "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&amp;v=4",
-        "url": "https://github.com/skylot"
-      },
-      "summary": "jadx 是一款将 Android Dex/APK 反编译为 Java 源码的工具，提供命令行与图形界面，支持反混淆与资源解码。",
-      "tags": [
-        "decompiler",
-        "android",
-        "dex",
-        "java",
-        "reverse-engineering"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-04T05:25:04.245Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "agentscope-java",
-      "fullName": "agentscope-ai/agentscope-java",
-      "url": "https://github.com/agentscope-ai/agentscope-java",
-      "description": "Build distributed, production-grade, long-running agents.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 6238,
-      "forks": 1562,
-      "starsToday": 97,
-      "topics": [],
-      "author": {
-        "name": "agentscope-ai",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/agentscope-ai"
-      },
-      "summary": "Java 智能体框架，用于构建分布式、生产级、可长期运行的 Agent 应用，提供编排与运行时能力。",
-      "tags": [
-        "java",
-        "agents",
-        "llm",
-        "distributed",
-        "framework"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-04T05:25:04.544Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trino",
-      "fullName": "trinodb/trino",
-      "url": "https://github.com/trinodb/trino",
-      "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 13448,
-      "forks": 3851,
-      "starsToday": 72,
-      "topics": [],
-      "author": {
-        "name": "trinodb",
-        "avatar": "https://avatars.githubusercontent.com/u/144328?s=40&amp;v=4",
-        "url": "https://github.com/trinodb"
-      },
-      "summary": "Trino 是分布式 SQL 查询引擎，可跨多种数据源统一查询海量数据，前身为 PrestoSQL。",
-      "tags": [
-        "sql",
-        "query-engine",
-        "big-data",
-        "java",
-        "distributed",
-        "olap"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-04T05:25:05.625Z",
       "deepwikiAvailable": false
     },
     {
@@ -426,34 +564,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-11-04T05:25:05.664Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "quarkus",
-      "fullName": "quarkusio/quarkus",
-      "url": "https://github.com/quarkusio/quarkus",
-      "description": "Quarkus: Supersonic Subatomic Java.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 15975,
-      "forks": 3356,
-      "starsToday": 13,
-      "topics": [],
-      "author": {
-        "name": "quarkusio",
-        "avatar": "https://avatars.githubusercontent.com/u/1279749?s=40&amp;v=4",
-        "url": "https://github.com/quarkusio"
-      },
-      "summary": "Quarkus 是面向 GraalVM 与 HotSpot 的 Kubernetes 原生 Java 框架，大幅缩短启动时间并降低内存占用，适合云原生微服务与服务端开发。",
-      "tags": [
-        "java",
-        "kubernetes",
-        "graalvm",
-        "cloud-native",
-        "framework"
-      ],
-      "category": "Framework",
-      "enrichedAt": "2026-11-04T05:25:05.835Z",
       "deepwikiAvailable": false
     },
     {
