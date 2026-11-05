@@ -2,9 +2,491 @@
   "date": "2026-11-05",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-11-05T05:42:47.076Z",
-  "enrichedAt": "2026-11-05T05:43:34.606Z",
+  "fetchedAt": "2026-11-05T17:11:11.302Z",
+  "enrichedAt": "2026-11-05T17:11:49.069Z",
   "repos": [
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 39018,
+      "forks": 821,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Go 编写的全能安全扫描器，可检测容器、Kubernetes、代码仓库与云环境中的漏洞、配置错误、密钥泄露并生成 SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "golang"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-05T17:11:45.426Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "terraform-provider-azurerm",
+      "fullName": "hashicorp/terraform-provider-azurerm",
+      "url": "https://github.com/hashicorp/terraform-provider-azurerm",
+      "description": "Terraform provider for Azure Resource Manager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4982,
+      "forks": 5076,
+      "starsToday": 2,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/666005?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "Terraform 的 Azure Resource Manager 官方 Provider，用声明式配置管理 Azure 云资源，支持基础设施即代码的创建、变更与销毁。",
+      "tags": [
+        "terraform",
+        "azure",
+        "iac",
+        "golang",
+        "cloud"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T17:11:45.563Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Cybersecurity-Projects",
+      "fullName": "CarterPerez-dev/Cybersecurity-Projects",
+      "url": "https://github.com/CarterPerez-dev/Cybersecurity-Projects",
+      "description": "Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Owned by my cybersecurity company 👇",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9203,
+      "forks": 1350,
+      "starsToday": 124,
+      "topics": [],
+      "author": {
+        "name": "CarterPerez-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/188120068?s=40&amp;v=4",
+        "url": "https://github.com/CarterPerez-dev"
+      },
+      "summary": "70个从入门到进阶的网络安全实战项目合集，可学习、扩展或直接复用，以Go语言为主。",
+      "tags": [
+        "cybersecurity",
+        "go",
+        "learning",
+        "projects",
+        "security"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-05T17:11:45.328Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7364,
+      "forks": 1157,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用Go编写的Google Maps数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、经纬度与邮箱等信息，支持导出结构化数据。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "go",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-05T17:11:45.440Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33412,
+      "forks": 5220,
+      "starsToday": 135,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI智能体系统，可自动执行复杂渗透测试任务，实现从侦察到漏洞利用的端到端自动化安全评估。",
+      "tags": [
+        "pentest",
+        "ai-agents",
+        "security",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-05T17:11:46.456Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openchoreo",
+      "fullName": "openchoreo/openchoreo",
+      "url": "https://github.com/openchoreo/openchoreo",
+      "description": "OpenChoreo is an internal developer platform for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1802,
+      "forks": 280,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "openchoreo",
+        "avatar": "https://avatars.githubusercontent.com/u/38396435?s=40&amp;v=4",
+        "url": "https://github.com/openchoreo"
+      },
+      "summary": "基于 Kubernetes 的内部开发者平台，为团队提供自助式应用部署与运维能力，简化云原生开发交付流程。",
+      "tags": [
+        "kubernetes",
+        "idp",
+        "golang",
+        "platform-engineering",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T17:11:46.846Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caddy",
+      "fullName": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 78801,
+      "forks": 5229,
+      "starsToday": 79,
+      "topics": [],
+      "author": {
+        "name": "caddyserver",
+        "avatar": "https://avatars.githubusercontent.com/u/1128849?s=40&amp;v=4",
+        "url": "https://github.com/caddyserver"
+      },
+      "summary": "Go 编写的快速可扩展多平台 Web 服务器，支持 HTTP/1-2-3 并自动配置 HTTPS 证书，配置简单、开箱即用。",
+      "tags": [
+        "web-server",
+        "go",
+        "https",
+        "http3",
+        "reverse-proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T17:11:46.692Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49368,
+      "forks": 12652,
+      "starsToday": 95,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于 Go 的 Xray 多协议多用户面板，支持 Vmess、Vless、Trojan、Shadowsocks、Wireguard 等协议的可视化管理与流量统计。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "go",
+        "vpn",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T17:11:46.747Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-music-dl",
+      "fullName": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6032,
+      "forks": 571,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "guohuiyuan",
+        "avatar": "https://avatars.githubusercontent.com/u/54976075?s=40&amp;v=4",
+        "url": "https://github.com/guohuiyuan"
+      },
+      "summary": "Go 编写的全网音乐搜索下载工具，支持 CLI 与 Web 双模式，聚合网易云、QQ、酷狗、B站等 10+ 平台并发搜索并无损音质解析下载。",
+      "tags": [
+        "go",
+        "music",
+        "downloader",
+        "cli",
+        "web",
+        "scraper"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-05T05:43:29.756Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28884,
+      "forks": 2693,
+      "starsToday": 30,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "用 Go 编写的密钥泄露扫描工具，可在代码库、文件系统和 CI 中查找并验证泄露的凭证，支持数百种密钥类型并降低误报。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "golang",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-05T17:11:47.694Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nvke",
+      "fullName": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 77,
+      "forks": 65,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "dsx-ai-factory",
+        "avatar": "https://avatars.githubusercontent.com/u/23304?s=40&amp;v=4",
+        "url": "https://github.com/dsx-ai-factory"
+      },
+      "summary": "面向裸金属 GPU 集群的 Kubernetes 管理平面，简化 NVIDIA GPU 节点的部署与运维。",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "nvidia",
+        "bare-metal",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T17:11:47.570Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24550,
+      "forks": 8096,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实来源自动同步集群状态，支持多集群管理与可视化界面。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T05:43:34.480Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28525,
+      "forks": 1932,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久化记忆层的Go工具，让AI代理跨会话保留上下文与任务状态。",
+      "tags": [
+        "ai",
+        "memory",
+        "agent",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-05T17:11:47.920Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "juicefs",
+      "fullName": "juicedata/juicefs",
+      "url": "https://github.com/juicedata/juicefs",
+      "description": "JuiceFS is a distributed POSIX file system built on top of Redis and S3.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14683,
+      "forks": 1347,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "juicedata",
+        "avatar": "https://avatars.githubusercontent.com/u/40902?s=40&amp;v=4",
+        "url": "https://github.com/juicedata"
+      },
+      "summary": "基于 Redis 与 S3 构建的分布式 POSIX 文件系统，为云原生场景提供高吞吐、可弹性扩展的共享存储，兼容对象存储并支持海量文件。",
+      "tags": [
+        "filesystem",
+        "distributed",
+        "s3",
+        "redis",
+        "go",
+        "storage"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T17:11:48.264Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "controller-runtime",
+      "fullName": "kubernetes-sigs/controller-runtime",
+      "url": "https://github.com/kubernetes-sigs/controller-runtime",
+      "description": "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2986,
+      "forks": 1333,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "kubernetes-sigs",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes-sigs"
+      },
+      "summary": "Kubebuilder 子项目，提供构建 Kubernetes 控制器与 Operator 的 Go 库，封装 client-go 与 informer，简化 Reconcile 逻辑开发。",
+      "tags": [
+        "kubernetes",
+        "go",
+        "operator",
+        "controller",
+        "kubebuilder"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-05T17:11:48.842Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gortex",
+      "fullName": "zzet/gortex",
+      "url": "https://github.com/zzet/gortex",
+      "description": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1997,
+      "forks": 195,
+      "starsToday": 33,
+      "topics": [],
+      "author": {
+        "name": "zzet",
+        "avatar": "https://avatars.githubusercontent.com/u/510788?s=40&amp;v=4",
+        "url": "https://github.com/zzet"
+      },
+      "summary": "基于图的高性能代码智能引擎，支持257种语言与多仓库，通过CLI、MCP与API为AI编程代理精准提供上下文，可减少最多50倍token消耗，完全本地运行。",
+      "tags": [
+        "code-intelligence",
+        "mcp",
+        "ai-agents",
+        "graph",
+        "go",
+        "local"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-05T17:11:49.069Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "talos",
+      "fullName": "siderolabs/talos",
+      "url": "https://github.com/siderolabs/talos",
+      "description": "Talos Linux is a modern Linux distribution built for Kubernetes.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11471,
+      "forks": 940,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "siderolabs",
+        "avatar": "https://avatars.githubusercontent.com/u/55211?s=40&amp;v=4",
+        "url": "https://github.com/siderolabs"
+      },
+      "summary": "Talos Linux 是专为 Kubernetes 打造的精简不可变 Linux 发行版，通过 API 全托管管理，无 SSH 与包管理，提升集群安全与一致性。",
+      "tags": [
+        "kubernetes",
+        "linux",
+        "go",
+        "immutable",
+        "os"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T17:11:49.040Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "agent-beacon",
       "fullName": "Asymptote-Labs/agent-beacon",
@@ -31,35 +513,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-05T05:43:28.951Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "go-music-dl",
-      "fullName": "guohuiyuan/go-music-dl",
-      "url": "https://github.com/guohuiyuan/go-music-dl",
-      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6012,
-      "forks": 570,
-      "starsToday": 87,
-      "topics": [],
-      "author": {
-        "name": "guohuiyuan",
-        "avatar": "https://avatars.githubusercontent.com/u/54976075?s=40&amp;v=4",
-        "url": "https://github.com/guohuiyuan"
-      },
-      "summary": "Go 编写的全网音乐搜索下载工具，支持 CLI 与 Web 双模式，聚合网易云、QQ、酷狗、B站等 10+ 平台并发搜索并无损音质解析下载。",
-      "tags": [
-        "go",
-        "music",
-        "downloader",
-        "cli",
-        "web",
-        "scraper"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-05T05:43:29.756Z",
       "deepwikiAvailable": false
     },
     {
@@ -456,34 +909,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-05T05:43:34.606Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "argo-cd",
-      "fullName": "argoproj/argo-cd",
-      "url": "https://github.com/argoproj/argo-cd",
-      "description": "Declarative Continuous Deployment for Kubernetes",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 24545,
-      "forks": 8094,
-      "starsToday": 12,
-      "topics": [],
-      "author": {
-        "name": "argoproj",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/argoproj"
-      },
-      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实来源自动同步集群状态，支持多集群管理与可视化界面。",
-      "tags": [
-        "kubernetes",
-        "gitops",
-        "cd",
-        "go",
-        "devops"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-05T05:43:34.480Z",
       "deepwikiAvailable": false
     },
     {

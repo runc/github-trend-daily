@@ -2,8 +2,8 @@
   "date": "2026-11-05",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-11-05T05:42:47.076Z",
-  "enrichedAt": "2026-11-05T05:44:58.896Z",
+  "fetchedAt": "2026-11-05T17:11:11.302Z",
+  "enrichedAt": "2026-11-05T17:12:14.499Z",
   "repos": [
     {
       "name": "impeccable",
@@ -12,8 +12,8 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 103067,
-      "forks": 6097,
+      "stars": 103645,
+      "forks": 6136,
       "starsToday": 26803,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 15159,
-      "forks": 1093,
+      "stars": 15202,
+      "forks": 1098,
       "starsToday": 6382,
       "topics": [],
       "author": {
@@ -62,14 +62,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "mxc",
+      "fullName": "microsoft/mxc",
+      "url": "https://github.com/microsoft/mxc",
+      "description": "Policy-driven, layered isolation and containment",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3096,
+      "forks": 172,
+      "starsToday": 1718,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/in/1693627?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的策略驱动分层隔离与容器化执行框架，用 Rust 实现，为不可信代码提供安全沙箱运行环境。",
+      "tags": [
+        "sandbox",
+        "security",
+        "isolation",
+        "rust",
+        "policy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-05T17:12:14.427Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "OpenShell",
       "fullName": "NVIDIA/OpenShell",
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 21104,
-      "forks": 2062,
+      "stars": 21140,
+      "forks": 2070,
       "starsToday": 6428,
       "topics": [],
       "author": {
@@ -96,8 +124,8 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 38834,
-      "forks": 6127,
+      "stars": 38947,
+      "forks": 6147,
       "starsToday": 36697,
       "topics": [],
       "author": {
@@ -118,14 +146,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "agent-desktop",
+      "fullName": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16476,
+      "forks": 1151,
+      "starsToday": 12732,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "基于 Rust 的计算机操作 CLI 工具，让 AI 智能体直接控制桌面完成点击、输入等操作，为智能体提供桌面自动化能力。",
+      "tags": [
+        "rust",
+        "cli",
+        "ai-agent",
+        "computer-use",
+        "automation"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-05T05:44:54.368Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "xerj",
       "fullName": "xerj-org/xerj",
       "url": "https://github.com/xerj-org/xerj",
       "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 19112,
-      "forks": 1476,
+      "stars": 19035,
+      "forks": 1394,
       "starsToday": 17273,
       "topics": [],
       "author": {
@@ -147,42 +203,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agent-desktop",
-      "fullName": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 15595,
-      "forks": 1084,
-      "starsToday": 12732,
-      "topics": [],
-      "author": {
-        "name": "vercel-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&amp;v=4",
-        "url": "https://github.com/vercel-labs"
-      },
-      "summary": "基于 Rust 的计算机操作 CLI 工具，让 AI 智能体直接控制桌面完成点击、输入等操作，为智能体提供桌面自动化能力。",
-      "tags": [
-        "rust",
-        "cli",
-        "ai-agent",
-        "computer-use",
-        "automation"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-05T05:44:54.368Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "Concat",
       "fullName": "jub0t/Concat",
       "url": "https://github.com/jub0t/Concat",
-      "description": "Beta: The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 14218,
-      "forks": 1763,
+      "stars": 14335,
+      "forks": 1780,
       "starsToday": 10186,
       "topics": [],
       "author": {
@@ -204,14 +232,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "worktrunk",
+      "fullName": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 11389,
+      "forks": 428,
+      "starsToday": 2534,
+      "topics": [],
+      "author": {
+        "name": "max-sixty",
+        "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&amp;v=4",
+        "url": "https://github.com/max-sixty"
+      },
+      "summary": "用 Rust 编写的 Git worktree 管理命令行工具，简化多工作树创建与切换，专为并行 AI 代理工作流设计。",
+      "tags": [
+        "git",
+        "worktree",
+        "cli",
+        "rust",
+        "ai-agents"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-05T17:12:14.499Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Handy",
       "fullName": "cjpais/Handy",
       "url": "https://github.com/cjpais/Handy",
       "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37561,
-      "forks": 3544,
+      "stars": 37639,
+      "forks": 3550,
       "starsToday": 4809,
       "topics": [],
       "author": {
@@ -238,8 +294,8 @@
       "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 22633,
-      "forks": 626,
+      "stars": 22708,
+      "forks": 630,
       "starsToday": 16161,
       "topics": [],
       "author": {
@@ -266,8 +322,8 @@
       "description": "A refreshingly simple data-driven game engine built in Rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 49513,
-      "forks": 5021,
+      "stars": 49530,
+      "forks": 5024,
       "starsToday": 1041,
       "topics": [],
       "author": {
@@ -294,7 +350,7 @@
       "description": "A high-performance inference engine for AI models",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3221,
+      "stars": 3224,
       "forks": 220,
       "starsToday": 1398,
       "topics": [],
@@ -322,7 +378,7 @@
       "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 17370,
+      "stars": 17375,
       "forks": 1470,
       "starsToday": 834,
       "topics": [],
@@ -350,8 +406,8 @@
       "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3808,
-      "forks": 456,
+      "stars": 3827,
+      "forks": 457,
       "starsToday": 1375,
       "topics": [],
       "author": {
@@ -370,6 +426,34 @@
       ],
       "category": "App",
       "enrichedAt": "2026-11-05T05:44:56.758Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mesh-llm",
+      "fullName": "Mesh-LLM/mesh-llm",
+      "url": "https://github.com/Mesh-LLM/mesh-llm",
+      "description": "Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3948,
+      "forks": 499,
+      "starsToday": 462,
+      "topics": [],
+      "author": {
+        "name": "Mesh-LLM",
+        "avatar": "https://avatars.githubusercontent.com/u/50156?s=40&amp;v=4",
+        "url": "https://github.com/Mesh-LLM"
+      },
+      "summary": "基于 Rust 的去中心化 LLM 推理网络，可私有或公开共享算力，为智能体与聊天提供分布式推理支持。",
+      "tags": [
+        "llm",
+        "distributed",
+        "rust",
+        "p2p",
+        "inference"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-05T05:44:57.663Z",
       "deepwikiAvailable": false
     },
     {
@@ -426,34 +510,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-11-05T05:44:57.248Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "mesh-llm",
-      "fullName": "Mesh-LLM/mesh-llm",
-      "url": "https://github.com/Mesh-LLM/mesh-llm",
-      "description": "Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3941,
-      "forks": 499,
-      "starsToday": 462,
-      "topics": [],
-      "author": {
-        "name": "Mesh-LLM",
-        "avatar": "https://avatars.githubusercontent.com/u/50156?s=40&amp;v=4",
-        "url": "https://github.com/Mesh-LLM"
-      },
-      "summary": "基于 Rust 的去中心化 LLM 推理网络，可私有或公开共享算力，为智能体与聊天提供分布式推理支持。",
-      "tags": [
-        "llm",
-        "distributed",
-        "rust",
-        "p2p",
-        "inference"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-05T05:44:57.663Z",
       "deepwikiAvailable": false
     },
     {
