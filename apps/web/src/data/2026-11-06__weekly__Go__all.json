@@ -2,9 +2,37 @@
   "date": "2026-11-06",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-11-06T05:39:55.459Z",
-  "enrichedAt": "2026-11-06T05:41:25.203Z",
+  "fetchedAt": "2026-11-06T16:38:10.947Z",
+  "enrichedAt": "2026-11-06T16:39:32.828Z",
   "repos": [
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72287,
+      "forks": 19311,
+      "starsToday": 191,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是容器生态的协作开源项目，提供构建容器化系统的核心组件，是 Docker 引擎的上游基础。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "infrastructure",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-06T16:39:29.956Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "multica",
       "fullName": "multica-ai/multica",
@@ -12,8 +40,8 @@
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 55074,
-      "forks": 7256,
+      "stars": 55144,
+      "forks": 7269,
       "starsToday": 824,
       "topics": [],
       "author": {
@@ -34,14 +62,98 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58922,
+      "forks": 7362,
+      "starsToday": 181,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "自托管的一体化软件开发平台，集 Git 托管、代码评审、团队协作、包注册表与 CI/CD 于一体，轻量易部署。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "devops",
+        "ci-cd",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-06T05:41:21.144Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24555,
+      "forks": 8099,
+      "starsToday": 56,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实来源，自动同步并可视化集群状态。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-06T05:41:19.834Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38620,
+      "forks": 5902,
+      "starsToday": 145,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker Compose 用 YAML 定义多容器应用并一键启动管理，是本地开发与编排容器的标准工具。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-06T05:41:18.565Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "netbird",
       "fullName": "netbirdio/netbird",
       "url": "https://github.com/netbirdio/netbird",
       "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 30720,
-      "forks": 1831,
+      "stars": 30737,
+      "forks": 1834,
       "starsToday": 407,
       "topics": [],
       "author": {
@@ -63,42 +175,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "compose",
-      "fullName": "docker/compose",
-      "url": "https://github.com/docker/compose",
-      "description": "Define and run multi-container applications with Docker",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 38614,
-      "forks": 5901,
-      "starsToday": 145,
-      "topics": [],
-      "author": {
-        "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
-        "url": "https://github.com/docker"
-      },
-      "summary": "Docker Compose 用 YAML 定义多容器应用并一键启动管理，是本地开发与编排容器的标准工具。",
-      "tags": [
-        "docker",
-        "containers",
-        "orchestration",
-        "go",
-        "devops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-06T05:41:18.565Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "act",
       "fullName": "nektos/act",
       "url": "https://github.com/nektos/act",
       "description": "Run your GitHub Actions locally 🚀",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 72563,
-      "forks": 2107,
+      "stars": 72566,
+      "forks": 2108,
       "starsToday": 115,
       "topics": [],
       "author": {
@@ -119,42 +203,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "argo-cd",
-      "fullName": "argoproj/argo-cd",
-      "url": "https://github.com/argoproj/argo-cd",
-      "description": "Declarative Continuous Deployment for Kubernetes",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 24552,
-      "forks": 8100,
-      "starsToday": 56,
-      "topics": [],
-      "author": {
-        "name": "argoproj",
-        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
-        "url": "https://github.com/argoproj"
-      },
-      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实来源，自动同步并可视化集群状态。",
-      "tags": [
-        "kubernetes",
-        "gitops",
-        "cd",
-        "go",
-        "devops"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-06T05:41:19.834Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ragflow",
       "fullName": "infiniflow/ragflow",
       "url": "https://github.com/infiniflow/ragflow",
       "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 93644,
-      "forks": 11243,
+      "stars": 93680,
+      "forks": 11249,
       "starsToday": 573,
       "topics": [],
       "author": {
@@ -181,7 +237,7 @@
       "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 16198,
+      "stars": 16201,
       "forks": 1807,
       "starsToday": 232,
       "topics": [],
@@ -203,14 +259,71 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 67048,
+      "forks": 10979,
+      "starsToday": 266,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可视化，是云原生监控事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "time-series",
+        "promql",
+        "observability",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-06T16:39:30.022Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28553,
+      "forks": 1933,
+      "starsToday": 267,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久记忆层的开源工具，用 Go 编写，帮助 AI 代理跨会话记住项目上下文与决策。",
+      "tags": [
+        "ai",
+        "memory",
+        "agents",
+        "go",
+        "coding-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:41:21.213Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ezbookkeeping",
       "fullName": "mayswind/ezbookkeeping",
       "url": "https://github.com/mayswind/ezbookkeeping",
       "description": "ezBookkeeping is an open source, powerful, self-hosted personal finance app that is easy to use.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 6005,
-      "forks": 746,
+      "stars": 6010,
+      "forks": 751,
       "starsToday": 142,
       "topics": [],
       "author": {
@@ -231,59 +344,229 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gitea",
-      "fullName": "go-gitea/gitea",
-      "url": "https://github.com/go-gitea/gitea",
-      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "name": "gin",
+      "fullName": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 58917,
-      "forks": 7364,
-      "starsToday": 181,
+      "stars": 89527,
+      "forks": 8899,
+      "starsToday": 182,
       "topics": [],
       "author": {
-        "name": "go-gitea",
-        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
-        "url": "https://github.com/go-gitea"
+        "name": "gin-gonic",
+        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
+        "url": "https://github.com/gin-gonic"
       },
-      "summary": "自托管的一体化软件开发平台，集 Git 托管、代码评审、团队协作、包注册表与 CI/CD 于一体，轻量易部署。",
+      "summary": "Go 语言高性能 HTTP Web 框架，API 类似 Martini 但基于 httprouter 快至 40 倍，适合构建 REST API、Web 应用与微服务。",
       "tags": [
-        "git",
-        "self-hosted",
-        "devops",
-        "ci-cd",
-        "go"
+        "go",
+        "web-framework",
+        "http",
+        "rest-api",
+        "microservices"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-06T05:41:21.144Z",
+      "category": "Library",
+      "enrichedAt": "2026-11-06T16:39:29.923Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "beads",
-      "fullName": "gastownhall/beads",
-      "url": "https://github.com/gastownhall/beads",
-      "description": "Beads - A memory upgrade for your coding agent",
+      "name": "etcd",
+      "fullName": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 28542,
-      "forks": 1934,
-      "starsToday": 267,
+      "stars": 52525,
+      "forks": 10577,
+      "starsToday": 143,
       "topics": [],
       "author": {
-        "name": "gastownhall",
-        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
-        "url": "https://github.com/gastownhall"
+        "name": "etcd-io",
+        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
+        "url": "https://github.com/etcd-io"
       },
-      "summary": "为编码智能体提供持久记忆层的开源工具，用 Go 编写，帮助 AI 代理跨会话记住项目上下文与决策。",
+      "summary": "Go 编写的分布式可靠键值存储，基于 Raft 一致性协议，为分布式系统提供配置共享与服务发现等关键数据的强一致存储。",
       "tags": [
-        "ai",
-        "memory",
-        "agents",
+        "etcd",
+        "key-value",
+        "raft",
+        "distributed",
         "go",
-        "coding-agent"
+        "consensus"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:41:21.213Z",
+      "category": "Infra",
+      "enrichedAt": "2026-11-06T16:39:29.863Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139680,
+      "forks": 20987,
+      "starsToday": 575,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 编程语言官方仓库，包含编译器、运行时、标准库与工具链，主打简洁语法、高效并发与快速编译。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "runtime",
+        "standard-library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-06T16:39:31.334Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fleet",
+      "fullName": "fleetdm/fleet",
+      "url": "https://github.com/fleetdm/fleet",
+      "description": "Open device management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7142,
+      "forks": 1121,
+      "starsToday": 66,
+      "topics": [],
+      "author": {
+        "name": "fleetdm",
+        "avatar": "https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4",
+        "url": "https://github.com/fleetdm"
+      },
+      "summary": "开源设备管理平台，统一管理笔记本、服务器、移动设备与容器，支持OSQuery实时查询、合规检测与自动化运维。",
+      "tags": [
+        "device-management",
+        "osquery",
+        "mdm",
+        "security",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-06T16:39:31.431Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hugo",
+      "fullName": "gohugoio/hugo",
+      "url": "https://github.com/gohugoio/hugo",
+      "description": "The world’s fastest framework for building websites.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 90389,
+      "forks": 8440,
+      "starsToday": 136,
+      "topics": [],
+      "author": {
+        "name": "gohugoio",
+        "avatar": "https://avatars.githubusercontent.com/u/394382?s=40&amp;v=4",
+        "url": "https://github.com/gohugoio"
+      },
+      "summary": "Go 编写的静态网站生成框架，以极快的构建速度著称，适合搭建博客、文档与内容站点。",
+      "tags": [
+        "hugo",
+        "static-site",
+        "go",
+        "ssg",
+        "web"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-06T16:39:31.539Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "AIStudio2API",
+      "fullName": "Mag1cFall/AIStudio2API",
+      "url": "https://github.com/Mag1cFall/AIStudio2API",
+      "description": "将AI Studio Playground和Build反代成API | AI Studio to OpenAI, Anthropic & Gemini Compatible API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 766,
+      "forks": 170,
+      "starsToday": 193,
+      "topics": [],
+      "author": {
+        "name": "Mag1cFall",
+        "avatar": "https://avatars.githubusercontent.com/u/107487022?s=40&amp;v=4",
+        "url": "https://github.com/Mag1cFall"
+      },
+      "summary": "用Go将Google AI Studio Playground与Build反代为API，兼容OpenAI、Anthropic和Gemini接口格式，方便复用现有客户端。",
+      "tags": [
+        "go",
+        "proxy",
+        "api",
+        "gemini",
+        "openai",
+        "reverse-proxy"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-06T16:39:31.344Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128800,
+      "forks": 45740,
+      "starsToday": 630,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和集群管理能力，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "golang",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-06T16:39:32.448Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Cybersecurity-Projects",
+      "fullName": "CarterPerez-dev/Cybersecurity-Projects",
+      "url": "https://github.com/CarterPerez-dev/Cybersecurity-Projects",
+      "description": "Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Owned by my cybersecurity company 👇",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9273,
+      "forks": 1361,
+      "starsToday": 573,
+      "topics": [],
+      "author": {
+        "name": "CarterPerez-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/188120068?s=40&amp;v=4",
+        "url": "https://github.com/CarterPerez-dev"
+      },
+      "summary": "涵盖70个从入门到进阶的网络安全实战项目合集，可直接学习、参考或复用，适合系统化练习安全技能。",
+      "tags": [
+        "security",
+        "cybersecurity",
+        "learning",
+        "projects",
+        "go"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-06T16:39:32.828Z",
       "deepwikiAvailable": false
     },
     {

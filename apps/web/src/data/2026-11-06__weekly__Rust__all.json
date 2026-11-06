@@ -2,8 +2,8 @@
   "date": "2026-11-06",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-11-06T05:39:55.459Z",
-  "enrichedAt": "2026-11-06T05:41:32.660Z",
+  "fetchedAt": "2026-11-06T16:38:10.947Z",
+  "enrichedAt": "2026-11-06T16:39:35.733Z",
   "repos": [
     {
       "name": "worktrunk",
@@ -12,8 +12,8 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 11608,
-      "forks": 445,
+      "stars": 11759,
+      "forks": 451,
       "starsToday": 1802,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 104125,
-      "forks": 6170,
+      "stars": 104550,
+      "forks": 6210,
       "starsToday": 9303,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "the runtime your coding agents live on",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 48346,
-      "forks": 3890,
+      "stars": 48471,
+      "forks": 3897,
       "starsToday": 1798,
       "topics": [],
       "author": {
@@ -96,8 +96,8 @@
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 133384,
-      "forks": 21140,
+      "stars": 133463,
+      "forks": 21150,
       "starsToday": 1912,
       "topics": [],
       "author": {
@@ -118,14 +118,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "zed",
+      "fullName": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 93256,
+      "forks": 11474,
+      "starsToday": 509,
+      "topics": [],
+      "author": {
+        "name": "zed-industries",
+        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
+        "url": "https://github.com/zed-industries"
+      },
+      "summary": "基于Rust开发的高性能多人协作代码编辑器，由Atom与Tree-sitter作者打造，主打极速响应与实时协同编辑。",
+      "tags": [
+        "editor",
+        "rust",
+        "collaboration",
+        "gpu",
+        "ide"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-06T05:41:29.729Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Handy",
       "fullName": "cjpais/Handy",
       "url": "https://github.com/cjpais/Handy",
       "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37719,
-      "forks": 3557,
+      "stars": 37790,
+      "forks": 3565,
       "starsToday": 2608,
       "topics": [],
       "author": {
@@ -146,31 +174,59 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agentgateway",
-      "fullName": "agentgateway/agentgateway",
-      "url": "https://github.com/agentgateway/agentgateway",
-      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "name": "agent-browser",
+      "fullName": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5968,
-      "forks": 1059,
-      "starsToday": 187,
+      "stars": 46268,
+      "forks": 3170,
+      "starsToday": 888,
       "topics": [],
       "author": {
-        "name": "agentgateway",
-        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
-        "url": "https://github.com/agentgateway"
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
       },
-      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理网关，用 Rust 编写，统一管理多智能体与工具调用的路由、鉴权和可观测性。",
+      "summary": "面向 AI 智能体的浏览器自动化命令行工具，用 Rust 编写，让智能体以简洁命令驱动网页操作。",
       "tags": [
-        "ai",
-        "mcp",
-        "proxy",
-        "gateway",
+        "browser-automation",
+        "ai-agents",
+        "cli",
         "rust"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-06T05:41:28.113Z",
+      "category": "CLI",
+      "enrichedAt": "2026-11-06T05:41:28.398Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hex",
+      "fullName": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex",
+      "description": "Local voice dictation for mac, windows and linux",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5455,
+      "forks": 316,
+      "starsToday": 4306,
+      "topics": [],
+      "author": {
+        "name": "anomalyco",
+        "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&amp;v=4",
+        "url": "https://github.com/anomalyco"
+      },
+      "summary": "跨平台本地语音听写工具，支持mac、Windows和Linux，用Rust编写，可离线将语音实时转为文字输入。",
+      "tags": [
+        "rust",
+        "speech-to-text",
+        "dictation",
+        "cross-platform",
+        "offline",
+        "voice"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-06T16:39:34.458Z",
       "deepwikiAvailable": false
     },
     {
@@ -180,8 +236,8 @@
       "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1907,
-      "forks": 197,
+      "stars": 1926,
+      "forks": 199,
       "starsToday": 909,
       "topics": [],
       "author": {
@@ -202,58 +258,255 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agent-browser",
-      "fullName": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
+      "name": "x-algorithm",
+      "fullName": "xai-org/x-algorithm",
+      "url": "https://github.com/xai-org/x-algorithm",
+      "description": "Algorithm powering the For You feed on X",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 46047,
-      "forks": 3151,
-      "starsToday": 888,
+      "stars": 34109,
+      "forks": 5512,
+      "starsToday": 220,
       "topics": [],
       "author": {
-        "name": "vercel-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
-        "url": "https://github.com/vercel-labs"
+        "name": "xai-org",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/xai-org"
       },
-      "summary": "面向 AI 智能体的浏览器自动化命令行工具，用 Rust 编写，让智能体以简洁命令驱动网页操作。",
+      "summary": "X 官方开源的 For You 推荐流算法，用 Rust 实现，揭示信息流排序与推荐的核心逻辑。",
       "tags": [
-        "browser-automation",
-        "ai-agents",
-        "cli",
-        "rust"
+        "recommendation",
+        "rust",
+        "algorithm",
+        "feed",
+        "social-media"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-06T05:41:28.398Z",
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:41:29.684Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "zed",
-      "fullName": "zed-industries/zed",
-      "url": "https://github.com/zed-industries/zed",
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "name": "agentgateway",
+      "fullName": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 92906,
-      "forks": 11446,
-      "starsToday": 509,
+      "stars": 5989,
+      "forks": 1061,
+      "starsToday": 187,
       "topics": [],
       "author": {
-        "name": "zed-industries",
-        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
-        "url": "https://github.com/zed-industries"
+        "name": "agentgateway",
+        "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&amp;v=4",
+        "url": "https://github.com/agentgateway"
       },
-      "summary": "基于Rust开发的高性能多人协作代码编辑器，由Atom与Tree-sitter作者打造，主打极速响应与实时协同编辑。",
+      "summary": "面向 AI Agent 与 MCP 服务器的下一代代理网关，用 Rust 编写，统一管理多智能体与工具调用的路由、鉴权和可观测性。",
       "tags": [
-        "editor",
+        "ai",
+        "mcp",
+        "proxy",
+        "gateway",
+        "rust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-06T05:41:28.113Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zapfast",
+      "fullName": "crmne/zapfast",
+      "url": "https://github.com/crmne/zapfast",
+      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3232,
+      "forks": 337,
+      "starsToday": 903,
+      "topics": [],
+      "author": {
+        "name": "crmne",
+        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
+        "url": "https://github.com/crmne"
+      },
+      "summary": "用 Rust 和 egui 编写的原生 WhatsApp 桌面客户端，主打轻量快速，替代基于 Electron 的官方网页版封装。",
+      "tags": [
         "rust",
-        "collaboration",
-        "gpu",
-        "ide"
+        "whatsapp",
+        "egui",
+        "desktop",
+        "chat"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-06T16:39:34.349Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clap",
+      "fullName": "clap-rs/clap",
+      "url": "https://github.com/clap-rs/clap",
+      "description": "A full featured, fast Command Line Argument Parser for Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16872,
+      "forks": 1294,
+      "starsToday": 150,
+      "topics": [],
+      "author": {
+        "name": "clap-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/60961?s=40&amp;v=4",
+        "url": "https://github.com/clap-rs"
+      },
+      "summary": "Rust 生态最主流的命令行参数解析库，功能完整、性能高，支持子命令、自动帮助与补全，是构建 CLI 工具的基础设施。",
+      "tags": [
+        "rust",
+        "cli",
+        "argument-parser",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-06T16:39:34.440Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "deno",
+      "fullName": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 108847,
+      "forks": 6636,
+      "starsToday": 259,
+      "topics": [],
+      "author": {
+        "name": "denoland",
+        "avatar": "https://avatars.githubusercontent.com/u/13602871?s=40&amp;v=4",
+        "url": "https://github.com/denoland"
+      },
+      "summary": "基于Rust构建的现代JavaScript与TypeScript运行时，默认安全、内置工具链，无需额外配置即可直接运行TS代码。",
+      "tags": [
+        "runtime",
+        "javascript",
+        "typescript",
+        "rust",
+        "deno"
+      ],
+      "category": "Runtime",
+      "enrichedAt": "2026-11-06T16:39:34.225Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruff",
+      "fullName": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 50546,
+      "forks": 2597,
+      "starsToday": 257,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的极速 Python 代码检查与格式化工具，可替代 Flake8、Black 等，速度远超同类。",
+      "tags": [
+        "python",
+        "linter",
+        "formatter",
+        "rust",
+        "devtool"
       ],
       "category": "DevTool",
-      "enrichedAt": "2026-11-06T05:41:29.729Z",
+      "enrichedAt": "2026-11-06T16:39:35.522Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "limusic",
+      "fullName": "SimoHypers/limusic",
+      "url": "https://github.com/SimoHypers/limusic",
+      "description": "Feature rich, native desktop, YouTube Music client.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1848,
+      "forks": 119,
+      "starsToday": 371,
+      "topics": [],
+      "author": {
+        "name": "SimoHypers",
+        "avatar": "https://avatars.githubusercontent.com/u/153776287?s=40&amp;v=4",
+        "url": "https://github.com/SimoHypers"
+      },
+      "summary": "基于 Rust 构建的原生桌面 YouTube Music 客户端，功能丰富，提供流畅的本地音乐播放体验。",
+      "tags": [
+        "rust",
+        "youtube-music",
+        "desktop",
+        "music",
+        "client"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-06T05:41:29.900Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "jan",
+      "fullName": "janhq/jan",
+      "url": "https://github.com/janhq/jan",
+      "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 45526,
+      "forks": 3154,
+      "starsToday": 387,
+      "topics": [],
+      "author": {
+        "name": "janhq",
+        "avatar": "https://avatars.githubusercontent.com/u/10354610?s=40&amp;v=4",
+        "url": "https://github.com/janhq"
+      },
+      "summary": "开源本地大模型客户端，可完全离线运行，是 ChatGPT 的隐私友好替代方案，支持在个人电脑上本地部署与对话。",
+      "tags": [
+        "llm",
+        "offline",
+        "chatgpt-alternative",
+        "local-ai",
+        "rust",
+        "privacy"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:41:31.286Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nushell",
+      "fullName": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 40845,
+      "forks": 2334,
+      "starsToday": 162,
+      "topics": [],
+      "author": {
+        "name": "nushell",
+        "avatar": "https://avatars.githubusercontent.com/u/547158?s=40&amp;v=4",
+        "url": "https://github.com/nushell"
+      },
+      "summary": "用 Rust 编写的结构化数据驱动型现代 shell，以表格形式处理管道数据，兼具命令行与脚本能力。",
+      "tags": [
+        "shell",
+        "rust",
+        "cli",
+        "pipeline",
+        "scripting"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-06T16:39:35.733Z",
       "deepwikiAvailable": false
     },
     {
@@ -285,62 +538,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "x-algorithm",
-      "fullName": "xai-org/x-algorithm",
-      "url": "https://github.com/xai-org/x-algorithm",
-      "description": "Algorithm powering the For You feed on X",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 34106,
-      "forks": 5511,
-      "starsToday": 220,
-      "topics": [],
-      "author": {
-        "name": "xai-org",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/xai-org"
-      },
-      "summary": "X 官方开源的 For You 推荐流算法，用 Rust 实现，揭示信息流排序与推荐的核心逻辑。",
-      "tags": [
-        "recommendation",
-        "rust",
-        "algorithm",
-        "feed",
-        "social-media"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:41:29.684Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "limusic",
-      "fullName": "SimoHypers/limusic",
-      "url": "https://github.com/SimoHypers/limusic",
-      "description": "Feature rich, native desktop, YouTube Music client.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 1829,
-      "forks": 119,
-      "starsToday": 371,
-      "topics": [],
-      "author": {
-        "name": "SimoHypers",
-        "avatar": "https://avatars.githubusercontent.com/u/153776287?s=40&amp;v=4",
-        "url": "https://github.com/SimoHypers"
-      },
-      "summary": "基于 Rust 构建的原生桌面 YouTube Music 客户端，功能丰富，提供流畅的本地音乐播放体验。",
-      "tags": [
-        "rust",
-        "youtube-music",
-        "desktop",
-        "music",
-        "client"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-06T05:41:29.900Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "nasiko",
       "fullName": "Nasiko-Labs/nasiko",
       "url": "https://github.com/Nasiko-Labs/nasiko",
@@ -366,35 +563,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-06T05:41:31.084Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "jan",
-      "fullName": "janhq/jan",
-      "url": "https://github.com/janhq/jan",
-      "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 45504,
-      "forks": 3155,
-      "starsToday": 387,
-      "topics": [],
-      "author": {
-        "name": "janhq",
-        "avatar": "https://avatars.githubusercontent.com/u/10354610?s=40&amp;v=4",
-        "url": "https://github.com/janhq"
-      },
-      "summary": "开源本地大模型客户端，可完全离线运行，是 ChatGPT 的隐私友好替代方案，支持在个人电脑上本地部署与对话。",
-      "tags": [
-        "llm",
-        "offline",
-        "chatgpt-alternative",
-        "local-ai",
-        "rust",
-        "privacy"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:41:31.286Z",
       "deepwikiAvailable": false
     },
     {

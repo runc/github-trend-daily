@@ -2,8 +2,8 @@
   "date": "2026-11-06",
   "since": "monthly",
   "language": "Java",
-  "fetchedAt": "2026-11-06T05:39:55.459Z",
-  "enrichedAt": "2026-11-06T05:42:24.955Z",
+  "fetchedAt": "2026-11-06T16:38:10.947Z",
+  "enrichedAt": "2026-11-06T16:39:46.276Z",
   "repos": [
     {
       "name": "ghidra",
@@ -12,8 +12,8 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 98187,
-      "forks": 11112,
+      "stars": 98314,
+      "forks": 11127,
       "starsToday": 17641,
       "topics": [],
       "author": {
@@ -34,14 +34,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "elasticsearch",
+      "fullName": "elastic/elasticsearch",
+      "url": "https://github.com/elastic/elasticsearch",
+      "description": "Free and Open Source, Distributed, RESTful Search Engine",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 78501,
+      "forks": 26201,
+      "starsToday": 471,
+      "topics": [],
+      "author": {
+        "name": "elastic",
+        "avatar": "https://avatars.githubusercontent.com/u/58790826?s=40&amp;v=4",
+        "url": "https://github.com/elastic"
+      },
+      "summary": "开源分布式RESTful搜索引擎，基于Java构建，支持全文检索、日志分析与海量数据实时查询，是ELK生态的核心存储与检索组件。",
+      "tags": [
+        "search",
+        "java",
+        "distributed",
+        "rest",
+        "database"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-06T05:42:21.232Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Apktool",
       "fullName": "iBotPeaches/Apktool",
       "url": "https://github.com/iBotPeaches/Apktool",
       "description": "A tool for reverse engineering Android apk files",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 27024,
-      "forks": 4226,
+      "stars": 27030,
+      "forks": 4227,
       "starsToday": 1348,
       "topics": [],
       "author": {
@@ -62,41 +90,13 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ghidra-mcp",
-      "fullName": "bethington/ghidra-mcp",
-      "url": "https://github.com/bethington/ghidra-mcp",
-      "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 6134,
-      "forks": 382,
-      "starsToday": 1905,
-      "topics": [],
-      "author": {
-        "name": "bethington",
-        "avatar": "https://avatars.githubusercontent.com/u/5455441?s=40&amp;v=4",
-        "url": "https://github.com/bethington"
-      },
-      "summary": "基于Ghidra的MCP服务器，提供200多个工具让AI驱动逆向工程，支持GUI插件与无头模式、批量操作和Docker部署。",
-      "tags": [
-        "ghidra",
-        "mcp",
-        "reverse-engineering",
-        "java",
-        "ai"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-06T05:42:18.115Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "GhidraMCP",
       "fullName": "LaurieWired/GhidraMCP",
       "url": "https://github.com/LaurieWired/GhidraMCP",
       "description": "MCP Server for Ghidra",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 11779,
+      "stars": 11787,
       "forks": 1280,
       "starsToday": 1538,
       "topics": [],
@@ -124,8 +124,8 @@
       "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 10905,
-      "forks": 1293,
+      "stars": 10907,
+      "forks": 1291,
       "starsToday": 775,
       "topics": [],
       "author": {
@@ -146,31 +146,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "FoldCraftLauncher",
-      "fullName": "FCL-Team/FoldCraftLauncher",
-      "url": "https://github.com/FCL-Team/FoldCraftLauncher",
-      "description": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
+      "name": "ghidra-mcp",
+      "fullName": "bethington/ghidra-mcp",
+      "url": "https://github.com/bethington/ghidra-mcp",
+      "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 5141,
-      "forks": 371,
-      "starsToday": 319,
+      "stars": 6136,
+      "forks": 383,
+      "starsToday": 1905,
       "topics": [],
       "author": {
-        "name": "FCL-Team",
-        "avatar": "https://avatars.githubusercontent.com/u/19233890?s=40&amp;v=4",
-        "url": "https://github.com/FCL-Team"
+        "name": "bethington",
+        "avatar": "https://avatars.githubusercontent.com/u/5455441?s=40&amp;v=4",
+        "url": "https://github.com/bethington"
       },
-      "summary": "安卓端 Minecraft Java 版启动器，可在手机上运行并管理 Java 版游戏与模组。",
+      "summary": "基于Ghidra的MCP服务器，提供200多个工具让AI驱动逆向工程，支持GUI插件与无头模式、批量操作和Docker部署。",
       "tags": [
-        "minecraft",
-        "android",
-        "launcher",
+        "ghidra",
+        "mcp",
+        "reverse-engineering",
         "java",
-        "gaming"
+        "ai"
       ],
-      "category": "App",
-      "enrichedAt": "2026-11-06T05:42:19.855Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-11-06T05:42:18.115Z",
       "deepwikiAvailable": false
     },
     {
@@ -180,7 +180,7 @@
       "description": "Multi-engine Android VPN — Xray, WARP, Psiphon, Tor, Geph, OpenVPN, MASQUE/AmneziaWG, and the MLM Adaptive Engine that routes each app by its own best path; Cloudflare panels, Config Studio, game booster. Kotlin + Jetpack Compose. | اپلیکیشن VPN چندموتورهٔ اندروید با موتور تطبیقی",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 659,
+      "stars": 661,
       "forks": 109,
       "starsToday": 373,
       "topics": [],
@@ -202,59 +202,60 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "TV",
-      "fullName": "FongMi/TV",
-      "url": "https://github.com/FongMi/TV",
-      "description": "",
+      "name": "trino",
+      "fullName": "trinodb/trino",
+      "url": "https://github.com/trinodb/trino",
+      "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 10330,
-      "forks": 3043,
-      "starsToday": 671,
+      "stars": 13476,
+      "forks": 3856,
+      "starsToday": 186,
       "topics": [],
       "author": {
-        "name": "FongMi",
-        "avatar": "https://avatars.githubusercontent.com/u/3471963?s=40&amp;v=4",
-        "url": "https://github.com/FongMi"
+        "name": "trinodb",
+        "avatar": "https://avatars.githubusercontent.com/u/144328?s=40&amp;v=4",
+        "url": "https://github.com/trinodb"
       },
-      "summary": "基于Java的电视端影视播放器，支持多源点播与直播，适配Android TV等大屏设备。",
+      "summary": "Trino 是面向大数据的分布式 SQL 查询引擎（前身 PrestoSQL），可跨多种数据源做交互式联邦查询分析。",
       "tags": [
-        "android",
-        "tv",
-        "video",
-        "player",
-        "streaming"
+        "sql",
+        "query-engine",
+        "big-data",
+        "java",
+        "distributed",
+        "olap"
       ],
-      "category": "App",
-      "enrichedAt": "2026-11-06T05:42:19.996Z",
+      "category": "Data",
+      "enrichedAt": "2026-11-06T16:39:46.275Z",
       "deepwikiAvailable": false
     },
     {
-      "name": "elasticsearch",
-      "fullName": "elastic/elasticsearch",
-      "url": "https://github.com/elastic/elasticsearch",
-      "description": "Free and Open Source, Distributed, RESTful Search Engine",
+      "name": "spring-boot",
+      "fullName": "spring-projects/spring-boot",
+      "url": "https://github.com/spring-projects/spring-boot",
+      "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 78498,
-      "forks": 26200,
-      "starsToday": 471,
+      "stars": 81785,
+      "forks": 43451,
+      "starsToday": 549,
       "topics": [],
       "author": {
-        "name": "elastic",
-        "avatar": "https://avatars.githubusercontent.com/u/58790826?s=40&amp;v=4",
-        "url": "https://github.com/elastic"
+        "name": "spring-projects",
+        "avatar": "https://avatars.githubusercontent.com/u/914682?s=40&amp;v=4",
+        "url": "https://github.com/spring-projects"
       },
-      "summary": "开源分布式RESTful搜索引擎，基于Java构建，支持全文检索、日志分析与海量数据实时查询，是ELK生态的核心存储与检索组件。",
+      "summary": "Spring Boot 是构建 Spring 生产级应用与服务的脚手架框架，通过自动配置和起步依赖大幅简化配置，开箱即用。",
       "tags": [
-        "search",
         "java",
-        "distributed",
-        "rest",
-        "database"
+        "spring",
+        "framework",
+        "backend",
+        "microservices"
       ],
-      "category": "Data",
-      "enrichedAt": "2026-11-06T05:42:21.232Z",
+      "category": "Framework",
+      "enrichedAt": "2026-11-06T16:39:46.002Z",
       "deepwikiAvailable": false
     },
     {
@@ -264,8 +265,8 @@
       "description": "Dex to Java decompiler",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 51621,
-      "forks": 5905,
+      "stars": 51626,
+      "forks": 5903,
       "starsToday": 983,
       "topics": [],
       "author": {
@@ -283,90 +284,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-06T05:42:21.191Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "flink",
-      "fullName": "apache/flink",
-      "url": "https://github.com/apache/flink",
-      "description": "Apache Flink",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 26454,
-      "forks": 14178,
-      "starsToday": 101,
-      "topics": [],
-      "author": {
-        "name": "apache",
-        "avatar": "https://avatars.githubusercontent.com/u/5725237?s=40&amp;v=4",
-        "url": "https://github.com/apache"
-      },
-      "summary": "Apache Flink 是开源流批一体分布式计算引擎，支持有状态流处理、事件时间语义与 Exactly-Once 容错，适用于实时数仓与大数据分析场景。",
-      "tags": [
-        "stream-processing",
-        "big-data",
-        "java",
-        "distributed",
-        "sql"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-06T05:42:21.643Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Overdrive-release",
-      "fullName": "yash-srivastava/Overdrive-release",
-      "url": "https://github.com/yash-srivastava/Overdrive-release",
-      "description": "Advanced Sentry Mode for BYD Vehicles",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 417,
-      "forks": 120,
-      "starsToday": 94,
-      "topics": [],
-      "author": {
-        "name": "yash-srivastava",
-        "avatar": "https://avatars.githubusercontent.com/u/16201916?s=40&amp;v=4",
-        "url": "https://github.com/yash-srivastava"
-      },
-      "summary": "为比亚迪车辆提供高级哨兵模式的应用，实现停车监控、异常事件记录与远程告警，提升车辆安防能力。",
-      "tags": [
-        "byd",
-        "sentry",
-        "android",
-        "dashcam",
-        "security"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-06T05:42:21.914Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ZombieBuddy",
-      "fullName": "zed-0xff/ZombieBuddy",
-      "url": "https://github.com/zed-0xff/ZombieBuddy",
-      "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 316,
-      "forks": 80,
-      "starsToday": 159,
-      "topics": [],
-      "author": {
-        "name": "zed-0xff",
-        "avatar": "https://avatars.githubusercontent.com/u/5986?s=40&amp;v=4",
-        "url": "https://github.com/zed-0xff"
-      },
-      "summary": "基于ByteBuddy的Java agent框架，通过注解API在运行时修改Project Zomboid游戏字节码，无需源码即可制作模组。",
-      "tags": [
-        "java",
-        "bytebuddy",
-        "agent",
-        "modding",
-        "bytecode"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-06T05:42:23.070Z",
       "deepwikiAvailable": false
     },
     {
@@ -398,42 +315,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Java",
-      "fullName": "TheAlgorithms/Java",
-      "url": "https://github.com/TheAlgorithms/Java",
-      "description": "All Algorithms implemented in Java",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 66737,
-      "forks": 21468,
-      "starsToday": 512,
-      "topics": [],
-      "author": {
-        "name": "TheAlgorithms",
-        "avatar": "https://avatars.githubusercontent.com/u/19151554?s=40&amp;v=4",
-        "url": "https://github.com/TheAlgorithms"
-      },
-      "summary": "用Java实现各类经典算法与数据结构的教育型代码合集，适合学习与面试复习。",
-      "tags": [
-        "java",
-        "algorithms",
-        "data-structures",
-        "education",
-        "interview"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-06T05:42:23.295Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "spring-framework",
       "fullName": "spring-projects/spring-framework",
       "url": "https://github.com/spring-projects/spring-framework",
       "description": "Spring Framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 60310,
-      "forks": 38762,
+      "stars": 60305,
+      "forks": 38774,
       "starsToday": 127,
       "topics": [],
       "author": {
@@ -454,13 +343,97 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "rewrite",
+      "fullName": "openrewrite/rewrite",
+      "url": "https://github.com/openrewrite/rewrite",
+      "description": "Automated mass refactoring of source code.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 3955,
+      "forks": 601,
+      "starsToday": 188,
+      "topics": [],
+      "author": {
+        "name": "openrewrite",
+        "avatar": "https://avatars.githubusercontent.com/u/1697736?s=40&amp;v=4",
+        "url": "https://github.com/openrewrite"
+      },
+      "summary": "Java编写的源码自动化大规模重构框架，通过可组合的配方批量升级依赖、迁移API与统一代码风格，支持Maven/Gradle插件与CI集成。",
+      "tags": [
+        "java",
+        "refactoring",
+        "code-migration",
+        "static-analysis",
+        "build-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-06T16:39:45.971Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ZombieBuddy",
+      "fullName": "zed-0xff/ZombieBuddy",
+      "url": "https://github.com/zed-0xff/ZombieBuddy",
+      "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 318,
+      "forks": 80,
+      "starsToday": 159,
+      "topics": [],
+      "author": {
+        "name": "zed-0xff",
+        "avatar": "https://avatars.githubusercontent.com/u/5986?s=40&amp;v=4",
+        "url": "https://github.com/zed-0xff"
+      },
+      "summary": "基于ByteBuddy的Java agent框架，通过注解API在运行时修改Project Zomboid游戏字节码，无需源码即可制作模组。",
+      "tags": [
+        "java",
+        "bytebuddy",
+        "agent",
+        "modding",
+        "bytecode"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-06T05:42:23.070Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "termux-app",
+      "fullName": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 64243,
+      "forks": 8214,
+      "starsToday": 2353,
+      "topics": [],
+      "author": {
+        "name": "termux",
+        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
+        "url": "https://github.com/termux"
+      },
+      "summary": "Android 终端模拟器应用，内置 Linux 环境并可通过包管理器扩展，让手机直接运行命令行工具。",
+      "tags": [
+        "android",
+        "terminal",
+        "linux",
+        "emulator",
+        "cli"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-06T05:42:24.825Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "CodeOnTheGo",
       "fullName": "appdevforall/CodeOnTheGo",
       "url": "https://github.com/appdevforall/CodeOnTheGo",
       "description": "Code on the Go is an IDE that lets you build Android apps on Android phones, without a laptop computer and without Internet access. Code on the Go is a project of App Dev for All.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 564,
+      "stars": 569,
       "forks": 117,
       "starsToday": 140,
       "topics": [],
@@ -479,6 +452,146 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-06T05:42:24.373Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "FoldCraftLauncher",
+      "fullName": "FCL-Team/FoldCraftLauncher",
+      "url": "https://github.com/FCL-Team/FoldCraftLauncher",
+      "description": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 5146,
+      "forks": 371,
+      "starsToday": 319,
+      "topics": [],
+      "author": {
+        "name": "FCL-Team",
+        "avatar": "https://avatars.githubusercontent.com/u/19233890?s=40&amp;v=4",
+        "url": "https://github.com/FCL-Team"
+      },
+      "summary": "安卓端 Minecraft Java 版启动器，可在手机上运行并管理 Java 版游戏与模组。",
+      "tags": [
+        "minecraft",
+        "android",
+        "launcher",
+        "java",
+        "gaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-06T05:42:19.855Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Java",
+      "fullName": "TheAlgorithms/Java",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "description": "All Algorithms implemented in Java",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 66740,
+      "forks": 21469,
+      "starsToday": 512,
+      "topics": [],
+      "author": {
+        "name": "TheAlgorithms",
+        "avatar": "https://avatars.githubusercontent.com/u/19151554?s=40&amp;v=4",
+        "url": "https://github.com/TheAlgorithms"
+      },
+      "summary": "用Java实现各类经典算法与数据结构的教育型代码合集，适合学习与面试复习。",
+      "tags": [
+        "java",
+        "algorithms",
+        "data-structures",
+        "education",
+        "interview"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-06T05:42:23.295Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Overdrive-release",
+      "fullName": "yash-srivastava/Overdrive-release",
+      "url": "https://github.com/yash-srivastava/Overdrive-release",
+      "description": "Advanced Sentry Mode for BYD Vehicles",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 418,
+      "forks": 120,
+      "starsToday": 94,
+      "topics": [],
+      "author": {
+        "name": "yash-srivastava",
+        "avatar": "https://avatars.githubusercontent.com/u/16201916?s=40&amp;v=4",
+        "url": "https://github.com/yash-srivastava"
+      },
+      "summary": "为比亚迪车辆提供高级哨兵模式的应用，实现停车监控、异常事件记录与远程告警，提升车辆安防能力。",
+      "tags": [
+        "byd",
+        "sentry",
+        "android",
+        "dashcam",
+        "security"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-06T05:42:21.914Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TV",
+      "fullName": "FongMi/TV",
+      "url": "https://github.com/FongMi/TV",
+      "description": "",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 10330,
+      "forks": 3043,
+      "starsToday": 671,
+      "topics": [],
+      "author": {
+        "name": "FongMi",
+        "avatar": "https://avatars.githubusercontent.com/u/3471963?s=40&amp;v=4",
+        "url": "https://github.com/FongMi"
+      },
+      "summary": "基于Java的电视端影视播放器，支持多源点播与直播，适配Android TV等大屏设备。",
+      "tags": [
+        "android",
+        "tv",
+        "video",
+        "player",
+        "streaming"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-06T05:42:19.996Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "flink",
+      "fullName": "apache/flink",
+      "url": "https://github.com/apache/flink",
+      "description": "Apache Flink",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 26454,
+      "forks": 14178,
+      "starsToday": 101,
+      "topics": [],
+      "author": {
+        "name": "apache",
+        "avatar": "https://avatars.githubusercontent.com/u/5725237?s=40&amp;v=4",
+        "url": "https://github.com/apache"
+      },
+      "summary": "Apache Flink 是开源流批一体分布式计算引擎，支持有状态流处理、事件时间语义与 Exactly-Once 容错，适用于实时数仓与大数据分析场景。",
+      "tags": [
+        "stream-processing",
+        "big-data",
+        "java",
+        "distributed",
+        "sql"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-06T05:42:21.643Z",
       "deepwikiAvailable": false
     },
     {
@@ -507,34 +620,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-06T05:42:24.955Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "termux-app",
-      "fullName": "termux/termux-app",
-      "url": "https://github.com/termux/termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": 64198,
-      "forks": 8207,
-      "starsToday": 2353,
-      "topics": [],
-      "author": {
-        "name": "termux",
-        "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&amp;v=4",
-        "url": "https://github.com/termux"
-      },
-      "summary": "Android 终端模拟器应用，内置 Linux 环境并可通过包管理器扩展，让手机直接运行命令行工具。",
-      "tags": [
-        "android",
-        "terminal",
-        "linux",
-        "emulator",
-        "cli"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-06T05:42:24.825Z",
       "deepwikiAvailable": false
     }
   ]

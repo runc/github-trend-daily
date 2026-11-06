@@ -2,8 +2,8 @@
   "date": "2026-11-06",
   "since": "weekly",
   "language": "TypeScript",
-  "fetchedAt": "2026-11-06T05:39:55.459Z",
-  "enrichedAt": "2026-11-06T05:41:03.447Z",
+  "fetchedAt": "2026-11-06T16:38:10.947Z",
+  "enrichedAt": "2026-11-06T16:39:25.426Z",
   "repos": [
     {
       "name": "claude-mem",
@@ -12,8 +12,8 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 113652,
-      "forks": 9856,
+      "stars": 113859,
+      "forks": 9878,
       "starsToday": 9318,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 48581,
-      "forks": 9651,
+      "stars": 49268,
+      "forks": 9717,
       "starsToday": 16235,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 13754,
-      "forks": 1902,
+      "stars": 14777,
+      "forks": 2050,
       "starsToday": 5580,
       "topics": [],
       "author": {
@@ -90,14 +90,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "openbot",
+      "fullName": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 5977,
+      "forks": 616,
+      "starsToday": 2085,
+      "topics": [],
+      "author": {
+        "name": "nightly-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/nightly-labs"
+      },
+      "summary": "本地优先的桌面工作台，为Codex、Claude、Grok等AI代理提供独立工作区、任务队列、文件共享与浏览器控制，支持代理间协作。",
+      "tags": [
+        "ai-agents",
+        "desktop",
+        "typescript",
+        "local-first",
+        "multi-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:41:01.814Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gstack",
+      "fullName": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 140353,
+      "forks": 20723,
+      "starsToday": 1721,
+      "topics": [],
+      "author": {
+        "name": "garrytan",
+        "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&amp;v=4",
+        "url": "https://github.com/garrytan"
+      },
+      "summary": "一套可直接复用的 Claude Code 配置，含23个角色化工具，覆盖CEO、设计、工程管理、发布、文档与QA，帮助团队快速搭建AI协作工作流。",
+      "tags": [
+        "claude-code",
+        "ai-agents",
+        "workflow",
+        "typescript",
+        "prompts"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:40:59.079Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "video-shotcraft",
       "fullName": "Vincentwei1021/video-shotcraft",
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 17310,
-      "forks": 1641,
+      "stars": 17427,
+      "forks": 1657,
       "starsToday": 2692,
       "topics": [],
       "author": {
@@ -116,6 +172,314 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-06T05:40:57.457Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenBot",
+      "fullName": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 10321,
+      "forks": 1283,
+      "starsToday": 2357,
+      "topics": [],
+      "author": {
+        "name": "CopilotKit",
+        "avatar": "https://avatars.githubusercontent.com/u/1574202?s=40&amp;v=4",
+        "url": "https://github.com/CopilotKit"
+      },
+      "summary": "开源AI同事平台，每个智能体拥有独立浏览器、文件与工具环境，动作先决策后记录，可接入任意AG-UI智能体。",
+      "tags": [
+        "ai-agents",
+        "typescript",
+        "ag-ui",
+        "automation",
+        "browser"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:40:58.815Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freellmapi",
+      "fullName": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 48316,
+      "forks": 6648,
+      "starsToday": 4177,
+      "topics": [],
+      "author": {
+        "name": "tashfeenahmed",
+        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
+        "url": "https://github.com/tashfeenahmed"
+      },
+      "summary": "聚合34家免费LLM提供商的635个模型端点，统一为单个OpenAI兼容/v1接口，支持智能路由、自动故障转移与密钥加密。",
+      "tags": [
+        "llm",
+        "api-gateway",
+        "openai-compatible",
+        "failover",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:40:58.837Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ziwei-doushu",
+      "fullName": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 16483,
+      "forks": 3203,
+      "starsToday": 6335,
+      "topics": [],
+      "author": {
+        "name": "Renhuai123",
+        "avatar": "https://avatars.githubusercontent.com/u/91890238?s=40&amp;v=4",
+        "url": "https://github.com/Renhuai123"
+      },
+      "summary": "紫微斗数开源排盘引擎，基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库与古籍原文数据，TypeScript 实现。",
+      "tags": [
+        "ziwei",
+        "astrology",
+        "typescript",
+        "chinese",
+        "knowledge-base"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-06T05:41:00.260Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ds-harness-remote",
+      "fullName": "liguobao/ds-harness-remote",
+      "url": "https://github.com/liguobao/ds-harness-remote",
+      "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2062,
+      "forks": 167,
+      "starsToday": 990,
+      "topics": [],
+      "author": {
+        "name": "liguobao",
+        "avatar": "https://avatars.githubusercontent.com/u/10910802?s=40&amp;v=4",
+        "url": "https://github.com/liguobao"
+      },
+      "summary": "基于 DeepSeek Harness 插件的远程访问方案，通过低延迟端到端加密 P2P 网络，让 PC、移动端和 Web 随时访问本地 Codex、Cursor、Claude Code 等工作区。",
+      "tags": [
+        "p2p",
+        "remote-access",
+        "e2ee",
+        "typescript",
+        "ai-coding"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-06T05:41:02.224Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "remotion",
+      "fullName": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 71221,
+      "forks": 5881,
+      "starsToday": 2227,
+      "topics": [],
+      "author": {
+        "name": "remotion-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/1629785?s=40&amp;v=4",
+        "url": "https://github.com/remotion-dev"
+      },
+      "summary": "用 React 以代码方式制作视频的框架，支持组件化渲染、参数化动画与程序化批量生成，可输出 MP4 等格式。",
+      "tags": [
+        "react",
+        "video",
+        "typescript",
+        "animation",
+        "rendering"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-06T05:41:00.805Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "project-nomad",
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 42398,
+      "forks": 4343,
+      "starsToday": 1039,
+      "topics": [],
+      "author": {
+        "name": "Crosstalk-Solutions",
+        "avatar": "https://avatars.githubusercontent.com/u/52841588?s=40&amp;v=4",
+        "url": "https://github.com/Crosstalk-Solutions"
+      },
+      "summary": "离线优先的知识与教育服务器，在自有硬件上运行维基百科、书籍、课程、地图及可选本地AI，无需联网。",
+      "tags": [
+        "offline-first",
+        "self-hosted",
+        "education",
+        "knowledge-base",
+        "local-ai"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-06T05:41:02.453Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-notebook",
+      "fullName": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 41680,
+      "forks": 4794,
+      "starsToday": 787,
+      "topics": [],
+      "author": {
+        "name": "lfnovo",
+        "avatar": "https://avatars.githubusercontent.com/u/579178?s=40&amp;v=4",
+        "url": "https://github.com/lfnovo"
+      },
+      "summary": "开源版 Notebook LM 替代方案，支持多模型与灵活配置，用于文档问答、笔记与内容生成，可自托管。",
+      "tags": [
+        "notebooklm",
+        "llm",
+        "rag",
+        "self-hosted",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:41:02.126Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenMAIC",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 42801,
+      "forks": 6584,
+      "starsToday": 1018,
+      "topics": [],
+      "author": {
+        "name": "THU-MAIC",
+        "avatar": "https://avatars.githubusercontent.com/u/18752201?s=40&amp;v=4",
+        "url": "https://github.com/THU-MAIC"
+      },
+      "summary": "开源多智能体互动课堂，一键生成沉浸式多智能体学习体验，让AI角色协作授课与互动。",
+      "tags": [
+        "multi-agent",
+        "education",
+        "llm",
+        "typescript",
+        "ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T05:41:03.447Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openclaw",
+      "fullName": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 394041,
+      "forks": 82809,
+      "starsToday": 1005,
+      "topics": [],
+      "author": {
+        "name": "openclaw",
+        "avatar": "https://avatars.githubusercontent.com/u/58493?s=40&amp;v=4",
+        "url": "https://github.com/openclaw"
+      },
+      "summary": "跨平台开源AI智能体，可真正执行任务而非仅对话，支持任意操作系统与平台，TypeScript编写。",
+      "tags": [
+        "ai",
+        "agent",
+        "typescript",
+        "cross-platform",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T16:39:25.409Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oh-my-pi",
+      "fullName": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 38031,
+      "forks": 4295,
+      "starsToday": 901,
+      "topics": [],
+      "author": {
+        "name": "can1357",
+        "avatar": "https://avatars.githubusercontent.com/u/11807264?s=40&amp;v=4",
+        "url": "https://github.com/can1357"
+      },
+      "summary": "深度集成IDE的终端编码智能体，由Stencil Labs打造，让AI在编辑器上下文中直接读写代码、执行任务。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "ide",
+        "typescript",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T16:39:25.426Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 117527,
+      "forks": 7452,
+      "starsToday": 6802,
+      "topics": [],
+      "author": {
+        "name": "stablyai",
+        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
+        "url": "https://github.com/stablyai"
+      },
+      "summary": "Orca 让你用自己的订阅批量运行 Claude Code、Codex 等编码智能体，支持桌面、移动端与远程运行时统一调度。",
+      "tags": [
+        "ai-agents",
+        "coding-agent",
+        "typescript",
+        "claude-code",
+        "remote-runtime"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-06T16:39:25.374Z",
       "deepwikiAvailable": false
     },
     {
@@ -147,90 +511,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gstack",
-      "fullName": "garrytan/gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 140091,
-      "forks": 20704,
-      "starsToday": 1721,
-      "topics": [],
-      "author": {
-        "name": "garrytan",
-        "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&amp;v=4",
-        "url": "https://github.com/garrytan"
-      },
-      "summary": "一套可直接复用的 Claude Code 配置，含23个角色化工具，覆盖CEO、设计、工程管理、发布、文档与QA，帮助团队快速搭建AI协作工作流。",
-      "tags": [
-        "claude-code",
-        "ai-agents",
-        "workflow",
-        "typescript",
-        "prompts"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:40:59.079Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenBot",
-      "fullName": "CopilotKit/OpenBot",
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 10278,
-      "forks": 1276,
-      "starsToday": 2357,
-      "topics": [],
-      "author": {
-        "name": "CopilotKit",
-        "avatar": "https://avatars.githubusercontent.com/u/1574202?s=40&amp;v=4",
-        "url": "https://github.com/CopilotKit"
-      },
-      "summary": "开源AI同事平台，每个智能体拥有独立浏览器、文件与工具环境，动作先决策后记录，可接入任意AG-UI智能体。",
-      "tags": [
-        "ai-agents",
-        "typescript",
-        "ag-ui",
-        "automation",
-        "browser"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:40:58.815Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "freellmapi",
-      "fullName": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 48074,
-      "forks": 6610,
-      "starsToday": 4177,
-      "topics": [],
-      "author": {
-        "name": "tashfeenahmed",
-        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
-        "url": "https://github.com/tashfeenahmed"
-      },
-      "summary": "聚合34家免费LLM提供商的635个模型端点，统一为单个OpenAI兼容/v1接口，支持智能路由、自动故障转移与密钥加密。",
-      "tags": [
-        "llm",
-        "api-gateway",
-        "openai-compatible",
-        "failover",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:40:58.837Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "qwen-code",
       "fullName": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
@@ -259,34 +539,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ziwei-doushu",
-      "fullName": "Renhuai123/ziwei-doushu",
-      "url": "https://github.com/Renhuai123/ziwei-doushu",
-      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 16317,
-      "forks": 3171,
-      "starsToday": 6335,
-      "topics": [],
-      "author": {
-        "name": "Renhuai123",
-        "avatar": "https://avatars.githubusercontent.com/u/91890238?s=40&amp;v=4",
-        "url": "https://github.com/Renhuai123"
-      },
-      "summary": "紫微斗数开源排盘引擎，基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库与古籍原文数据，TypeScript 实现。",
-      "tags": [
-        "ziwei",
-        "astrology",
-        "typescript",
-        "chinese",
-        "knowledge-base"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-06T05:41:00.260Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "portal-ai-plugins",
       "fullName": "spotify/portal-ai-plugins",
       "url": "https://github.com/spotify/portal-ai-plugins",
@@ -312,174 +564,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-06T05:41:00.496Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "remotion",
-      "fullName": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥 Make videos programmatically with React",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 71105,
-      "forks": 5867,
-      "starsToday": 2227,
-      "topics": [],
-      "author": {
-        "name": "remotion-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/1629785?s=40&amp;v=4",
-        "url": "https://github.com/remotion-dev"
-      },
-      "summary": "用 React 以代码方式制作视频的框架，支持组件化渲染、参数化动画与程序化批量生成，可输出 MP4 等格式。",
-      "tags": [
-        "react",
-        "video",
-        "typescript",
-        "animation",
-        "rendering"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-06T05:41:00.805Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openbot",
-      "fullName": "nightly-labs/openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 5859,
-      "forks": 606,
-      "starsToday": 2085,
-      "topics": [],
-      "author": {
-        "name": "nightly-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/nightly-labs"
-      },
-      "summary": "本地优先的桌面工作台，为Codex、Claude、Grok等AI代理提供独立工作区、任务队列、文件共享与浏览器控制，支持代理间协作。",
-      "tags": [
-        "ai-agents",
-        "desktop",
-        "typescript",
-        "local-first",
-        "multi-agent"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:41:01.814Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "open-notebook",
-      "fullName": "lfnovo/open-notebook",
-      "url": "https://github.com/lfnovo/open-notebook",
-      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 41665,
-      "forks": 4789,
-      "starsToday": 787,
-      "topics": [],
-      "author": {
-        "name": "lfnovo",
-        "avatar": "https://avatars.githubusercontent.com/u/579178?s=40&amp;v=4",
-        "url": "https://github.com/lfnovo"
-      },
-      "summary": "开源版 Notebook LM 替代方案，支持多模型与灵活配置，用于文档问答、笔记与内容生成，可自托管。",
-      "tags": [
-        "notebooklm",
-        "llm",
-        "rag",
-        "self-hosted",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:41:02.126Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ds-harness-remote",
-      "fullName": "liguobao/ds-harness-remote",
-      "url": "https://github.com/liguobao/ds-harness-remote",
-      "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 1972,
-      "forks": 162,
-      "starsToday": 990,
-      "topics": [],
-      "author": {
-        "name": "liguobao",
-        "avatar": "https://avatars.githubusercontent.com/u/10910802?s=40&amp;v=4",
-        "url": "https://github.com/liguobao"
-      },
-      "summary": "基于 DeepSeek Harness 插件的远程访问方案，通过低延迟端到端加密 P2P 网络，让 PC、移动端和 Web 随时访问本地 Codex、Cursor、Claude Code 等工作区。",
-      "tags": [
-        "p2p",
-        "remote-access",
-        "e2ee",
-        "typescript",
-        "ai-coding"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-06T05:41:02.224Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "project-nomad",
-      "fullName": "Crosstalk-Solutions/project-nomad",
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 42344,
-      "forks": 4336,
-      "starsToday": 1039,
-      "topics": [],
-      "author": {
-        "name": "Crosstalk-Solutions",
-        "avatar": "https://avatars.githubusercontent.com/u/52841588?s=40&amp;v=4",
-        "url": "https://github.com/Crosstalk-Solutions"
-      },
-      "summary": "离线优先的知识与教育服务器，在自有硬件上运行维基百科、书籍、课程、地图及可选本地AI，无需联网。",
-      "tags": [
-        "offline-first",
-        "self-hosted",
-        "education",
-        "knowledge-base",
-        "local-ai"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-06T05:41:02.453Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenMAIC",
-      "fullName": "THU-MAIC/OpenMAIC",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 42761,
-      "forks": 6576,
-      "starsToday": 1018,
-      "topics": [],
-      "author": {
-        "name": "THU-MAIC",
-        "avatar": "https://avatars.githubusercontent.com/u/18752201?s=40&amp;v=4",
-        "url": "https://github.com/THU-MAIC"
-      },
-      "summary": "开源多智能体互动课堂，一键生成沉浸式多智能体学习体验，让AI角色协作授课与互动。",
-      "tags": [
-        "multi-agent",
-        "education",
-        "llm",
-        "typescript",
-        "ai"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-06T05:41:03.447Z",
       "deepwikiAvailable": false
     }
   ]
