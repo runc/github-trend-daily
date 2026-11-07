@@ -2,9 +2,402 @@
   "date": "2026-11-07",
   "since": "daily",
   "language": "TypeScript",
-  "fetchedAt": "2026-11-07T05:09:43.395Z",
-  "enrichedAt": "2026-11-07T05:10:15.341Z",
+  "fetchedAt": "2026-11-07T15:30:19.617Z",
+  "enrichedAt": "2026-11-07T15:30:47.547Z",
   "repos": [
+    {
+      "name": "astryx",
+      "fullName": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 14216,
+      "forks": 1171,
+      "starsToday": 198,
+      "topics": [],
+      "author": {
+        "name": "meta",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/meta"
+      },
+      "summary": "Meta开源的TypeScript设计系统，组件可完全自定义，并针对AI Agent使用场景做了适配，便于构建一致且可被智能体调用的界面。",
+      "tags": [
+        "design-system",
+        "typescript",
+        "ui",
+        "components",
+        "ai-agent"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-07T05:10:11.234Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenMausBot",
+      "fullName": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 16500,
+      "forks": 2340,
+      "starsToday": 1986,
+      "topics": [],
+      "author": {
+        "name": "milind-soni",
+        "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&amp;v=4",
+        "url": "https://github.com/milind-soni"
+      },
+      "summary": "开源Grok Bot替代方案，为AI机器人提供可操作的虚拟机环境，让智能体在隔离沙箱中执行任务。",
+      "tags": [
+        "ai",
+        "agent",
+        "vm",
+        "typescript",
+        "sandbox"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T15:30:44.286Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailwindcss",
+      "fullName": "tailwindlabs/tailwindcss",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 98270,
+      "forks": 7096,
+      "starsToday": 152,
+      "topics": [],
+      "author": {
+        "name": "tailwindlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/4323180?s=40&amp;v=4",
+        "url": "https://github.com/tailwindlabs"
+      },
+      "summary": "原子化 CSS 框架，用工具类直接在标记中构建界面，无需写自定义样式，加速 UI 开发。",
+      "tags": [
+        "css",
+        "tailwind",
+        "frontend",
+        "utility-first",
+        "typescript"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-07T05:10:15.341Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "billion-context",
+      "fullName": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 4473,
+      "forks": 361,
+      "starsToday": 185,
+      "topics": [],
+      "author": {
+        "name": "ranxianglei",
+        "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&amp;v=4",
+        "url": "https://github.com/ranxianglei"
+      },
+      "summary": "TypeScript 上下文压缩插件，支持月级超长会话，100K 小窗口即可运行，token 消耗降低约5倍。",
+      "tags": [
+        "context",
+        "compression",
+        "llm",
+        "typescript",
+        "tokens"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T15:30:44.132Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MonkeyCode",
+      "fullName": "chaitin/MonkeyCode",
+      "url": "https://github.com/chaitin/MonkeyCode",
+      "description": "企业级 AI 办公工作台",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 5087,
+      "forks": 768,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "chaitin",
+        "avatar": "https://avatars.githubusercontent.com/u/170864681?s=40&amp;v=4",
+        "url": "https://github.com/chaitin"
+      },
+      "summary": "企业级 AI 办公工作台，基于 TypeScript 构建，集成 AI 能力提升团队办公与协作效率。",
+      "tags": [
+        "ai",
+        "typescript",
+        "enterprise",
+        "workspace",
+        "productivity"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-07T15:30:44.269Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "aidlc-workflows",
+      "fullName": "awslabs/aidlc-workflows",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 5920,
+      "forks": 1053,
+      "starsToday": 99,
+      "topics": [],
+      "author": {
+        "name": "awslabs",
+        "avatar": "https://avatars.githubusercontent.com/u/2102737?s=40&amp;v=4",
+        "url": "https://github.com/awslabs"
+      },
+      "summary": "为AI编码代理提供AI-DLC自适应工作流引导规则，规范从需求到交付的全生命周期开发流程。",
+      "tags": [
+        "ai-agents",
+        "workflow",
+        "sdlc",
+        "typescript",
+        "aws"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T15:30:43.728Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "unleash",
+      "fullName": "Unleash/unleash",
+      "url": "https://github.com/Unleash/unleash",
+      "description": "Open-source feature management platform",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 14156,
+      "forks": 930,
+      "starsToday": 180,
+      "topics": [],
+      "author": {
+        "name": "Unleash",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/Unleash"
+      },
+      "summary": "开源特性开关管理平台，支持渐进式发布、A/B测试与多环境灰度，帮助团队安全上线新功能。",
+      "tags": [
+        "feature-flags",
+        "typescript",
+        "self-hosted",
+        "devops",
+        "release"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T15:30:45.463Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 118346,
+      "forks": 7501,
+      "starsToday": 1155,
+      "topics": [],
+      "author": {
+        "name": "stablyai",
+        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
+        "url": "https://github.com/stablyai"
+      },
+      "summary": "Orca 让你用自己的订阅同时运行一支编码智能体舰队（Claude Code、Codex 等），支持桌面、移动端与远程运行时。",
+      "tags": [
+        "ai-agents",
+        "coding-agent",
+        "claude-code",
+        "codex",
+        "typescript"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:10:13.963Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gstack",
+      "fullName": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 140593,
+      "forks": 20756,
+      "starsToday": 292,
+      "topics": [],
+      "author": {
+        "name": "garrytan",
+        "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&amp;v=4",
+        "url": "https://github.com/garrytan"
+      },
+      "summary": "Garry Tan 的 Claude Code 配置合集，提供 23 个工具扮演 CEO、设计师、工程经理、发布经理、文档工程师与 QA 角色，帮助团队快速搭建 AI 协作开发流程。",
+      "tags": [
+        "claude-code",
+        "ai-agents",
+        "workflow",
+        "typescript",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T15:30:45.600Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "T3MP3ST",
+      "fullName": "elder-plinius/T3MP3ST",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 6969,
+      "forks": 1447,
+      "starsToday": 242,
+      "topics": [],
+      "author": {
+        "name": "elder-plinius",
+        "avatar": "https://avatars.githubusercontent.com/u/1159087?s=40&amp;v=4",
+        "url": "https://github.com/elder-plinius"
+      },
+      "summary": "TypeScript 编写的自主红队测试平台，通过多智能体元框架编排攻防安全测试，自动化执行渗透与漏洞探测任务。",
+      "tags": [
+        "security",
+        "red-team",
+        "multi-agent",
+        "typescript",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:10:10.716Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lobehub",
+      "fullName": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 84313,
+      "forks": 16126,
+      "starsToday": 209,
+      "topics": [],
+      "author": {
+        "name": "lobehub",
+        "avatar": "https://avatars.githubusercontent.com/u/28616219?s=40&amp;v=4",
+        "url": "https://github.com/lobehub"
+      },
+      "summary": "开源AI智能体协作平台，可将超级智能体接入团队现有聊天工具，自主承接任务并持续进化。",
+      "tags": [
+        "ai",
+        "agents",
+        "typescript",
+        "chatbot",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:10:11.255Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-code",
+      "fullName": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 154880,
+      "forks": 25596,
+      "starsToday": 122,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Anthropic 官方终端 AI 编程代理，理解代码库并用自然语言执行任务、解释代码和处理 Git 工作流。",
+      "tags": [
+        "ai",
+        "cli",
+        "coding-agent",
+        "typescript",
+        "llm"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T15:30:45.625Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OmniRoute",
+      "fullName": "cheaper-inference/OmniRoute",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 85350,
+      "forks": 12891,
+      "starsToday": 325,
+      "topics": [],
+      "author": {
+        "name": "cheaper-inference",
+        "avatar": "https://avatars.githubusercontent.com/u/8016841?s=40&amp;v=4",
+        "url": "https://github.com/cheaper-inference"
+      },
+      "summary": "免费 MIT AI 网关，单端点聚合 375 家提供商、1400+ 模型，支持配额感知自动降级与 token 压缩，兼容 Claude Code、Cursor 等编码工具。",
+      "tags": [
+        "ai-gateway",
+        "llm",
+        "typescript",
+        "proxy",
+        "mcp",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T15:30:46.095Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rea",
+      "fullName": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 439998,
+      "forks": 108927,
+      "starsToday": 3308,
+      "topics": [],
+      "author": {
+        "name": "morluto",
+        "avatar": "https://avatars.githubusercontent.com/u/76467478?s=40&amp;v=4",
+        "url": "https://github.com/morluto"
+      },
+      "summary": "基于智能体的逆向工程工具，可从应用行为一路分析到原生二进制文件，自动化完成逆向分析流程。",
+      "tags": [
+        "reverse-engineering",
+        "agents",
+        "binary-analysis",
+        "typescript",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T15:30:47.018Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "angular",
       "fullName": "angular/angular",
@@ -12,9 +405,9 @@
       "description": "Deliver web apps with confidence 🚀",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 101410,
-      "forks": 28913,
-      "starsToday": 135,
+      "stars": 101466,
+      "forks": 28921,
+      "starsToday": 358,
       "topics": [],
       "author": {
         "name": "angular",
@@ -34,15 +427,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "AutoRAG",
+      "fullName": "Marker-Inc-Korea/AutoRAG",
+      "url": "https://github.com/Marker-Inc-Korea/AutoRAG",
+      "description": "Your Personal Librarian Agent. Ask anything on your computer, organize files, remember important info and files.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 5399,
+      "forks": 486,
+      "starsToday": 40,
+      "topics": [],
+      "author": {
+        "name": "Marker-Inc-Korea",
+        "avatar": "https://avatars.githubusercontent.com/u/28955029?s=40&amp;v=4",
+        "url": "https://github.com/Marker-Inc-Korea"
+      },
+      "summary": "个人AI图书管理员代理，可检索本地文件、自动整理归档并记住重要信息，让用户直接向电脑提问。",
+      "tags": [
+        "rag",
+        "agent",
+        "file-search",
+        "typescript",
+        "local-ai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T15:30:47.297Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "vscode",
       "fullName": "microsoft/vscode",
       "url": "https://github.com/microsoft/vscode",
       "description": "Visual Studio Code",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 195065,
-      "forks": 44432,
-      "starsToday": 301,
+      "stars": 195129,
+      "forks": 44438,
+      "starsToday": 432,
       "topics": [],
       "author": {
         "name": "microsoft",
@@ -59,6 +480,62 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-07T05:10:09.861Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "checkout",
+      "fullName": "actions/checkout",
+      "url": "https://github.com/actions/checkout",
+      "description": "Action for checking out a repo",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 9006,
+      "forks": 2746,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "actions",
+        "avatar": "https://avatars.githubusercontent.com/u/12102068?s=40&amp;v=4",
+        "url": "https://github.com/actions"
+      },
+      "summary": "GitHub Actions 官方仓库检出动作，在 CI 工作流中拉取代码并支持浅克隆、子模块与认证配置。",
+      "tags": [
+        "github-actions",
+        "ci",
+        "git",
+        "typescript",
+        "workflow"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T15:30:47.128Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenSpec",
+      "fullName": "Fission-AI/OpenSpec",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 74215,
+      "forks": 5092,
+      "starsToday": 92,
+      "topics": [],
+      "author": {
+        "name": "Fission-AI",
+        "avatar": "https://avatars.githubusercontent.com/u/30385142?s=40&amp;v=4",
+        "url": "https://github.com/Fission-AI"
+      },
+      "summary": "面向 AI 编程助手的规范驱动开发工具，用结构化规格文档约束需求与实现，让 AI 编码更可控可审查。",
+      "tags": [
+        "ai",
+        "spec-driven",
+        "typescript",
+        "developer-tools",
+        "workflow"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T15:30:47.546Z",
       "deepwikiAvailable": false
     },
     {
@@ -116,90 +593,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-11-07T05:10:09.389Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "T3MP3ST",
-      "fullName": "elder-plinius/T3MP3ST",
-      "url": "https://github.com/elder-plinius/T3MP3ST",
-      "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 6956,
-      "forks": 1445,
-      "starsToday": 242,
-      "topics": [],
-      "author": {
-        "name": "elder-plinius",
-        "avatar": "https://avatars.githubusercontent.com/u/1159087?s=40&amp;v=4",
-        "url": "https://github.com/elder-plinius"
-      },
-      "summary": "TypeScript 编写的自主红队测试平台，通过多智能体元框架编排攻防安全测试，自动化执行渗透与漏洞探测任务。",
-      "tags": [
-        "security",
-        "red-team",
-        "multi-agent",
-        "typescript",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-07T05:10:10.716Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "lobehub",
-      "fullName": "lobehub/lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 84267,
-      "forks": 16109,
-      "starsToday": 209,
-      "topics": [],
-      "author": {
-        "name": "lobehub",
-        "avatar": "https://avatars.githubusercontent.com/u/28616219?s=40&amp;v=4",
-        "url": "https://github.com/lobehub"
-      },
-      "summary": "开源AI智能体协作平台，可将超级智能体接入团队现有聊天工具，自主承接任务并持续进化。",
-      "tags": [
-        "ai",
-        "agents",
-        "typescript",
-        "chatbot",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-07T05:10:11.255Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "astryx",
-      "fullName": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 14064,
-      "forks": 1167,
-      "starsToday": 198,
-      "topics": [],
-      "author": {
-        "name": "meta",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/meta"
-      },
-      "summary": "Meta开源的TypeScript设计系统，组件可完全自定义，并针对AI Agent使用场景做了适配，便于构建一致且可被智能体调用的界面。",
-      "tags": [
-        "design-system",
-        "typescript",
-        "ui",
-        "components",
-        "ai-agent"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-07T05:10:11.234Z",
       "deepwikiAvailable": false
     },
     {
@@ -400,34 +793,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "orca",
-      "fullName": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 117961,
-      "forks": 7484,
-      "starsToday": 1155,
-      "topics": [],
-      "author": {
-        "name": "stablyai",
-        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
-        "url": "https://github.com/stablyai"
-      },
-      "summary": "Orca 让你用自己的订阅同时运行一支编码智能体舰队（Claude Code、Codex 等），支持桌面、移动端与远程运行时。",
-      "tags": [
-        "ai-agents",
-        "coding-agent",
-        "claude-code",
-        "codex",
-        "typescript"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-07T05:10:13.963Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "figma-console-mcp",
       "fullName": "southleft/figma-console-mcp",
       "url": "https://github.com/southleft/figma-console-mcp",
@@ -481,34 +846,6 @@
       ],
       "category": "Library",
       "enrichedAt": "2026-11-07T05:10:14.430Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "tailwindcss",
-      "fullName": "tailwindlabs/tailwindcss",
-      "url": "https://github.com/tailwindlabs/tailwindcss",
-      "description": "A utility-first CSS framework for rapid UI development.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 98169,
-      "forks": 7088,
-      "starsToday": 152,
-      "topics": [],
-      "author": {
-        "name": "tailwindlabs",
-        "avatar": "https://avatars.githubusercontent.com/u/4323180?s=40&amp;v=4",
-        "url": "https://github.com/tailwindlabs"
-      },
-      "summary": "原子化 CSS 框架，用工具类直接在标记中构建界面，无需写自定义样式，加速 UI 开发。",
-      "tags": [
-        "css",
-        "tailwind",
-        "frontend",
-        "utility-first",
-        "typescript"
-      ],
-      "category": "Web",
-      "enrichedAt": "2026-11-07T05:10:15.341Z",
       "deepwikiAvailable": false
     }
   ]

@@ -2,8 +2,8 @@
   "date": "2026-11-07",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-11-07T05:09:43.395Z",
-  "enrichedAt": "2026-11-07T05:11:19.599Z",
+  "fetchedAt": "2026-11-07T15:30:19.617Z",
+  "enrichedAt": "2026-11-07T15:31:13.128Z",
   "repos": [
     {
       "name": "moby",
@@ -12,7 +12,7 @@
       "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 72352,
+      "stars": 72360,
       "forks": 19318,
       "starsToday": 205,
       "topics": [],
@@ -34,14 +34,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 67337,
+      "forks": 10997,
+      "starsToday": 354,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 监控系统与时序数据库，采集指标、存储时间序列并提供强大查询与告警能力，是云原生监控的事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "time-series",
+        "observability",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:16.280Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "multica",
       "fullName": "multica-ai/multica",
       "url": "https://github.com/multica-ai/multica",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 55180,
-      "forks": 7273,
+      "stars": 55217,
+      "forks": 7277,
       "starsToday": 825,
       "topics": [],
       "author": {
@@ -68,8 +96,8 @@
       "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 58933,
-      "forks": 7366,
+      "stars": 58942,
+      "forks": 7368,
       "starsToday": 178,
       "topics": [],
       "author": {
@@ -96,8 +124,8 @@
       "description": "Declarative Continuous Deployment for Kubernetes",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24561,
-      "forks": 8105,
+      "stars": 24564,
+      "forks": 8107,
       "starsToday": 59,
       "topics": [],
       "author": {
@@ -118,13 +146,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "etcd",
+      "fullName": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52668,
+      "forks": 10592,
+      "starsToday": 209,
+      "topics": [],
+      "author": {
+        "name": "etcd-io",
+        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
+        "url": "https://github.com/etcd-io"
+      },
+      "summary": "Go 编写的分布式可靠键值存储，基于 Raft 提供强一致性与高可用，是 Kubernetes 等分布式系统的核心配置与服务发现组件。",
+      "tags": [
+        "etcd",
+        "key-value",
+        "raft",
+        "distributed",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:17.670Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gin",
+      "fullName": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 89601,
+      "forks": 8911,
+      "starsToday": 199,
+      "topics": [],
+      "author": {
+        "name": "gin-gonic",
+        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
+        "url": "https://github.com/gin-gonic"
+      },
+      "summary": "Go 语言高性能 HTTP Web 框架，类 Martini 的简洁 API，基于 httprouter 实现极快路由，适合构建 REST API、Web 应用与微服务。",
+      "tags": [
+        "go",
+        "web-framework",
+        "http",
+        "rest-api",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-07T05:11:17.012Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "compose",
       "fullName": "docker/compose",
       "url": "https://github.com/docker/compose",
       "description": "Define and run multi-container applications with Docker",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38630,
+      "stars": 38632,
       "forks": 5902,
       "starsToday": 146,
       "topics": [],
@@ -146,42 +231,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "netbird",
-      "fullName": "netbirdio/netbird",
-      "url": "https://github.com/netbirdio/netbird",
-      "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 30749,
-      "forks": 1833,
-      "starsToday": 395,
-      "topics": [],
-      "author": {
-        "name": "netbirdio",
-        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
-        "url": "https://github.com/netbirdio"
-      },
-      "summary": "基于 WireGuard 的点对点 Zero Trust 网络平台，用统一身份安全连接人员、设备与 AI 代理，替代传统 VPN。",
-      "tags": [
-        "wireguard",
-        "vpn",
-        "zero-trust",
-        "networking",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-07T05:11:14.778Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "act",
       "fullName": "nektos/act",
       "url": "https://github.com/nektos/act",
       "description": "Run your GitHub Actions locally 🚀",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 72573,
-      "forks": 2109,
+      "stars": 72576,
+      "forks": 2110,
       "starsToday": 120,
       "topics": [],
       "author": {
@@ -202,14 +259,126 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "fleet",
+      "fullName": "fleetdm/fleet",
+      "url": "https://github.com/fleetdm/fleet",
+      "description": "Open device management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7154,
+      "forks": 1126,
+      "starsToday": 65,
+      "topics": [],
+      "author": {
+        "name": "fleetdm",
+        "avatar": "https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4",
+        "url": "https://github.com/fleetdm"
+      },
+      "summary": "开源设备管理平台，统一管理macOS、Windows、Linux和ChromeOS终端，支持OSQuery安全监控与合规策略下发。",
+      "tags": [
+        "device-management",
+        "mdm",
+        "osquery",
+        "security",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:18.097Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openchoreo",
+      "fullName": "openchoreo/openchoreo",
+      "url": "https://github.com/openchoreo/openchoreo",
+      "description": "OpenChoreo is an internal developer platform for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1838,
+      "forks": 283,
+      "starsToday": 102,
+      "topics": [],
+      "author": {
+        "name": "openchoreo",
+        "avatar": "https://avatars.githubusercontent.com/u/38396435?s=40&amp;v=4",
+        "url": "https://github.com/openchoreo"
+      },
+      "summary": "基于 Kubernetes 的内部开发者平台，为团队提供自助式应用部署与运维能力，屏蔽底层复杂度。",
+      "tags": [
+        "kubernetes",
+        "idp",
+        "platform-engineering",
+        "golang",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T15:31:13.128Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28571,
+      "forks": 1935,
+      "starsToday": 271,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久记忆层的开源工具，用 Go 编写，帮助 AI 编程代理跨会话记住项目上下文与决策。",
+      "tags": [
+        "ai",
+        "agent",
+        "memory",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:11:16.657Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 60850,
+      "forks": 5658,
+      "starsToday": 208,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "Go 编写的云存储同步工具，被称为云存储版 rsync，支持 Google Drive、S3、Dropbox 等数十种后端，可挂载、加密、校验并双向同步文件。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "go",
+        "cli",
+        "s3"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-07T15:31:12.405Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ragflow",
       "fullName": "infiniflow/ragflow",
       "url": "https://github.com/infiniflow/ragflow",
       "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 93703,
-      "forks": 11250,
+      "stars": 93720,
+      "forks": 11252,
       "starsToday": 540,
       "topics": [],
       "author": {
@@ -227,6 +396,202 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-07T05:11:15.134Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139776,
+      "forks": 20995,
+      "starsToday": 635,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方源码仓库，提供简洁高效的静态类型编译型语言，内置并发与垃圾回收，适合构建高性能服务端与云原生基础设施。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "concurrency",
+        "standard-library"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-11-07T05:11:18.091Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30760,
+      "forks": 1836,
+      "starsToday": 395,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于 WireGuard 的点对点 Zero Trust 网络平台，用统一身份安全连接人员、设备与 AI 代理，替代传统 VPN。",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "zero-trust",
+        "networking",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:14.778Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128886,
+      "forks": 45751,
+      "starsToday": 708,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动部署、扩缩容和自愈管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "cloud-native",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:19.279Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46904,
+      "forks": 9257,
+      "starsToday": 115,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub官方命令行工具，用Go编写，可在终端管理仓库、Issue、PR、Actions等，提升开发协作效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "git",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-07T15:31:12.675Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111859,
+      "forks": 15398,
+      "starsToday": 334,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "JavaScript 的超集，为 JS 添加静态类型并编译输出干净的 JavaScript，是大型前端项目的类型安全基石。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "compiler",
+        "static-typing",
+        "language"
+      ],
+      "category": "Language",
+      "enrichedAt": "2026-11-07T15:31:12.440Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ezbookkeeping",
+      "fullName": "mayswind/ezbookkeeping",
+      "url": "https://github.com/mayswind/ezbookkeeping",
+      "description": "ezBookkeeping is an open source, powerful, self-hosted personal finance app that is easy to use.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6018,
+      "forks": 754,
+      "starsToday": 137,
+      "topics": [],
+      "author": {
+        "name": "mayswind",
+        "avatar": "https://avatars.githubusercontent.com/u/2211648?s=40&amp;v=4",
+        "url": "https://github.com/mayswind"
+      },
+      "summary": "开源自托管的个人记账应用，界面轻量易用，支持多账户、多币种与报表统计，可自行部署管理财务数据。",
+      "tags": [
+        "finance",
+        "self-hosted",
+        "go",
+        "bookkeeping",
+        "web"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-07T05:11:16.780Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hugo",
+      "fullName": "gohugoio/hugo",
+      "url": "https://github.com/gohugoio/hugo",
+      "description": "The world’s fastest framework for building websites.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 90408,
+      "forks": 8444,
+      "starsToday": 134,
+      "topics": [],
+      "author": {
+        "name": "gohugoio",
+        "avatar": "https://avatars.githubusercontent.com/u/394382?s=40&amp;v=4",
+        "url": "https://github.com/gohugoio"
+      },
+      "summary": "Go 编写的极速静态网站生成框架，单二进制即可构建博客与文档站点，编译快、模板灵活、生态成熟。",
+      "tags": [
+        "hugo",
+        "static-site-generator",
+        "go",
+        "blog",
+        "markdown"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T05:11:18.536Z",
       "deepwikiAvailable": false
     },
     {
@@ -258,231 +623,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "prometheus",
-      "fullName": "prometheus/prometheus",
-      "url": "https://github.com/prometheus/prometheus",
-      "description": "The Prometheus monitoring system and time series database.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 67225,
-      "forks": 10989,
-      "starsToday": 354,
-      "topics": [],
-      "author": {
-        "name": "prometheus",
-        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
-        "url": "https://github.com/prometheus"
-      },
-      "summary": "Prometheus 监控系统与时序数据库，采集指标、存储时间序列并提供强大查询与告警能力，是云原生监控的事实标准。",
-      "tags": [
-        "monitoring",
-        "metrics",
-        "time-series",
-        "observability",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-07T05:11:16.280Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "beads",
-      "fullName": "gastownhall/beads",
-      "url": "https://github.com/gastownhall/beads",
-      "description": "Beads - A memory upgrade for your coding agent",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 28565,
-      "forks": 1935,
-      "starsToday": 271,
-      "topics": [],
-      "author": {
-        "name": "gastownhall",
-        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
-        "url": "https://github.com/gastownhall"
-      },
-      "summary": "为编码智能体提供持久记忆层的开源工具，用 Go 编写，帮助 AI 编程代理跨会话记住项目上下文与决策。",
-      "tags": [
-        "ai",
-        "agent",
-        "memory",
-        "go",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-07T05:11:16.657Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ezbookkeeping",
-      "fullName": "mayswind/ezbookkeeping",
-      "url": "https://github.com/mayswind/ezbookkeeping",
-      "description": "ezBookkeeping is an open source, powerful, self-hosted personal finance app that is easy to use.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6014,
-      "forks": 752,
-      "starsToday": 137,
-      "topics": [],
-      "author": {
-        "name": "mayswind",
-        "avatar": "https://avatars.githubusercontent.com/u/2211648?s=40&amp;v=4",
-        "url": "https://github.com/mayswind"
-      },
-      "summary": "开源自托管的个人记账应用，界面轻量易用，支持多账户、多币种与报表统计，可自行部署管理财务数据。",
-      "tags": [
-        "finance",
-        "self-hosted",
-        "go",
-        "bookkeeping",
-        "web"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-07T05:11:16.780Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gin",
-      "fullName": "gin-gonic/gin",
-      "url": "https://github.com/gin-gonic/gin",
-      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 89593,
-      "forks": 8910,
-      "starsToday": 199,
-      "topics": [],
-      "author": {
-        "name": "gin-gonic",
-        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
-        "url": "https://github.com/gin-gonic"
-      },
-      "summary": "Go 语言高性能 HTTP Web 框架，类 Martini 的简洁 API，基于 httprouter 实现极快路由，适合构建 REST API、Web 应用与微服务。",
-      "tags": [
-        "go",
-        "web-framework",
-        "http",
-        "rest-api",
-        "microservices"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-07T05:11:17.012Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "etcd",
-      "fullName": "etcd-io/etcd",
-      "url": "https://github.com/etcd-io/etcd",
-      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 52633,
-      "forks": 10590,
-      "starsToday": 209,
-      "topics": [],
-      "author": {
-        "name": "etcd-io",
-        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
-        "url": "https://github.com/etcd-io"
-      },
-      "summary": "Go 编写的分布式可靠键值存储，基于 Raft 提供强一致性与高可用，是 Kubernetes 等分布式系统的核心配置与服务发现组件。",
-      "tags": [
-        "etcd",
-        "key-value",
-        "raft",
-        "distributed",
-        "go",
-        "kubernetes"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-07T05:11:17.670Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "go",
-      "fullName": "golang/go",
-      "url": "https://github.com/golang/go",
-      "description": "The Go programming language",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 139758,
-      "forks": 20992,
-      "starsToday": 635,
-      "topics": [],
-      "author": {
-        "name": "golang",
-        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
-        "url": "https://github.com/golang"
-      },
-      "summary": "Go 语言官方源码仓库，提供简洁高效的静态类型编译型语言，内置并发与垃圾回收，适合构建高性能服务端与云原生基础设施。",
-      "tags": [
-        "go",
-        "programming-language",
-        "compiler",
-        "concurrency",
-        "standard-library"
-      ],
-      "category": "Language",
-      "enrichedAt": "2026-11-07T05:11:18.091Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "fleet",
-      "fullName": "fleetdm/fleet",
-      "url": "https://github.com/fleetdm/fleet",
-      "description": "Open device management",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7149,
-      "forks": 1123,
-      "starsToday": 65,
-      "topics": [],
-      "author": {
-        "name": "fleetdm",
-        "avatar": "https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4",
-        "url": "https://github.com/fleetdm"
-      },
-      "summary": "开源设备管理平台，统一管理macOS、Windows、Linux和ChromeOS终端，支持OSQuery安全监控与合规策略下发。",
-      "tags": [
-        "device-management",
-        "mdm",
-        "osquery",
-        "security",
-        "golang"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-07T05:11:18.097Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "hugo",
-      "fullName": "gohugoio/hugo",
-      "url": "https://github.com/gohugoio/hugo",
-      "description": "The world’s fastest framework for building websites.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 90400,
-      "forks": 8444,
-      "starsToday": 134,
-      "topics": [],
-      "author": {
-        "name": "gohugoio",
-        "avatar": "https://avatars.githubusercontent.com/u/394382?s=40&amp;v=4",
-        "url": "https://github.com/gohugoio"
-      },
-      "summary": "Go 编写的极速静态网站生成框架，单二进制即可构建博客与文档站点，编译快、模板灵活、生态成熟。",
-      "tags": [
-        "hugo",
-        "static-site-generator",
-        "go",
-        "blog",
-        "markdown"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-07T05:11:18.536Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "AIStudio2API",
       "fullName": "Mag1cFall/AIStudio2API",
       "url": "https://github.com/Mag1cFall/AIStudio2API",
@@ -508,34 +648,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-07T05:11:18.992Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kubernetes",
-      "fullName": "kubernetes/kubernetes",
-      "url": "https://github.com/kubernetes/kubernetes",
-      "description": "Production-Grade Container Scheduling and Management",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 128880,
-      "forks": 45751,
-      "starsToday": 708,
-      "topics": [],
-      "author": {
-        "name": "kubernetes",
-        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
-        "url": "https://github.com/kubernetes"
-      },
-      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动部署、扩缩容和自愈管理，是云原生基础设施的事实标准。",
-      "tags": [
-        "kubernetes",
-        "containers",
-        "orchestration",
-        "cloud-native",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-07T05:11:19.279Z",
       "deepwikiAvailable": false
     },
     {

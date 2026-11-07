@@ -2,8 +2,8 @@
   "date": "2026-11-07",
   "since": "monthly",
   "language": "Rust",
-  "fetchedAt": "2026-11-07T05:09:43.395Z",
-  "enrichedAt": "2026-11-07T05:12:04.873Z",
+  "fetchedAt": "2026-11-07T15:30:19.617Z",
+  "enrichedAt": "2026-11-07T15:31:24.562Z",
   "repos": [
     {
       "name": "artcraft",
@@ -12,8 +12,8 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 39310,
-      "forks": 6196,
+      "stars": 39451,
+      "forks": 6208,
       "starsToday": 36600,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 104928,
-      "forks": 6233,
+      "stars": 105254,
+      "forks": 6255,
       "starsToday": 27610,
       "topics": [],
       "author": {
@@ -68,8 +68,8 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 11827,
-      "forks": 456,
+      "stars": 11896,
+      "forks": 461,
       "starsToday": 2918,
       "topics": [],
       "author": {
@@ -96,8 +96,8 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 15295,
-      "forks": 1113,
+      "stars": 15313,
+      "forks": 1116,
       "starsToday": 6496,
       "topics": [],
       "author": {
@@ -118,42 +118,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "OpenShell",
-      "fullName": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 21228,
-      "forks": 2079,
-      "starsToday": 6250,
-      "topics": [],
-      "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
-      },
-      "summary": "NVIDIA 开源的 AI 智能体安全运行时，用 Rust 编写，为自主 agent 提供隔离、私密的执行环境与权限管控。",
-      "tags": [
-        "ai-agents",
-        "sandbox",
-        "rust",
-        "runtime",
-        "security"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-07T05:12:02.167Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "agent-desktop",
       "fullName": "vercel-labs/agent-desktop",
       "url": "https://github.com/vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 18248,
-      "forks": 1309,
+      "stars": 18575,
+      "forks": 1349,
       "starsToday": 16218,
       "topics": [],
       "author": {
@@ -174,14 +146,71 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenShell",
+      "fullName": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 21241,
+      "forks": 2080,
+      "starsToday": 6250,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/385?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 开源的 AI 智能体安全运行时，用 Rust 编写，为自主 agent 提供隔离、私密的执行环境与权限管控。",
+      "tags": [
+        "ai-agents",
+        "sandbox",
+        "rust",
+        "runtime",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:12:02.167Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "xerj",
+      "fullName": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18541,
+      "forks": 1360,
+      "starsToday": 17437,
+      "topics": [],
+      "author": {
+        "name": "xerj-org",
+        "avatar": "https://avatars.githubusercontent.com/u/297525353?s=40&amp;v=4",
+        "url": "https://github.com/xerj-org"
+      },
+      "summary": "Rust 编写的 AI 搜索引擎与 MCP 服务器，单二进制即可索引代码、文档、日志与 PDF，提供 BM25、向量与混合检索，兼容 Elasticsearch API，支持智能体记忆与 RAG。",
+      "tags": [
+        "rust",
+        "search",
+        "mcp",
+        "rag",
+        "vector-search",
+        "agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:12:02.700Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Handy",
       "fullName": "cjpais/Handy",
       "url": "https://github.com/cjpais/Handy",
       "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37839,
-      "forks": 3573,
+      "stars": 37891,
+      "forks": 3577,
       "starsToday": 4897,
       "topics": [],
       "author": {
@@ -202,32 +231,88 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "xerj",
-      "fullName": "xerj-org/xerj",
-      "url": "https://github.com/xerj-org/xerj",
-      "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+      "name": "Concat",
+      "fullName": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 18495,
-      "forks": 1354,
-      "starsToday": 17437,
+      "stars": 15126,
+      "forks": 1880,
+      "starsToday": 10668,
       "topics": [],
       "author": {
-        "name": "xerj-org",
-        "avatar": "https://avatars.githubusercontent.com/u/297525353?s=40&amp;v=4",
-        "url": "https://github.com/xerj-org"
+        "name": "jub0t",
+        "avatar": "https://avatars.githubusercontent.com/u/57962439?s=40&amp;v=4",
+        "url": "https://github.com/jub0t"
       },
-      "summary": "Rust 编写的 AI 搜索引擎与 MCP 服务器，单二进制即可索引代码、文档、日志与 PDF，提供 BM25、向量与混合检索，兼容 Elasticsearch API，支持智能体记忆与 RAG。",
+      "summary": "基于Rust的开源本地优先跨平台视频编辑器，支持JSON-RPC API与MCP脚本化控制，免费替代商业剪辑软件。",
+      "tags": [
+        "video-editor",
+        "rust",
+        "mcp",
+        "json-rpc",
+        "cross-platform",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-07T05:12:03.758Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bun",
+      "fullName": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 96683,
+      "forks": 5271,
+      "starsToday": 873,
+      "topics": [],
+      "author": {
+        "name": "oven-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/709451?s=40&amp;v=4",
+        "url": "https://github.com/oven-sh"
+      },
+      "summary": "一体化 JavaScript 运行时，集成打包器、测试运行器与包管理器，以极高速度替代 Node.js 工具链。",
+      "tags": [
+        "javascript",
+        "runtime",
+        "bundler",
+        "package-manager",
+        "zig"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T15:31:24.561Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bevy",
+      "fullName": "bevyengine/bevy",
+      "url": "https://github.com/bevyengine/bevy",
+      "description": "A refreshingly simple data-driven game engine built in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 49594,
+      "forks": 5028,
+      "starsToday": 1050,
+      "topics": [],
+      "author": {
+        "name": "bevyengine",
+        "avatar": "https://avatars.githubusercontent.com/u/2694663?s=40&amp;v=4",
+        "url": "https://github.com/bevyengine"
+      },
+      "summary": "基于 Rust 的数据驱动游戏引擎，采用 ECS 架构，简洁高效，适合 2D/3D 游戏开发。",
       "tags": [
         "rust",
-        "search",
-        "mcp",
-        "rag",
-        "vector-search",
-        "agents"
+        "game-engine",
+        "ecs",
+        "gamedev",
+        "3d"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-11-07T05:12:02.700Z",
+      "category": "Library",
+      "enrichedAt": "2026-11-07T05:12:03.756Z",
       "deepwikiAvailable": false
     },
     {
@@ -256,63 +341,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-07T05:12:03.931Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Concat",
-      "fullName": "jub0t/Concat",
-      "url": "https://github.com/jub0t/Concat",
-      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 14874,
-      "forks": 1847,
-      "starsToday": 10668,
-      "topics": [],
-      "author": {
-        "name": "jub0t",
-        "avatar": "https://avatars.githubusercontent.com/u/57962439?s=40&amp;v=4",
-        "url": "https://github.com/jub0t"
-      },
-      "summary": "基于Rust的开源本地优先跨平台视频编辑器，支持JSON-RPC API与MCP脚本化控制，免费替代商业剪辑软件。",
-      "tags": [
-        "video-editor",
-        "rust",
-        "mcp",
-        "json-rpc",
-        "cross-platform",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-07T05:12:03.758Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "bevy",
-      "fullName": "bevyengine/bevy",
-      "url": "https://github.com/bevyengine/bevy",
-      "description": "A refreshingly simple data-driven game engine built in Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 49581,
-      "forks": 5026,
-      "starsToday": 1050,
-      "topics": [],
-      "author": {
-        "name": "bevyengine",
-        "avatar": "https://avatars.githubusercontent.com/u/2694663?s=40&amp;v=4",
-        "url": "https://github.com/bevyengine"
-      },
-      "summary": "基于 Rust 的数据驱动游戏引擎，采用 ECS 架构，简洁高效，适合 2D/3D 游戏开发。",
-      "tags": [
-        "rust",
-        "game-engine",
-        "ecs",
-        "gamedev",
-        "3d"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-07T05:12:03.756Z",
       "deepwikiAvailable": false
     },
     {
