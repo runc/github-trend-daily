@@ -1,0 +1,545 @@
+{
+  "date": "2026-11-07",
+  "since": "monthly",
+  "language": "Go",
+  "fetchedAt": "2026-11-07T05:09:43.395Z",
+  "enrichedAt": "2026-11-07T05:11:59.356Z",
+  "repos": [
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 186164,
+      "forks": 18937,
+      "starsToday": 4858,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的开源工具，提供简洁命令行与 API，让个人电脑轻松部署和调用 LLM。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "api"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:11:54.108Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33552,
+      "forks": 5243,
+      "starsToday": 8452,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI智能体系统，可自动执行复杂渗透测试任务，覆盖侦察、漏洞利用与报告生成全流程。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:11:53.938Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38630,
+      "forks": 5902,
+      "starsToday": 551,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker Compose 官方实现，用 YAML 声明式定义多容器应用，一条命令完成构建、启动与编排，是本地开发与测试的标准工具。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "devops",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T05:11:53.883Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24561,
+      "forks": 8105,
+      "starsToday": 263,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实来源，自动同步并可视化集群状态。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "devops",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:54.272Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7423,
+      "forks": 1164,
+      "starsToday": 1133,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论数、经纬度、邮箱等信息，支持导出与并发采集。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "go",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T05:11:55.361Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "agent-beacon",
+      "fullName": "Asymptote-Labs/agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3357,
+      "forks": 294,
+      "starsToday": 1586,
+      "topics": [],
+      "author": {
+        "name": "Asymptote-Labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/Asymptote-Labs"
+      },
+      "summary": "跨框架的AI Agent自进化记忆层，为不同Agent框架提供统一、可自我改进的持久记忆能力。",
+      "tags": [
+        "ai",
+        "agents",
+        "memory",
+        "go",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:11:55.129Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rclone",
+      "fullName": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 60839,
+      "forks": 5657,
+      "starsToday": 816,
+      "topics": [],
+      "author": {
+        "name": "rclone",
+        "avatar": "https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4",
+        "url": "https://github.com/rclone"
+      },
+      "summary": "Go 编写的云存储同步工具，被称为云存储界的 rsync，支持 Google Drive、S3、Dropbox 等数十种后端，可挂载、加密与增量同步。",
+      "tags": [
+        "cloud-storage",
+        "sync",
+        "go",
+        "s3",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-07T05:11:55.285Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30749,
+      "forks": 1833,
+      "starsToday": 1047,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于 WireGuard 的点对点零信任网络平台，用统一身份安全连接人员、设备与 AI 代理，替代传统 VPN。",
+      "tags": [
+        "wireguard",
+        "zero-trust",
+        "vpn",
+        "networking",
+        "go",
+        "p2p"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:55.674Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72352,
+      "forks": 19318,
+      "starsToday": 378,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是容器生态的协作开源项目，提供构建自定义容器系统的组件与框架，是 Docker 引擎的上游基础。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "infrastructure",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:56.452Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 67225,
+      "forks": 10989,
+      "starsToday": 1163,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 是开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可观测性，云原生监控事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "time-series",
+        "promql",
+        "observability",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:56.550Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailscale",
+      "fullName": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38739,
+      "forks": 3434,
+      "starsToday": 1650,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "基于 WireGuard 的零配置网状 VPN 方案，提供设备互联、SSO/2FA 身份认证与访问控制，让私有网络连接像登录一样简单安全。",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "networking",
+        "go",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:56.688Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30744,
+      "forks": 2343,
+      "starsToday": 1070,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Go 编写的密钥泄露扫描工具，可检测代码与提交历史中的密码、API Key 等敏感信息，支持 CI 集成与自定义规则。",
+      "tags": [
+        "security",
+        "secrets",
+        "go",
+        "cli",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T05:11:57.403Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "llm-d-router",
+      "fullName": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 460,
+      "forks": 517,
+      "starsToday": 84,
+      "topics": [],
+      "author": {
+        "name": "llm-d",
+        "avatar": "https://avatars.githubusercontent.com/u/13645998?s=40&amp;v=4",
+        "url": "https://github.com/llm-d"
+      },
+      "summary": "基于Go实现的LLM推理请求智能路由入口，为分布式推理集群提供调度与负载均衡，提升吞吐并降低延迟。",
+      "tags": [
+        "llm",
+        "router",
+        "inference",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-07T05:11:57.610Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "shrt",
+      "fullName": "N4darae/shrt",
+      "url": "https://github.com/N4darae/shrt",
+      "description": "A contract-driven gRPC regression harness for AI coding agents, with human-approved baselines. Snapshot the valid call chains of an API so an agent can look one up instead of tracing for it. gRPC today, OpenAPI next",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2438,
+      "forks": 169,
+      "starsToday": 1838,
+      "topics": [],
+      "author": {
+        "name": "N4darae",
+        "avatar": "https://avatars.githubusercontent.com/u/221652879?s=40&amp;v=4",
+        "url": "https://github.com/N4darae"
+      },
+      "summary": "面向AI编码代理的契约驱动gRPC回归测试工具，快照API有效调用链并需人工确认基线，让代理直接查询而非反复追踪。",
+      "tags": [
+        "grpc",
+        "testing",
+        "ai-agents",
+        "regression",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T05:11:57.742Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58933,
+      "forks": 7366,
+      "starsToday": 726,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "Gitea 是用 Go 编写的轻量自托管一体化开发平台，集成 Git 托管、代码评审、团队协作、包仓库与 CI/CD，部署简单资源占用低。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "golang",
+        "devops",
+        "cicd"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T05:11:58.180Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 39081,
+      "forks": 833,
+      "starsToday": 867,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Go 编写的综合安全扫描器，可检测容器、Kubernetes、代码仓库和云环境中的漏洞、配置错误与密钥泄露，并生成 SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T05:11:58.810Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-native-callcenter",
+      "fullName": "rasonyang/ai-native-callcenter",
+      "url": "https://github.com/rasonyang/ai-native-callcenter",
+      "description": "Self-hosted API-first AI call center: AI talks, code controls the call. AI agents answer every call; humans take over without dropping it. Runs on FreeSWITCH with your SIP trunk and realtime model (OpenAI, Grok, Qwen, Doubao, or any compatible gateway).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 548,
+      "forks": 103,
+      "starsToday": 355,
+      "topics": [],
+      "author": {
+        "name": "rasonyang",
+        "avatar": "https://avatars.githubusercontent.com/u/1861686?s=40&amp;v=4",
+        "url": "https://github.com/rasonyang"
+      },
+      "summary": "自托管 API 优先的 AI 呼叫中心：基于 FreeSWITCH 与实时语音模型，AI 接听所有来电，人工可无缝接管不中断通话。",
+      "tags": [
+        "callcenter",
+        "voice-ai",
+        "freeswitch",
+        "sip",
+        "go",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-07T05:11:59.157Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5585,
+      "forks": 619,
+      "starsToday": 261,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的 Agentic Workflows 工具，用 Go 编写，让开发者以声明式方式在 GitHub Actions 中编排 AI 代理工作流，简化自动化与智能任务落地。",
+      "tags": [
+        "github-actions",
+        "ai-agents",
+        "workflow",
+        "go",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-07T05:11:59.004Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gin",
+      "fullName": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 89593,
+      "forks": 8910,
+      "starsToday": 543,
+      "topics": [],
+      "author": {
+        "name": "gin-gonic",
+        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
+        "url": "https://github.com/gin-gonic"
+      },
+      "summary": "Go 语言高性能 HTTP Web 框架，API 类似 Martini 但基于 httprouter 快至 40 倍，适合构建 REST API、Web 应用与微服务。",
+      "tags": [
+        "go",
+        "web-framework",
+        "http",
+        "rest-api",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-07T05:11:59.355Z",
+      "deepwikiAvailable": false
+    }
+  ]
+}
