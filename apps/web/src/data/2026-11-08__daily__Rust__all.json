@@ -2,8 +2,8 @@
   "date": "2026-11-08",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-11-08T05:03:42.639Z",
-  "enrichedAt": "2026-11-08T05:04:35.004Z",
+  "fetchedAt": "2026-11-08T15:50:43.107Z",
+  "enrichedAt": "2026-11-08T15:51:20.915Z",
   "repos": [
     {
       "name": "agent-browser",
@@ -12,9 +12,9 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 46956,
-      "forks": 3221,
-      "starsToday": 190,
+      "stars": 47349,
+      "forks": 3243,
+      "starsToday": 812,
       "topics": [],
       "author": {
         "name": "vercel-labs",
@@ -34,31 +34,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "ruff",
-      "fullName": "astral-sh/ruff",
-      "url": "https://github.com/astral-sh/ruff",
-      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "name": "artcraft",
+      "fullName": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 51015,
-      "forks": 2633,
-      "starsToday": 350,
+      "stars": 39786,
+      "forks": 6243,
+      "starsToday": 331,
       "topics": [],
       "author": {
-        "name": "astral-sh",
-        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
-        "url": "https://github.com/astral-sh"
+        "name": "storytold",
+        "avatar": "https://avatars.githubusercontent.com/u/39263?s=40&amp;v=4",
+        "url": "https://github.com/storytold"
       },
-      "summary": "用 Rust 编写的极快 Python 代码检查与格式化工具，可替代 Flake8、Black 等，速度提升数十倍。",
+      "summary": "ArtCraft 是面向艺术家、设计师和影视创作者的刻意创作引擎，用 Rust 构建，提供可控的生成式创作流程。",
       "tags": [
-        "python",
-        "linter",
-        "formatter",
         "rust",
-        "devtool"
+        "creative-tools",
+        "generative",
+        "design",
+        "filmmaking"
       ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-08T05:04:29.745Z",
+      "category": "AI",
+      "enrichedAt": "2026-11-08T15:51:19.685Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,9 +68,9 @@
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 94336,
-      "forks": 11555,
-      "starsToday": 1114,
+      "stars": 94447,
+      "forks": 11567,
+      "starsToday": 408,
       "topics": [],
       "author": {
         "name": "zed-industries",
@@ -90,14 +90,239 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "OpenBitFun",
+      "fullName": "GCWing/OpenBitFun",
+      "url": "https://github.com/GCWing/OpenBitFun",
+      "description": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3972,
+      "forks": 303,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "GCWing",
+        "avatar": "https://avatars.githubusercontent.com/u/24753352?s=40&amp;v=4",
+        "url": "https://github.com/GCWing"
+      },
+      "summary": "基于 Rust 高性能 Agent 运行时的桌面应用，兼具代码智能体深度与通用任务能力，可胜任软件开发之外的工作。",
+      "tags": [
+        "rust",
+        "agent",
+        "desktop",
+        "ai",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-08T15:51:19.402Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Concat",
+      "fullName": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 15611,
+      "forks": 1949,
+      "starsToday": 491,
+      "topics": [],
+      "author": {
+        "name": "jub0t",
+        "avatar": "https://avatars.githubusercontent.com/u/57962439?s=40&amp;v=4",
+        "url": "https://github.com/jub0t"
+      },
+      "summary": "开源本地优先的跨平台视频编辑器，基于Rust构建，支持JSON-RPC API与MCP脚本化控制，免费替代商业剪辑软件。",
+      "tags": [
+        "video-editor",
+        "rust",
+        "local-first",
+        "mcp",
+        "json-rpc",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-08T15:51:19.607Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openpencil",
+      "fullName": "ZSeven-W/openpencil",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7144,
+      "forks": 622,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "ZSeven-W",
+        "avatar": "https://avatars.githubusercontent.com/u/162498?s=40&amp;v=4",
+        "url": "https://github.com/ZSeven-W"
+      },
+      "summary": "开源AI原生矢量设计工具，支持多智能体团队协作，用提示词直接在实时画布生成UI，主打Design-as-Code。",
+      "tags": [
+        "vector-design",
+        "ai",
+        "rust",
+        "ui",
+        "agents"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-08T15:51:19.520Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "wealthfolio",
+      "fullName": "wealthfolio/wealthfolio",
+      "url": "https://github.com/wealthfolio/wealthfolio",
+      "description": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9372,
+      "forks": 808,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "wealthfolio",
+        "avatar": "https://avatars.githubusercontent.com/u/8382496?s=40&amp;v=4",
+        "url": "https://github.com/wealthfolio"
+      },
+      "summary": "本地优先的开源个人财务追踪工具，支持投资组合、净资产、支出统计与财务模拟，数据私密保存在本地。",
+      "tags": [
+        "finance",
+        "self-hosted",
+        "rust",
+        "privacy",
+        "investment"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-08T15:51:20.866Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 103007,
+      "forks": 13371,
+      "starsToday": 192,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "基于Rust的WiFi感知项目，利用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面。",
+      "tags": [
+        "wifi",
+        "rust",
+        "sensing",
+        "vital-signs",
+        "presence-detection"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-08T15:51:20.886Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "herdr",
+      "fullName": "herdrdev/herdr",
+      "url": "https://github.com/herdrdev/herdr",
+      "description": "the runtime your coding agents live on",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 49309,
+      "forks": 3980,
+      "starsToday": 374,
+      "topics": [],
+      "author": {
+        "name": "herdrdev",
+        "avatar": "https://avatars.githubusercontent.com/u/7064011?s=40&amp;v=4",
+        "url": "https://github.com/herdrdev"
+      },
+      "summary": "用 Rust 编写的编码智能体运行时，为 AI 编程代理提供统一的执行与运行环境。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "runtime",
+        "coding-agent",
+        "developer-tools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-08T15:51:20.813Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruff",
+      "fullName": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 51093,
+      "forks": 2638,
+      "starsToday": 282,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的极快 Python 代码检查与格式化工具，可替代 Flake8、Black 等，速度提升数十倍。",
+      "tags": [
+        "python",
+        "linter",
+        "formatter",
+        "rust",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-08T05:04:29.745Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sniffnet",
+      "fullName": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your network traffic 🕵️‍♂️",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 42046,
+      "forks": 1970,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "GyulyVGC",
+        "avatar": "https://avatars.githubusercontent.com/u/100347457?s=40&amp;v=4",
+        "url": "https://github.com/GyulyVGC"
+      },
+      "summary": "基于 Rust 的跨平台网络流量监控工具，图形界面直观展示连接、带宽与协议信息，注重隐私与易用性。",
+      "tags": [
+        "rust",
+        "network",
+        "monitoring",
+        "gui",
+        "privacy"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-08T15:51:20.915Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "Cap",
       "fullName": "CapSoftware/Cap",
       "url": "https://github.com/CapSoftware/Cap",
       "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 24616,
-      "forks": 2286,
+      "stars": 24647,
+      "forks": 2288,
       "starsToday": 77,
       "topics": [],
       "author": {

@@ -2,8 +2,8 @@
   "date": "2026-11-08",
   "since": "monthly",
   "language": "Go",
-  "fetchedAt": "2026-11-08T05:03:42.639Z",
-  "enrichedAt": "2026-11-08T05:05:47.763Z",
+  "fetchedAt": "2026-11-08T15:50:43.107Z",
+  "enrichedAt": "2026-11-08T15:51:40.790Z",
   "repos": [
     {
       "name": "ollama",
@@ -12,8 +12,8 @@
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 186304,
-      "forks": 18961,
+      "stars": 186349,
+      "forks": 18964,
       "starsToday": 4889,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 33652,
-      "forks": 5260,
+      "stars": 33691,
+      "forks": 5270,
       "starsToday": 8520,
       "topics": [],
       "author": {
@@ -62,13 +62,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 67552,
+      "forks": 11011,
+      "starsToday": 1451,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可观测性，是云原生监控的事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "time-series",
+        "promql",
+        "observability",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T05:05:43.440Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72360,
+      "forks": 19321,
+      "starsToday": 459,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是容器生态的协作开源项目，提供构建自定义容器系统的组件框架，也是 Docker 引擎的上游基础。",
+      "tags": [
+        "docker",
+        "containers",
+        "golang",
+        "infrastructure",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T05:05:42.085Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "compose",
       "fullName": "docker/compose",
       "url": "https://github.com/docker/compose",
       "description": "Define and run multi-container applications with Docker",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38642,
+      "stars": 38646,
       "forks": 5900,
       "starsToday": 562,
       "topics": [],
@@ -91,71 +148,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "moby",
-      "fullName": "moby/moby",
-      "url": "https://github.com/moby/moby",
-      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 72363,
-      "forks": 19321,
-      "starsToday": 459,
-      "topics": [],
-      "author": {
-        "name": "moby",
-        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
-        "url": "https://github.com/moby"
-      },
-      "summary": "Moby 是容器生态的协作开源项目，提供构建自定义容器系统的组件框架，也是 Docker 引擎的上游基础。",
-      "tags": [
-        "docker",
-        "containers",
-        "golang",
-        "infrastructure",
-        "devops"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-08T05:05:42.085Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "prometheus",
-      "fullName": "prometheus/prometheus",
-      "url": "https://github.com/prometheus/prometheus",
-      "description": "The Prometheus monitoring system and time series database.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 67476,
-      "forks": 11009,
-      "starsToday": 1451,
-      "topics": [],
-      "author": {
-        "name": "prometheus",
-        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
-        "url": "https://github.com/prometheus"
-      },
-      "summary": "Prometheus 开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现告警与可观测性，是云原生监控的事实标准。",
-      "tags": [
-        "monitoring",
-        "metrics",
-        "time-series",
-        "promql",
-        "observability",
-        "golang"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-08T05:05:43.440Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "argo-cd",
       "fullName": "argoproj/argo-cd",
       "url": "https://github.com/argoproj/argo-cd",
       "description": "Declarative Continuous Deployment for Kubernetes",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 24565,
-      "forks": 8108,
+      "stars": 24566,
+      "forks": 8112,
       "starsToday": 261,
       "topics": [],
       "author": {
@@ -176,42 +176,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "google-maps-scraper",
-      "fullName": "gosom/google-maps-scraper",
-      "url": "https://github.com/gosom/google-maps-scraper",
-      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7456,
-      "forks": 1166,
-      "starsToday": 1147,
-      "topics": [],
-      "author": {
-        "name": "gosom",
-        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
-        "url": "https://github.com/gosom"
-      },
-      "summary": "Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、邮箱及经纬度等信息，支持导出结构化数据。",
-      "tags": [
-        "scraper",
-        "google-maps",
-        "go",
-        "data-extraction",
-        "cli"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-08T05:05:43.267Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "netbird",
       "fullName": "netbirdio/netbird",
       "url": "https://github.com/netbirdio/netbird",
       "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 30775,
-      "forks": 1838,
+      "stars": 30792,
+      "forks": 1841,
       "starsToday": 1060,
       "topics": [],
       "author": {
@@ -232,14 +204,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7510,
+      "forks": 1173,
+      "starsToday": 1147,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、邮箱及经纬度等信息，支持导出结构化数据。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "go",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-08T05:05:43.267Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "agent-beacon",
       "fullName": "Asymptote-Labs/agent-beacon",
       "url": "https://github.com/Asymptote-Labs/agent-beacon",
       "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 3381,
-      "forks": 295,
+      "stars": 3384,
+      "forks": 296,
       "starsToday": 1598,
       "topics": [],
       "author": {
@@ -266,8 +266,8 @@
       "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 60859,
-      "forks": 5662,
+      "stars": 60866,
+      "forks": 5663,
       "starsToday": 814,
       "topics": [],
       "author": {
@@ -294,8 +294,8 @@
       "description": "Find secrets with Gitleaks 🔑",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 30768,
-      "forks": 2347,
+      "stars": 30775,
+      "forks": 2350,
       "starsToday": 1059,
       "topics": [],
       "author": {
@@ -322,7 +322,7 @@
       "description": "The easiest, most secure way to use WireGuard and 2FA.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 38778,
+      "stars": 38795,
       "forks": 3439,
       "starsToday": 1640,
       "topics": [],
@@ -350,7 +350,7 @@
       "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 89601,
+      "stars": 89602,
       "forks": 8913,
       "starsToday": 617,
       "topics": [],
@@ -378,8 +378,8 @@
       "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 58950,
-      "forks": 7370,
+      "stars": 58962,
+      "forks": 7373,
       "starsToday": 732,
       "topics": [],
       "author": {
@@ -400,14 +400,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "etcd",
+      "fullName": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52672,
+      "forks": 10594,
+      "starsToday": 534,
+      "topics": [],
+      "author": {
+        "name": "etcd-io",
+        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
+        "url": "https://github.com/etcd-io"
+      },
+      "summary": "Go 编写的分布式可靠键值存储，基于 Raft 一致性算法，为分布式系统提供高可用配置共享与服务发现，是 Kubernetes 等系统的核心组件。",
+      "tags": [
+        "etcd",
+        "key-value",
+        "raft",
+        "distributed",
+        "golang",
+        "consensus"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T15:51:40.351Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "shrt",
       "fullName": "N4darae/shrt",
       "url": "https://github.com/N4darae/shrt",
       "description": "A contract-driven gRPC regression harness for AI coding agents, with human-approved baselines. Snapshot the valid call chains of an API so an agent can look one up instead of tracing for it. gRPC today, OpenAPI next",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2479,
-      "forks": 170,
+      "stars": 2507,
+      "forks": 172,
       "starsToday": 1757,
       "topics": [],
       "author": {
@@ -425,6 +454,63 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-08T05:05:46.458Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42723,
+      "forks": 6125,
+      "starsToday": 867,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Xray-core 是 Go 编写的开源网络代理平台，兼容 v2ray-core，支持多种协议与传输方式，用于构建高性能、可定制的代理与穿透方案。",
+      "tags": [
+        "proxy",
+        "golang",
+        "v2ray",
+        "networking",
+        "xray"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T15:51:40.790Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-native-callcenter",
+      "fullName": "rasonyang/ai-native-callcenter",
+      "url": "https://github.com/rasonyang/ai-native-callcenter",
+      "description": "Self-hosted API-first AI call center: AI talks, code controls the call. AI agents answer every call; humans take over without dropping it. Runs on FreeSWITCH with your SIP trunk and realtime model (OpenAI, Grok, Qwen, Doubao, or any compatible gateway).",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 561,
+      "forks": 105,
+      "starsToday": 359,
+      "topics": [],
+      "author": {
+        "name": "rasonyang",
+        "avatar": "https://avatars.githubusercontent.com/u/1861686?s=40&amp;v=4",
+        "url": "https://github.com/rasonyang"
+      },
+      "summary": "自托管 API 优先的 AI 呼叫中心，基于 FreeSWITCH 与实时语音模型，AI 接听全部来电并支持人工无缝接管，可对接自有 SIP 线路。",
+      "tags": [
+        "callcenter",
+        "voice-ai",
+        "freeswitch",
+        "sip",
+        "self-hosted",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-08T05:05:47.763Z",
       "deepwikiAvailable": false
     },
     {
@@ -482,35 +568,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-08T05:05:46.849Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ai-native-callcenter",
-      "fullName": "rasonyang/ai-native-callcenter",
-      "url": "https://github.com/rasonyang/ai-native-callcenter",
-      "description": "Self-hosted API-first AI call center: AI talks, code controls the call. AI agents answer every call; humans take over without dropping it. Runs on FreeSWITCH with your SIP trunk and realtime model (OpenAI, Grok, Qwen, Doubao, or any compatible gateway).",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 555,
-      "forks": 105,
-      "starsToday": 359,
-      "topics": [],
-      "author": {
-        "name": "rasonyang",
-        "avatar": "https://avatars.githubusercontent.com/u/1861686?s=40&amp;v=4",
-        "url": "https://github.com/rasonyang"
-      },
-      "summary": "自托管 API 优先的 AI 呼叫中心，基于 FreeSWITCH 与实时语音模型，AI 接听全部来电并支持人工无缝接管，可对接自有 SIP 线路。",
-      "tags": [
-        "callcenter",
-        "voice-ai",
-        "freeswitch",
-        "sip",
-        "self-hosted",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-08T05:05:47.763Z",
       "deepwikiAvailable": false
     }
   ]

@@ -2,9 +2,66 @@
   "date": "2026-11-08",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-11-08T05:03:42.639Z",
-  "enrichedAt": "2026-11-08T05:04:28.517Z",
+  "fetchedAt": "2026-11-08T15:50:43.107Z",
+  "enrichedAt": "2026-11-08T15:51:18.118Z",
   "repos": [
+    {
+      "name": "nvke",
+      "fullName": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 733,
+      "forks": 106,
+      "starsToday": 345,
+      "topics": [],
+      "author": {
+        "name": "dsx-ai-factory",
+        "avatar": "https://avatars.githubusercontent.com/u/23304?s=40&amp;v=4",
+        "url": "https://github.com/dsx-ai-factory"
+      },
+      "summary": "NVKE 是面向裸金属 GPU 集群的 Kubernetes 管理平面，用 Go 编写，简化 GPU 节点上 K8s 的部署与运维。",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "nvidia",
+        "bare-metal",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T05:04:23.049Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 26985,
+      "forks": 1153,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控平台，支持历史数据、Docker 容器统计与告警通知，部署简单资源占用低。",
+      "tags": [
+        "monitoring",
+        "go",
+        "docker",
+        "self-hosted",
+        "alerts"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T15:51:13.844Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "prometheus",
       "fullName": "prometheus/prometheus",
@@ -12,9 +69,9 @@
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 67476,
-      "forks": 11009,
-      "starsToday": 322,
+      "stars": 67552,
+      "forks": 11011,
+      "starsToday": 258,
       "topics": [],
       "author": {
         "name": "prometheus",
@@ -35,32 +92,425 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "nvke",
-      "fullName": "dsx-ai-factory/nvke",
-      "url": "https://github.com/dsx-ai-factory/nvke",
-      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "name": "Ydisks-Xianyu-Helper",
+      "fullName": "Christ9038/Ydisks-Xianyu-Helper",
+      "url": "https://github.com/Christ9038/Ydisks-Xianyu-Helper",
+      "description": "闲鱼多账号自动发货、消息回复系统——基于 Go 与 React 构建",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 600,
-      "forks": 92,
-      "starsToday": 123,
+      "stars": 2331,
+      "forks": 634,
+      "starsToday": 48,
       "topics": [],
       "author": {
-        "name": "dsx-ai-factory",
-        "avatar": "https://avatars.githubusercontent.com/u/23304?s=40&amp;v=4",
-        "url": "https://github.com/dsx-ai-factory"
+        "name": "Christ9038",
+        "avatar": "https://avatars.githubusercontent.com/u/3616298?s=40&amp;v=4",
+        "url": "https://github.com/Christ9038"
       },
-      "summary": "NVKE 是面向裸金属 GPU 集群的 Kubernetes 管理平面，用 Go 编写，简化 GPU 节点上 K8s 的部署与运维。",
+      "summary": "基于 Go 与 React 的闲鱼多账号自动发货与消息自动回复系统，帮助卖家批量管理账号、提升交易效率。",
       "tags": [
-        "kubernetes",
-        "gpu",
-        "nvidia",
-        "bare-metal",
         "go",
+        "react",
+        "automation",
+        "xianyu",
+        "ecommerce"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-08T15:51:14.148Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42723,
+      "forks": 6125,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Xray-core 是 Go 编写的高性能网络代理平台，兼容 v2ray 生态，支持多种协议与传输方式，用于构建灵活的网络穿透与转发方案。",
+      "tags": [
+        "proxy",
+        "networking",
+        "golang",
+        "v2ray",
+        "vpn"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T15:51:14.130Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pentagi",
+      "fullName": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33691,
+      "forks": 5270,
+      "starsToday": 98,
+      "topics": [],
+      "author": {
+        "name": "vxcontrol",
+        "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&amp;v=4",
+        "url": "https://github.com/vxcontrol"
+      },
+      "summary": "基于Go构建的全自主AI智能体系统，可自动执行复杂渗透测试任务，实现从侦察到漏洞利用的端到端安全测试自动化。",
+      "tags": [
+        "security",
+        "pentest",
+        "ai-agents",
+        "golang",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-08T15:51:14.055Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evilginx2",
+      "fullName": "kgretzky/evilginx2",
+      "url": "https://github.com/kgretzky/evilginx2",
+      "description": "Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15862,
+      "forks": 2764,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "kgretzky",
+        "avatar": "https://avatars.githubusercontent.com/u/19260967?s=40&amp;v=4",
+        "url": "https://github.com/kgretzky"
+      },
+      "summary": "基于Go的独立中间人攻击框架，通过反向代理钓鱼获取登录凭据和会话Cookie，可绕过双因素认证，常用于安全测试与红队演练。",
+      "tags": [
+        "phishing",
+        "mitm",
+        "security",
+        "golang",
+        "2fa-bypass"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-11-08T15:51:15.253Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "woodpecker",
+      "fullName": "woodpecker-ci/woodpecker",
+      "url": "https://github.com/woodpecker-ci/woodpecker",
+      "description": "Woodpecker is a simple, yet powerful CI/CD engine with great extensibility.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8132,
+      "forks": 735,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "woodpecker-ci",
+        "avatar": "https://avatars.githubusercontent.com/u/817538?s=40&amp;v=4",
+        "url": "https://github.com/woodpecker-ci"
+      },
+      "summary": "基于Go开发的自托管CI/CD引擎，配置简单、扩展性强，可作为Jenkins或GitLab CI的轻量替代方案。",
+      "tags": [
+        "ci",
+        "cd",
+        "devops",
+        "go",
+        "self-hosted",
+        "pipeline"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-08T15:51:15.363Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tuios",
+      "fullName": "Gaurav-Gosain/tuios",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6447,
+      "forks": 316,
+      "starsToday": 40,
+      "topics": [],
+      "author": {
+        "name": "Gaurav-Gosain",
+        "avatar": "https://avatars.githubusercontent.com/u/55647468?s=40&amp;v=4",
+        "url": "https://github.com/Gaurav-Gosain"
+      },
+      "summary": "Go 编写的终端窗口管理器，支持平铺分屏、工作区与重启后存活的会话，并为各类编码智能体提供统一收件箱。",
+      "tags": [
+        "terminal",
+        "window-manager",
+        "tiling",
+        "go",
+        "ai-agents"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-08T15:51:15.966Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gvisor",
+      "fullName": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19919,
+      "forks": 2068,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "google",
+        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
+        "url": "https://github.com/google"
+      },
+      "summary": "gVisor 是 Google 开源的容器应用内核，用 Go 实现用户态内核，为容器提供强隔离与安全沙箱，兼容 OCI 运行时。",
+      "tags": [
+        "container",
+        "sandbox",
+        "security",
+        "kernel",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T05:04:26.222Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "glance",
+      "fullName": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38089,
+      "forks": 1517,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "glanceapp",
+        "avatar": "https://avatars.githubusercontent.com/u/7613769?s=40&amp;v=4",
+        "url": "https://github.com/glanceapp"
+      },
+      "summary": "自托管的个人仪表盘，用Go编写，将RSS、新闻、天气、书签等各类信息流聚合到一个可自定义的页面中，轻量且配置简单。",
+      "tags": [
+        "dashboard",
+        "self-hosted",
+        "go",
+        "rss",
+        "feeds"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-08T15:51:15.670Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "alist",
+      "fullName": "AlistGo/alist",
+      "url": "https://github.com/AlistGo/alist",
+      "description": "🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50429,
+      "forks": 7904,
+      "starsToday": 11,
+      "topics": [],
+      "author": {
+        "name": "AlistGo",
+        "avatar": "https://avatars.githubusercontent.com/u/36558727?s=40&amp;v=4",
+        "url": "https://github.com/AlistGo"
+      },
+      "summary": "支持多种存储的文件列表与WebDAV程序，基于Gin和Solidjs，可统一挂载并管理多云盘文件。",
+      "tags": [
+        "webdav",
+        "file-manager",
+        "go",
+        "self-hosted",
+        "storage"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-08T15:51:16.804Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24581,
+      "forks": 1812,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
+      },
+      "summary": "自托管音乐流媒体服务器，扫描本地音乐库并通过网页或Subsonic兼容客户端随时随地播放，轻量高效。",
+      "tags": [
+        "music",
+        "streaming",
+        "self-hosted",
+        "go",
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-08T15:51:16.515Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gatus",
+      "fullName": "TwiN/gatus",
+      "url": "https://github.com/TwiN/gatus",
+      "description": "Automated developer-oriented status page with alerting and incident support",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12620,
+      "forks": 891,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "TwiN",
+        "avatar": "https://avatars.githubusercontent.com/u/15699766?s=40&amp;v=4",
+        "url": "https://github.com/TwiN"
+      },
+      "summary": "面向开发者的自动化状态页工具，支持健康检查、告警与事件管理，可监控服务可用性并可视化展示。",
+      "tags": [
+        "monitoring",
+        "status-page",
+        "alerting",
+        "go",
+        "healthcheck"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-08T15:51:17.532Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kandev",
+      "fullName": "kdlbs/kandev",
+      "url": "https://github.com/kdlbs/kandev",
+      "description": "AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1088,
+      "forks": 181,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "kdlbs",
+        "avatar": "https://avatars.githubusercontent.com/u/1500881?s=40&amp;v=4",
+        "url": "https://github.com/kdlbs"
+      },
+      "summary": "基于看板的 AI 开发环境，可编排多个编码代理、审查改动并自动开 PR，支持多模型提供商、自托管且无遥测。",
+      "tags": [
+        "ai",
+        "kanban",
+        "agents",
+        "go",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-08T15:51:17.289Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "3x-ui",
+      "fullName": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49542,
+      "forks": 12692,
+      "starsToday": 71,
+      "topics": [],
+      "author": {
+        "name": "MHSanaei",
+        "avatar": "https://avatars.githubusercontent.com/u/33454419?s=40&amp;v=4",
+        "url": "https://github.com/MHSanaei"
+      },
+      "summary": "基于 Xray 的多协议多用户代理面板，支持 Vmess、Vless、Trojan、Shadowsocks、WireGuard 等，提供 Web 界面管理节点与流量统计。",
+      "tags": [
+        "proxy",
+        "xray",
+        "panel",
+        "golang",
+        "vpn"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-08T15:51:18.118Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6213,
+      "forks": 700,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Go 编写的 AI Agent 核心运行时系统，为智能体提供统一的执行底座与基础设施。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "runtime",
         "infra"
       ],
       "category": "Infra",
-      "enrichedAt": "2026-11-08T05:04:23.049Z",
+      "enrichedAt": "2026-11-08T05:04:28.516Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "VictoriaMetrics",
+      "fullName": "VictoriaMetrics/VictoriaMetrics",
+      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+      "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18044,
+      "forks": 1795,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "VictoriaMetrics",
+        "avatar": "https://avatars.githubusercontent.com/u/283442?s=40&amp;v=4",
+        "url": "https://github.com/VictoriaMetrics"
+      },
+      "summary": "开源高性能时序数据库与监控方案，兼容Prometheus，写入查询快、存储成本低，适合大规模指标监控。",
+      "tags": [
+        "timeseries",
+        "monitoring",
+        "prometheus",
+        "database",
+        "go",
+        "observability"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-08T15:51:18.065Z",
       "deepwikiAvailable": false
     },
     {
@@ -318,34 +768,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gvisor",
-      "fullName": "google/gvisor",
-      "url": "https://github.com/google/gvisor",
-      "description": "Application Kernel for Containers",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 19911,
-      "forks": 2065,
-      "starsToday": 16,
-      "topics": [],
-      "author": {
-        "name": "google",
-        "avatar": "https://avatars.githubusercontent.com/u/51218664?s=40&amp;v=4",
-        "url": "https://github.com/google"
-      },
-      "summary": "gVisor 是 Google 开源的容器应用内核，用 Go 实现用户态内核，为容器提供强隔离与安全沙箱，兼容 OCI 运行时。",
-      "tags": [
-        "container",
-        "sandbox",
-        "security",
-        "kernel",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-08T05:04:26.222Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "TypeScript",
       "fullName": "microsoft/TypeScript",
       "url": "https://github.com/microsoft/TypeScript",
@@ -484,34 +906,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-08T05:04:28.231Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6201,
-      "forks": 700,
-      "starsToday": 51,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "Go 编写的 AI Agent 核心运行时系统，为智能体提供统一的执行底座与基础设施。",
-      "tags": [
-        "ai",
-        "agents",
-        "go",
-        "runtime",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-08T05:04:28.516Z",
       "deepwikiAvailable": false
     },
     {
