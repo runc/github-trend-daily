@@ -2,7 +2,487 @@
   "date": "2026-11-09",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-11-09T05:14:12.459Z",
-  "enrichedAt": "2026-11-09T05:17:35.158Z",
-  "repos": []
+  "fetchedAt": "2026-11-09T19:35:53.397Z",
+  "enrichedAt": "2026-11-09T19:36:38.493Z",
+  "repos": [
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7741,
+      "forks": 1210,
+      "starsToday": 222,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、经纬度、邮箱等结构化信息，支持导出。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "golang",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-09T19:36:32.788Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "phoneinfoga",
+      "fullName": "sundowndev/phoneinfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18466,
+      "forks": 6303,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "sundowndev",
+        "avatar": "https://avatars.githubusercontent.com/u/16480203?s=40&amp;v=4",
+        "url": "https://github.com/sundowndev"
+      },
+      "summary": "基于Go的PhoneInfoga电话号码信息收集框架，可识别号码归属地、运营商并做OSINT侦察，支持CLI与Web界面。",
+      "tags": [
+        "osint",
+        "phone",
+        "go",
+        "recon",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:36:32.849Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "Open source factory for one-shot engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9431,
+      "forks": 702,
+      "starsToday": 250,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的一次性工程自动化平台，用可视化工作流编排事件驱动的工程任务与集成，替代重复人工操作。",
+      "tags": [
+        "automation",
+        "workflow",
+        "go",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:36:32.754Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ipatool",
+      "fullName": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows you to search for iOS, iPadOS, tvOS, watchOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12256,
+      "forks": 1088,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "majd",
+        "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&amp;v=4",
+        "url": "https://github.com/majd"
+      },
+      "summary": "用 Go 编写的命令行工具，可搜索 App Store 上的 iOS、iPadOS、tvOS、watchOS、visionOS 和 macOS 应用，并下载 .ipa 或 .pkg 安装包。",
+      "tags": [
+        "go",
+        "cli",
+        "appstore",
+        "ios",
+        "ipa"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-09T19:36:32.766Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nvke",
+      "fullName": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1022,
+      "forks": 119,
+      "starsToday": 324,
+      "topics": [],
+      "author": {
+        "name": "dsx-ai-factory",
+        "avatar": "https://avatars.githubusercontent.com/u/23304?s=40&amp;v=4",
+        "url": "https://github.com/dsx-ai-factory"
+      },
+      "summary": "NVKE 是面向裸金属 GPU Kubernetes 的管理平面，简化 GPU 集群的部署与运维。",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "nvidia",
+        "bare-metal",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:36:34.225Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gatus",
+      "fullName": "TwiN/gatus",
+      "url": "https://github.com/TwiN/gatus",
+      "description": "Automated developer-oriented status page with alerting and incident support",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12671,
+      "forks": 895,
+      "starsToday": 55,
+      "topics": [],
+      "author": {
+        "name": "TwiN",
+        "avatar": "https://avatars.githubusercontent.com/u/15699766?s=40&amp;v=4",
+        "url": "https://github.com/TwiN"
+      },
+      "summary": "面向开发者的自动化状态页工具，通过声明式配置监控服务健康，支持告警通知与事件管理。",
+      "tags": [
+        "monitoring",
+        "status-page",
+        "alerting",
+        "go",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:36:34.180Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "smart charging ☀️🚘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7556,
+      "forks": 1628,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
+      },
+      "summary": "开源智能充电控制软件，用Go编写，根据光伏发电、电价和车辆状态自动调度电动车充电，支持大量逆变器、充电桩与车型。",
+      "tags": [
+        "ev",
+        "solar",
+        "charging",
+        "energy",
+        "go",
+        "home-automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-09T19:36:34.355Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sing-box",
+      "fullName": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 39802,
+      "forks": 4916,
+      "starsToday": 46,
+      "topics": [],
+      "author": {
+        "name": "SagerNet",
+        "avatar": "https://avatars.githubusercontent.com/u/56506714?s=40&amp;v=4",
+        "url": "https://github.com/SagerNet"
+      },
+      "summary": "Go 编写的通用代理平台，支持多种协议与灵活路由规则，可自建代理服务与客户端。",
+      "tags": [
+        "proxy",
+        "golang",
+        "networking",
+        "vpn",
+        "shadowsocks"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:36:33.774Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evilginx2",
+      "fullName": "kgretzky/evilginx2",
+      "url": "https://github.com/kgretzky/evilginx2",
+      "description": "Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15878,
+      "forks": 2766,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "kgretzky",
+        "avatar": "https://avatars.githubusercontent.com/u/19260967?s=40&amp;v=4",
+        "url": "https://github.com/kgretzky"
+      },
+      "summary": "基于Go的独立中间人钓鱼框架，通过反向代理窃取登录凭据和会话Cookie，可绕过双因素认证，常用于红队安全测试。",
+      "tags": [
+        "security",
+        "phishing",
+        "mitm",
+        "golang",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-11-09T19:36:35.357Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "woodpecker",
+      "fullName": "woodpecker-ci/woodpecker",
+      "url": "https://github.com/woodpecker-ci/woodpecker",
+      "description": "Woodpecker is a simple, yet powerful CI/CD engine with great extensibility.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8145,
+      "forks": 737,
+      "starsToday": 14,
+      "topics": [],
+      "author": {
+        "name": "woodpecker-ci",
+        "avatar": "https://avatars.githubusercontent.com/u/817538?s=40&amp;v=4",
+        "url": "https://github.com/woodpecker-ci"
+      },
+      "summary": "基于 Go 的轻量级自托管 CI/CD 引擎，配置简单、扩展性强，可替代 Jenkins 等重型方案。",
+      "tags": [
+        "ci",
+        "cd",
+        "devops",
+        "go",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:36:35.754Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freehire",
+      "fullName": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3454,
+      "forks": 374,
+      "starsToday": 15,
+      "topics": [],
+      "author": {
+        "name": "strelov1",
+        "avatar": "https://avatars.githubusercontent.com/u/10761735?s=40&amp;v=4",
+        "url": "https://github.com/strelov1"
+      },
+      "summary": "开源求职搜索引擎，用 Go 编写，帮助求职者聚合检索职位信息，替代商业招聘搜索平台。",
+      "tags": [
+        "job-search",
+        "search-engine",
+        "go",
+        "open-source",
+        "career"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-09T19:36:35.505Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dozzle",
+      "fullName": "amir20/dozzle",
+      "url": "https://github.com/amir20/dozzle",
+      "description": "Realtime log viewer for containers. Supports Docker, Swarm and K8s.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 14883,
+      "forks": 654,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "amir20",
+        "avatar": "https://avatars.githubusercontent.com/u/260667?s=40&amp;v=4",
+        "url": "https://github.com/amir20"
+      },
+      "summary": "Dozzle 是轻量级容器实时日志查看器，支持 Docker、Swarm 与 Kubernetes，无需存储日志即可在浏览器中实时查看和搜索。",
+      "tags": [
+        "logs",
+        "docker",
+        "kubernetes",
+        "monitoring",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:36:35.802Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 39165,
+      "forks": 841,
+      "starsToday": 39,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是一款开源安全扫描器，可检测容器镜像、Kubernetes、代码仓库与云环境中的漏洞、配置错误和密钥泄露，并生成 SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:36:36.888Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SafeLine",
+      "fullName": "chaitin/SafeLine",
+      "url": "https://github.com/chaitin/SafeLine",
+      "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 23231,
+      "forks": 1605,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "chaitin",
+        "avatar": "https://avatars.githubusercontent.com/u/150229899?s=40&amp;v=4",
+        "url": "https://github.com/chaitin"
+      },
+      "summary": "SafeLine 是自托管的 Web 应用防火墙与反向代理，基于 Go 构建，可拦截攻击与漏洞利用，保护网站安全。",
+      "tags": [
+        "waf",
+        "security",
+        "reverse-proxy",
+        "self-hosted",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:36:36.900Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29074,
+      "forks": 2710,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "用 Go 编写的密钥泄露扫描工具，可在代码库、文件系统和 CI 中查找并验证泄露的凭据，降低误报。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "golang",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:36:37.386Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sliver",
+      "fullName": "BishopFox/sliver",
+      "url": "https://github.com/BishopFox/sliver",
+      "description": "Adversary Emulation Framework",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 12289,
+      "forks": 1660,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "BishopFox",
+        "avatar": "https://avatars.githubusercontent.com/u/875022?s=40&amp;v=4",
+        "url": "https://github.com/BishopFox"
+      },
+      "summary": "Sliver 是 Go 编写的开源对抗模拟框架，提供跨平台植入体、C2 通信与团队协作，用于红队演练与安全测试。",
+      "tags": [
+        "security",
+        "red-team",
+        "c2",
+        "golang",
+        "pentest"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-11-09T19:36:36.940Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27053,
+      "forks": 1156,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据记录、Docker 容器统计与告警通知，单文件部署、资源占用低。",
+      "tags": [
+        "monitoring",
+        "go",
+        "docker",
+        "self-hosted",
+        "alerts"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:36:38.493Z",
+      "deepwikiAvailable": false
+    }
+  ]
 }

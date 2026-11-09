@@ -2,7 +2,571 @@
   "date": "2026-11-09",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-11-09T05:14:12.459Z",
-  "enrichedAt": "2026-11-09T05:17:39.404Z",
-  "repos": []
+  "fetchedAt": "2026-11-09T19:35:53.397Z",
+  "enrichedAt": "2026-11-09T19:37:09.618Z",
+  "repos": [
+    {
+      "name": "prometheus",
+      "fullName": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 67590,
+      "forks": 11014,
+      "starsToday": 832,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 开源监控系统与时序数据库，通过拉取指标和 PromQL 查询实现云原生指标采集、告警与可视化，是 CNCF 可观测性事实标准。",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "time-series",
+        "promql",
+        "observability",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:37:03.190Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 55417,
+      "forks": 7310,
+      "starsToday": 841,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与 AI 智能体在同一团队中协同工作，用 Go 编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "open-source"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-09T19:37:03.049Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 118602,
+      "forks": 6904,
+      "starsToday": 1802,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "面向编码智能体的技能与代理，用\"原始人式\"精简表达削减约65%的token消耗，降低调用成本。",
+      "tags": [
+        "llm",
+        "proxy",
+        "token-optimization",
+        "coding-agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-09T19:37:02.843Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "etcd",
+      "fullName": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 52679,
+      "forks": 10596,
+      "starsToday": 353,
+      "topics": [],
+      "author": {
+        "name": "etcd-io",
+        "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4",
+        "url": "https://github.com/etcd-io"
+      },
+      "summary": "Go 编写的分布式可靠键值存储，基于 Raft 提供强一致性与高可用，是 Kubernetes 等系统的核心配置与协调数据底座。",
+      "tags": [
+        "etcd",
+        "key-value",
+        "raft",
+        "distributed",
+        "go",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:37:03.247Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trivy",
+      "fullName": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 39165,
+      "forks": 841,
+      "starsToday": 243,
+      "topics": [],
+      "author": {
+        "name": "aquasecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/2253692?s=40&amp;v=4",
+        "url": "https://github.com/aquasecurity"
+      },
+      "summary": "Trivy 是 Go 编写的全能安全扫描器，可检测容器、K8s、代码仓库与云环境中的漏洞、配置错误、密钥并生成 SBOM。",
+      "tags": [
+        "security",
+        "scanner",
+        "vulnerability",
+        "sbom",
+        "kubernetes",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:37:04.393Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72362,
+      "forks": 19322,
+      "starsToday": 287,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是容器生态的协作开源项目，提供构建容器化系统的核心组件，是 Docker 引擎的上游基础。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "infrastructure",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:37:04.508Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "act",
+      "fullName": "nektos/act",
+      "url": "https://github.com/nektos/act",
+      "description": "Run your GitHub Actions locally 🚀",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72609,
+      "forks": 2116,
+      "starsToday": 127,
+      "topics": [],
+      "author": {
+        "name": "nektos",
+        "avatar": "https://avatars.githubusercontent.com/u/2239057?s=40&amp;v=4",
+        "url": "https://github.com/nektos"
+      },
+      "summary": "用 Go 编写的工具，可在本地直接运行 GitHub Actions 工作流，免去反复推送调试 CI 的麻烦，加快开发迭代。",
+      "tags": [
+        "github-actions",
+        "ci",
+        "go",
+        "cli",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:37:04.719Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openchoreo",
+      "fullName": "openchoreo/openchoreo",
+      "url": "https://github.com/openchoreo/openchoreo",
+      "description": "OpenChoreo is an internal developer platform for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1861,
+      "forks": 284,
+      "starsToday": 107,
+      "topics": [],
+      "author": {
+        "name": "openchoreo",
+        "avatar": "https://avatars.githubusercontent.com/u/38396435?s=40&amp;v=4",
+        "url": "https://github.com/openchoreo"
+      },
+      "summary": "基于 Kubernetes 的内部开发者平台，为团队提供应用部署与自助式开发环境，降低 K8s 使用门槛。",
+      "tags": [
+        "kubernetes",
+        "idp",
+        "platform-engineering",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:37:04.783Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gin",
+      "fullName": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 89609,
+      "forks": 8915,
+      "starsToday": 266,
+      "topics": [],
+      "author": {
+        "name": "gin-gonic",
+        "avatar": "https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4",
+        "url": "https://github.com/gin-gonic"
+      },
+      "summary": "Go 编写的高性能 HTTP Web 框架，API 类似 Martini，基于 httprouter 实现，适合构建 REST API、Web 应用与微服务。",
+      "tags": [
+        "go",
+        "web-framework",
+        "http",
+        "rest-api",
+        "microservices"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-09T19:37:05.591Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139811,
+      "forks": 20241,
+      "starsToday": 475,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方源码仓库，提供简洁高效、内置并发与垃圾回收的编译型语言及标准库，广泛用于云原生与后端服务开发。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "standard-library",
+        "concurrency"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-09T19:37:05.999Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 93883,
+      "forks": 11278,
+      "starsToday": 542,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "基于深度文档理解的RAG引擎，已演进为面向智能体的上下文数据库，提供检索增强生成与知识库能力。",
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "retrieval",
+        "knowledge-base"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-09T19:37:06.216Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46935,
+      "forks": 9267,
+      "starsToday": 108,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub 官方命令行工具，用 Go 编写，可在终端完成仓库、Issue、PR、Actions 等操作，提升开发协作效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "git",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-09T19:37:06.394Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58982,
+      "forks": 7379,
+      "starsToday": 195,
+      "topics": [],
+      "author": {
+        "name": "go-gitea",
+        "avatar": "https://avatars.githubusercontent.com/u/81045?s=40&amp;v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "summary": "Gitea 是用 Go 编写的轻量自托管一体化软件开发平台，集成 Git 托管、代码评审、团队协作、包仓库与 CI/CD，部署简单资源占用低。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "golang",
+        "devops",
+        "ci-cd"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:37:07.255Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 128954,
+      "forks": 45080,
+      "starsToday": 535,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动化部署、扩缩容和运维管理，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "golang",
+        "cloud-native"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:37:07.287Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "superplane",
+      "fullName": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "Open source factory for one-shot engineering",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9431,
+      "forks": 702,
+      "starsToday": 855,
+      "topics": [],
+      "author": {
+        "name": "superplanehq",
+        "avatar": "https://avatars.githubusercontent.com/u/60622592?s=40&amp;v=4",
+        "url": "https://github.com/superplanehq"
+      },
+      "summary": "开源的一次性工程工厂，用Go编写，面向自动化构建与交付流程编排，帮助团队快速搭建可复用的工程流水线。",
+      "tags": [
+        "go",
+        "automation",
+        "devops",
+        "workflow",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-09T19:37:07.772Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "fleet",
+      "fullName": "fleetdm/fleet",
+      "url": "https://github.com/fleetdm/fleet",
+      "description": "Open device management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7167,
+      "forks": 1128,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "fleetdm",
+        "avatar": "https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4",
+        "url": "https://github.com/fleetdm"
+      },
+      "summary": "开源设备管理平台，统一管理 macOS、Windows、Linux 与 ChromeOS 终端，支持补丁、合规与漏洞检测，可替代 Jamf 等商业方案。",
+      "tags": [
+        "mdm",
+        "device-management",
+        "go",
+        "security",
+        "osquery"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:37:08.054Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "argo-cd",
+      "fullName": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24573,
+      "forks": 8121,
+      "starsToday": 65,
+      "topics": [],
+      "author": {
+        "name": "argoproj",
+        "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&amp;v=4",
+        "url": "https://github.com/argoproj"
+      },
+      "summary": "基于 GitOps 的 Kubernetes 声明式持续部署工具，以 Git 仓库为唯一事实来源，自动同步并可视化集群状态。",
+      "tags": [
+        "kubernetes",
+        "gitops",
+        "cd",
+        "devops",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-09T19:37:08.391Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beads",
+      "fullName": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 28624,
+      "forks": 1941,
+      "starsToday": 229,
+      "topics": [],
+      "author": {
+        "name": "gastownhall",
+        "avatar": "https://avatars.githubusercontent.com/u/613744?s=40&amp;v=4",
+        "url": "https://github.com/gastownhall"
+      },
+      "summary": "为编码智能体提供持久化记忆与任务追踪的Go工具，让AI代理跨会话记住上下文与进度。",
+      "tags": [
+        "ai",
+        "agent",
+        "memory",
+        "go",
+        "cli"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-09T19:37:08.813Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "TypeScript",
+      "fullName": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 111863,
+      "forks": 14770,
+      "starsToday": 321,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "JavaScript 的超集，为 JS 添加静态类型，编译输出干净的 JavaScript，提升大型项目可维护性与开发体验。",
+      "tags": [
+        "typescript",
+        "javascript",
+        "compiler",
+        "language",
+        "static-typing"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-09T19:37:09.617Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gemini-api-cli",
+      "fullName": "google-gemini/gemini-api-cli",
+      "url": "https://github.com/google-gemini/gemini-api-cli",
+      "description": "An (experimental) CLI for the Gemini API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 489,
+      "forks": 75,
+      "starsToday": 91,
+      "topics": [],
+      "author": {
+        "name": "google-gemini",
+        "avatar": "https://avatars.githubusercontent.com/u/32632186?s=40&amp;v=4",
+        "url": "https://github.com/google-gemini"
+      },
+      "summary": "Google 官方实验性 Gemini API 命令行工具，用 Go 编写，可在终端直接调用 Gemini 模型完成请求与调试。",
+      "tags": [
+        "gemini",
+        "cli",
+        "go",
+        "ai",
+        "google"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-09T19:37:09.246Z",
+      "deepwikiAvailable": false
+    }
+  ]
 }
