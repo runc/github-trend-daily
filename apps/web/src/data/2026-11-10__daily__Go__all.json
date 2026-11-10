@@ -2,9 +2,94 @@
   "date": "2026-11-10",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-11-10T06:28:27.589Z",
-  "enrichedAt": "2026-11-10T06:29:10.534Z",
+  "fetchedAt": "2026-11-10T16:51:31.784Z",
+  "enrichedAt": "2026-11-10T16:52:15.124Z",
   "repos": [
+    {
+      "name": "nvke",
+      "fullName": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1084,
+      "forks": 130,
+      "starsToday": 75,
+      "topics": [],
+      "author": {
+        "name": "dsx-ai-factory",
+        "avatar": "https://avatars.githubusercontent.com/u/23304?s=40&amp;v=4",
+        "url": "https://github.com/dsx-ai-factory"
+      },
+      "summary": "面向裸金属 GPU 集群的 Kubernetes 管理平面，简化 GPU 节点上 K8s 的部署与运维。",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "nvidia",
+        "bare-metal",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-10T06:29:07.224Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 118825,
+      "forks": 6912,
+      "starsToday": 299,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "面向编码智能体的技能与代理，让模型用\"原始人\"式简短表达，削减约65%的token消耗。",
+      "tags": [
+        "llm",
+        "tokens",
+        "proxy",
+        "coding-agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-10T16:52:11.638Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37101,
+      "forks": 5124,
+      "starsToday": 141,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体与自维护Wiki，基于Go构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-10T16:52:11.486Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "google-maps-scraper",
       "fullName": "gosom/google-maps-scraper",
@@ -12,9 +97,9 @@
       "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 7803,
-      "forks": 1218,
-      "starsToday": 205,
+      "stars": 7848,
+      "forks": 1227,
+      "starsToday": 127,
       "topics": [],
       "author": {
         "name": "gosom",
@@ -34,15 +119,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6364,
+      "forks": 715,
+      "starsToday": 78,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "用 Go 编写的 AI Agent 核心运行时系统，为智能体提供统一的基础设施层与执行底座。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "runtime",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-10T16:52:11.514Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "phoneinfoga",
       "fullName": "sundowndev/phoneinfoga",
       "url": "https://github.com/sundowndev/phoneinfoga",
       "description": "Information gathering framework for phone numbers",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 18485,
-      "forks": 6307,
-      "starsToday": 28,
+      "stars": 18496,
+      "forks": 6308,
+      "starsToday": 35,
       "topics": [],
       "author": {
         "name": "sundowndev",
@@ -59,6 +172,290 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-10T06:29:05.799Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "github-mcp-server",
+      "fullName": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 34363,
+      "forks": 5321,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/u/4811358?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub官方MCP服务器，用Go编写，让AI模型通过标准协议直接访问仓库、Issue、PR等GitHub数据与操作。",
+      "tags": [
+        "mcp",
+        "github",
+        "go",
+        "ai",
+        "api"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-10T16:52:11.662Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29156,
+      "forks": 2715,
+      "starsToday": 96,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "Go 编写的密钥泄露扫描工具，可在代码库、文件与镜像中查找并验证泄露的凭证，支持 CI 集成。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "golang",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-10T06:29:10.397Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5612,
+      "forks": 627,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "github",
+        "avatar": "https://avatars.githubusercontent.com/in/1143301?s=40&amp;v=4",
+        "url": "https://github.com/github"
+      },
+      "summary": "GitHub 官方推出的智能体工作流工具，用 Go 编写，让 AI Agent 以声明式方式驱动仓库自动化任务。",
+      "tags": [
+        "github",
+        "ai",
+        "workflow",
+        "automation",
+        "go",
+        "agents"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-10T16:52:13.062Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "yq",
+      "fullName": "mikefarah/yq",
+      "url": "https://github.com/mikefarah/yq",
+      "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16257,
+      "forks": 1296,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "mikefarah",
+        "avatar": "https://avatars.githubusercontent.com/u/1151925?s=40&amp;v=4",
+        "url": "https://github.com/mikefarah"
+      },
+      "summary": "Go 编写的可移植命令行处理器，用类似 jq 的语法读写转换 YAML、JSON、XML、CSV、TOML 等多种配置格式。",
+      "tags": [
+        "yaml",
+        "cli",
+        "json",
+        "go",
+        "jq"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-10T16:52:13.108Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gin-vue-admin",
+      "fullName": "flipped-aurora/gin-vue-admin",
+      "url": "https://github.com/flipped-aurora/gin-vue-admin",
+      "description": "🚀Vite+Vue3+Gin拥有AI辅助的基础开发平台，企业级业务AI+开发解决方案，内置mcp辅助服务，内置skills管理，支持TS和JS混用。它集成了JWT鉴权、权限管理、动态路由、显隐可控组件、分页封装、多点登录拦截、资源权限、上传下载、代码生成器、表单生成器和可配置的导入导出等开发必备功能。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 25128,
+      "forks": 7102,
+      "starsToday": 0,
+      "topics": [],
+      "author": {
+        "name": "flipped-aurora",
+        "avatar": "https://avatars.githubusercontent.com/u/165128580?s=40&amp;v=4",
+        "url": "https://github.com/flipped-aurora"
+      },
+      "summary": "基于Vite+Vue3+Gin的企业级全栈开发平台，内置AI辅助、MCP服务与代码生成器，集成JWT鉴权、权限与动态路由等开箱即用功能。",
+      "tags": [
+        "go",
+        "vue3",
+        "gin",
+        "admin",
+        "codegen",
+        "ai"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-10T16:52:13.370Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "k0s",
+      "fullName": "k0sproject/k0s",
+      "url": "https://github.com/k0sproject/k0s",
+      "description": "k0s - The Zero Friction Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6581,
+      "forks": 541,
+      "starsToday": 7,
+      "topics": [],
+      "author": {
+        "name": "k0sproject",
+        "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&amp;v=4",
+        "url": "https://github.com/k0sproject"
+      },
+      "summary": "k0s 是零摩擦 Kubernetes 发行版，单二进制即可部署完整集群，无需额外依赖，支持边缘与生产环境。",
+      "tags": [
+        "kubernetes",
+        "go",
+        "cluster",
+        "devops",
+        "self-hosted"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-10T16:52:13.336Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 93963,
+      "forks": 11289,
+      "starsToday": 130,
+      "topics": [],
+      "author": {
+        "name": "infiniflow",
+        "avatar": "https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "summary": "基于深度文档理解的RAG引擎，已演进为面向智能体的上下文数据库，提供检索增强生成与知识库基础设施。",
+      "tags": [
+        "rag",
+        "llm",
+        "retrieval",
+        "knowledge-base",
+        "agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-10T16:52:14.746Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "run-ai",
+      "fullName": "dsx-ai-factory/run-ai",
+      "url": "https://github.com/dsx-ai-factory/run-ai",
+      "description": "Run:ai is the AI workload orchestration platform for Kubernetes. This monorepo contains the control plane services, in-cluster Kubernetes operator/controllers, shared libraries and clients, the installer, and the local dev environment.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 733,
+      "forks": 120,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "dsx-ai-factory",
+        "avatar": "https://avatars.githubusercontent.com/u/194131107?s=40&amp;v=4",
+        "url": "https://github.com/dsx-ai-factory"
+      },
+      "summary": "Run:ai 是面向 Kubernetes 的 AI 工作负载编排平台，此单仓库包含控制面服务、集群内 Operator、共享库、安装器与本地开发环境，用于统一调度和分配 GPU 资源。",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "orchestration",
+        "go",
+        "ai-infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-10T16:52:14.691Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30870,
+      "forks": 2359,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Go 编写的密钥扫描工具，用于在代码仓库、文件和提交历史中检测并阻止硬编码的密码、API Key 等敏感信息泄露。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "git",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-10T16:52:15.123Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opencode",
+      "fullName": "opencode-ai/opencode",
+      "url": "https://github.com/opencode-ai/opencode",
+      "description": "A powerful AI coding agent. Built for the terminal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13879,
+      "forks": 2471,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "opencode-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/14311743?s=40&amp;v=4",
+        "url": "https://github.com/opencode-ai"
+      },
+      "summary": "终端中的AI编程代理，用Go编写，可在命令行内直接完成代码编写、修改与任务自动化。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "cli",
+        "golang",
+        "terminal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-10T16:52:15.089Z",
       "deepwikiAvailable": false
     },
     {
@@ -116,35 +513,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-11-10T06:29:05.899Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "nvke",
-      "fullName": "dsx-ai-factory/nvke",
-      "url": "https://github.com/dsx-ai-factory/nvke",
-      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1057,
-      "forks": 129,
-      "starsToday": 333,
-      "topics": [],
-      "author": {
-        "name": "dsx-ai-factory",
-        "avatar": "https://avatars.githubusercontent.com/u/23304?s=40&amp;v=4",
-        "url": "https://github.com/dsx-ai-factory"
-      },
-      "summary": "面向裸金属 GPU 集群的 Kubernetes 管理平面，简化 GPU 节点上 K8s 的部署与运维。",
-      "tags": [
-        "kubernetes",
-        "gpu",
-        "nvidia",
-        "bare-metal",
-        "go",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-10T06:29:07.224Z",
       "deepwikiAvailable": false
     },
     {
@@ -370,34 +738,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-10T06:29:10.412Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trufflehog",
-      "fullName": "trufflesecurity/trufflehog",
-      "url": "https://github.com/trufflesecurity/trufflehog",
-      "description": "Find, verify, and analyze leaked credentials",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 29116,
-      "forks": 2713,
-      "starsToday": 94,
-      "topics": [],
-      "author": {
-        "name": "trufflesecurity",
-        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
-        "url": "https://github.com/trufflesecurity"
-      },
-      "summary": "Go 编写的密钥泄露扫描工具，可在代码库、文件与镜像中查找并验证泄露的凭证，支持 CI 集成。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "golang",
-        "devsecops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-10T06:29:10.397Z",
       "deepwikiAvailable": false
     },
     {

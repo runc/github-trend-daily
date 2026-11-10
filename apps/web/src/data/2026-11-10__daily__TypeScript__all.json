@@ -2,8 +2,8 @@
   "date": "2026-11-10",
   "since": "daily",
   "language": "TypeScript",
-  "fetchedAt": "2026-11-10T06:28:27.589Z",
-  "enrichedAt": "2026-11-10T06:28:55.095Z",
+  "fetchedAt": "2026-11-10T16:51:31.784Z",
+  "enrichedAt": "2026-11-10T16:52:02.252Z",
   "repos": [
     {
       "name": "astryx",
@@ -12,9 +12,9 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 20791,
-      "forks": 1581,
-      "starsToday": 3278,
+      "stars": 22131,
+      "forks": 1774,
+      "starsToday": 3111,
       "topics": [],
       "author": {
         "name": "meta",
@@ -34,31 +34,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "gbrain",
-      "fullName": "garrytan/gbrain",
-      "url": "https://github.com/garrytan/gbrain",
-      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "name": "billion-context",
+      "fullName": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 32294,
-      "forks": 4779,
-      "starsToday": 216,
+      "stars": 6110,
+      "forks": 522,
+      "starsToday": 374,
       "topics": [],
       "author": {
-        "name": "garrytan",
-        "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&amp;v=4",
-        "url": "https://github.com/garrytan"
+        "name": "ranxianglei",
+        "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&amp;v=4",
+        "url": "https://github.com/ranxianglei"
       },
-      "summary": "Garry Tan 开源的 OpenClaw/Hermes 智能体\"大脑\"配置，提供带明确取舍的提示词、记忆与工具编排方案，可直接复用搭建个人 AI 助手。",
+      "summary": "TypeScript上下文压缩插件，支持月级超长会话，100K小窗口即可运行，token消耗降低约5倍。",
       "tags": [
-        "ai",
-        "agent",
+        "context",
+        "compression",
+        "llm",
         "typescript",
-        "prompt",
-        "llm"
+        "tokens"
       ],
-      "category": "AI",
-      "enrichedAt": "2026-11-10T06:28:50.374Z",
+      "category": "Library",
+      "enrichedAt": "2026-11-10T06:28:50.327Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,9 +68,9 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 20054,
-      "forks": 2740,
-      "starsToday": 1587,
+      "stars": 20511,
+      "forks": 2842,
+      "starsToday": 1220,
       "topics": [],
       "author": {
         "name": "milind-soni",
@@ -90,31 +90,255 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "billion-context",
-      "fullName": "ranxianglei/billion-context",
-      "url": "https://github.com/ranxianglei/billion-context",
-      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "name": "gbrain",
+      "fullName": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 5838,
-      "forks": 447,
-      "starsToday": 760,
+      "stars": 32449,
+      "forks": 4825,
+      "starsToday": 558,
       "topics": [],
       "author": {
-        "name": "ranxianglei",
-        "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&amp;v=4",
-        "url": "https://github.com/ranxianglei"
+        "name": "garrytan",
+        "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&amp;v=4",
+        "url": "https://github.com/garrytan"
       },
-      "summary": "TypeScript上下文压缩插件，支持月级超长会话，100K小窗口即可运行，token消耗降低约5倍。",
+      "summary": "Garry Tan 开源的 OpenClaw/Hermes 智能体\"大脑\"配置，提供带明确取舍的提示词、记忆与工具编排方案，可直接复用搭建个人 AI 助手。",
       "tags": [
-        "context",
-        "compression",
-        "llm",
+        "ai",
+        "agent",
         "typescript",
-        "tokens"
+        "prompt",
+        "llm"
       ],
-      "category": "Library",
-      "enrichedAt": "2026-11-10T06:28:50.327Z",
+      "category": "AI",
+      "enrichedAt": "2026-11-10T06:28:50.374Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-seo",
+      "fullName": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 27155,
+      "forks": 3767,
+      "starsToday": 146,
+      "topics": [],
+      "author": {
+        "name": "every-app",
+        "avatar": "https://avatars.githubusercontent.com/u/44480372?s=40&amp;v=4",
+        "url": "https://github.com/every-app"
+      },
+      "summary": "开源SEO分析平台，作为Semrush与Ahrefs的免费替代方案，提供关键词研究、排名追踪与竞品分析能力。",
+      "tags": [
+        "seo",
+        "analytics",
+        "typescript",
+        "self-hosted",
+        "marketing"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-10T16:52:00.192Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ardia",
+      "fullName": "mantrakp04/ardia",
+      "url": "https://github.com/mantrakp04/ardia",
+      "description": "A free Chromium browser for the Mac: Arc's sidebar, Dia's polish. Chat on Discord: discord.gg/TdhuXrbcA6",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 1624,
+      "forks": 220,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "mantrakp04",
+        "avatar": "https://avatars.githubusercontent.com/u/87142457?s=40&amp;v=4",
+        "url": "https://github.com/mantrakp04"
+      },
+      "summary": "面向 macOS 的免费 Chromium 浏览器，融合 Arc 的侧边栏布局与 Dia 的精致交互设计，用 TypeScript 打造。",
+      "tags": [
+        "browser",
+        "chromium",
+        "macos",
+        "typescript",
+        "electron"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-10T06:28:55.023Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ohmygame",
+      "fullName": "WhiteTowerAI/ohmygame",
+      "url": "https://github.com/WhiteTowerAI/ohmygame",
+      "description": "The open-source studio for making games with AI. Your own one-person game studio. Everything you need to make games with AI, in one app. Game canvas. Bring your own key.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 2009,
+      "forks": 257,
+      "starsToday": 201,
+      "topics": [],
+      "author": {
+        "name": "WhiteTowerAI",
+        "avatar": "https://avatars.githubusercontent.com/u/57213566?s=40&amp;v=4",
+        "url": "https://github.com/WhiteTowerAI"
+      },
+      "summary": "开源AI游戏工作室应用，集游戏画布与AI生成于一体，支持自带API Key，让个人独立完成游戏开发。",
+      "tags": [
+        "ai",
+        "gamedev",
+        "typescript",
+        "studio",
+        "opensource"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-10T16:52:00.955Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "plannotator",
+      "fullName": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 9987,
+      "forks": 757,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "backnotprop",
+        "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&amp;v=4",
+        "url": "https://github.com/backnotprop"
+      },
+      "summary": "面向AI编码代理的协作工作台，支持标注代码、规划决策与团队评审，一键将反馈回传给代理，让开发者始终掌握代理进度。",
+      "tags": [
+        "ai-agents",
+        "code-review",
+        "annotation",
+        "collaboration",
+        "typescript"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-10T06:28:53.278Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "upscayl",
+      "fullName": "upscayl/upscayl",
+      "url": "https://github.com/upscayl/upscayl",
+      "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 52173,
+      "forks": 2734,
+      "starsToday": 89,
+      "topics": [],
+      "author": {
+        "name": "upscayl",
+        "avatar": "https://avatars.githubusercontent.com/u/25067102?s=40&amp;v=4",
+        "url": "https://github.com/upscayl"
+      },
+      "summary": "免费开源的跨平台 AI 图像放大工具，基于 TypeScript 与本地 AI 模型，可在 Linux、macOS、Windows 上离线高清放大图片。",
+      "tags": [
+        "image-upscaling",
+        "ai",
+        "desktop",
+        "electron",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-10T16:52:00.778Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pocketpal-ai",
+      "fullName": "a-ghorbani/pocketpal-ai",
+      "url": "https://github.com/a-ghorbani/pocketpal-ai",
+      "description": "An app that brings language models directly to your phone.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 9165,
+      "forks": 1065,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "a-ghorbani",
+        "avatar": "https://avatars.githubusercontent.com/u/11278140?s=40&amp;v=4",
+        "url": "https://github.com/a-ghorbani"
+      },
+      "summary": "在手机本地运行大语言模型的开源应用，无需联网即可离线对话，保护隐私并省去云端成本。",
+      "tags": [
+        "llm",
+        "mobile",
+        "on-device",
+        "react-native",
+        "offline"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-10T16:52:00.515Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pangolin",
+      "fullName": "fosrl/pangolin",
+      "url": "https://github.com/fosrl/pangolin",
+      "description": "Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 23559,
+      "forks": 826,
+      "starsToday": 125,
+      "topics": [],
+      "author": {
+        "name": "fosrl",
+        "avatar": "https://avatars.githubusercontent.com/u/4999704?s=40&amp;v=4",
+        "url": "https://github.com/fosrl"
+      },
+      "summary": "基于 WireGuard 的反向代理与隧道平台，为应用、基础设施和 AI 工作负载提供安全远程访问与身份认证。",
+      "tags": [
+        "networking",
+        "wireguard",
+        "reverse-proxy",
+        "self-hosted",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-10T16:52:02.236Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "stitch-skills",
+      "fullName": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 8722,
+      "forks": 1053,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "google-labs-code",
+        "avatar": "https://avatars.githubusercontent.com/u/43076783?s=40&amp;v=4",
+        "url": "https://github.com/google-labs-code"
+      },
+      "summary": "面向 Stitch MCP 服务器的 Agent Skills 技能库，遵循 Agent Skills 开放标准，可兼容 Gemini CLI、Claude Code、Cursor 等编码智能体。",
+      "tags": [
+        "agent-skills",
+        "mcp",
+        "typescript",
+        "ai-agents",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-10T16:52:02.252Z",
       "deepwikiAvailable": false
     },
     {
@@ -258,34 +482,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "plannotator",
-      "fullName": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 9962,
-      "forks": 753,
-      "starsToday": 43,
-      "topics": [],
-      "author": {
-        "name": "backnotprop",
-        "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&amp;v=4",
-        "url": "https://github.com/backnotprop"
-      },
-      "summary": "面向AI编码代理的协作工作台，支持标注代码、规划决策与团队评审，一键将反馈回传给代理，让开发者始终掌握代理进度。",
-      "tags": [
-        "ai-agents",
-        "code-review",
-        "annotation",
-        "collaboration",
-        "typescript"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-10T06:28:53.278Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "dexter",
       "fullName": "virattt/dexter",
       "url": "https://github.com/virattt/dexter",
@@ -395,34 +591,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-10T06:28:55.095Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ardia",
-      "fullName": "mantrakp04/ardia",
-      "url": "https://github.com/mantrakp04/ardia",
-      "description": "A free Chromium browser for the Mac: Arc's sidebar, Dia's polish. Chat on Discord: discord.gg/TdhuXrbcA6",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 1594,
-      "forks": 167,
-      "starsToday": 115,
-      "topics": [],
-      "author": {
-        "name": "mantrakp04",
-        "avatar": "https://avatars.githubusercontent.com/u/87142457?s=40&amp;v=4",
-        "url": "https://github.com/mantrakp04"
-      },
-      "summary": "面向 macOS 的免费 Chromium 浏览器，融合 Arc 的侧边栏布局与 Dia 的精致交互设计，用 TypeScript 打造。",
-      "tags": [
-        "browser",
-        "chromium",
-        "macos",
-        "typescript",
-        "electron"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-10T06:28:55.023Z",
       "deepwikiAvailable": false
     }
   ]
