@@ -2,63 +2,35 @@
   "date": "2026-11-11",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-11-11T05:15:06.986Z",
-  "enrichedAt": "2026-11-11T05:15:45.453Z",
+  "fetchedAt": "2026-11-11T16:57:29.649Z",
+  "enrichedAt": "2026-11-11T16:58:05.737Z",
   "repos": [
     {
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
+      "name": "daily_stock_analysis",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 192531,
-      "forks": 22665,
-      "starsToday": 1679,
+      "stars": 69996,
+      "forks": 56799,
+      "starsToday": 429,
       "topics": [],
       "author": {
-        "name": "anthropics",
-        "avatar": "https://avatars.githubusercontent.com/u/122662504?s=40&amp;v=4",
-        "url": "https://github.com/anthropics"
+        "name": "ZhuLinsen",
+        "avatar": "https://avatars.githubusercontent.com/u/42829555?s=40&amp;v=4",
+        "url": "https://github.com/ZhuLinsen"
       },
-      "summary": "Anthropic官方Agent Skills公开仓库，提供可复用的技能模块与示例，帮助开发者扩展Claude等智能体的能力。",
+      "summary": "LLM驱动的多市场股票分析系统，整合多源行情与实时新闻，生成决策看板并自动推送，支持零成本定时运行。",
       "tags": [
-        "agent",
-        "skills",
-        "anthropic",
         "llm",
-        "python"
+        "stock",
+        "finance",
+        "python",
+        "automation"
       ],
       "category": "AI",
-      "enrichedAt": "2026-11-11T05:15:41.519Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "claude-quickstarts",
-      "fullName": "anthropics/claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 20592,
-      "forks": 3476,
-      "starsToday": 531,
-      "topics": [],
-      "author": {
-        "name": "anthropics",
-        "avatar": "https://avatars.githubusercontent.com/u/286490957?s=40&amp;v=4",
-        "url": "https://github.com/anthropics"
-      },
-      "summary": "Anthropic 官方 Claude API 快速上手示例集，提供多个可直接部署的应用模板，帮助开发者快速构建基于 Claude 的 AI 应用。",
-      "tags": [
-        "claude",
-        "llm",
-        "examples",
-        "templates",
-        "python"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-11T05:15:41.567Z",
+      "enrichedAt": "2026-11-11T05:15:44.002Z",
       "deepwikiAvailable": false
     },
     {
@@ -68,9 +40,9 @@
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 6790,
-      "forks": 438,
-      "starsToday": 790,
+      "stars": 7113,
+      "forks": 446,
+      "starsToday": 640,
       "topics": [],
       "author": {
         "name": "homeassistant-ai",
@@ -90,15 +62,127 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "browser-use",
+      "fullName": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 120714,
+      "forks": 13494,
+      "starsToday": 171,
+      "topics": [],
+      "author": {
+        "name": "browser-use",
+        "avatar": "https://avatars.githubusercontent.com/u/67061560?s=40&amp;v=4",
+        "url": "https://github.com/browser-use"
+      },
+      "summary": "开源Python库，让AI智能体直接操控浏览器完成网页任务，并提供云端隐身浏览器与托管Agent API。",
+      "tags": [
+        "ai",
+        "browser-automation",
+        "agents",
+        "python",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T16:58:02.585Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "maigret",
+      "fullName": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 40355,
+      "forks": 3237,
+      "starsToday": 364,
+      "topics": [],
+      "author": {
+        "name": "soxoj",
+        "avatar": "https://avatars.githubusercontent.com/u/31013580?s=40&amp;v=4",
+        "url": "https://github.com/soxoj"
+      },
+      "summary": "通过用户名在6000多个网站检索账号并生成个人档案的开源情报工具，支持命令行与报告输出。",
+      "tags": [
+        "osint",
+        "username",
+        "python",
+        "cli",
+        "scraper"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-11T16:58:02.515Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sglang-omni",
+      "fullName": "sgl-project/sglang-omni",
+      "url": "https://github.com/sgl-project/sglang-omni",
+      "description": "High Performance Serving Runtime For Interactive Super Intelligence System",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1756,
+      "forks": 720,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "sgl-project",
+        "avatar": "https://avatars.githubusercontent.com/u/74843776?s=40&amp;v=4",
+        "url": "https://github.com/sgl-project"
+      },
+      "summary": "SGLang 团队推出的高性能推理服务运行时，面向交互式超级智能系统，支持多模态与低延迟高吞吐部署。",
+      "tags": [
+        "inference",
+        "serving",
+        "llm",
+        "python",
+        "multimodal"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-11T16:58:02.783Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 192941,
+      "forks": 22706,
+      "starsToday": 1093,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/122662504?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Anthropic官方Agent Skills公开仓库，提供可复用的技能模块与示例，帮助开发者扩展Claude等智能体的能力。",
+      "tags": [
+        "agent",
+        "skills",
+        "anthropic",
+        "llm",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T05:15:41.519Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "sherlock",
       "fullName": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 109290,
-      "forks": 12687,
-      "starsToday": 2393,
+      "stars": 109907,
+      "forks": 12729,
+      "starsToday": 1639,
       "topics": [],
       "author": {
         "name": "sherlock-project",
@@ -115,6 +199,290 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-11-11T05:15:41.418Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hello-algo",
+      "fullName": "krahets/hello-algo",
+      "url": "https://github.com/krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 132212,
+      "forks": 15616,
+      "starsToday": 77,
+      "topics": [],
+      "author": {
+        "name": "krahets",
+        "avatar": "https://avatars.githubusercontent.com/u/26993056?s=40&amp;v=4",
+        "url": "https://github.com/krahets"
+      },
+      "summary": "动画图解的数据结构与算法教程，支持多语言讲解与十余种编程语言的代码实现，可一键运行。",
+      "tags": [
+        "algorithm",
+        "data-structures",
+        "tutorial",
+        "education",
+        "multilingual"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-11T16:58:02.728Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SimpleEnglish",
+      "fullName": "AminBlg/SimpleEnglish",
+      "url": "https://github.com/AminBlg/SimpleEnglish",
+      "description": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 4370,
+      "forks": 189,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "AminBlg",
+        "avatar": "https://avatars.githubusercontent.com/u/93337741?s=40&amp;v=4",
+        "url": "https://github.com/AminBlg"
+      },
+      "summary": "一个 Agent 技能，让大模型按 ASD-STE100 简化技术英语规范撰写文档，输出清晰无歧义、易翻译的技术文本。",
+      "tags": [
+        "llm",
+        "agent",
+        "documentation",
+        "writing",
+        "prompt"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T16:58:03.834Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "iSponsorBlockTV",
+      "fullName": "dmunozv04/iSponsorBlockTV",
+      "url": "https://github.com/dmunozv04/iSponsorBlockTV",
+      "description": "SponsorBlock client for all YouTube for TV clients.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 7101,
+      "forks": 310,
+      "starsToday": 73,
+      "topics": [],
+      "author": {
+        "name": "dmunozv04",
+        "avatar": "https://avatars.githubusercontent.com/u/39565245?s=40&amp;v=4",
+        "url": "https://github.com/dmunozv04"
+      },
+      "summary": "面向电视端 YouTube 客户端的 SponsorBlock 客户端，自动跳过视频中的赞助片段，支持多设备与远程管理。",
+      "tags": [
+        "sponsorblock",
+        "youtube",
+        "python",
+        "adblock",
+        "tv"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-11T16:58:04.166Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenSandbox",
+      "fullName": "opensandbox-group/OpenSandbox",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17198,
+      "forks": 1626,
+      "starsToday": 88,
+      "topics": [],
+      "author": {
+        "name": "opensandbox-group",
+        "avatar": "https://avatars.githubusercontent.com/u/62273713?s=40&amp;v=4",
+        "url": "https://github.com/opensandbox-group"
+      },
+      "summary": "面向AI代理的安全沙箱运行时，提供快速隔离执行环境并支持扩展，用Python实现。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "python",
+        "security",
+        "runtime"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-11T05:15:42.712Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-ads-mcp",
+      "fullName": "googleads/google-ads-mcp",
+      "url": "https://github.com/googleads/google-ads-mcp",
+      "description": "",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1154,
+      "forks": 364,
+      "starsToday": 9,
+      "topics": [],
+      "author": {
+        "name": "googleads",
+        "avatar": "https://avatars.githubusercontent.com/u/1030142?s=40&amp;v=4",
+        "url": "https://github.com/googleads"
+      },
+      "summary": "Google官方推出的Google Ads MCP服务器，让AI助手通过MCP协议直接查询和管理广告账户数据。",
+      "tags": [
+        "mcp",
+        "google-ads",
+        "python",
+        "ai",
+        "advertising"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T16:58:04.176Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 68575,
+      "forks": 10674,
+      "starsToday": 652,
+      "topics": [],
+      "author": {
+        "name": "Alishahryar1",
+        "avatar": "https://avatars.githubusercontent.com/u/20476625?s=40&amp;v=4",
+        "url": "https://github.com/Alishahryar1"
+      },
+      "summary": "在终端、IDE、手机和浏览器中免费使用 Claude Code、Codex 等十余种 AI 编程工具，提供 13 亿以上免费 token，支持多模型与语音。",
+      "tags": [
+        "ai",
+        "claude-code",
+        "free-tokens",
+        "cli",
+        "multi-model",
+        "browser"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T16:58:04.441Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tick-stock-panel",
+      "fullName": "shy3130/tick-stock-panel",
+      "url": "https://github.com/shy3130/tick-stock-panel",
+      "description": "TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 7602,
+      "forks": 1856,
+      "starsToday": 108,
+      "topics": [],
+      "author": {
+        "name": "shy3130",
+        "avatar": "https://avatars.githubusercontent.com/u/6329373?s=40&amp;v=4",
+        "url": "https://github.com/shy3130"
+      },
+      "summary": "自托管零运维的A股量化工作台，集成自建策略、实时监控与回测，并借助LLM完成策略定制、个股分析与复盘，支持自由接入第三方数据源。",
+      "tags": [
+        "quant",
+        "stock",
+        "llm",
+        "backtest",
+        "python",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T16:58:05.235Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "saleor",
+      "fullName": "saleor/saleor",
+      "url": "https://github.com/saleor/saleor",
+      "description": "Saleor Core: the high performance, composable, headless commerce API.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 23548,
+      "forks": 6201,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "saleor",
+        "avatar": "https://avatars.githubusercontent.com/u/5421321?s=40&amp;v=4",
+        "url": "https://github.com/saleor"
+      },
+      "summary": "Saleor Core 是高性能、可组合的无头电商 GraphQL API，基于 Python/Django，支持前后端分离的现代电商架构。",
+      "tags": [
+        "ecommerce",
+        "graphql",
+        "headless",
+        "python",
+        "django",
+        "api"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-11T16:58:05.722Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "experiential",
+      "fullName": "experientiallabs/experiential",
+      "url": "https://github.com/experientiallabs/experiential",
+      "description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 16528,
+      "forks": 300,
+      "starsToday": 675,
+      "topics": [],
+      "author": {
+        "name": "experientiallabs",
+        "avatar": "https://avatars.githubusercontent.com/u/44129612?s=40&amp;v=4",
+        "url": "https://github.com/experientiallabs"
+      },
+      "summary": "开源零标记LLM网关，统一接入BYOK、自托管及1000+市场模型，依据流量学习以降本、推荐更优模型并训练专属模型。",
+      "tags": [
+        "llm",
+        "gateway",
+        "python",
+        "self-hosted",
+        "byok",
+        "routing"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-11T16:58:05.736Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-quickstarts",
+      "fullName": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 20725,
+      "forks": 3482,
+      "starsToday": 482,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/286490957?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "Anthropic 官方 Claude API 快速上手示例集，提供多个可直接部署的应用模板，帮助开发者快速构建基于 Claude 的 AI 应用。",
+      "tags": [
+        "claude",
+        "llm",
+        "examples",
+        "templates",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T05:15:41.567Z",
       "deepwikiAvailable": false
     },
     {
@@ -200,62 +568,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-11T05:15:43.242Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "OpenSandbox",
-      "fullName": "opensandbox-group/OpenSandbox",
-      "url": "https://github.com/opensandbox-group/OpenSandbox",
-      "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 17164,
-      "forks": 1621,
-      "starsToday": 323,
-      "topics": [],
-      "author": {
-        "name": "opensandbox-group",
-        "avatar": "https://avatars.githubusercontent.com/u/62273713?s=40&amp;v=4",
-        "url": "https://github.com/opensandbox-group"
-      },
-      "summary": "面向AI代理的安全沙箱运行时，提供快速隔离执行环境并支持扩展，用Python实现。",
-      "tags": [
-        "sandbox",
-        "ai-agents",
-        "python",
-        "security",
-        "runtime"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-11T05:15:42.712Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "daily_stock_analysis",
-      "fullName": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 69613,
-      "forks": 56713,
-      "starsToday": 960,
-      "topics": [],
-      "author": {
-        "name": "ZhuLinsen",
-        "avatar": "https://avatars.githubusercontent.com/u/42829555?s=40&amp;v=4",
-        "url": "https://github.com/ZhuLinsen"
-      },
-      "summary": "LLM驱动的多市场股票分析系统，整合多源行情与实时新闻，生成决策看板并自动推送，支持零成本定时运行。",
-      "tags": [
-        "llm",
-        "stock",
-        "finance",
-        "python",
-        "automation"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-11T05:15:44.002Z",
       "deepwikiAvailable": false
     },
     {

@@ -2,8 +2,8 @@
   "date": "2026-11-11",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-11-11T05:15:06.986Z",
-  "enrichedAt": "2026-11-11T05:15:56.393Z",
+  "fetchedAt": "2026-11-11T16:57:29.649Z",
+  "enrichedAt": "2026-11-11T16:58:12.892Z",
   "repos": [
     {
       "name": "agent-browser",
@@ -12,9 +12,9 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 49379,
-      "forks": 3458,
-      "starsToday": 780,
+      "stars": 49714,
+      "forks": 3478,
+      "starsToday": 712,
       "topics": [],
       "author": {
         "name": "vercel-labs",
@@ -34,15 +34,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 104015,
+      "forks": 13534,
+      "starsToday": 215,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "基于Rust的WiFi感知项目，利用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面。",
+      "tags": [
+        "wifi",
+        "rust",
+        "sensing",
+        "presence-detection",
+        "health"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-11T05:15:53.561Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "topcoat",
       "fullName": "tokio-rs/topcoat",
       "url": "https://github.com/tokio-rs/topcoat",
       "description": "A batteries-included framework for building web apps",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 6919,
-      "forks": 307,
-      "starsToday": 192,
+      "stars": 7071,
+      "forks": 314,
+      "starsToday": 471,
       "topics": [],
       "author": {
         "name": "tokio-rs",
@@ -62,31 +90,171 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "RuView",
-      "fullName": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "name": "impactor",
+      "fullName": "claration/impactor",
+      "url": "https://github.com/claration/impactor",
+      "description": "Cross-platform & feature rich iOS/iPadOS/tvOS sideloading application. Formerly known as PlumeImpactor.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 103941,
-      "forks": 13524,
-      "starsToday": 627,
+      "stars": 3814,
+      "forks": 272,
+      "starsToday": 22,
       "topics": [],
       "author": {
-        "name": "ruvnet",
-        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
-        "url": "https://github.com/ruvnet"
+        "name": "claration",
+        "avatar": "https://avatars.githubusercontent.com/u/97859147?s=40&amp;v=4",
+        "url": "https://github.com/claration"
       },
-      "summary": "基于Rust的WiFi感知项目，利用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面。",
+      "summary": "跨平台 iOS/iPadOS/tvOS 侧载工具，用 Rust 编写，功能丰富，可替代 Cydia Impactor 为设备安装应用。",
       "tags": [
-        "wifi",
+        "ios",
+        "sideload",
         "rust",
-        "sensing",
-        "presence-detection",
-        "health"
+        "cross-platform",
+        "tool"
       ],
-      "category": "Library",
-      "enrichedAt": "2026-11-11T05:15:53.561Z",
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T16:58:12.450Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sniffnet",
+      "fullName": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your network traffic 🕵️‍♂️",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 42396,
+      "forks": 1995,
+      "starsToday": 91,
+      "topics": [],
+      "author": {
+        "name": "GyulyVGC",
+        "avatar": "https://avatars.githubusercontent.com/u/100347457?s=40&amp;v=4",
+        "url": "https://github.com/GyulyVGC"
+      },
+      "summary": "基于Rust的跨平台网络流量监控工具，提供直观图形界面，可实时查看连接、流量统计与协议详情，兼顾易用性与隐私。",
+      "tags": [
+        "network",
+        "monitoring",
+        "rust",
+        "gui",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-11T05:15:54.961Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbdelve",
+      "fullName": "ShayanAbbas1/dbdelve",
+      "url": "https://github.com/ShayanAbbas1/dbdelve",
+      "description": "Fast and lightweight DB Client made in Rust and GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1077,
+      "forks": 58,
+      "starsToday": 106,
+      "topics": [],
+      "author": {
+        "name": "ShayanAbbas1",
+        "avatar": "https://avatars.githubusercontent.com/u/74356580?s=40&amp;v=4",
+        "url": "https://github.com/ShayanAbbas1"
+      },
+      "summary": "用 Rust 和 GPUI 构建的轻量高速数据库客户端，启动快、占用低，提供原生桌面体验的数据库管理工具。",
+      "tags": [
+        "rust",
+        "database",
+        "gpui",
+        "desktop",
+        "client"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T16:58:12.795Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "polars",
+      "fullName": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 40323,
+      "forks": 3237,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "pola-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/3023000?s=40&amp;v=4",
+        "url": "https://github.com/pola-rs"
+      },
+      "summary": "用 Rust 编写的超高速 DataFrame 查询引擎，支持惰性执行与多语言绑定，可替代 pandas 处理大规模数据。",
+      "tags": [
+        "rust",
+        "dataframe",
+        "query-engine",
+        "data-analysis",
+        "python"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-11T16:58:12.891Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hydra",
+      "fullName": "ja7ad/hydra",
+      "url": "https://github.com/ja7ad/hydra",
+      "description": "A fast, resilient, multi-source file retriever and download engine",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1404,
+      "forks": 85,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "ja7ad",
+        "avatar": "https://avatars.githubusercontent.com/u/56496801?s=40&amp;v=4",
+        "url": "https://github.com/ja7ad"
+      },
+      "summary": "Rust 编写的多源文件下载引擎，支持并发分片与断点续传，快速且容错地抓取文件。",
+      "tags": [
+        "rust",
+        "download",
+        "cli",
+        "multi-source",
+        "resumable"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-11T16:58:12.819Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 129036,
+      "forks": 20564,
+      "starsToday": 157,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，支持自建中继服务器，可作为 TeamViewer 的替代方案，用 Rust 编写，跨平台且开箱即用。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-11T05:15:56.009Z",
       "deepwikiAvailable": false
     },
     {
@@ -175,34 +343,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "sniffnet",
-      "fullName": "GyulyVGC/sniffnet",
-      "url": "https://github.com/GyulyVGC/sniffnet",
-      "description": "Comfortably monitor your network traffic 🕵️‍♂️",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 42357,
-      "forks": 1991,
-      "starsToday": 139,
-      "topics": [],
-      "author": {
-        "name": "GyulyVGC",
-        "avatar": "https://avatars.githubusercontent.com/u/100347457?s=40&amp;v=4",
-        "url": "https://github.com/GyulyVGC"
-      },
-      "summary": "基于Rust的跨平台网络流量监控工具，提供直观图形界面，可实时查看连接、流量统计与协议详情，兼顾易用性与隐私。",
-      "tags": [
-        "network",
-        "monitoring",
-        "rust",
-        "gui",
-        "privacy"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-11T05:15:54.961Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ladybird",
       "fullName": "LadybirdBrowser/ladybird",
       "url": "https://github.com/LadybirdBrowser/ladybird",
@@ -256,34 +396,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-11-11T05:15:55.726Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 128959,
-      "forks": 20535,
-      "starsToday": 135,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面应用，支持自建中继服务器，可作为 TeamViewer 的替代方案，用 Rust 编写，跨平台且开箱即用。",
-      "tags": [
-        "remote-desktop",
-        "rust",
-        "self-hosted",
-        "teamviewer-alternative",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-11T05:15:56.009Z",
       "deepwikiAvailable": false
     },
     {

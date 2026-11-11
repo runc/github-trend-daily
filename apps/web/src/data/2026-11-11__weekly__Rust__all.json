@@ -2,8 +2,8 @@
   "date": "2026-11-11",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-11-11T05:15:06.986Z",
-  "enrichedAt": "2026-11-11T05:16:31.413Z",
+  "fetchedAt": "2026-11-11T16:57:29.649Z",
+  "enrichedAt": "2026-11-11T16:58:24.864Z",
   "repos": [
     {
       "name": "agent-desktop",
@@ -12,8 +12,8 @@
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 21525,
-      "forks": 1602,
+      "stars": 21903,
+      "forks": 1629,
       "starsToday": 9502,
       "topics": [],
       "author": {
@@ -34,14 +34,98 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "agent-browser",
+      "fullName": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 49715,
+      "forks": 3478,
+      "starsToday": 3606,
+      "topics": [],
+      "author": {
+        "name": "vercel-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
+        "url": "https://github.com/vercel-labs"
+      },
+      "summary": "基于Rust的浏览器自动化命令行工具，为AI智能体提供网页操作能力，简化Agent与浏览器交互。",
+      "tags": [
+        "browser",
+        "automation",
+        "ai-agents",
+        "cli",
+        "rust"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-11T05:16:27.638Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zed",
+      "fullName": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 94676,
+      "forks": 11626,
+      "starsToday": 2262,
+      "topics": [],
+      "author": {
+        "name": "zed-industries",
+        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
+        "url": "https://github.com/zed-industries"
+      },
+      "summary": "由 Atom 与 Tree-sitter 作者打造的高性能多人协作代码编辑器，基于 Rust 与 GPU 渲染，主打极致响应速度与实时协同编辑。",
+      "tags": [
+        "editor",
+        "rust",
+        "collaboration",
+        "gpu",
+        "ide"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T05:16:29.120Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "herdr",
+      "fullName": "herdrdev/herdr",
+      "url": "https://github.com/herdrdev/herdr",
+      "description": "the runtime your coding agents live on",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 50234,
+      "forks": 4059,
+      "starsToday": 2196,
+      "topics": [],
+      "author": {
+        "name": "herdrdev",
+        "avatar": "https://avatars.githubusercontent.com/u/7064011?s=40&amp;v=4",
+        "url": "https://github.com/herdrdev"
+      },
+      "summary": "用 Rust 编写的编码智能体运行时，为 AI 编程代理提供统一运行环境与调度能力。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "runtime",
+        "coding-agent",
+        "developer-tools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T05:16:28.859Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "worktrunk",
       "fullName": "max-sixty/worktrunk",
       "url": "https://github.com/max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 12415,
-      "forks": 490,
+      "stars": 12441,
+      "forks": 493,
       "starsToday": 2093,
       "topics": [],
       "author": {
@@ -62,31 +146,254 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "agent-browser",
-      "fullName": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 49379,
-      "forks": 3458,
-      "starsToday": 3606,
+      "stars": 108113,
+      "forks": 6428,
+      "starsToday": 6288,
       "topics": [],
       "author": {
-        "name": "vercel-labs",
-        "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4",
-        "url": "https://github.com/vercel-labs"
+        "name": "pbakaus",
+        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
+        "url": "https://github.com/pbakaus"
       },
-      "summary": "基于Rust的浏览器自动化命令行工具，为AI智能体提供网页操作能力，简化Agent与浏览器交互。",
+      "summary": "为编码智能体提供设计词汇表，用polish、bolder等指令引导生成，用critique、audit审查，在交付前拦截AI味设计。",
       "tags": [
-        "browser",
-        "automation",
-        "ai-agents",
+        "ai",
+        "design",
+        "agent",
+        "code-review",
+        "prompt"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T05:16:29.039Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "codex",
+      "fullName": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 134902,
+      "forks": 21364,
+      "starsToday": 1937,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI 开源的终端编码智能体，用 Rust 编写，可在命令行中直接读写代码、执行任务，轻量高效。",
+      "tags": [
+        "ai",
+        "coding-agent",
         "cli",
-        "rust"
+        "rust",
+        "openai"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T05:16:30.154Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruff",
+      "fullName": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 51130,
+      "forks": 2644,
+      "starsToday": 921,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的极速 Python linter 与代码格式化工具，可替代 Flake8、Black 等，速度提升数十倍，支持自动修复与丰富规则集。",
+      "tags": [
+        "python",
+        "linter",
+        "formatter",
+        "rust",
+        "static-analysis"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T05:16:29.191Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gpui-kit",
+      "fullName": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 20368,
+      "forks": 1240,
+      "starsToday": 1300,
+      "topics": [],
+      "author": {
+        "name": "longbridge",
+        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
+        "url": "https://github.com/longbridge"
+      },
+      "summary": "基于 GPUI 的 Rust 跨平台桌面应用 UI 组件库，提供丰富可复用控件，帮助快速构建高性能原生界面。",
+      "tags": [
+        "rust",
+        "gpui",
+        "gui",
+        "components",
+        "desktop"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-11T05:16:30.243Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 104015,
+      "forks": 13534,
+      "starsToday": 1763,
+      "topics": [],
+      "author": {
+        "name": "ruvnet",
+        "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&amp;v=4",
+        "url": "https://github.com/ruvnet"
+      },
+      "summary": "用普通WiFi信号实现实时空间感知、生命体征监测与存在检测，无需任何摄像头画面，基于Rust构建。",
+      "tags": [
+        "wifi",
+        "sensing",
+        "rust",
+        "privacy",
+        "iot"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T16:58:24.864Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nushell",
+      "fullName": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 40991,
+      "forks": 2335,
+      "starsToday": 461,
+      "topics": [],
+      "author": {
+        "name": "nushell",
+        "avatar": "https://avatars.githubusercontent.com/u/547158?s=40&amp;v=4",
+        "url": "https://github.com/nushell"
+      },
+      "summary": "用 Rust 编写的结构化数据驱动新型 shell，命令输出为表格化数据而非纯文本，支持管道处理与跨平台。",
+      "tags": [
+        "shell",
+        "rust",
+        "cli",
+        "pipeline",
+        "cross-platform"
       ],
       "category": "CLI",
-      "enrichedAt": "2026-11-11T05:16:27.638Z",
+      "enrichedAt": "2026-11-11T05:16:30.541Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zeroclaw",
+      "fullName": "zeroclaw-labs/zeroclaw",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw",
+      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 33326,
+      "forks": 5007,
+      "starsToday": 232,
+      "topics": [],
+      "author": {
+        "name": "zeroclaw-labs",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/zeroclaw-labs"
+      },
+      "summary": "基于 Rust 的轻量快速全自主 AI 个人助理基础设施，跨系统跨平台部署，组件可自由替换。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "assistant",
+        "cross-platform",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T05:16:31.262Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "clap",
+      "fullName": "clap-rs/clap",
+      "url": "https://github.com/clap-rs/clap",
+      "description": "A full featured, fast Command Line Argument Parser for Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16872,
+      "forks": 1293,
+      "starsToday": 245,
+      "topics": [],
+      "author": {
+        "name": "clap-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/60961?s=40&amp;v=4",
+        "url": "https://github.com/clap-rs"
+      },
+      "summary": "Rust 生态主流命令行参数解析库，功能完整、性能高，支持子命令、自动帮助与错误提示，是构建 CLI 工具的事实标准。",
+      "tags": [
+        "rust",
+        "cli",
+        "argument-parser",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-11T05:16:31.413Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sniffnet",
+      "fullName": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your network traffic 🕵️‍♂️",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 42396,
+      "forks": 1995,
+      "starsToday": 517,
+      "topics": [],
+      "author": {
+        "name": "GyulyVGC",
+        "avatar": "https://avatars.githubusercontent.com/u/100347457?s=40&amp;v=4",
+        "url": "https://github.com/GyulyVGC"
+      },
+      "summary": "基于 Rust 的跨平台网络流量监控工具，提供直观 GUI 实时查看连接、带宽与协议分布，兼顾易用性与性能。",
+      "tags": [
+        "rust",
+        "network",
+        "monitoring",
+        "gui",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-11T16:58:24.687Z",
       "deepwikiAvailable": false
     },
     {
@@ -118,174 +425,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "zed",
-      "fullName": "zed-industries/zed",
-      "url": "https://github.com/zed-industries/zed",
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 94706,
-      "forks": 11623,
-      "starsToday": 2262,
-      "topics": [],
-      "author": {
-        "name": "zed-industries",
-        "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&amp;v=4",
-        "url": "https://github.com/zed-industries"
-      },
-      "summary": "由 Atom 与 Tree-sitter 作者打造的高性能多人协作代码编辑器，基于 Rust 与 GPU 渲染，主打极致响应速度与实时协同编辑。",
-      "tags": [
-        "editor",
-        "rust",
-        "collaboration",
-        "gpu",
-        "ide"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-11T05:16:29.120Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "herdr",
-      "fullName": "herdrdev/herdr",
-      "url": "https://github.com/herdrdev/herdr",
-      "description": "the runtime your coding agents live on",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 50062,
-      "forks": 4049,
-      "starsToday": 2196,
-      "topics": [],
-      "author": {
-        "name": "herdrdev",
-        "avatar": "https://avatars.githubusercontent.com/u/7064011?s=40&amp;v=4",
-        "url": "https://github.com/herdrdev"
-      },
-      "summary": "用 Rust 编写的编码智能体运行时，为 AI 编程代理提供统一运行环境与调度能力。",
-      "tags": [
-        "rust",
-        "ai-agents",
-        "runtime",
-        "coding-agent",
-        "developer-tools"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-11T05:16:28.859Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "impeccable",
-      "fullName": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 107721,
-      "forks": 6404,
-      "starsToday": 6288,
-      "topics": [],
-      "author": {
-        "name": "pbakaus",
-        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
-        "url": "https://github.com/pbakaus"
-      },
-      "summary": "为编码智能体提供设计词汇表，用polish、bolder等指令引导生成，用critique、audit审查，在交付前拦截AI味设计。",
-      "tags": [
-        "ai",
-        "design",
-        "agent",
-        "code-review",
-        "prompt"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-11T05:16:29.039Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ruff",
-      "fullName": "astral-sh/ruff",
-      "url": "https://github.com/astral-sh/ruff",
-      "description": "An extremely fast Python linter and code formatter, written in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 51174,
-      "forks": 2646,
-      "starsToday": 921,
-      "topics": [],
-      "author": {
-        "name": "astral-sh",
-        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
-        "url": "https://github.com/astral-sh"
-      },
-      "summary": "用 Rust 编写的极速 Python linter 与代码格式化工具，可替代 Flake8、Black 等，速度提升数十倍，支持自动修复与丰富规则集。",
-      "tags": [
-        "python",
-        "linter",
-        "formatter",
-        "rust",
-        "static-analysis"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-11T05:16:29.191Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "codex",
-      "fullName": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 134807,
-      "forks": 21351,
-      "starsToday": 1937,
-      "topics": [],
-      "author": {
-        "name": "openai",
-        "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&amp;v=4",
-        "url": "https://github.com/openai"
-      },
-      "summary": "OpenAI 开源的终端编码智能体，用 Rust 编写，可在命令行中直接读写代码、执行任务，轻量高效。",
-      "tags": [
-        "ai",
-        "coding-agent",
-        "cli",
-        "rust",
-        "openai"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-11T05:16:30.154Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "nushell",
-      "fullName": "nushell/nushell",
-      "url": "https://github.com/nushell/nushell",
-      "description": "A new type of shell",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 41085,
-      "forks": 2353,
-      "starsToday": 461,
-      "topics": [],
-      "author": {
-        "name": "nushell",
-        "avatar": "https://avatars.githubusercontent.com/u/547158?s=40&amp;v=4",
-        "url": "https://github.com/nushell"
-      },
-      "summary": "用 Rust 编写的结构化数据驱动新型 shell，命令输出为表格化数据而非纯文本，支持管道处理与跨平台。",
-      "tags": [
-        "shell",
-        "rust",
-        "cli",
-        "pipeline",
-        "cross-platform"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-11T05:16:30.541Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "agentgateway",
       "fullName": "agentgateway/agentgateway",
       "url": "https://github.com/agentgateway/agentgateway",
@@ -311,89 +450,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-11T05:16:30.434Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gpui-kit",
-      "fullName": "longbridge/gpui-kit",
-      "url": "https://github.com/longbridge/gpui-kit",
-      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 20298,
-      "forks": 1239,
-      "starsToday": 1300,
-      "topics": [],
-      "author": {
-        "name": "longbridge",
-        "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&amp;v=4",
-        "url": "https://github.com/longbridge"
-      },
-      "summary": "基于 GPUI 的 Rust 跨平台桌面应用 UI 组件库，提供丰富可复用控件，帮助快速构建高性能原生界面。",
-      "tags": [
-        "rust",
-        "gpui",
-        "gui",
-        "components",
-        "desktop"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-11T05:16:30.243Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zeroclaw",
-      "fullName": "zeroclaw-labs/zeroclaw",
-      "url": "https://github.com/zeroclaw-labs/zeroclaw",
-      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 33313,
-      "forks": 5005,
-      "starsToday": 232,
-      "topics": [],
-      "author": {
-        "name": "zeroclaw-labs",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/zeroclaw-labs"
-      },
-      "summary": "基于 Rust 的轻量快速全自主 AI 个人助理基础设施，跨系统跨平台部署，组件可自由替换。",
-      "tags": [
-        "rust",
-        "ai-agent",
-        "assistant",
-        "cross-platform",
-        "self-hosted"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-11T05:16:31.262Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "clap",
-      "fullName": "clap-rs/clap",
-      "url": "https://github.com/clap-rs/clap",
-      "description": "A full featured, fast Command Line Argument Parser for Rust",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 16964,
-      "forks": 1310,
-      "starsToday": 245,
-      "topics": [],
-      "author": {
-        "name": "clap-rs",
-        "avatar": "https://avatars.githubusercontent.com/u/60961?s=40&amp;v=4",
-        "url": "https://github.com/clap-rs"
-      },
-      "summary": "Rust 生态主流命令行参数解析库，功能完整、性能高，支持子命令、自动帮助与错误提示，是构建 CLI 工具的事实标准。",
-      "tags": [
-        "rust",
-        "cli",
-        "argument-parser",
-        "library"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-11T05:16:31.413Z",
       "deepwikiAvailable": false
     }
   ]

@@ -2,9 +2,515 @@
   "date": "2026-11-11",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-11-11T05:15:06.986Z",
-  "enrichedAt": "2026-11-11T05:15:51.895Z",
+  "fetchedAt": "2026-11-11T16:57:29.649Z",
+  "enrichedAt": "2026-11-11T16:58:11.233Z",
   "repos": [
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7904,
+      "forks": 1245,
+      "starsToday": 121,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、邮箱及经纬度等信息，支持导出结构化数据。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "go",
+        "data-extraction",
+        "crawler"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-11T05:15:47.184Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "smart charging ☀️🚘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7587,
+      "forks": 1652,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
+      },
+      "summary": "开源智能充电控制器，用Go编写，根据光伏发电、电价和车辆状态自动调节电动车充电功率，支持大量逆变器与充电桩品牌。",
+      "tags": [
+        "ev-charging",
+        "solar",
+        "energy",
+        "go",
+        "home-automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-11T16:58:07.244Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27207,
+      "forks": 1172,
+      "starsToday": 64,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控平台，支持历史数据、Docker 容器统计与告警通知，部署简单资源占用低。",
+      "tags": [
+        "monitoring",
+        "go",
+        "docker",
+        "self-hosted",
+        "alerts"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-11T16:58:07.021Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29205,
+      "forks": 2723,
+      "starsToday": 53,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "用 Go 编写的密钥泄露扫描工具，可在代码仓库、文件系统和 CI 中查找并验证泄露的凭证，支持 800+ 检测器，减少误报。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T05:15:48.986Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "LoopForge",
+      "fullName": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 307,
+      "forks": 59,
+      "starsToday": 76,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/53806540?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的自托管编码智能体工作流编排平台，用脚本和人工审批关卡统一调度 CodeBuddy、Codex 与 Claude Code。",
+      "tags": [
+        "agent",
+        "workflow",
+        "go",
+        "self-hosted",
+        "orchestration"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T16:58:07.351Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "nuclei",
+      "fullName": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 32798,
+      "forks": 3991,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "projectdiscovery",
+        "avatar": "https://avatars.githubusercontent.com/u/13421144?s=40&amp;v=4",
+        "url": "https://github.com/projectdiscovery"
+      },
+      "summary": "基于YAML模板的快速漏洞扫描器，依托社区模板库检测应用、API、网络与云配置中的漏洞。",
+      "tags": [
+        "security",
+        "vulnerability-scanner",
+        "yaml",
+        "go",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T16:58:07.324Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 49829,
+      "forks": 3672,
+      "starsToday": 76,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线加LLM Agent混合架构，支持行级精确评论与多语言安全规则集，兼容OpenAI与Anthropic。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "security"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T16:58:08.579Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Xray-core",
+      "fullName": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 42828,
+      "forks": 6140,
+      "starsToday": 48,
+      "topics": [],
+      "author": {
+        "name": "XTLS",
+        "avatar": "https://avatars.githubusercontent.com/u/63339210?s=40&amp;v=4",
+        "url": "https://github.com/XTLS"
+      },
+      "summary": "Xray-core 是 Go 编写的高性能网络代理平台，兼容 v2ray-core 并支持 XTLS 等协议，用于科学上网与流量穿透。",
+      "tags": [
+        "proxy",
+        "networking",
+        "golang",
+        "v2ray",
+        "xtls"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-11T16:58:08.717Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6446,
+      "forks": 724,
+      "starsToday": 87,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "用 Go 编写的 AI Agent 核心运行时底座，为构建和编排智能体提供统一的基础设施层。",
+      "tags": [
+        "agents",
+        "go",
+        "runtime",
+        "infra",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-11T05:15:48.033Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rune",
+      "fullName": "unstablebuild/rune",
+      "url": "https://github.com/unstablebuild/rune",
+      "description": "a fast, GPU-accelerated, full-featured IDE and terminal multiplexer, suitable both for automatic and manual programming.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1744,
+      "forks": 117,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "unstablebuild",
+        "avatar": "https://avatars.githubusercontent.com/u/5781498?s=40&amp;v=4",
+        "url": "https://github.com/unstablebuild"
+      },
+      "summary": "基于 Go 的 GPU 加速全功能 IDE 与终端复用器，兼顾自动化与手动编程，启动快、性能高。",
+      "tags": [
+        "ide",
+        "terminal",
+        "gpu",
+        "go",
+        "multiplexer"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T16:58:08.939Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 55741,
+      "forks": 7356,
+      "starsToday": 206,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与AI智能体在同一团队中协同工作，用Go编写。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "teamwork"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T16:58:08.908Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ladder",
+      "fullName": "everywall/ladder",
+      "url": "https://github.com/everywall/ladder",
+      "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9414,
+      "forks": 541,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "everywall",
+        "avatar": "https://avatars.githubusercontent.com/u/2052196?s=40&amp;v=4",
+        "url": "https://github.com/everywall"
+      },
+      "summary": "自托管的付费墙绕过工具，作为12ft.io替代品，通过代理移除CORS头并改写HTML，帮助获取被限制访问的网页内容。",
+      "tags": [
+        "proxy",
+        "selfhosted",
+        "go",
+        "paywall",
+        "cors"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-11T16:58:10.120Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37193,
+      "forks": 5144,
+      "starsToday": 117,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体与自维护Wiki，用Go编写。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T05:15:47.131Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kagent",
+      "fullName": "kagent-dev/kagent",
+      "url": "https://github.com/kagent-dev/kagent",
+      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4244,
+      "forks": 900,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "kagent-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&amp;v=4",
+        "url": "https://github.com/kagent-dev"
+      },
+      "summary": "基于 Kubernetes 的云原生 AI Agent 框架，用 Go 编写，帮助在集群中构建、部署和编排智能体。",
+      "tags": [
+        "kubernetes",
+        "ai-agents",
+        "go",
+        "cloud-native",
+        "mcp"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T16:58:10.235Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "opencode",
+      "fullName": "opencode-ai/opencode",
+      "url": "https://github.com/opencode-ai/opencode",
+      "description": "A powerful AI coding agent. Built for the terminal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 13886,
+      "forks": 2473,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "opencode-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/14311743?s=40&amp;v=4",
+        "url": "https://github.com/opencode-ai"
+      },
+      "summary": "终端中的AI编程助手，基于Go构建，可在命令行内直接完成代码编写与修改任务。",
+      "tags": [
+        "ai",
+        "coding-agent",
+        "cli",
+        "go",
+        "terminal"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-11T05:15:51.895Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ledgerforge",
+      "fullName": "devaccuracy/ledgerforge",
+      "url": "https://github.com/devaccuracy/ledgerforge",
+      "description": "The ledger for AI-native money movement. An open-source double-entry ledger for wallets, payouts, marketplaces and billing, with exact integer money, a verifiable audit chain, server-enforced spending limits and approvals for AI agents, and an MCP server. Apache 2.0.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 218,
+      "forks": 29,
+      "starsToday": 69,
+      "topics": [],
+      "author": {
+        "name": "devaccuracy",
+        "avatar": "https://avatars.githubusercontent.com/u/16512586?s=40&amp;v=4",
+        "url": "https://github.com/devaccuracy"
+      },
+      "summary": "Go 编写的开源复式记账账本，面向钱包、结算、市场与计费，支持整数精确金额、可验证审计链、服务端强制的 AI 代理支出限额与审批，并内置 MCP 服务器。",
+      "tags": [
+        "ledger",
+        "fintech",
+        "go",
+        "mcp",
+        "ai-agents",
+        "double-entry"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-11T16:58:10.299Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 58289,
+      "forks": 8949,
+      "starsToday": 120,
+      "topics": [],
+      "author": {
+        "name": "router-for-me",
+        "avatar": "https://avatars.githubusercontent.com/u/4966831?s=40&amp;v=4",
+        "url": "https://github.com/router-for-me"
+      },
+      "summary": "用 Go 编写的代理服务，将 Antigravity、Codex、Claude Code 等 CLI 封装为 OpenAI/Gemini/Claude 兼容 API，统一调用各家模型。",
+      "tags": [
+        "proxy",
+        "api",
+        "llm",
+        "openai",
+        "golang"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-11T16:58:10.218Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "keploy",
+      "fullName": "keploy/keploy",
+      "url": "https://github.com/keploy/keploy",
+      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 19711,
+      "forks": 2452,
+      "starsToday": 59,
+      "topics": [],
+      "author": {
+        "name": "keploy",
+        "avatar": "https://avatars.githubusercontent.com/u/12831254?s=40&amp;v=4",
+        "url": "https://github.com/keploy"
+      },
+      "summary": "开源测试平台，从真实流量自动生成API、集成与E2E测试用例及数据模拟，无需手写测试即可在隔离沙箱中安全验证。",
+      "tags": [
+        "testing",
+        "api",
+        "go",
+        "e2e",
+        "mocking",
+        "sandbox"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-11T16:58:11.233Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "nvke",
       "fullName": "dsx-ai-factory/nvke",
@@ -63,90 +569,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "WeKnora",
-      "fullName": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 37134,
-      "forks": 5132,
-      "starsToday": 117,
-      "topics": [],
-      "author": {
-        "name": "Tencent",
-        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
-        "url": "https://github.com/Tencent"
-      },
-      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体与自维护Wiki，用Go编写。",
-      "tags": [
-        "rag",
-        "llm",
-        "knowledge-base",
-        "agent",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-11T05:15:47.131Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "google-maps-scraper",
-      "fullName": "gosom/google-maps-scraper",
-      "url": "https://github.com/gosom/google-maps-scraper",
-      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7873,
-      "forks": 1236,
-      "starsToday": 121,
-      "topics": [],
-      "author": {
-        "name": "gosom",
-        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
-        "url": "https://github.com/gosom"
-      },
-      "summary": "Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、邮箱及经纬度等信息，支持导出结构化数据。",
-      "tags": [
-        "scraper",
-        "google-maps",
-        "go",
-        "data-extraction",
-        "crawler"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-11T05:15:47.184Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6416,
-      "forks": 721,
-      "starsToday": 87,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "用 Go 编写的 AI Agent 核心运行时底座，为构建和编排智能体提供统一的基础设施层。",
-      "tags": [
-        "agents",
-        "go",
-        "runtime",
-        "infra",
-        "orchestration"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-11T05:15:48.033Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "phoneinfoga",
       "fullName": "sundowndev/phoneinfoga",
       "url": "https://github.com/sundowndev/phoneinfoga",
@@ -200,34 +622,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-11T05:15:48.402Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trufflehog",
-      "fullName": "trufflesecurity/trufflehog",
-      "url": "https://github.com/trufflesecurity/trufflehog",
-      "description": "Find, verify, and analyze leaked credentials",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 29181,
-      "forks": 2717,
-      "starsToday": 96,
-      "topics": [],
-      "author": {
-        "name": "trufflesecurity",
-        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
-        "url": "https://github.com/trufflesecurity"
-      },
-      "summary": "用 Go 编写的密钥泄露扫描工具，可在代码仓库、文件系统和 CI 中查找并验证泄露的凭证，支持 800+ 检测器，减少误报。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "go",
-        "devsecops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-11T05:15:48.986Z",
       "deepwikiAvailable": false
     },
     {
@@ -428,34 +822,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-11T05:15:51.339Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "opencode",
-      "fullName": "opencode-ai/opencode",
-      "url": "https://github.com/opencode-ai/opencode",
-      "description": "A powerful AI coding agent. Built for the terminal.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 13885,
-      "forks": 2472,
-      "starsToday": 3,
-      "topics": [],
-      "author": {
-        "name": "opencode-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/14311743?s=40&amp;v=4",
-        "url": "https://github.com/opencode-ai"
-      },
-      "summary": "终端中的AI编程助手，基于Go构建，可在命令行内直接完成代码编写与修改任务。",
-      "tags": [
-        "ai",
-        "coding-agent",
-        "cli",
-        "go",
-        "terminal"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-11T05:15:51.895Z",
       "deepwikiAvailable": false
     }
   ]
