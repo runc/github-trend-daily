@@ -2,8 +2,8 @@
   "date": "2026-11-12",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-11-12T06:19:00.032Z",
-  "enrichedAt": "2026-11-12T06:20:22.570Z",
+  "fetchedAt": "2026-11-12T17:25:28.431Z",
+  "enrichedAt": "2026-11-12T17:26:33.916Z",
   "repos": [
     {
       "name": "prometheus",
@@ -12,8 +12,8 @@
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 67560,
-      "forks": 11006,
+      "stars": 67580,
+      "forks": 11013,
       "starsToday": 866,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 55791,
-      "forks": 7367,
+      "stars": 55876,
+      "forks": 7381,
       "starsToday": 907,
       "topics": [],
       "author": {
@@ -68,7 +68,7 @@
       "description": "Distributed reliable key-value store for the most critical data of a distributed system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 52600,
+      "stars": 52601,
       "forks": 10595,
       "starsToday": 368,
       "topics": [],
@@ -91,14 +91,268 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "nvke",
+      "fullName": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1196,
+      "forks": 150,
+      "starsToday": 1118,
+      "topics": [],
+      "author": {
+        "name": "dsx-ai-factory",
+        "avatar": "https://avatars.githubusercontent.com/u/23304?s=40&amp;v=4",
+        "url": "https://github.com/dsx-ai-factory"
+      },
+      "summary": "NVKE 是面向裸金属 GPU Kubernetes 的管理平面，用 Go 编写，简化 GPU 集群的部署与运维。",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "nvidia",
+        "bare-metal",
+        "go",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-12T17:26:32.337Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38798,
+      "forks": 5945,
+      "starsToday": 221,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令编排启动、网络与依赖，是本地开发与部署的标准工具。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-12T17:26:32.353Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 119333,
+      "forks": 6935,
+      "starsToday": 1764,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "面向编码AI代理的代理与技能，用\"原始人语\"精简提示词，削减约65%的token消耗。",
+      "tags": [
+        "llm",
+        "token-optimization",
+        "proxy",
+        "ai-agent",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-12T06:20:17.374Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 46989,
+      "forks": 9283,
+      "starsToday": 116,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub 官方命令行工具，用 Go 编写，可在终端完成仓库、Issue、PR、Actions 等操作，提升开发协作效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "git",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-12T06:20:18.489Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenSandbox",
+      "fullName": "opensandbox-group/OpenSandbox",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 17247,
+      "forks": 1636,
+      "starsToday": 782,
+      "topics": [],
+      "author": {
+        "name": "opensandbox-group",
+        "avatar": "https://avatars.githubusercontent.com/u/62273713?s=40&amp;v=4",
+        "url": "https://github.com/opensandbox-group"
+      },
+      "summary": "面向AI智能体的安全、快速、可扩展沙箱运行时，用Go编写，为代码执行提供隔离环境。",
+      "tags": [
+        "sandbox",
+        "ai-agents",
+        "go",
+        "runtime",
+        "security"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-12T17:26:32.580Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "woodpecker",
+      "fullName": "woodpecker-ci/woodpecker",
+      "url": "https://github.com/woodpecker-ci/woodpecker",
+      "description": "Woodpecker is a simple, yet powerful CI/CD engine with great extensibility.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8180,
+      "forks": 744,
+      "starsToday": 67,
+      "topics": [],
+      "author": {
+        "name": "woodpecker-ci",
+        "avatar": "https://avatars.githubusercontent.com/u/817538?s=40&amp;v=4",
+        "url": "https://github.com/woodpecker-ci"
+      },
+      "summary": "基于 Go 的开源 CI/CD 引擎，部署简单、插件扩展性强，可自托管替代重量级流水线工具。",
+      "tags": [
+        "ci",
+        "cd",
+        "devops",
+        "go",
+        "self-hosted"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-12T17:26:32.470Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubernetes",
+      "fullName": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 129025,
+      "forks": 45104,
+      "starsToday": 580,
+      "topics": [],
+      "author": {
+        "name": "kubernetes",
+        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
+        "url": "https://github.com/kubernetes"
+      },
+      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动部署、扩缩容和自愈能力，是云原生基础设施的事实标准。",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "cloud-native",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-12T06:20:19.416Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "trufflehog",
+      "fullName": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 29250,
+      "forks": 2729,
+      "starsToday": 362,
+      "topics": [],
+      "author": {
+        "name": "trufflesecurity",
+        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
+        "url": "https://github.com/trufflesecurity"
+      },
+      "summary": "用 Go 编写的密钥泄露扫描工具，可在代码库、文件系统和 CI 中查找并验证泄露的凭证，支持 800 多种检测器。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "golang",
+        "devsecops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-12T06:20:21.038Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "alertmanager",
+      "fullName": "prometheus/alertmanager",
+      "url": "https://github.com/prometheus/alertmanager",
+      "description": "Prometheus Alertmanager",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8699,
+      "forks": 2505,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "prometheus",
+        "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4",
+        "url": "https://github.com/prometheus"
+      },
+      "summary": "Prometheus 生态的告警管理组件，负责对告警去重、分组、静默和路由分发到邮件、Slack 等接收端。",
+      "tags": [
+        "prometheus",
+        "alerting",
+        "monitoring",
+        "go",
+        "observability"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-12T17:26:33.881Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ragflow",
       "fullName": "infiniflow/ragflow",
       "url": "https://github.com/infiniflow/ragflow",
       "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 94057,
-      "forks": 11308,
+      "stars": 94092,
+      "forks": 11312,
       "starsToday": 600,
       "topics": [],
       "author": {
@@ -117,6 +371,231 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-12T06:20:15.859Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "beszel",
+      "fullName": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 27253,
+      "forks": 1174,
+      "starsToday": 415,
+      "topics": [],
+      "author": {
+        "name": "henrygd",
+        "avatar": "https://avatars.githubusercontent.com/u/8519632?s=40&amp;v=4",
+        "url": "https://github.com/henrygd"
+      },
+      "summary": "轻量级服务器监控工具，支持历史数据记录、Docker 容器统计与告警通知，部署简单、资源占用低。",
+      "tags": [
+        "monitoring",
+        "docker",
+        "go",
+        "self-hosted",
+        "alerts"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-12T17:26:33.916Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "moby",
+      "fullName": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 72267,
+      "forks": 19312,
+      "starsToday": 285,
+      "topics": [],
+      "author": {
+        "name": "moby",
+        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
+        "url": "https://github.com/moby"
+      },
+      "summary": "Moby 是 Docker 上游的开源容器引擎项目，提供构建、运行和编排容器化系统的核心组件与框架。",
+      "tags": [
+        "docker",
+        "containers",
+        "go",
+        "devops",
+        "infrastructure"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-12T06:20:17.665Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7959,
+      "forks": 1255,
+      "starsToday": 597,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、经纬度、邮箱等字段，支持导出。",
+      "tags": [
+        "scraper",
+        "google-maps",
+        "go",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-12T06:20:18.694Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "podman",
+      "fullName": "podman-container-tools/podman",
+      "url": "https://github.com/podman-container-tools/podman",
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 33250,
+      "forks": 3456,
+      "starsToday": 77,
+      "topics": [],
+      "author": {
+        "name": "podman-container-tools",
+        "avatar": "https://avatars.githubusercontent.com/u/30189218?s=40&amp;v=4",
+        "url": "https://github.com/podman-container-tools"
+      },
+      "summary": "Podman 是无需守护进程的 OCI 容器与 Pod 管理工具，兼容 Docker 命令行，支持 rootless 运行，适合更安全的容器编排与本地开发。",
+      "tags": [
+        "containers",
+        "oci",
+        "go",
+        "docker-alternative",
+        "rootless",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-12T06:20:21.710Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30960,
+      "forks": 2367,
+      "starsToday": 259,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Gitleaks 是用 Go 编写的密钥扫描工具，可检测代码库、文件和历史提交中的密码、API Key 等敏感信息，支持 CI 集成与自定义规则。",
+      "tags": [
+        "security",
+        "secrets",
+        "go",
+        "cli",
+        "static-analysis"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-12T06:20:22.570Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 139868,
+      "forks": 20275,
+      "starsToday": 532,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 编程语言官方仓库，包含编译器、运行时与标准库源码，主打简洁语法、高并发与快速编译。",
+      "tags": [
+        "go",
+        "golang",
+        "programming-language",
+        "compiler",
+        "runtime"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-12T06:20:17.789Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "google-cloud-go",
+      "fullName": "googleapis/google-cloud-go",
+      "url": "https://github.com/googleapis/google-cloud-go",
+      "description": "Google Cloud Client Libraries for Go.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4557,
+      "forks": 1604,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "googleapis",
+        "avatar": "https://avatars.githubusercontent.com/u/18483045?s=40&amp;v=4",
+        "url": "https://github.com/googleapis"
+      },
+      "summary": "Google Cloud 官方 Go 客户端库集合，覆盖存储、计算、AI 等云服务，提供统一 API 接入与认证。",
+      "tags": [
+        "go",
+        "google-cloud",
+        "sdk",
+        "client-library",
+        "api"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-12T06:20:21.226Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openchoreo",
+      "fullName": "openchoreo/openchoreo",
+      "url": "https://github.com/openchoreo/openchoreo",
+      "description": "OpenChoreo is an internal developer platform for Kubernetes",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 1885,
+      "forks": 286,
+      "starsToday": 114,
+      "topics": [],
+      "author": {
+        "name": "openchoreo",
+        "avatar": "https://avatars.githubusercontent.com/u/38396435?s=40&amp;v=4",
+        "url": "https://github.com/openchoreo"
+      },
+      "summary": "基于 Kubernetes 的内部开发者平台，为团队提供应用部署与自助式开发环境，降低 K8s 使用门槛。",
+      "tags": [
+        "kubernetes",
+        "idp",
+        "platform-engineering",
+        "go",
+        "devops"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-12T06:20:19.389Z",
       "deepwikiAvailable": false
     },
     {
@@ -146,203 +625,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-12T06:20:16.944Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 119196,
-      "forks": 6930,
-      "starsToday": 1764,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "面向编码AI代理的代理与技能，用\"原始人语\"精简提示词，削减约65%的token消耗。",
-      "tags": [
-        "llm",
-        "token-optimization",
-        "proxy",
-        "ai-agent",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-12T06:20:17.374Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "moby",
-      "fullName": "moby/moby",
-      "url": "https://github.com/moby/moby",
-      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 72265,
-      "forks": 19310,
-      "starsToday": 285,
-      "topics": [],
-      "author": {
-        "name": "moby",
-        "avatar": "https://avatars.githubusercontent.com/u/1804568?s=40&amp;v=4",
-        "url": "https://github.com/moby"
-      },
-      "summary": "Moby 是 Docker 上游的开源容器引擎项目，提供构建、运行和编排容器化系统的核心组件与框架。",
-      "tags": [
-        "docker",
-        "containers",
-        "go",
-        "devops",
-        "infrastructure"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-12T06:20:17.665Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "go",
-      "fullName": "golang/go",
-      "url": "https://github.com/golang/go",
-      "description": "The Go programming language",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 139859,
-      "forks": 20272,
-      "starsToday": 532,
-      "topics": [],
-      "author": {
-        "name": "golang",
-        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
-        "url": "https://github.com/golang"
-      },
-      "summary": "Go 编程语言官方仓库，包含编译器、运行时与标准库源码，主打简洁语法、高并发与快速编译。",
-      "tags": [
-        "go",
-        "golang",
-        "programming-language",
-        "compiler",
-        "runtime"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-12T06:20:17.789Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "cli/cli",
-      "url": "https://github.com/cli/cli",
-      "description": "GitHub’s official command line tool",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 46973,
-      "forks": 9283,
-      "starsToday": 116,
-      "topics": [],
-      "author": {
-        "name": "cli",
-        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
-        "url": "https://github.com/cli"
-      },
-      "summary": "GitHub 官方命令行工具，用 Go 编写，可在终端完成仓库、Issue、PR、Actions 等操作，提升开发协作效率。",
-      "tags": [
-        "github",
-        "cli",
-        "go",
-        "git",
-        "devtool"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-12T06:20:18.489Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "google-maps-scraper",
-      "fullName": "gosom/google-maps-scraper",
-      "url": "https://github.com/gosom/google-maps-scraper",
-      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7926,
-      "forks": 1248,
-      "starsToday": 597,
-      "topics": [],
-      "author": {
-        "name": "gosom",
-        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
-        "url": "https://github.com/gosom"
-      },
-      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、经纬度、邮箱等字段，支持导出。",
-      "tags": [
-        "scraper",
-        "google-maps",
-        "go",
-        "data-extraction",
-        "cli"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-12T06:20:18.694Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "openchoreo",
-      "fullName": "openchoreo/openchoreo",
-      "url": "https://github.com/openchoreo/openchoreo",
-      "description": "OpenChoreo is an internal developer platform for Kubernetes",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 1880,
-      "forks": 286,
-      "starsToday": 114,
-      "topics": [],
-      "author": {
-        "name": "openchoreo",
-        "avatar": "https://avatars.githubusercontent.com/u/38396435?s=40&amp;v=4",
-        "url": "https://github.com/openchoreo"
-      },
-      "summary": "基于 Kubernetes 的内部开发者平台，为团队提供应用部署与自助式开发环境，降低 K8s 使用门槛。",
-      "tags": [
-        "kubernetes",
-        "idp",
-        "platform-engineering",
-        "go",
-        "devops"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-12T06:20:19.389Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kubernetes",
-      "fullName": "kubernetes/kubernetes",
-      "url": "https://github.com/kubernetes/kubernetes",
-      "description": "Production-Grade Container Scheduling and Management",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 129013,
-      "forks": 45104,
-      "starsToday": 580,
-      "topics": [],
-      "author": {
-        "name": "kubernetes",
-        "avatar": "https://avatars.githubusercontent.com/u/20407524?s=40&amp;v=4",
-        "url": "https://github.com/kubernetes"
-      },
-      "summary": "Kubernetes 是生产级容器编排与调度平台，提供自动部署、扩缩容和自愈能力，是云原生基础设施的事实标准。",
-      "tags": [
-        "kubernetes",
-        "containers",
-        "orchestration",
-        "cloud-native",
-        "go",
-        "devops"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-12T06:20:19.416Z",
       "deepwikiAvailable": false
     },
     {
@@ -427,119 +709,6 @@
       ],
       "category": "Language",
       "enrichedAt": "2026-11-12T06:20:20.938Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "trufflehog",
-      "fullName": "trufflesecurity/trufflehog",
-      "url": "https://github.com/trufflesecurity/trufflehog",
-      "description": "Find, verify, and analyze leaked credentials",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 29228,
-      "forks": 2726,
-      "starsToday": 362,
-      "topics": [],
-      "author": {
-        "name": "trufflesecurity",
-        "avatar": "https://avatars.githubusercontent.com/in/2740?s=40&amp;v=4",
-        "url": "https://github.com/trufflesecurity"
-      },
-      "summary": "用 Go 编写的密钥泄露扫描工具，可在代码库、文件系统和 CI 中查找并验证泄露的凭证，支持 800 多种检测器。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "golang",
-        "devsecops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-12T06:20:21.038Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "google-cloud-go",
-      "fullName": "googleapis/google-cloud-go",
-      "url": "https://github.com/googleapis/google-cloud-go",
-      "description": "Google Cloud Client Libraries for Go.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4555,
-      "forks": 1605,
-      "starsToday": 5,
-      "topics": [],
-      "author": {
-        "name": "googleapis",
-        "avatar": "https://avatars.githubusercontent.com/u/18483045?s=40&amp;v=4",
-        "url": "https://github.com/googleapis"
-      },
-      "summary": "Google Cloud 官方 Go 客户端库集合，覆盖存储、计算、AI 等云服务，提供统一 API 接入与认证。",
-      "tags": [
-        "go",
-        "google-cloud",
-        "sdk",
-        "client-library",
-        "api"
-      ],
-      "category": "Library",
-      "enrichedAt": "2026-11-12T06:20:21.226Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "podman",
-      "fullName": "podman-container-tools/podman",
-      "url": "https://github.com/podman-container-tools/podman",
-      "description": "Podman: A tool for managing OCI containers and pods.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 33244,
-      "forks": 3457,
-      "starsToday": 77,
-      "topics": [],
-      "author": {
-        "name": "podman-container-tools",
-        "avatar": "https://avatars.githubusercontent.com/u/30189218?s=40&amp;v=4",
-        "url": "https://github.com/podman-container-tools"
-      },
-      "summary": "Podman 是无需守护进程的 OCI 容器与 Pod 管理工具，兼容 Docker 命令行，支持 rootless 运行，适合更安全的容器编排与本地开发。",
-      "tags": [
-        "containers",
-        "oci",
-        "go",
-        "docker-alternative",
-        "rootless",
-        "devops"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-12T06:20:21.710Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gitleaks",
-      "fullName": "gitleaks/gitleaks",
-      "url": "https://github.com/gitleaks/gitleaks",
-      "description": "Find secrets with Gitleaks 🔑",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 30944,
-      "forks": 2365,
-      "starsToday": 259,
-      "topics": [],
-      "author": {
-        "name": "gitleaks",
-        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
-        "url": "https://github.com/gitleaks"
-      },
-      "summary": "Gitleaks 是用 Go 编写的密钥扫描工具，可检测代码库、文件和历史提交中的密码、API Key 等敏感信息，支持 CI 集成与自定义规则。",
-      "tags": [
-        "security",
-        "secrets",
-        "go",
-        "cli",
-        "static-analysis"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-12T06:20:22.570Z",
       "deepwikiAvailable": false
     },
     {

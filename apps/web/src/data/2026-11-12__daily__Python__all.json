@@ -2,9 +2,65 @@
   "date": "2026-11-12",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-11-12T06:19:00.032Z",
-  "enrichedAt": "2026-11-12T06:19:41.078Z",
+  "fetchedAt": "2026-11-12T17:25:28.431Z",
+  "enrichedAt": "2026-11-12T17:26:11.176Z",
   "repos": [
+    {
+      "name": "free-claude-code",
+      "fullName": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 69053,
+      "forks": 10737,
+      "starsToday": 461,
+      "topics": [],
+      "author": {
+        "name": "Alishahryar1",
+        "avatar": "https://avatars.githubusercontent.com/u/20476625?s=40&amp;v=4",
+        "url": "https://github.com/Alishahryar1"
+      },
+      "summary": "免费使用 Claude Code、Codex 等十余种 AI 编程工具的项目，提供 13 亿以上免费 token，支持终端、IDE、手机和浏览器多模型会话。",
+      "tags": [
+        "claude-code",
+        "free-tokens",
+        "ai-coding",
+        "multi-model",
+        "browser"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-12T06:19:39.670Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whisper",
+      "fullName": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 112580,
+      "forks": 13649,
+      "starsToday": 118,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/266841?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI开源的通用语音识别模型，基于大规模弱监督训练，支持多语言转写、翻译与语言检测，鲁棒性强、开箱即用。",
+      "tags": [
+        "speech-recognition",
+        "asr",
+        "machine-learning",
+        "python",
+        "transcription"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-12T17:26:06.803Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "daily_stock_analysis",
       "fullName": "ZhuLinsen/daily_stock_analysis",
@@ -12,9 +68,9 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 70622,
-      "forks": 56975,
-      "starsToday": 278,
+      "stars": 71049,
+      "forks": 57113,
+      "starsToday": 1290,
       "topics": [],
       "author": {
         "name": "ZhuLinsen",
@@ -34,15 +90,72 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "fastapi",
+      "fullName": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 104660,
+      "forks": 10236,
+      "starsToday": 86,
+      "topics": [],
+      "author": {
+        "name": "fastapi",
+        "avatar": "https://avatars.githubusercontent.com/u/1326112?s=40&amp;v=4",
+        "url": "https://github.com/fastapi"
+      },
+      "summary": "基于Python类型注解的高性能Web框架，自动生成OpenAPI文档与数据校验，开发快、易上手、可直接用于生产。",
+      "tags": [
+        "python",
+        "web-framework",
+        "api",
+        "rest",
+        "openapi",
+        "async"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-12T17:26:06.811Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cpython",
+      "fullName": "python/cpython",
+      "url": "https://github.com/python/cpython",
+      "description": "The Python programming language",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 78188,
+      "forks": 36576,
+      "starsToday": 70,
+      "topics": [],
+      "author": {
+        "name": "python",
+        "avatar": "https://avatars.githubusercontent.com/u/2894642?s=40&amp;v=4",
+        "url": "https://github.com/python"
+      },
+      "summary": "Python 官方解释器与标准库源码仓库，是 CPython 语言的权威实现，供开发者参与语言演进与贡献代码。",
+      "tags": [
+        "python",
+        "interpreter",
+        "language",
+        "standard-library",
+        "cpython"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-12T17:26:06.854Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "ha-mcp",
       "fullName": "homeassistant-ai/ha-mcp",
       "url": "https://github.com/homeassistant-ai/ha-mcp",
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 7515,
-      "forks": 457,
-      "starsToday": 645,
+      "stars": 7667,
+      "forks": 464,
+      "starsToday": 691,
       "topics": [],
       "author": {
         "name": "homeassistant-ai",
@@ -59,6 +172,314 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-12T06:19:35.382Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-skills",
+      "fullName": "oaustegard/claude-skills",
+      "url": "https://github.com/oaustegard/claude-skills",
+      "description": "My collection of Claude skills",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 359,
+      "forks": 17,
+      "starsToday": 40,
+      "topics": [],
+      "author": {
+        "name": "oaustegard",
+        "avatar": "https://avatars.githubusercontent.com/u/3268739?s=40&amp;v=4",
+        "url": "https://github.com/oaustegard"
+      },
+      "summary": "个人收集的 Claude Skills 集合，提供可复用的技能模块与示例，帮助扩展 Claude 的自动化任务能力。",
+      "tags": [
+        "claude",
+        "ai-agents",
+        "skills",
+        "python",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-12T17:26:06.802Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "flask",
+      "fullName": "pallets/flask",
+      "url": "https://github.com/pallets/flask",
+      "description": "The Python micro framework for building web applications.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 75103,
+      "forks": 17315,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "pallets",
+        "avatar": "https://avatars.githubusercontent.com/u/1242887?s=40&amp;v=4",
+        "url": "https://github.com/pallets"
+      },
+      "summary": "Flask 是轻量级 Python Web 微框架，核心精简、扩展灵活，适合快速构建 Web 应用与 API。",
+      "tags": [
+        "python",
+        "web",
+        "framework",
+        "flask",
+        "backend"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-12T17:26:08.131Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "oh-my-hermes",
+      "fullName": "rlaope/oh-my-hermes",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "description": "⚚ The ultrawork agent with AI coworkers wired into you",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 5544,
+      "forks": 450,
+      "starsToday": 100,
+      "topics": [],
+      "author": {
+        "name": "rlaope",
+        "avatar": "https://avatars.githubusercontent.com/u/105429536?s=40&amp;v=4",
+        "url": "https://github.com/rlaope"
+      },
+      "summary": "Python 编写的多智能体协作框架，把 AI 同事接入你的工作流，实现自动化任务编排与执行。",
+      "tags": [
+        "agent",
+        "ai",
+        "python",
+        "automation",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-12T17:26:08.133Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillSpector",
+      "fullName": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 25644,
+      "forks": 2263,
+      "starsToday": 302,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 出品的 AI Agent 技能安全扫描器，在安装前检测 Claude Code、Codex 与 MCP 技能中的漏洞、恶意模式、提示注入、数据外泄和供应链风险。",
+      "tags": [
+        "security",
+        "ai-agents",
+        "mcp",
+        "scanner",
+        "prompt-injection"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-12T17:26:08.117Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "last30days-skill",
+      "fullName": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 67425,
+      "forks": 5922,
+      "starsToday": 119,
+      "topics": [],
+      "author": {
+        "name": "mvanhorn",
+        "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&amp;v=4",
+        "url": "https://github.com/mvanhorn"
+      },
+      "summary": "AI Agent技能，跨Reddit、X、YouTube、HN、Polymarket及网页检索任意话题近30天动态，并合成有据可依的摘要。",
+      "tags": [
+        "ai-agent",
+        "research",
+        "summarization",
+        "python",
+        "social-media"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-12T17:26:08.220Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "transformers",
+      "fullName": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 168908,
+      "forks": 35227,
+      "starsToday": 98,
+      "topics": [],
+      "author": {
+        "name": "huggingface",
+        "avatar": "https://avatars.githubusercontent.com/u/35901082?s=40&amp;v=4",
+        "url": "https://github.com/huggingface"
+      },
+      "summary": "Hugging Face 官方模型定义框架，统一加载与训练文本、视觉、音频和多模态的顶尖模型，是深度学习生态的事实标准。",
+      "tags": [
+        "transformers",
+        "deep-learning",
+        "nlp",
+        "pytorch",
+        "pretrained-models"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-12T17:26:09.471Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mcp-server-guide",
+      "fullName": "figma/mcp-server-guide",
+      "url": "https://github.com/figma/mcp-server-guide",
+      "description": "A guide on how to use the Figma MCP server",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2179,
+      "forks": 215,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "figma",
+        "avatar": "https://avatars.githubusercontent.com/u/111350777?s=40&amp;v=4",
+        "url": "https://github.com/figma"
+      },
+      "summary": "Figma 官方 MCP 服务器使用指南，讲解如何让 AI 编码工具读取设计稿上下文并生成代码，打通设计与开发流程。",
+      "tags": [
+        "figma",
+        "mcp",
+        "ai",
+        "design-to-code",
+        "guide"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-12T17:26:09.582Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Python",
+      "fullName": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 226047,
+      "forks": 51303,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "TheAlgorithms",
+        "avatar": "https://avatars.githubusercontent.com/u/3709715?s=40&amp;v=4",
+        "url": "https://github.com/TheAlgorithms"
+      },
+      "summary": "用Python实现各类经典算法的教学型代码库，涵盖排序、搜索、数据结构与机器学习等，适合学习与面试复习。",
+      "tags": [
+        "algorithms",
+        "python",
+        "education",
+        "data-structures",
+        "learning"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-12T17:26:09.588Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-code-templates",
+      "fullName": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 33412,
+      "forks": 3925,
+      "starsToday": 91,
+      "topics": [],
+      "author": {
+        "name": "davila7",
+        "avatar": "https://avatars.githubusercontent.com/u/6216945?s=40&amp;v=4",
+        "url": "https://github.com/davila7"
+      },
+      "summary": "Claude Code 组件的开源注册表与 CLI 工具，可浏览、安装并管理 agents、命令、技能、hooks、MCP 与配置，简化 AI 编码工作流搭建。",
+      "tags": [
+        "claude-code",
+        "cli",
+        "ai-agents",
+        "mcp",
+        "registry"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-12T17:26:09.510Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "qiskit",
+      "fullName": "Qiskit/qiskit",
+      "url": "https://github.com/Qiskit/qiskit",
+      "description": "Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and primitives.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 7966,
+      "forks": 3124,
+      "starsToday": 3,
+      "topics": [],
+      "author": {
+        "name": "Qiskit",
+        "avatar": "https://avatars.githubusercontent.com/u/2447371?s=40&amp;v=4",
+        "url": "https://github.com/Qiskit"
+      },
+      "summary": "开源量子计算SDK，支持在扩展量子电路、算符和原语层面编写与运行量子程序，是量子算法开发的核心工具库。",
+      "tags": [
+        "quantum-computing",
+        "sdk",
+        "python",
+        "circuits",
+        "primitives"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-12T17:26:11.030Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "SkillEvaluator",
+      "fullName": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 804,
+      "forks": 102,
+      "starsToday": 83,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
+      },
+      "summary": "NVIDIA 开源的 AI 智能体技能评测框架，提供质量门禁、语义重叠检测、合成评测数据集生成与实机智能体评测，量化技能对智能体行为的影响。",
+      "tags": [
+        "ai-agents",
+        "evaluation",
+        "llm",
+        "nvidia",
+        "testing"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-12T17:26:11.176Z",
       "deepwikiAvailable": false
     },
     {
@@ -339,34 +760,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-12T06:19:39.194Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "free-claude-code",
-      "fullName": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 68754,
-      "forks": 10708,
-      "starsToday": 636,
-      "topics": [],
-      "author": {
-        "name": "Alishahryar1",
-        "avatar": "https://avatars.githubusercontent.com/u/20476625?s=40&amp;v=4",
-        "url": "https://github.com/Alishahryar1"
-      },
-      "summary": "免费使用 Claude Code、Codex 等十余种 AI 编程工具的项目，提供 13 亿以上免费 token，支持终端、IDE、手机和浏览器多模型会话。",
-      "tags": [
-        "claude-code",
-        "free-tokens",
-        "ai-coding",
-        "multi-model",
-        "browser"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-12T06:19:39.670Z",
       "deepwikiAvailable": false
     },
     {
