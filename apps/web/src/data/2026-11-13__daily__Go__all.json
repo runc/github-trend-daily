@@ -2,9 +2,65 @@
   "date": "2026-11-13",
   "since": "daily",
   "language": "Go",
-  "fetchedAt": "2026-11-13T05:40:02.934Z",
-  "enrichedAt": "2026-11-13T05:40:53.612Z",
+  "fetchedAt": "2026-11-13T16:59:56.460Z",
+  "enrichedAt": "2026-11-13T17:00:43.007Z",
   "repos": [
+    {
+      "name": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 50360,
+      "forks": 3741,
+      "starsToday": 206,
+      "topics": [],
+      "author": {
+        "name": "alibaba",
+        "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&amp;v=4",
+        "url": "https://github.com/alibaba"
+      },
+      "summary": "阿里开源的大规模代码审查工具，确定性流水线结合LLM Agent，支持行级精准评论与多语言安全规则集，兼容OpenAI与Anthropic接口。",
+      "tags": [
+        "code-review",
+        "llm",
+        "go",
+        "static-analysis",
+        "agent"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-13T17:00:39.432Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailcat",
+      "fullName": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9311,
+      "forks": 428,
+      "starsToday": 324,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "类似 netcat 的网络工具，通过 Tailscale 数据平面直连通信，无需其控制平面，适合点对点调试与传输。",
+      "tags": [
+        "tailscale",
+        "netcat",
+        "networking",
+        "go",
+        "p2p"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-13T05:40:51.369Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "LoopForge",
       "fullName": "Tencent/LoopForge",
@@ -12,9 +68,9 @@
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 609,
-      "forks": 105,
-      "starsToday": 184,
+      "stars": 664,
+      "forks": 110,
+      "starsToday": 174,
       "topics": [],
       "author": {
         "name": "Tencent",
@@ -31,6 +87,373 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-13T05:40:49.451Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "WeKnora",
+      "fullName": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 37388,
+      "forks": 5183,
+      "starsToday": 90,
+      "topics": [],
+      "author": {
+        "name": "Tencent",
+        "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&amp;v=4",
+        "url": "https://github.com/Tencent"
+      },
+      "summary": "腾讯开源的大模型知识平台，将原始文档转化为可查询的RAG、自主推理智能体和自维护Wiki，基于Go构建。",
+      "tags": [
+        "rag",
+        "llm",
+        "knowledge-base",
+        "go",
+        "agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-13T17:00:39.265Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ollama",
+      "fullName": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 186901,
+      "forks": 19065,
+      "starsToday": 134,
+      "topics": [],
+      "author": {
+        "name": "ollama",
+        "avatar": "https://avatars.githubusercontent.com/u/2372640?s=40&amp;v=4",
+        "url": "https://github.com/ollama"
+      },
+      "summary": "本地一键运行 Kimi、DeepSeek、Qwen、Gemma 等大模型的开源工具，提供简洁 CLI 与 API，让本地推理和模型管理开箱即用。",
+      "tags": [
+        "llm",
+        "local-inference",
+        "go",
+        "cli",
+        "self-hosted"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-13T17:00:39.589Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gentle-ai",
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9093,
+      "forks": 896,
+      "starsToday": 240,
+      "topics": [],
+      "author": {
+        "name": "Gentleman-Programming",
+        "avatar": "https://avatars.githubusercontent.com/u/6935240?s=40&amp;v=4",
+        "url": "https://github.com/Gentleman-Programming"
+      },
+      "summary": "统一配置 Claude Code、Cursor、Codex 等多家 AI 编码代理的工具，提供持久记忆、精选技能、MCP 服务器与角色设定，避免厂商锁定。",
+      "tags": [
+        "ai",
+        "agents",
+        "mcp",
+        "config",
+        "go",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-13T17:00:39.503Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go-sdk",
+      "fullName": "modelcontextprotocol/go-sdk",
+      "url": "https://github.com/modelcontextprotocol/go-sdk",
+      "description": "The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 5342,
+      "forks": 617,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "modelcontextprotocol",
+        "avatar": "https://avatars.githubusercontent.com/u/57144380?s=40&amp;v=4",
+        "url": "https://github.com/modelcontextprotocol"
+      },
+      "summary": "MCP 官方 Go SDK，用于构建 Model Context Protocol 服务端与客户端，由 Google 协作维护，为 Go 生态接入 AI 工具与上下文提供标准实现。",
+      "tags": [
+        "mcp",
+        "go",
+        "sdk",
+        "ai",
+        "protocol"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-13T17:00:40.903Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 56040,
+      "forks": 7401,
+      "starsToday": 166,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的协作平台，让人类与AI代理在同一团队中协同工作，统一任务与工作流。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "teamwork"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-13T05:40:52.500Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vault",
+      "fullName": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 36507,
+      "forks": 4819,
+      "starsToday": 5,
+      "topics": [],
+      "author": {
+        "name": "hashicorp",
+        "avatar": "https://avatars.githubusercontent.com/u/28627?s=40&amp;v=4",
+        "url": "https://github.com/hashicorp"
+      },
+      "summary": "HashiCorp Vault 是密钥管理与加密服务工具，提供机密存储、动态凭证、加密即服务和特权访问管理，保障云环境敏感数据安全。",
+      "tags": [
+        "secrets",
+        "security",
+        "encryption",
+        "go",
+        "access-management"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-13T17:00:40.737Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 6576,
+      "forks": 743,
+      "starsToday": 52,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "用 Go 编写的 AI Agent 核心运行时系统，为智能体提供统一的执行底座与基础设施。",
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "runtime",
+        "infra"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-13T05:40:49.761Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "crowdsec",
+      "fullName": "crowdsecurity/crowdsec",
+      "url": "https://github.com/crowdsecurity/crowdsec",
+      "description": "Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced blocklist of malicious IPs.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 15590,
+      "forks": 762,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "crowdsecurity",
+        "avatar": "https://avatars.githubusercontent.com/u/92726601?s=40&amp;v=4",
+        "url": "https://github.com/crowdsecurity"
+      },
+      "summary": "开源入侵检测与防护系统，集IDS/IPS、WAF和机器人检测于一体，支持Linux、Windows、Docker和Kubernetes，并共享恶意IP众包黑名单。",
+      "tags": [
+        "security",
+        "ids",
+        "waf",
+        "golang",
+        "kubernetes"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-13T17:00:40.591Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "warpscout",
+      "fullName": "vernette/warpscout",
+      "url": "https://github.com/vernette/warpscout",
+      "description": "🛰️ Cloudflare WARP endpoint scanner - find working endpoints over wg/awg/masque and see the exit region and edge node they land on",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 644,
+      "forks": 61,
+      "starsToday": 12,
+      "topics": [],
+      "author": {
+        "name": "vernette",
+        "avatar": "https://avatars.githubusercontent.com/u/38386813?s=40&amp;v=4",
+        "url": "https://github.com/vernette"
+      },
+      "summary": "Cloudflare WARP 端点扫描工具，通过 wg/awg/masque 协议探测可用端点并显示出口地区与边缘节点，帮助挑选最优连接。",
+      "tags": [
+        "cloudflare",
+        "warp",
+        "wireguard",
+        "scanner",
+        "network",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-13T17:00:40.981Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "netbird",
+      "fullName": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 30970,
+      "forks": 1857,
+      "starsToday": 42,
+      "topics": [],
+      "author": {
+        "name": "netbirdio",
+        "avatar": "https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4",
+        "url": "https://github.com/netbirdio"
+      },
+      "summary": "基于 WireGuard 的点对点零信任网络平台，用统一身份安全连接人员、设备与 AI 代理，替代传统 VPN。",
+      "tags": [
+        "wireguard",
+        "vpn",
+        "zero-trust",
+        "networking",
+        "go",
+        "p2p"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-13T17:00:43.006Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47013,
+      "forks": 9290,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub 官方命令行工具，用 Go 编写，可在终端管理仓库、Issue、PR、Actions 与发布流程，提升开发协作效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "git",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-13T17:00:42.033Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kubescape",
+      "fullName": "kubescape/kubescape",
+      "url": "https://github.com/kubescape/kubescape",
+      "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 11887,
+      "forks": 1101,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "kubescape",
+        "avatar": "https://avatars.githubusercontent.com/u/20683409?s=40&amp;v=4",
+        "url": "https://github.com/kubescape"
+      },
+      "summary": "开源Kubernetes安全平台，覆盖IDE、CI/CD与集群，提供风险分析、合规与配置错误扫描。",
+      "tags": [
+        "kubernetes",
+        "security",
+        "compliance",
+        "scanning",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-13T05:40:51.778Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 18099,
+      "forks": 1380,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "larksuite",
+        "avatar": "https://avatars.githubusercontent.com/u/266696938?s=40&amp;v=4",
+        "url": "https://github.com/larksuite"
+      },
+      "summary": "飞书官方命令行工具，覆盖消息、文档、多维表格、日历、邮件等核心业务，提供200+命令与20+ AI Agent技能，面向人与智能体。",
+      "tags": [
+        "lark",
+        "feishu",
+        "cli",
+        "ai-agent",
+        "go"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-13T17:00:42.244Z",
       "deepwikiAvailable": false
     },
     {
@@ -60,34 +483,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-13T05:40:49.720Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6551,
-      "forks": 741,
-      "starsToday": 84,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "用 Go 编写的 AI Agent 核心运行时系统，为智能体提供统一的执行底座与基础设施。",
-      "tags": [
-        "ai",
-        "agents",
-        "go",
-        "runtime",
-        "infra"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-13T05:40:49.761Z",
       "deepwikiAvailable": false
     },
     {
@@ -175,34 +570,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "tailcat",
-      "fullName": "tailscale/tailcat",
-      "url": "https://github.com/tailscale/tailcat",
-      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 9102,
-      "forks": 417,
-      "starsToday": 173,
-      "topics": [],
-      "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
-      },
-      "summary": "类似 netcat 的网络工具，通过 Tailscale 数据平面直连通信，无需其控制平面，适合点对点调试与传输。",
-      "tags": [
-        "tailscale",
-        "netcat",
-        "networking",
-        "go",
-        "p2p"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-13T05:40:51.369Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "run-ai",
       "fullName": "dsx-ai-factory/run-ai",
       "url": "https://github.com/dsx-ai-factory/run-ai",
@@ -229,62 +596,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-13T05:40:51.229Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kubescape",
-      "fullName": "kubescape/kubescape",
-      "url": "https://github.com/kubescape/kubescape",
-      "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 11880,
-      "forks": 1101,
-      "starsToday": 8,
-      "topics": [],
-      "author": {
-        "name": "kubescape",
-        "avatar": "https://avatars.githubusercontent.com/u/20683409?s=40&amp;v=4",
-        "url": "https://github.com/kubescape"
-      },
-      "summary": "开源Kubernetes安全平台，覆盖IDE、CI/CD与集群，提供风险分析、合规与配置错误扫描。",
-      "tags": [
-        "kubernetes",
-        "security",
-        "compliance",
-        "scanning",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-13T05:40:51.778Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "multica",
-      "fullName": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 55934,
-      "forks": 7389,
-      "starsToday": 148,
-      "topics": [],
-      "author": {
-        "name": "multica-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
-        "url": "https://github.com/multica-ai"
-      },
-      "summary": "开源可自托管的协作平台，让人类与AI代理在同一团队中协同工作，统一任务与工作流。",
-      "tags": [
-        "ai-agents",
-        "collaboration",
-        "self-hosted",
-        "go",
-        "teamwork"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-13T05:40:52.500Z",
       "deepwikiAvailable": false
     },
     {
