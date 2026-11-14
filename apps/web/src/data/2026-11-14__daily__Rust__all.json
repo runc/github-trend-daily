@@ -2,9 +2,93 @@
   "date": "2026-11-14",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-11-14T05:29:52.840Z",
-  "enrichedAt": "2026-11-14T05:30:43.033Z",
+  "fetchedAt": "2026-11-14T15:38:43.979Z",
+  "enrichedAt": "2026-11-14T15:39:21.892Z",
   "repos": [
+    {
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5583,
+      "forks": 928,
+      "starsToday": 269,
+      "topics": [],
+      "author": {
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
+      },
+      "summary": "基于 Rust 的 WiFi 安全审计工具，提供图形界面进行无线网络扫描、握手包捕获与安全评估。",
+      "tags": [
+        "wifi",
+        "security",
+        "rust",
+        "auditing",
+        "gui"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-11-14T15:39:20.394Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2363,
+      "forks": 300,
+      "starsToday": 212,
+      "topics": [],
+      "author": {
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
+      },
+      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用Rust编写，适合在S3等存储上直接管理可版本化的图数据。",
+      "tags": [
+        "graph-database",
+        "rust",
+        "object-storage",
+        "ontology",
+        "versioning"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-14T05:30:41.746Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "verus",
+      "fullName": "verus-lang/verus",
+      "url": "https://github.com/verus-lang/verus",
+      "description": "Verified Rust for low-level systems code",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3770,
+      "forks": 263,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "verus-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/592054?s=40&amp;v=4",
+        "url": "https://github.com/verus-lang"
+      },
+      "summary": "Verus 是面向底层系统代码的 Rust 形式化验证工具，用规范与证明在编译期静态保证程序正确性。",
+      "tags": [
+        "rust",
+        "formal-verification",
+        "verification",
+        "systems",
+        "proof"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-14T15:39:20.605Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "buzz",
       "fullName": "block/buzz",
@@ -12,9 +96,9 @@
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37341,
-      "forks": 4943,
-      "starsToday": 97,
+      "stars": 37435,
+      "forks": 4945,
+      "starsToday": 275,
       "topics": [],
       "author": {
         "name": "block",
@@ -31,6 +115,147 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-14T05:30:40.057Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "goose",
+      "fullName": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 56603,
+      "forks": 6587,
+      "starsToday": 72,
+      "topics": [],
+      "author": {
+        "name": "aaif-goose",
+        "avatar": "https://avatars.githubusercontent.com/u/22990146?s=40&amp;v=4",
+        "url": "https://github.com/aaif-goose"
+      },
+      "summary": "开源可扩展AI智能体，支持任意LLM，可安装依赖、执行命令、编辑并测试代码，超越单纯代码补全。",
+      "tags": [
+        "ai-agent",
+        "rust",
+        "llm",
+        "developer-tools",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-14T15:39:20.800Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zeron",
+      "fullName": "zeronsh/zeron",
+      "url": "https://github.com/zeronsh/zeron",
+      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3655,
+      "forks": 372,
+      "starsToday": 60,
+      "topics": [],
+      "author": {
+        "name": "zeronsh",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/zeronsh"
+      },
+      "summary": "用 Rust 编写的原生控制平面，统一调度 Claude Code、Codex、Cursor、Devin 等编码智能体，集中管理多智能体协作与运行。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "coding-agent",
+        "orchestration",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-14T15:39:20.660Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust-clippy",
+      "fullName": "rust-lang/rust-clippy",
+      "url": "https://github.com/rust-lang/rust-clippy",
+      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 13644,
+      "forks": 2249,
+      "starsToday": 4,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 官方静态检查工具集，提供数百条 lint 规则，捕获常见错误并提升代码质量，可集成到 cargo 与 CI 流程。",
+      "tags": [
+        "rust",
+        "linter",
+        "static-analysis",
+        "code-quality",
+        "cargo"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-14T15:39:21.610Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lance",
+      "fullName": "lance-format/lance",
+      "url": "https://github.com/lance-format/lance",
+      "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7296,
+      "forks": 937,
+      "starsToday": 6,
+      "topics": [],
+      "author": {
+        "name": "lance-format",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/lance-format"
+      },
+      "summary": "面向多模态AI的开源湖仓格式，两行代码即可从Parquet转换，提供百倍随机访问、向量索引与数据版本管理，兼容Pandas、DuckDB、Polars、PyArrow和PyTorch。",
+      "tags": [
+        "lakehouse",
+        "vector-search",
+        "rust",
+        "parquet",
+        "multimodal",
+        "data-format"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-14T15:39:21.747Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "uzu",
+      "fullName": "trymirai/uzu",
+      "url": "https://github.com/trymirai/uzu",
+      "description": "A high-performance inference engine for AI models",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3329,
+      "forks": 238,
+      "starsToday": 17,
+      "topics": [],
+      "author": {
+        "name": "trymirai",
+        "avatar": "https://avatars.githubusercontent.com/u/83587632?s=40&amp;v=4",
+        "url": "https://github.com/trymirai"
+      },
+      "summary": "基于 Rust 的高性能 AI 模型推理引擎，主打低开销与高效部署，适合本地与生产环境运行模型。",
+      "tags": [
+        "rust",
+        "inference",
+        "ai",
+        "performance",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-14T15:39:21.892Z",
       "deepwikiAvailable": false
     },
     {
@@ -171,34 +396,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-11-14T05:30:41.760Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omnigraph",
-      "fullName": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2269,
-      "forks": 293,
-      "starsToday": 160,
-      "topics": [],
-      "author": {
-        "name": "ModernRelay",
-        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
-        "url": "https://github.com/ModernRelay"
-      },
-      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用Rust编写，适合在S3等存储上直接管理可版本化的图数据。",
-      "tags": [
-        "graph-database",
-        "rust",
-        "object-storage",
-        "ontology",
-        "versioning"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-14T05:30:41.746Z",
       "deepwikiAvailable": false
     },
     {
