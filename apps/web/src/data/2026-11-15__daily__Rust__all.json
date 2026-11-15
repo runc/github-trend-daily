@@ -2,9 +2,65 @@
   "date": "2026-11-15",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-11-15T05:28:00.004Z",
-  "enrichedAt": "2026-11-15T05:28:44.854Z",
+  "fetchedAt": "2026-11-15T16:08:16.882Z",
+  "enrichedAt": "2026-11-15T16:08:55.016Z",
   "repos": [
+    {
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2544,
+      "forks": 315,
+      "starsToday": 174,
+      "topics": [],
+      "author": {
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
+      },
+      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用 Rust 实现，适合在 S3 等存储上做可版本化的图数据管理。",
+      "tags": [
+        "graph-database",
+        "rust",
+        "object-storage",
+        "database",
+        "versioning"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-15T05:28:42.927Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "MangoDisk",
+      "fullName": "harry0703/MangoDisk",
+      "url": "https://github.com/harry0703/MangoDisk",
+      "description": "Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5755,
+      "forks": 403,
+      "starsToday": 57,
+      "topics": [],
+      "author": {
+        "name": "harry0703",
+        "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&amp;v=4",
+        "url": "https://github.com/harry0703"
+      },
+      "summary": "基于 Rust 的跨平台磁盘清理与空间分析工具，主打安全优先，支持重复文件清理、应用卸载、启动项管理与系统优化维护。",
+      "tags": [
+        "rust",
+        "disk-cleaner",
+        "cross-platform",
+        "system-optimization",
+        "desktop"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-15T16:08:53.435Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "airgorah",
       "fullName": "martin-olivier/airgorah",
@@ -12,9 +68,9 @@
       "description": "A WiFi security auditing software",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 5989,
-      "forks": 1043,
-      "starsToday": 270,
+      "stars": 6203,
+      "forks": 1056,
+      "starsToday": 708,
       "topics": [],
       "author": {
         "name": "martin-olivier",
@@ -34,31 +90,284 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "omnigraph",
-      "fullName": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
+      "name": "tree-sitter",
+      "fullName": "tree-sitter/tree-sitter",
+      "url": "https://github.com/tree-sitter/tree-sitter",
+      "description": "An incremental parsing system for programming tools",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 2462,
-      "forks": 309,
-      "starsToday": 217,
+      "stars": 27466,
+      "forks": 3038,
+      "starsToday": 10,
       "topics": [],
       "author": {
-        "name": "ModernRelay",
-        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
-        "url": "https://github.com/ModernRelay"
+        "name": "tree-sitter",
+        "avatar": "https://avatars.githubusercontent.com/u/326587?s=40&amp;v=4",
+        "url": "https://github.com/tree-sitter"
       },
-      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用 Rust 实现，适合在 S3 等存储上做可版本化的图数据管理。",
+      "summary": "增量解析器生成框架，为编辑器与开发工具提供高效、容错的语法树解析能力，支持多语言语法。",
       "tags": [
-        "graph-database",
+        "parser",
+        "incremental",
         "rust",
-        "object-storage",
-        "database",
-        "versioning"
+        "syntax-tree",
+        "editor"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-15T16:08:53.851Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "goose",
+      "fullName": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 56647,
+      "forks": 6593,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "aaif-goose",
+        "avatar": "https://avatars.githubusercontent.com/u/22990146?s=40&amp;v=4",
+        "url": "https://github.com/aaif-goose"
+      },
+      "summary": "开源可扩展的本地 AI 智能体，支持任意 LLM，可安装、执行、编辑并测试代码，超越单纯代码补全。",
+      "tags": [
+        "ai-agent",
+        "rust",
+        "llm",
+        "automation",
+        "developer-tools"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-15T05:28:43.651Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bombadil",
+      "fullName": "antithesishq/bombadil",
+      "url": "https://github.com/antithesishq/bombadil",
+      "description": "Property-based testing for web and terminal UIs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1915,
+      "forks": 78,
+      "starsToday": 189,
+      "topics": [],
+      "author": {
+        "name": "antithesishq",
+        "avatar": "https://avatars.githubusercontent.com/u/1464328?s=40&amp;v=4",
+        "url": "https://github.com/antithesishq"
+      },
+      "summary": "用Rust编写的属性测试工具，为Web和终端UI自动生成随机交互并验证不变量，帮助发现边界场景下的界面缺陷。",
+      "tags": [
+        "testing",
+        "property-based-testing",
+        "rust",
+        "ui",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-15T16:08:53.733Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Codex-X",
+      "fullName": "yynxxxxx/Codex-X",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4526,
+      "forks": 592,
+      "starsToday": 68,
+      "topics": [],
+      "author": {
+        "name": "yynxxxxx",
+        "avatar": "https://avatars.githubusercontent.com/u/139136586?s=40&amp;v=4",
+        "url": "https://github.com/yynxxxxx"
+      },
+      "summary": "OpenAI Codex 桌面端与 CLI 的可视化管理工具，支持 Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理与 TOML 配置可视化，跨平台。",
+      "tags": [
+        "codex",
+        "rust",
+        "mcp",
+        "gui",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-15T16:08:53.446Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vaultwarden",
+      "fullName": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 70770,
+      "forks": 3460,
+      "starsToday": 44,
+      "topics": [],
+      "author": {
+        "name": "dani-garcia",
+        "avatar": "https://avatars.githubusercontent.com/u/725423?s=40&amp;v=4",
+        "url": "https://github.com/dani-garcia"
+      },
+      "summary": "用 Rust 编写的非官方 Bitwarden 兼容服务端，轻量低资源占用，可自建密码管理后端并兼容官方客户端。",
+      "tags": [
+        "rust",
+        "bitwarden",
+        "self-hosted",
+        "password-manager",
+        "server"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-15T16:08:54.813Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "lance",
+      "fullName": "lance-format/lance",
+      "url": "https://github.com/lance-format/lance",
+      "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7313,
+      "forks": 941,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "lance-format",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
+        "url": "https://github.com/lance-format"
+      },
+      "summary": "面向多模态AI的开源湖仓格式，两行代码从Parquet转换，实现百倍随机访问、向量索引与数据版本管理，兼容Pandas、DuckDB、Polars、PyArrow和PyTorch。",
+      "tags": [
+        "rust",
+        "lakehouse",
+        "multimodal",
+        "vector-search",
+        "parquet",
+        "arrow"
       ],
       "category": "Data",
-      "enrichedAt": "2026-11-15T05:28:42.927Z",
+      "enrichedAt": "2026-11-15T05:28:44.148Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zeron",
+      "fullName": "zeronsh/zeron",
+      "url": "https://github.com/zeronsh/zeron",
+      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3678,
+      "forks": 374,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "zeronsh",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/zeronsh"
+      },
+      "summary": "用 Rust 编写的原生控制平面，统一调度 Claude Code、Codex、Cursor、Devin 等编码智能体，集中管理其运行与协作。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "coding-agent",
+        "orchestration",
+        "control-plane"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-15T05:28:43.999Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "qdrant",
+      "fullName": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 35566,
+      "forks": 2818,
+      "starsToday": 22,
+      "topics": [],
+      "author": {
+        "name": "qdrant",
+        "avatar": "https://avatars.githubusercontent.com/u/1935623?s=40&amp;v=4",
+        "url": "https://github.com/qdrant"
+      },
+      "summary": "Rust 编写的高性能大规模向量数据库与向量检索引擎，为 AI 应用提供相似度搜索与云服务支持。",
+      "tags": [
+        "vector-database",
+        "rust",
+        "search",
+        "ai",
+        "embeddings"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-15T16:08:54.626Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ratatui",
+      "fullName": "ratatui/ratatui",
+      "url": "https://github.com/ratatui/ratatui",
+      "description": "A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 23293,
+      "forks": 826,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "ratatui",
+        "avatar": "https://avatars.githubusercontent.com/u/381361?s=40&amp;v=4",
+        "url": "https://github.com/ratatui"
+      },
+      "summary": "Rust 终端用户界面（TUI）库，提供布局、组件与渲染能力，用于快速构建跨平台命令行交互应用。",
+      "tags": [
+        "rust",
+        "tui",
+        "terminal",
+        "ui",
+        "cli"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-15T16:08:55.016Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37475,
+      "forks": 4950,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "block",
+        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
+        "url": "https://github.com/block"
+      },
+      "summary": "基于 Rust 构建的群体智能通信平台，用于多智能体协作与消息协同。",
+      "tags": [
+        "rust",
+        "hive-mind",
+        "multi-agent",
+        "messaging",
+        "collaboration"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-15T05:28:42.704Z",
       "deepwikiAvailable": false
     },
     {
@@ -90,90 +399,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "buzz",
-      "fullName": "block/buzz",
-      "url": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 37450,
-      "forks": 4948,
-      "starsToday": 277,
-      "topics": [],
-      "author": {
-        "name": "block",
-        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
-        "url": "https://github.com/block"
-      },
-      "summary": "基于 Rust 构建的群体智能通信平台，用于多智能体协作与消息协同。",
-      "tags": [
-        "rust",
-        "hive-mind",
-        "multi-agent",
-        "messaging",
-        "collaboration"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-15T05:28:42.704Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "goose",
-      "fullName": "aaif-goose/goose",
-      "url": "https://github.com/aaif-goose/goose",
-      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 56624,
-      "forks": 6591,
-      "starsToday": 72,
-      "topics": [],
-      "author": {
-        "name": "aaif-goose",
-        "avatar": "https://avatars.githubusercontent.com/u/22990146?s=40&amp;v=4",
-        "url": "https://github.com/aaif-goose"
-      },
-      "summary": "开源可扩展的本地 AI 智能体，支持任意 LLM，可安装、执行、编辑并测试代码，超越单纯代码补全。",
-      "tags": [
-        "ai-agent",
-        "rust",
-        "llm",
-        "automation",
-        "developer-tools"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-15T05:28:43.651Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zeron",
-      "fullName": "zeronsh/zeron",
-      "url": "https://github.com/zeronsh/zeron",
-      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 3671,
-      "forks": 372,
-      "starsToday": 46,
-      "topics": [],
-      "author": {
-        "name": "zeronsh",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/zeronsh"
-      },
-      "summary": "用 Rust 编写的原生控制平面，统一调度 Claude Code、Codex、Cursor、Devin 等编码智能体，集中管理其运行与协作。",
-      "tags": [
-        "rust",
-        "ai-agents",
-        "coding-agent",
-        "orchestration",
-        "control-plane"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-15T05:28:43.999Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "rust-clippy",
       "fullName": "rust-lang/rust-clippy",
       "url": "https://github.com/rust-lang/rust-clippy",
@@ -199,35 +424,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-15T05:28:44.059Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "lance",
-      "fullName": "lance-format/lance",
-      "url": "https://github.com/lance-format/lance",
-      "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 7307,
-      "forks": 939,
-      "starsToday": 4,
-      "topics": [],
-      "author": {
-        "name": "lance-format",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&amp;v=4",
-        "url": "https://github.com/lance-format"
-      },
-      "summary": "面向多模态AI的开源湖仓格式，两行代码从Parquet转换，实现百倍随机访问、向量索引与数据版本管理，兼容Pandas、DuckDB、Polars、PyArrow和PyTorch。",
-      "tags": [
-        "rust",
-        "lakehouse",
-        "multimodal",
-        "vector-search",
-        "parquet",
-        "arrow"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-15T05:28:44.148Z",
       "deepwikiAvailable": false
     },
     {
