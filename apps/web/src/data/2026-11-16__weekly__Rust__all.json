@@ -2,8 +2,8 @@
   "date": "2026-11-16",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-11-16T05:25:57.241Z",
-  "enrichedAt": "2026-11-16T05:27:21.709Z",
+  "fetchedAt": "2026-11-16T19:22:52.226Z",
+  "enrichedAt": "2026-11-16T19:23:48.938Z",
   "repos": [
     {
       "name": "agent-browser",
@@ -12,8 +12,8 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 51726,
-      "forks": 3620,
+      "stars": 51944,
+      "forks": 3627,
       "starsToday": 4217,
       "topics": [],
       "author": {
@@ -34,14 +34,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "topcoat",
+      "fullName": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7242,
+      "forks": 315,
+      "starsToday": 888,
+      "topics": [],
+      "author": {
+        "name": "tokio-rs",
+        "avatar": "https://avatars.githubusercontent.com/u/8947616?s=40&amp;v=4",
+        "url": "https://github.com/tokio-rs"
+      },
+      "summary": "Rust 编写的开箱即用 Web 应用框架，内置常用组件与约定，减少样板代码，快速搭建全栈 Web 服务。",
+      "tags": [
+        "rust",
+        "web",
+        "framework",
+        "fullstack",
+        "tokio"
+      ],
+      "category": "Web",
+      "enrichedAt": "2026-11-16T05:27:19.994Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "buzz",
       "fullName": "block/buzz",
       "url": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37496,
-      "forks": 4951,
+      "stars": 37516,
+      "forks": 4955,
       "starsToday": 703,
       "topics": [],
       "author": {
@@ -68,8 +96,8 @@
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 24299,
-      "forks": 1806,
+      "stars": 24561,
+      "forks": 1826,
       "starsToday": 4719,
       "topics": [],
       "author": {
@@ -90,14 +118,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "zellij",
+      "fullName": "zellij-org/zellij",
+      "url": "https://github.com/zellij-org/zellij",
+      "description": "A terminal workspace with batteries included",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36099,
+      "forks": 1545,
+      "starsToday": 162,
+      "topics": [],
+      "author": {
+        "name": "zellij-org",
+        "avatar": "https://avatars.githubusercontent.com/u/795598?s=40&amp;v=4",
+        "url": "https://github.com/zellij-org"
+      },
+      "summary": "Rust 编写的终端工作区与多路复用器，内置布局、窗格、插件和会话管理，开箱即用。",
+      "tags": [
+        "terminal",
+        "multiplexer",
+        "rust",
+        "cli",
+        "workspace"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-16T05:27:20.321Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "RuView",
       "fullName": "ruvnet/RuView",
       "url": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 104396,
-      "forks": 13579,
+      "stars": 104443,
+      "forks": 13581,
       "starsToday": 1444,
       "topics": [],
       "author": {
@@ -118,31 +174,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "topcoat",
-      "fullName": "tokio-rs/topcoat",
-      "url": "https://github.com/tokio-rs/topcoat",
-      "description": "A batteries-included framework for building web apps",
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7241,
-      "forks": 326,
-      "starsToday": 888,
+      "stars": 129726,
+      "forks": 20782,
+      "starsToday": 992,
       "topics": [],
       "author": {
-        "name": "tokio-rs",
-        "avatar": "https://avatars.githubusercontent.com/u/8947616?s=40&amp;v=4",
-        "url": "https://github.com/tokio-rs"
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
       },
-      "summary": "Rust 编写的开箱即用 Web 应用框架，内置常用组件与约定，减少样板代码，快速搭建全栈 Web 服务。",
+      "summary": "开源远程桌面应用，可自建服务器替代TeamViewer，用Rust编写，支持跨平台远程控制与文件传输。",
       "tags": [
+        "remote-desktop",
         "rust",
-        "web",
-        "framework",
-        "fullstack",
-        "tokio"
+        "self-hosted",
+        "teamviewer-alternative",
+        "cross-platform"
       ],
-      "category": "Web",
-      "enrichedAt": "2026-11-16T05:27:19.994Z",
+      "category": "App",
+      "enrichedAt": "2026-11-16T05:27:21.350Z",
       "deepwikiAvailable": false
     },
     {
@@ -152,7 +208,7 @@
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 51279,
+      "stars": 51224,
       "forks": 2712,
       "starsToday": 363,
       "topics": [],
@@ -171,6 +227,62 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-16T05:27:20.294Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2810,
+      "forks": 328,
+      "starsToday": 607,
+      "topics": [],
+      "author": {
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
+      },
+      "summary": "基于对象存储的原生图数据库，支持分支与类型化本体，用 Rust 编写，适合低成本可版本化的图数据管理。",
+      "tags": [
+        "graph-database",
+        "rust",
+        "object-storage",
+        "ontology",
+        "versioning"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-16T05:27:21.652Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Cap",
+      "fullName": "CapSoftware/Cap",
+      "url": "https://github.com/CapSoftware/Cap",
+      "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 25121,
+      "forks": 2372,
+      "starsToday": 423,
+      "topics": [],
+      "author": {
+        "name": "CapSoftware",
+        "avatar": "https://avatars.githubusercontent.com/u/33632126?s=40&amp;v=4",
+        "url": "https://github.com/CapSoftware"
+      },
+      "summary": "开源的 Loom 替代品，用 Rust 打造，支持一键录制并生成美观可分享的屏幕录像，注重隐私与自托管。",
+      "tags": [
+        "screen-recording",
+        "rust",
+        "loom-alternative",
+        "video",
+        "open-source"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-16T05:27:21.709Z",
       "deepwikiAvailable": false
     },
     {
@@ -203,90 +315,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "zellij",
-      "fullName": "zellij-org/zellij",
-      "url": "https://github.com/zellij-org/zellij",
-      "description": "A terminal workspace with batteries included",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 36087,
-      "forks": 1544,
-      "starsToday": 162,
-      "topics": [],
-      "author": {
-        "name": "zellij-org",
-        "avatar": "https://avatars.githubusercontent.com/u/795598?s=40&amp;v=4",
-        "url": "https://github.com/zellij-org"
-      },
-      "summary": "Rust 编写的终端工作区与多路复用器，内置布局、窗格、插件和会话管理，开箱即用。",
-      "tags": [
-        "terminal",
-        "multiplexer",
-        "rust",
-        "cli",
-        "workspace"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-16T05:27:20.321Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 129632,
-      "forks": 20745,
-      "starsToday": 992,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面应用，可自建服务器替代TeamViewer，用Rust编写，支持跨平台远程控制与文件传输。",
-      "tags": [
-        "remote-desktop",
-        "rust",
-        "self-hosted",
-        "teamviewer-alternative",
-        "cross-platform"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-16T05:27:21.350Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "Cap",
-      "fullName": "CapSoftware/Cap",
-      "url": "https://github.com/CapSoftware/Cap",
-      "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 25088,
-      "forks": 2370,
-      "starsToday": 423,
-      "topics": [],
-      "author": {
-        "name": "CapSoftware",
-        "avatar": "https://avatars.githubusercontent.com/u/33632126?s=40&amp;v=4",
-        "url": "https://github.com/CapSoftware"
-      },
-      "summary": "开源的 Loom 替代品，用 Rust 打造，支持一键录制并生成美观可分享的屏幕录像，注重隐私与自托管。",
-      "tags": [
-        "screen-recording",
-        "rust",
-        "loom-alternative",
-        "video",
-        "open-source"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-16T05:27:21.709Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "herdr",
       "fullName": "herdrdev/herdr",
       "url": "https://github.com/herdrdev/herdr",
@@ -312,34 +340,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-16T05:27:21.662Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omnigraph",
-      "fullName": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2675,
-      "forks": 321,
-      "starsToday": 607,
-      "topics": [],
-      "author": {
-        "name": "ModernRelay",
-        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
-        "url": "https://github.com/ModernRelay"
-      },
-      "summary": "基于对象存储的原生图数据库，支持分支与类型化本体，用 Rust 编写，适合低成本可版本化的图数据管理。",
-      "tags": [
-        "graph-database",
-        "rust",
-        "object-storage",
-        "ontology",
-        "versioning"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-16T05:27:21.652Z",
       "deepwikiAvailable": false
     }
   ]
