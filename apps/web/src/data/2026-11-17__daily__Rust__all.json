@@ -2,9 +2,457 @@
   "date": "2026-11-17",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-11-17T07:04:14.293Z",
-  "enrichedAt": "2026-11-17T07:05:05.079Z",
+  "fetchedAt": "2026-11-17T18:16:23.334Z",
+  "enrichedAt": "2026-11-17T18:17:10.725Z",
   "repos": [
+    {
+      "name": "jiff",
+      "fullName": "BurntSushi/jiff",
+      "url": "https://github.com/BurntSushi/jiff",
+      "description": "A datetime library for Rust that encourages you to jump into the pit of success.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3147,
+      "forks": 141,
+      "starsToday": 61,
+      "topics": [],
+      "author": {
+        "name": "BurntSushi",
+        "avatar": "https://avatars.githubusercontent.com/u/456674?s=40&amp;v=4",
+        "url": "https://github.com/BurntSushi"
+      },
+      "summary": "Rust 日期时间库，提供安全易用的 API 设计，引导开发者自然避开时区与时间计算中的常见陷阱。",
+      "tags": [
+        "rust",
+        "datetime",
+        "timezone",
+        "library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-17T18:17:06.202Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 155192,
+      "forks": 10156,
+      "starsToday": 312,
+      "topics": [],
+      "author": {
+        "name": "farion1231",
+        "avatar": "https://avatars.githubusercontent.com/u/44939412?s=40&amp;v=4",
+        "url": "https://github.com/farion1231"
+      },
+      "summary": "跨平台桌面工具，一站式管理 Claude Code、Codex、OpenCode 等 AI 编程助手的配置与切换，基于 Rust 构建。",
+      "tags": [
+        "desktop",
+        "rust",
+        "claude-code",
+        "codex",
+        "config-manager"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:17:05.541Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbx",
+      "fullName": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 30624,
+      "forks": 2790,
+      "starsToday": 101,
+      "topics": [],
+      "author": {
+        "name": "t8y2",
+        "avatar": "https://avatars.githubusercontent.com/u/77960507?s=40&amp;v=4",
+        "url": "https://github.com/t8y2"
+      },
+      "summary": "25MB轻量跨平台数据库客户端，支持MySQL、PostgreSQL、SQLite、Redis、MongoDB等100+数据库，内置AI助手、MCP服务与CLI，提供桌面端和Docker部署。",
+      "tags": [
+        "database",
+        "rust",
+        "ai",
+        "mcp",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:17:06.019Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bombadil",
+      "fullName": "antithesishq/bombadil",
+      "url": "https://github.com/antithesishq/bombadil",
+      "description": "Property-based testing for web and terminal UIs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2542,
+      "forks": 94,
+      "starsToday": 419,
+      "topics": [],
+      "author": {
+        "name": "antithesishq",
+        "avatar": "https://avatars.githubusercontent.com/u/1464328?s=40&amp;v=4",
+        "url": "https://github.com/antithesishq"
+      },
+      "summary": "基于属性的测试工具，用Rust编写，可自动生成并验证Web与终端UI的行为，帮助发现边界场景下的界面缺陷。",
+      "tags": [
+        "rust",
+        "testing",
+        "property-based-testing",
+        "ui",
+        "terminal"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:17:06.086Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "prime-agent",
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22800,
+      "forks": 2531,
+      "starsToday": 67,
+      "topics": [],
+      "author": {
+        "name": "PrimeIntellect-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/46242684?s=40&amp;v=4",
+        "url": "https://github.com/PrimeIntellect-ai"
+      },
+      "summary": "基于Rust的自我改进RLM智能体，面向编码工作流与长时间自主任务，可递归调用自身完成复杂工程。",
+      "tags": [
+        "agent",
+        "rust",
+        "rlm",
+        "autonomous",
+        "coding"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T18:17:07.125Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Switchyard",
+      "fullName": "NVIDIA-NeMo/Switchyard",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3629,
+      "forks": 376,
+      "starsToday": 41,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA-NeMo",
+        "avatar": "https://avatars.githubusercontent.com/u/186739590?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA-NeMo"
+      },
+      "summary": "LLM流量路由网关，兼容OpenAI与Anthropic原生API，支持多模型多供应商灵活切换、基准测试与成本性能优化。",
+      "tags": [
+        "llm",
+        "gateway",
+        "routing",
+        "openai",
+        "anthropic",
+        "rust"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-17T18:17:07.210Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "hex",
+      "fullName": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex",
+      "description": "Local voice dictation for mac, windows and linux",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 7256,
+      "forks": 472,
+      "starsToday": 198,
+      "topics": [],
+      "author": {
+        "name": "anomalyco",
+        "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&amp;v=4",
+        "url": "https://github.com/anomalyco"
+      },
+      "summary": "基于 Rust 的本地语音听写工具，支持 mac、Windows 和 Linux，无需联网即可将语音实时转为文字。",
+      "tags": [
+        "rust",
+        "voice",
+        "dictation",
+        "speech-to-text",
+        "cross-platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T18:17:07.375Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Codync",
+      "fullName": "leepokai/Codync",
+      "url": "https://github.com/leepokai/Codync",
+      "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2213,
+      "forks": 226,
+      "starsToday": 47,
+      "topics": [],
+      "author": {
+        "name": "leepokai",
+        "avatar": "https://avatars.githubusercontent.com/u/109857817?s=40&amp;v=4",
+        "url": "https://github.com/leepokai"
+      },
+      "summary": "用 Rust 编写的开源跨设备 AI 智能体消息网关，可将 Claude Code、Codex、Gemini CLI 等 40+ 智能体接入自有电脑，从手机、桌面或终端远程对话，自带订阅即可，免费且不绑定厂商。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "self-hosted",
+        "remote-access",
+        "cli"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:17:07.702Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36213,
+      "forks": 1679,
+      "starsToday": 55,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "基于 Rust 的开源 S3 兼容高性能对象存储系统，支持与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "rust",
+        "s3",
+        "object-storage",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-17T18:17:08.389Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "atuin",
+      "fullName": "atuinsh/atuin",
+      "url": "https://github.com/atuinsh/atuin",
+      "description": "✨ Making your shell magical",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32501,
+      "forks": 1048,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "atuinsh",
+        "avatar": "https://avatars.githubusercontent.com/u/53315310?s=40&amp;v=4",
+        "url": "https://github.com/atuinsh"
+      },
+      "summary": "Rust 编写的 shell 历史记录管理工具，用 SQLite 存储并同步命令历史，支持模糊搜索、统计与多机共享，让终端操作更高效。",
+      "tags": [
+        "shell",
+        "history",
+        "rust",
+        "cli",
+        "sync"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-17T18:17:08.855Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pgrust",
+      "fullName": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust",
+      "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5847,
+      "forks": 232,
+      "starsToday": 20,
+      "topics": [],
+      "author": {
+        "name": "malisper",
+        "avatar": "https://avatars.githubusercontent.com/u/6210567?s=40&amp;v=4",
+        "url": "https://github.com/malisper"
+      },
+      "summary": "用 Rust 重写的 Postgres 兼容数据库，性能超越 Postgres 与 ClickHouse，适合高吞吐分析查询场景。",
+      "tags": [
+        "rust",
+        "postgres",
+        "database",
+        "sql",
+        "performance"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-17T18:17:08.565Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pnpm",
+      "fullName": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37110,
+      "forks": 1989,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "pnpm",
+        "avatar": "https://avatars.githubusercontent.com/u/1927579?s=40&amp;v=4",
+        "url": "https://github.com/pnpm"
+      },
+      "summary": "pnpm 是快速、节省磁盘空间的 JavaScript 包管理器，通过硬链接共享依赖存储，安装更快且严格管理依赖结构。",
+      "tags": [
+        "pnpm",
+        "package-manager",
+        "javascript",
+        "nodejs",
+        "monorepo"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:17:09.117Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 112026,
+      "forks": 6682,
+      "starsToday": 693,
+      "topics": [],
+      "author": {
+        "name": "pbakaus",
+        "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&amp;v=4",
+        "url": "https://github.com/pbakaus"
+      },
+      "summary": "为编码智能体提供设计词汇与命令集，用polish、bolder、critique、audit等指令打磨与审查界面，在交付前拦截AI生成的粗糙设计。",
+      "tags": [
+        "ai",
+        "design",
+        "agent",
+        "code-review",
+        "rust"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:17:09.902Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cockpit-tools",
+      "fullName": "jlcodes99/cockpit-tools",
+      "url": "https://github.com/jlcodes99/cockpit-tools",
+      "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 20077,
+      "forks": 1822,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "jlcodes99",
+        "avatar": "https://avatars.githubusercontent.com/u/224477852?s=40&amp;v=4",
+        "url": "https://github.com/jlcodes99"
+      },
+      "summary": "通用 AI IDE 账号管理工具，支持多款 AI 编程工具的多账号切换、配额监控与自动唤醒。",
+      "tags": [
+        "ai-ide",
+        "account-manager",
+        "rust",
+        "quota-monitor",
+        "multi-account"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:17:09.893Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "dbdelve",
+      "fullName": "ShayanAbbas1/dbdelve",
+      "url": "https://github.com/ShayanAbbas1/dbdelve",
+      "description": "Fast and lightweight DB Client made in Rust and GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1543,
+      "forks": 88,
+      "starsToday": 63,
+      "topics": [],
+      "author": {
+        "name": "ShayanAbbas1",
+        "avatar": "https://avatars.githubusercontent.com/u/74356580?s=40&amp;v=4",
+        "url": "https://github.com/ShayanAbbas1"
+      },
+      "summary": "用 Rust 和 GPUI 编写的轻量快速数据库客户端，主打高性能与低资源占用的数据库管理体验。",
+      "tags": [
+        "rust",
+        "database",
+        "gui",
+        "gpui",
+        "client"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:17:10.365Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Agent2API",
+      "fullName": "aimod-cc/Agent2API",
+      "url": "https://github.com/aimod-cc/Agent2API",
+      "description": "Local AI routing gateway with Agent client takeover — reuse existing client logins, call 50+ AI clients through one base URL, with unified OpenAI / Anthropic / Images APIs, multi-account routing, check-in, balance and request reports · 本地 AI 路由网关 + Agent 客户端接管：复用各家客户端登录态，一个 base_url 调用 50+ 家模型额度，统一 OpenAI / Anthropic / 生图接口，多账号选路、签到、余额与请求报表一体管理",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2462,
+      "forks": 675,
+      "starsToday": 52,
+      "topics": [],
+      "author": {
+        "name": "aimod-cc",
+        "avatar": "https://avatars.githubusercontent.com/u/57995614?s=40&amp;v=4",
+        "url": "https://github.com/aimod-cc"
+      },
+      "summary": "本地 AI 路由网关，复用现有客户端登录态，用一个 base_url 统一调用 50+ 家模型额度，支持多账号选路、签到与余额报表。",
+      "tags": [
+        "ai-gateway",
+        "rust",
+        "openai-api",
+        "proxy",
+        "multi-account"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-17T18:17:10.725Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "omnigraph",
       "fullName": "ModernRelay/omnigraph",

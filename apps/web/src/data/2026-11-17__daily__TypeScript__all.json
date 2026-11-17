@@ -2,65 +2,9 @@
   "date": "2026-11-17",
   "since": "daily",
   "language": "TypeScript",
-  "fetchedAt": "2026-11-17T07:04:14.293Z",
-  "enrichedAt": "2026-11-17T07:04:42.985Z",
+  "fetchedAt": "2026-11-17T18:16:23.334Z",
+  "enrichedAt": "2026-11-17T18:16:53.620Z",
   "repos": [
-    {
-      "name": "ag-ui",
-      "fullName": "ag-ui-protocol/ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 19454,
-      "forks": 2007,
-      "starsToday": 791,
-      "topics": [],
-      "author": {
-        "name": "ag-ui-protocol",
-        "avatar": "https://avatars.githubusercontent.com/u/11162004?s=40&amp;v=4",
-        "url": "https://github.com/ag-ui-protocol"
-      },
-      "summary": "AG-UI 是连接 AI Agent 与前端应用的交互协议，提供事件流标准与多语言 SDK，让 Agent 状态、消息和工具调用实时同步到 UI。",
-      "tags": [
-        "agent",
-        "protocol",
-        "frontend",
-        "typescript",
-        "sdk"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-17T07:04:38.475Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "plannotator",
-      "fullName": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 12772,
-      "forks": 1263,
-      "starsToday": 696,
-      "topics": [],
-      "author": {
-        "name": "backnotprop",
-        "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&amp;v=4",
-        "url": "https://github.com/backnotprop"
-      },
-      "summary": "面向AI编码代理的协作工作台，支持规划、批注、代码评审与团队共享，一键将反馈回传给代理。",
-      "tags": [
-        "ai-agents",
-        "code-review",
-        "collaboration",
-        "typescript",
-        "developer-tools"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-17T07:04:38.907Z",
-      "deepwikiAvailable": false
-    },
     {
       "name": "univer",
       "fullName": "dream-num/univer",
@@ -68,9 +12,9 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 28257,
-      "forks": 2559,
-      "starsToday": 1828,
+      "stars": 28787,
+      "forks": 2613,
+      "starsToday": 1776,
       "topics": [],
       "author": {
         "name": "dream-num",
@@ -96,9 +40,9 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 9831,
-      "forks": 1276,
-      "starsToday": 529,
+      "stars": 10006,
+      "forks": 1322,
+      "starsToday": 350,
       "topics": [],
       "author": {
         "name": "google-labs-code",
@@ -118,15 +62,99 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "plugins",
+      "fullName": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 16826,
+      "forks": 1825,
+      "starsToday": 196,
+      "topics": [],
+      "author": {
+        "name": "cursor",
+        "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&amp;v=4",
+        "url": "https://github.com/cursor"
+      },
+      "summary": "Cursor 官方插件规范与官方插件集合，提供插件开发标准与示例，便于为 Cursor 编辑器扩展能力。",
+      "tags": [
+        "cursor",
+        "plugins",
+        "typescript",
+        "specification",
+        "editor"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:16:51.067Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ag-ui",
+      "fullName": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 19891,
+      "forks": 2061,
+      "starsToday": 1444,
+      "topics": [],
+      "author": {
+        "name": "ag-ui-protocol",
+        "avatar": "https://avatars.githubusercontent.com/u/11162004?s=40&amp;v=4",
+        "url": "https://github.com/ag-ui-protocol"
+      },
+      "summary": "AG-UI 是连接 AI Agent 与前端应用的交互协议，提供事件流标准与多语言 SDK，让 Agent 状态、消息和工具调用实时同步到 UI。",
+      "tags": [
+        "agent",
+        "protocol",
+        "frontend",
+        "typescript",
+        "sdk"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T07:04:38.475Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "plannotator",
+      "fullName": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 12975,
+      "forks": 1307,
+      "starsToday": 691,
+      "topics": [],
+      "author": {
+        "name": "backnotprop",
+        "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&amp;v=4",
+        "url": "https://github.com/backnotprop"
+      },
+      "summary": "面向AI编码代理的协作工作台，支持规划、批注、代码评审与团队共享，一键将反馈回传给代理。",
+      "tags": [
+        "ai-agents",
+        "code-review",
+        "collaboration",
+        "typescript",
+        "developer-tools"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T07:04:38.907Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "chrome-devtools-mcp",
       "fullName": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 57814,
-      "forks": 4857,
-      "starsToday": 841,
+      "stars": 57999,
+      "forks": 4868,
+      "starsToday": 562,
       "topics": [],
       "author": {
         "name": "ChromeDevTools",
@@ -143,6 +171,316 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-17T07:04:40.055Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "karakeep",
+      "fullName": "karakeep-app/karakeep",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 30645,
+      "forks": 1657,
+      "starsToday": 38,
+      "topics": [],
+      "author": {
+        "name": "karakeep-app",
+        "avatar": "https://avatars.githubusercontent.com/u/2418637?s=40&amp;v=4",
+        "url": "https://github.com/karakeep-app"
+      },
+      "summary": "可自托管的全能书签应用，统一收藏链接、笔记和图片，支持AI自动打标签与全文搜索。",
+      "tags": [
+        "bookmarks",
+        "self-hosted",
+        "ai",
+        "search",
+        "typescript"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T18:16:50.987Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "freellmapi",
+      "fullName": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 53946,
+      "forks": 7586,
+      "starsToday": 649,
+      "topics": [],
+      "author": {
+        "name": "tashfeenahmed",
+        "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&amp;v=4",
+        "url": "https://github.com/tashfeenahmed"
+      },
+      "summary": "聚合87家免费LLM提供商的1300多个模型端点，统一为单个OpenAI兼容/v1接口，支持智能路由、自动故障转移与密钥加密。",
+      "tags": [
+        "llm",
+        "api-gateway",
+        "openai",
+        "typescript",
+        "failover",
+        "proxy"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T18:16:51.043Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "G0DM0D3",
+      "fullName": "elder-plinius/G0DM0D3",
+      "url": "https://github.com/elder-plinius/G0DM0D3",
+      "description": "LIBERATED AI CHAT",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 12620,
+      "forks": 2920,
+      "starsToday": 107,
+      "topics": [],
+      "author": {
+        "name": "elder-plinius",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/elder-plinius"
+      },
+      "summary": "开源无限制AI聊天客户端，TypeScript编写，主打绕过审查的自由对话体验，支持多模型接入。",
+      "tags": [
+        "ai",
+        "chat",
+        "typescript",
+        "llm",
+        "uncensored"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T18:16:50.815Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "orca",
+      "fullName": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 127640,
+      "forks": 8091,
+      "starsToday": 1052,
+      "topics": [],
+      "author": {
+        "name": "stablyai",
+        "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&amp;v=4",
+        "url": "https://github.com/stablyai"
+      },
+      "summary": "Orca 让你用自己的订阅批量运行 Claude Code、Codex 等编码智能体，支持桌面、移动端与远程运行时统一调度。",
+      "tags": [
+        "ai-agents",
+        "coding-agent",
+        "typescript",
+        "multi-agent",
+        "remote"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T18:16:52.125Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "OpenMausBot",
+      "fullName": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 24706,
+      "forks": 3463,
+      "starsToday": 662,
+      "topics": [],
+      "author": {
+        "name": "milind-soni",
+        "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&amp;v=4",
+        "url": "https://github.com/milind-soni"
+      },
+      "summary": "开源Grok Bot替代方案，为AI机器人提供可操作的虚拟机环境，让智能体像人一样使用桌面完成任务。",
+      "tags": [
+        "ai",
+        "agent",
+        "vm",
+        "typescript",
+        "automation"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T18:16:52.171Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mastra",
+      "fullName": "mastra-ai/mastra",
+      "url": "https://github.com/mastra-ai/mastra",
+      "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 29565,
+      "forks": 3110,
+      "starsToday": 25,
+      "topics": [],
+      "author": {
+        "name": "mastra-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/2359375?s=40&amp;v=4",
+        "url": "https://github.com/mastra-ai"
+      },
+      "summary": "Mastra 是面向 AI 应用与智能体的现代 TypeScript 框架，提供工作流、记忆、RAG 与多模型集成能力，帮助开发者快速构建可上线的 AI 功能。",
+      "tags": [
+        "typescript",
+        "ai",
+        "agents",
+        "framework",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T18:16:52.406Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "mailflare",
+      "fullName": "hieunc229/mailflare",
+      "url": "https://github.com/hieunc229/mailflare",
+      "description": "Email for professionals and teams",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 6805,
+      "forks": 1172,
+      "starsToday": 184,
+      "topics": [],
+      "author": {
+        "name": "hieunc229",
+        "avatar": "https://avatars.githubusercontent.com/u/8464869?s=40&amp;v=4",
+        "url": "https://github.com/hieunc229"
+      },
+      "summary": "基于 Cloudflare 的自托管邮件服务，为专业人士和团队提供收发邮件能力，无需自建服务器即可低成本部署。",
+      "tags": [
+        "email",
+        "cloudflare",
+        "self-hosted",
+        "typescript",
+        "serverless"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T07:04:42.928Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rakazo",
+      "fullName": "elie222/rakazo",
+      "url": "https://github.com/elie222/rakazo",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 8995,
+      "forks": 1614,
+      "starsToday": 186,
+      "topics": [],
+      "author": {
+        "name": "elie222",
+        "avatar": "https://avatars.githubusercontent.com/u/3090527?s=40&amp;v=4",
+        "url": "https://github.com/elie222"
+      },
+      "summary": "开源版 Grok Bot 替代方案，可自选模型与沙箱环境，基于 TypeScript 构建，适合自托管 AI 助手。",
+      "tags": [
+        "ai",
+        "chatbot",
+        "typescript",
+        "self-hosted",
+        "sandbox",
+        "llm"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T07:04:41.432Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "openbot",
+      "fullName": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 8556,
+      "forks": 832,
+      "starsToday": 343,
+      "topics": [],
+      "author": {
+        "name": "nightly-labs",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/nightly-labs"
+      },
+      "summary": "本地优先的桌面工作区，让Codex、Claude、Grok等AI代理拥有独立空间、任务队列与文件共享，支持浏览器控制与代理间协作。",
+      "tags": [
+        "ai-agents",
+        "desktop",
+        "local-first",
+        "typescript",
+        "multi-agent"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T18:16:52.332Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pocketpal-ai",
+      "fullName": "a-ghorbani/pocketpal-ai",
+      "url": "https://github.com/a-ghorbani/pocketpal-ai",
+      "description": "An app that brings language models directly to your phone.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 9529,
+      "forks": 1141,
+      "starsToday": 85,
+      "topics": [],
+      "author": {
+        "name": "a-ghorbani",
+        "avatar": "https://avatars.githubusercontent.com/u/11278140?s=40&amp;v=4",
+        "url": "https://github.com/a-ghorbani"
+      },
+      "summary": "在手机上本地运行大语言模型的开源应用，支持离线推理与模型管理，让移动端也能私密使用 AI。",
+      "tags": [
+        "llm",
+        "mobile",
+        "on-device",
+        "typescript",
+        "offline"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T18:16:53.620Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "m3e-canvas",
+      "fullName": "lnkiai/m3e-canvas",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 10547,
+      "forks": 1181,
+      "starsToday": 101,
+      "topics": [],
+      "author": {
+        "name": "lnkiai",
+        "avatar": "https://avatars.githubusercontent.com/u/187016380?s=40&amp;v=4",
+        "url": "https://github.com/lnkiai"
+      },
+      "summary": "浏览器中手绘 Material 3 Expressive 界面草图，并自动转换为可用于 vibe-coding 的提示词。",
+      "tags": [
+        "material-design",
+        "ui-design",
+        "sketch",
+        "prompt",
+        "typescript"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T18:16:53.449Z",
       "deepwikiAvailable": false
     },
     {
@@ -230,35 +568,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "rakazo",
-      "fullName": "elie222/rakazo",
-      "url": "https://github.com/elie222/rakazo",
-      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 8899,
-      "forks": 1592,
-      "starsToday": 266,
-      "topics": [],
-      "author": {
-        "name": "elie222",
-        "avatar": "https://avatars.githubusercontent.com/u/3090527?s=40&amp;v=4",
-        "url": "https://github.com/elie222"
-      },
-      "summary": "开源版 Grok Bot 替代方案，可自选模型与沙箱环境，基于 TypeScript 构建，适合自托管 AI 助手。",
-      "tags": [
-        "ai",
-        "chatbot",
-        "typescript",
-        "self-hosted",
-        "sandbox",
-        "llm"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-17T07:04:41.432Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "nest",
       "fullName": "nestjs/nest",
       "url": "https://github.com/nestjs/nest",
@@ -341,34 +650,6 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-11-17T07:04:42.924Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "mailflare",
-      "fullName": "hieunc229/mailflare",
-      "url": "https://github.com/hieunc229/mailflare",
-      "description": "Email for professionals and teams",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 6721,
-      "forks": 1152,
-      "starsToday": 254,
-      "topics": [],
-      "author": {
-        "name": "hieunc229",
-        "avatar": "https://avatars.githubusercontent.com/u/8464869?s=40&amp;v=4",
-        "url": "https://github.com/hieunc229"
-      },
-      "summary": "基于 Cloudflare 的自托管邮件服务，为专业人士和团队提供收发邮件能力，无需自建服务器即可低成本部署。",
-      "tags": [
-        "email",
-        "cloudflare",
-        "self-hosted",
-        "typescript",
-        "serverless"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-17T07:04:42.928Z",
       "deepwikiAvailable": false
     },
     {

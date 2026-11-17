@@ -2,8 +2,8 @@
   "date": "2026-11-17",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-11-17T07:04:14.293Z",
-  "enrichedAt": "2026-11-17T07:05:36.054Z",
+  "fetchedAt": "2026-11-17T18:16:23.334Z",
+  "enrichedAt": "2026-11-17T18:17:20.623Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,8 +12,8 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 53175,
-      "forks": 4354,
+      "stars": 53582,
+      "forks": 4415,
       "starsToday": 3056,
       "topics": [],
       "author": {
@@ -34,14 +34,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "arcane",
+      "fullName": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 9190,
+      "forks": 501,
+      "starsToday": 199,
+      "topics": [],
+      "author": {
+        "name": "getarcaneapp",
+        "avatar": "https://avatars.githubusercontent.com/u/25576967?s=40&amp;v=4",
+        "url": "https://github.com/getarcaneapp"
+      },
+      "summary": "基于 Go 的现代化 Docker 管理平台，提供简洁易用的 Web 界面来管理容器、镜像与编排，降低 Docker 运维门槛。",
+      "tags": [
+        "docker",
+        "go",
+        "self-hosted",
+        "container",
+        "webui"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T07:05:36.054Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "OpenSandbox",
       "fullName": "opensandbox-group/OpenSandbox",
       "url": "https://github.com/opensandbox-group/OpenSandbox",
       "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 17403,
-      "forks": 1667,
+      "stars": 17461,
+      "forks": 1681,
       "starsToday": 600,
       "topics": [],
       "author": {
@@ -62,42 +90,14 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 6917,
-      "forks": 772,
-      "starsToday": 600,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "用 Go 编写的 AI Agent 核心运行时系统，为构建和编排智能体提供底层基础设施。",
-      "tags": [
-        "agent",
-        "go",
-        "runtime",
-        "infra",
-        "orchestration"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-17T07:05:30.508Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "trufflehog",
       "fullName": "trufflesecurity/trufflehog",
       "url": "https://github.com/trufflesecurity/trufflehog",
       "description": "Find, verify, and analyze leaked credentials",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 29445,
-      "forks": 2767,
+      "stars": 29469,
+      "forks": 2774,
       "starsToday": 370,
       "topics": [],
       "author": {
@@ -118,14 +118,70 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "google-maps-scraper",
+      "fullName": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8191,
+      "forks": 1305,
+      "starsToday": 438,
+      "topics": [],
+      "author": {
+        "name": "gosom",
+        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
+        "url": "https://github.com/gosom"
+      },
+      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、邮箱及经纬度等信息。",
+      "tags": [
+        "go",
+        "scraper",
+        "google-maps",
+        "data-extraction",
+        "cli"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-17T07:05:34.350Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7187,
+      "forks": 797,
+      "starsToday": 600,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "用 Go 编写的 AI Agent 核心运行时系统，为构建和编排智能体提供底层基础设施。",
+      "tags": [
+        "agent",
+        "go",
+        "runtime",
+        "infra",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-17T07:05:30.508Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "cli",
       "fullName": "cli/cli",
       "url": "https://github.com/cli/cli",
       "description": "GitHub’s official command line tool",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 47053,
-      "forks": 9387,
+      "stars": 47064,
+      "forks": 9404,
       "starsToday": 147,
       "topics": [],
       "author": {
@@ -143,6 +199,286 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-11-17T07:05:31.814Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tailcat",
+      "fullName": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 10046,
+      "forks": 466,
+      "starsToday": 1212,
+      "topics": [],
+      "author": {
+        "name": "tailscale",
+        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
+        "url": "https://github.com/tailscale"
+      },
+      "summary": "类似 netcat 的网络工具，通过 Tailscale 数据平面直连传输，无需其控制平面，用于点对点调试与数据传输。",
+      "tags": [
+        "netcat",
+        "tailscale",
+        "networking",
+        "go",
+        "p2p"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-17T07:05:31.919Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 121007,
+      "forks": 7066,
+      "starsToday": 2258,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "Go 编写的编码智能体代理与技能，让模型用\"原始人语\"说话，削减约 65% token 消耗。",
+      "tags": [
+        "llm",
+        "proxy",
+        "token-saving",
+        "agents",
+        "go"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T07:05:32.867Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "skillshare",
+      "fullName": "runkids/skillshare",
+      "url": "https://github.com/runkids/skillshare",
+      "description": "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3205,
+      "forks": 385,
+      "starsToday": 191,
+      "topics": [],
+      "author": {
+        "name": "runkids",
+        "avatar": "https://avatars.githubusercontent.com/u/15520254?s=40&amp;v=4",
+        "url": "https://github.com/runkids"
+      },
+      "summary": "用一条命令把技能、Agent、MCP 与插件同步到各类 AI CLI 工具，简化团队共享与配置分发。",
+      "tags": [
+        "ai",
+        "cli",
+        "mcp",
+        "sync",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T07:05:33.059Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kagent",
+      "fullName": "kagent-dev/kagent",
+      "url": "https://github.com/kagent-dev/kagent",
+      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4403,
+      "forks": 926,
+      "starsToday": 169,
+      "topics": [],
+      "author": {
+        "name": "kagent-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&amp;v=4",
+        "url": "https://github.com/kagent-dev"
+      },
+      "summary": "基于 Kubernetes 的云原生 AI Agent 框架，用 Go 编写，可在集群内构建、部署和编排智能体。",
+      "tags": [
+        "kubernetes",
+        "ai-agents",
+        "go",
+        "cloud-native",
+        "mcp"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T07:05:33.361Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "evcc",
+      "fullName": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "smart charging ☀️🚘",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7625,
+      "forks": 1644,
+      "starsToday": 73,
+      "topics": [],
+      "author": {
+        "name": "evcc-io",
+        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
+        "url": "https://github.com/evcc-io"
+      },
+      "summary": "开源电动汽车智能充电控制器，用Go编写，可对接光伏、电池、电价与上百款车型和充电桩，按余电自动调节充电功率。",
+      "tags": [
+        "ev-charging",
+        "solar",
+        "energy",
+        "go",
+        "home-automation"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T07:05:33.249Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 39117,
+      "forks": 6109,
+      "starsToday": 321,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "Docker Compose 官方工具，用 YAML 定义并一键启动多容器应用，简化本地开发与编排部署。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "go",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T07:05:34.655Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "multica",
+      "fullName": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 56467,
+      "forks": 7445,
+      "starsToday": 985,
+      "topics": [],
+      "author": {
+        "name": "multica-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
+        "url": "https://github.com/multica-ai"
+      },
+      "summary": "开源可自托管的人机协作平台，让人类与 AI 智能体作为同一团队协同工作，基于 Go 构建。",
+      "tags": [
+        "ai-agents",
+        "collaboration",
+        "self-hosted",
+        "go",
+        "teamwork"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-17T07:05:34.579Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gitleaks",
+      "fullName": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 31133,
+      "forks": 2385,
+      "starsToday": 271,
+      "topics": [],
+      "author": {
+        "name": "gitleaks",
+        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
+        "url": "https://github.com/gitleaks"
+      },
+      "summary": "Gitleaks 是 Go 编写的密钥扫描工具，可检测代码与提交历史中的密码、令牌等敏感信息，支持 CI 集成与自定义规则。",
+      "tags": [
+        "security",
+        "secrets",
+        "scanner",
+        "go",
+        "ci"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-17T07:05:34.622Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16404,
+      "forks": 1832,
+      "starsToday": 190,
+      "topics": [],
+      "author": {
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
+      },
+      "summary": "开源自托管邮件服务器，集邮件营销与Newsletter于一体，免月费、对开发者友好，可替代商业邮件平台。",
+      "tags": [
+        "mailserver",
+        "email-marketing",
+        "newsletter",
+        "self-hosted",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-17T18:17:20.464Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "navidrome",
+      "fullName": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 24811,
+      "forks": 1822,
+      "starsToday": 189,
+      "topics": [],
+      "author": {
+        "name": "navidrome",
+        "avatar": "https://avatars.githubusercontent.com/u/331353?s=40&amp;v=4",
+        "url": "https://github.com/navidrome"
+      },
+      "summary": "Go 编写的自托管音乐流媒体服务器，扫描本地曲库并提供网页与 Subsonic 兼容 API 播放，轻量易部署。",
+      "tags": [
+        "music",
+        "streaming",
+        "self-hosted",
+        "go",
+        "subsonic"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T18:17:20.622Z",
       "deepwikiAvailable": false
     },
     {
@@ -172,258 +508,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-17T07:05:32.109Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "tailcat",
-      "fullName": "tailscale/tailcat",
-      "url": "https://github.com/tailscale/tailcat",
-      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 10024,
-      "forks": 464,
-      "starsToday": 1212,
-      "topics": [],
-      "author": {
-        "name": "tailscale",
-        "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&amp;v=4",
-        "url": "https://github.com/tailscale"
-      },
-      "summary": "类似 netcat 的网络工具，通过 Tailscale 数据平面直连传输，无需其控制平面，用于点对点调试与数据传输。",
-      "tags": [
-        "netcat",
-        "tailscale",
-        "networking",
-        "go",
-        "p2p"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-17T07:05:31.919Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 120822,
-      "forks": 7059,
-      "starsToday": 2258,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "Go 编写的编码智能体代理与技能，让模型用\"原始人语\"说话，削减约 65% token 消耗。",
-      "tags": [
-        "llm",
-        "proxy",
-        "token-saving",
-        "agents",
-        "go"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-17T07:05:32.867Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "skillshare",
-      "fullName": "runkids/skillshare",
-      "url": "https://github.com/runkids/skillshare",
-      "description": "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3195,
-      "forks": 385,
-      "starsToday": 191,
-      "topics": [],
-      "author": {
-        "name": "runkids",
-        "avatar": "https://avatars.githubusercontent.com/u/15520254?s=40&amp;v=4",
-        "url": "https://github.com/runkids"
-      },
-      "summary": "用一条命令把技能、Agent、MCP 与插件同步到各类 AI CLI 工具，简化团队共享与配置分发。",
-      "tags": [
-        "ai",
-        "cli",
-        "mcp",
-        "sync",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-17T07:05:33.059Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kagent",
-      "fullName": "kagent-dev/kagent",
-      "url": "https://github.com/kagent-dev/kagent",
-      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4388,
-      "forks": 923,
-      "starsToday": 169,
-      "topics": [],
-      "author": {
-        "name": "kagent-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&amp;v=4",
-        "url": "https://github.com/kagent-dev"
-      },
-      "summary": "基于 Kubernetes 的云原生 AI Agent 框架，用 Go 编写，可在集群内构建、部署和编排智能体。",
-      "tags": [
-        "kubernetes",
-        "ai-agents",
-        "go",
-        "cloud-native",
-        "mcp"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-17T07:05:33.361Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "evcc",
-      "fullName": "evcc-io/evcc",
-      "url": "https://github.com/evcc-io/evcc",
-      "description": "smart charging ☀️🚘",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7621,
-      "forks": 1646,
-      "starsToday": 73,
-      "topics": [],
-      "author": {
-        "name": "evcc-io",
-        "avatar": "https://avatars.githubusercontent.com/u/184815?s=40&amp;v=4",
-        "url": "https://github.com/evcc-io"
-      },
-      "summary": "开源电动汽车智能充电控制器，用Go编写，可对接光伏、电池、电价与上百款车型和充电桩，按余电自动调节充电功率。",
-      "tags": [
-        "ev-charging",
-        "solar",
-        "energy",
-        "go",
-        "home-automation"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-17T07:05:33.249Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "google-maps-scraper",
-      "fullName": "gosom/google-maps-scraper",
-      "url": "https://github.com/gosom/google-maps-scraper",
-      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8154,
-      "forks": 1296,
-      "starsToday": 438,
-      "topics": [],
-      "author": {
-        "name": "gosom",
-        "avatar": "https://avatars.githubusercontent.com/u/454718?s=40&amp;v=4",
-        "url": "https://github.com/gosom"
-      },
-      "summary": "用 Go 编写的 Google Maps 数据抓取工具，可批量提取商家名称、地址、电话、网站、评分、评论、邮箱及经纬度等信息。",
-      "tags": [
-        "go",
-        "scraper",
-        "google-maps",
-        "data-extraction",
-        "cli"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-17T07:05:34.350Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "multica",
-      "fullName": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 56406,
-      "forks": 7437,
-      "starsToday": 985,
-      "topics": [],
-      "author": {
-        "name": "multica-ai",
-        "avatar": "https://avatars.githubusercontent.com/u/280515704?s=40&amp;v=4",
-        "url": "https://github.com/multica-ai"
-      },
-      "summary": "开源可自托管的人机协作平台，让人类与 AI 智能体作为同一团队协同工作，基于 Go 构建。",
-      "tags": [
-        "ai-agents",
-        "collaboration",
-        "self-hosted",
-        "go",
-        "teamwork"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-17T07:05:34.579Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "gitleaks",
-      "fullName": "gitleaks/gitleaks",
-      "url": "https://github.com/gitleaks/gitleaks",
-      "description": "Find secrets with Gitleaks 🔑",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 31105,
-      "forks": 2384,
-      "starsToday": 271,
-      "topics": [],
-      "author": {
-        "name": "gitleaks",
-        "avatar": "https://avatars.githubusercontent.com/u/15034943?s=40&amp;v=4",
-        "url": "https://github.com/gitleaks"
-      },
-      "summary": "Gitleaks 是 Go 编写的密钥扫描工具，可检测代码与提交历史中的密码、令牌等敏感信息，支持 CI 集成与自定义规则。",
-      "tags": [
-        "security",
-        "secrets",
-        "scanner",
-        "go",
-        "ci"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-17T07:05:34.622Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "compose",
-      "fullName": "docker/compose",
-      "url": "https://github.com/docker/compose",
-      "description": "Define and run multi-container applications with Docker",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 38920,
-      "forks": 6021,
-      "starsToday": 321,
-      "topics": [],
-      "author": {
-        "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
-        "url": "https://github.com/docker"
-      },
-      "summary": "Docker Compose 官方工具，用 YAML 定义并一键启动多容器应用，简化本地开发与编排部署。",
-      "tags": [
-        "docker",
-        "containers",
-        "orchestration",
-        "go",
-        "devops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-17T07:05:34.655Z",
       "deepwikiAvailable": false
     },
     {
@@ -480,34 +564,6 @@
       ],
       "category": "Infra",
       "enrichedAt": "2026-11-17T07:05:35.829Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "arcane",
-      "fullName": "getarcaneapp/arcane",
-      "url": "https://github.com/getarcaneapp/arcane",
-      "description": "Modern Docker Management, Designed for Everyone",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 8918,
-      "forks": 455,
-      "starsToday": 199,
-      "topics": [],
-      "author": {
-        "name": "getarcaneapp",
-        "avatar": "https://avatars.githubusercontent.com/u/25576967?s=40&amp;v=4",
-        "url": "https://github.com/getarcaneapp"
-      },
-      "summary": "基于 Go 的现代化 Docker 管理平台，提供简洁易用的 Web 界面来管理容器、镜像与编排，降低 Docker 运维门槛。",
-      "tags": [
-        "docker",
-        "go",
-        "self-hosted",
-        "container",
-        "webui"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-17T07:05:36.054Z",
       "deepwikiAvailable": false
     }
   ]

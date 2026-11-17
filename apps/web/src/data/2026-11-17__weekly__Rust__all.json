@@ -2,8 +2,8 @@
   "date": "2026-11-17",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-11-17T07:04:14.293Z",
-  "enrichedAt": "2026-11-17T07:05:40.161Z",
+  "fetchedAt": "2026-11-17T18:16:23.334Z",
+  "enrichedAt": "2026-11-17T18:17:22.279Z",
   "repos": [
     {
       "name": "agent-browser",
@@ -12,8 +12,8 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 52132,
-      "forks": 3646,
+      "stars": 52305,
+      "forks": 3657,
       "starsToday": 3760,
       "topics": [],
       "author": {
@@ -34,13 +34,41 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37555,
+      "forks": 4958,
+      "starsToday": 728,
+      "topics": [],
+      "author": {
+        "name": "block",
+        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
+        "url": "https://github.com/block"
+      },
+      "summary": "Rust 编写的蜂群思维通信平台，支持多智能体协作与分布式消息共享，用于构建群体智能协作系统。",
+      "tags": [
+        "rust",
+        "multi-agent",
+        "messaging",
+        "collaboration",
+        "distributed"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-17T07:05:37.323Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "topcoat",
       "fullName": "tokio-rs/topcoat",
       "url": "https://github.com/tokio-rs/topcoat",
       "description": "A batteries-included framework for building web apps",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7244,
+      "stars": 7250,
       "forks": 312,
       "starsToday": 836,
       "topics": [],
@@ -62,31 +90,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "buzz",
-      "fullName": "block/buzz",
-      "url": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
+      "name": "zellij",
+      "fullName": "zellij-org/zellij",
+      "url": "https://github.com/zellij-org/zellij",
+      "description": "A terminal workspace with batteries included",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37541,
-      "forks": 4960,
-      "starsToday": 728,
+      "stars": 36115,
+      "forks": 1545,
+      "starsToday": 177,
       "topics": [],
       "author": {
-        "name": "block",
-        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
-        "url": "https://github.com/block"
+        "name": "zellij-org",
+        "avatar": "https://avatars.githubusercontent.com/u/795598?s=40&amp;v=4",
+        "url": "https://github.com/zellij-org"
       },
-      "summary": "Rust 编写的蜂群思维通信平台，支持多智能体协作与分布式消息共享，用于构建群体智能协作系统。",
+      "summary": "Rust 编写的终端工作区与多路复用器，内置布局、面板、插件与协作功能，开箱即用。",
       "tags": [
+        "terminal",
+        "multiplexer",
         "rust",
-        "multi-agent",
-        "messaging",
-        "collaboration",
-        "distributed"
+        "cli",
+        "tui"
       ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-17T07:05:37.323Z",
+      "category": "CLI",
+      "enrichedAt": "2026-11-17T07:05:38.427Z",
       "deepwikiAvailable": false
     },
     {
@@ -96,8 +124,8 @@
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 24717,
-      "forks": 1843,
+      "stars": 24948,
+      "forks": 1865,
       "starsToday": 4451,
       "topics": [],
       "author": {
@@ -118,31 +146,143 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "zellij",
-      "fullName": "zellij-org/zellij",
-      "url": "https://github.com/zellij-org/zellij",
-      "description": "A terminal workspace with batteries included",
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 36107,
-      "forks": 1545,
-      "starsToday": 177,
+      "stars": 2937,
+      "forks": 330,
+      "starsToday": 800,
       "topics": [],
       "author": {
-        "name": "zellij-org",
-        "avatar": "https://avatars.githubusercontent.com/u/795598?s=40&amp;v=4",
-        "url": "https://github.com/zellij-org"
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
       },
-      "summary": "Rust 编写的终端工作区与多路复用器，内置布局、面板、插件与协作功能，开箱即用。",
+      "summary": "基于对象存储的原生图数据库，支持分支与类型化本体，用 Rust 编写，适合低成本、可版本化的图数据管理。",
       "tags": [
-        "terminal",
-        "multiplexer",
+        "graph-database",
         "rust",
-        "cli",
-        "tui"
+        "object-storage",
+        "branching",
+        "ontology"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-17T07:05:38.427Z",
+      "category": "Data",
+      "enrichedAt": "2026-11-17T07:05:39.803Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zapfast",
+      "fullName": "crmne/zapfast",
+      "url": "https://github.com/crmne/zapfast",
+      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4671,
+      "forks": 468,
+      "starsToday": 916,
+      "topics": [],
+      "author": {
+        "name": "crmne",
+        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
+        "url": "https://github.com/crmne"
+      },
+      "summary": "用 Rust 和 egui 编写的原生 WhatsApp 桌面客户端，主打轻量快速、低资源占用，替代官方 Electron 版本。",
+      "tags": [
+        "rust",
+        "whatsapp",
+        "egui",
+        "desktop",
+        "chat"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T18:17:22.269Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 6575,
+      "forks": 1089,
+      "starsToday": 1453,
+      "topics": [],
+      "author": {
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
+      },
+      "summary": "基于 Rust 的 WiFi 安全审计工具，图形化界面实现抓包、握手包捕获与密码破解，替代 aircrack-ng 命令行流程。",
+      "tags": [
+        "wifi",
+        "security",
+        "rust",
+        "audit",
+        "gui"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-11-17T18:17:21.893Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 129886,
+      "forks": 20820,
+      "starsToday": 1010,
+      "topics": [],
+      "author": {
+        "name": "rustdesk",
+        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
+        "url": "https://github.com/rustdesk"
+      },
+      "summary": "开源远程桌面应用，可自建服务器替代 TeamViewer，基于 Rust 跨平台运行，支持远程控制与文件传输。",
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "self-hosted",
+        "teamviewer-alternative",
+        "p2p"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T07:05:39.100Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sniffnet",
+      "fullName": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your network traffic 🕵️‍♂️",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 43014,
+      "forks": 2021,
+      "starsToday": 737,
+      "topics": [],
+      "author": {
+        "name": "GyulyVGC",
+        "avatar": "https://avatars.githubusercontent.com/u/100347457?s=40&amp;v=4",
+        "url": "https://github.com/GyulyVGC"
+      },
+      "summary": "基于Rust的跨平台网络流量监控工具，图形界面友好，可实时查看连接、过滤流量并分析带宽使用。",
+      "tags": [
+        "rust",
+        "network",
+        "monitoring",
+        "gui",
+        "privacy"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-17T18:17:22.279Z",
       "deepwikiAvailable": false
     },
     {
@@ -174,34 +314,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 129790,
-      "forks": 20793,
-      "starsToday": 1010,
-      "topics": [],
-      "author": {
-        "name": "rustdesk",
-        "avatar": "https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4",
-        "url": "https://github.com/rustdesk"
-      },
-      "summary": "开源远程桌面应用，可自建服务器替代 TeamViewer，基于 Rust 跨平台运行，支持远程控制与文件传输。",
-      "tags": [
-        "remote-desktop",
-        "rust",
-        "self-hosted",
-        "teamviewer-alternative",
-        "p2p"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-17T07:05:39.100Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "ruff",
       "fullName": "astral-sh/ruff",
       "url": "https://github.com/astral-sh/ruff",
@@ -227,34 +339,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-17T07:05:39.272Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omnigraph",
-      "fullName": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2867,
-      "forks": 330,
-      "starsToday": 800,
-      "topics": [],
-      "author": {
-        "name": "ModernRelay",
-        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
-        "url": "https://github.com/ModernRelay"
-      },
-      "summary": "基于对象存储的原生图数据库，支持分支与类型化本体，用 Rust 编写，适合低成本、可版本化的图数据管理。",
-      "tags": [
-        "graph-database",
-        "rust",
-        "object-storage",
-        "branching",
-        "ontology"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-17T07:05:39.803Z",
       "deepwikiAvailable": false
     },
     {
