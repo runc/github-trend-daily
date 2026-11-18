@@ -2,8 +2,8 @@
   "date": "2026-11-18",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-11-18T06:28:34.065Z",
-  "enrichedAt": "2026-11-18T06:30:03.318Z",
+  "fetchedAt": "2026-11-18T17:52:14.368Z",
+  "enrichedAt": "2026-11-18T17:53:17.924Z",
   "repos": [
     {
       "name": "agent-browser",
@@ -12,8 +12,8 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 52451,
-      "forks": 3668,
+      "stars": 52602,
+      "forks": 3680,
       "starsToday": 3429,
       "topics": [],
       "author": {
@@ -34,14 +34,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "omnigraph",
+      "fullName": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3029,
+      "forks": 336,
+      "starsToday": 956,
+      "topics": [],
+      "author": {
+        "name": "ModernRelay",
+        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
+        "url": "https://github.com/ModernRelay"
+      },
+      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用 Rust 编写，适合在 S3 类存储上做版本化图数据管理。",
+      "tags": [
+        "graph-database",
+        "rust",
+        "object-storage",
+        "ontology",
+        "versioning"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-18T06:30:01.992Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "buzz",
       "fullName": "block/buzz",
       "url": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37560,
-      "forks": 4958,
+      "stars": 37576,
+      "forks": 4962,
       "starsToday": 759,
       "topics": [],
       "author": {
@@ -62,14 +90,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "zellij",
+      "fullName": "zellij-org/zellij",
+      "url": "https://github.com/zellij-org/zellij",
+      "description": "A terminal workspace with batteries included",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36134,
+      "forks": 1549,
+      "starsToday": 183,
+      "topics": [],
+      "author": {
+        "name": "zellij-org",
+        "avatar": "https://avatars.githubusercontent.com/u/795598?s=40&amp;v=4",
+        "url": "https://github.com/zellij-org"
+      },
+      "summary": "Rust 编写的终端工作区与多路复用器，支持分屏、标签页、浮动面板和插件，开箱即用。",
+      "tags": [
+        "terminal",
+        "multiplexer",
+        "rust",
+        "cli",
+        "tui"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-18T06:30:00.762Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "topcoat",
       "fullName": "tokio-rs/topcoat",
       "url": "https://github.com/tokio-rs/topcoat",
       "description": "A batteries-included framework for building web apps",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7252,
-      "forks": 313,
+      "stars": 7262,
+      "forks": 312,
       "starsToday": 627,
       "topics": [],
       "author": {
@@ -90,31 +146,116 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "zellij",
-      "fullName": "zellij-org/zellij",
-      "url": "https://github.com/zellij-org/zellij",
-      "description": "A terminal workspace with batteries included",
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 36125,
-      "forks": 1546,
-      "starsToday": 183,
+      "stars": 6637,
+      "forks": 1094,
+      "starsToday": 1468,
       "topics": [],
       "author": {
-        "name": "zellij-org",
-        "avatar": "https://avatars.githubusercontent.com/u/795598?s=40&amp;v=4",
-        "url": "https://github.com/zellij-org"
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
       },
-      "summary": "Rust 编写的终端工作区与多路复用器，支持分屏、标签页、浮动面板和插件，开箱即用。",
+      "summary": "基于 Rust 的 WiFi 安全审计工具，提供图形界面进行无线网络扫描、握手包捕获与安全评估。",
       "tags": [
-        "terminal",
-        "multiplexer",
+        "wifi",
+        "security",
         "rust",
-        "cli",
-        "tui"
+        "auditing",
+        "gui"
       ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-18T06:30:00.762Z",
+      "category": "Security",
+      "enrichedAt": "2026-11-18T06:30:02.230Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zapfast",
+      "fullName": "crmne/zapfast",
+      "url": "https://github.com/crmne/zapfast",
+      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4725,
+      "forks": 476,
+      "starsToday": 888,
+      "topics": [],
+      "author": {
+        "name": "crmne",
+        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
+        "url": "https://github.com/crmne"
+      },
+      "summary": "用 Rust 和 egui 编写的原生 WhatsApp 桌面客户端，轻量快速，替代官方 Electron 版。",
+      "tags": [
+        "rust",
+        "whatsapp",
+        "egui",
+        "desktop",
+        "messaging"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-18T06:30:02.078Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruff",
+      "fullName": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 51265,
+      "forks": 2762,
+      "starsToday": 399,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的极快 Python 代码检查与格式化工具，可替代 Flake8、Black 等，速度提升数十倍。",
+      "tags": [
+        "python",
+        "linter",
+        "formatter",
+        "rust",
+        "devtool"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:53:17.874Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Switchyard",
+      "fullName": "NVIDIA-NeMo/Switchyard",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 3646,
+      "forks": 376,
+      "starsToday": 135,
+      "topics": [],
+      "author": {
+        "name": "NVIDIA-NeMo",
+        "avatar": "https://avatars.githubusercontent.com/u/186739590?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA-NeMo"
+      },
+      "summary": "基于 Rust 的 LLM 流量路由层，兼容 OpenAI 与 Anthropic 原生 API，支持多模型多供应商切换、基准测试与成本性能优化。",
+      "tags": [
+        "llm",
+        "routing",
+        "gateway",
+        "rust",
+        "openai",
+        "proxy"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-18T17:53:17.924Z",
       "deepwikiAvailable": false
     },
     {
@@ -143,90 +284,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-11-18T06:30:01.933Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "omnigraph",
-      "fullName": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2987,
-      "forks": 334,
-      "starsToday": 956,
-      "topics": [],
-      "author": {
-        "name": "ModernRelay",
-        "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4",
-        "url": "https://github.com/ModernRelay"
-      },
-      "summary": "基于对象存储的图数据库，支持分支与类型化本体，用 Rust 编写，适合在 S3 类存储上做版本化图数据管理。",
-      "tags": [
-        "graph-database",
-        "rust",
-        "object-storage",
-        "ontology",
-        "versioning"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-18T06:30:01.992Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zapfast",
-      "fullName": "crmne/zapfast",
-      "url": "https://github.com/crmne/zapfast",
-      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 4697,
-      "forks": 472,
-      "starsToday": 888,
-      "topics": [],
-      "author": {
-        "name": "crmne",
-        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
-        "url": "https://github.com/crmne"
-      },
-      "summary": "用 Rust 和 egui 编写的原生 WhatsApp 桌面客户端，轻量快速，替代官方 Electron 版。",
-      "tags": [
-        "rust",
-        "whatsapp",
-        "egui",
-        "desktop",
-        "messaging"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-18T06:30:02.078Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "airgorah",
-      "fullName": "martin-olivier/airgorah",
-      "url": "https://github.com/martin-olivier/airgorah",
-      "description": "A WiFi security auditing software",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6611,
-      "forks": 1093,
-      "starsToday": 1468,
-      "topics": [],
-      "author": {
-        "name": "martin-olivier",
-        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
-        "url": "https://github.com/martin-olivier"
-      },
-      "summary": "基于 Rust 的 WiFi 安全审计工具，提供图形界面进行无线网络扫描、握手包捕获与安全评估。",
-      "tags": [
-        "wifi",
-        "security",
-        "rust",
-        "auditing",
-        "gui"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-11-18T06:30:02.230Z",
       "deepwikiAvailable": false
     },
     {

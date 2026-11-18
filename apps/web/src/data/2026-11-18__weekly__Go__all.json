@@ -2,8 +2,8 @@
   "date": "2026-11-18",
   "since": "weekly",
   "language": "Go",
-  "fetchedAt": "2026-11-18T06:28:34.065Z",
-  "enrichedAt": "2026-11-18T06:29:59.007Z",
+  "fetchedAt": "2026-11-18T17:52:14.368Z",
+  "enrichedAt": "2026-11-18T17:53:16.587Z",
   "repos": [
     {
       "name": "open-code-review",
@@ -12,8 +12,8 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 53922,
-      "forks": 4448,
+      "stars": 54147,
+      "forks": 4479,
       "starsToday": 3675,
       "topics": [],
       "author": {
@@ -40,8 +40,8 @@
       "description": "Modern Docker Management, Designed for Everyone",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 9457,
-      "forks": 518,
+      "stars": 9705,
+      "forks": 555,
       "starsToday": 856,
       "topics": [],
       "author": {
@@ -62,14 +62,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "substrate",
+      "fullName": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 7538,
+      "forks": 826,
+      "starsToday": 758,
+      "topics": [],
+      "author": {
+        "name": "agent-substrate",
+        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
+        "url": "https://github.com/agent-substrate"
+      },
+      "summary": "Go 编写的 AI Agent 核心运行时底座，为构建和编排智能体提供统一基础设施。",
+      "tags": [
+        "agents",
+        "go",
+        "runtime",
+        "infra",
+        "orchestration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-18T06:29:54.993Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "OpenSandbox",
       "fullName": "opensandbox-group/OpenSandbox",
       "url": "https://github.com/opensandbox-group/OpenSandbox",
       "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 17507,
-      "forks": 1687,
+      "stars": 17568,
+      "forks": 1695,
       "starsToday": 363,
       "topics": [],
       "author": {
@@ -90,14 +118,182 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "skillshare",
+      "fullName": "runkids/skillshare",
+      "url": "https://github.com/runkids/skillshare",
+      "description": "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 3221,
+      "forks": 387,
+      "starsToday": 207,
+      "topics": [],
+      "author": {
+        "name": "runkids",
+        "avatar": "https://avatars.githubusercontent.com/u/15520254?s=40&amp;v=4",
+        "url": "https://github.com/runkids"
+      },
+      "summary": "用一条命令把技能、Agent、MCP 与插件同步到各类 AI CLI 工具，简化团队共享与配置分发。",
+      "tags": [
+        "ai",
+        "cli",
+        "mcp",
+        "sync",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T06:29:56.524Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 121258,
+      "forks": 7092,
+      "starsToday": 2293,
+      "topics": [],
+      "author": {
+        "name": "JuliusBrussee",
+        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "summary": "面向编程智能体的本地代理与技能，压缩回答和工具输出以节省 token，原始内容均可还原。",
+      "tags": [
+        "llm",
+        "proxy",
+        "tokens",
+        "coding-agent",
+        "go"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T06:29:56.014Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-squad",
+      "fullName": "smtg-ai/claude-squad",
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "description": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8829,
+      "forks": 637,
+      "starsToday": 51,
+      "topics": [],
+      "author": {
+        "name": "smtg-ai",
+        "avatar": "https://avatars.githubusercontent.com/u/19630228?s=40&amp;v=4",
+        "url": "https://github.com/smtg-ai"
+      },
+      "summary": "用 Go 编写的终端工具，可并行管理 Claude Code、Codex、OpenCode、Amp 等多个 AI 编码代理会话，支持后台运行与快速切换。",
+      "tags": [
+        "ai",
+        "agents",
+        "terminal",
+        "go",
+        "cli"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-18T17:53:15.882Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "compose",
+      "fullName": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 38984,
+      "forks": 6042,
+      "starsToday": 406,
+      "topics": [],
+      "author": {
+        "name": "docker",
+        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
+        "url": "https://github.com/docker"
+      },
+      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令编排启动、停止与依赖管理，是本地开发与容器编排的标准工具。",
+      "tags": [
+        "docker",
+        "containers",
+        "orchestration",
+        "yaml",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T06:29:57.372Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cli",
+      "fullName": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47080,
+      "forks": 9418,
+      "starsToday": 148,
+      "topics": [],
+      "author": {
+        "name": "cli",
+        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
+        "url": "https://github.com/cli"
+      },
+      "summary": "GitHub官方命令行工具，用Go编写，可在终端完成仓库、PR、Issue、Actions等操作，提升开发协作效率。",
+      "tags": [
+        "github",
+        "cli",
+        "go",
+        "git",
+        "devtool"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-18T06:29:55.151Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kagent",
+      "fullName": "kagent-dev/kagent",
+      "url": "https://github.com/kagent-dev/kagent",
+      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 4427,
+      "forks": 928,
+      "starsToday": 178,
+      "topics": [],
+      "author": {
+        "name": "kagent-dev",
+        "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&amp;v=4",
+        "url": "https://github.com/kagent-dev"
+      },
+      "summary": "基于Kubernetes的云原生AI Agent框架，用Go编写，提供CRD与控制器，让AI代理在集群中编排、运行与扩展。",
+      "tags": [
+        "kubernetes",
+        "ai-agents",
+        "golang",
+        "cloud-native",
+        "operator"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T06:29:56.778Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "trufflehog",
       "fullName": "trufflesecurity/trufflehog",
       "url": "https://github.com/trufflesecurity/trufflehog",
       "description": "Find, verify, and analyze leaked credentials",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 29487,
-      "forks": 2778,
+      "stars": 29503,
+      "forks": 2781,
       "starsToday": 328,
       "topics": [],
       "author": {
@@ -115,6 +311,118 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-18T06:29:53.483Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "BillionMail",
+      "fullName": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 16416,
+      "forks": 1832,
+      "starsToday": 192,
+      "topics": [],
+      "author": {
+        "name": "Billionmail",
+        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
+        "url": "https://github.com/Billionmail"
+      },
+      "summary": "开源自托管邮件服务器，集成邮件营销与Newsletter功能，替代付费邮件服务，开发者友好。",
+      "tags": [
+        "mailserver",
+        "email-marketing",
+        "newsletter",
+        "self-hosted",
+        "go"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-18T06:29:58.046Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "kyverno",
+      "fullName": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno",
+      "description": "Unified Policy as Code",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 8361,
+      "forks": 1743,
+      "starsToday": 27,
+      "topics": [],
+      "author": {
+        "name": "kyverno",
+        "avatar": "https://avatars.githubusercontent.com/u/25727662?s=40&amp;v=4",
+        "url": "https://github.com/kyverno"
+      },
+      "summary": "Kyverno 是 Kubernetes 原生策略引擎，用 YAML 声明校验、变更与生成策略，无需学习新语言即可实现策略即代码。",
+      "tags": [
+        "kubernetes",
+        "policy",
+        "go",
+        "security",
+        "admission-control"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-18T17:53:16.385Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "go",
+      "fullName": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 140062,
+      "forks": 20267,
+      "starsToday": 832,
+      "topics": [],
+      "author": {
+        "name": "golang",
+        "avatar": "https://avatars.githubusercontent.com/u/104030?s=40&amp;v=4",
+        "url": "https://github.com/golang"
+      },
+      "summary": "Go 语言官方源码仓库，提供简洁高效、内置并发与垃圾回收的编译型语言及标准库工具链。",
+      "tags": [
+        "go",
+        "programming-language",
+        "compiler",
+        "concurrency",
+        "standard-library"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-18T17:53:16.587Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "gogs",
+      "fullName": "gogs/gogs",
+      "url": "https://github.com/gogs/gogs",
+      "description": "The painless way to host your own Git service",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 47944,
+      "forks": 5080,
+      "starsToday": 29,
+      "topics": [],
+      "author": {
+        "name": "gogs",
+        "avatar": "https://avatars.githubusercontent.com/u/2946214?s=40&amp;v=4",
+        "url": "https://github.com/gogs"
+      },
+      "summary": "Go 编写的轻量自托管 Git 服务，部署简单、资源占用低，可快速搭建类似 GitHub 的代码托管平台。",
+      "tags": [
+        "git",
+        "self-hosted",
+        "go",
+        "git-server",
+        "devops"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:53:16.060Z",
       "deepwikiAvailable": false
     },
     {
@@ -146,62 +454,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "substrate",
-      "fullName": "agent-substrate/substrate",
-      "url": "https://github.com/agent-substrate/substrate",
-      "description": "Agent Substrate: the core system",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 7408,
-      "forks": 817,
-      "starsToday": 758,
-      "topics": [],
-      "author": {
-        "name": "agent-substrate",
-        "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&amp;v=4",
-        "url": "https://github.com/agent-substrate"
-      },
-      "summary": "Go 编写的 AI Agent 核心运行时底座，为构建和编排智能体提供统一基础设施。",
-      "tags": [
-        "agents",
-        "go",
-        "runtime",
-        "infra",
-        "orchestration"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-18T06:29:54.993Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "cli",
-      "fullName": "cli/cli",
-      "url": "https://github.com/cli/cli",
-      "description": "GitHub’s official command line tool",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 47068,
-      "forks": 9411,
-      "starsToday": 148,
-      "topics": [],
-      "author": {
-        "name": "cli",
-        "avatar": "https://avatars.githubusercontent.com/u/887?s=40&amp;v=4",
-        "url": "https://github.com/cli"
-      },
-      "summary": "GitHub官方命令行工具，用Go编写，可在终端完成仓库、PR、Issue、Actions等操作，提升开发协作效率。",
-      "tags": [
-        "github",
-        "cli",
-        "go",
-        "git",
-        "devtool"
-      ],
-      "category": "CLI",
-      "enrichedAt": "2026-11-18T06:29:55.151Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "tailcat",
       "fullName": "tailscale/tailcat",
       "url": "https://github.com/tailscale/tailcat",
@@ -230,90 +482,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 121132,
-      "forks": 7078,
-      "starsToday": 2293,
-      "topics": [],
-      "author": {
-        "name": "JuliusBrussee",
-        "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&amp;v=4",
-        "url": "https://github.com/JuliusBrussee"
-      },
-      "summary": "面向编程智能体的本地代理与技能，压缩回答和工具输出以节省 token，原始内容均可还原。",
-      "tags": [
-        "llm",
-        "proxy",
-        "tokens",
-        "coding-agent",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-18T06:29:56.014Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "skillshare",
-      "fullName": "runkids/skillshare",
-      "url": "https://github.com/runkids/skillshare",
-      "description": "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 3216,
-      "forks": 386,
-      "starsToday": 207,
-      "topics": [],
-      "author": {
-        "name": "runkids",
-        "avatar": "https://avatars.githubusercontent.com/u/15520254?s=40&amp;v=4",
-        "url": "https://github.com/runkids"
-      },
-      "summary": "用一条命令把技能、Agent、MCP 与插件同步到各类 AI CLI 工具，简化团队共享与配置分发。",
-      "tags": [
-        "ai",
-        "cli",
-        "mcp",
-        "sync",
-        "go"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-18T06:29:56.524Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "kagent",
-      "fullName": "kagent-dev/kagent",
-      "url": "https://github.com/kagent-dev/kagent",
-      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 4418,
-      "forks": 928,
-      "starsToday": 178,
-      "topics": [],
-      "author": {
-        "name": "kagent-dev",
-        "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&amp;v=4",
-        "url": "https://github.com/kagent-dev"
-      },
-      "summary": "基于Kubernetes的云原生AI Agent框架，用Go编写，提供CRD与控制器，让AI代理在集群中编排、运行与扩展。",
-      "tags": [
-        "kubernetes",
-        "ai-agents",
-        "golang",
-        "cloud-native",
-        "operator"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-18T06:29:56.778Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "evcc",
       "fullName": "evcc-io/evcc",
       "url": "https://github.com/evcc-io/evcc",
@@ -339,34 +507,6 @@
       ],
       "category": "App",
       "enrichedAt": "2026-11-18T06:29:56.658Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "compose",
-      "fullName": "docker/compose",
-      "url": "https://github.com/docker/compose",
-      "description": "Define and run multi-container applications with Docker",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 39104,
-      "forks": 6081,
-      "starsToday": 406,
-      "topics": [],
-      "author": {
-        "name": "docker",
-        "avatar": "https://avatars.githubusercontent.com/u/132757?s=40&amp;v=4",
-        "url": "https://github.com/docker"
-      },
-      "summary": "用 YAML 定义并运行多容器 Docker 应用，一条命令编排启动、停止与依赖管理，是本地开发与容器编排的标准工具。",
-      "tags": [
-        "docker",
-        "containers",
-        "orchestration",
-        "yaml",
-        "devops"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-18T06:29:57.372Z",
       "deepwikiAvailable": false
     },
     {
@@ -424,34 +564,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-18T06:29:58.090Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "BillionMail",
-      "fullName": "Billionmail/BillionMail",
-      "url": "https://github.com/Billionmail/BillionMail",
-      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": 16410,
-      "forks": 1831,
-      "starsToday": 192,
-      "topics": [],
-      "author": {
-        "name": "Billionmail",
-        "avatar": "https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4",
-        "url": "https://github.com/Billionmail"
-      },
-      "summary": "开源自托管邮件服务器，集成邮件营销与Newsletter功能，替代付费邮件服务，开发者友好。",
-      "tags": [
-        "mailserver",
-        "email-marketing",
-        "newsletter",
-        "self-hosted",
-        "go"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-18T06:29:58.046Z",
       "deepwikiAvailable": false
     },
     {

@@ -2,8 +2,8 @@
   "date": "2026-11-18",
   "since": "daily",
   "language": "Python",
-  "fetchedAt": "2026-11-18T06:28:34.065Z",
-  "enrichedAt": "2026-11-18T06:29:16.401Z",
+  "fetchedAt": "2026-11-18T17:52:14.368Z",
+  "enrichedAt": "2026-11-18T17:52:53.879Z",
   "repos": [
     {
       "name": "Claude-BugHunter",
@@ -12,9 +12,9 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 9790,
-      "forks": 1394,
-      "starsToday": 1005,
+      "stars": 10971,
+      "forks": 1489,
+      "starsToday": 2322,
       "topics": [],
       "author": {
         "name": "elementalsouls",
@@ -34,15 +34,43 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "CLI-Anything",
+      "fullName": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 59527,
+      "forks": 5407,
+      "starsToday": 384,
+      "topics": [],
+      "author": {
+        "name": "HKUDS",
+        "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&amp;v=4",
+        "url": "https://github.com/HKUDS"
+      },
+      "summary": "将任意软件封装为命令行接口，让所有软件都能被AI Agent原生调用，提供CLI-Hub统一入口。",
+      "tags": [
+        "cli",
+        "agent",
+        "automation",
+        "python",
+        "llm"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:52:49.706Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "last30days-skill",
       "fullName": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 69343,
-      "forks": 6164,
-      "starsToday": 696,
+      "stars": 69796,
+      "forks": 6233,
+      "starsToday": 1062,
       "topics": [],
       "author": {
         "name": "mvanhorn",
@@ -62,31 +90,31 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "minimind",
-      "fullName": "jingyaogong/minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "name": "SkillEvaluator",
+      "fullName": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 66211,
-      "forks": 8684,
-      "starsToday": 192,
+      "stars": 3591,
+      "forks": 506,
+      "starsToday": 323,
       "topics": [],
       "author": {
-        "name": "jingyaogong",
-        "avatar": "https://avatars.githubusercontent.com/u/62287848?s=40&amp;v=4",
-        "url": "https://github.com/jingyaogong"
+        "name": "NVIDIA",
+        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
+        "url": "https://github.com/NVIDIA"
       },
-      "summary": "从零训练64M参数小语言模型的完整教程与代码，2小时即可跑通全流程，适合低成本学习大模型原理与实践。",
+      "summary": "NVIDIA 开源的多层 AI 技能与插件评估框架，提供质量门禁、语义重叠检测、合成评测集生成和真实智能体行为评测，衡量技能对智能体表现的实际影响。",
       "tags": [
+        "ai-agents",
+        "evaluation",
         "llm",
-        "training",
-        "pytorch",
-        "tutorial",
-        "from-scratch"
+        "skills",
+        "testing"
       ],
       "category": "AI",
-      "enrichedAt": "2026-11-18T06:29:11.388Z",
+      "enrichedAt": "2026-11-18T06:29:12.370Z",
       "deepwikiAvailable": false
     },
     {
@@ -96,9 +124,9 @@
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 3352,
-      "forks": 439,
-      "starsToday": 1072,
+      "stars": 4045,
+      "forks": 508,
+      "starsToday": 1529,
       "topics": [],
       "author": {
         "name": "google-research",
@@ -118,31 +146,399 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "SkillEvaluator",
-      "fullName": "NVIDIA/SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "name": "transformers",
+      "fullName": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 3403,
-      "forks": 474,
-      "starsToday": 869,
+      "stars": 169225,
+      "forks": 35228,
+      "starsToday": 195,
       "topics": [],
       "author": {
-        "name": "NVIDIA",
-        "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&amp;v=4",
-        "url": "https://github.com/NVIDIA"
+        "name": "huggingface",
+        "avatar": "https://avatars.githubusercontent.com/u/35901082?s=40&amp;v=4",
+        "url": "https://github.com/huggingface"
       },
-      "summary": "NVIDIA 开源的多层 AI 技能与插件评估框架，提供质量门禁、语义重叠检测、合成评测集生成和真实智能体行为评测，衡量技能对智能体表现的实际影响。",
+      "summary": "Hugging Face官方模型定义框架，统一提供文本、视觉、音频与多模态SOTA模型的推理与训练接口。",
       "tags": [
-        "ai-agents",
-        "evaluation",
-        "llm",
-        "skills",
-        "testing"
+        "transformers",
+        "deep-learning",
+        "nlp",
+        "pytorch",
+        "pretrained-models"
       ],
       "category": "AI",
-      "enrichedAt": "2026-11-18T06:29:12.370Z",
+      "enrichedAt": "2026-11-18T17:52:49.724Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "heretic",
+      "fullName": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 41926,
+      "forks": 5118,
+      "starsToday": 620,
+      "topics": [],
+      "author": {
+        "name": "p-e-w",
+        "avatar": "https://avatars.githubusercontent.com/u/2702526?s=40&amp;v=4",
+        "url": "https://github.com/p-e-w"
+      },
+      "summary": "无需训练即可修改语言模型行为的工具，可去除审查、抑制废话、减少谄媚等，基于Python实现。",
+      "tags": [
+        "llm",
+        "model-editing",
+        "python",
+        "uncensoring",
+        "ai-safety"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T17:52:49.722Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ffmpeg-skill",
+      "fullName": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 7978,
+      "forks": 743,
+      "starsToday": 349,
+      "topics": [],
+      "author": {
+        "name": "kajisho5",
+        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
+        "url": "https://github.com/kajisho5"
+      },
+      "summary": "为编码智能体提供本地视频编辑能力：42个FFmpeg工具、机器可读契约与MCP服务器，支持剪辑、字幕、重构图、响度与平台导出，无需云端和API密钥。",
+      "tags": [
+        "ffmpeg",
+        "mcp",
+        "video",
+        "ai-agent",
+        "python"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T06:29:13.101Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "minimind",
+      "fullName": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 66463,
+      "forks": 8720,
+      "starsToday": 772,
+      "topics": [],
+      "author": {
+        "name": "jingyaogong",
+        "avatar": "https://avatars.githubusercontent.com/u/62287848?s=40&amp;v=4",
+        "url": "https://github.com/jingyaogong"
+      },
+      "summary": "从零训练64M参数小语言模型的完整教程与代码，2小时即可跑通全流程，适合低成本学习大模型原理与实践。",
+      "tags": [
+        "llm",
+        "training",
+        "pytorch",
+        "tutorial",
+        "from-scratch"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T06:29:11.388Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Ghost-Downloader-3",
+      "fullName": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 12062,
+      "forks": 755,
+      "starsToday": 356,
+      "topics": [],
+      "author": {
+        "name": "XiaoYouChR",
+        "avatar": "https://avatars.githubusercontent.com/u/87308195?s=40&amp;v=4",
+        "url": "https://github.com/XiaoYouChR"
+      },
+      "summary": "基于Python的多协议下载器，支持HTTP/BT/磁力等，界面友好、插件化扩展，一站式替代多种下载工具。",
+      "tags": [
+        "downloader",
+        "python",
+        "bittorrent",
+        "gui",
+        "p2p"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-18T17:52:49.587Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "whisper",
+      "fullName": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 113006,
+      "forks": 13685,
+      "starsToday": 188,
+      "topics": [],
+      "author": {
+        "name": "openai",
+        "avatar": "https://avatars.githubusercontent.com/u/266841?s=40&amp;v=4",
+        "url": "https://github.com/openai"
+      },
+      "summary": "OpenAI开源的多语言语音识别模型，基于大规模弱监督训练，支持转写、翻译与语言检测，鲁棒性强、开箱即用。",
+      "tags": [
+        "speech-recognition",
+        "asr",
+        "transcription",
+        "machine-learning",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T17:52:51.241Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "claude-code-security-review",
+      "fullName": "anthropics/claude-code-security-review",
+      "url": "https://github.com/anthropics/claude-code-security-review",
+      "description": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6996,
+      "forks": 801,
+      "starsToday": 24,
+      "topics": [],
+      "author": {
+        "name": "anthropics",
+        "avatar": "https://avatars.githubusercontent.com/u/5304541?s=40&amp;v=4",
+        "url": "https://github.com/anthropics"
+      },
+      "summary": "基于 Claude 的 GitHub Action，自动审查代码变更中的安全漏洞，可集成到 PR 流程中实现 AI 驱动的安全检测。",
+      "tags": [
+        "security",
+        "ai",
+        "github-action",
+        "code-review",
+        "claude"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:52:50.904Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "vllm-ascend",
+      "fullName": "vllm-project/vllm-ascend",
+      "url": "https://github.com/vllm-project/vllm-ascend",
+      "description": "Community maintained hardware plugin for vLLM on Huawei Ascend",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 3109,
+      "forks": 2763,
+      "starsToday": 13,
+      "topics": [],
+      "author": {
+        "name": "vllm-project",
+        "avatar": "https://avatars.githubusercontent.com/u/10891919?s=40&amp;v=4",
+        "url": "https://github.com/vllm-project"
+      },
+      "summary": "华为昇腾NPU的vLLM硬件插件，让vLLM大模型推理框架在昇腾设备上运行，提供高性能推理支持。",
+      "tags": [
+        "vllm",
+        "ascend",
+        "npu",
+        "inference",
+        "llm",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T17:52:50.881Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Dodaios",
+      "fullName": "Dodaios/Dodaios",
+      "url": "https://github.com/Dodaios/Dodaios",
+      "description": "One workspace for everything you do with AI: Claude Code, Codex and seven more coding agents side by side, one assistant that runs them, voice, and docs. Open source, on your computer, on your own plans and keys. Formerly Personal Jarvis.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 417,
+      "forks": 146,
+      "starsToday": 19,
+      "topics": [],
+      "author": {
+        "name": "Dodaios",
+        "avatar": "https://avatars.githubusercontent.com/u/226271791?s=40&amp;v=4",
+        "url": "https://github.com/Dodaios"
+      },
+      "summary": "本地开源AI工作台，可并排运行Claude Code、Codex等九种编码代理，统一助手调度，支持语音与文档，使用自有密钥。",
+      "tags": [
+        "ai-agents",
+        "coding-agent",
+        "workspace",
+        "local-first",
+        "python",
+        "voice"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T17:52:50.931Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "core",
+      "fullName": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "description": "🏡 Open source home automation that puts local control and privacy first.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 92334,
+      "forks": 39357,
+      "starsToday": 231,
+      "topics": [],
+      "author": {
+        "name": "home-assistant",
+        "avatar": "https://avatars.githubusercontent.com/u/1444314?s=40&amp;v=4",
+        "url": "https://github.com/home-assistant"
+      },
+      "summary": "开源家庭自动化平台，强调本地控制与隐私，集成数千种智能设备与服务，可自建智能家居中枢。",
+      "tags": [
+        "home-automation",
+        "iot",
+        "python",
+        "privacy",
+        "smart-home"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-18T17:52:52.558Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ai-agent-book",
+      "fullName": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 58694,
+      "forks": 6869,
+      "starsToday": 171,
+      "topics": [],
+      "author": {
+        "name": "bojieli",
+        "avatar": "https://avatars.githubusercontent.com/u/1421793?s=40&amp;v=4",
+        "url": "https://github.com/bojieli"
+      },
+      "summary": "《深入理解AI Agent》开源书稿仓库，含全书正文、PDF与按章配套Python代码，系统讲解Agent设计原理与工程实践。",
+      "tags": [
+        "ai-agent",
+        "book",
+        "llm",
+        "tutorial",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T17:52:52.451Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ansible",
+      "fullName": "ansible/ansible",
+      "url": "https://github.com/ansible/ansible",
+      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 71483,
+      "forks": 24462,
+      "starsToday": 251,
+      "topics": [],
+      "author": {
+        "name": "ansible",
+        "avatar": "https://avatars.githubusercontent.com/u/836171?s=40&amp;v=4",
+        "url": "https://github.com/ansible"
+      },
+      "summary": "基于Python的无代理IT自动化平台，用接近自然语言的YAML通过SSH批量完成配置管理、应用部署、网络与云资源编排。",
+      "tags": [
+        "automation",
+        "devops",
+        "configuration-management",
+        "ssh",
+        "python",
+        "infrastructure"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:52:52.346Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "odoo",
+      "fullName": "odoo/odoo",
+      "url": "https://github.com/odoo/odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 55903,
+      "forks": 34352,
+      "starsToday": 37,
+      "topics": [],
+      "author": {
+        "name": "odoo",
+        "avatar": "https://avatars.githubusercontent.com/u/7501424?s=40&amp;v=4",
+        "url": "https://github.com/odoo"
+      },
+      "summary": "开源企业级一体化管理套件，涵盖CRM、电商、财务、库存、制造等模块，可自建部署并按需扩展。",
+      "tags": [
+        "erp",
+        "crm",
+        "business",
+        "python",
+        "self-hosted"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-18T17:52:52.821Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "sellbird",
+      "fullName": "ethanplusai/sellbird",
+      "url": "https://github.com/ethanplusai/sellbird",
+      "description": "Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds companies and decision makers, verifies emails, writes personal cold email, sends it and handles the replies.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6446,
+      "forks": 1335,
+      "starsToday": 358,
+      "topics": [],
+      "author": {
+        "name": "ethanplusai",
+        "avatar": "https://avatars.githubusercontent.com/u/249879463?s=40&amp;v=4",
+        "url": "https://github.com/ethanplusai"
+      },
+      "summary": "开源冷邮件外联平台，基于Claude或ChatGPT订阅运行，自动寻找目标公司与决策人、验证邮箱、撰写个性化邮件并发送、处理回复。",
+      "tags": [
+        "outreach",
+        "email",
+        "automation",
+        "llm",
+        "sales",
+        "python"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T17:52:53.878Z",
       "deepwikiAvailable": false
     },
     {
@@ -199,34 +595,6 @@
       ],
       "category": "AI",
       "enrichedAt": "2026-11-18T06:29:12.270Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "ffmpeg-skill",
-      "fullName": "kajisho5/ffmpeg-skill",
-      "url": "https://github.com/kajisho5/ffmpeg-skill",
-      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 7832,
-      "forks": 729,
-      "starsToday": 1292,
-      "topics": [],
-      "author": {
-        "name": "kajisho5",
-        "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4",
-        "url": "https://github.com/kajisho5"
-      },
-      "summary": "为编码智能体提供本地视频编辑能力：42个FFmpeg工具、机器可读契约与MCP服务器，支持剪辑、字幕、重构图、响度与平台导出，无需云端和API密钥。",
-      "tags": [
-        "ffmpeg",
-        "mcp",
-        "video",
-        "ai-agent",
-        "python"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-18T06:29:13.101Z",
       "deepwikiAvailable": false
     },
     {

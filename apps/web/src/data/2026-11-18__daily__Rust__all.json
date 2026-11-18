@@ -2,9 +2,488 @@
   "date": "2026-11-18",
   "since": "daily",
   "language": "Rust",
-  "fetchedAt": "2026-11-18T06:28:34.065Z",
-  "enrichedAt": "2026-11-18T06:29:28.383Z",
+  "fetchedAt": "2026-11-18T17:52:14.368Z",
+  "enrichedAt": "2026-11-18T17:53:03.256Z",
   "repos": [
+    {
+      "name": "uv",
+      "fullName": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 92170,
+      "forks": 3920,
+      "starsToday": 260,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的极速 Python 包与项目管理器，可替代 pip、virtualenv 等工具，大幅提升依赖安装与项目构建速度。",
+      "tags": [
+        "python",
+        "rust",
+        "package-manager",
+        "cli",
+        "tooling"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:52:59.457Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cc-switch-cli",
+      "fullName": "SaladDay/cc-switch-cli",
+      "url": "https://github.com/SaladDay/cc-switch-cli",
+      "description": "⭐️ A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5529,
+      "forks": 378,
+      "starsToday": 18,
+      "topics": [],
+      "author": {
+        "name": "SaladDay",
+        "avatar": "https://avatars.githubusercontent.com/u/92240037?s=40&amp;v=4",
+        "url": "https://github.com/SaladDay"
+      },
+      "summary": "跨平台 CLI 工具，为 Claude Code、Codex 与 Gemini CLI 提供配置切换与统一管理的一站式助手。",
+      "tags": [
+        "cli",
+        "rust",
+        "claude-code",
+        "codex",
+        "gemini",
+        "config"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-18T17:52:59.418Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36249,
+      "forks": 1682,
+      "starsToday": 45,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "基于 Rust 开发的开源 S3 兼容高性能对象存储系统，支持与 MinIO、Ceph 等平台迁移与共存。",
+      "tags": [
+        "rust",
+        "s3",
+        "object-storage",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-18T06:29:26.217Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Codync",
+      "fullName": "leepokai/Codync",
+      "url": "https://github.com/leepokai/Codync",
+      "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2247,
+      "forks": 229,
+      "starsToday": 35,
+      "topics": [],
+      "author": {
+        "name": "leepokai",
+        "avatar": "https://avatars.githubusercontent.com/u/109857817?s=40&amp;v=4",
+        "url": "https://github.com/leepokai"
+      },
+      "summary": "开源 Grok Bot 替代品：把 Claude Code、Codex、Gemini CLI 等 40+ AI 智能体接入自有电脑，从手机或终端随时对话，Rust 编写、免费且不绑定厂商。",
+      "tags": [
+        "rust",
+        "ai-agents",
+        "self-hosted",
+        "cli",
+        "chat",
+        "cross-platform"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T06:29:25.323Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ripgrep",
+      "fullName": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 70053,
+      "forks": 3591,
+      "starsToday": 36,
+      "topics": [],
+      "author": {
+        "name": "BurntSushi",
+        "avatar": "https://avatars.githubusercontent.com/u/456674?s=40&amp;v=4",
+        "url": "https://github.com/BurntSushi"
+      },
+      "summary": "Rust 编写的递归正则搜索工具，自动遵循 gitignore 规则，速度远超 grep，是开发者命令行检索代码的首选。",
+      "tags": [
+        "rust",
+        "grep",
+        "search",
+        "cli",
+        "regex"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-18T17:52:59.298Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Serein",
+      "fullName": "ViceVerse-cz/Serein",
+      "url": "https://github.com/ViceVerse-cz/Serein",
+      "description": "Tiny, Performant & 100% Native client for Discord made in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1417,
+      "forks": 138,
+      "starsToday": 31,
+      "topics": [],
+      "author": {
+        "name": "ViceVerse-cz",
+        "avatar": "https://avatars.githubusercontent.com/u/67194087?s=40&amp;v=4",
+        "url": "https://github.com/ViceVerse-cz"
+      },
+      "summary": "用 Rust 编写的 Discord 第三方客户端，体积小、性能高且完全原生，替代官方 Electron 客户端以降低资源占用。",
+      "tags": [
+        "rust",
+        "discord",
+        "client",
+        "desktop",
+        "performance"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-18T17:52:59.527Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "edit",
+      "fullName": "microsoft/edit",
+      "url": "https://github.com/microsoft/edit",
+      "description": "We all edit.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 14785,
+      "forks": 746,
+      "starsToday": 8,
+      "topics": [],
+      "author": {
+        "name": "microsoft",
+        "avatar": "https://avatars.githubusercontent.com/u/2256941?s=40&amp;v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "summary": "微软开源的 Rust 终端文本编辑器，可在终端内直接编辑文件，轻量高效，适合远程与命令行场景。",
+      "tags": [
+        "editor",
+        "rust",
+        "terminal",
+        "cli",
+        "microsoft"
+      ],
+      "category": "CLI",
+      "enrichedAt": "2026-11-18T17:53:00.385Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "bombadil",
+      "fullName": "antithesishq/bombadil",
+      "url": "https://github.com/antithesishq/bombadil",
+      "description": "Property-based testing for web and terminal UIs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2684,
+      "forks": 97,
+      "starsToday": 148,
+      "topics": [],
+      "author": {
+        "name": "antithesishq",
+        "avatar": "https://avatars.githubusercontent.com/u/1464328?s=40&amp;v=4",
+        "url": "https://github.com/antithesishq"
+      },
+      "summary": "基于属性的测试工具，用Rust编写，可自动生成并验证Web与终端UI的行为，帮助发现边界场景缺陷。",
+      "tags": [
+        "testing",
+        "property-based",
+        "rust",
+        "ui",
+        "automation"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T06:29:23.614Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "screenpipe",
+      "fullName": "screenpipe/screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "description": "YC (S26) | Screenpipe finds the work worth automating | Continuously record computer work locally, discover recurring workflows, and hand the result to any agent you already use.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 22430,
+      "forks": 2306,
+      "starsToday": 16,
+      "topics": [],
+      "author": {
+        "name": "screenpipe",
+        "avatar": "https://avatars.githubusercontent.com/u/25003283?s=40&amp;v=4",
+        "url": "https://github.com/screenpipe"
+      },
+      "summary": "本地持续录制屏幕与音频，挖掘重复工作流并交给任意AI代理自动化，Rust编写，数据不出本机。",
+      "tags": [
+        "screen-recording",
+        "automation",
+        "agents",
+        "rust",
+        "local-first"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T17:53:00.650Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "stalwart",
+      "fullName": "stalwartlabs/stalwart",
+      "url": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 16030,
+      "forks": 1058,
+      "starsToday": 28,
+      "topics": [],
+      "author": {
+        "name": "stalwartlabs",
+        "avatar": "https://avatars.githubusercontent.com/u/11444311?s=40&amp;v=4",
+        "url": "https://github.com/stalwartlabs"
+      },
+      "summary": "Rust 编写的全能邮件与协作服务器，支持 IMAP、JMAP、SMTP、CalDAV、CardDAV、WebDAV，安全且可扩展。",
+      "tags": [
+        "mail",
+        "rust",
+        "jmap",
+        "imap",
+        "self-hosted",
+        "collaboration"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-18T17:53:00.739Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "arnis",
+      "fullName": "louis-e/arnis",
+      "url": "https://github.com/louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 18706,
+      "forks": 1586,
+      "starsToday": 23,
+      "topics": [],
+      "author": {
+        "name": "louis-e",
+        "avatar": "https://avatars.githubusercontent.com/u/44675238?s=40&amp;v=4",
+        "url": "https://github.com/louis-e"
+      },
+      "summary": "用 Rust 编写的工具，可将真实世界任意地点转换为高细节 Minecraft 地图，基于开放地理数据自动生成建筑与地形。",
+      "tags": [
+        "minecraft",
+        "rust",
+        "osm",
+        "map",
+        "3d"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-18T17:53:00.649Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "ruff",
+      "fullName": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 51265,
+      "forks": 2762,
+      "starsToday": 103,
+      "topics": [],
+      "author": {
+        "name": "astral-sh",
+        "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4",
+        "url": "https://github.com/astral-sh"
+      },
+      "summary": "用 Rust 编写的极快 Python linter 与代码格式化工具，可替代 Flake8、Black 等，速度提升数十倍。",
+      "tags": [
+        "python",
+        "linter",
+        "formatter",
+        "rust",
+        "static-analysis"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:53:01.715Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rust",
+      "fullName": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 122215,
+      "forks": 16672,
+      "starsToday": 305,
+      "topics": [],
+      "author": {
+        "name": "rust-lang",
+        "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&amp;v=4",
+        "url": "https://github.com/rust-lang"
+      },
+      "summary": "Rust 编程语言官方仓库，含编译器、标准库与工具链源码，主打内存安全与高性能系统软件开发。",
+      "tags": [
+        "rust",
+        "compiler",
+        "programming-language",
+        "systems",
+        "toolchain"
+      ],
+      "category": "Library",
+      "enrichedAt": "2026-11-18T17:53:02.067Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "tauri",
+      "fullName": "tauri-apps/tauri",
+      "url": "https://github.com/tauri-apps/tauri",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 112995,
+      "forks": 4223,
+      "starsToday": 265,
+      "topics": [],
+      "author": {
+        "name": "tauri-apps",
+        "avatar": "https://avatars.githubusercontent.com/u/20051258?s=40&amp;v=4",
+        "url": "https://github.com/tauri-apps"
+      },
+      "summary": "用 Rust 构建轻量、快速、安全的桌面与移动应用框架，前端可用任意 Web 技术，体积远小于 Electron。",
+      "tags": [
+        "rust",
+        "desktop",
+        "mobile",
+        "webview",
+        "cross-platform"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:53:02.072Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "harper",
+      "fullName": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 17841,
+      "forks": 844,
+      "starsToday": 50,
+      "topics": [],
+      "author": {
+        "name": "Automattic",
+        "avatar": "https://avatars.githubusercontent.com/u/17440968?s=40&amp;v=4",
+        "url": "https://github.com/Automattic"
+      },
+      "summary": "基于 Rust 的离线开源语法检查器，速度快、注重隐私，无需联网即可本地校验英文写作。",
+      "tags": [
+        "rust",
+        "grammar",
+        "privacy",
+        "offline",
+        "linter"
+      ],
+      "category": "DevTool",
+      "enrichedAt": "2026-11-18T17:53:01.731Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "pgrust",
+      "fullName": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust",
+      "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 5893,
+      "forks": 236,
+      "starsToday": 45,
+      "topics": [],
+      "author": {
+        "name": "malisper",
+        "avatar": "https://avatars.githubusercontent.com/u/6210567?s=40&amp;v=4",
+        "url": "https://github.com/malisper"
+      },
+      "summary": "用 Rust 重写的 PostgreSQL，兼容 Postgres 协议，查询性能超过原生 Postgres 与 ClickHouse，适合分析型负载。",
+      "tags": [
+        "database",
+        "postgres",
+        "rust",
+        "sql",
+        "analytics"
+      ],
+      "category": "Data",
+      "enrichedAt": "2026-11-18T06:29:26.124Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "cua",
+      "fullName": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 32600,
+      "forks": 2459,
+      "starsToday": 110,
+      "topics": [],
+      "author": {
+        "name": "trycua",
+        "avatar": "https://avatars.githubusercontent.com/u/195596869?s=40&amp;v=4",
+        "url": "https://github.com/trycua"
+      },
+      "summary": "开源计算机使用智能体基础设施，提供跨系统沙箱、驱动与基准测试，用于训练、评估和数据生成。",
+      "tags": [
+        "computer-use",
+        "agents",
+        "sandbox",
+        "benchmark",
+        "rust"
+      ],
+      "category": "AI",
+      "enrichedAt": "2026-11-18T17:53:03.256Z",
+      "deepwikiAvailable": false
+    },
     {
       "name": "jiff",
       "fullName": "BurntSushi/jiff",
@@ -87,34 +566,6 @@
       ],
       "category": "DevTool",
       "enrichedAt": "2026-11-18T06:29:23.405Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "bombadil",
-      "fullName": "antithesishq/bombadil",
-      "url": "https://github.com/antithesishq/bombadil",
-      "description": "Property-based testing for web and terminal UIs",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2613,
-      "forks": 96,
-      "starsToday": 380,
-      "topics": [],
-      "author": {
-        "name": "antithesishq",
-        "avatar": "https://avatars.githubusercontent.com/u/1464328?s=40&amp;v=4",
-        "url": "https://github.com/antithesishq"
-      },
-      "summary": "基于属性的测试工具，用Rust编写，可自动生成并验证Web与终端UI的行为，帮助发现边界场景缺陷。",
-      "tags": [
-        "testing",
-        "property-based",
-        "rust",
-        "ui",
-        "automation"
-      ],
-      "category": "DevTool",
-      "enrichedAt": "2026-11-18T06:29:23.614Z",
       "deepwikiAvailable": false
     },
     {
@@ -203,63 +654,6 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "Codync",
-      "fullName": "leepokai/Codync",
-      "url": "https://github.com/leepokai/Codync",
-      "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 2229,
-      "forks": 228,
-      "starsToday": 43,
-      "topics": [],
-      "author": {
-        "name": "leepokai",
-        "avatar": "https://avatars.githubusercontent.com/u/109857817?s=40&amp;v=4",
-        "url": "https://github.com/leepokai"
-      },
-      "summary": "开源 Grok Bot 替代品：把 Claude Code、Codex、Gemini CLI 等 40+ AI 智能体接入自有电脑，从手机或终端随时对话，Rust 编写、免费且不绑定厂商。",
-      "tags": [
-        "rust",
-        "ai-agents",
-        "self-hosted",
-        "cli",
-        "chat",
-        "cross-platform"
-      ],
-      "category": "AI",
-      "enrichedAt": "2026-11-18T06:29:25.323Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "rustfs",
-      "fullName": "rustfs/rustfs",
-      "url": "https://github.com/rustfs/rustfs",
-      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 36238,
-      "forks": 1681,
-      "starsToday": 55,
-      "topics": [],
-      "author": {
-        "name": "rustfs",
-        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
-        "url": "https://github.com/rustfs"
-      },
-      "summary": "基于 Rust 开发的开源 S3 兼容高性能对象存储系统，支持与 MinIO、Ceph 等平台迁移与共存。",
-      "tags": [
-        "rust",
-        "s3",
-        "object-storage",
-        "storage",
-        "minio"
-      ],
-      "category": "Infra",
-      "enrichedAt": "2026-11-18T06:29:26.217Z",
-      "deepwikiAvailable": false
-    },
-    {
       "name": "atuin",
       "fullName": "atuinsh/atuin",
       "url": "https://github.com/atuinsh/atuin",
@@ -285,34 +679,6 @@
       ],
       "category": "CLI",
       "enrichedAt": "2026-11-18T06:29:26.229Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "pgrust",
-      "fullName": "malisper/pgrust",
-      "url": "https://github.com/malisper/pgrust",
-      "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 5864,
-      "forks": 233,
-      "starsToday": 27,
-      "topics": [],
-      "author": {
-        "name": "malisper",
-        "avatar": "https://avatars.githubusercontent.com/u/6210567?s=40&amp;v=4",
-        "url": "https://github.com/malisper"
-      },
-      "summary": "用 Rust 重写的 PostgreSQL，兼容 Postgres 协议，查询性能超过原生 Postgres 与 ClickHouse，适合分析型负载。",
-      "tags": [
-        "database",
-        "postgres",
-        "rust",
-        "sql",
-        "analytics"
-      ],
-      "category": "Data",
-      "enrichedAt": "2026-11-18T06:29:26.124Z",
       "deepwikiAvailable": false
     },
     {
