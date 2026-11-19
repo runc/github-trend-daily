@@ -2,8 +2,8 @@
   "date": "2026-11-19",
   "since": "weekly",
   "language": "Rust",
-  "fetchedAt": "2026-11-19T06:30:21.527Z",
-  "enrichedAt": "2026-11-19T06:31:54.979Z",
+  "fetchedAt": "2026-11-19T18:01:45.797Z",
+  "enrichedAt": "2026-11-19T18:02:39.125Z",
   "repos": [
     {
       "name": "agent-browser",
@@ -12,8 +12,8 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 52708,
-      "forks": 3689,
+      "stars": 52836,
+      "forks": 3694,
       "starsToday": 2987,
       "topics": [],
       "author": {
@@ -33,14 +33,42 @@
       "deepwikiAvailable": false
     },
     {
+      "name": "buzz",
+      "fullName": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 37599,
+      "forks": 4960,
+      "starsToday": 658,
+      "topics": [],
+      "author": {
+        "name": "block",
+        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
+        "url": "https://github.com/block"
+      },
+      "summary": "基于 Rust 构建的群体智能通信平台，用于多智能体协作与消息共享，提供高并发实时通信能力。",
+      "tags": [
+        "rust",
+        "messaging",
+        "ai-agents",
+        "collaboration",
+        "platform"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-19T06:31:52.706Z",
+      "deepwikiAvailable": false
+    },
+    {
       "name": "omnigraph",
       "fullName": "ModernRelay/omnigraph",
       "url": "https://github.com/ModernRelay/omnigraph",
       "description": "Object-storage native graph database with branching and typed ontology",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 3067,
-      "forks": 338,
+      "stars": 3092,
+      "forks": 339,
       "starsToday": 1045,
       "topics": [],
       "author": {
@@ -61,31 +89,115 @@
       "deepwikiAvailable": false
     },
     {
-      "name": "buzz",
-      "fullName": "block/buzz",
-      "url": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
+      "name": "airgorah",
+      "fullName": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 37583,
-      "forks": 4960,
-      "starsToday": 658,
+      "stars": 6674,
+      "forks": 1101,
+      "starsToday": 1528,
       "topics": [],
       "author": {
-        "name": "block",
-        "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&amp;v=4",
-        "url": "https://github.com/block"
+        "name": "martin-olivier",
+        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
+        "url": "https://github.com/martin-olivier"
       },
-      "summary": "基于 Rust 构建的群体智能通信平台，用于多智能体协作与消息共享，提供高并发实时通信能力。",
+      "summary": "基于 Rust 的 WiFi 安全审计工具，图形界面下扫描周边网络、抓取握手包并检测弱密码，替代 aircrack-ng 命令行流程。",
+      "tags": [
+        "wifi",
+        "security",
+        "rust",
+        "audit",
+        "gui"
+      ],
+      "category": "Security",
+      "enrichedAt": "2026-11-19T06:31:54.014Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "zapfast",
+      "fullName": "crmne/zapfast",
+      "url": "https://github.com/crmne/zapfast",
+      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 4767,
+      "forks": 483,
+      "starsToday": 646,
+      "topics": [],
+      "author": {
+        "name": "crmne",
+        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
+        "url": "https://github.com/crmne"
+      },
+      "summary": "用 Rust 和 egui 构建的原生 WhatsApp 桌面客户端，主打轻量快速、启动迅速，替代笨重的 Electron 官方客户端。",
       "tags": [
         "rust",
-        "messaging",
-        "ai-agents",
-        "collaboration",
-        "platform"
+        "whatsapp",
+        "egui",
+        "desktop",
+        "messaging"
       ],
       "category": "App",
-      "enrichedAt": "2026-11-19T06:31:52.706Z",
+      "enrichedAt": "2026-11-19T06:31:53.967Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "rustfs",
+      "fullName": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 36296,
+      "forks": 1685,
+      "starsToday": 306,
+      "topics": [],
+      "author": {
+        "name": "rustfs",
+        "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&amp;v=4",
+        "url": "https://github.com/rustfs"
+      },
+      "summary": "基于 Rust 的开源 S3 兼容高性能对象存储系统，可与 MinIO、Ceph 等平台迁移共存。",
+      "tags": [
+        "rust",
+        "s3",
+        "object-storage",
+        "storage",
+        "minio"
+      ],
+      "category": "Infra",
+      "enrichedAt": "2026-11-19T18:02:39.125Z",
+      "deepwikiAvailable": false
+    },
+    {
+      "name": "Serein",
+      "fullName": "ViceVerse-cz/Serein",
+      "url": "https://github.com/ViceVerse-cz/Serein",
+      "description": "Tiny, Performant & 100% Native client for Discord made in Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 1488,
+      "forks": 149,
+      "starsToday": 198,
+      "topics": [],
+      "author": {
+        "name": "ViceVerse-cz",
+        "avatar": "https://avatars.githubusercontent.com/u/67194087?s=40&amp;v=4",
+        "url": "https://github.com/ViceVerse-cz"
+      },
+      "summary": "用 Rust 编写的轻量高性能 Discord 原生客户端，体积小、资源占用低，提供接近官方的原生体验。",
+      "tags": [
+        "rust",
+        "discord",
+        "client",
+        "native",
+        "lightweight"
+      ],
+      "category": "App",
+      "enrichedAt": "2026-11-19T18:02:38.890Z",
       "deepwikiAvailable": false
     },
     {
@@ -142,62 +254,6 @@
       ],
       "category": "Web",
       "enrichedAt": "2026-11-19T06:31:53.938Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "airgorah",
-      "fullName": "martin-olivier/airgorah",
-      "url": "https://github.com/martin-olivier/airgorah",
-      "description": "A WiFi security auditing software",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 6662,
-      "forks": 1096,
-      "starsToday": 1528,
-      "topics": [],
-      "author": {
-        "name": "martin-olivier",
-        "avatar": "https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4",
-        "url": "https://github.com/martin-olivier"
-      },
-      "summary": "基于 Rust 的 WiFi 安全审计工具，图形界面下扫描周边网络、抓取握手包并检测弱密码，替代 aircrack-ng 命令行流程。",
-      "tags": [
-        "wifi",
-        "security",
-        "rust",
-        "audit",
-        "gui"
-      ],
-      "category": "Security",
-      "enrichedAt": "2026-11-19T06:31:54.014Z",
-      "deepwikiAvailable": false
-    },
-    {
-      "name": "zapfast",
-      "fullName": "crmne/zapfast",
-      "url": "https://github.com/crmne/zapfast",
-      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": 4745,
-      "forks": 477,
-      "starsToday": 646,
-      "topics": [],
-      "author": {
-        "name": "crmne",
-        "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&amp;v=4",
-        "url": "https://github.com/crmne"
-      },
-      "summary": "用 Rust 和 egui 构建的原生 WhatsApp 桌面客户端，主打轻量快速、启动迅速，替代笨重的 Electron 官方客户端。",
-      "tags": [
-        "rust",
-        "whatsapp",
-        "egui",
-        "desktop",
-        "messaging"
-      ],
-      "category": "App",
-      "enrichedAt": "2026-11-19T06:31:53.967Z",
       "deepwikiAvailable": false
     },
     {
